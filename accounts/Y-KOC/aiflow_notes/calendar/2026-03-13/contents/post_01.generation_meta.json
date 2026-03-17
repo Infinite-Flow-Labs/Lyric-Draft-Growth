@@ -1,0 +1,29 @@
+{
+  "topic": {
+    "score": 10,
+    "handle": "pascal_bornet",
+    "link": "https://nitter.net/pascal_bornet/status/2029878845269254264#m",
+    "description": "<p>Everyone keeps saying the AI race is about bigger models.<br>\n<br>\nMore parameters.<br>\nMore data.<br>\nMore compute.<br>\n<br>\nThat has been the playbook for the last two years.<br>\n<br>\nBut when I looked at OpenAI’s new release this week, one detail caught my attention.<br>\n<br>\nOpenAI introduced 𝐆𝐏𝐓-𝟓.𝟒, its latest frontier model.<br>\n<br>\nAnd alongside it, two modes:<br>\n<br>\n→ 𝐏𝐫𝐨<br>\n→ 𝐓𝐡𝐢𝐧𝐤𝐢𝐧𝐠<br>\n<br>\nThe name may sound like marketing.<br>\n<br>\nBut it signals something interesting.<br>\n<br>\nFor most of the generative AI era, models were optimized for speed.<br>\n<br>\nAsk a question.<br>\nGet an answer instantly.<br>\n<br>\nNow the system can pause, reason through multiple steps, and even let you interrupt the response mid-generation to redirect it.<br>\n<br>\nUnder the hood, GPT-5.4 combines the coding strength of GPT-5.3 Codex, coordinates across tools like spreadsheets, presentations, and documents, and supports up to 𝟏 𝐦𝐢𝐥𝐥𝐢𝐨𝐧 tokens of context.<br>\n<br>\nIt can even interact directly with software.<br>\n<br>\nWhich hints at a bigger transition.<br>\n<br>\nEarly generative AI was excellent at producing content.<br>\n<br>\nBut models like this are starting to move toward executing work.<br>\n<br>\n→ chatbots answer questions<br>\n→ reasoning systems solve tasks<br>\n<br>\n→ AI tools generate outputs<br>\n→ AI agents operate inside software<br>\n<br>\nIn other words:<br>\n<br>\nAI is slowly moving from chatbots to digital coworkers.<br>\n<br>\nAnd that raises a practical question.<br>\n<br>\nIf an AI can navigate software, maintain long context, and execute tasks across tools…<br>\n<br>\nwould you trust it to run work across your computer?<br>\n<br>\n<a href=\"https://nitter.net/search?f=tweets&q=%23AI\">#AI</a> <a href=\"https://nitter.net/search?f=tweets&q=%23ArtificialIntelligence\">#ArtificialIntelligence</a> <a href=\"https://nitter.net/search?f=tweets&q=%23OpenAI\">#OpenAI</a> <a href=\"https://nitter.net/search?f=tweets&q=%23Automation\">#Automation</a> <a href=\"https://nitter.net/search?f=tweets&q=%23FutureOfWork\">#FutureOfWork</a></p>\n<img src=\"https://nitter.net/pic/media%2FHCuUDZDa4AEmcr1.png\" style=\"max-width:250px;\" />",
+    "title": "个人知识库如何接入工作流并产生价值",
+    "type": "AI工作流分享 (E)",
+    "topic_id": "9",
+    "template": "strategy/templates/E_workflow/style_contrast_review.md",
+    "angle": "踩坑复盘",
+    "audience": "增长负责人",
+    "outcome": "提升产量",
+    "template_text": "# 工作流写作风格约束\n\n## 目标\n- 解决一个具体工作问题\n- 给出可直接执行的步骤\n- 让读者看完就能照做\n\n## 写法约束\n- 开头必须出现：问题/代价/变化三者之一\n- 中段强调动作链，不强制固定小标题\n- 必须出现可验证结果（速度、返工、稳定性、转化等）\n- 结尾给出适用边界（何时可用、何时不建议）\n\n## 禁止\n- 空泛观点\n- 只讲概念不讲动作\n- 每篇都使用同一段落骨架\n"
+  },
+  "model": "gpt-5.3-codex",
+  "prompt_hash": "b3c0e5ac7d1fcbe465860aa606e5493e276980a719a9031221d50a5576aeb089",
+  "rewrite_count": 0,
+  "quality_gate_passed": true,
+  "quality_gate": {
+    "has_action": true,
+    "has_metric": true,
+    "has_boundary": true,
+    "topic_similarity": 0.0,
+    "max_history_similarity": 0.0077,
+    "reasons": []
+  },
+  "generated_at": "2026-03-13T06:48:30.710881+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "topic": {
+    "score": 10,
+    "handle": "pascal_bornet",
+    "link": "https://nitter.net/pascal_bornet/status/2029878845269254264#m",
+    "description": "<p>Everyone keeps saying the AI race is about bigger models.<br>\n<br>\nMore parameters.<br>\nMore data.<br>\nMore compute.<br>\n<br>\nThat has been the playbook for the last two years.<br>\n<br>\nBut when I looked at OpenAI’s new release this week, one detail caught my attention.<br>\n<br>\nOpenAI introduced 𝐆𝐏𝐓-𝟓.𝟒, its latest frontier model.<br>\n<br>\nAnd alongside it, two modes:<br>\n<br>\n→ 𝐏𝐫𝐨<br>\n→ 𝐓𝐡𝐢𝐧𝐤𝐢𝐧𝐠<br>\n<br>\nThe name may sound like marketing.<br>\n<br>\nBut it signals something interesting.<br>\n<br>\nFor most of the generative AI era, models were optimized for speed.<br>\n<br>\nAsk a question.<br>\nGet an answer instantly.<br>\n<br>\nNow the system can pause, reason through multiple steps, and even let you interrupt the response mid-generation to redirect it.<br>\n<br>\nUnder the hood, GPT-5.4 combines the coding strength of GPT-5.3 Codex, coordinates across tools like spreadsheets, presentations, and documents, and supports up to 𝟏 𝐦𝐢𝐥𝐥𝐢𝐨𝐧 tokens of context.<br>\n<br>\nIt can even interact directly with software.<br>\n<br>\nWhich hints at a bigger transition.<br>\n<br>\nEarly generative AI was excellent at producing content.<br>\n<br>\nBut models like this are starting to move toward executing work.<br>\n<br>\n→ chatbots answer questions<br>\n→ reasoning systems solve tasks<br>\n<br>\n→ AI tools generate outputs<br>\n→ AI agents operate inside software<br>\n<br>\nIn other words:<br>\n<br>\nAI is slowly moving from chatbots to digital coworkers.<br>\n<br>\nAnd that raises a practical question.<br>\n<br>\nIf an AI can navigate software, maintain long context, and execute tasks across tools…<br>\n<br>\nwould you trust it to run work across your computer?<br>\n<br>\n<a href=\"https://nitter.net/search?f=tweets&q=%23AI\">#AI</a> <a href=\"https://nitter.net/search?f=tweets&q=%23ArtificialIntelligence\">#ArtificialIntelligence</a> <a href=\"https://nitter.net/search?f=tweets&q=%23OpenAI\">#OpenAI</a> <a href=\"https://nitter.net/search?f=tweets&q=%23Automation\">#Automation</a> <a href=\"https://nitter.net/search?f=tweets&q=%23FutureOfWork\">#FutureOfWork</a></p>\n<img src=\"https://nitter.net/pic/media%2FHCuUDZDa4AEmcr1.png\" style=\"max-width:250px;\" />",
+    "title": "模板复用失败的根因：上下文缺失",
+    "type": "AI使用体验 (D)",
+    "topic_id": "9",
+    "template": "strategy/templates/D_experience/style_editor_commentary.md",
+    "angle": "执行清单",
+    "audience": "小团队创始人",
+    "outcome": "提升稳定交付",
+    "template_text": "# D类模板｜AI使用体验｜编辑点评风\n\n## 用途\n- 强调真实使用体验、坑点与修正，不神化工具\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题带判断（例如“看起来高级，其实最费时间”）\n- 开头先点一个常见误区\n- 中段像编辑批注：哪些动作保留，哪些动作删掉，依据是什么\n- 用一个结果数据证明判断不是主观感受\n- 结尾写“目前版本仍有哪块不满意”\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  },
+  "model": "gpt-5.3-codex",
+  "prompt_hash": "9a4aadd8f375660501e769ed50d1cf07a583683e17bc746277ea9cfb37350c7e",
+  "rewrite_count": 0,
+  "quality_gate_passed": true,
+  "quality_gate": {
+    "has_action": true,
+    "has_metric": true,
+    "has_boundary": true,
+    "topic_similarity": 0.0,
+    "max_history_similarity": 0.0288,
+    "reasons": []
+  },
+  "generated_at": "2026-03-13T09:51:18.616237+00:00"
+}

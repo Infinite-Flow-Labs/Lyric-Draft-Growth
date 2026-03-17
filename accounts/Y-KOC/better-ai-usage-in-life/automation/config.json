@@ -1,0 +1,19 @@
+{
+  "account_id": "better-ai-usage-in-life",
+  "timezone": "Asia/Shanghai",
+  "publish_times": [
+    "08:30",
+    "12:00",
+    "19:30"
+  ],
+  "benchmark_handles": [],
+  "paths": {
+    "base": "..",
+    "sources": "../calendar",
+    "topics": "../calendar",
+    "templates": "../strategy/templates/A_work_replacement/style_contrast_review.md",
+    "content": "../calendar",
+    "storage_state": "./x-storage-state.json",
+    "logs": "./logs"
+  }
+}

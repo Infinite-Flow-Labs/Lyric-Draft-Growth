@@ -1,0 +1,29 @@
+{
+  "topic": {
+    "score": 10,
+    "handle": "sama",
+    "link": "https://nitter.net/sama/status/2029623948980416681#m",
+    "description": "<p>Forgot to mention /fast!<br>\n<br>\nI think people will like this.</p>\n<hr/>\n<blockquote>\n<b>Ahmed (@ah20im)</b>\n<p>\n<p>Today we are introducing GPT-5.4 in codex. It's more token efficient and better at tool calling, computer use, and frontend development.<br>\n<br>\nWe are also introducing /fast to get a faster version of Codex. <br>\n<br>\nEnjoy ❤️</p>\n<img src=\"https://nitter.net/pic/media%2FHCqpDezaUAMysZW.jpg\" style=\"max-width:250px;\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ah20im/status/2029622170448712061#m\">https://nitter.net/ah20im/status/2029622170448712061#m</a>\n</footer>\n</blockquote>",
+    "title": "AI Team 上手是否真的快（含踩坑与修正）",
+    "type": "AI使用体验 (D)",
+    "topic_id": "39",
+    "template": "strategy/templates/D_experience/style_editor_commentary.md",
+    "angle": "执行清单",
+    "audience": "小团队创始人",
+    "outcome": "提升稳定交付",
+    "template_text": "# D类模板｜AI使用体验｜编辑点评风\n\n## 用途\n- 强调真实使用体验、坑点与修正，不神化工具\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题带判断（例如“看起来高级，其实最费时间”）\n- 开头先点一个常见误区\n- 中段像编辑批注：哪些动作保留，哪些动作删掉，依据是什么\n- 用一个结果数据证明判断不是主观感受\n- 结尾写“目前版本仍有哪块不满意”\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  },
+  "model": "gpt-5.3-codex",
+  "prompt_hash": "c5e85465f0a121c34a169502d0e7a88d9099934aba7c616c5e2152a8aa091ce9",
+  "rewrite_count": 0,
+  "quality_gate_passed": true,
+  "quality_gate": {
+    "has_action": true,
+    "has_metric": true,
+    "has_boundary": true,
+    "topic_similarity": 0.0328,
+    "max_history_similarity": 0.0242,
+    "reasons": []
+  },
+  "generated_at": "2026-03-13T07:26:13.537406+00:00"
+}

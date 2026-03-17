@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Latent Space",
+    "url": "https://www.latent.space/podcast",
+    "status": "feed_found",
+    "feed_url": "https://api.substack.com/feed/podcast/1084089.rss",
+    "automation_ready": true
+  },
+  {
+    "name": "No Priors",
+    "url": "https://www.nopriors.com/podcast",
+    "status": "no_feed_found",
+    "automation_ready": false
+  },
+  {
+    "name": "a16z Podcast",
+    "url": "https://a16z.com/podcasts/",
+    "status": "no_feed_found",
+    "automation_ready": false
+  },
+  {
+    "name": "Practical AI",
+    "url": "https://changelog.com/practicalai",
+    "status": "feed_found",
+    "feed_url": "https://feeds.transistor.fm/practical-ai-machine-learning-data-science-llm",
+    "automation_ready": true
+  },
+  {
+    "name": "TWIML AI",
+    "url": "https://twimlai.com/podcast/",
+    "status": "feed_found",
+    "feed_url": "https://feeds.megaphone.fm/MLN2155636147",
+    "automation_ready": true
+  },
+  {
+    "name": "This Day in AI",
+    "url": "https://www.thisdayinai.com/",
+    "status": "feed_found_but_no_enclosure_in_checked_items",
+    "feed_url": "https://www.thisdayinai.com/feed/",
+    "automation_ready": false
+  }
+]

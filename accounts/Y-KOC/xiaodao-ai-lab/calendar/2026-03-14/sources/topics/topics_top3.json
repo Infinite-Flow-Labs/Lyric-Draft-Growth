@@ -1,0 +1,44 @@
+[
+  {
+    "score": 10,
+    "handle": "sama",
+    "link": "https://nitter.net/sama/status/2029623948980416681#m",
+    "description": "<p>Forgot to mention /fast!<br>\n<br>\nI think people will like this.</p>\n<hr/>\n<blockquote>\n<b>Ahmed (@ah20im)</b>\n<p>\n<p>Today we are introducing GPT-5.4 in codex. It's more token efficient and better at tool calling, computer use, and frontend development.<br>\n<br>\nWe are also introducing /fast to get a faster version of Codex. <br>\n<br>\nEnjoy ❤️</p>\n<img src=\"https://nitter.net/pic/media%2FHCqpDezaUAMysZW.jpg\" style=\"max-width:250px;\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ah20im/status/2029622170448712061#m\">https://nitter.net/ah20im/status/2029622170448712061#m</a>\n</footer>\n</blockquote>",
+    "title": "AI Team 上手是否真的快（含踩坑与修正）",
+    "type": "AI使用体验 (D)",
+    "topic_id": "39",
+    "template": "strategy/templates/D_experience/style_editor_commentary.md",
+    "angle": "执行清单",
+    "audience": "小团队创始人",
+    "outcome": "提升稳定交付",
+    "template_text": "# D类模板｜AI使用体验｜编辑点评风\n\n## 用途\n- 强调真实使用体验、坑点与修正，不神化工具\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题带判断（例如“看起来高级，其实最费时间”）\n- 开头先点一个常见误区\n- 中段像编辑批注：哪些动作保留，哪些动作删掉，依据是什么\n- 用一个结果数据证明判断不是主观感受\n- 结尾写“目前版本仍有哪块不满意”\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  },
+  {
+    "score": 9,
+    "handle": "sama",
+    "link": "https://nitter.net/polynoamial/status/2029622090152956335#m",
+    "description": "<p>GPT-5.4 is a big step up in computer use and economically valuable tasks (e.g., GDPval). We see no wall, and expect AI capabilities to continue to increase dramatically this year.</p>\n<img src=\"https://nitter.net/pic/media%2FHCqp4nZaUAAM9Ei.jpg\" style=\"max-width:250px;\" />\n\n<img src=\"https://nitter.net/pic/media%2FHCqqAIPaUAMy8hw.jpg\" style=\"max-width:250px;\" />\n\n<hr/>\n<blockquote>\n<b>OpenAI (@OpenAI)</b>\n<p>\n<p>GPT-5.4 Thinking and GPT-5.4 Pro are rolling out now in ChatGPT.<br>\n<br>\nGPT-5.4 is also now available in the API and Codex.<br>\n<br>\nGPT-5.4 brings our advances in reasoning, coding, and agentic workflows into one frontier model.</p>\n<img src=\"https://nitter.net/pic/media%2FHCqogsobgAAAo2U.png\" style=\"max-width:250px;\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/OpenAI/status/2029620619743219811#m\">https://nitter.net/OpenAI/status/2029620619743219811#m</a>\n</footer>\n</blockquote>",
+    "title": "AI Team 帮我做了一次成功增长实验",
+    "type": "AI创造结果 (B)",
+    "topic_id": "15",
+    "template": "strategy/templates/B_ai_results/style_checklist_breakdown.md",
+    "angle": "方法拆解",
+    "audience": "产品经理",
+    "outcome": "提高转化效率",
+    "template_text": "# B类模板｜AI创造结果｜Checklist拆解风\n\n## 用途\n- 强调结果产出与指标变化，避免只写过程\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题带反差或结果感（例如“我以为要加班，结果20分钟收工”）\n- 开头一句交代旧做法哪里卡（慢、乱、返工）\n- 中段按动作清单推进：写清你做了哪3步，但不要写成僵硬条款\n- 至少给一个真实数据变化（时间/轮次/通过率/成本）\n- 结尾落在“下次会保留或微调哪一步”，像工作笔记，不像总结陈词\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  },
+  {
+    "score": 8,
+    "handle": "AndrewYNg",
+    "link": "https://nitter.net/AndrewYNg/status/2014391843056975982#m",
+    "description": "<p>New course: Gemini CLI: Code & Create with an Open-Source Agent, built with <a href=\"https://nitter.net/googlecloudtech\" title=\"Google Cloud Tech\">@googlecloudtech</a>/<a href=\"https://nitter.net/geminicli\" title=\"Gemini CLI\">@geminicli</a> and taught by <a href=\"https://nitter.net/JackWoth98\" title=\"Jack Wotherspoon\">@JackWoth98</a>.<br>\n<br>\nAgentic coding assistants like Gemini CLI are transforming how developers work. This short course teaches you to use Google's open-source agent to coordinate local tools and cloud services for coding and non-coding workflows.<br>\n<br>\nGemini CLI works from your terminal, so it works with your local files and development tools. You can also connect it to services through MCP. Then provide high-level instructions, and it autonomously plans and executes complex workflows.<br>\n<br>\nSkills you'll gain:<br>\n- Build website features and automate code reviews with GitHub ActionsCreate data dashboards that combine local files with cloud data sources<br>\n- Use MCP servers and extensions to orchestrate workflows across GitHub, Canva, and Google Workspace<br>\n- Generate social media content from multimedia files like conference recordings<br>\n<br>\nI particularly appreciate that Gemini CLI is open-source. You can see exactly how it works, read the prompts it uses, and understand its architecture. The community has contributed thousands of pull requests. Since Gemini 3’s release I've found Gemini CLI highly capable - this is a tool worth having in your toolbox!<br>\n<br>\nWhether you're prototyping applications, automating workflows, or working with multimedia content, join to learn to delegate complex tasks and build faster: <a href=\"https://www.deeplearning.ai/short-courses/gemini-cli-code-and-create-with-an-open-source-agent/\">deeplearning.ai/short-course…</a></p>\n<a href=\"https://nitter.net/AndrewYNg/status/2014391843056975982#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2014390629220933632%2Fimg%2FRPigkTz9w1HnLO5W.jpg\" style=\"max-width:250px;\" />\n</a>",
+    "title": "我的 AI Team 日常使用流程",
+    "type": "AI工作流分享 (E)",
+    "topic_id": "50",
+    "template": "strategy/templates/E_workflow/style_contrast_review.md",
+    "angle": "反常识",
+    "audience": "产品经理",
+    "outcome": "提升稳定交付",
+    "template_text": "# E类模板｜AI工作流分享｜前后对照复盘风\n\n## 用途\n- 强调端到端流程设计与可复用节点\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题直接给出前后差异或代价反差\n- 开头先说“改之前最痛的点”\n- 中段写这次改了哪几个关键动作，避免抽象概念\n- 至少放一个可验证对比数据（如40分钟→12分钟）\n- 结尾写“还没完，下一轮准备怎么调”\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  }
+]

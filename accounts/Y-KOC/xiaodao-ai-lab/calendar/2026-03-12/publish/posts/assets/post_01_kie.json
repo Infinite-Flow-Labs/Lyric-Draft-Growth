@@ -1,0 +1,30 @@
+{
+  "provider": "kie",
+  "article": "/root/.openclaw/agent-workspaces/growth-assistant/accounts/Y-KOC/xiaodao-ai-lab/calendar/2026-03-12/contents/post_01.md",
+  "title": "AI Team 让我一个人完成团队工作",
+  "prompt": "Create a clean, modern X/Twitter cover image in 16:9 infographic style. Topic: AI Team 让我一个人完成团队工作. Visualize: real workflow, clear before/after improvement, practical and credible tone, minimal icons, high readability, no clutter, no watermark, no logo, no extra text artifacts. Color style: dark background with blue-purple accent, professional and restrained.",
+  "task_id": "c8ddf22edec7cd819c712a5f711949fc",
+  "result": {
+    "code": 200,
+    "msg": "success",
+    "data": {
+      "taskId": "c8ddf22edec7cd819c712a5f711949fc",
+      "model": "nano-banana-2",
+      "state": "success",
+      "param": "{\"input\":\"{\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"jpg\\\",\\\"google_search\\\":false,\\\"prompt\\\":\\\"Create a clean, modern X/Twitter cover image in 16:9 infographic style. Topic: AI Team 让我一个人完成团队工作. Visualize: real workflow, clear before/after improvement, practical and credible tone, minimal icons, high readability, no clutter, no watermark, no logo, no extra text artifacts. Color style: dark background with blue-purple accent, professional and restrained.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/r/c8ddf22edec7cd819c712a5f711949fc_1773288782_x2ek90st.jpeg\"]}",
+      "failCode": null,
+      "failMsg": null,
+      "costTime": 99,
+      "completeTime": 1773288784040,
+      "createTime": 1773288683747
+    }
+  },
+  "image_urls": [
+    "https://tempfile.aiquickdraw.com/r/c8ddf22edec7cd819c712a5f711949fc_1773288782_x2ek90st.jpeg"
+  ],
+  "downloaded_files": [
+    "/root/.openclaw/agent-workspaces/growth-assistant/accounts/Y-KOC/xiaodao-ai-lab/calendar/2026-03-12/contents/assets/post_01_kie_1.jpg"
+  ],
+  "download_errors": []
+}

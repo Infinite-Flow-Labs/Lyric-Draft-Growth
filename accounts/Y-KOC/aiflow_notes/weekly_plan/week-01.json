@@ -1,0 +1,154 @@
+{
+  "start_date": "2026-03-12",
+  "end_date": "2026-03-15",
+  "days": {
+    "2026-03-12": {
+      "slots": [
+        {
+          "slot": "08:30",
+          "type": "AI创造结果 (B)",
+          "mode": "LOCK",
+          "topic_id": "3",
+          "topic": "客服响应时效优化后，用户满意度怎么变化",
+          "template": "strategy/templates/B_ai_results/style_checklist_breakdown.md",
+          "angle": "数据对比",
+          "audience": "小团队创始人",
+          "outcome": "节省时间"
+        },
+        {
+          "slot": "12:00",
+          "type": "AI使用体验 (D)",
+          "mode": "FLEX",
+          "topic_id": "9",
+          "topic": "模板复用失败的根因：上下文缺失",
+          "template": "strategy/templates/D_experience/style_editor_commentary.md",
+          "angle": "反常识",
+          "audience": "增长负责人",
+          "outcome": "提高转化效率"
+        },
+        {
+          "slot": "19:30",
+          "type": "AI替代工作 (A)",
+          "mode": "BREAKING",
+          "topic_id": "3",
+          "topic": "销售跟进话术如何用AI做首稿+人工质检",
+          "template": "strategy/templates/A_work_replacement/style_checklist_breakdown.md",
+          "angle": "踩坑复盘",
+          "audience": "小团队创始人",
+          "outcome": "降低返工"
+        }
+      ]
+    },
+    "2026-03-13": {
+      "slots": [
+        {
+          "slot": "08:30",
+          "type": "AI工作流分享 (E)",
+          "mode": "LOCK",
+          "topic_id": "9",
+          "topic": "个人知识库如何接入工作流并产生价值",
+          "template": "strategy/templates/E_workflow/style_contrast_review.md",
+          "angle": "踩坑复盘",
+          "audience": "增长负责人",
+          "outcome": "提升产量"
+        },
+        {
+          "slot": "12:00",
+          "type": "AI替代工作 (A)",
+          "mode": "FLEX",
+          "topic_id": "9",
+          "topic": "新媒体选题库的周维护SOP",
+          "template": "strategy/templates/A_work_replacement/style_checklist_breakdown.md",
+          "angle": "反常识",
+          "audience": "产品经理",
+          "outcome": "降低返工"
+        },
+        {
+          "slot": "19:30",
+          "type": "AI能力放大 (C)",
+          "mode": "BREAKING",
+          "topic_id": "3",
+          "topic": "我的任务拆解模板：从目标到可执行动作",
+          "template": "strategy/templates/C_augmentation/style_checklist_breakdown.md",
+          "angle": "方法拆解",
+          "audience": "内容运营",
+          "outcome": "提高转化效率"
+        }
+      ]
+    },
+    "2026-03-14": {
+      "slots": [
+        {
+          "slot": "08:30",
+          "type": "AI使用体验 (D)",
+          "mode": "LOCK",
+          "topic_id": "9",
+          "topic": "模板复用失败的根因：上下文缺失",
+          "template": "strategy/templates/D_experience/style_editor_commentary.md",
+          "angle": "执行清单",
+          "audience": "小团队创始人",
+          "outcome": "提升稳定交付"
+        },
+        {
+          "slot": "12:00",
+          "type": "AI创造结果 (B)",
+          "mode": "FLEX",
+          "topic_id": "5",
+          "topic": "运营执行偏差减少后，周目标达成率变化",
+          "template": "strategy/templates/B_ai_results/style_checklist_breakdown.md",
+          "angle": "方法拆解",
+          "audience": "产品经理",
+          "outcome": "提高转化效率"
+        },
+        {
+          "slot": "19:30",
+          "type": "AI工作流分享 (E)",
+          "mode": "BREAKING",
+          "topic_id": "10",
+          "topic": "一个月内把流程稳定下来的实操路线图",
+          "template": "strategy/templates/E_workflow/style_contrast_review.md",
+          "angle": "反常识",
+          "audience": "产品经理",
+          "outcome": "提升稳定交付"
+        }
+      ]
+    },
+    "2026-03-15": {
+      "slots": [
+        {
+          "slot": "08:30",
+          "type": "AI替代工作 (A)",
+          "mode": "LOCK",
+          "topic_id": "9",
+          "topic": "新媒体选题库的周维护SOP",
+          "template": "strategy/templates/A_work_replacement/style_checklist_breakdown.md",
+          "angle": "数据对比",
+          "audience": "小团队创始人",
+          "outcome": "降低返工"
+        },
+        {
+          "slot": "12:00",
+          "type": "AI能力放大 (C)",
+          "mode": "FLEX",
+          "topic_id": "9",
+          "topic": "小团队负责人如何用AI放大带队效率",
+          "template": "strategy/templates/C_augmentation/style_checklist_breakdown.md",
+          "angle": "执行清单",
+          "audience": "内容运营",
+          "outcome": "提升稳定交付"
+        },
+        {
+          "slot": "19:30",
+          "type": "AI创造结果 (B)",
+          "mode": "BREAKING",
+          "topic_id": "10",
+          "topic": "3个最值钱的结果指标，如何每周稳定增长",
+          "template": "strategy/templates/B_ai_results/style_checklist_breakdown.md",
+          "angle": "踩坑复盘",
+          "audience": "增长负责人",
+          "outcome": "提升产量"
+        }
+      ]
+    }
+  }
+}

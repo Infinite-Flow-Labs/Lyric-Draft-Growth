@@ -1,0 +1,30 @@
+{
+  "provider": "kie",
+  "article": "/root/.openclaw/agent-workspaces/growth-assistant/accounts/Y-KOC/xiaodao-ai-lab/calendar/2026-03-13/contents/post_01.md",
+  "title": "我的 AI 自动化运营流程",
+  "prompt": "Create a high-CTR X/Twitter cover image in 16:9, modern neutral motion-illustration style. Topic: 我的 AI 自动化运营流程. Core visual: one clear before-vs-after story with a strong focal subject. Style requirement: use tasteful animated/illustrated elements (neutral, not childish), with richer design layers and depth. Text density: medium; include 2-4 short hooks/labels (not long paragraphs), each concise and scannable. Use strong composition, clear visual hierarchy, and eye-catching focal contrast. Color constraints: avoid dark blue-purple geek style; prefer warm neutral / off-white / sage / soft coral accents. Quality constraints: no clutter, no watermark, no logo, no gibberish text artifacts, no UI screenshot overload. Goal: visually attractive at first glance while keeping the key message obvious.",
+  "task_id": "aa5adc8d30f7d04c6347905fb4034de8",
+  "result": {
+    "code": 200,
+    "msg": "success",
+    "data": {
+      "taskId": "aa5adc8d30f7d04c6347905fb4034de8",
+      "model": "nano-banana-2",
+      "state": "success",
+      "param": "{\"input\":\"{\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"jpg\\\",\\\"google_search\\\":false,\\\"prompt\\\":\\\"Create a high-CTR X/Twitter cover image in 16:9, modern neutral motion-illustration style. Topic: 我的 AI 自动化运营流程. Core visual: one clear before-vs-after story with a strong focal subject. Style requirement: use tasteful animated/illustrated elements (neutral, not childish), with richer design layers and depth. Text density: medium; include 2-4 short hooks/labels (not long paragraphs), each concise and scannable. Use strong composition, clear visual hierarchy, and eye-catching focal contrast. Color constraints: avoid dark blue-purple geek style; prefer warm neutral / off-white / sage / soft coral accents. Quality constraints: no clutter, no watermark, no logo, no gibberish text artifacts, no UI screenshot overload. Goal: visually attractive at first glance while keeping the key message obvious.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/image-format-converter/1773368380628-dhvocfxtt9s.jpg\"]}",
+      "failCode": null,
+      "failMsg": null,
+      "costTime": 83,
+      "completeTime": 1773368381351,
+      "createTime": 1773368296389
+    }
+  },
+  "image_urls": [
+    "https://tempfile.aiquickdraw.com/image-format-converter/1773368380628-dhvocfxtt9s.jpg"
+  ],
+  "downloaded_files": [
+    "/root/.openclaw/agent-workspaces/growth-assistant/accounts/Y-KOC/xiaodao-ai-lab/calendar/2026-03-13/contents/assets/post_01_kie_1.jpg"
+  ],
+  "download_errors": []
+}

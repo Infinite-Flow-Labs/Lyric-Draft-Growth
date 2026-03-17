@@ -1,0 +1,42 @@
+{
+  "source_file": "/root/.openclaw/agent-workspaces/growth-assistant/accounts/Y-KOC/xiaodao-ai-lab/calendar/2026-03-17/interview_source_sample.txt",
+  "generated_at": "2026-03-17T07:48:44.809744+00:00",
+  "turns": [
+    {
+      "idx": 1,
+      "timestamp": "00:01",
+      "speaker": "Host",
+      "text": "你最近为什么一直强调客服预审？"
+    },
+    {
+      "idx": 2,
+      "timestamp": "00:05",
+      "speaker": "Guest",
+      "text": "因为抽检不是没用，而是太慢，问题总在发生后才被看见。"
+    },
+    {
+      "idx": 3,
+      "timestamp": "00:12",
+      "speaker": "Host",
+      "text": "你觉得现在最大的窗口在哪里？"
+    },
+    {
+      "idx": 4,
+      "timestamp": "00:16",
+      "speaker": "Guest",
+      "text": "模型可解释性变强了，企业开始愿意把它接进生产流程。"
+    },
+    {
+      "idx": 5,
+      "timestamp": "00:24",
+      "speaker": "Host",
+      "text": "落地第一步怎么做？"
+    },
+    {
+      "idx": 6,
+      "timestamp": "00:27",
+      "speaker": "Guest",
+      "text": "先做建议不做判罚，先把采纳率和误报率跑出来。"
+    }
+  ]
+}

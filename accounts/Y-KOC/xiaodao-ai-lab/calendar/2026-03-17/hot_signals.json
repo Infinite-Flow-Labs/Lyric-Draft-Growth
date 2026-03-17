@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-03-17T05:31:29.057170+00:00",
+  "window_days": 7,
+  "whitelist": [
+    "AndrewYNg",
+    "emollick",
+    "karpathy",
+    "swyx",
+    "fchollet",
+    "sama",
+    "demishassabis",
+    "mustafasuleyman",
+    "satyanadella",
+    "ylecun",
+    "OpenAI",
+    "OpenAIDevs",
+    "AnthropicAI",
+    "GoogleDeepMind",
+    "MetaAI",
+    "huggingface",
+    "a16z",
+    "sequoia",
+    "ycombinator",
+    "dotey",
+    "op7418",
+    "AIGCLINK",
+    "servasyy_ai"
+  ],
+  "signals": [
+    {
+      "handle": "op7418",
+      "title": "Kimi 昨晚这篇论文很猛\n\n尝试用 K2.5 对 Kimi 这篇论文进行可视化解释。",
+      "link": "https://x.com/op7418/status/2033708252681392213",
+      "external_urls": [
+        "https://github.com/MoonshotAI/Attention-Residuals/blob/master/Attention_Residuals.pdf"
+      ],
+      "pubDate": "Tue, 17 Mar 2026 00:53:26 GMT",
+      "description": "<p>Kimi 昨晚这篇论文很猛<br>\n<br>\n尝试用 K2.5 对 Kimi 这篇论文进行可视化解释。</p>\n<img src=\"https://nitter.net/pic/media%2FHDkuy72bEAAqxMh.jpg\" style=\"max-width:250px;\" />\n\n<img src=\"https://nitter.net/pic/media%2FHDkuzObbEAA3UaH.jpg\" style=\"max-width:250px;\" />\n\n<img src=\"https://nitter.net/pic/media%2FHDkuzuob0AAFyk8.jpg\" style=\"max-width:250px;\" />\n\n<img src=\"https://nitter.net/pic/media%2FHDku0BXbEAEgC9z.jpg\" style=\"max-width:250px;\" />\n\n<hr/>\n<blockquote>\n<b>Kimi.ai (@Kimi_Moonshot)</b>\n<p>\n<p>Introducing 𝑨𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 𝑹𝒆𝒔𝒊𝒅𝒖𝒂𝒍𝒔: Rethinking depth-wise aggregation.<br>\n<br>\nResidual connections have long relied on fixed, uniform accumulation. Inspired by the duality of time and depth, we introduce Attention Residuals, replacing standard depth-wise recurrence with learned, input-dependent attention over preceding layers.<br>\n<br>\n🔹 Enables networks to selectively retrieve past representations, naturally mitigating dilution and hidden-state growth.<br>\n🔹 Introduces Block AttnRes, partitioning layers into compressed blocks to make cross-layer attention practical at scale.<br>\n🔹 Serves as an efficient drop-in replacement, demonstrating a 1.25x compute advantage with negligible (&lt;2%) inference latency overhead.<br>\n🔹 Validated on the Kimi Linear architecture (48B total, 3B activated parameters), delivering consistent downstream performance gains.<br>\n<br>\n🔗Full report:<br>\n<a href=\"https://github.com/MoonshotAI/Attention-Residuals/blob/master/Attention_Residuals.pdf\">github.com/MoonshotAI/Attent…</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDgCpkHb0AA0a7_.jpg\" style=\"max-width:250px;\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/Kimi_Moonshot/status/2033378587878072424#m\">https://nitter.net/Kimi_Moonshot/status/2033378587878072424#m</a>\n</footer>\n</blockquote>",
+      "score": 7,
+      "published_at": "2026-03-17T00:53:26+00:00"
+    },
+    {
+      "handle": "AIGCLINK",
+      "title": "营销方向也出了开箱即用的AI产品：AI CMO，给定网站，即会部署一支智能体团队，帮你获取流量和用户\n\nAI CMO=一支自动化营销AI团队，有SEO智能体、GEO智能体、AI写手、Reddit/Hacker News/X 自媒体智能体\n\n想象一下，AI每天自动：\n优化网站的Google排名\n优化在AI搜索中的可见度\n自动生成博客、文案\n自动在自媒体社区发帖、互动、引流\n\n对OpenClaw构建不太熟练的用户可以看看这个现成产品\n\n#AI营销 #AICMO #AISEO",
+      "link": "https://x.com/aigclink/status/2033687310932578318",
+      "external_urls": [
+        "https://x.com/search?f=tweets&q=%23AI营销",
+        "https://x.com/search?f=tweets&q=%23AICMO",
+        "https://x.com/search?f=tweets&q=%23AISEO",
+        "http://okara.ai/cmo"
+      ],
+      "pubDate": "Mon, 16 Mar 2026 23:30:13 GMT",
+      "description": "<p>营销方向也出了开箱即用的AI产品：AI CMO，给定网站，即会部署一支智能体团队，帮你获取流量和用户<br>\n<br>\nAI CMO=一支自动化营销AI团队，有SEO智能体、GEO智能体、AI写手、Reddit/Hacker News/X 自媒体智能体<br>\n<br>\n想象一下，AI每天自动：<br>\n优化网站的Google排名<br>\n优化在AI搜索中的可见度<br>\n自动生成博客、文案<br>\n自动在自媒体社区发帖、互动、引流<br>\n<br>\n对OpenClaw构建不太熟练的用户可以看看这个现成产品<br>\n<br>\n<a href=\"https://nitter.net/search?f=tweets&q=%23AI营销\">#AI营销</a> <a href=\"https://nitter.net/search?f=tweets&q=%23AICMO\">#AICMO</a> <a href=\"https://nitter.net/search?f=tweets&q=%23AISEO\">#AISEO</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDkatl6bEAIbLr3.jpg\" style=\"max-width:250px;\" />\n\n<hr/>\n<blockquote>\n<b>Okara (@askOkara)</b>\n<p>\n<p>Today we're introducing the world's first AI CMO.<br>\n<br>\nEnter your website and it deploys a team of agents to help you get traffic and users.<br>\n<br>\nTry it now at <a href=\"http://okara.ai/cmo\">okara.ai/cmo</a></p>\n<a href=\"https://nitter.net/askOkara/status/2033562024651968657#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2033550506703138816%2Fimg%2FBZD_ApcSgQH-tvNS.jpg\" style=\"max-width:250px;\" />\n</a>\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/askOkara/status/2033562024651968657#m\">https://nitter.net/askOkara/status/2033562024651968657#m</a>\n</footer>\n</blockquote>",
+      "score": 7,
+      "published_at": "2026-03-16T23:30:13+00:00"
+    },
+    {
+      "handle": "ycombinator",
+      "title": "RT by @ycombinator: Drug discovery is accelerating, let's not let medical trial operations become a bottleneck!\nCongrats on the launch @runharbor 🚀",
+      "link": "https://x.com/dessaigne/status/2033623413886226797",
+      "external_urls": [
+        "https://x.com/runharbor",
+        "https://x.com/nathanhleung",
+        "https://www.ycombinator.com/launches/PiF-harbor-ai-system-of-record-for-clinical-trial-data"
+      ],
+      "pubDate": "Mon, 16 Mar 2026 19:16:19 GMT",
+      "description": "<p>Drug discovery is accelerating, let's not let medical trial operations become a bottleneck!<br>\nCongrats on the launch <a href=\"https://nitter.net/runharbor\" title=\"Harbor\">@runharbor</a> 🚀</p>\n<hr/>\n<blockquote>\n<b>Y Combinator (@ycombinator)</b>\n<p>\n<p>Harbor (<a href=\"https://nitter.net/runharbor\" title=\"Harbor\">@runharbor</a>) is a new electronic data capture platform for clinical trials.<br>\n<br>\nIt automates the manual work so research teams can focus on running the trial.  <br>\n<br>\nCongrats on the launch, <a href=\"https://nitter.net/nathanhleung\" title=\"Nathan H. Leung\">@nathanhleung</a> &amp; Albert!<br>\n<br>\n<a href=\"https://www.ycombinator.com/launches/PiF-harbor-ai-system-of-record-for-clinical-trial-data\">ycombinator.com/launches/PiF…</a></p>\n<a href=\"https://nitter.net/ycombinator/status/2033574015265100133#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2033567781720035328%2Fimg%2FZFYcy66A3t6qdY7w.jpg\" style=\"max-width:250px;\" />\n</a>\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ycombinator/status/2033574015265100133#m\">https://nitter.net/ycombinator/status/2033574015265100133#m</a>\n</footer>\n</blockquote>",
+      "score": 5,
+      "published_at": "2026-03-16T19:16:19+00:00"
+    },
+    {
+      "handle": "OpenAIDevs",
+      "title": "Lights, camera, prompts 🎞️\n\nHere's how our customers are using the Video API, powered by Sora 2:",
+      "link": "https://x.com/OpenAIDevs/status/2033617047830335591",
+      "external_urls": [
+        "https://x.com/OpenAIDevs"
+      ],
+      "pubDate": "Mon, 16 Mar 2026 18:51:01 GMT",
+      "description": "<p>Lights, camera, prompts 🎞️<br>\n<br>\nHere's how our customers are using the Video API, powered by Sora 2:</p>\n<hr/>\n<blockquote>\n<b>Nik Kleverov (@kleverov)</b>\n<p>\n<p>The <a href=\"https://nitter.net/OpenAIDevs\" title=\"OpenAI Developers\">@OpenAIDevs</a> video API updates are a big step forward for studio workflows. On Critterz, we are uploading custom characters as references in the API, helping us keep our characters consistent across the vast world we are building.</p>\n<img src=\"https://nitter.net/pic/media%2FHDOnOrqaEAALCTG.jpg\" style=\"max-width:250px;\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/kleverov/status/2032151777945239573#m\">https://nitter.net/kleverov/status/2032151777945239573#m</a>\n</footer>\n</blockquote>",
+      "score": 5,
+      "published_at": "2026-03-16T18:51:01+00:00"
+    },
+    {
+      "handle": "dotey",
+      "title": "FxEmbed 是一个开源项目，解决的是 Twitter/X 和 Bluesky 链接在 Discord、Telegram 等平台上嵌入预览效果差的问题。\n\n用法很简单：在 https://twitter.com 前加 fx，在 http://x.com 前加 fixup，在 http://bsky.app 前加 fx，链接就能正常展示视频、GIF、投票结果、引用推文、多图等内容。\n\n要获取原始 API JSON 数据，可以把 X 链接（包括长文）前面域名换成 http://api.fxtwitter.com\n例如：\nhttps://api.fxtwitter.com/dotey/status/2029969547927658673\n\n几个亮点功能：支持帖子翻译（链接末尾加 /en 等语言代码）、直接获取媒体文件链接、多图拼接mosaic模式、纯图/纯文字模式、Telegram 的 Instant View 线程展开，还会自动去除追踪参数。\n\n技术上用 TypeScript 写的 Cloudflare Worker，边缘计算架构，免费额度每天 10 万次请求。隐私方面也做得不错，没有日志、没有数据库、没有广告和追踪，Worker 本身跑完就释放内存，不留痕迹。\n\nMIT 协议开源，可以自己部署。",
+      "link": "https://x.com/dotey/status/2033580906699485587",
+      "external_urls": [
+        "https://twitter.com",
+        "http://x.com",
+        "http://bsky.app",
+        "http://api.fxtwitter.com"
+      ],
+      "pubDate": "Mon, 16 Mar 2026 16:27:24 GMT",
+      "description": "<p>FxEmbed 是一个开源项目，解决的是 Twitter/X 和 Bluesky 链接在 Discord、Telegram 等平台上嵌入预览效果差的问题。<br>\n<br>\n用法很简单：在 <a href=\"https://twitter.com\">twitter.com</a> 前加 fx，在 <a href=\"http://x.com\">x.com</a> 前加 fixup，在 <a href=\"http://bsky.app\">bsky.app</a> 前加 fx，链接就能正常展示视频、GIF、投票结果、引用推文、多图等内容。<br>\n<br>\n要获取原始 API JSON 数据，可以把 X 链接（包括长文）前面域名换成 <a href=\"http://api.fxtwitter.com\">api.fxtwitter.com</a><br>\n例如：<br>\n<a href=\"https://api.fxtwitter.com/dotey/status/2029969547927658673\">api.fxtwitter.com/dotey/stat…</a><br>\n<br>\n几个亮点功能：支持帖子翻译（链接末尾加 /en 等语言代码）、直接获取媒体文件链接、多图拼接mosaic模式、纯图/纯文字模式、Telegram 的 Instant View 线程展开，还会自动去除追踪参数。<br>\n<br>\n技术上用 TypeScript 写的 Cloudflare Worker，边缘计算架构，免费额度每天 10 万次请求。隐私方面也做得不错，没有日志、没有数据库、没有广告和追踪，Worker 本身跑完就释放内存，不留痕迹。<br>\n<br>\nMIT 协议开源，可以自己部署。</p>\n<img src=\"https://nitter.net/pic/media%2FHDi6KagWYAEuGJw.jpg\" style=\"max-width:250px;\" />\n\n<img src=\"https://nitter.net/pic/media%2FHDi6P3KWYAAzOLD.jpg\" style=\"max-width:250px;\" />\n\n<hr/>\n<blockquote>\n<b>DinoDeer (@xDinoDeer)</b>\n<p>\n<p>推特长文可以通过这个接口抓取：<a href=\"https://api.fxtwitter.com/levie/status/2030714592238956960\">api.fxtwitter.com/levie/stat…</a></p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/xDinoDeer/status/2033541757888287125#m\">https://nitter.net/xDinoDeer/status/2033541757888287125#m</a>\n</footer>\n</blockquote>",
+      "score": 5,
+      "published_at": "2026-03-16T16:27:24+00:00"
+    },
+    {
+      "handle": "AndrewYNg",
+      "title": "Should there be a Stack Overflow for AI coding agents to share learnings with each other?\n\nLast week I announced Context Hub (chub), an open CLI tool that gives coding agents up-to-date API documentation. Since then, our GitHub repo has gained over 6K stars, and we've scaled from under 100 to over 1000 API documents, thanks to community contributions and a new agentic document writer. Thank you to everyone supporting Context Hub!\n\nOpenClaw and Moltbook showed that agents can use social media built for them to share information. In our new chub release, agents can share feedback on documentation — what worked, what didn't, what's missing. This feedback helps refine the docs for everyone, with safeguards for privacy and security.\n\nWe're still early in building this out. You can find details and configuration options in the GitHub repo. Install chub as follows, and prompt your coding agent to use it:\n\nnpm install -g @aisuite/chub\n\nGitHub: https://github.com/andrewyng/context-hub",
+      "link": "https://x.com/AndrewYNg/status/2033577583200354812",
+      "external_urls": [
+        "https://github.com/andrewyng/context-hub"
+      ],
+      "pubDate": "Mon, 16 Mar 2026 16:14:12 GMT",
+      "description": "<p>Should there be a Stack Overflow for AI coding agents to share learnings with each other?<br>\n<br>\nLast week I announced Context Hub (chub), an open CLI tool that gives coding agents up-to-date API documentation. Since then, our GitHub repo has gained over 6K stars, and we've scaled from under 100 to over 1000 API documents, thanks to community contributions and a new agentic document writer. Thank you to everyone supporting Context Hub!<br>\n<br>\nOpenClaw and Moltbook showed that agents can use social media built for them to share information. In our new chub release, agents can share feedback on documentation — what worked, what didn't, what's missing. This feedback helps refine the docs for everyone, with safeguards for privacy and security.<br>\n<br>\nWe're still early in building this out. You can find details and configuration options in the GitHub repo. Install chub as follows, and prompt your coding agent to use it:<br>\n<br>\nnpm install -g @aisuite/chub<br>\n<br>\nGitHub: <a href=\"https://github.com/andrewyng/context-hub\">github.com/andrewyng/context…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2033359012771905536%2F3SeXha1z%3Fformat%3Djpg%26name%3D800x419\" style=\"max-width:250px;\" />",
+      "score": 5,
+      "published_at": "2026-03-16T16:14:12+00:00"
+    },
+    {
+      "handle": "ycombinator",
+      "title": "Harbor (@runharbor) is a new electronic data capture platform for clinical trials.\n\nIt automates the manual work so research teams can focus on running the trial.  \n\nCongrats on the launch, @nathanhleung & Albert!\n\nhttps://www.ycombinator.com/launches/PiF-harbor-ai-system-of-record-for-clinical-trial-data",
+      "link": "https://x.com/ycombinator/status/2033574015265100133",
+      "external_urls": [
+        "https://x.com/runharbor",
+        "https://x.com/nathanhleung",
+        "https://www.ycombinator.com/launches/PiF-harbor-ai-system-of-record-for-clinical-trial-data"
+      ],
+      "pubDate": "Mon, 16 Mar 2026 16:00:01 GMT",
+      "description": "<p>Harbor (<a href=\"https://nitter.net/runharbor\" title=\"Harbor\">@runharbor</a>) is a new electronic data capture platform for clinical trials.<br>\n<br>\nIt automates the manual work so research teams can focus on running the trial.  <br>\n<br>\nCongrats on the launch, <a href=\"https://nitter.net/nathanhleung\" title=\"Nathan H. Leung\">@nathanhleung</a> &amp; Albert!<br>\n<br>\n<a href=\"https://www.ycombinator.com/launches/PiF-harbor-ai-system-of-record-for-clinical-trial-data\">ycombinator.com/launches/PiF…</a></p>\n<a href=\"https://nitter.net/ycombinator/status/2033574015265100133#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2033567781720035328%2Fimg%2FZFYcy66A3t6qdY7w.jpg\" style=\"max-width:250px;\" />\n</a>",
+      "score": 5,
+      "published_at": "2026-03-16T16:00:01+00:00"
+    },
+    {
+      "handle": "op7418",
+      "title": "果然，Agent 只要有新形态，Manus 就会跟进。\n\n他们发布了 My Computer，可以在你本地运行 AI Agent，操纵你的本地文件、运行自动化工作流。\n\n有 Window 和 Mac OS 版本。",
+      "link": "https://x.com/op7418/status/2033567417461547144",
+      "external_urls": [],
+      "pubDate": "Mon, 16 Mar 2026 15:33:48 GMT",
+      "description": "<p>果然，Agent 只要有新形态，Manus 就会跟进。<br>\n<br>\n他们发布了 My Computer，可以在你本地运行 AI Agent，操纵你的本地文件、运行自动化工作流。<br>\n<br>\n有 Window 和 Mac OS 版本。</p>\n<a href=\"https://nitter.net/op7418/status/2033567417461547144#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2033558540640481280%2Fimg%2FS_WJkhpP4E1zGPrg.jpg\" style=\"max-width:250px;\" />\n</a>",
+      "score": 5,
+      "published_at": "2026-03-16T15:33:48+00:00"
+    },
+    {
+      "handle": "AIGCLINK",
+      "title": "斯坦福最新开源，与OpenClaw相比考虑了隐私、成本、延迟、离线可用以及可控性的一款本地优先的个人AI助手\n\n该团队测了超过100万条查询、20多个模型、8 种硬件加速器，结论是本地模型能处理88.7%的单轮对话和推理查询\n\n该框架叫OpenJarvis，目标是让AI默认在本地运行，云端只做可选补充，使个人AI不再受限于别人的服务器、别人的隐私条款、别人的收费标准\n\n测试下来，88.7%的日常任务本地已经够了，剩下的11.3%再上云\n\n另外，他们也在重新定义AI的评估维度，不只是看准不准，还要看用多少电、花多少钱、多快能响应、多少算力\n\n内置benchmark工具，标准化测试延迟、吞吐量、每查询能耗\n\n支持通过本地交互痕迹持续优化，无需将数据送往云端\n\nOpenJarvis做的更像是找到最大化AI的实际可用智能、平衡AI助手使用各方成本的一套解题思路\n\n#OpenJarvis #openclaw #AIAgent",
+      "link": "https://x.com/aigclink/status/2033009586282860826",
+      "external_urls": [
+        "https://x.com/search?f=tweets&q=%23OpenJarvis",
+        "https://x.com/search?f=tweets&q=%23openclaw",
+        "https://x.com/search?f=tweets&q=%23AIAgent"
+      ],
+      "pubDate": "Sun, 15 Mar 2026 02:37:11 GMT",
+      "description": "<p>斯坦福最新开源，与OpenClaw相比考虑了隐私、成本、延迟、离线可用以及可控性的一款本地优先的个人AI助手<br>\n<br>\n该团队测了超过100万条查询、20多个模型、8 种硬件加速器，结论是本地模型能处理88.7%的单轮对话和推理查询<br>\n<br>\n该框架叫OpenJarvis，目标是让AI默认在本地运行，云端只做可选补充，使个人AI不再受限于别人的服务器、别人的隐私条款、别人的收费标准<br>\n<br>\n测试下来，88.7%的日常任务本地已经够了，剩下的11.3%再上云<br>\n<br>\n另外，他们也在重新定义AI的评估维度，不只是看准不准，还要看用多少电、花多少钱、多快能响应、多少算力<br>\n<br>\n内置benchmark工具，标准化测试延迟、吞吐量、每查询能耗<br>\n<br>\n支持通过本地交互痕迹持续优化，无需将数据送往云端<br>\n<br>\nOpenJarvis做的更像是找到最大化AI的实际可用智能、平衡AI助手使用各方成本的一套解题思路<br>\n<br>\n<a href=\"https://nitter.net/search?f=tweets&q=%23OpenJarvis\">#OpenJarvis</a> <a href=\"https://nitter.net/search?f=tweets&q=%23openclaw\">#openclaw</a> <a href=\"https://nitter.net/search?f=tweets&q=%23AIAgent\">#AIAgent</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDauivSawAAd7Yk.jpg\" style=\"max-width:250px;\" />",
+      "score": 5,
+      "published_at": "2026-03-15T02:37:11+00:00"
+    },
+    {
+      "handle": "servasyy_ai",
+      "title": "我要道歉，发现晚了\n木子兄弟这个项目真的很优秀：\n\nOpenClaw的安全优先、本地优先控制中心，提供可视化的监控和管理界面。\n核心功能：\n- 总览：系统状态、待处理事项、风险预警\n- 用量：API调用、花费、订阅额度\n- 员工：Agent工作状态监控\n- 任务：任务板、审批、执行链追踪\n- 文档/记忆：源文件级别的知识管理\n- 设置：接线状态、安全风险摘要\n\n地址👇：\nhttps://github.com/TianyiDataScience/openclaw-control-center",
+      "link": "https://x.com/servasyy_ai/status/2032700995256656260",
+      "external_urls": [
+        "https://github.com/TianyiDataScience/openclaw-control-center"
+      ],
+      "pubDate": "Sat, 14 Mar 2026 06:10:57 GMT",
+      "description": "<p>我要道歉，发现晚了<br>\n木子兄弟这个项目真的很优秀：<br>\n<br>\nOpenClaw的安全优先、本地优先控制中心，提供可视化的监控和管理界面。<br>\n核心功能：<br>\n- 总览：系统状态、待处理事项、风险预警<br>\n- 用量：API调用、花费、订阅额度<br>\n- 员工：Agent工作状态监控<br>\n- 任务：任务板、审批、执行链追踪<br>\n- 文档/记忆：源文件级别的知识管理<br>\n- 设置：接线状态、安全风险摘要<br>\n<br>\n地址👇：<br>\n<a href=\"https://github.com/TianyiDataScience/openclaw-control-center\">github.com/TianyiDataScience…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2032032783481118720%2FOIdv7OOg%3Fformat%3Djpg%26name%3D800x419\" style=\"max-width:250px;\" />\n<hr/>\n<blockquote>\n<b>木子不写代码 (@ai_muzi)</b>\n<p>\n<p>开源一个我自用的OpenClaw控制中心！<br>\n<br>\n可以一个面板：<br>\n<br>\n- 看哪些任务烧了多少 token(百分比)<br>\n- 看整个 OpenClaw 现在健不健康<br>\n- 看每个 Agent 现在在干嘛，有没有卡住<br>\n- 看每个 Agent 用的模型、目录、权限<br>\n- 直接查看和修改 Agent 的记忆，人设、任务文档<br>\n- 看定时任务和心跳任务有没有正常在跑<br>\n<br>\n项目地址：<a href=\"https://github.com/TianyiDataScience/openclaw-control-center\">github.com/TianyiDataScience…</a></p>\n<a href=\"https://nitter.net/ai_muzi/status/2032032878855348702#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2032031943940837378%2Fimg%2Fc2CJxLMGYOLVj9kE.jpg\" style=\"max-width:250px;\" />\n</a>\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ai_muzi/status/2032032878855348702#m\">https://nitter.net/ai_muzi/status/2032032878855348702#m</a>\n</footer>\n</blockquote>",
+      "score": 5,
+      "published_at": "2026-03-14T06:10:57+00:00"
+    },
+    {
+      "handle": "demishassabis",
+      "title": "RT by @demishassabis: New Gemini updates to make @GoogleWorkspace more personal, helpful and collaborative: choose your sources and create a Doc draft in seconds, build complex Sheets 9X faster, or generate on-brand Slide layouts with a simple prompt. Plus, Drive now generates summarized answers right at the top of your search results so no more digging through folders.\n\nRolling out today in beta, available first to Ultra + Pro subscribers in English globally for Docs, Sheets and Slides, and in the US for Drive.",
+      "link": "https://x.com/sundarpichai/status/2031380361696129261",
+      "external_urls": [
+        "https://x.com/GoogleWorkspace"
+      ],
+      "pubDate": "Tue, 10 Mar 2026 14:43:14 GMT",
+      "description": "<p>New Gemini updates to make <a href=\"https://nitter.net/GoogleWorkspace\" title=\"Google Workspace\">@GoogleWorkspace</a> more personal, helpful and collaborative: choose your sources and create a Doc draft in seconds, build complex Sheets 9X faster, or generate on-brand Slide layouts with a simple prompt. Plus, Drive now generates summarized answers right at the top of your search results so no more digging through folders.<br>\n<br>\nRolling out today in beta, available first to Ultra + Pro subscribers in English globally for Docs, Sheets and Slides, and in the US for Drive.</p>\n<a href=\"https://nitter.net/sundarpichai/status/2031380361696129261#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2031380142724100097%2Fimg%2FPZ5JHszdYC0XwhiP.jpg\" style=\"max-width:250px;\" />\n</a>",
+      "score": 5,
+      "published_at": "2026-03-10T14:43:14+00:00"
+    }
+  ]
+}

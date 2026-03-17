@@ -1,0 +1,418 @@
+{
+  "generated_at": "2026-03-07T05:26:55.346720+00:00",
+  "items": [
+    {
+      "handle": "op7418",
+      "title": "Anthropic 服软了",
+      "link": "https://nitter.net/op7418/status/2029960793278840916#m",
+      "pubDate": "Fri, 06 Mar 2026 16:42:22 GMT",
+      "description": "<p>Anthropic 服软了</p>\n<hr/>\n<blockquote>\n<b>Anthropic (@AnthropicAI)</b>\n<p>\n<p>A statement from Anthropic CEO Dario Amodei: <a href=\"https://www.anthropic.com/news/where-stand-department-war\">anthropic.com/news/where-sta…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2029718332677480448%2FOZBs9Uwm%3Fformat%3Dpng%26name%3D800x419\" style=\"max-width:250px;\" />\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/AnthropicAI/status/2029719864533721481#m\">https://nitter.net/AnthropicAI/status/2029719864533721481#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: github:\nhttps://github.com/op7418/Claude-to-IM-skill",
+      "link": "https://nitter.net/op7418/status/2029950810726223938#m",
+      "pubDate": "Fri, 06 Mar 2026 16:02:42 GMT",
+      "description": "<p>github:<br>\n<a href=\"https://github.com/op7418/Claude-to-IM-skill\">github.com/op7418/Claude-to-…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2029893315404152832%2FF2_tFRkm%3Fformat%3Djpg%26name%3D800x419\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "op7418",
+      "title": "Claude Code / Codex CLI into OpenClaw \n\nchat with your AI coding agent from Telegram or Discord.\n\nStreaming responses · inline permission buttons · persistent sessions · zero config code.\n\n  <npx skills add op7418/Claude-to-IM-skill>",
+      "link": "https://nitter.net/op7418/status/2029950690848821373#m",
+      "pubDate": "Fri, 06 Mar 2026 16:02:14 GMT",
+      "description": "<p>Claude Code / Codex CLI into OpenClaw <br>\n<br>\nchat with your AI coding agent from Telegram or Discord.<br>\n<br>\nStreaming responses · inline permission buttons · persistent sessions · zero config code.<br>\n<br>\n  &lt;npx skills add op7418/Claude-to-IM-skill&gt;</p>\n<img src=\"https://nitter.net/pic/media%2FHCvVYPSaUAItSzq.jpg\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "op7418",
+      "title": "有朋友说，我开源了连接 Claude Code 和Codex 的 Skills 以后，小红书突然多出了很多类似的项目\n\n哎，麻了",
+      "link": "https://nitter.net/op7418/status/2029944271210766833#m",
+      "pubDate": "Fri, 06 Mar 2026 15:36:43 GMT",
+      "description": "<p>有朋友说，我开源了连接 Claude Code 和Codex 的 Skills 以后，小红书突然多出了很多类似的项目<br>\n<br>\n哎，麻了</p>\n<hr/>\n<blockquote>\n<b>歸藏(guizang.ai) (@op7418)</b>\n<p>\n<p><a href=\"http://x.com/i/article/2029562855511744512\">x.com/i/article/202956285551…</a></p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/op7418/status/2029563318973952221#m\">https://nitter.net/op7418/status/2029563318973952221#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "op7418",
+      "title": "Codepilot 的长期记忆和助理功能搞定了",
+      "link": "https://nitter.net/op7418/status/2029942220510613957#m",
+      "pubDate": "Fri, 06 Mar 2026 15:28:34 GMT",
+      "description": "<p>Codepilot 的长期记忆和助理功能搞定了</p>\n<img src=\"https://nitter.net/pic/media%2FHCvNliNa0AE7nbs.jpg\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: 安全看起来还是有保证的",
+      "link": "https://nitter.net/op7418/status/2029800917663633776#m",
+      "pubDate": "Fri, 06 Mar 2026 06:07:05 GMT",
+      "description": "<p>安全看起来还是有保证的</p>\n<img src=\"https://nitter.net/pic/media%2FHCtNJkzaoAAOYjo.jpg\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "op7418",
+      "title": "卧槽，太牛批了！  \n\n龙虾加上小米的生态，这不起飞？\n\nAgent 它终于能控制现实世界了。",
+      "link": "https://nitter.net/op7418/status/2029798207656710617#m",
+      "pubDate": "Fri, 06 Mar 2026 05:56:19 GMT",
+      "description": "<p>卧槽，太牛批了！  <br>\n<br>\n龙虾加上小米的生态，这不起飞？<br>\n<br>\nAgent 它终于能控制现实世界了。</p>\n<img src=\"https://nitter.net/pic/media%2FHCtKqDDaUAAsyjZ.jpg\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "op7418",
+      "title": "答应朋友们的来了！\n\n你现在能用我的这个 Skills 远程控制 CodeX App 了！\n\n安装以后会自动运行配置引导，跟着 CodeX 的指引配置就可以。\n\n同时修复了一些问题。\n\n如果你之前装不上的话，让 Claude 或 CodeX 卸载你的 Skills，重新安装就可以。",
+      "link": "https://nitter.net/op7418/status/2029797230056788116#m",
+      "pubDate": "Fri, 06 Mar 2026 05:52:26 GMT",
+      "description": "<p>答应朋友们的来了！<br>\n<br>\n你现在能用我的这个 Skills 远程控制 CodeX App 了！<br>\n<br>\n安装以后会自动运行配置引导，跟着 CodeX 的指引配置就可以。<br>\n<br>\n同时修复了一些问题。<br>\n<br>\n如果你之前装不上的话，让 Claude 或 CodeX 卸载你的 Skills，重新安装就可以。</p>\n<a href=\"https://nitter.net/op7418/status/2029797230056788116#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2029796915223875584%2Fimg%2FpCPvdYtgyIDjW6Xf.jpg\" style=\"max-width:250px;\" />\n</a>\n<hr/>\n<blockquote>\n<b>歸藏(guizang.ai) (@op7418)</b>\n<p>\n<p><a href=\"http://x.com/i/article/2029562855511744512\">x.com/i/article/202956285551…</a></p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/op7418/status/2029563318973952221#m\">https://nitter.net/op7418/status/2029563318973952221#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: 好像迷迷糊糊又打错字了",
+      "link": "https://nitter.net/op7418/status/2029731579799687222#m",
+      "pubDate": "Fri, 06 Mar 2026 01:31:33 GMT",
+      "description": "<p>好像迷迷糊糊又打错字了</p>"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: 刚好 GPT-5.4 上了，已经支持 Codex 链接到 IM 工具",
+      "link": "https://nitter.net/op7418/status/2029629987662483968#m",
+      "pubDate": "Thu, 05 Mar 2026 18:47:52 GMT",
+      "description": "<p>刚好 GPT-5.4 上了，已经支持 Codex 链接到 IM 工具</p>\n<img src=\"https://nitter.net/pic/media%2FHCqxnj3aEAA8iav.jpg\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: 一个问题是相较于5.2价格贵了一倍",
+      "link": "https://nitter.net/op7418/status/2029629207727456612#m",
+      "pubDate": "Thu, 05 Mar 2026 18:44:46 GMT",
+      "description": "<p>一个问题是相较于5.2价格贵了一倍</p>\n<img src=\"https://nitter.net/pic/media%2FHCqw9yKaUAEgaX9.png\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: 可以通过配置 model_context_window 和 model_auto_compact_token_limit 来尝试 GPT-5.4 的一百万上下文能力",
+      "link": "https://nitter.net/op7418/status/2029625649678446660#m",
+      "pubDate": "Thu, 05 Mar 2026 18:30:38 GMT",
+      "description": "<p>可以通过配置 model_context_window 和 model_auto_compact_token_limit 来尝试 GPT-5.4 的一百万上下文能力</p>"
+    },
+    {
+      "handle": "op7418",
+      "title": "Open AI 牛皮 GPT-5.4 发布了，API 和 Codex 可以直接开启 100 万上下文。\n\n而且只有超出272K 上下文窗口的部分会用两倍额度计费，比 Claude 良心太多了！\n\n计算机原生使用能力和复杂任务的智能体便秘能力大幅提升。\n\n针对耗时较长、工具繁多的工作流程，提供更高效的推理\n\n而且这次 GPT-5.4 直接吧代码能力合并到了主模型里面，所以可以直接用 GPT-5.4 编程\n\n通过 tool search、改进的 tool calling 和更高效的推理把大规模工具生态的 token 成本和延迟压缩很多\n\n目前已经在 Codex 应用和 API 中上线，马上会在Chat GPT里面上线",
+      "link": "https://nitter.net/op7418/status/2029624904908509285#m",
+      "pubDate": "Thu, 05 Mar 2026 18:27:40 GMT",
+      "description": "<p>Open AI 牛皮 GPT-5.4 发布了，API 和 Codex 可以直接开启 100 万上下文。<br>\n<br>\n而且只有超出272K 上下文窗口的部分会用两倍额度计费，比 Claude 良心太多了！<br>\n<br>\n计算机原生使用能力和复杂任务的智能体便秘能力大幅提升。<br>\n<br>\n针对耗时较长、工具繁多的工作流程，提供更高效的推理<br>\n<br>\n而且这次 GPT-5.4 直接吧代码能力合并到了主模型里面，所以可以直接用 GPT-5.4 编程<br>\n<br>\n通过 tool search、改进的 tool calling 和更高效的推理把大规模工具生态的 token 成本和延迟压缩很多<br>\n<br>\n目前已经在 Codex 应用和 API 中上线，马上会在Chat GPT里面上线</p>\n<img src=\"https://nitter.net/pic/media%2FHCqs0sHaEAA0j8l.png\" style=\"max-width:250px;\" />\n<img src=\"https://nitter.net/pic/media%2FHCqs4tsbcAEYVM6.jpg\" style=\"max-width:250px;\" />\n<hr/>\n<blockquote>\n<b>OpenAI (@OpenAI)</b>\n<p>\n<p>GPT-5.4 Thinking and GPT-5.4 Pro are rolling out now in ChatGPT.<br>\n<br>\nGPT-5.4 is also now available in the API and Codex.<br>\n<br>\nGPT-5.4 brings our advances in reasoning, coding, and agentic workflows into one frontier model.</p>\n<img src=\"https://nitter.net/pic/media%2FHCqogsobgAAAo2U.png\" style=\"max-width:250px;\" />\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/OpenAI/status/2029620619743219811#m\">https://nitter.net/OpenAI/status/2029620619743219811#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: 明天早上Codex就支持了！",
+      "link": "https://nitter.net/op7418/status/2029581252156953022#m",
+      "pubDate": "Thu, 05 Mar 2026 15:34:12 GMT",
+      "description": "<p>明天早上Codex就支持了！</p>"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: Codex 明天早上上线！",
+      "link": "https://nitter.net/op7418/status/2029579918666051909#m",
+      "pubDate": "Thu, 05 Mar 2026 15:28:55 GMT",
+      "description": "<p>Codex 明天早上上线！</p>"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: 搞定了！https://x.com/op7418/status/2029563318973952221?s=20",
+      "link": "https://nitter.net/op7418/status/2029563579658391920#m",
+      "pubDate": "Thu, 05 Mar 2026 14:23:59 GMT",
+      "description": "<p>搞定了！<a href=\"https://nitter.net/op7418/status/2029563318973952221?s=20\">nitter.net/op7418/status/20295633…</a></p>\n<hr/>\n<blockquote>\n<b>歸藏(guizang.ai) (@op7418)</b>\n<p>\n<p><a href=\"http://x.com/i/article/2029562855511744512\">x.com/i/article/202956285551…</a></p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/op7418/status/2029563318973952221#m\">https://nitter.net/op7418/status/2029563318973952221#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "op7418",
+      "title": "妈的，终于搞定了，藏师傅的这个 skills 可以让你的 Claude Code 秒变龙虾！\n​\n​现在支持飞书 Telegram 和 Discord，还有交互式的配置，非常详细，小白也可以上手。",
+      "link": "https://nitter.net/op7418/status/2029563490193875202#m",
+      "pubDate": "Thu, 05 Mar 2026 14:23:38 GMT",
+      "description": "<p>妈的，终于搞定了，藏师傅的这个 skills 可以让你的 Claude Code 秒变龙虾！<br>\n​<br>\n​现在支持飞书 Telegram 和 Discord，还有交互式的配置，非常详细，小白也可以上手。</p>\n<img src=\"https://nitter.net/pic/media%2FHCp1LRVaoAA3EI5.jpg\" style=\"max-width:250px;\" />\n<hr/>\n<blockquote>\n<b>歸藏(guizang.ai) (@op7418)</b>\n<p>\n<p><a href=\"http://x.com/i/article/2029562855511744512\">x.com/i/article/202956285551…</a></p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/op7418/status/2029563318973952221#m\">https://nitter.net/op7418/status/2029563318973952221#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "op7418",
+      "title": "Pinned: x.com/i/article/202956285551…",
+      "link": "https://nitter.net/op7418/status/2029563318973952221#m",
+      "pubDate": "Thu, 05 Mar 2026 14:22:57 GMT",
+      "description": "<p><a href=\"http://x.com/i/article/2029562855511744512\">x.com/i/article/202956285551…</a></p>"
+    },
+    {
+      "handle": "op7418",
+      "title": "R to @op7418: 我需要调研一下，看看权限上行不行",
+      "link": "https://nitter.net/op7418/status/2029429098116989429#m",
+      "pubDate": "Thu, 05 Mar 2026 05:29:36 GMT",
+      "description": "<p>我需要调研一下，看看权限上行不行</p>"
+    },
+    {
+      "handle": "op7418",
+      "title": "决定了，把这个做成一个 skills，安装上以后启动，你当前的 Claude Code 聊天就可以远程被接管。\n\n直接降低门槛，可以随意连接到 Telegram 飞书和 Discord。\n\n我调研一下能不能实现先。",
+      "link": "https://nitter.net/op7418/status/2029428076632031676#m",
+      "pubDate": "Thu, 05 Mar 2026 05:25:33 GMT",
+      "description": "<p>决定了，把这个做成一个 skills，安装上以后启动，你当前的 Claude Code 聊天就可以远程被接管。<br>\n<br>\n直接降低门槛，可以随意连接到 Telegram 飞书和 Discord。<br>\n<br>\n我调研一下能不能实现先。</p>\n<hr/>\n<blockquote>\n<b>歸藏(guizang.ai) (@op7418)</b>\n<p>\n<p>我自己实现的这套给 Claude Code 或者 Agent SDK 做 IM 连接的架构，我觉得是比较好的。<br>\n<br>\n同时，它可能比市面上所有给 Claude Code 做 IM 连接的架构都要好，所以我可能会把它拆出来开源<br>\n<br>\n如果大家想做类似的产品、工具，或者有需要的话，可以说一声。如果多的话，我就把它拆出来开源，做成一个 SDK。<br>\n<br>\n这样的话，你如果是基于 Claude Code 做的产品，或者基于 Agent SDK 做的产品，可以一键接入。<br>\n<br>\n全部都是从零实现的，参考了一些优秀项目的架构，同时也确保它跟 Agent SDK 是契合的。我自己也人工测试了很多次，没有什么问题。</p>\n<img src=\"https://nitter.net/pic/media%2FHCneTQFawAAxqd3.jpg\" style=\"max-width:250px;\" />\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/op7418/status/2029397622562386286#m\">https://nitter.net/op7418/status/2029397622562386286#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "x.com/i/article/202995554741…",
+      "link": "https://nitter.net/dotey/status/2029969547927658673#m",
+      "pubDate": "Fri, 06 Mar 2026 17:17:09 GMT",
+      "description": "<p><a href=\"http://x.com/i/article/2029955547416383488\">x.com/i/article/202995554741…</a></p>"
+    },
+    {
+      "handle": "dotey",
+      "title": "R to @dotey: 先分析再翻译比两步法、三步法更加精准，因为都是对翻译来说有意义的上下文，既不多，又准确",
+      "link": "https://nitter.net/dotey/status/2030104621834703325#m",
+      "pubDate": "Sat, 07 Mar 2026 02:13:54 GMT",
+      "description": "<p>先分析再翻译比两步法、三步法更加精准，因为都是对翻译来说有意义的上下文，既不多，又准确</p>"
+    },
+    {
+      "handle": "dotey",
+      "title": "因为实在受不了微博头条文章的难用，写了个 Skill 叫 baoyu-post-to-weibo\n 帮我发布头条文章，可以自动把markdown文档和配图发布到头条文章，自动写标题、正文，自动插入上传图片，自动上传设置封面图。\n\n这个 skill 小龙虾🦞也能用，第一次需要手动登录一下。目前还不够完善，不过持续完善中。具体效果见视频。\n\n安装方式：\nnpx skills add jimliu/baoyu-skills\n\n开源项目地址：http://github.com/jimliu/baoyu-skills",
+      "link": "https://nitter.net/dotey/status/2030071940501602375#m",
+      "pubDate": "Sat, 07 Mar 2026 00:04:02 GMT",
+      "description": "<p>因为实在受不了微博头条文章的难用，写了个 Skill 叫 baoyu-post-to-weibo<br>\n 帮我发布头条文章，可以自动把markdown文档和配图发布到头条文章，自动写标题、正文，自动插入上传图片，自动上传设置封面图。<br>\n<br>\n这个 skill 小龙虾🦞也能用，第一次需要手动登录一下。目前还不够完善，不过持续完善中。具体效果见视频。<br>\n<br>\n安装方式：<br>\nnpx skills add jimliu/baoyu-skills<br>\n<br>\n开源项目地址：<a href=\"http://github.com/jimliu/baoyu-skills\">github.com/jimliu/baoyu-skil…</a></p>\n<a href=\"https://nitter.net/dotey/status/2030071940501602375#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2030071773090418688%2Fimg%2F9OOsckGXQuhGBUdL.jpg\" style=\"max-width:250px;\" />\n</a>"
+    },
+    {
+      "handle": "dotey",
+      "title": "RT by @dotey: x.com/i/article/202993339887…",
+      "link": "https://nitter.net/vista8/status/2029935446810308817#m",
+      "pubDate": "Fri, 06 Mar 2026 15:01:39 GMT",
+      "description": "<p><a href=\"http://x.com/i/article/2029933398874279939\">x.com/i/article/202993339887…</a></p>"
+    },
+    {
+      "handle": "dotey",
+      "title": "原来这个 Tool loaded 是个 bug，我这两天也遇到了",
+      "link": "https://nitter.net/dotey/status/2030057864371270116#m",
+      "pubDate": "Fri, 06 Mar 2026 23:08:06 GMT",
+      "description": "<p>原来这个 Tool loaded 是个 bug，我这两天也遇到了</p>\n<img src=\"https://nitter.net/pic/media%2FHCw2zaPWoAAHm4Z.png\" style=\"max-width:250px;\" />\n<hr/>\n<blockquote>\n<b>Boris Cherny (@bcherny)</b>\n<p>\n<p>This isn’t hiding anything, this is a bug. Fix going out today.</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/bcherny/status/2030035457179013235#m\">https://nitter.net/bcherny/status/2030035457179013235#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "“天地万物，朕赐给你，才是你的，朕不给，你不能抢。”",
+      "link": "https://nitter.net/dotey/status/2030049807310446831#m",
+      "pubDate": "Fri, 06 Mar 2026 22:36:05 GMT",
+      "description": "<p>“天地万物，朕赐给你，才是你的，朕不给，你不能抢。”</p>\n<a href=\"https://nitter.net/dotey/status/2030049807310446831#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2030049688875855873%2Fimg%2Fe6w5t5-0r-SPLCUC.jpg\" style=\"max-width:250px;\" />\n</a>\n<hr/>\n<blockquote>\n<b>plp (@colcod)</b>\n<p>\n<p>月饼味😂</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/colcod/status/2030044205813580112#m\">https://nitter.net/colcod/status/2030044205813580112#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "OpenAI 推出\"Codex for Open Source\"计划，向开源项目的核心维护者免费提供六个月的 ChatGPT Pro，外加 API 额度和安全工具的有条件使用权。\n\n这个计划脱胎于此前 100 万美元的 Codex 开源基金。之前那个基金主要提供 API 额度，帮助开源团队用 Codex 自动化 PR 审查等流程。\n\n现在升级了——直接送 ChatGPT Pro 账号，让维护者日常写代码、审代码、处理 issue 都能用上。\n\n申请门槛不算高——核心维护者或广泛使用的公开项目都可以申请，即便不完全符合标准，OpenAI 也鼓励提交并说明理由。",
+      "link": "https://nitter.net/dotey/status/2030044135542116646#m",
+      "pubDate": "Fri, 06 Mar 2026 22:13:32 GMT",
+      "description": "<p>OpenAI 推出\"Codex for Open Source\"计划，向开源项目的核心维护者免费提供六个月的 ChatGPT Pro，外加 API 额度和安全工具的有条件使用权。<br>\n<br>\n这个计划脱胎于此前 100 万美元的 Codex 开源基金。之前那个基金主要提供 API 额度，帮助开源团队用 Codex 自动化 PR 审查等流程。<br>\n<br>\n现在升级了——直接送 ChatGPT Pro 账号，让维护者日常写代码、审代码、处理 issue 都能用上。<br>\n<br>\n申请门槛不算高——核心维护者或广泛使用的公开项目都可以申请，即便不完全符合标准，OpenAI 也鼓励提交并说明理由。</p>\n<hr/>\n<blockquote>\n<b>OpenAI Developers (@OpenAIDevs)</b>\n<p>\n<p>We’re launching Codex for Open Source to support the contributors who keep open-source software running.<br>\n<br>\nMaintainers can use Codex to review code, understand large codebases, and strengthen security coverage without taking on even more invisible work.<br>\n<br>\n<a href=\"http://developers.openai.com/codex/community/codex-for-oss\">developers.openai.com/codex/…</a></p>\n<a href=\"https://nitter.net/OpenAIDevs/status/2029998191043911955#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/media%2FHCwA7xaaMAAl967.jpg\" style=\"max-width:250px;\" />\n</a>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/OpenAIDevs/status/2029998191043911955#m\">https://nitter.net/OpenAIDevs/status/2029998191043911955#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "Claude Code desktop 支持 Schedule Tasks 了",
+      "link": "https://nitter.net/dotey/status/2030032884514324614#m",
+      "pubDate": "Fri, 06 Mar 2026 21:28:50 GMT",
+      "description": "<p>Claude Code desktop 支持 Schedule Tasks 了</p>\n<hr/>\n<blockquote>\n<b>Thariq (@trq212)</b>\n<p>\n<p>Today we're launching local scheduled tasks in Claude Code desktop. <br>\n<br>\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.</p>\n<a href=\"https://nitter.net/trq212/status/2030019397335843288#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2030019113637269505%2Fimg%2FRQF0LAr-Z5knZUsf.jpg\" style=\"max-width:250px;\" />\n</a>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/trq212/status/2030019397335843288#m\">https://nitter.net/trq212/status/2030019397335843288#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "暴露年龄了😂\n第一次见应该还是 VCD\n超级霸王那时候可是装机必备",
+      "link": "https://nitter.net/dotey/status/2030026381141364953#m",
+      "pubDate": "Fri, 06 Mar 2026 21:02:59 GMT",
+      "description": "<p>暴露年龄了😂<br>\n第一次见应该还是 VCD<br>\n超级霸王那时候可是装机必备</p>\n<a href=\"https://nitter.net/dotey/status/2030026381141364953#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2029643776906432513%2Fimg%2FMOsqr32mHu8-drQC.jpg\" style=\"max-width:250px;\" />\n</a>"
+    },
+    {
+      "handle": "dotey",
+      "title": "R to @dotey: claude code hook + 叠加logo\nhttps://x.com/itseieio/status/2029675964158890269?s=20",
+      "link": "https://nitter.net/dotey/status/2030027367729475752#m",
+      "pubDate": "Fri, 06 Mar 2026 21:06:55 GMT",
+      "description": "<p>claude code hook + 叠加logo<br>\n<a href=\"https://nitter.net/itseieio/status/2029675964158890269?s=20\">nitter.net/itseieio/status/202967…</a></p>\n<hr/>\n<blockquote>\n<b>nolen (@itseieio)</b>\n<p>\n<p>hooking into the thinking state is trivial: <a href=\"https://code.claude.com/docs/en/hooks#notification\">code.claude.com/docs/en/hook…</a><br>\n<br>\nthe hard part is actually overlaying the dvd logo! doing some pty proxy nonsense but it's still a lil buggy</p>\n<img src=\"https://nitter.net/pic/card_img%2F2028134391357362176%2FuvpPusOT%3Fformat%3Djpg%26name%3D800x419\" style=\"max-width:250px;\" />\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/itseieio/status/2029675964158890269#m\">https://nitter.net/itseieio/status/2029675964158890269#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "R to @dotey: 勘误：\n超级霸王 -> 超级解霸\n\n把超级解霸和小霸王DVD混一起了😅",
+      "link": "https://nitter.net/dotey/status/2030032653789860191#m",
+      "pubDate": "Fri, 06 Mar 2026 21:27:55 GMT",
+      "description": "<p>勘误：<br>\n超级霸王 -&gt; 超级解霸<br>\n<br>\n把超级解霸和小霸王DVD混一起了😅</p>"
+    },
+    {
+      "handle": "dotey",
+      "title": "RT by @dotey: 作为一个行业内的人，做个科普吧 hhh\n从底层往上捋一遍：\n最黑的一层，靠的是盗刷信用卡。有人手里攥着大批黑卡号，利用 OpenAI、Anthropic 等平台在支付验证环节的漏洞，批量注册账号。这种号成本几乎为零，被封了就再开一批。\n拿到账号之后怎么变现？两条路——直接出 API Key 是最简单的，但更常见的玩法是「套壳逆向」：把 ChatGPT、Claude 的网页聊天接口逆向破解，改头换面包装成标准 API 对外出售。你调用的时候看着和官方一模一样，但背后其实是一堆网页 Session 在替你收发消息。\n这两件事不矛盾——黑卡注册来的号，经常就是直接拿去做逆向的。反正号不花钱，当然要把每个号的价值榨到最后一滴。\n再往上，是 Credit 灰色流转。AWS、Azure、GCP 这些云厂商发给初创公司的算力抵扣额度，本意是扶持创业生态。但还是会有一些人有歪心思：一种是初创公司自己用不完，违反服务协议私下低价转手——算灰色地带；还有就是厂商内部一些不合规操作了，这里不细讲。\n最上面那一层才是正经生意——量大到能直接和厂商谈企业折扣协议。合法透明，但利润也最薄。像 OpenRouter 大概率走的就是这条路。不过量大也能吃的饱饱的。\n但以上全是成本侧。中转站真正值得说道的，不在这儿。\n所有经过中转的请求——完整的 prompt 加 response——就是一份现成的的蒸馏数据。\n尤其是 Claude Code 这类编程场景，用户产出的全是复杂推理链和真实的工程决策，这对模型厂商来说是梦寐以求的蒸馏素材。\n所以中转站真正的商业模式很可能是：收你中转费是表面生意，把你的请求数据打包卖给大厂做模型蒸馏，才是核心 margin。\n你是付费客户，同时也是免费的训练数据生产者。一鱼两吃。\n说再直白点——有些中转站上线的核心目的根本不是卖 API，而是为了收集特定场景的高质量蒸馏语料。低价只是获客手段。",
+      "link": "https://nitter.net/yan5xu/status/2029743983522631698#m",
+      "pubDate": "Fri, 06 Mar 2026 02:20:51 GMT",
+      "description": "<p>作为一个行业内的人，做个科普吧 hhh<br>\n从底层往上捋一遍：<br>\n最黑的一层，靠的是盗刷信用卡。有人手里攥着大批黑卡号，利用 OpenAI、Anthropic 等平台在支付验证环节的漏洞，批量注册账号。这种号成本几乎为零，被封了就再开一批。<br>\n拿到账号之后怎么变现？两条路——直接出 API Key 是最简单的，但更常见的玩法是「套壳逆向」：把 ChatGPT、Claude 的网页聊天接口逆向破解，改头换面包装成标准 API 对外出售。你调用的时候看着和官方一模一样，但背后其实是一堆网页 Session 在替你收发消息。<br>\n这两件事不矛盾——黑卡注册来的号，经常就是直接拿去做逆向的。反正号不花钱，当然要把每个号的价值榨到最后一滴。<br>\n再往上，是 Credit 灰色流转。AWS、Azure、GCP 这些云厂商发给初创公司的算力抵扣额度，本意是扶持创业生态。但还是会有一些人有歪心思：一种是初创公司自己用不完，违反服务协议私下低价转手——算灰色地带；还有就是厂商内部一些不合规操作了，这里不细讲。<br>\n最上面那一层才是正经生意——量大到能直接和厂商谈企业折扣协议。合法透明，但利润也最薄。像 OpenRouter 大概率走的就是这条路。不过量大也能吃的饱饱的。<br>\n但以上全是成本侧。中转站真正值得说道的，不在这儿。<br>\n所有经过中转的请求——完整的 prompt 加 response——就是一份现成的的蒸馏数据。<br>\n尤其是 Claude Code 这类编程场景，用户产出的全是复杂推理链和真实的工程决策，这对模型厂商来说是梦寐以求的蒸馏素材。<br>\n所以中转站真正的商业模式很可能是：收你中转费是表面生意，把你的请求数据打包卖给大厂做模型蒸馏，才是核心 margin。<br>\n你是付费客户，同时也是免费的训练数据生产者。一鱼两吃。<br>\n说再直白点——有些中转站上线的核心目的根本不是卖 API，而是为了收集特定场景的高质量蒸馏语料。低价只是获客手段。</p>\n<hr/>\n<blockquote>\n<b>𝙋𝙖𝙨𝙨𝙡𝙪𝙤 (@passluo)</b>\n<p>\n<p>哈哈，这就是前几天我说放弃搞中转站的原因<br>\n<br>\n因为我算了一下大概成本，包括几位推上粉丝不少的站长，东西都很可疑<br>\n<br>\n有些中转站说是从云厂商那采购的直连 API，但价格远低于云厂商报价<br>\n<br>\n有些中转站说是官方纯血号池，但套餐价格我是真的想不明白 😅 除非是盗刷信用卡买来的号<br>\n<br>\n行业疯狂卷价格，普通用户根本没办法验证和区分，私底下使劲儿给你搞猫腻<br>\n<br>\n卖中转其实和卖 VPN 没区别，都是灰产，如果被举报被抓都有蹲🍊的风险<br>\n<br>\n但这么卷下来 ROI 远低于机场，那就有点不值当了</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/passluo/status/2029720307406397494#m\">https://nitter.net/passluo/status/2029720307406397494#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "熟悉的味道😂",
+      "link": "https://nitter.net/dotey/status/2029954980971487449#m",
+      "pubDate": "Fri, 06 Mar 2026 16:19:16 GMT",
+      "description": "<p>熟悉的味道😂</p>\n<hr/>\n<blockquote>\n<b>Ivy (@ivylala)</b>\n<p>\n<p>The latest on Alibaba's Qwen saga, Alibaba made its position clear in this piece:  <br>\n<br>\n1. \"The rules are not to be bent, and he is challenging the company's system.\" “制度是不能碰的，而他在挑战公司制度。”<br>\n<br>\n2. \"We cannot make individual god... and at what price would be worth to keep Junyang?\" (silence from the team) 蒋芳又回应，不能神化个人...她随后问团队：那么大家期待以什么代价来挽留俊旸呢？没有人回答这个问题。<br>\n<br>\n3. “In extreme situations, Alibaba has made its bottom line clear: the individual will must submit to organizational needs.” 极端情况下，阿里亮出了底线：个人意志要服从组织需求<br>\n<br>\nAlibaba Corp speak is a language and culture of its own.</p>\n<img src=\"https://nitter.net/pic/media%2FHCvS08oWQAAwk4u.png\" style=\"max-width:250px;\" />\n<img src=\"https://nitter.net/pic/media%2FHCvTTDVWoAAzlJD.png\" style=\"max-width:250px;\" />\n<img src=\"https://nitter.net/pic/media%2FHCvUeo7WoAAlPyl.png\" style=\"max-width:250px;\" />\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ivylala/status/2029950221459849473#m\">https://nitter.net/ivylala/status/2029950221459849473#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "RT by @dotey: 之前 Kimi 说海外收入疯涨，我这里有可以印证的数据。\n2026年1月，Kimi 在 Stripe 的订单数相比于2025年12月增长了8280%，然后2026年2月相比于1月又增长了123.8% 。\n在2024到2025年24个月时间里，Kimi 的订单都没有进入 Stripe 订单排行榜的前100名，但是在2026年1月立马飙升到了第22名，然后在2月升到了第9名。\n在2月排行榜里，也能看到 MiniMax 的身影，位居28位，相比于1月增长157% 。\n2026年2月数据，Kimi 的订单是 MiniMax 的3倍多一点。\n有个意外但也不意外的数据是，Grok 在2月增长到了第一名，而1月是第七名，并且从2025年9月开始就一直在涨，可能的原因是推特上大家可以用 Grok 给别人脱衣，给 Grok 带来了特别多的新增流量。\n另外值得一提的是 Manus，2025年3月上线，就立马进入了排行榜前100名，虽然只是第90名，这是很多人不知道的吧。\n之后 Manus 就一路高歌猛进，2025年4月第10名，接下来半年一直在10到20名徘徊，之后在2025年11月首次进入前10名，拿到了第5名的好成绩，接下来就没有跌出过前5名，2025年12月第4名，2026年1月第1名，2026年2月第4名。",
+      "link": "https://nitter.net/gefei55/status/2029847644009550165#m",
+      "pubDate": "Fri, 06 Mar 2026 09:12:45 GMT",
+      "description": "<p>之前 Kimi 说海外收入疯涨，我这里有可以印证的数据。<br>\n2026年1月，Kimi 在 Stripe 的订单数相比于2025年12月增长了8280%，然后2026年2月相比于1月又增长了123.8% 。<br>\n在2024到2025年24个月时间里，Kimi 的订单都没有进入 Stripe 订单排行榜的前100名，但是在2026年1月立马飙升到了第22名，然后在2月升到了第9名。<br>\n在2月排行榜里，也能看到 MiniMax 的身影，位居28位，相比于1月增长157% 。<br>\n2026年2月数据，Kimi 的订单是 MiniMax 的3倍多一点。<br>\n有个意外但也不意外的数据是，Grok 在2月增长到了第一名，而1月是第七名，并且从2025年9月开始就一直在涨，可能的原因是推特上大家可以用 Grok 给别人脱衣，给 Grok 带来了特别多的新增流量。<br>\n另外值得一提的是 Manus，2025年3月上线，就立马进入了排行榜前100名，虽然只是第90名，这是很多人不知道的吧。<br>\n之后 Manus 就一路高歌猛进，2025年4月第10名，接下来半年一直在10到20名徘徊，之后在2025年11月首次进入前10名，拿到了第5名的好成绩，接下来就没有跌出过前5名，2025年12月第4名，2026年1月第1名，2026年2月第4名。</p>\n<img src=\"https://nitter.net/pic/media%2FHCt3rIMaUAEfnnm.png\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "dotey",
+      "title": "写了一个翻译的 skill，推荐试用，效果我测试下来还可以的。\n\nnpx skills add https://github.com/jimliu/baoyu-skills --skill baoyu-translate\n\n使用方法很简单，安装后，只要说：\n> 翻译 {文件路径}\n\n或者快速翻译，速度最快，质量会差一些\n> 快速翻译 {文件路径}\n\n或者精翻，质量最好，时间长一些，token也会消耗更多\n> 精翻 {文件路径}\n\n如果配合 baoyu-danger-x-to-markdown skill 可以翻译 X 上的 Article，输入推文 url 就好，配合 baoyu-url-to-markdown 则可以根据 url 翻译文章内容\n\n长文会自动分块，分块后能并行翻译，速度还可以，并且能保证分块后的翻译术语一致性。\n\n可以定制化一些自己的术语表。",
+      "link": "https://nitter.net/dotey/status/2029836063808655480#m",
+      "pubDate": "Fri, 06 Mar 2026 08:26:44 GMT",
+      "description": "<p>写了一个翻译的 skill，推荐试用，效果我测试下来还可以的。<br>\n<br>\nnpx skills add <a href=\"https://github.com/jimliu/baoyu-skills\">github.com/jimliu/baoyu-skil…</a> --skill baoyu-translate<br>\n<br>\n使用方法很简单，安装后，只要说：<br>\n&gt; 翻译 {文件路径}<br>\n<br>\n或者快速翻译，速度最快，质量会差一些<br>\n&gt; 快速翻译 {文件路径}<br>\n<br>\n或者精翻，质量最好，时间长一些，token也会消耗更多<br>\n&gt; 精翻 {文件路径}<br>\n<br>\n如果配合 baoyu-danger-x-to-markdown skill 可以翻译 X 上的 Article，输入推文 url 就好，配合 baoyu-url-to-markdown 则可以根据 url 翻译文章内容<br>\n<br>\n长文会自动分块，分块后能并行翻译，速度还可以，并且能保证分块后的翻译术语一致性。<br>\n<br>\n可以定制化一些自己的术语表。</p>\n<img src=\"https://nitter.net/pic/card_img%2F2029855040404606976%2FjKyx-pCf%3Fformat%3Djpg%26name%3D800x419\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "dotey",
+      "title": "R to @dotey: 从这里安装吧\nhttps://skills.sh/jimliu/baoyu-skills/baoyu-translate",
+      "link": "https://nitter.net/dotey/status/2029838184285151300#m",
+      "pubDate": "Fri, 06 Mar 2026 08:35:10 GMT",
+      "description": "<p>从这里安装吧<br>\n<a href=\"https://skills.sh/jimliu/baoyu-skills/baoyu-translate\">skills.sh/jimliu/baoyu-skill…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2029838184545185792%2FhTiHepEr%3Fformat%3Dpng%26name%3D800x419\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "dotey",
+      "title": "R to @dotey: 我做 AI 翻译这件事，前前后后折腾了快两年。从最早手写提示词，到现在用 Agent 自动分块、并行翻译、审校润色，中间踩了不少坑，也攒了不少经验。最近把这些经验沉淀成了一个可复用的翻译 Skill。\n\n先说说翻译这个场景为什么比看上去要复杂。提示词本身很简单，“把这段话翻译成中文”谁都会写。\n\n但要做成一个通用的 Skill，你得考虑：输入千奇百怪，有人贴一句话，有人丢一篇万字长文，还有人给个 Markdown 文件；每个人常用的语言对不一样；有时候只想快速看个大意，有时候要求翻译质量必须高；太长的内容模型处理不了或者效果变差，需要分块，分块了又不好保证前后一致。\n\n这些问题不是一次想清楚的，是一轮轮迭代踩出来的。\n\n我用 AI 翻译的三个阶段\n\n第一个阶段是推理模型出来之前。\n\n那时候翻译质量全靠提示词，角色设定、语气要求、术语表，能塞的都塞进去。我应该是最早公开提出用“两步翻译”和“三步翻译”来提升翻译质量的。\n\n两步翻译就是先直译再意译，原理类似推理链，让模型先老老实实把原文意思对上，再用更自然的方式重新表达。效果确实好，但费 Token。三步翻译多了一个中间的审校环节，先直译，再审校找问题，最后意译，效果更好，但上下文占用很大。\n\n第二个阶段是推理模型出来之后。\n\n有了推理能力，不需要我手动设计推理链了，模型自己会“想”。这时候翻译提示词的核心变成了一个词：“重写”。不是让模型“翻译”，而是让它用目标语言重写这段内容。“翻译”这个词会让模型惦记着原文的每个字，“重写”给了它更大的自由度去处理隐喻、重组句式。这个思路转变带来的质量提升很明显。\n\n第三个阶段是 Agent。\n\n到了 Agent 时代，翻译工作流可以做得更精细。\n\n之前所有决策都是我做的：要不要分块、分多大、用什么术语表、翻译质量够不够好。现在很多决策可以交给 Agent，但关键节点由人来确认。\n\n具体来说，我的 Agent 翻译工作流是这样的：\n\n1. Agent 先分析要翻译的文章，找出专业术语、文化隐喻、读者可能不理解的背景知识，保存成分析文件\n2. 根据分析结果和提示词模板，生成翻译提示词，也保存成文件\n3. 如果文章太长，用脚本按 Markdown 结构分块\n4. 多个 subagent 并行翻译，每个负责一块\n5. 翻译完合并，再做整体校对\n\n所有中间结果都保存成文件。分析报告、翻译提示词、每个分块的原文和译文、审校意见，全部保存成文件。\n\n为什么要这么做？\n\n因为翻译是个迭代过程。某一块翻得不好，可以单独重翻，不用从头来。提示词有问题，可以直接改文件，不用重新跑分析。\n\n从串行到并行：一个关键转折\n\n最开始分块翻译是串行的。一个 subagent 按顺序翻译所有块，上一块的结果带到下一块，保持上下文连贯。\n\n问题很明显：慢。十个块要一个接一个翻，而且上下文越来越长，可能会爆。如果截断之前的内容，又没法用 prompt cache，成本反而更高。\n\n改成并行翻译就面临另一个问题：术语不统一。前面翻成\"强化学习\"，后面变成\"增强学习\"，读者会懵。\n\n解法是把一致性的保障从\"运行时上下文\"转移到\"预先分析\"。在翻译之前，Agent 已经分析好了全文的术语、翻译策略、风格要求，全部写在提示词文件里。每个 subagent 拿到的是同一份提示词文件，术语决策已经固化在里面了。\n\n十个块十个 subagent 并行执行，速度提升好几倍，一致性由共享的提示词文件保证。\n\n提示词文件的演进\n\n提示词怎么传给 subagent，这件事改了好几版。\n\n最开始是让 subagent 自己去读分析文件，自己理解。效果不稳定，每个 subagent 理解出来的东西不一样。\n\n然后改成主 agent 读取分析文件，把所有上下文整合成一个完整的 prompt 传给 subagent。好了一些，但 prompt 里什么都有，包括分块列表，subagent 看到十个块的列表会困惑，因为它只需要翻一个块。\n\n最后拆成两部分：共享上下文（术语表、翻译原则、背景信息）保存成文件，任务指令（翻译哪个文件、保存到哪里）作为调用参数传入。每个 subagent 读同一个提示词文件，但收到不同的任务指令。\n\n把提示词保存成文件还有一个好处：它本身成了可追溯的中间产物。翻译完觉得风格不对，打开提示词文件一看，发现是分析阶段遗漏了某个术语，直接改文件重跑翻译就行。\n\n当然还有一个重要原因是 Agent 很擅长读写处理文件。\n\n整个 Skill 的创建和迭代过程是这样的：\n\n1. 在 Claude Code 里用 skill-creator，直接把想法说出来，生成初始版本\n2. 用生成的版本去翻译真实文章，不是测试用例，是真的要用的内容\n3. 读翻译结果，找出不满意的地方\n4. 把问题反馈给 Claude Code，让它改进 Skill\n5. 再翻译，再检查，循环往复\n\n这个过程中，人的角色是质量判官和方向指挥。你要能判断翻译好不好，要能说清楚哪里不好，但不需要自己去写提示词细节。比如我发现串行翻译太慢，不是我去改并行逻辑，而是告诉 Agent\"改成并行\"，然后它自己去处理并行带来的一致性问题。\n\n比如我发现隐喻翻译生硬，不是我去写\"遇到隐喻请意译\"这样的规则，而是给它两版翻译让它自己总结规律。它总结出来的规则比我写的更系统、更全面。",
+      "link": "https://nitter.net/dotey/status/2029842320443519319#m",
+      "pubDate": "Fri, 06 Mar 2026 08:51:36 GMT",
+      "description": "<p>我做 AI 翻译这件事，前前后后折腾了快两年。从最早手写提示词，到现在用 Agent 自动分块、并行翻译、审校润色，中间踩了不少坑，也攒了不少经验。最近把这些经验沉淀成了一个可复用的翻译 Skill。<br>\n<br>\n先说说翻译这个场景为什么比看上去要复杂。提示词本身很简单，“把这段话翻译成中文”谁都会写。<br>\n<br>\n但要做成一个通用的 Skill，你得考虑：输入千奇百怪，有人贴一句话，有人丢一篇万字长文，还有人给个 Markdown 文件；每个人常用的语言对不一样；有时候只想快速看个大意，有时候要求翻译质量必须高；太长的内容模型处理不了或者效果变差，需要分块，分块了又不好保证前后一致。<br>\n<br>\n这些问题不是一次想清楚的，是一轮轮迭代踩出来的。<br>\n<br>\n我用 AI 翻译的三个阶段<br>\n<br>\n第一个阶段是推理模型出来之前。<br>\n<br>\n那时候翻译质量全靠提示词，角色设定、语气要求、术语表，能塞的都塞进去。我应该是最早公开提出用“两步翻译”和“三步翻译”来提升翻译质量的。<br>\n<br>\n两步翻译就是先直译再意译，原理类似推理链，让模型先老老实实把原文意思对上，再用更自然的方式重新表达。效果确实好，但费 Token。三步翻译多了一个中间的审校环节，先直译，再审校找问题，最后意译，效果更好，但上下文占用很大。<br>\n<br>\n第二个阶段是推理模型出来之后。<br>\n<br>\n有了推理能力，不需要我手动设计推理链了，模型自己会“想”。这时候翻译提示词的核心变成了一个词：“重写”。不是让模型“翻译”，而是让它用目标语言重写这段内容。“翻译”这个词会让模型惦记着原文的每个字，“重写”给了它更大的自由度去处理隐喻、重组句式。这个思路转变带来的质量提升很明显。<br>\n<br>\n第三个阶段是 Agent。<br>\n<br>\n到了 Agent 时代，翻译工作流可以做得更精细。<br>\n<br>\n之前所有决策都是我做的：要不要分块、分多大、用什么术语表、翻译质量够不够好。现在很多决策可以交给 Agent，但关键节点由人来确认。<br>\n<br>\n具体来说，我的 Agent 翻译工作流是这样的：<br>\n<br>\n1. Agent 先分析要翻译的文章，找出专业术语、文化隐喻、读者可能不理解的背景知识，保存成分析文件<br>\n2. 根据分析结果和提示词模板，生成翻译提示词，也保存成文件<br>\n3. 如果文章太长，用脚本按 Markdown 结构分块<br>\n4. 多个 subagent 并行翻译，每个负责一块<br>\n5. 翻译完合并，再做整体校对<br>\n<br>\n所有中间结果都保存成文件。分析报告、翻译提示词、每个分块的原文和译文、审校意见，全部保存成文件。<br>\n<br>\n为什么要这么做？<br>\n<br>\n因为翻译是个迭代过程。某一块翻得不好，可以单独重翻，不用从头来。提示词有问题，可以直接改文件，不用重新跑分析。<br>\n<br>\n从串行到并行：一个关键转折<br>\n<br>\n最开始分块翻译是串行的。一个 subagent 按顺序翻译所有块，上一块的结果带到下一块，保持上下文连贯。<br>\n<br>\n问题很明显：慢。十个块要一个接一个翻，而且上下文越来越长，可能会爆。如果截断之前的内容，又没法用 prompt cache，成本反而更高。<br>\n<br>\n改成并行翻译就面临另一个问题：术语不统一。前面翻成\"强化学习\"，后面变成\"增强学习\"，读者会懵。<br>\n<br>\n解法是把一致性的保障从\"运行时上下文\"转移到\"预先分析\"。在翻译之前，Agent 已经分析好了全文的术语、翻译策略、风格要求，全部写在提示词文件里。每个 subagent 拿到的是同一份提示词文件，术语决策已经固化在里面了。<br>\n<br>\n十个块十个 subagent 并行执行，速度提升好几倍，一致性由共享的提示词文件保证。<br>\n<br>\n提示词文件的演进<br>\n<br>\n提示词怎么传给 subagent，这件事改了好几版。<br>\n<br>\n最开始是让 subagent 自己去读分析文件，自己理解。效果不稳定，每个 subagent 理解出来的东西不一样。<br>\n<br>\n然后改成主 agent 读取分析文件，把所有上下文整合成一个完整的 prompt 传给 subagent。好了一些，但 prompt 里什么都有，包括分块列表，subagent 看到十个块的列表会困惑，因为它只需要翻一个块。<br>\n<br>\n最后拆成两部分：共享上下文（术语表、翻译原则、背景信息）保存成文件，任务指令（翻译哪个文件、保存到哪里）作为调用参数传入。每个 subagent 读同一个提示词文件，但收到不同的任务指令。<br>\n<br>\n把提示词保存成文件还有一个好处：它本身成了可追溯的中间产物。翻译完觉得风格不对，打开提示词文件一看，发现是分析阶段遗漏了某个术语，直接改文件重跑翻译就行。<br>\n<br>\n当然还有一个重要原因是 Agent 很擅长读写处理文件。<br>\n<br>\n整个 Skill 的创建和迭代过程是这样的：<br>\n<br>\n1. 在 Claude Code 里用 skill-creator，直接把想法说出来，生成初始版本<br>\n2. 用生成的版本去翻译真实文章，不是测试用例，是真的要用的内容<br>\n3. 读翻译结果，找出不满意的地方<br>\n4. 把问题反馈给 Claude Code，让它改进 Skill<br>\n5. 再翻译，再检查，循环往复<br>\n<br>\n这个过程中，人的角色是质量判官和方向指挥。你要能判断翻译好不好，要能说清楚哪里不好，但不需要自己去写提示词细节。比如我发现串行翻译太慢，不是我去改并行逻辑，而是告诉 Agent\"改成并行\"，然后它自己去处理并行带来的一致性问题。<br>\n<br>\n比如我发现隐喻翻译生硬，不是我去写\"遇到隐喻请意译\"这样的规则，而是给它两版翻译让它自己总结规律。它总结出来的规则比我写的更系统、更全面。</p>\n<img src=\"https://nitter.net/pic/media%2FHCtyx0OaUAMby1I.jpg\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "dotey",
+      "title": "别着急吹 GPT-5.4，跟 Opus 4.6 还是有差距。\n\n目前我初步用下来的感觉：\n\n1. 写作依然不行，比GPT-5.2看起来有点进步，但离Opus 4.6 还有点远\n\n2. 过度思考，一个简单问题能思考半天\n\n3. 自作主张（为了你好式），我让它给我文章配图，它都不给我确认就帮我设置了风格、选了密度。插图每张给我做了3个版本\n\n大哥，画图token挺贵的！\n\n图2、图3都是它毙掉的版本，图1和图4是它留下来的，差别在哪里？！",
+      "link": "https://nitter.net/dotey/status/2029788344670945643#m",
+      "pubDate": "Fri, 06 Mar 2026 05:17:07 GMT",
+      "description": "<p>别着急吹 GPT-5.4，跟 Opus 4.6 还是有差距。<br>\n<br>\n目前我初步用下来的感觉：<br>\n<br>\n1. 写作依然不行，比GPT-5.2看起来有点进步，但离Opus 4.6 还有点远<br>\n<br>\n2. 过度思考，一个简单问题能思考半天<br>\n<br>\n3. 自作主张（为了你好式），我让它给我文章配图，它都不给我确认就帮我设置了风格、选了密度。插图每张给我做了3个版本<br>\n<br>\n大哥，画图token挺贵的！<br>\n<br>\n图2、图3都是它毙掉的版本，图1和图4是它留下来的，差别在哪里？！</p>\n<img src=\"https://nitter.net/pic/media%2FHCtApdxXwAEZQ9U.jpg\" style=\"max-width:250px;\" />\n<img src=\"https://nitter.net/pic/media%2FHCtAzvFaIAAfG1W.jpg\" style=\"max-width:250px;\" />\n<img src=\"https://nitter.net/pic/media%2FHCtBh0-aAAApZBM.jpg\" style=\"max-width:250px;\" />\n<img src=\"https://nitter.net/pic/media%2FHCtBjfUaUAILKTM.jpg\" style=\"max-width:250px;\" />\n<hr/>\n<blockquote>\n<b>宝玉 (@dotey)</b>\n<p>\n<p>OpenAI 发布 GPT-5.4，定位为专业工作场景的旗舰模型，同步推出面向高复杂任务的 GPT-5.4 Pro 版本。<br>\n<br>\n这次发布的最大亮点是 GPT-5.4 成为 OpenAI 首个原生支持\"电脑操控\"（Computer Use）的通用模型——也就是说，它可以像人一样通过截图、点击鼠标、敲击键盘来操作真实的电脑界面。<br>\n<br>\n在 OSWorld-Verified 桌面操控测试中，GPT-5.4 以 75% 的成功率超过人类（72.4%），而上一代 GPT-5.2 只有 47.3%。<br>\n<br>\n在知识类工作方面，GPT-5.4 在涵盖 44 种职业的 GDPval 基准测试中，与行业专业人士打平或胜出的比例达到 83%，GPT-5.2 的这一数字是 70.9%。<br>\n<br>\n投行建模任务的内部评测得分从 68.4% 跳升到 87.3%，生成演示文稿的效果在人工评审中有 68% 的概率优于前代。<br>\n<br>\n编程能力上，GPT-5.4 整合了此前专为写代码设计的 GPT-5.3-Codex 的能力，在 SWE-Bench Pro 上得分 57.7%，与 GPT-5.3-Codex 的 56.8% 相当，但延迟更低。<br>\n<br>\n另一个实用改进是\"工具搜索\"（Tool Search）：以往给模型配备大量外部工具时，所有工具定义都要塞进提示词里，动辄消耗数万个 token。<br>\n<br>\nGPT-5.4 改为按需查找工具，在测试中将 token 消耗减少了 47%，对于依赖大量 MCP 工具的开发者来说成本节省明显。<br>\n<br>\n在 ChatGPT 中，GPT-5.4 Thinking 将支持在生成过程中展示思考计划，用户可以中途介入调整方向——不用等模型跑完再重新来过。<br>\n<br>\n定价方面，API 输入价格从 GPT-5.2 的每百万 token 1.75 美元涨至 2.50 美元，输出价格从 14 美元涨至 15 美元。GPT-5.4 今天起向 ChatGPT Plus、Team、Pro 用户开放，取代 GPT-5.2 Thinking 成为默认推理模型，GPT-5.2 Thinking 将在三个月后于 2026 年 6 月 5 日正式退役。</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/dotey/status/2029628065773474271#m\">https://nitter.net/dotey/status/2029628065773474271#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "R to @dotey: 这确实是个因素\nhttps://x.com/JJJSUI/status/2029796776048545864?s=20",
+      "link": "https://nitter.net/dotey/status/2029798271732838878#m",
+      "pubDate": "Fri, 06 Mar 2026 05:56:34 GMT",
+      "description": "<p>这确实是个因素<br>\n<a href=\"https://nitter.net/JJJSUI/status/2029796776048545864?s=20\">nitter.net/JJJSUI/status/20297967…</a></p>\n<hr/>\n<blockquote>\n<b>Sui教主(🦈,💧) (@JJJSUI)</b>\n<p>\n<p>那把think 由xhigh 改為low</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/JJJSUI/status/2029796776048545864#m\">https://nitter.net/JJJSUI/status/2029796776048545864#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "dotey",
+      "title": "除了编程 Agent 方面，OpenAI 的 GPT-4.5 和 o1 pro 是巅峰",
+      "link": "https://nitter.net/dotey/status/2029680314998456820#m",
+      "pubDate": "Thu, 05 Mar 2026 22:07:51 GMT",
+      "description": "<p>除了编程 Agent 方面，OpenAI 的 GPT-4.5 和 o1 pro 是巅峰</p>\n<hr/>\n<blockquote>\n<b>Lexi 勒西 (@lexi_labs)</b>\n<p>\n<p>GPT o3 好过 5.2 thinking。<br>\n<br>\n所以我一直坚信，5.2 就是个骗局，是个便宜货。</p>\n<img src=\"https://nitter.net/pic/media%2FHCqH9fVa8AAEljk.jpg\" style=\"max-width:250px;\" />\n<img src=\"https://nitter.net/pic/media%2FHCqH9fSaUAAiF-Z.jpg\" style=\"max-width:250px;\" />\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/lexi_labs/status/2029584076123041867#m\">https://nitter.net/lexi_labs/status/2029584076123041867#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "这个给 Computer use 带来想象空间了：\n\n大家的 Electron 应用 暴漏一下 Chrome DevTools Protocol (CDP) 协议，这样就都可以被 AI 控制了。\n\nGUI 应用同时给人和 AI 用。",
+      "link": "https://nitter.net/leeoxiang/status/2028331811890507839#m",
+      "pubDate": "Mon, 02 Mar 2026 04:49:23 GMT",
+      "description": "<p>这个给 Computer use 带来想象空间了：<br>\n<br>\n大家的 Electron 应用 暴漏一下 Chrome DevTools Protocol (CDP) 协议，这样就都可以被 AI 控制了。<br>\n<br>\nGUI 应用同时给人和 AI 用。</p>\n<hr/>\n<blockquote>\n<b>Chris Tate (@ctatedev)</b>\n<p>\n<p>The \"holy shit\" moment when I realized agent-browser can control Slack<br>\n<br>\nnpx skills add vercel-labs/agent-browser --skill slack</p>\n<a href=\"https://nitter.net/ctatedev/status/2027809304116342846#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2027809235107454976%2Fimg%2FmzwXXQmKJzp4W2o-.jpg\" style=\"max-width:250px;\" />\n</a>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ctatedev/status/2027809304116342846#m\">https://nitter.net/ctatedev/status/2027809304116342846#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "阿里开源的\"大虾\" copaw， 支持完全本地和云端运行。 \n\nhttps://copaw.agentscope.io/",
+      "link": "https://nitter.net/leeoxiang/status/2028030993974833510#m",
+      "pubDate": "Sun, 01 Mar 2026 08:54:02 GMT",
+      "description": "<p>阿里开源的\"大虾\" copaw， 支持完全本地和云端运行。 <br>\n<br>\n<a href=\"https://copaw.agentscope.io/\">copaw.agentscope.io/</a></p>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "昨天睡觉前把 BoxLite 这个 sandbox 的实现文档看了一遍，非常 nice 的实现，基本契合我对 sandbox 的所有需求。\n\n1、支持状态持久化（Stateful）(OpenAI 跟 AWS 合作也在做类似的方案)；\n2、非常轻量，可以本机跑，也能云端部署；\n3、不需要一个 daemon 进程，可以嵌入到应用中。\n\n后续关注一下稳定性，https://github.com/boxlite-ai/boxlite",
+      "link": "https://nitter.net/leeoxiang/status/2028022083939110987#m",
+      "pubDate": "Sun, 01 Mar 2026 08:18:38 GMT",
+      "description": "<p>昨天睡觉前把 BoxLite 这个 sandbox 的实现文档看了一遍，非常 nice 的实现，基本契合我对 sandbox 的所有需求。<br>\n<br>\n1、支持状态持久化（Stateful）(OpenAI 跟 AWS 合作也在做类似的方案)；<br>\n2、非常轻量，可以本机跑，也能云端部署；<br>\n3、不需要一个 daemon 进程，可以嵌入到应用中。<br>\n<br>\n后续关注一下稳定性，<a href=\"https://github.com/boxlite-ai/boxlite\">github.com/boxlite-ai/boxlit…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2029662330439749636%2FGyLYiSLj%3Fformat%3Dpng%26name%3D800x419\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "Cloudflare 在agent infra这里很激进，一个Claude Code占一个vCPU，这样就能开1500个实例了。",
+      "link": "https://nitter.net/leeoxiang/status/2026620118609109453#m",
+      "pubDate": "Wed, 25 Feb 2026 11:27:43 GMT",
+      "description": "<p>Cloudflare 在agent infra这里很激进，一个Claude Code占一个vCPU，这样就能开1500个实例了。</p>\n<hr/>\n<blockquote>\n<b>Cloudflare Changelog (@CFchangelog)</b>\n<p>\n<p>Containers now supports 15x more instances with 6TiB of memory and 1,500 vCPUs. Scale your serverless workloads way past the limits.<br>\n<a href=\"https://developers.cloudflare.com/changelog/post/2026-02-25-higher-container-resource-limits/\">developers.cloudflare.com/ch…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2028843252028256257%2FS_U1MuJz%3Fformat%3Djpg%26name%3D800x419\" style=\"max-width:250px;\" />\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/CFchangelog/status/2026599652766708000#m\">https://nitter.net/CFchangelog/status/2026599652766708000#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "R to @leeoxiang: 周末好好测试一下。",
+      "link": "https://nitter.net/leeoxiang/status/2026214839006470317#m",
+      "pubDate": "Tue, 24 Feb 2026 08:37:17 GMT",
+      "description": "<p>周末好好测试一下。</p>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "openai 最新的 websocket 协议支持 预缓存了，在预缓存的场景下首token延迟能到100ms级别，对实时交互的场景会非常友好。",
+      "link": "https://nitter.net/leeoxiang/status/2026214722421633273#m",
+      "pubDate": "Tue, 24 Feb 2026 08:36:49 GMT",
+      "description": "<p>openai 最新的 websocket 协议支持 预缓存了，在预缓存的场景下首token延迟能到100ms级别，对实时交互的场景会非常友好。</p>\n<img src=\"https://nitter.net/pic/media%2FHB6PjHOaUAAvKpZ.jpg\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "目前 Websocket in Response API 多个会话之间连接无法复用：\n\n1、对于首包延迟提升不大；\n2、对于有很多轮 tool call 场景提升会比较大；",
+      "link": "https://nitter.net/leeoxiang/status/2026111246010056764#m",
+      "pubDate": "Tue, 24 Feb 2026 01:45:39 GMT",
+      "description": "<p>目前 Websocket in Response API 多个会话之间连接无法复用：<br>\n<br>\n1、对于首包延迟提升不大；<br>\n2、对于有很多轮 tool call 场景提升会比较大；</p>\n<hr/>\n<blockquote>\n<b>OpenAI Developers (@OpenAIDevs)</b>\n<p>\n<p>Introducing WebSockets in the Responses API.<br>\n<br>\nBuilt for low-latency, long-running agents with heavy tool calls.<br>\n<br>\n<a href=\"http://developers.openai.com/api/docs/guides/websocket-mode\">developers.openai.com/api/do…</a></p>\n<a href=\"https://nitter.net/OpenAIDevs/status/2026025368650690932#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2026025302938529792%2Fimg%2FcVxcUg2A2KrLgKgE.jpg\" style=\"max-width:250px;\" />\n</a>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/OpenAIDevs/status/2026025368650690932#m\">https://nitter.net/OpenAIDevs/status/2026025368650690932#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "Claude Code 是足够聪明的，我用了一套非常简单的操作指令：\n\n1、pr && main && checkout \n2、ci && merge && main\n\nCC都能非常好的理解。",
+      "link": "https://nitter.net/leeoxiang/status/2025839717473014204#m",
+      "pubDate": "Mon, 23 Feb 2026 07:46:41 GMT",
+      "description": "<p>Claude Code 是足够聪明的，我用了一套非常简单的操作指令：<br>\n<br>\n1、pr &amp;&amp; main &amp;&amp; checkout <br>\n2、ci &amp;&amp; merge &amp;&amp; main<br>\n<br>\nCC都能非常好的理解。</p>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "claude code 官方支持了 worktree  就很爽了，目前完全是 github issue 驱动开发。\n\n1、在 github 上创建一个 issue；\n2、claude code 启动一个 worktree，读取这个 issue，进入 plan mode 设计方案，设计方案自动提交到 issue 中；\n3、提交 PR，并把最终的方案的说明更新到 issue。\n\n进入下一个 issue。",
+      "link": "https://nitter.net/leeoxiang/status/2025515205867004119#m",
+      "pubDate": "Sun, 22 Feb 2026 10:17:11 GMT",
+      "description": "<p>claude code 官方支持了 worktree  就很爽了，目前完全是 github issue 驱动开发。<br>\n<br>\n1、在 github 上创建一个 issue；<br>\n2、claude code 启动一个 worktree，读取这个 issue，进入 plan mode 设计方案，设计方案自动提交到 issue 中；<br>\n3、提交 PR，并把最终的方案的说明更新到 issue。<br>\n<br>\n进入下一个 issue。</p>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "Cloudflare  Sandbox 非常好用：\n\n每个 Sandbox 挂载一个 R2 上的一个目录，把 Agent 生成的上下文都同步到 R2 的这个目录中，既能解决权限问题 也能解决分布式 文件同步的问题。",
+      "link": "https://nitter.net/leeoxiang/status/2025471930602824174#m",
+      "pubDate": "Sun, 22 Feb 2026 07:25:14 GMT",
+      "description": "<p>Cloudflare  Sandbox 非常好用：<br>\n<br>\n每个 Sandbox 挂载一个 R2 上的一个目录，把 Agent 生成的上下文都同步到 R2 的这个目录中，既能解决权限问题 也能解决分布式 文件同步的问题。</p>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "Vibe Coding 了一个用 remotion +  excalidraw 制作视频的小工具，上线准备中。。。",
+      "link": "https://nitter.net/leeoxiang/status/2025072529166201298#m",
+      "pubDate": "Sat, 21 Feb 2026 04:58:09 GMT",
+      "description": "<p>Vibe Coding 了一个用 remotion +  excalidraw 制作视频的小工具，上线准备中。。。</p>\n<a href=\"https://nitter.net/leeoxiang/status/2025072529166201298#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2025072164844843012%2Fimg%2FOqkJjy-A_Q2vGIxA.jpg\" style=\"max-width:250px;\" />\n</a>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "Cloudflare 把 workers + sandbox + R2  + agent sdk 都打通了，妥妥的 Agent Infra 公司，继续加仓一部分。",
+      "link": "https://nitter.net/leeoxiang/status/2024891994192109689#m",
+      "pubDate": "Fri, 20 Feb 2026 17:00:46 GMT",
+      "description": "<p>Cloudflare 把 workers + sandbox + R2  + agent sdk 都打通了，妥妥的 Agent Infra 公司，继续加仓一部分。</p>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "不搞 agent 不知道上下文有多紧张。",
+      "link": "https://nitter.net/leeoxiang/status/2024732197270507669#m",
+      "pubDate": "Fri, 20 Feb 2026 06:25:48 GMT",
+      "description": "<p>不搞 agent 不知道上下文有多紧张。</p>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "春节回来之后就会有“百虾大战”了\n\n看到好多家都在搞。",
+      "link": "https://nitter.net/leeoxiang/status/2024393058176184759#m",
+      "pubDate": "Thu, 19 Feb 2026 07:58:11 GMT",
+      "description": "<p>春节回来之后就会有“百虾大战”了<br>\n<br>\n看到好多家都在搞。</p>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "这么一对比就能解释通了，为啥这么上瘾。",
+      "link": "https://nitter.net/leeoxiang/status/2024026367612895589#m",
+      "pubDate": "Wed, 18 Feb 2026 07:41:05 GMT",
+      "description": "<p>这么一对比就能解释通了，为啥这么上瘾。</p>\n<img src=\"https://nitter.net/pic/media%2FHBbJMNNaEAA_sh1.png\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "给 agent 设计的 auth 方案：Vestauth\n\nhttps://github.com/vestauth/vestauth",
+      "link": "https://nitter.net/leeoxiang/status/2024015194108621050#m",
+      "pubDate": "Wed, 18 Feb 2026 06:56:41 GMT",
+      "description": "<p>给 agent 设计的 auth 方案：Vestauth<br>\n<br>\n<a href=\"https://github.com/vestauth/vestauth\">github.com/vestauth/vestauth</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2029359095703289856%2F2DgYC783%3Fformat%3Djpg%26name%3D800x419\" style=\"max-width:250px;\" />"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "有意思，做 UI 这个就非常方便了",
+      "link": "https://nitter.net/leeoxiang/status/2023708397045268801#m",
+      "pubDate": "Tue, 17 Feb 2026 10:37:35 GMT",
+      "description": "<p>有意思，做 UI 这个就非常方便了</p>\n<hr/>\n<blockquote>\n<b>Mike Bespalov (@bbssppllvv)</b>\n<p>\n<p>AI agents read markdown better than they read your mind<br>\n<br>\nBuilt an ascii wireframe editor. Draw a page in 30 seconds, copy/paste into Claude Code and get a full working page back</p>\n<a href=\"https://nitter.net/bbssppllvv/status/2023425897442037973#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2023425410449780736%2Fimg%2FTuo1Rt2ehOYcZEGN.jpg\" style=\"max-width:250px;\" />\n</a>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/bbssppllvv/status/2023425897442037973#m\">https://nitter.net/bbssppllvv/status/2023425897442037973#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "pi-mono 支持自定义上线文管理，通过 skill 来拓展能力，有完整的 extension 生命周期事件，整个定制性更好。\n\n目前的方案是：用 claude agent sdk 来快速验证原型，然后用 pi-mono 改写来做深度优化。",
+      "link": "https://nitter.net/leeoxiang/status/2023660944686280903#m",
+      "pubDate": "Tue, 17 Feb 2026 07:29:01 GMT",
+      "description": "<p>pi-mono 支持自定义上线文管理，通过 skill 来拓展能力，有完整的 extension 生命周期事件，整个定制性更好。<br>\n<br>\n目前的方案是：用 claude agent sdk 来快速验证原型，然后用 pi-mono 改写来做深度优化。</p>\n<hr/>\n<blockquote>\n<b>Leo Xiang (@leeoxiang)</b>\n<p>\n<p>目前比较好的 agent 框架可能是 pi-mono，claude agent sdk 能定制的空间还是略小了。<br>\n<br>\n下个项目尝试用 pi-mono 来替换 claude agent sdk。</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/leeoxiang/status/2023659966566220108#m\">https://nitter.net/leeoxiang/status/2023659966566220108#m</a>\n</footer>\n</blockquote>"
+    },
+    {
+      "handle": "leeoxiang",
+      "title": "目前比较好的 agent 框架可能是 pi-mono，claude agent sdk 能定制的空间还是略小了。\n\n下个项目尝试用 pi-mono 来替换 claude agent sdk。",
+      "link": "https://nitter.net/leeoxiang/status/2023659966566220108#m",
+      "pubDate": "Tue, 17 Feb 2026 07:25:08 GMT",
+      "description": "<p>目前比较好的 agent 框架可能是 pi-mono，claude agent sdk 能定制的空间还是略小了。<br>\n<br>\n下个项目尝试用 pi-mono 来替换 claude agent sdk。</p>"
+    }
+  ]
+}

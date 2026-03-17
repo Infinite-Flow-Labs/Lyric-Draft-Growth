@@ -1,0 +1,29 @@
+{
+  "topic": {
+    "score": 8,
+    "handle": "AndrewYNg",
+    "link": "https://nitter.net/AndrewYNg/status/2014391843056975982#m",
+    "description": "<p>New course: Gemini CLI: Code & Create with an Open-Source Agent, built with <a href=\"https://nitter.net/googlecloudtech\" title=\"Google Cloud Tech\">@googlecloudtech</a>/<a href=\"https://nitter.net/geminicli\" title=\"Gemini CLI\">@geminicli</a> and taught by <a href=\"https://nitter.net/JackWoth98\" title=\"Jack Wotherspoon\">@JackWoth98</a>.<br>\n<br>\nAgentic coding assistants like Gemini CLI are transforming how developers work. This short course teaches you to use Google's open-source agent to coordinate local tools and cloud services for coding and non-coding workflows.<br>\n<br>\nGemini CLI works from your terminal, so it works with your local files and development tools. You can also connect it to services through MCP. Then provide high-level instructions, and it autonomously plans and executes complex workflows.<br>\n<br>\nSkills you'll gain:<br>\n- Build website features and automate code reviews with GitHub ActionsCreate data dashboards that combine local files with cloud data sources<br>\n- Use MCP servers and extensions to orchestrate workflows across GitHub, Canva, and Google Workspace<br>\n- Generate social media content from multimedia files like conference recordings<br>\n<br>\nI particularly appreciate that Gemini CLI is open-source. You can see exactly how it works, read the prompts it uses, and understand its architecture. The community has contributed thousands of pull requests. Since Gemini 3’s release I've found Gemini CLI highly capable - this is a tool worth having in your toolbox!<br>\n<br>\nWhether you're prototyping applications, automating workflows, or working with multimedia content, join to learn to delegate complex tasks and build faster: <a href=\"https://www.deeplearning.ai/short-courses/gemini-cli-code-and-create-with-an-open-source-agent/\">deeplearning.ai/short-course…</a></p>\n<a href=\"https://nitter.net/AndrewYNg/status/2014391843056975982#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2014390629220933632%2Fimg%2FRPigkTz9w1HnLO5W.jpg\" style=\"max-width:250px;\" />\n</a>",
+    "title": "我的 AI Team 日常使用流程",
+    "type": "AI工作流分享 (E)",
+    "topic_id": "50",
+    "template": "strategy/templates/E_workflow/style_contrast_review.md",
+    "angle": "反常识",
+    "audience": "产品经理",
+    "outcome": "提升稳定交付",
+    "template_text": "# E类模板｜AI工作流分享｜前后对照复盘风\n\n## 用途\n- 强调端到端流程设计与可复用节点\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题直接给出前后差异或代价反差\n- 开头先说“改之前最痛的点”\n- 中段写这次改了哪几个关键动作，避免抽象概念\n- 至少放一个可验证对比数据（如40分钟→12分钟）\n- 结尾写“还没完，下一轮准备怎么调”\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  },
+  "model": "gpt-5.3-codex",
+  "prompt_hash": "8ae6afe75e497aa3fe3ed47a27d7570b111c23795b221c5c34526802e82b9fd9",
+  "rewrite_count": 0,
+  "quality_gate_passed": true,
+  "quality_gate": {
+    "has_action": true,
+    "has_metric": true,
+    "has_boundary": true,
+    "topic_similarity": 0.0299,
+    "max_history_similarity": 0.063,
+    "reasons": []
+  },
+  "generated_at": "2026-03-13T07:26:48.964134+00:00"
+}

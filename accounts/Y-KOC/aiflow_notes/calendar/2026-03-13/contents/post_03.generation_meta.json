@@ -1,0 +1,29 @@
+{
+  "topic": {
+    "score": 7,
+    "handle": "leeoxiang",
+    "link": "https://nitter.net/leeoxiang/status/2028331811890507839#m",
+    "description": "<p>这个给 Computer use 带来想象空间了：<br>\n<br>\n大家的 Electron 应用 暴漏一下 Chrome DevTools Protocol (CDP) 协议，这样就都可以被 AI 控制了。<br>\n<br>\nGUI 应用同时给人和 AI 用。</p>\n<hr/>\n<blockquote>\n<b>Chris Tate (@ctatedev)</b>\n<p>\n<p>The \"holy shit\" moment when I realized agent-browser can control Slack<br>\n<br>\nnpx skills add vercel-labs/agent-browser --skill slack</p>\n<a href=\"https://nitter.net/ctatedev/status/2027809304116342846#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2027809235107454976%2Fimg%2FmzwXXQmKJzp4W2o-.jpg\" style=\"max-width:250px;\" />\n</a>\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ctatedev/status/2027809304116342846#m\">https://nitter.net/ctatedev/status/2027809304116342846#m</a>\n</footer>\n</blockquote>",
+    "title": "我的任务拆解模板：从目标到可执行动作",
+    "type": "AI能力放大 (C)",
+    "topic_id": "3",
+    "template": "strategy/templates/C_augmentation/style_checklist_breakdown.md",
+    "angle": "方法拆解",
+    "audience": "内容运营",
+    "outcome": "提高转化效率",
+    "template_text": "# 工作流写作风格约束\n\n## 目标\n- 解决一个具体工作问题\n- 给出可直接执行的步骤\n- 让读者看完就能照做\n\n## 写法约束\n- 开头必须出现：问题/代价/变化三者之一\n- 中段强调动作链，不强制固定小标题\n- 必须出现可验证结果（速度、返工、稳定性、转化等）\n- 结尾给出适用边界（何时可用、何时不建议）\n\n## 禁止\n- 空泛观点\n- 只讲概念不讲动作\n- 每篇都使用同一段落骨架\n"
+  },
+  "model": "gpt-5.3-codex",
+  "prompt_hash": "547f2603eef6ed38d7ae3f4b1741c55b524b002317aa86cc5ef8e0b20499fe35",
+  "rewrite_count": 0,
+  "quality_gate_passed": true,
+  "quality_gate": {
+    "has_action": true,
+    "has_metric": true,
+    "has_boundary": true,
+    "topic_similarity": 0.0,
+    "max_history_similarity": 0.0684,
+    "reasons": []
+  },
+  "generated_at": "2026-03-13T06:49:13.357293+00:00"
+}

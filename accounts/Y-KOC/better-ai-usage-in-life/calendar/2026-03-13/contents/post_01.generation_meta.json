@@ -1,0 +1,29 @@
+{
+  "topic": {
+    "score": 10,
+    "handle": "pascal_bornet",
+    "link": "https://nitter.net/pascal_bornet/status/2029878845269254264#m",
+    "description": "<p>Everyone keeps saying the AI race is about bigger models.<br>\n<br>\nMore parameters.<br>\nMore data.<br>\nMore compute.<br>\n<br>\nThat has been the playbook for the last two years.<br>\n<br>\nBut when I looked at OpenAI’s new release this week, one detail caught my attention.<br>\n<br>\nOpenAI introduced 𝐆𝐏𝐓-𝟓.𝟒, its latest frontier model.<br>\n<br>\nAnd alongside it, two modes:<br>\n<br>\n→ 𝐏𝐫𝐨<br>\n→ 𝐓𝐡𝐢𝐧𝐤𝐢𝐧𝐠<br>\n<br>\nThe name may sound like marketing.<br>\n<br>\nBut it signals something interesting.<br>\n<br>\nFor most of the generative AI era, models were optimized for speed.<br>\n<br>\nAsk a question.<br>\nGet an answer instantly.<br>\n<br>\nNow the system can pause, reason through multiple steps, and even let you interrupt the response mid-generation to redirect it.<br>\n<br>\nUnder the hood, GPT-5.4 combines the coding strength of GPT-5.3 Codex, coordinates across tools like spreadsheets, presentations, and documents, and supports up to 𝟏 𝐦𝐢𝐥𝐥𝐢𝐨𝐧 tokens of context.<br>\n<br>\nIt can even interact directly with software.<br>\n<br>\nWhich hints at a bigger transition.<br>\n<br>\nEarly generative AI was excellent at producing content.<br>\n<br>\nBut models like this are starting to move toward executing work.<br>\n<br>\n→ chatbots answer questions<br>\n→ reasoning systems solve tasks<br>\n<br>\n→ AI tools generate outputs<br>\n→ AI agents operate inside software<br>\n<br>\nIn other words:<br>\n<br>\nAI is slowly moving from chatbots to digital coworkers.<br>\n<br>\nAnd that raises a practical question.<br>\n<br>\nIf an AI can navigate software, maintain long context, and execute tasks across tools…<br>\n<br>\nwould you trust it to run work across your computer?<br>\n<br>\n<a href=\"https://nitter.net/search?f=tweets&q=%23AI\">#AI</a> <a href=\"https://nitter.net/search?f=tweets&q=%23ArtificialIntelligence\">#ArtificialIntelligence</a> <a href=\"https://nitter.net/search?f=tweets&q=%23OpenAI\">#OpenAI</a> <a href=\"https://nitter.net/search?f=tweets&q=%23Automation\">#Automation</a> <a href=\"https://nitter.net/search?f=tweets&q=%23FutureOfWork\">#FutureOfWork</a></p>\n<img src=\"https://nitter.net/pic/media%2FHCuUDZDa4AEmcr1.png\" style=\"max-width:250px;\" />",
+    "title": "A no-code AI workflow for personal operations and planning",
+    "type": "AI Workflow (E)",
+    "topic_id": "9",
+    "template": "strategy/templates/E_workflow/style_contrast_review.md",
+    "angle": "Pitfall review",
+    "audience": "Everyday users",
+    "outcome": "Increase output",
+    "template_text": "# E | Workflow - Contrast Review Style\n\n## Purpose\nWrite practical, information-dense English posts for X.\n\n## Structure\n- 1-line sharp conclusion\n- 2-4 concrete actions or observations\n- at least one measurable/result-oriented detail\n- clear boundary: who this works for and when it does not\n\n## Must Include\n- real action details (what was done)\n- before/after or cost/benefit signal\n- reusable takeaway\n\n## Forbidden\n- empty hype\n- generic AI slogans\n- long abstract paragraphs without execution detail\n"
+  },
+  "model": "gpt-5.3-codex",
+  "prompt_hash": "9447ab0fc480047cdc001b92490f4253db234d1fa8b78217a01651b41f6d7560",
+  "rewrite_count": 0,
+  "quality_gate_passed": true,
+  "quality_gate": {
+    "has_action": true,
+    "has_metric": true,
+    "has_boundary": true,
+    "topic_similarity": 0.039,
+    "max_history_similarity": 0.4638,
+    "reasons": []
+  },
+  "generated_at": "2026-03-13T06:41:47.910650+00:00"
+}

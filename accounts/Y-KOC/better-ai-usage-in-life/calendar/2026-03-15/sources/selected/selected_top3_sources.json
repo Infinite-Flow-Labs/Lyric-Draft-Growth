@@ -1,0 +1,26 @@
+[
+  {
+    "handle": "dotey",
+    "title": "RT by @dotey: 持续高产中，reddit cli 它也来了！迎接 CLI 宇宙！\n\nreddit 功能实在是太丰富了\n欢迎大家多多反馈，出现的问题和功能需求都可以 issue或者艾特我。\n\n另外求转发，主要是Reddit 很多国外的人也可以用, 但是关注我的并没有什么国外的\n\n一个 Reddit CLI，可以直接在终端里：\n看 feed、逛 subreddit、搜索帖子、读评论树、导出结果，甚至做 upvote/save/subscribe 这些基础交互。\n\n还做了几个我自己很喜欢的细节：\n- `rdt show 3` 这种短索引操作很顺手\n- 自动从浏览器提取 cookies 登录\n- 支持 JSON / YAML，方便脚本和 AI agent\n\n最近还要一边学习很多东西，然后一边做东西. 真的很忙，累坏了.\n\nhttps://github.com/jackwener/rdt-cli",
+    "link": "https://nitter.net/jakevin7/status/2032751167302746369#m",
+    "pubDate": "Sat, 14 Mar 2026 09:30:19 GMT",
+    "description": "<p>持续高产中，reddit cli 它也来了！迎接 CLI 宇宙！<br>\n<br>\nreddit 功能实在是太丰富了<br>\n欢迎大家多多反馈，出现的问题和功能需求都可以 issue或者艾特我。<br>\n<br>\n另外求转发，主要是Reddit 很多国外的人也可以用, 但是关注我的并没有什么国外的<br>\n<br>\n一个 Reddit CLI，可以直接在终端里：<br>\n看 feed、逛 subreddit、搜索帖子、读评论树、导出结果，甚至做 upvote/save/subscribe 这些基础交互。<br>\n<br>\n还做了几个我自己很喜欢的细节：<br>\n- `rdt show 3` 这种短索引操作很顺手<br>\n- 自动从浏览器提取 cookies 登录<br>\n- 支持 JSON / YAML，方便脚本和 AI agent<br>\n<br>\n最近还要一边学习很多东西，然后一边做东西. 真的很忙，累坏了.<br>\n<br>\n<a href=\"https://github.com/jackwener/rdt-cli\">github.com/jackwener/rdt-cli</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDXCINLaMAASTaZ.jpg\" style=\"max-width:250px;\" />",
+    "source_kind": "benchmark"
+  },
+  {
+    "handle": "dotey",
+    "title": "Learn Claude Code 是真做的好，强烈推荐👍 \n项目作者：@baicai003\n\n很多人用 Claude Code 或 Cursor 写代码，觉得 AI 编程助手很神奇，但如果问一句\"它到底是怎么工作的\"，大部分人答不上来。\n\nLearn Claude Code 这个开源项目做的事情很简单：用 12 节课，从零开始搭一个类似 Claude Code 的 AI Agent，每节课只加一个机制，每个机制都有可运行的 Python 代码。\n\n这个项目的核心洞察是：所有 AI 编程 Agent 的底层都是同一个循环。用户发消息给模型，模型决定要不要调用工具，调用了就执行，把结果喂回去，继续循环，直到模型觉得任务完成了。\n\n整个 Agent 的最小实现不到 30 行代码。剩下的一切，规划、子任务拆分、上下文压缩、多 Agent 协作、工作目录隔离，都是在这个循环上面一层一层叠加的。12 节课就是这 12 层。\n\n学习路径设计得很讲究。\n\n前两节搞定核心循环和工具调用\n\n第三节加入计划能力（没有计划的 Agent 会跑偏）\n\n第四到六节处理子 Agent、技能加载和上下文压缩（上下文窗口是有限的，不压缩大项目根本跑不动）\n\n第七八节做任务持久化和后台执行，最后四节进入多 Agent 协作：组队、通信协议、自主领取任务、工作目录隔离。从一个人干活，到一个团队协作，复杂度是渐进的。\n\n项目配了一个交互式 Web 平台（http://learn-claude-agents.vercel.app），有步骤图解、源码查看器和文档，支持英文、中文、日文三种语言。\n\n文档风格是\"心智模型优先\"：先讲问题是什么，再讲解决方案，配 ASCII 图，最后是最小可运行代码。\n\n对想搞懂 AI Agent 内部原理的开发者来说，这可能是目前最好的从零到一的学习路径。不需要什么前置知识，有 Python 基础就能跟。\n\n学完之后再去看 Claude Code 或者任何 Agent 框架的源码，会发现都和这个教程介绍的差不多。",
+    "link": "https://nitter.net/dotey/status/2032613262525644985#m",
+    "pubDate": "Sat, 14 Mar 2026 00:22:20 GMT",
+    "description": "<p>Learn Claude Code 是真做的好，强烈推荐👍 <br>\n项目作者：<a href=\"https://nitter.net/baicai003\" title=\"Baicai\">@baicai003</a><br>\n<br>\n很多人用 Claude Code 或 Cursor 写代码，觉得 AI 编程助手很神奇，但如果问一句\"它到底是怎么工作的\"，大部分人答不上来。<br>\n<br>\nLearn Claude Code 这个开源项目做的事情很简单：用 12 节课，从零开始搭一个类似 Claude Code 的 AI Agent，每节课只加一个机制，每个机制都有可运行的 Python 代码。<br>\n<br>\n这个项目的核心洞察是：所有 AI 编程 Agent 的底层都是同一个循环。用户发消息给模型，模型决定要不要调用工具，调用了就执行，把结果喂回去，继续循环，直到模型觉得任务完成了。<br>\n<br>\n整个 Agent 的最小实现不到 30 行代码。剩下的一切，规划、子任务拆分、上下文压缩、多 Agent 协作、工作目录隔离，都是在这个循环上面一层一层叠加的。12 节课就是这 12 层。<br>\n<br>\n学习路径设计得很讲究。<br>\n<br>\n前两节搞定核心循环和工具调用<br>\n<br>\n第三节加入计划能力（没有计划的 Agent 会跑偏）<br>\n<br>\n第四到六节处理子 Agent、技能加载和上下文压缩（上下文窗口是有限的，不压缩大项目根本跑不动）<br>\n<br>\n第七八节做任务持久化和后台执行，最后四节进入多 Agent 协作：组队、通信协议、自主领取任务、工作目录隔离。从一个人干活，到一个团队协作，复杂度是渐进的。<br>\n<br>\n项目配了一个交互式 Web 平台（<a href=\"http://learn-claude-agents.vercel.app\">learn-claude-agents.vercel.a…</a>），有步骤图解、源码查看器和文档，支持英文、中文、日文三种语言。<br>\n<br>\n文档风格是\"心智模型优先\"：先讲问题是什么，再讲解决方案，配 ASCII 图，最后是最小可运行代码。<br>\n<br>\n对想搞懂 AI Agent 内部原理的开发者来说，这可能是目前最好的从零到一的学习路径。不需要什么前置知识，有 Python 基础就能跟。<br>\n<br>\n学完之后再去看 Claude Code 或者任何 Agent 框架的源码，会发现都和这个教程介绍的差不多。</p>\n<hr/>\n<blockquote>\n<b>Tw93 (@HiTw93)</b>\n<p>\n<p>A great resource if you want to understand how AI coding agents work. Learn Claude Code walks through building a minimal Claude Code like agent from scratch, explaining each mechanism step by step. <br>\n<br>\nYou’ll see the core loop most coding agents share: call the model, execute tools, feed the results back, and iterate. A clean way to understand how these systems are actually built.<br>\n<a href=\"https://learn-claude-agents.vercel.app/\">learn-claude-agents.vercel.a…</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDD9ReYbwAAkbwi.jpg\" style=\"max-width:250px;\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/HiTw93/status/2032594555099308056#m\">https://nitter.net/HiTw93/status/2032594555099308056#m</a>\n</footer>\n</blockquote>",
+    "source_kind": "benchmark"
+  },
+  {
+    "handle": "dotey",
+    "title": "R to @dotey: 镜像",
+    "link": "https://nitter.net/dotey/status/2032893564074475841#m",
+    "pubDate": "Sat, 14 Mar 2026 18:56:09 GMT",
+    "description": "<p>镜像</p>\n<hr/>\n<blockquote>\n<b>哥飞 (@gefei55)</b>\n<p>\n<p>原仓库的 Vercel 部署无法正常打开，我用我账号部署了一份，地址在这里 <a href=\"https://learn-cc-agent.vercel.app/\">learn-cc-agent.vercel.app/</a> 。这是放在我的付费账号下的，如有需要，可以使用。基于原版项目部署，未做任何改动。</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/gefei55/status/2032849431377359056#m\">https://nitter.net/gefei55/status/2032849431377359056#m</a>\n</footer>\n</blockquote>",
+    "source_kind": "benchmark"
+  }
+]

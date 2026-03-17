@@ -1,0 +1,30 @@
+{
+  "provider": "kie",
+  "article": "/root/.openclaw/agent-workspaces/growth-assistant/accounts/Y-KOC/better-ai-usage-in-life/calendar/2026-03-13/contents/post_03.md",
+  "title": "Using AI as a second brain for study and project planning",
+  "prompt": "Create a high-CTR X/Twitter cover image in 16:9, modern neutral motion-illustration style. Topic: Using AI as a second brain for study and project planning. Core visual: one clear before-vs-after story with a strong focal subject. Style requirement: use tasteful animated/illustrated elements (neutral, not childish), with richer design layers and depth. Text density: medium; include 2-4 short hooks/labels (not long paragraphs), each concise and scannable. Use strong composition, clear visual hierarchy, and eye-catching focal contrast. Color constraints: avoid dark blue-purple geek style; prefer warm neutral / off-white / sage / soft coral accents. Quality constraints: no clutter, no watermark, no logo, no gibberish text artifacts, no UI screenshot overload. Goal: visually attractive at first glance while keeping the key message obvious.",
+  "task_id": "f4039fc98e936b6fb703e435daf5b999",
+  "result": {
+    "code": 200,
+    "msg": "success",
+    "data": {
+      "taskId": "f4039fc98e936b6fb703e435daf5b999",
+      "model": "nano-banana-2",
+      "state": "success",
+      "param": "{\"input\":\"{\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"jpg\\\",\\\"google_search\\\":false,\\\"prompt\\\":\\\"Create a high-CTR X/Twitter cover image in 16:9, modern neutral motion-illustration style. Topic: Using AI as a second brain for study and project planning. Core visual: one clear before-vs-after story with a strong focal subject. Style requirement: use tasteful animated/illustrated elements (neutral, not childish), with richer design layers and depth. Text density: medium; include 2-4 short hooks/labels (not long paragraphs), each concise and scannable. Use strong composition, clear visual hierarchy, and eye-catching focal contrast. Color constraints: avoid dark blue-purple geek style; prefer warm neutral / off-white / sage / soft coral accents. Quality constraints: no clutter, no watermark, no logo, no gibberish text artifacts, no UI screenshot overload. Goal: visually attractive at first glance while keeping the key message obvious.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+      "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/image-format-converter/1773369228623-387k2rhx5xr.jpg\"]}",
+      "failCode": null,
+      "failMsg": null,
+      "costTime": 72,
+      "completeTime": 1773369229413,
+      "createTime": 1773369155458
+    }
+  },
+  "image_urls": [
+    "https://tempfile.aiquickdraw.com/image-format-converter/1773369228623-387k2rhx5xr.jpg"
+  ],
+  "downloaded_files": [
+    "/root/.openclaw/agent-workspaces/growth-assistant/accounts/Y-KOC/better-ai-usage-in-life/calendar/2026-03-13/contents/assets/post_03_kie_1.jpg"
+  ],
+  "download_errors": []
+}

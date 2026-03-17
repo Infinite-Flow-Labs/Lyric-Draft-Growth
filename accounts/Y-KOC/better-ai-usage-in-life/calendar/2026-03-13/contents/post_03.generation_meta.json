@@ -1,0 +1,29 @@
+{
+  "topic": {
+    "score": 7,
+    "handle": "leeoxiang",
+    "link": "https://nitter.net/leeoxiang/status/2028331811890507839#m",
+    "description": "<p>这个给 Computer use 带来想象空间了：<br>\n<br>\n大家的 Electron 应用 暴漏一下 Chrome DevTools Protocol (CDP) 协议，这样就都可以被 AI 控制了。<br>\n<br>\nGUI 应用同时给人和 AI 用。</p>\n<hr/>\n<blockquote>\n<b>Chris Tate (@ctatedev)</b>\n<p>\n<p>The \"holy shit\" moment when I realized agent-browser can control Slack<br>\n<br>\nnpx skills add vercel-labs/agent-browser --skill slack</p>\n<a href=\"https://nitter.net/ctatedev/status/2027809304116342846#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2027809235107454976%2Fimg%2FmzwXXQmKJzp4W2o-.jpg\" style=\"max-width:250px;\" />\n</a>\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ctatedev/status/2027809304116342846#m\">https://nitter.net/ctatedev/status/2027809304116342846#m</a>\n</footer>\n</blockquote>",
+    "title": "Using AI as a second brain for study and project planning",
+    "type": "AI Augmentation (C)",
+    "topic_id": "3",
+    "template": "strategy/templates/C_augmentation/style_checklist_breakdown.md",
+    "angle": "Method breakdown",
+    "audience": "Students",
+    "outcome": "Improve conversion efficiency",
+    "template_text": "# C | Augmentation - Checklist Breakdown Style\n\n## Purpose\nWrite practical, information-dense English posts for X.\n\n## Structure\n- 1-line sharp conclusion\n- 2-4 concrete actions or observations\n- at least one measurable/result-oriented detail\n- clear boundary: who this works for and when it does not\n\n## Must Include\n- real action details (what was done)\n- before/after or cost/benefit signal\n- reusable takeaway\n\n## Forbidden\n- empty hype\n- generic AI slogans\n- long abstract paragraphs without execution detail\n"
+  },
+  "model": "gpt-5.3-codex",
+  "prompt_hash": "d9873f89ff8aec5c5505f8f2f0e67ad94225596734b6b87fe4c77e6a97166125",
+  "rewrite_count": 0,
+  "quality_gate_passed": true,
+  "quality_gate": {
+    "has_action": true,
+    "has_metric": true,
+    "has_boundary": true,
+    "topic_similarity": 0.0396,
+    "max_history_similarity": 0.2394,
+    "reasons": []
+  },
+  "generated_at": "2026-03-13T06:42:39.250401+00:00"
+}

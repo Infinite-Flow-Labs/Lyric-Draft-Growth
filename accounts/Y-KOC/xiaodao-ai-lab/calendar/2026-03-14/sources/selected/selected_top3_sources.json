@@ -1,0 +1,26 @@
+[
+  {
+    "handle": "op7418",
+    "title": "同时也优化了 Codepilot 这部分文档的写作方式\n\n它更像是一个教程，尤其是增加了一些基础概念的解释。\n\n如果你是一个小白的话，也可以根据这些文档去理解和使用这些功能。",
+    "link": "https://nitter.net/op7418/status/2032296560877539831#m",
+    "pubDate": "Fri, 13 Mar 2026 03:23:53 GMT",
+    "description": "<p>同时也优化了 Codepilot 这部分文档的写作方式<br>\n<br>\n它更像是一个教程，尤其是增加了一些基础概念的解释。<br>\n<br>\n如果你是一个小白的话，也可以根据这些文档去理解和使用这些功能。</p>\n<img src=\"https://nitter.net/pic/media%2FHDQqySabQAAw2pr.jpg\" style=\"max-width:250px;\" />\n\n<hr/>\n<blockquote>\n<b>歸藏(guizang.ai) (@op7418)</b>\n<p>\n<p>CodePilot 0.34.2 版本已经支持了所有的 Git 能力<br>\n<br>\n你可以可视化的管理当前项目的 Git <br>\n<br>\n进行提交、推送、分析差异以及创建和派生工作树</p>\n<img src=\"https://nitter.net/pic/media%2FHDQpSE4bQAQ9Uu_.jpg\" style=\"max-width:250px;\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/op7418/status/2032294963703349623#m\">https://nitter.net/op7418/status/2032294963703349623#m</a>\n</footer>\n</blockquote>",
+    "source_kind": "benchmark"
+  },
+  {
+    "handle": "op7418",
+    "title": "CodePilot 0.34.2 版本已经支持了所有的 Git 能力\n\n你可以可视化的管理当前项目的 Git \n\n进行提交、推送、分析差异以及创建和派生工作树",
+    "link": "https://nitter.net/op7418/status/2032294963703349623#m",
+    "pubDate": "Fri, 13 Mar 2026 03:17:32 GMT",
+    "description": "<p>CodePilot 0.34.2 版本已经支持了所有的 Git 能力<br>\n<br>\n你可以可视化的管理当前项目的 Git <br>\n<br>\n进行提交、推送、分析差异以及创建和派生工作树</p>\n<img src=\"https://nitter.net/pic/media%2FHDQpSE4bQAQ9Uu_.jpg\" style=\"max-width:250px;\" />",
+    "source_kind": "benchmark"
+  },
+  {
+    "handle": "op7418",
+    "title": "R to @op7418: 用的 Obsidian 作者的 Defuddle 项目\n\nhttps://x.com/kepano/status/2032123160536236461?s=20",
+    "link": "https://nitter.net/op7418/status/2032293565758652727#m",
+    "pubDate": "Fri, 13 Mar 2026 03:11:58 GMT",
+    "description": "<p>用的 Obsidian 作者的 Defuddle 项目<br>\n<br>\n<a href=\"https://nitter.net/kepano/status/2032123160536236461?s=20\">nitter.net/kepano/status/20321231…</a></p>\n<hr/>\n<blockquote>\n<b>kepano (@kepano)</b>\n<p>\n<p>Defuddle now returns Youtube transcripts!<br>\n<br>\nPaste a YouTube link into defuddle.md to get a markdown transcript with timestamps, chapters, and pretty good diarization!<br>\n<br>\n...or if you just want to read it, try the new Reader mode in Obsidian Web Clipper powered by Defuddle.</p>\n<a href=\"https://nitter.net/kepano/status/2032123160536236461#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2032121593703645186%2Fimg%2FWUtf8C662vNRNMB_.jpg\" style=\"max-width:250px;\" />\n</a>\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/kepano/status/2032123160536236461#m\">https://nitter.net/kepano/status/2032123160536236461#m</a>\n</footer>\n</blockquote>",
+    "source_kind": "benchmark"
+  }
+]

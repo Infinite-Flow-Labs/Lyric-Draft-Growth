@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "has_failure_case": true,
+  "has_counter_view": true,
+  "has_resource_constraints": true,
+  "has_kpi_quad": true,
+  "has_task_level_mapping": true,
+  "has_org_resistance": false,
+  "has_24h_actions": true,
+  "has_quote_line": true,
+  "low_template_tone": true,
+  "has_tension_transition": false,
+  "has_author_fingerprint": false,
+  "pass_count": 8
+}

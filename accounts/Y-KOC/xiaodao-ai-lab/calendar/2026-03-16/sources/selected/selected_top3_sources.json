@@ -1,0 +1,26 @@
+[
+  {
+    "handle": "op7418",
+    "title": "R to @op7418: 更新需要更 Skills 和上游依赖，跟 AI 说就行\n\n如果你之前已经在使用飞书桥接，升级到 v0.36.0 后需要在飞书开放平台补充以下配置，否则流式卡片和权限按钮将无法正常工作。\n\n  1. 添加卡片回调（必须）\n\n  进入应用 → 事件与回调：\n\n  - 确认连接模式为 长连接模式（WebSocket）\n  - 添加回调：card.action.trigger（卡片回传交互回调）\n\n  不添加则权限审批按钮和项目选择器点击无反应。\n\n  2. 新增权限（必须）\n\n  进入应用 → 权限管理，批量添加以下 6 个 scope（可直接复制粘贴到「批量开通」）：\n\n  cardkit:card:write\n  cardkit:card:read\n  im:message:update\n  im:message.reactions:read\n  im:message.reactions:write_only\n  im:resource\n\n  分别用于：流式卡片创建与更新、卡片状态读取、卡片内容实时刷新、表情回复读取、Typing 指示器、下载消息中的图片等资源。\n\n  3. 重新发布应用（必须）\n\n  权限变更后必须重新发布应用（提交审核或自审通过），否则新权限不会生效。",
+    "link": "https://nitter.net/op7418/status/2033203159880089904#m",
+    "pubDate": "Sun, 15 Mar 2026 15:26:23 GMT",
+    "description": "<p>更新需要更 Skills 和上游依赖，跟 AI 说就行<br>\n<br>\n如果你之前已经在使用飞书桥接，升级到 v0.36.0 后需要在飞书开放平台补充以下配置，否则流式卡片和权限按钮将无法正常工作。<br>\n<br>\n  1. 添加卡片回调（必须）<br>\n<br>\n  进入应用 → 事件与回调：<br>\n<br>\n  - 确认连接模式为 长连接模式（WebSocket）<br>\n  - 添加回调：card.action.trigger（卡片回传交互回调）<br>\n<br>\n  不添加则权限审批按钮和项目选择器点击无反应。<br>\n<br>\n  2. 新增权限（必须）<br>\n<br>\n  进入应用 → 权限管理，批量添加以下 6 个 scope（可直接复制粘贴到「批量开通」）：<br>\n<br>\n  cardkit:card:write<br>\n  cardkit:card:read<br>\n  im:message:update<br>\n  im:message.reactions:read<br>\n  im:message.reactions:write_only<br>\n  im:resource<br>\n<br>\n  分别用于：流式卡片创建与更新、卡片状态读取、卡片内容实时刷新、表情回复读取、Typing 指示器、下载消息中的图片等资源。<br>\n<br>\n  3. 重新发布应用（必须）<br>\n<br>\n  权限变更后必须重新发布应用（提交审核或自审通过），否则新权限不会生效。</p>",
+    "source_kind": "benchmark"
+  },
+  {
+    "handle": "op7418",
+    "title": "朋友们，Claude-to-im Skills 也更新了！\n\n现在可以让你的 Claude 和 Codex 链接飞书有飞书官方 Openclaw 插件的全部能力\n\n而且引导更加详细，会告诉你需要补的权限\n\n支持：流式卡片输出、工具调用进度 、权限审批按钮、项目快捷切换、Thinking 状态等",
+    "link": "https://nitter.net/op7418/status/2033202960843563484#m",
+    "pubDate": "Sun, 15 Mar 2026 15:25:35 GMT",
+    "description": "<p>朋友们，Claude-to-im Skills 也更新了！<br>\n<br>\n现在可以让你的 Claude 和 Codex 链接飞书有飞书官方 Openclaw 插件的全部能力<br>\n<br>\n而且引导更加详细，会告诉你需要补的权限<br>\n<br>\n支持：流式卡片输出、工具调用进度 、权限审批按钮、项目快捷切换、Thinking 状态等</p>\n<img src=\"https://nitter.net/pic/media%2FHDdiQH1bcAAa5Lq.jpg\" style=\"max-width:250px;\" />\n\n<img src=\"https://nitter.net/pic/media%2FHDdiQedbcAAbnoa.jpg\" style=\"max-width:250px;\" />\n\n<hr/>\n<blockquote>\n<b>歸藏(guizang.ai) (@op7418)</b>\n<p>\n<p><a href=\"http://x.com/i/article/2029562855511744512\">x.com/i/article/202956285551…</a></p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/op7418/status/2029563318973952221#m\">https://nitter.net/op7418/status/2029563318973952221#m</a>\n</footer>\n</blockquote>",
+    "source_kind": "benchmark"
+  },
+  {
+    "handle": "op7418",
+    "title": "对比了一下我的和他的实践，不过他不是给真的产品做，不考虑这些也无可厚非",
+    "link": "https://nitter.net/op7418/status/2033161018688631267#m",
+    "pubDate": "Sun, 15 Mar 2026 12:38:55 GMT",
+    "description": "<p>对比了一下我的和他的实践，不过他不是给真的产品做，不考虑这些也无可厚非</p>\n<img src=\"https://nitter.net/pic/media%2FHDc9CWkbMAA_sP8.jpg\" style=\"max-width:250px;\" />\n\n<img src=\"https://nitter.net/pic/media%2FHDc9CWhbsAAihz5.jpg\" style=\"max-width:250px;\" />\n\n<hr/>\n<blockquote>\n<b>贰万 (@ross_TNTT)</b>\n<p>\n<p><a href=\"Https://michaellivs.com/blog/reverse-engineering-claude-generative-ui/\">Https://michaellivs.com/blog…</a> 这个？</p>\n<img src=\"https://nitter.net/pic/card_img%2F2032246649733410818%2F6Kf24ZBk%3Fformat%3Dpng%26name%3D800x419\" style=\"max-width:250px;\" />\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ross_TNTT/status/2033148503485198764#m\">https://nitter.net/ross_TNTT/status/2033148503485198764#m</a>\n</footer>\n</blockquote>",
+    "source_kind": "benchmark"
+  }
+]

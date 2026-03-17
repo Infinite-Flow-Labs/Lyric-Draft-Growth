@@ -1,0 +1,36 @@
+2026-03-07T14:20:37.390489 slot=14:19 status=fail attempt=1 err=Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid='tweetTextarea_0']") to be visible
+
+2026-03-07T14:21:30.570930 slot=14:19 status=fail attempt=2 err=Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid='tweetTextarea_0']") to be visible
+
+2026-03-07T14:22:23.036559 slot=14:19 status=fail attempt=3 err=Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid='tweetTextarea_0']") to be visible
+
+2026-03-07T14:26:42.841430 slot=14:26 status=fail attempt=1 err=Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid='tweetTextarea_0']") to be visible
+
+2026-03-07T14:27:35.157567 slot=14:26 status=fail attempt=2 err=Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid='tweetTextarea_0']") to be visible
+
+2026-03-07T14:28:27.629013 slot=14:26 status=fail attempt=3 err=Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid='tweetTextarea_0']") to be visible
+
+2026-03-07T14:42:37.152298 slot=14:42 status=fail attempt=1 err=composer_not_found url=https://x.com/i/flow/login?redirect_after_login=%2Fcompose%2Fpost title=Log in to X / X text_head=Something went wrong. Try reloading.
+Retry
+2026-03-07T14:43:29.096975 slot=14:42 status=fail attempt=2 err=composer_not_found url=https://x.com/i/flow/login?redirect_after_login=%2Fcompose%2Fpost title=Log in to X / X text_head=Something went wrong. Try reloading.
+Retry
+2026-03-07T14:44:19.968137 slot=14:42 status=fail attempt=3 err=composer_not_found url=https://x.com/i/flow/login?redirect_after_login=%2Fcompose%2Fpost title=Log in to X / X text_head=Something went wrong. Try reloading.
+Retry
+2026-03-07T14:54:46.311422 slot=14:54 status=fail attempt=1 err=composer_not_found url=https://x.com/i/flow/login?redirect_after_login=%2Fcompose%2Fpost title=Log in to X / X text_head=Something went wrong. Try reloading.
+Retry
+2026-03-07T14:55:37.255275 slot=14:54 status=fail attempt=2 err=composer_not_found url=https://x.com/i/flow/login?redirect_after_login=%2Fcompose%2Fpost title=Log in to X / X text_head=Something went wrong. Try reloading.
+Retry
+2026-03-07T14:56:28.092947 slot=14:54 status=fail attempt=3 err=composer_not_found url=https://x.com/i/flow/login?redirect_after_login=%2Fcompose%2Fpost title=Log in to X / X text_head=Something went wrong. Try reloading.
+Retry

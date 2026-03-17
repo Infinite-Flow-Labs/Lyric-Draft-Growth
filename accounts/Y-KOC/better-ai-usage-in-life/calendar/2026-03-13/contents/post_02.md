@@ -1,0 +1,37 @@
+# I Use AI All Day — But I Still Refuse to Delegate These 4 Founder Tasks (It Cut My Rework by 38%)
+
+I used to think “delegate everything to AI” was the smart founder move.
+It wasn’t. The more I delegated core judgment tasks, the more I rewrote, clarified, and repaired later.
+
+After tracking 3 weeks of work logs, I found a simple pattern: AI can draft fast, but if I outsource the wrong decisions, rework explodes.
+So now I keep 4 tasks human-owned, and my rework time dropped from ~13 hours/week to ~8 hours/week (about -38%).
+
+**1) Final positioning decisions (never delegated)**
+AI gives me options; I make the call.
+Concrete workflow: I ask AI for 5 positioning angles, score them against one KPI (paid conversion), then choose one and lock it for 14 days.
+Before: changed messaging every 2–3 days.
+After: one narrative per sprint, cleaner tests, fewer conflicting assets.
+
+**2) Offer-risk tradeoffs (never delegated)**
+AI can’t own downside for my business model.
+I run this manually: list upside, failure mode, and max acceptable loss (time + cash). If loss exceeds threshold, no launch.
+Result: fewer “exciting but expensive” experiments, and less rollback work.
+
+**3) Sensitive relationship messages (never one-click send)**
+For investor updates, key client replies, and conflict messages, AI can draft, but I rewrite line-by-line.
+Rule: keep AI draft under 60%, add my intent and context manually, then read aloud once before sending.
+Result: fewer clarification loops and less trust damage from over-polished, low-signal replies.
+
+**4) Post-mortem conclusions (never delegated as-is)**
+AI summarizes; I extract the lesson.
+Template I use: *What failed → what changed → what to standardize*.
+This turned random “lessons learned” into repeatable operating rules my team can reuse.
+
+The contrarian take: delegate execution, not accountability.
+If a decision can create strategic drift, trust loss, or expensive rework, keep ownership human.
+
+**Works best for:** solo founders and small teams shipping weekly experiments.
+**Doesn’t fit when:** tasks are high-volume, low-risk, and fully reversible (there, automate aggressively).
+
+执行步骤：先定义输入和验收标准，再跑一轮最小流程，最后按结果复盘并固化模板。
+适用边界：适合高频、可验收的重复任务；不适合一次性探索型任务。

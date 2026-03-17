@@ -1,0 +1,44 @@
+[
+  {
+    "score": 8,
+    "handle": "dotey",
+    "link": "https://nitter.net/wong2__/status/2032697322451382324#m",
+    "description": "<p>Chrome最新版146 终于可以方便的让agent操控当前浏览器了（之前要么启动一个单独的Chrome实例，要么安装第三方浏览器扩展来实现）。<br>\n<br>\n1. 打开 chrome://inspect/<a href=\"https://nitter.net/search?f=tweets&q=%23remote\">#remote</a>-debugging 开启 Remote debugging<br>\n2. 安装 agent-browser skill 或 chrome-devtools-mcp，都支持自动连接到已有的Chrome实例</p>\n<img src=\"https://nitter.net/pic/media%2FHDWWgyVaMAUUGuI.jpg\" style=\"max-width:250px;\" />",
+    "title": "What tasks I never delegate to AI (and why)",
+    "type": "AI Work Replacement (A)",
+    "topic_id": "9",
+    "template": "strategy/templates/A_work_replacement/style_checklist_breakdown.md",
+    "angle": "Before/after comparison",
+    "audience": "Non-technical operators",
+    "outcome": "Reduce rework",
+    "template_text": "# A类模板｜AI替代工作｜Checklist拆解风\n\n## 用途\n- 强调把重复工作拆成可交接给AI的动作链\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题带反差或结果感（例如“我以为要加班，结果20分钟收工”）\n- 开头一句交代旧做法哪里卡（慢、乱、返工）\n- 中段按动作清单推进：写清你做了哪3步，但不要写成僵硬条款\n- 至少给一个真实数据变化（时间/轮次/通过率/成本）\n- 结尾落在“下次会保留或微调哪一步”，像工作笔记，不像总结陈词\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  },
+  {
+    "score": 8,
+    "handle": "pascal_bornet",
+    "link": "https://nitter.net/pascal_bornet/status/2031352102853947648#m",
+    "description": "<p>𝗖𝗹𝗮𝘂𝗱𝗲 𝗔𝗜 𝗶𝘀 𝗾𝘂𝗶𝗲𝘁𝗹𝘆 𝗺𝗼𝘃𝗶𝗻𝗴 𝗶𝗻𝘁𝗼 𝘁𝗵𝗲 𝗲𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲.<br>\n<br>\nThis week, 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 introduced 𝗖𝗼𝗽𝗶𝗹𝗼𝘁 𝗖𝗼𝘄𝗼𝗿𝗸, a new 𝗮𝘂𝘁𝗼𝗻𝗼𝗺𝗼𝘂𝘀 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁 designed to work across the entire 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝟯𝟲𝟱 environment. The system can 𝗽𝗹𝗮𝗻 𝗮𝗻𝗱 𝗲𝘅𝗲𝗰𝘂𝘁𝗲 𝗺𝘂𝗹𝘁𝗶 𝘀𝘁𝗲𝗽 𝗼𝗳𝗳𝗶𝗰𝗲 𝘄𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀 across Outlook, Excel, PowerPoint, Teams, and other core applications.<br>\n<br>\nThe interesting detail is the technology powering it.<br>\n<br>\nThe 𝗼𝗿𝗰𝗵𝗲𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗹𝗮𝘆𝗲𝗿 behind the system is built on 𝗖𝗹𝗮𝘂𝗱𝗲, the AI developed by 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰, rather than the models from Microsoft’s long time partner 𝗢𝗽𝗲𝗻𝗔𝗜.<br>\n<br>\nThe concept is simple.<br>\n<br>\nInstead of using software step by step, users describe the 𝗼𝘂𝘁𝗰𝗼𝗺𝗲 𝘁𝗵𝗲𝘆 𝘄𝗮𝗻𝘁.<br>\n<br>\nFor example:<br>\n<br>\n“Create a briefing for tomorrow’s leadership meeting.”<br>\n<br>\nThe system then handles the process in the background.<br>\n<br>\n• Collects relevant documents and emails<br>\n• Extracts key insights and metrics<br>\n• Builds presentation slides<br>\n• Schedules preparation time<br>\n• Drafts summaries for the leadership team<br>\n<br>\nThe shift here is significant.<br>\n<br>\nTraditional 𝗯𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 required humans to operate each step of a workflow. Open a tool. Complete a task. Move to another application. Coordinate the process manually.<br>\n<br>\n𝗖𝗼𝗽𝗶𝗹𝗼𝘁 𝗖𝗼𝘄𝗼𝗿𝗸 represents a different model.<br>\n<br>\nSoftware that 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝘀 𝗮 𝗴𝗼𝗮𝗹 𝗮𝗻𝗱 𝗲𝘅𝗲𝗰𝘂𝘁𝗲𝘀 𝘁𝗵𝗲 𝘄𝗼𝗿𝗸 required to achieve it.<br>\n<br>\n𝗪𝗵𝘆 𝘁𝗵𝗶𝘀 𝗺𝗮𝘁𝘁𝗲𝗿𝘀:<br>\n<br>\n→ 𝗠𝗮𝘀𝘀𝗶𝘃𝗲 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗶𝗼𝗻<br>\n<br>\n𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝟯𝟲𝟱 has hundreds of millions of users. 𝗖𝗼𝗽𝗶𝗹𝗼𝘁 already has more than 15 million paid users and is deployed across a large share of 𝗙𝗼𝗿𝘁𝘂𝗻𝗲 𝟱𝟬𝟬 companies.<br>\n<br>\n→ 𝗘𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲 𝘁𝗿𝘂𝘀𝘁 𝗹𝗮𝘆𝗲𝗿<br>\n<br>\n𝗖𝗹𝗮𝘂𝗱𝗲’𝘀 agent capabilities are wrapped inside Microsoft’s 𝗲𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲 𝗶𝗻𝗳𝗿𝗮𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲, including compliance, governance, audit logs, and identity systems.<br>\n<br>\n→ 𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗰 𝘀𝗶𝗴𝗻𝗮𝗹<br>\n<br>\nMicrosoft still maintains a deep partnership with 𝗢𝗽𝗲𝗻𝗔𝗜. Yet the system responsible for 𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗻𝗴 𝗹𝗼𝗻𝗴 𝗵𝗼𝗿𝗶𝘇𝗼𝗻 𝘄𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀 now relies on 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 technology.<br>\n<br>\n→ 𝗔 𝗽𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗹𝗼𝗼𝗽<br>\n<br>\nEvery workflow completed by 𝗖𝗼𝗽𝗶𝗹𝗼𝘁 produces data about how 𝗿𝗲𝗮𝗹 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗮𝘁𝗶𝗼𝗻𝘀 operate. That feedback can continuously improve the system.<br>\n<br>\nThe larger shift is becoming clearer.<br>\n<br>\nThe next phase of software is not just 𝘀𝗺𝗮𝗿𝘁𝗲𝗿 𝗰𝗵𝗮𝘁 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝗰𝗲𝘀.<br>\n<br>\nIt is 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝘁𝗵𝗮𝘁 𝗽𝗹𝗮𝗻𝘀, 𝗰𝗼𝗼𝗿𝗱𝗶𝗻𝗮𝘁𝗲𝘀, 𝗮𝗻𝗱 𝗲𝘅𝗲𝗰𝘂𝘁𝗲𝘀 𝗸𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 𝘄𝗼𝗿𝗸.<br>\n<br>\nIn other words, the transition from 𝗔𝗜 𝘁𝗼𝗼𝗹𝘀 to 𝗔𝗜 𝗰𝗼𝘄𝗼𝗿𝗸𝗲𝗿𝘀 is already underway.<br>\n<br>\nHow ready is your organization for 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗰𝗼𝘄𝗼𝗿𝗸𝗲𝗿𝘀?<br>\n<br>\n<a href=\"https://nitter.net/search?f=tweets&q=%23AI\">#AI</a> <a href=\"https://nitter.net/search?f=tweets&q=%23FutureOfWork\">#FutureOfWork</a> <a href=\"https://nitter.net/search?f=tweets&q=%23ArtificialIntelligence\">#ArtificialIntelligence</a> <a href=\"https://nitter.net/search?f=tweets&q=%23DigitalTransformation\">#DigitalTransformation</a> <a href=\"https://nitter.net/search?f=tweets&q=%23Automation\">#Automation</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDDP-Q0asAAEHIJ.png\" style=\"max-width:250px;\" />",
+    "title": "What AI amplifies well (and what it still fails at)",
+    "type": "AI Augmentation (C)",
+    "topic_id": "9",
+    "template": "strategy/templates/C_augmentation/style_checklist_breakdown.md",
+    "angle": "Execution checklist",
+    "audience": "Students",
+    "outcome": "Improve consistency",
+    "template_text": "# C类模板｜AI能力放大｜Checklist拆解风\n\n## 用途\n- 强调同一个人如何借AI放大产能与质量上限\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题带反差或结果感（例如“我以为要加班，结果20分钟收工”）\n- 开头一句交代旧做法哪里卡（慢、乱、返工）\n- 中段按动作清单推进：写清你做了哪3步，但不要写成僵硬条款\n- 至少给一个真实数据变化（时间/轮次/通过率/成本）\n- 结尾落在“下次会保留或微调哪一步”，像工作笔记，不像总结陈词\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  },
+  {
+    "score": 7,
+    "handle": "dotey",
+    "link": "https://nitter.net/dotey/status/2032613262525644985#m",
+    "description": "<p>Learn Claude Code 是真做的好，强烈推荐👍 <br>\n项目作者：<a href=\"https://nitter.net/baicai003\" title=\"Baicai\">@baicai003</a><br>\n<br>\n很多人用 Claude Code 或 Cursor 写代码，觉得 AI 编程助手很神奇，但如果问一句\"它到底是怎么工作的\"，大部分人答不上来。<br>\n<br>\nLearn Claude Code 这个开源项目做的事情很简单：用 12 节课，从零开始搭一个类似 Claude Code 的 AI Agent，每节课只加一个机制，每个机制都有可运行的 Python 代码。<br>\n<br>\n这个项目的核心洞察是：所有 AI 编程 Agent 的底层都是同一个循环。用户发消息给模型，模型决定要不要调用工具，调用了就执行，把结果喂回去，继续循环，直到模型觉得任务完成了。<br>\n<br>\n整个 Agent 的最小实现不到 30 行代码。剩下的一切，规划、子任务拆分、上下文压缩、多 Agent 协作、工作目录隔离，都是在这个循环上面一层一层叠加的。12 节课就是这 12 层。<br>\n<br>\n学习路径设计得很讲究。<br>\n<br>\n前两节搞定核心循环和工具调用<br>\n<br>\n第三节加入计划能力（没有计划的 Agent 会跑偏）<br>\n<br>\n第四到六节处理子 Agent、技能加载和上下文压缩（上下文窗口是有限的，不压缩大项目根本跑不动）<br>\n<br>\n第七八节做任务持久化和后台执行，最后四节进入多 Agent 协作：组队、通信协议、自主领取任务、工作目录隔离。从一个人干活，到一个团队协作，复杂度是渐进的。<br>\n<br>\n项目配了一个交互式 Web 平台（<a href=\"http://learn-claude-agents.vercel.app\">learn-claude-agents.vercel.a…</a>），有步骤图解、源码查看器和文档，支持英文、中文、日文三种语言。<br>\n<br>\n文档风格是\"心智模型优先\"：先讲问题是什么，再讲解决方案，配 ASCII 图，最后是最小可运行代码。<br>\n<br>\n对想搞懂 AI Agent 内部原理的开发者来说，这可能是目前最好的从零到一的学习路径。不需要什么前置知识，有 Python 基础就能跟。<br>\n<br>\n学完之后再去看 Claude Code 或者任何 Agent 框架的源码，会发现都和这个教程介绍的差不多。</p>\n<hr/>\n<blockquote>\n<b>Tw93 (@HiTw93)</b>\n<p>\n<p>A great resource if you want to understand how AI coding agents work. Learn Claude Code walks through building a minimal Claude Code like agent from scratch, explaining each mechanism step by step. <br>\n<br>\nYou’ll see the core loop most coding agents share: call the model, execute tools, feed the results back, and iterate. A clean way to understand how these systems are actually built.<br>\n<a href=\"https://learn-claude-agents.vercel.app/\">learn-claude-agents.vercel.a…</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDD9ReYbwAAkbwi.jpg\" style=\"max-width:250px;\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/HiTw93/status/2032594555099308056#m\">https://nitter.net/HiTw93/status/2032594555099308056#m</a>\n</footer>\n</blockquote>",
+    "title": "3 measurable outcomes from adding AI to my daily routine",
+    "type": "AI Results (B)",
+    "topic_id": "10",
+    "template": "strategy/templates/B_ai_results/style_checklist_breakdown.md",
+    "angle": "Pitfall review",
+    "audience": "Everyday users",
+    "outcome": "Increase output",
+    "template_text": "# B类模板｜AI创造结果｜Checklist拆解风\n\n## 用途\n- 强调结果产出与指标变化，避免只写过程\n- 写出“真做过”的经验感，不写教科书\n\n## 篇幅\n- 200–300字\n\n## 写法\n- 标题带反差或结果感（例如“我以为要加班，结果20分钟收工”）\n- 开头一句交代旧做法哪里卡（慢、乱、返工）\n- 中段按动作清单推进：写清你做了哪3步，但不要写成僵硬条款\n- 至少给一个真实数据变化（时间/轮次/通过率/成本）\n- 结尾落在“下次会保留或微调哪一步”，像工作笔记，不像总结陈词\n\n## 语气\n- 像刚复盘完发出来的实战记录\n- 允许一点幽默或自嘲，但信息密度要高\n- 用人话，短句，少术语\n\n## 避免\n- 空泛观点、正确废话\n- 每篇都一个骨架一眼看穿\n- 明显“针对某类人群”的生硬提示语\n"
+  }
+]

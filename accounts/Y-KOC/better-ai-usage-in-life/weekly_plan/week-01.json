@@ -1,0 +1,154 @@
+{
+  "start_date": "2026-03-12",
+  "end_date": "2026-03-15",
+  "days": {
+    "2026-03-12": {
+      "slots": [
+        {
+          "slot": "08:30",
+          "type": "AI Results (B)",
+          "mode": "LOCK",
+          "topic_id": "3",
+          "topic": "Before/After: my research speed with and without AI",
+          "template": "strategy/templates/B_ai_results/style_checklist_breakdown.md",
+          "angle": "Before/after comparison",
+          "audience": "Non-technical operators",
+          "outcome": "Save time"
+        },
+        {
+          "slot": "12:00",
+          "type": "AI Experience (D)",
+          "mode": "FLEX",
+          "topic_id": "9",
+          "topic": "My simple rubric for evaluating AI tools quickly",
+          "template": "strategy/templates/D_experience/style_editor_commentary.md",
+          "angle": "Contrarian take",
+          "audience": "Everyday users",
+          "outcome": "Improve conversion efficiency"
+        },
+        {
+          "slot": "19:30",
+          "type": "AI Work Replacement (A)",
+          "mode": "BREAKING",
+          "topic_id": "3",
+          "topic": "From 2 hours to 25 minutes: AI-assisted note cleanup after meetings/classes",
+          "template": "strategy/templates/A_work_replacement/style_checklist_breakdown.md",
+          "angle": "Pitfall review",
+          "audience": "Non-technical operators",
+          "outcome": "Reduce rework"
+        }
+      ]
+    },
+    "2026-03-13": {
+      "slots": [
+        {
+          "slot": "08:30",
+          "type": "AI Workflow (E)",
+          "mode": "LOCK",
+          "topic_id": "9",
+          "topic": "A no-code AI workflow for personal operations and planning",
+          "template": "strategy/templates/E_workflow/style_contrast_review.md",
+          "angle": "Pitfall review",
+          "audience": "Everyday users",
+          "outcome": "Increase output"
+        },
+        {
+          "slot": "12:00",
+          "type": "AI Work Replacement (A)",
+          "mode": "FLEX",
+          "topic_id": "9",
+          "topic": "What tasks I never delegate to AI (and why)",
+          "template": "strategy/templates/A_work_replacement/style_checklist_breakdown.md",
+          "angle": "Contrarian take",
+          "audience": "Solo founders",
+          "outcome": "Reduce rework"
+        },
+        {
+          "slot": "19:30",
+          "type": "AI Augmentation (C)",
+          "mode": "BREAKING",
+          "topic_id": "3",
+          "topic": "Using AI as a second brain for study and project planning",
+          "template": "strategy/templates/C_augmentation/style_checklist_breakdown.md",
+          "angle": "Method breakdown",
+          "audience": "Students",
+          "outcome": "Improve conversion efficiency"
+        }
+      ]
+    },
+    "2026-03-14": {
+      "slots": [
+        {
+          "slot": "08:30",
+          "type": "AI Experience (D)",
+          "mode": "LOCK",
+          "topic_id": "9",
+          "topic": "My simple rubric for evaluating AI tools quickly",
+          "template": "strategy/templates/D_experience/style_editor_commentary.md",
+          "angle": "Execution checklist",
+          "audience": "Non-technical operators",
+          "outcome": "Improve consistency"
+        },
+        {
+          "slot": "12:00",
+          "type": "AI Results (B)",
+          "mode": "FLEX",
+          "topic_id": "5",
+          "topic": "I got first paid users using AI-assisted messaging experiments",
+          "template": "strategy/templates/B_ai_results/style_checklist_breakdown.md",
+          "angle": "Method breakdown",
+          "audience": "Solo founders",
+          "outcome": "Improve conversion efficiency"
+        },
+        {
+          "slot": "19:30",
+          "type": "AI Workflow (E)",
+          "mode": "BREAKING",
+          "topic_id": "10",
+          "topic": "The weekly review workflow I use to keep AI outputs useful",
+          "template": "strategy/templates/E_workflow/style_contrast_review.md",
+          "angle": "Contrarian take",
+          "audience": "Solo founders",
+          "outcome": "Improve consistency"
+        }
+      ]
+    },
+    "2026-03-15": {
+      "slots": [
+        {
+          "slot": "08:30",
+          "type": "AI Work Replacement (A)",
+          "mode": "LOCK",
+          "topic_id": "9",
+          "topic": "What tasks I never delegate to AI (and why)",
+          "template": "strategy/templates/A_work_replacement/style_checklist_breakdown.md",
+          "angle": "Before/after comparison",
+          "audience": "Non-technical operators",
+          "outcome": "Reduce rework"
+        },
+        {
+          "slot": "12:00",
+          "type": "AI Augmentation (C)",
+          "mode": "FLEX",
+          "topic_id": "9",
+          "topic": "What AI amplifies well (and what it still fails at)",
+          "template": "strategy/templates/C_augmentation/style_checklist_breakdown.md",
+          "angle": "Execution checklist",
+          "audience": "Students",
+          "outcome": "Improve consistency"
+        },
+        {
+          "slot": "19:30",
+          "type": "AI Results (B)",
+          "mode": "BREAKING",
+          "topic_id": "10",
+          "topic": "3 measurable outcomes from adding AI to my daily routine",
+          "template": "strategy/templates/B_ai_results/style_checklist_breakdown.md",
+          "angle": "Pitfall review",
+          "audience": "Everyday users",
+          "outcome": "Increase output"
+        }
+      ]
+    }
+  }
+}
