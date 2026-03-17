@@ -1,0 +1,199 @@
+{
+  "count_authors": 24,
+  "main_count": 14,
+  "eco_count": 10,
+  "rows": [
+    {
+      "author": "bggg_ai",
+      "article_count_30d": 6,
+      "avg_quality": 18.35,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 79.6,
+      "pool_score": 17.757
+    },
+    {
+      "author": "Zephyr_hg",
+      "article_count_30d": 2,
+      "avg_quality": 18.46,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 99.0,
+      "pool_score": 16.99
+    },
+    {
+      "author": "lxfater",
+      "article_count_30d": 1,
+      "avg_quality": 17.51,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 87.8,
+      "pool_score": 15.667
+    },
+    {
+      "author": "yupi996",
+      "article_count_30d": 4,
+      "avg_quality": 16.45,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 61.2,
+      "pool_score": 15.274
+    },
+    {
+      "author": "LongChenNotes",
+      "article_count_30d": 3,
+      "avg_quality": 16.7,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 67.4,
+      "pool_score": 15.243
+    },
+    {
+      "author": "Astronaut_1216",
+      "article_count_30d": 1,
+      "avg_quality": 17.02,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 75.5,
+      "pool_score": 14.93
+    },
+    {
+      "author": "onehopeA9",
+      "article_count_30d": 5,
+      "avg_quality": 15.73,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 48.2,
+      "pool_score": 14.792
+    },
+    {
+      "author": "jakezward",
+      "article_count_30d": 1,
+      "avg_quality": 18.72,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 42.9,
+      "pool_score": 14.476
+    },
+    {
+      "author": "xxx111god",
+      "article_count_30d": 2,
+      "avg_quality": 16.5,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 50.0,
+      "pool_score": 14.05
+    },
+    {
+      "author": "dotey",
+      "article_count_30d": 2,
+      "avg_quality": 15.79,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 57.2,
+      "pool_score": 13.979
+    },
+    {
+      "author": "jakevin7",
+      "article_count_30d": 1,
+      "avg_quality": 15.69,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 67.3,
+      "pool_score": 13.937
+    },
+    {
+      "author": "PMbackttfuture",
+      "article_count_30d": 2,
+      "avg_quality": 15.55,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 38.8,
+      "pool_score": 13.127
+    },
+    {
+      "author": "yan5xu",
+      "article_count_30d": 1,
+      "avg_quality": 15.04,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 51.0,
+      "pool_score": 12.96
+    },
+    {
+      "author": "vista8",
+      "article_count_30d": 2,
+      "avg_quality": 15.3,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 32.6,
+      "pool_score": 12.759
+    },
+    {
+      "author": "oran_ge",
+      "article_count_30d": 2,
+      "avg_quality": 14.59,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 39.8,
+      "pool_score": 12.687
+    },
+    {
+      "author": "JulienBek",
+      "article_count_30d": 1,
+      "avg_quality": 15.9,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 22.4,
+      "pool_score": 12.246
+    },
+    {
+      "author": "gsivulka",
+      "article_count_30d": 2,
+      "avg_quality": 15.87,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 9.2,
+      "pool_score": 12.101
+    },
+    {
+      "author": "ityouknows",
+      "article_count_30d": 3,
+      "avg_quality": 14.04,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 17.7,
+      "pool_score": 11.927
+    },
+    {
+      "author": "hezhiyan7",
+      "article_count_30d": 3,
+      "avg_quality": 9.9,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 55.8,
+      "pool_score": 11.38
+    },
+    {
+      "author": "karminski3",
+      "article_count_30d": 1,
+      "avg_quality": 14.65,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 16.3,
+      "pool_score": 11.377
+    },
+    {
+      "author": "canghe",
+      "article_count_30d": 1,
+      "avg_quality": 13.31,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 32.7,
+      "pool_score": 11.363
+    },
+    {
+      "author": "nvidia",
+      "article_count_30d": 1,
+      "avg_quality": 13.82,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 20.4,
+      "pool_score": 11.126
+    },
+    {
+      "author": "yangyi",
+      "article_count_30d": 1,
+      "avg_quality": 11.8,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 44.9,
+      "pool_score": 11.096
+    },
+    {
+      "author": "blackanger",
+      "article_count_30d": 1,
+      "avg_quality": 13.08,
+      "rewriteable_ratio": 1.0,
+      "avg_engagement_percentile": 2.0,
+      "pool_score": 10.02
+    }
+  ]
+}
