@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://growth-engine.local/framework_match.schema.json",
+  "title": "FrameworkMatch",
+  "description": "LLM-routed framework selection record. Rules may prefilter candidates, but final routing must come from an LLM router plus reviewer pass.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source_ref",
+    "routing_mode",
+    "prefilter",
+    "router_decision",
+    "reviewer_decision",
+    "final_decision"
+  ],
+  "$defs": {
+    "non_empty_string": {
+      "type": "string",
+      "minLength": 1
+    },
+    "string_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/non_empty_string"
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "choice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "framework_id",
+        "submode_id",
+        "confidence",
+        "rationale",
+        "triggered_routing_signals",
+        "supporting_source_quotes",
+        "matched_sample_ids"
+      ],
+      "properties": {
+        "framework_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "submode_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "rationale": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "triggered_routing_signals": {
+          "$ref": "#/$defs/string_list"
+        },
+        "supporting_source_quotes": {
+          "$ref": "#/$defs/string_list"
+        },
+        "matched_sample_ids": {
+          "$ref": "#/$defs/string_list"
+        },
+        "ambiguity_notes": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "source_ref": {
+      "$ref": "#/$defs/non_empty_string",
+      "description": "Path or ID pointing to the source_item.json used for routing."
+    },
+    "routing_mode": {
+      "type": "string",
+      "const": "llm_router_plus_reviewer"
+    },
+    "prefilter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidate_framework_ids",
+        "why_these_candidates"
+      ],
+      "properties": {
+        "candidate_framework_ids": {
+          "$ref": "#/$defs/string_list"
+        },
+        "why_these_candidates": {
+          "$ref": "#/$defs/string_list",
+          "description": "Rule-based narrowing only. This step must not make the final routing decision."
+        }
+      }
+    },
+    "router_decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "agent_name",
+        "model",
+        "evaluated_at",
+        "top_choice",
+        "alternative_choices"
+      ],
+      "properties": {
+        "agent_name": {
+          "type": "string",
+          "const": "router"
+        },
+        "model": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "evaluated_at": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "top_choice": {
+          "$ref": "#/$defs/choice"
+        },
+        "alternative_choices": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/choice"
+          }
+        }
+      }
+    },
+    "reviewer_decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "agent_name",
+        "model",
+        "evaluated_at",
+        "agrees_with_router",
+        "override_choice",
+        "concerns",
+        "requires_human_review"
+      ],
+      "properties": {
+        "agent_name": {
+          "type": "string",
+          "const": "reviewer"
+        },
+        "model": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "evaluated_at": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "agrees_with_router": {
+          "type": "boolean"
+        },
+        "override_choice": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "allOf": [
+            {
+              "if": {
+                "type": "object"
+              },
+              "then": {
+                "$ref": "#/$defs/choice"
+              }
+            }
+          ]
+        },
+        "concerns": {
+          "$ref": "#/$defs/string_list"
+        },
+        "requires_human_review": {
+          "type": "boolean"
+        }
+      }
+    },
+    "final_decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "framework_id",
+        "submode_id",
+        "confidence",
+        "rationale",
+        "matched_sample_ids",
+        "requires_human_review"
+      ],
+      "properties": {
+        "framework_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "submode_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "rationale": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "matched_sample_ids": {
+          "$ref": "#/$defs/string_list"
+        },
+        "requires_human_review": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

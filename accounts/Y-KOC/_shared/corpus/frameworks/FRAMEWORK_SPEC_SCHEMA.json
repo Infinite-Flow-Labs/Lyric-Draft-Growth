@@ -1,0 +1,482 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://growth-engine.local/framework_spec.schema.json",
+  "title": "FrameworkSpec",
+  "description": "Full-fidelity machine execution spec for one content framework. This schema is a structured projection of FRAMEWORK.md, STYLE_PROFILES.md, and SAMPLE_DECOMPOSITIONS.md. It must not be treated as a lossy summary.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "full_fidelity",
+    "metadata",
+    "intent",
+    "routing",
+    "structure",
+    "style",
+    "samples",
+    "execution_controls"
+  ],
+  "$defs": {
+    "non_empty_string": {
+      "type": "string",
+      "minLength": 1
+    },
+    "string_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/non_empty_string"
+      }
+    },
+    "path_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Absolute or repo-relative file path pointing to the human source of truth."
+    },
+    "named_axis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "axis",
+        "values"
+      ],
+      "properties": {
+        "axis": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "values": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    },
+    "submode_spec": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "submode_id",
+        "label",
+        "summary",
+        "use_when",
+        "avoid_when",
+        "source_fit",
+        "source_unfit",
+        "hidden_flow",
+        "hook_patterns",
+        "evidence_mix",
+        "reasoning_moves",
+        "rewrite_formula",
+        "surface_forms",
+        "anti_patterns",
+        "style_profile_id",
+        "sample_ids"
+      ],
+      "properties": {
+        "submode_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "label": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "summary": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "use_when": {
+          "$ref": "#/$defs/string_list"
+        },
+        "avoid_when": {
+          "$ref": "#/$defs/string_list"
+        },
+        "source_fit": {
+          "$ref": "#/$defs/string_list"
+        },
+        "source_unfit": {
+          "$ref": "#/$defs/string_list"
+        },
+        "hidden_flow": {
+          "$ref": "#/$defs/string_list"
+        },
+        "hook_patterns": {
+          "$ref": "#/$defs/string_list"
+        },
+        "evidence_mix": {
+          "$ref": "#/$defs/string_list"
+        },
+        "reasoning_moves": {
+          "$ref": "#/$defs/string_list"
+        },
+        "rewrite_formula": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "surface_forms": {
+          "$ref": "#/$defs/string_list"
+        },
+        "anti_patterns": {
+          "$ref": "#/$defs/string_list"
+        },
+        "style_profile_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "sample_ids": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    },
+    "style_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "style_profile_id",
+        "submode_id",
+        "tone_core",
+        "opening_moves",
+        "sentence_rhythm",
+        "surface_forms",
+        "language_moves",
+        "keep",
+        "avoid",
+        "ai_smells",
+        "one_sentence_portrait"
+      ],
+      "properties": {
+        "style_profile_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "submode_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "tone_core": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "opening_moves": {
+          "$ref": "#/$defs/string_list"
+        },
+        "sentence_rhythm": {
+          "$ref": "#/$defs/string_list"
+        },
+        "surface_forms": {
+          "$ref": "#/$defs/string_list"
+        },
+        "language_moves": {
+          "$ref": "#/$defs/string_list"
+        },
+        "keep": {
+          "$ref": "#/$defs/string_list"
+        },
+        "avoid": {
+          "$ref": "#/$defs/string_list"
+        },
+        "ai_smells": {
+          "$ref": "#/$defs/string_list"
+        },
+        "one_sentence_portrait": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    },
+    "sample_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sample_id",
+        "title",
+        "url",
+        "author",
+        "submode_id",
+        "why_it_matters",
+        "hook_move",
+        "proof_mode",
+        "reusable_parts",
+        "non_reusable_parts",
+        "style_cue"
+      ],
+      "properties": {
+        "sample_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "title": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "url": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "author": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "submode_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "why_it_matters": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "hook_move": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "proof_mode": {
+          "$ref": "#/$defs/string_list"
+        },
+        "reusable_parts": {
+          "$ref": "#/$defs/string_list"
+        },
+        "non_reusable_parts": {
+          "$ref": "#/$defs/string_list"
+        },
+        "style_cue": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "full_fidelity": {
+      "type": "boolean",
+      "const": true,
+      "description": "Must remain true. This spec is not allowed to be a lossy summary."
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "framework_id",
+        "framework_label",
+        "legacy_label",
+        "status",
+        "confidence",
+        "last_reviewed",
+        "source_of_truth_refs"
+      ],
+      "properties": {
+        "framework_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "framework_label": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "legacy_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "experimental",
+            "deprecated"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "last_reviewed": {
+          "type": "string",
+          "description": "Date in YYYY-MM-DD format."
+        },
+        "source_of_truth_refs": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "framework_md",
+            "style_profiles_md",
+            "sample_decompositions_md"
+          ],
+          "properties": {
+            "framework_md": {
+              "$ref": "#/$defs/path_ref"
+            },
+            "style_profiles_md": {
+              "$ref": "#/$defs/path_ref"
+            },
+            "sample_decompositions_md": {
+              "$ref": "#/$defs/path_ref"
+            }
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "intent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "definition",
+        "core_value",
+        "core_tasks"
+      ],
+      "properties": {
+        "definition": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "core_value": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "core_tasks": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    },
+    "routing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "should_route_when",
+        "should_not_route_when",
+        "source_fit",
+        "source_unfit",
+        "strong_signals",
+        "weak_signals",
+        "disqualifiers",
+        "routing_questions"
+      ],
+      "properties": {
+        "should_route_when": {
+          "$ref": "#/$defs/string_list"
+        },
+        "should_not_route_when": {
+          "$ref": "#/$defs/string_list"
+        },
+        "source_fit": {
+          "$ref": "#/$defs/string_list"
+        },
+        "source_unfit": {
+          "$ref": "#/$defs/string_list"
+        },
+        "strong_signals": {
+          "$ref": "#/$defs/string_list"
+        },
+        "weak_signals": {
+          "$ref": "#/$defs/string_list"
+        },
+        "disqualifiers": {
+          "$ref": "#/$defs/string_list"
+        },
+        "routing_questions": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    },
+    "structure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "hidden_skeleton",
+        "visible_template_bans",
+        "allowed_surface_moves",
+        "forbidden_surface_moves",
+        "parameter_axes",
+        "submodes"
+      ],
+      "properties": {
+        "hidden_skeleton": {
+          "$ref": "#/$defs/string_list"
+        },
+        "visible_template_bans": {
+          "$ref": "#/$defs/string_list"
+        },
+        "allowed_surface_moves": {
+          "$ref": "#/$defs/string_list"
+        },
+        "forbidden_surface_moves": {
+          "$ref": "#/$defs/string_list"
+        },
+        "parameter_axes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/named_axis"
+          }
+        },
+        "submodes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/submode_spec"
+          }
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "global_style_principles",
+        "global_anti_ai_rules",
+        "submode_profiles"
+      ],
+      "properties": {
+        "global_style_principles": {
+          "$ref": "#/$defs/string_list"
+        },
+        "global_anti_ai_rules": {
+          "$ref": "#/$defs/string_list"
+        },
+        "submode_profiles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/style_profile"
+          }
+        }
+      }
+    },
+    "samples": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sample_count",
+        "sample_refs",
+        "coverage_notes"
+      ],
+      "properties": {
+        "sample_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sample_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sample_ref"
+          }
+        },
+        "coverage_notes": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    },
+    "execution_controls": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "must_keep",
+        "must_avoid",
+        "rewrite_failure_modes",
+        "quality_checks",
+        "human_review_triggers"
+      ],
+      "properties": {
+        "must_keep": {
+          "$ref": "#/$defs/string_list"
+        },
+        "must_avoid": {
+          "$ref": "#/$defs/string_list"
+        },
+        "rewrite_failure_modes": {
+          "$ref": "#/$defs/string_list"
+        },
+        "quality_checks": {
+          "$ref": "#/$defs/string_list"
+        },
+        "human_review_triggers": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    }
+  }
+}
