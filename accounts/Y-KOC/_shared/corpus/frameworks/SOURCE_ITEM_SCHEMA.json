@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://growth-engine.local/source_item.schema.json",
+  "title": "SourceItem",
+  "description": "Normalized source payload consumed by the router and writer. This object must preserve raw source fidelity before any framework routing happens.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source_id",
+    "fetched_at",
+    "platform",
+    "source_kind",
+    "canonical_url",
+    "author",
+    "title",
+    "language",
+    "published_at",
+    "content",
+    "extracted_signals"
+  ],
+  "$defs": {
+    "non_empty_string": {
+      "type": "string",
+      "minLength": 1
+    },
+    "string_or_null": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "string_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/non_empty_string"
+      }
+    },
+    "quote_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "why_it_matters"
+      ],
+      "properties": {
+        "text": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+          "why_it_matters": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        }
+    },
+    "participant_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "role"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "role": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Examples: host, guest, speaker, interviewer, interviewee, narrator."
+        },
+        "handle": {
+          "$ref": "#/$defs/string_or_null"
+        },
+        "profile_url": {
+          "$ref": "#/$defs/string_or_null"
+        }
+      }
+    },
+    "source_asset_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "asset_kind",
+        "url"
+      ],
+      "properties": {
+        "asset_kind": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Examples: rss_feed, episode_page, transcript, show_notes, subtitle, audio, article_page."
+        },
+        "url": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "selected_for_text": {
+          "type": "boolean"
+        },
+        "notes": {
+          "$ref": "#/$defs/string_or_null"
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "source_id": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "fetched_at": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "platform": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "source_kind": {
+      "$ref": "#/$defs/non_empty_string",
+      "description": "Examples: x_article, x_thread, podcast_transcript, wechat_article, web_article."
+    },
+    "canonical_url": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "handle",
+        "display_name"
+      ],
+      "properties": {
+        "handle": {
+          "$ref": "#/$defs/string_or_null"
+        },
+        "display_name": {
+          "$ref": "#/$defs/string_or_null"
+        },
+        "account_url": {
+          "$ref": "#/$defs/string_or_null"
+        }
+      }
+    },
+    "title": {
+      "$ref": "#/$defs/string_or_null"
+    },
+    "language": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "published_at": {
+      "$ref": "#/$defs/string_or_null"
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/participant_item"
+      },
+      "description": "Optional structured speaker list. Particularly useful for podcast / interview sources."
+    },
+    "source_assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source_asset_item"
+      },
+      "description": "Optional provenance list for all discovered upstream assets. Particularly useful when transcript/show notes/subtitles are auto-discovered."
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "full_text"
+      ],
+      "properties": {
+        "primary_text_source": {
+          "$ref": "#/$defs/string_or_null",
+          "description": "Examples: article_body, transcript, subtitles, show_notes, merged_sources."
+        },
+        "summary": {
+          "$ref": "#/$defs/string_or_null"
+        },
+        "full_text": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "raw_quotes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/quote_item"
+          }
+        },
+        "assembly_notes": {
+          "$ref": "#/$defs/string_or_null",
+          "description": "Optional note explaining how the final text was assembled, e.g. transcript preferred over show notes, subtitles merged, OCR cleaned."
+        }
+      }
+    },
+    "extracted_signals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "release_signals",
+        "metric_signals",
+        "named_entities",
+        "task_hints",
+        "fact_anchors"
+      ],
+      "properties": {
+        "release_signals": {
+          "$ref": "#/$defs/string_list"
+        },
+        "metric_signals": {
+          "$ref": "#/$defs/string_list"
+        },
+        "named_entities": {
+          "$ref": "#/$defs/string_list"
+        },
+        "task_hints": {
+          "$ref": "#/$defs/string_list",
+          "description": "Loose hints such as 'installation', 'opinion decode', 'comparison', 'workflow', used only for coarse prefiltering."
+        },
+        "fact_anchors": {
+          "$ref": "#/$defs/string_list",
+          "description": "Hard anchors that the writer must preserve: dates, metrics, product names, people, orgs, claims."
+        },
+        "normalization_notes": {
+          "$ref": "#/$defs/string_or_null"
+        }
+      }
+    }
+  }
+}

@@ -72,25 +72,24 @@ def main():
       audited.append(row)
       print(f"[{i}/{len(items)}] {it.get('url')} done")
 
-    # per type standard pool
     by={}
     for r in audited:
       t=r.get('type_new') or r.get('type_guess') or 'unknown'
       by.setdefault(t,[]).append(r)
-    standard={}
-    for t,arr in by.items():
-      arr=sorted(arr,key=lambda x:x['sample_quality_score'],reverse=True)
-      standard[t]=arr[:5]
 
-    out={"count":len(audited),"items":audited,"standard_pool":{k:[x['url'] for x in v] for k,v in standard.items()}}
+    out={"count":len(audited),"items":audited}
     Path(args.out).write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 
-    md=['# SAMPLE_QUALITY_AUDIT','']
-    for t in sorted(standard.keys()):
-      md.append(f"## {t}")
-      for x in standard[t]:
-        md.append(f"- {x['url']} | q={x['sample_quality_score']} | rw={x['audit'].get('rewriteable')} | pctl={x['engagement_percentile_30d']}")
-      md.append('')
+    md=[
+      '# SAMPLE_QUALITY_AUDIT',
+      '',
+      '说明：本文件仅保留样本质量审核结果，不再输出 `standard_pool`。',
+      '框架拆解请直接使用 `seed_articles_30d.reclassified.json` 作为样本来源。',
+      '',
+      '## Counts By Type',
+    ]
+    for t in sorted(by.keys()):
+      md.append(f"- {t}: {len(by[t])}")
     Path(args.out).with_suffix('.md').write_text('\n'.join(md),encoding='utf-8')
     print(args.out)
     print(str(Path(args.out).with_suffix('.md')))

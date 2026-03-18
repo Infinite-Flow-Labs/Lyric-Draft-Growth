@@ -1,0 +1,357 @@
+{
+  "schema_version": "2026-03-18.v1",
+  "full_fidelity": true,
+  "metadata": {
+    "framework_id": "08_signal_to_action",
+    "framework_label": "信号转行动型",
+    "legacy_label": "信号预警型（Signal -> 30D Action）",
+    "status": "active",
+    "confidence": "low",
+    "last_reviewed": "2026-03-18",
+    "source_of_truth_refs": {
+      "framework_md": "accounts/Y-KOC/_shared/corpus/frameworks/08_signal_to_action/FRAMEWORK.md",
+      "style_profiles_md": "accounts/Y-KOC/_shared/corpus/frameworks/08_signal_to_action/STYLE_PROFILES.md",
+      "sample_decompositions_md": "accounts/Y-KOC/_shared/corpus/frameworks/08_signal_to_action/SAMPLE_DECOMPOSITIONS.md"
+    },
+    "notes": "Low-confidence framework. Current pool has only 2 samples from the same author, but both strongly agree on task shape: hidden market signal -> opportunity shortlist -> window urgency. Router should require evidence and reviewer support."
+  },
+  "intent": {
+    "definition": "先指出一个大多数人还没看清的市场信号，再把这个信号压缩成几类具体机会，最后给读者一个带时间窗口的行动感。",
+    "core_value": "不是预测未来，而是把模糊趋势翻译成现在就该做的准备，让读者感到窗口正在打开且需要提前卡位。",
+    "core_tasks": [
+      "告诉读者有一个窗口正在打开",
+      "说明多数人为什么还没看见",
+      "把机会拆成几个具体对象",
+      "把未来高价值转换成现在该行动"
+    ]
+  },
+  "routing": {
+    "should_route_when": [
+      "source 明确存在未来窗口和当前时点差",
+      "文章把信号转成具体 skills、job titles、capabilities 或岗位对象",
+      "正文解释了为什么现在还稀缺、为什么窗口正在形成",
+      "结尾能激发 directed urgency，而不是抽象焦虑"
+    ],
+    "should_not_route_when": [
+      "source 只是普通趋势总结",
+      "source 只有机会列表，没有窗口和稀缺性解释",
+      "文章主要在做产品发布或行业评论",
+      "薪资、岗位或机会对象没有任何需求来源支撑"
+    ],
+    "source_fit": [
+      "隐藏市场窗口 -> 具体技能 / 岗位 -> 提前布局",
+      "组织需求正在形成，但训练路径还没标准化的职业或能力文章"
+    ],
+    "source_unfit": [
+      "普通职业焦虑帖",
+      "普通趋势预测",
+      "没有对象列表的市场判断"
+    ],
+    "strong_signals": [
+      "正文反复强调 something is happening right now / almost nobody is training for them / right now you have 90 days 这类窗口语气",
+      "有 future salary anchor、hiring need、org design shift、market gap 等支撑",
+      "每个对象不只是被列出来，还会解释为什么值钱、为什么稀缺"
+    ],
+    "weak_signals": [
+      "年份、薪资、天数这类 time-price anchor",
+      "列表推进非常稳定",
+      "结尾会回到窗口不是永久开放的"
+    ],
+    "disqualifiers": [
+      "危言耸听式焦虑营销",
+      "没有证据的薪资数字",
+      "列表化废话",
+      "只会制造 FOMO，不会解释需求来源"
+    ],
+    "routing_questions": [
+      "这里的窗口到底是什么？",
+      "为什么现在还稀缺，而不是已经被市场定价充分？",
+      "这些对象是凭空列出来的，还是来自组织需求和训练路径缺口？",
+      "结尾是 directed urgency 还是廉价焦虑？"
+    ]
+  },
+  "structure": {
+    "hidden_skeleton": [
+      "Hidden signal",
+      "Why most people are missing it",
+      "Future high-value opportunity",
+      "Shortlisted skills or roles",
+      "Why the window is now",
+      "Action urge"
+    ],
+    "visible_template_bans": [
+      "不得写成有一个机会要来了、你要学 5 个东西、不学就晚了",
+      "不得只靠薪资数字和年份制造焦虑",
+      "不得只列机会，不解释组织需求来源",
+      "不得把窗口文写成世界末日式职业恐吓"
+    ],
+    "allowed_surface_moves": [
+      "先从 subtle signal 开局",
+      "先讲为什么现在还看不清",
+      "用 4 到 6 个具体对象承载机会列表",
+      "结尾把 urgency 落在提前卡位而不是恐吓"
+    ],
+    "forbidden_surface_moves": [
+      "倒计时文案模板",
+      "空口号代替证据",
+      "每项机会只剩一句定义",
+      "廉价 FOMO 文"
+    ],
+    "parameter_axes": [
+      {
+        "axis": "opportunity_object",
+        "values": [
+          "skill",
+          "job_title"
+        ]
+      },
+      {
+        "axis": "signal_source",
+        "values": [
+          "salary_data",
+          "emerging_org_need",
+          "market_gap"
+        ]
+      },
+      {
+        "axis": "reader_payoff",
+        "values": [
+          "position_early",
+          "train_before_market_catches_up"
+        ]
+      }
+    ],
+    "submodes": [
+      {
+        "submode_id": "market_window_playbook",
+        "label": "市场窗口行动手册",
+        "summary": "用一个尚未完全显性的市场信号，推动读者提前布局某类技能或岗位。",
+        "use_when": [
+          "文章核心是隐藏窗口 + 机会对象 + 现在就该行动",
+          "每个对象都会被解释为什么值钱、为什么稀缺",
+          "正文有 salary anchor、组织需求或训练路径空白等支撑"
+        ],
+        "avoid_when": [
+          "没有窗口感，只是普通机会列表",
+          "数字没有支撑",
+          "结尾只剩恐吓，不剩行动逻辑"
+        ],
+        "source_fit": [
+          "skill window",
+          "job title window",
+          "hidden org demand before mainstream pricing"
+        ],
+        "source_unfit": [
+          "普通趋势总结",
+          "普通岗位推荐"
+        ],
+        "hidden_flow": [
+          "Subtle signal",
+          "Most people are missing it",
+          "Future salary or demand anchor",
+          "List of opportunities",
+          "Why this window exists now",
+          "Urgent but directed close"
+        ],
+        "hook_patterns": [
+          "Something is happening right now that most professionals are completely missing",
+          "There are 4 roles being created right now that barely exist yet",
+          "Right now, you have 90 days",
+          "Almost nobody is training for them"
+        ],
+        "evidence_mix": [
+          "salary anchor",
+          "hiring need",
+          "org design shift",
+          "rarity of training path",
+          "compounding logic"
+        ],
+        "reasoning_moves": [
+          "先给 market gap，再给列表",
+          "每项对象都要解释为什么会涨价",
+          "urgency 来自时点差和组织需求，不来自情绪勒索"
+        ],
+        "rewrite_formula": "隐藏信号 -> 多数人没看见 -> 未来高价值对象 -> 逐项解释 -> 为什么现在还稀缺 -> 提前布局",
+        "surface_forms": [
+          "hidden signal",
+          "future salary anchor",
+          "numbered list",
+          "why now",
+          "structured close"
+        ],
+        "anti_patterns": [
+          "廉价焦虑营销",
+          "没有支撑的薪资数字",
+          "列表项全是空泛标签",
+          "urgency 完全靠夸张副词"
+        ],
+        "style_profile_id": "08_market_window_playbook_style",
+        "sample_ids": [
+          "2033549188261146778",
+          "2033848970238161112"
+        ]
+      }
+    ]
+  },
+  "style": {
+    "global_style_principles": [
+      "共同目标不是预测未来，而是提早给出行动定价",
+      "先告诉读者市场正在悄悄定价某些能力",
+      "再说明为什么大多数人还没反应过来",
+      "最后把早期差价转成行动冲动",
+      "由于样本薄，writer 应严格保留证据和组织需求解释"
+    ],
+    "global_anti_ai_rules": [
+      "避免廉价职业焦虑帖",
+      "避免只靠年份和薪资数字制造 FOMO",
+      "避免列表项空泛",
+      "避免没有需求来源解释",
+      "默认需要 reviewer 复核窗口和数字是否站得住"
+    ],
+    "submode_profiles": [
+      {
+        "style_profile_id": "08_market_window_playbook_style",
+        "submode_id": "market_window_playbook",
+        "tone_core": "非常强的先看到的人先拿走优势口吻，自信、直接、带定价感，但不能失去证据。",
+        "opening_moves": [
+          "Something is happening right now...",
+          "There are 4 roles being created right now...",
+          "先立一个大多数人错过的窗口",
+          "很快给年份、薪资、天数这类 time-price anchor"
+        ],
+        "sentence_rhythm": [
+          "开头短句压迫感强",
+          "中段列表推进非常稳定",
+          "每一项都遵循这是什么 / 为什么值钱 / 为什么稀缺",
+          "结尾回到窗口和提前布局"
+        ],
+        "surface_forms": [
+          "hidden signal",
+          "future salary anchor",
+          "numbered list",
+          "why now",
+          "window-specific close"
+        ],
+        "language_moves": [
+          "most people are missing",
+          "right now",
+          "by 2027 / by 2028",
+          "almost nobody is training for them",
+          "the window isn't permanently open"
+        ],
+        "keep": [
+          "稀缺窗口感",
+          "未来定价感",
+          "每项机会的组织需求解释",
+          "最后的提前布局逻辑"
+        ],
+        "avoid": [
+          "空口号代替证据",
+          "每项机会只剩一句定义",
+          "把窗口写成世界末日",
+          "只做 FOMO 不做解释"
+        ],
+        "ai_smells": [
+          "焦虑营销",
+          "薪资数字没有支撑",
+          "列表项全是名词堆砌",
+          "urgency 靠副词堆出来"
+        ],
+        "one_sentence_portrait": "像一个比市场早半步的人，在把尚未明牌的组织需求和职业机会提前卖给你。"
+      }
+    ]
+  },
+  "samples": {
+    "sample_count": 2,
+    "sample_refs": [
+      {
+        "sample_id": "2033549188261146778",
+        "title": "The 5 AI Skills That Will Be Worth $350K in 2027. Right Now, You Have 90 Days to Learn Them.",
+        "url": "https://x.com/Zephyr_hg/status/2033549188261146778",
+        "author": "@Zephyr_hg",
+        "submode_id": "market_window_playbook",
+        "why_it_matters": "典型未来价值预警 + 当下卡位样本，用 hidden signal、salary anchor 和 skill list 完成窗口定价。",
+        "hook_move": "先说大多数专业人士正在错过一件事，再立刻把未来薪资和 90 天窗口钉出来。",
+        "proof_mode": [
+          "未来薪资 anchor",
+          "skills 清单",
+          "为什么这几项会涨价",
+          "为什么窗口只有现在",
+          "compounding logic"
+        ],
+        "reusable_parts": [
+          "先给 market gap，再给列表",
+          "每个 skill 都解释商业稀缺性",
+          "urgency 来自时点差，不是情绪勒索"
+        ],
+        "non_reusable_parts": [
+          "$350K 和 90 days 具体定价与时长",
+          "具体销售收口"
+        ],
+        "style_cue": "商业性很强，但骨架也很清晰。"
+      },
+      {
+        "sample_id": "2033848970238161112",
+        "title": "The 4 Job Titles That Will Pay $200K in 2028. Almost Nobody Is Training for Them.",
+        "url": "https://x.com/Zephyr_hg/status/2033848970238161112",
+        "author": "@Zephyr_hg",
+        "submode_id": "market_window_playbook",
+        "why_it_matters": "和上一条是同一写法引擎：把组织结构变化翻译成新岗位，并强调训练路径还没标准化。",
+        "hook_move": "先说这些岗位几乎还不存在，再给 2028 年和 $200K 的薪资锚点。",
+        "proof_mode": [
+          "新岗位清单",
+          "企业组织需求",
+          "为什么现在没人训练",
+          "为什么两年后窗口会关闭"
+        ],
+        "reusable_parts": [
+          "岗位不是凭空编的，要写出组织需求来源",
+          "先解释为什么旧路径不够，再讲新岗位",
+          "结尾收在先定义角色的人会拿走优势"
+        ],
+        "non_reusable_parts": [
+          "4 个具体岗位命名",
+          "$200K 等具体数字",
+          "具体销售收口"
+        ],
+        "style_cue": "用未来岗位而不是未来技能承载同一个窗口预警任务。"
+      }
+    ],
+    "coverage_notes": "Current sample pool covers only 2 reclassified examples, both from the same author. The task shape is clear, but style generalization and routing confidence remain intentionally low."
+  },
+  "execution_controls": {
+    "must_keep": [
+      "未来窗口感",
+      "具体机会对象",
+      "为什么现在还稀缺",
+      "组织需求或市场 gap 支撑",
+      "directed urgency"
+    ],
+    "must_avoid": [
+      "廉价焦虑营销",
+      "没有支撑的薪资数字",
+      "空泛机会列表",
+      "只会制造 FOMO"
+    ],
+    "rewrite_failure_modes": [
+      "退化成职业焦虑帖",
+      "数字和年份像编出来的",
+      "对象列表没有组织需求解释",
+      "只有窗口，没有行动路径"
+    ],
+    "quality_checks": [
+      "是否明确讲清楚了窗口是什么",
+      "是否解释了为什么现在还稀缺",
+      "是否每个对象都有需求来源说明",
+      "是否把 urgency 建立在时点差和组织变化上",
+      "是否避免了恐吓式口吻"
+    ],
+    "human_review_triggers": [
+      "当前框架样本仅 2 篇且同作者，默认需要 reviewer 复核",
+      "薪资和年份锚点缺乏可验证支撑",
+      "writer 输出后像职业焦虑营销文",
+      "source 其实更像普通趋势总结",
+      "机会对象看起来像拍脑袋命名"
+    ]
+  }
+}
