@@ -1,0 +1,7 @@
+{
+  "publisher_type": "x_post_bitbrowser",
+  "publisher_account": "xiaodao-ai-lab",
+  "browser_id": "ca471b5d29744e6cbfd9506f7f28751c",
+  "bit_port": 54345,
+  "accounts_csv_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/accounts_bitbrowser.csv"
+}

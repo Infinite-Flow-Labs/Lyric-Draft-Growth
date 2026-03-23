@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-astronaut_1216-45bdfaa2b5b3",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Astronaut_1216/status/2034871401350324575",
+  "author": {
+    "handle": "@Astronaut_1216",
+    "display_name": "Astronaut_1216",
+    "account_url": "https://x.com/Astronaut_1216"
+  },
+  "title": "借着阿川的踩坑经验和总结 说一下什么是AI first 思维 1.遇到问题先问AI 2.发现问题优先让AI解决，AI解决不掉，你再想办法让AI解决 3.一定要在每次让AI解决问题的时候，给他足够多的上下文，或者给他配一个Perplexity search skill 以上，你直接收藏吧，我会等你回来谢我的",
+  "language": "unknown",
+  "published_at": "2026-03-20T05:55:22Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Astronaut_1216/status/2034871401350324575",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Astronaut_1216/status/2034871401350324575#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "借着阿川的踩坑经验和总结 说一下什么是AI first 思维 1.遇到问题先问AI 2.发现问题优先让AI解决，AI解决不掉，你再想办法让AI解决 3.一定要在每次让AI解决问题的时候，给他足够多的上下文，或者给他配一个Perplexity search skill 以上，你直接收藏吧，我会等你回来谢我的 阿川 | AI thinking (@AI_jacksaku) x.com/i/article/203466057129… — https://nitter.net/AI_jacksaku/status/2034798346175443088#m",
+    "full_text": "Post title: 借着阿川的踩坑经验和总结 说一下什么是AI first 思维 1.遇到问题先问AI 2.发现问题优先让AI解决，AI解决不掉，你再想办法让AI解决 3.一定要在每次让AI解决问题的时候，给他足够多的上下文，或者给他配一个Perplexity search skill 以上，你直接收藏吧，我会等你回来谢我的\n\nPost summary: 借着阿川的踩坑经验和总结 说一下什么是AI first 思维 1.遇到问题先问AI 2.发现问题优先让AI解决，AI解决不掉，你再想办法让AI解决 3.一定要在每次让AI解决问题的时候，给他足够多的上下文，或者给他配一个Perplexity search skill 以上，你直接收藏吧，我会等你回来谢我的 阿川 | AI thinking (@AI_jacksaku) x.com/i/article/203466057129… — https://nitter.net/AI_jacksaku/status/2034798346175443088#m\n\nCanonical URL: https://x.com/Astronaut_1216/status/2034871401350324575",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "借着阿川的踩坑经验和总结 说一下什么是AI first 思维 1.遇到问题先问AI 2.发现问题优先让AI解决，AI解决不掉，你再想办法让AI解决 3.一定要在每次让AI解决问题的时候，给他足够多的上下文，或者给他配一个Perplexity search skill 以上，你直接收藏吧，我会等你回来谢我的",
+      "借着阿川的踩坑经验和总结 说一下什么是AI first 思维 1.遇到问题先问AI 2.发现问题优先让AI解决，AI解决不掉，你再想办法让AI解决 3.一定要在每次让AI解决问题的时候，给他足够多的上下文，或者给他配一个Perplexity search skill 以上，你直接收藏吧，我会等你回来谢我的 阿川 | AI thinking (@AI_jacksaku) x.com/i/article/203466057129… — https://nitter.net/AI_jacksaku/status/2034798346175443088#m",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

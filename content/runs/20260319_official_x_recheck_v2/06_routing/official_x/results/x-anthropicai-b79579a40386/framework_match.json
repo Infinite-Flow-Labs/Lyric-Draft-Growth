@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/03_source_items/official_x/items/x-anthropicai-b79579a40386/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof",
+      "06_checklist_template"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=8 because body_hit=growth, title_hit=k, signal_hit=%, business_metric_signals=5",
+      "06_checklist_template: score=5 because body_hit=guide, signal_hit=tutorial, execution_path_hint, sectioned_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:39:25Z",
+    "top_choice": {
+      "framework_id": "01_money_proof",
+      "submode_id": "metric_postmortem",
+      "confidence": "medium",
+      "rationale": "The source is driven by auditable scale metrics and a concrete process behind them: recruiting Claude users, running interviews over one week, and reporting study scope across countries and languages. It is not a tutorial or checklist. While this is not a classic growth or revenue postmortem, it fits best as a quantified systems/results breakdown rather than an onboarding or capability-extension piece.",
+      "triggered_routing_signals": [
+        "Hard numbers appear immediately",
+        "Evidence includes process and study setup",
+        "Reader payoff comes from interpreting quantified results, not following steps",
+        "Not a pure opinion post; has measurable scope and methodology"
+      ],
+      "supporting_source_quotes": [
+        "\"Nearly 81,000 people responded in one week\"",
+        "\"80,508 people, across 159 countries and 70 languages\"",
+        "\"largest and most multilingual qualitative study\""
+      ],
+      "matched_sample_ids": [
+        "2031489944083116370"
+      ],
+      "ambiguity_notes": [
+        "The source is research-oriented, not a standard business growth postmortem.",
+        "Prefilter suggested tutorial/checklist signals, but the source lacks step-by-step execution content."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "guided_onboarding",
+        "confidence": "low",
+        "rationale": "A weak alternative only because the prefilter saw tutorial-like hints, but the actual source does not teach setup, configuration, or a follow-along path.",
+        "triggered_routing_signals": [
+          "Linked article could look educational at a glance",
+          "Sectioned source with linked context"
+        ],
+        "supporting_source_quotes": [
+          "\"Read more\"",
+          "\"what they dream it could make possible\""
+        ],
+        "matched_sample_ids": [
+          "2029894874888278198"
+        ],
+        "ambiguity_notes": [
+          "No steps, prerequisites, FAQ, or install path are present."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:39:38Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The source is primarily a research/study announcement, so `01_money_proof` is only a partial fit and not a natural match for the framework's stated business/growth case focus.",
+      "`06_checklist_template` is materially worse because the post offers no execution path, setup steps, or reusable workflow.",
+      "Reader payoff is interpretation of study scale and findings rather than monetization, growth tactics, or technical implementation, which leaves some framework-fit ambiguity.",
+      "The `tutorial` task hint appears noisy here and should not outweigh the absence of instructional structure in the source itself."
+    ],
+    "requires_human_review": true
+  },
+  "final_decision": {
+    "framework_id": "01_money_proof",
+    "submode_id": "metric_postmortem",
+    "confidence": "medium",
+    "rationale": "The source is driven by auditable scale metrics and a concrete process behind them: recruiting Claude users, running interviews over one week, and reporting study scope across countries and languages. It is not a tutorial or checklist. While this is not a classic growth or revenue postmortem, it fits best as a quantified systems/results breakdown rather than an onboarding or capability-extension piece.",
+    "matched_sample_ids": [
+      "2031489944083116370"
+    ],
+    "requires_human_review": true
+  }
+}

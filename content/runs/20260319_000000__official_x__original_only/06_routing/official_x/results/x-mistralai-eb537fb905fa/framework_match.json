@@ -1,0 +1,112 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-mistralai-eb537fb905fa/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "02_launch_application",
+      "06_checklist_template"
+    ],
+    "why_these_candidates": [
+      "02_launch_application: score=5 because task_hint=release, title_hit=introducing, release_signals=introducing",
+      "06_checklist_template: score=5 because signal_hit=tutorial, body_hit=how to, execution_path_hint, sectioned_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:11:05Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "medium",
+      "rationale": "This source is a launch-style announcement for a newly introduced summit, framed to quickly show why it is worth following and where to act (notify/tickets). It provides a value snapshot and entry link, not a hands-on implementation path or architecture walkthrough.",
+      "triggered_routing_signals": [
+        "Clear release/announcement cue in title language",
+        "Reader payoff is value preview plus participation CTA",
+        "Agenda bullets function as showcase content list",
+        "Lacks execution steps expected in delivery/tutorial frameworks"
+      ],
+      "supporting_source_quotes": [
+        "Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!",
+        "Learn more and get notified when tickets go live",
+        "Scaling from pilots to production deployments"
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986",
+        "2032044423413182827"
+      ],
+      "ambiguity_notes": [
+        "The post is promo-heavy and close to a press release tone.",
+        "Adoption depth is limited; fit relies on showcase-style payoff."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "low",
+        "rationale": "There are capability themes (open source core, production scaling, infrastructure), which could hint at feature-oriented interpretation, but the post does not explain mechanisms, boundaries, or how to apply a specific feature.",
+        "triggered_routing_signals": [
+          "Mentions concrete enterprise AI capability areas",
+          "Targets readers evaluating practical transformation topics"
+        ],
+        "supporting_source_quotes": [
+          "Using open source as a core for end-to-end AI transformations",
+          "Building AI infrastructure for enterprise-grade deployments"
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "No single feature is defined with usage guidance.",
+          "Missing best-practice or when-not-to-use content."
+        ]
+      },
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "guided_onboarding",
+        "confidence": "low",
+        "rationale": "The post promises learning outcomes, but it does not include stepwise onboarding artifacts (prep list, setup steps, commands, pitfalls). So execution-path fit is weak.",
+        "triggered_routing_signals": [
+          "Contains learning-oriented language",
+          "Touches deployment and scaling topics"
+        ],
+        "supporting_source_quotes": [
+          "Join us to learn how AI is transforming leading organisations",
+          "Scaling from pilots to production deployments"
+        ],
+        "matched_sample_ids": [
+          "2029894874888278198"
+        ],
+        "ambiguity_notes": [
+          "No install/access/configuration path is provided.",
+          "Primary intent is event promotion, not tutorial delivery."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:11:36Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The source is mostly an event promo/press-release; this is a marginal fit for an adoption-focused framework.",
+      "`release_showcase` is still the best available submode here because there is a clear announcement, value snapshot, and CTA link, while tutorial/checklist signals are absent."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "medium",
+    "rationale": "This source is a launch-style announcement for a newly introduced summit, framed to quickly show why it is worth following and where to act (notify/tickets). It provides a value snapshot and entry link, not a hands-on implementation path or architecture walkthrough.",
+    "matched_sample_ids": [
+      "2033848539332415986",
+      "2032044423413182827"
+    ],
+    "requires_human_review": false
+  }
+}

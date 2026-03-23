@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-oran_ge-7642d4335e76",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/oran_ge/status/2033848539332415986",
+  "author": {
+    "handle": "@oran_ge",
+    "display_name": "oran_ge",
+    "account_url": "https://x.com/oran_ge"
+  },
+  "title": "x.com/i/article/203384754709…",
+  "language": "unknown",
+  "published_at": "2026-03-17T10:10:53Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/oran_ge/status/2033848539332415986",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/oran_ge/status/2033848539332415986#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "x.com/i/article/203384754709…",
+    "full_text": "Post title: x.com/i/article/203384754709…\n\nPost summary: x.com/i/article/203384754709…\n\nCanonical URL: https://x.com/oran_ge/status/2033848539332415986",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "x.com/i/article/203384754709…",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "podcast-the_ai_daily_brief-34cd14c1656d",
+  "fetched_at": "2026-03-20T05:15:17Z",
+  "platform": "podcast",
+  "source_kind": "podcast_transcript",
+  "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Race-to-Put-AI-Agents-Everywhere-e3gjia2",
+  "author": {
+    "handle": null,
+    "display_name": "The AI Daily Brief",
+    "account_url": null
+  },
+  "title": "The Race to Put AI Agents Everywhere",
+  "language": "unknown",
+  "published_at": "2026-03-17T20:57:34Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "rss_feed",
+      "url": "https://anchor.fm/s/f7cac464/podcast/rss",
+      "selected_for_text": false,
+      "notes": null
+    },
+    {
+      "asset_kind": "episode_page",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Race-to-Put-AI-Agents-Everywhere-e3gjia2",
+      "selected_for_text": true,
+      "notes": "origin_page_auto"
+    },
+    {
+      "asset_kind": "audio",
+      "url": "https://anchor.fm/s/f7cac464/podcast/play/117081858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420229522-44100-2-a3d932e24cfb9.mp3",
+      "selected_for_text": false,
+      "notes": null
+    }
+  ],
+  "content": {
+    "primary_text_source": "episode_page",
+    "summary": "Q1 was defined by the realization that agents are here — Q2 is shaping up as an all-out race to make them enterprise-ready. From Nvidia's Nemo Claw adding security to Open Claw, to Manus and Adaptive launching desktop agents, to OpenAI's internal \"code red\" refocus on enterprise and coding, every major player is converging on the same goal: getting agents out of experimentation and into production. In the headlines: Jensen Huang forecasts a trillion dollars in Nvidia revenue, Meta signs a $27 billion deal with Nebius, and Chinese AI labs start keeping their best models closed source.",
+    "full_text": "#### What People Really Want From AI\n\nA new Anthropic study based on nearly 81,000 interviews offers a much more nuanced picture of what people actually want from AI: not some clean split between boosters and skeptics, but a messy mix of hope, anxiety, productivity gains, emotional complexity, and fears around reliability, autonomy, and jobs. NLW breaks down the biggest findings, why professional ambition and personal quality of life are so tightly linked in how people describe AI, and why dismissing the views of actual AI users is becoming its own kind of bias. In the headlines: AI brings Val Kilmer back for one final film role, Microsoft restructures Copilot again, and Anthropic’s Cowork Dispatch adds Claude Code sessions.\n_For all the links referenced in the show, sign up for the newsletter:__https://aidailybrief.beehiiv.com/_",
+    "sections": [
+      "What People Really Want From AI"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "Trimmed summary at first non-core marker.; Removed Jina title wrapper.; Removed Jina URL wrapper.; Removed Jina markdown wrapper.; Removed empty markdown link line.; Removed promo line.; Trimmed episode page at sponsor/footer marker.; Built from transcript_source.json: /home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/01_discovery/podcast_ingest/fulltext/auto_discovered/podcast-the_ai_daily_brief-34cd14c1656d/transcript_source.json; Primary text source selected: episode_page."
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch"
+    ],
+    "metric_signals": [
+      "$27"
+    ],
+    "named_entities": [
+      "The Race",
+      "Put AI Agents Everywhere",
+      "Q1",
+      "Q2",
+      "From Nvidia",
+      "Nemo Claw",
+      "Open Claw",
+      "Manus",
+      "Adaptive",
+      "OpenAI",
+      "Jensen Huang",
+      "Nvidia",
+      "Meta",
+      "Nebius",
+      "Chinese AI",
+      "What People Really Want",
+      "From AI",
+      "Anthropic",
+      "AI",
+      "NLW"
+    ],
+    "task_hints": [
+      "podcast",
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "The Race to Put AI Agents Everywhere",
+      "2026-03-17T20:57:34Z",
+      "$27",
+      "The Race",
+      "Put AI Agents Everywhere",
+      "Q1",
+      "Q2",
+      "From Nvidia",
+      "Nemo Claw",
+      "Open Claw",
+      "Manus",
+      "Adaptive",
+      "OpenAI",
+      "Q1 was defined by the realization that agents are here — Q2 is shaping up as an all-out race to make them enterprise-ready"
+    ],
+    "normalization_notes": "Trimmed summary at first non-core marker.; Removed Jina title wrapper.; Removed Jina URL wrapper.; Removed Jina markdown wrapper.; Removed empty markdown link line.; Removed promo line.; Trimmed episode page at sponsor/footer marker.; Built from transcript_source.json: /home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/01_discovery/podcast_ingest/fulltext/auto_discovered/podcast-the_ai_daily_brief-34cd14c1656d/transcript_source.json"
+  }
+}

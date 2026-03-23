@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-hitw93-e9d0c7cfc248",
+  "fetched_at": "2026-03-19T06:58:54Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/HiTw93/status/2033911478466843115",
+  "author": {
+    "handle": "@HiTw93",
+    "display_name": "HiTw93",
+    "account_url": "https://x.com/HiTw93"
+  },
+  "title": "Most Claude Code problems are not prompting problems. They are systems-design problems. I wrote a deep dive on Claude Code's architecture, governance, and engineering internals. If you want the practical takeaway: `npx skills add tw93/claude-health`, then run `/health`.",
+  "language": "unknown",
+  "published_at": "2026-03-17T14:20:59Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/HiTw93/status/2033911478466843115",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/HiTw93/status/2033911478466843115#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Most Claude Code problems are not prompting problems. They are systems-design problems. I wrote a deep dive on Claude Code's architecture, governance, and engineering internals. If you want the practical takeaway: `npx skills add tw93/claude-health`, then run `/health`. Tw93 (@HiTw93) x.com/i/article/203236418602… — https://nitter.net/HiTw93/status/2033181380432339045#m",
+    "full_text": "Post title: Most Claude Code problems are not prompting problems. They are systems-design problems. I wrote a deep dive on Claude Code's architecture, governance, and engineering internals. If you want the practical takeaway: `npx skills add tw93/claude-health`, then run `/health`.\n\nPost summary: Most Claude Code problems are not prompting problems. They are systems-design problems. I wrote a deep dive on Claude Code's architecture, governance, and engineering internals. If you want the practical takeaway: `npx skills add tw93/claude-health`, then run `/health`. Tw93 (@HiTw93) x.com/i/article/203236418602… — https://nitter.net/HiTw93/status/2033181380432339045#m\n\nCanonical URL: https://x.com/HiTw93/status/2033911478466843115",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Most Claude Code",
+      "They",
+      "Claude Code",
+      "If",
+      "Tw93",
+      "HiTw93",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Most Claude Code problems are not prompting problems. They are systems-design problems. I wrote a deep dive on Claude Code's architecture, governance, and engineering internals. If you want the practical takeaway: `npx skills add tw93/claude-health`, then run `/health`.",
+      "Most Claude Code problems are not prompting problems. They are systems-design problems. I wrote a deep dive on Claude Code's architecture, governance, and engineering internals. If you want the practical takeaway: `npx skills add tw93/claude-health`, then run `/health`. Tw93 (@HiTw93) x.com/i/article/203236418602… — https://nitter.net/HiTw93/status/2033181380432339045#m",
+      "Most Claude Code",
+      "They",
+      "Claude Code",
+      "If",
+      "Tw93",
+      "HiTw93",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-chuhaiqu-d3ca80c45895",
+  "fetched_at": "2026-03-19T06:58:54Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/chuhaiqu/status/2034416569590386966",
+  "author": {
+    "handle": "@chuhaiqu",
+    "display_name": "chuhaiqu",
+    "account_url": "https://x.com/chuhaiqu"
+  },
+  "title": "Stripe 刚推的 MPP（机器支付协议），简单来说，就是让 AI 也能自己掏钱了。 对现成的 SaaS 来说，吃下这波新营收并不难。 底层的提现和风控还是用你原来那套 Stripe 设施，核心只要把遇到付费墙时的 401 Unauthorized 报错，换成一个机器能读懂的支付请求。 跑通之后，你的客户群就多了一大批不需要客服的 Agent： 比如你做了一个深度行业数据库。Claude 帮人做调研时遇到付费节点，自己花几美分调用 API 买下数据，顺滑地把报告写完。 再比如你提供基础设施服务。OpenClaw 跑自动化任务走到一半，自动按次扣费，租用你的无头浏览器接着跑。 一手交钱一手交货，好好好，Agent 经济的闭环拼图又补上了一大块 🤣",
+  "language": "unknown",
+  "published_at": "2026-03-18T23:48:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/chuhaiqu/status/2034416569590386966",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/chuhaiqu/status/2034416569590386966#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Stripe 刚推的 MPP（机器支付协议），简单来说，就是让 AI 也能自己掏钱了。 对现成的 SaaS 来说，吃下这波新营收并不难。 底层的提现和风控还是用你原来那套 Stripe 设施，核心只要把遇到付费墙时的 401 Unauthorized 报错，换成一个机器能读懂的支付请求。 跑通之后，你的客户群就多了一大批不需要客服的 Agent： 比如你做了一个深度行业数据库。Claude 帮人做调研时遇到付费节点，自己花几美分调用 API 买下数据，顺滑地把报告写完。 再比如你提供基础设施服务。OpenClaw 跑自动化任务走到一半，自动按次扣费，租用你的无头浏览器接着跑。 一手交钱一手交货，好好好，Agent 经济的闭环拼图又补上了一大块 🤣 Stripe (@stripe) x.com/i/article/203400522107… — https://nitter.net/stripe/status/2034257912973963374#m",
+    "full_text": "Post title: Stripe 刚推的 MPP（机器支付协议），简单来说，就是让 AI 也能自己掏钱了。 对现成的 SaaS 来说，吃下这波新营收并不难。 底层的提现和风控还是用你原来那套 Stripe 设施，核心只要把遇到付费墙时的 401 Unauthorized 报错，换成一个机器能读懂的支付请求。 跑通之后，你的客户群就多了一大批不需要客服的 Agent： 比如你做了一个深度行业数据库。Claude 帮人做调研时遇到付费节点，自己花几美分调用 API 买下数据，顺滑地把报告写完。 再比如你提供基础设施服务。OpenClaw 跑自动化任务走到一半，自动按次扣费，租用你的无头浏览器接着跑。 一手交钱一手交货，好好好，Agent 经济的闭环拼图又补上了一大块 🤣\n\nPost summary: Stripe 刚推的 MPP（机器支付协议），简单来说，就是让 AI 也能自己掏钱了。 对现成的 SaaS 来说，吃下这波新营收并不难。 底层的提现和风控还是用你原来那套 Stripe 设施，核心只要把遇到付费墙时的 401 Unauthorized 报错，换成一个机器能读懂的支付请求。 跑通之后，你的客户群就多了一大批不需要客服的 Agent： 比如你做了一个深度行业数据库。Claude 帮人做调研时遇到付费节点，自己花几美分调用 API 买下数据，顺滑地把报告写完。 再比如你提供基础设施服务。OpenClaw 跑自动化任务走到一半，自动按次扣费，租用你的无头浏览器接着跑。 一手交钱一手交货，好好好，Agent 经济的闭环拼图又补上了一大块 🤣 Stripe (@stripe) x.com/i/article/203400522107… — https://nitter.net/stripe/status/2034257912973963374#m\n\nCanonical URL: https://x.com/chuhaiqu/status/2034416569590386966",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Stripe",
+      "MPP",
+      "AI",
+      "SaaS",
+      "Unauthorized",
+      "Agent",
+      "Claude",
+      "API",
+      "OpenClaw",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Stripe 刚推的 MPP（机器支付协议），简单来说，就是让 AI 也能自己掏钱了。 对现成的 SaaS 来说，吃下这波新营收并不难。 底层的提现和风控还是用你原来那套 Stripe 设施，核心只要把遇到付费墙时的 401 Unauthorized 报错，换成一个机器能读懂的支付请求。 跑通之后，你的客户群就多了一大批不需要客服的 Agent： 比如你做了一个深度行业数据库。Claude 帮人做调研时遇到付费节点，自己花几美分调用 API 买下数据，顺滑地把报告写完。 再比如你提供基础设施服务。OpenClaw 跑自动化任务走到一半，自动按次扣费，租用你的无头浏览器接着跑。 一手交钱一手交货，好好好，Agent 经济的闭环拼图又补上了一大块 🤣",
+      "Stripe 刚推的 MPP（机器支付协议），简单来说，就是让 AI 也能自己掏钱了。 对现成的 SaaS 来说，吃下这波新营收并不难。 底层的提现和风控还是用你原来那套 Stripe 设施，核心只要把遇到付费墙时的 401 Unauthorized 报错，换成一个机器能读懂的支付请求。 跑通之后，你的客户群就多了一大批不需要客服的 Agent： 比如你做了一个深度行业数据库。Claude 帮人做调研时遇到付费节点，自己花几美分调用 API 买下数据，顺滑地把报告写完。 再比如你提供基础设施服务。OpenClaw 跑自动化任务走到一半，自动按次扣费，租用你的无头浏览器接着跑。 一手交钱一手交货，好好好，Agent 经济的闭环拼图又补上了一大块 🤣 Stripe (@stripe) x.com/i/article/203400522107… — https://nitter.net/stripe/status/2034257912973963374#m",
+      "Stripe",
+      "MPP",
+      "AI",
+      "SaaS",
+      "Unauthorized",
+      "Agent",
+      "Claude",
+      "API",
+      "OpenClaw",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

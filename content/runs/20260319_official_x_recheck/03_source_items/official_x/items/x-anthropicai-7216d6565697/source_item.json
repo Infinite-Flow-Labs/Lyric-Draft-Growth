@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-anthropicai-7216d6565697",
+  "fetched_at": "2026-03-19T10:32:27Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AnthropicAI/status/2033939283313402138",
+  "author": {
+    "handle": "@AnthropicAI",
+    "display_name": "Anthropic",
+    "account_url": "https://x.com/AnthropicAI"
+  },
+  "title": "The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on.",
+  "language": "unknown",
+  "published_at": "2026-03-17T16:11:28Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AnthropicAI/status/2033939283313402138",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AnthropicAI/status/2033939283313402138#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on. The Linux Foundation (@linuxfoundation) The Linux Foundation Announces $12.5 Million in Grant Funding (via @AlphaOmegaOSS and @OpenSSF ) @AnthropicAI , @AmazonWebServices, @GitHub , @Google , @GoogleDeepMind , @Microsoft , @OpenAI to Invest in Sustainable Security Solutions for #OpenSource linuxfoundation.org/press/li… — https://nitter.net/linuxfoundation/status/2033938257688563758#m",
+    "full_text": "Post title: The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on.\n\nPost summary: The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on. The Linux Foundation (@linuxfoundation) The Linux Foundation Announces $12.5 Million in Grant Funding (via @AlphaOmegaOSS and @OpenSSF ) @AnthropicAI , @AmazonWebServices, @GitHub , @Google , @GoogleDeepMind , @Microsoft , @OpenAI to Invest in Sustainable Security Solutions for #OpenSource linuxfoundation.org/press/li… — https://nitter.net/linuxfoundation/status/2033938257688563758#m\n\nCanonical URL: https://x.com/AnthropicAI/status/2033939283313402138",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "$12.5"
+    ],
+    "named_entities": [
+      "As AI",
+      "We",
+      "Linux Foundation",
+      "AI",
+      "The Linux Foundation",
+      "The Linux Foundation Announces",
+      "Million",
+      "Grant Funding",
+      "AlphaOmegaOSS",
+      "OpenSSF",
+      "AnthropicAI",
+      "AmazonWebServices",
+      "GitHub",
+      "Google",
+      "GoogleDeepMind",
+      "Microsoft",
+      "OpenAI",
+      "Invest",
+      "Sustainable Security Solutions",
+      "OpenSource",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on.",
+      "The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on. The Linux Foundation (@linuxfoundation) The Linux Foundation Announces $12.5 Million in Grant Funding (via @AlphaOmegaOSS and @OpenSSF ) @AnthropicAI , @AmazonWebServices, @GitHub , @Google , @GoogleDeepMind , @Microsoft , @OpenAI to Invest in Sustainable Security Solutions for #OpenSource linuxfoundation.org/press/li… — https://nitter.net/linuxfoundation/status/2033938257688563758#m",
+      "$12.5",
+      "As AI",
+      "We",
+      "Linux Foundation",
+      "AI",
+      "The Linux Foundation",
+      "The Linux Foundation Announces",
+      "Million",
+      "Grant Funding",
+      "AlphaOmegaOSS",
+      "OpenSSF",
+      "AnthropicAI",
+      "AmazonWebServices",
+      "GitHub",
+      "Google",
+      "GoogleDeepMind",
+      "Microsoft"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

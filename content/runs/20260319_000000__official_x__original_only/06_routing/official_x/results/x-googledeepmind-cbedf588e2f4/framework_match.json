@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-googledeepmind-cbedf588e2f4/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "06_checklist_template",
+      "05_ab_benchmark",
+      "03_opinion_decode"
+    ],
+    "why_these_candidates": [
+      "06_checklist_template: score=6 because signal_hit=tutorial, title_hit=how to, execution_path_hint, sectioned_source",
+      "05_ab_benchmark: score=6 because task_hint=comparison, title_hit= vs, signal_hit=comparison",
+      "03_opinion_decode: score=2 because title_hit=discuss"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:09:54Z",
+    "top_choice": {
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "confidence": "medium",
+      "rationale": "The source is an external signal (AlphaGo 10-year podcast post) presented as a timestamped thematic briefing. It points to cross-domain implications and importance framing, but does not provide dialogue texture, quotes, or character arc needed for conversation-led distillation.",
+      "triggered_routing_signals": [
+        "External signal anchored to a major AI milestone/event",
+        "Narrated timestamp agenda rather than dialogue reconstruction",
+        "Why-it-matters topics across science impact and verification"
+      ],
+      "supporting_source_quotes": [
+        "To celebrate 10 years of AlphaGo",
+        "joined @fryrsquared on our podcast",
+        "32:05 AlphaGo to protein folding",
+        "34:00 Matrix multiplication",
+        "38:00 AlphaGo and algorithmic discovery"
+      ],
+      "matched_sample_ids": [
+        "2033806716492538155",
+        "2033573236240466178"
+      ],
+      "ambiguity_notes": [
+        "Podcast origin creates partial overlap with conversation_distillation, but provided text is agenda-style only."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "03_opinion_decode",
+        "submode_id": "conversation_distillation",
+        "confidence": "low",
+        "rationale": "There is a podcast with named participants and chapter markers, so a conversation format is present. However, the item lacks quoted exchanges, scene reconstruction, and人物/turning-point evidence that this submode expects.",
+        "triggered_routing_signals": [
+          "Source explicitly says podcast participation",
+          "Timestamped segments could support distillation if dialogue content were available"
+        ],
+        "supporting_source_quotes": [
+          "joined @fryrsquared on our podcast",
+          "00:00 The AlphaGo match",
+          "51:43 Would we be here without AlphaGo?"
+        ],
+        "matched_sample_ids": [
+          "2033365853140595122"
+        ],
+        "ambiguity_notes": [
+          "If a full transcript with key exchanges is added, this alternative may become primary."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:10:20Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "Source evidence is agenda-style promo text (timestamps/topics) without transcript excerpts, quotes, or interaction detail, so conversation_distillation is not justified.",
+      "Prefilter hits for checklist/comparison are likely lexical false positives (\"What does it take\", \"vs\" segment label) rather than true tutorial or AB-evaluation intent.",
+      "Metadata inconsistency risk: `has_explicit_guest_language=false` despite podcast participant phrasing; routing still remains signal_decode based on available text form."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "03_opinion_decode",
+    "submode_id": "signal_decode",
+    "confidence": "medium",
+    "rationale": "The source is an external signal (AlphaGo 10-year podcast post) presented as a timestamped thematic briefing. It points to cross-domain implications and importance framing, but does not provide dialogue texture, quotes, or character arc needed for conversation-led distillation.",
+    "matched_sample_ids": [
+      "2033806716492538155",
+      "2033573236240466178"
+    ],
+    "requires_human_review": false
+  }
+}

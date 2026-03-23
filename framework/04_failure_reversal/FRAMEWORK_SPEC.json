@@ -1,0 +1,545 @@
+{
+  "schema_version": "2026-03-18.v1",
+  "full_fidelity": true,
+  "metadata": {
+    "framework_id": "04_failure_reversal",
+    "framework_label": "纠偏转向型",
+    "legacy_label": "错误复盘型（Mistake / Lesson）",
+    "status": "active",
+    "confidence": "high",
+    "last_reviewed": "2026-03-18",
+    "source_of_truth_refs": {
+      "framework_md": "framework/04_failure_reversal/FRAMEWORK.md",
+      "style_profiles_md": "framework/04_failure_reversal/STYLE_PROFILES.md",
+      "sample_decompositions_md": "framework/04_failure_reversal/SAMPLE_DECOMPOSITIONS.md"
+    },
+    "notes": "Stable framework with 4 reclassified samples and 2 submodes. The spec keeps old-path/new-path contrast, root-cause naming, and anti-chicken-soup controls so failure writing remains structurally useful."
+  },
+  "intent": {
+    "definition": "先承认原来的判断、系统、路径或问题定义有误，再找出真正卡住自己的约束点，最后给出更合理的新路径、新分工或新认知。",
+    "core_value": "把错误认知转成更清晰的下一步。重点不是忏悔，而是完成问题重定义和下一步重建。",
+    "core_tasks": [
+      "说清楚原来怎么想、怎么做",
+      "指出旧路径为什么开始失效",
+      "命名真正的根因、约束或错位点",
+      "给出修正后的方向、结构或判断"
+    ]
+  },
+  "routing": {
+    "should_route_when": [
+      "source 明确存在旧路径、旧判断或旧系统",
+      "作者不仅说结果不好，还指出真正的问题出在哪",
+      "正文包含新的方向、结构、分工或认知，而不是停在反思",
+      "文章保留时间、精力、误判、权限坑、协作成本等真实代价"
+    ],
+    "should_not_route_when": [
+      "source 主要是在介绍升级后的系统，没有说明旧方案为什么不够",
+      "source 只是人生感慨或鸡汤，没有真正的约束分析",
+      "source 主要在写结果或赚钱复盘",
+      "source 没有旧路径和新路径之间的清晰对照"
+    ],
+    "source_fit": [
+      "旧工具链、旧系统、旧工作流能跑但越用越卡的迁移文",
+      "创业复盘、招聘判断、战略选择、资源误判的纠偏文"
+    ],
+    "source_unfit": [
+      "普通系统介绍",
+      "只有新方案，没有旧方案失效原因",
+      "只有认错，没有新方向"
+    ],
+    "strong_signals": [
+      "正文明确出现 1.0 / 2.0、原来我以为 / 后来我发现、真正的问题是 这类对照语言",
+      "中段有点破根因的句子，而不是笼统感慨",
+      "结尾通常更冷静、更稳，不煽情",
+      "作者会把旧路径曾经合理的地方也交代清楚"
+    ],
+    "weak_signals": [
+      "标题里出现 2.0、回头看、我招聘的思路有问题、做过一次创业 等表达",
+      "会用版本迁移、decision memo 或 retrospective essay 承载"
+    ],
+    "disqualifiers": [
+      "没有旧路径",
+      "只有反思，没有根因命名",
+      "只有新方案介绍，没有为什么要改",
+      "把复杂约束磨成模糊情绪"
+    ],
+    "routing_questions": [
+      "旧路径到底是什么？它原来解决了什么？",
+      "它是怎么开始暴露出错位的？",
+      "真正的 constraint 被命名清楚了吗？",
+      "读者最后拿到的是更好的下一步，还是一篇反思作文？"
+    ]
+  },
+  "structure": {
+    "hidden_skeleton": [
+      "Old path / old assumption",
+      "Where it started breaking",
+      "What the real constraint was",
+      "New direction or corrected design",
+      "Proof, tradeoff, or lived consequence",
+      "Transferable lesson"
+    ],
+    "visible_template_bans": [
+      "不得写成我错了、错在哪里、现在我明白了、你也应该这样做",
+      "不得每篇都写成三条教训",
+      "不得只有新方案，没有旧方案失效原因",
+      "不得只有认错，没有问题重定义",
+      "不得把真实约束磨平成温和感悟"
+    ],
+    "allowed_surface_moves": [
+      "先从旧方案的成功或流行之处开局，再指出它为什么最终不够用",
+      "先讲一个卡住自己的具体问题，再倒回去解释为什么会卡",
+      "用系统迁移、创业往事、招聘判断、工具切换承载纠偏",
+      "把旧路径和新路径放在同一篇里做清晰对照"
+    ],
+    "forbidden_surface_moves": [
+      "励志鸡汤模板",
+      "情绪排泄代替约束分析",
+      "只会写新方向，不写旧路径为何失效",
+      "看起来像表演反思"
+    ],
+    "parameter_axes": [
+      {
+        "axis": "old_path_type",
+        "values": [
+          "system_or_workflow",
+          "strategy_or_decision",
+          "venture_or_life_path"
+        ]
+      },
+      {
+        "axis": "failure_shape",
+        "values": [
+          "friction_accumulation",
+          "misdiagnosed_bottleneck",
+          "resource_constraint",
+          "go_to_market_mismatch"
+        ]
+      },
+      {
+        "axis": "reader_payoff",
+        "values": [
+          "avoid_same_mistake",
+          "spot_the_real_constraint",
+          "choose_better_next_step"
+        ]
+      },
+      {
+        "axis": "surface_form",
+        "values": [
+          "operator_walkthrough",
+          "reflective_retrospective",
+          "decision_memo"
+        ]
+      }
+    ],
+    "submodes": [
+      {
+        "submode_id": "system_pivot",
+        "label": "系统迁移 / 版本重构",
+        "summary": "旧工具链、旧系统或旧工作流能跑但越用越卡，重点是解释为什么 1.0 不够用，以及 2.0 为什么更对。",
+        "use_when": [
+          "旧系统原本解决过问题，但真实使用中暴露摩擦",
+          "正文重点在根因、重构设计、运行流程和踩坑",
+          "读者收益是理解为什么该迁移、怎么迁移、迁移后解决了什么"
+        ],
+        "avoid_when": [
+          "文章更像纯工具测评",
+          "没有版本迁移逻辑，只有新系统介绍",
+          "真正重心是人和组织判断，而不是系统结构"
+        ],
+        "source_fit": [
+          "系统迁移",
+          "工作流重构",
+          "1.0 -> 2.0 -> 3.0 叙事"
+        ],
+        "source_unfit": [
+          "没有旧系统问题的升级文",
+          "纯使用教程"
+        ],
+        "hidden_flow": [
+          "What 1.0 solved",
+          "Where 1.0 broke in real use",
+          "Root cause",
+          "2.0 design",
+          "How it runs",
+          "What 3.0 or next step looks like"
+        ],
+        "hook_patterns": [
+          "那是 1.0",
+          "今天来说 2.0",
+          "我自己用下来也发现了根本问题",
+          "以前是死库，现在它在流动"
+        ],
+        "evidence_mix": [
+          "旧系统痛点",
+          "新系统架构",
+          "配置过程",
+          "实际运行效果",
+          "踩坑和权限问题"
+        ],
+        "reasoning_moves": [
+          "先证明旧方案解决过问题",
+          "再指出真实使用中的摩擦累积",
+          "命名根因，而不是简单吐槽旧系统",
+          "新方案必须连运行流程和坑一起写"
+        ],
+        "rewrite_formula": "旧系统有价值 -> 真实使用中暴露问题 -> 找到根因 -> 新系统重构 -> 运行与踩坑 -> 下一步方向",
+        "surface_forms": [
+          "版本迁移",
+          "新旧对照",
+          "流程图",
+          "配置说明",
+          "踩坑经验",
+          "3.0 展望"
+        ],
+        "anti_patterns": [
+          "只吹 2.0，不解释 1.0 为什么不够",
+          "只有工具介绍，没有迁移逻辑",
+          "全文像产品推广文",
+          "没有 tradeoff"
+        ],
+        "style_profile_id": "04_system_pivot_style",
+        "sample_ids": [
+          "2031935177421685126",
+          "2032349419811827866"
+        ]
+      },
+      {
+        "submode_id": "constraint_reframe",
+        "label": "约束重定义",
+        "summary": "原来以为问题在 A，后来发现真正问题在 B，可以是创业复盘、招聘判断、战略选择或资源误判。",
+        "use_when": [
+          "作者重点在命名真正的 constraint，而不是解释技术迁移",
+          "正文依赖关键节点、低谷、他人点破、资源约束和新判断",
+          "读者收益是更早识别错位，做出更稳的新选择"
+        ],
+        "avoid_when": [
+          "文章更像系统升级或工作流重构",
+          "没有旧判断和新判断的清晰对照",
+          "只有感悟，没有 constraint"
+        ],
+        "source_fit": [
+          "创业 retrospective",
+          "招聘 / 战略 / 组织 decision memo",
+          "资源约束和时代窗口误判复盘"
+        ],
+        "source_unfit": [
+          "纯自我疗愈文",
+          "只有态度，没有根因"
+        ],
+        "hidden_flow": [
+          "Old belief or original plan",
+          "Why it stopped moving",
+          "The real bottleneck",
+          "What changes in the new framing",
+          "What this means now",
+          "Calmer lesson"
+        ],
+        "hook_patterns": [
+          "但坦白讲，我觉得我招聘的思路有问题",
+          "回头看，我错在哪里",
+          "真正的问题不是...",
+          "止血比造血更紧急"
+        ],
+        "evidence_mix": [
+          "个人经历",
+          "关键节点或低谷",
+          "对话 / 教练 / 他人点破",
+          "资源约束",
+          "新判断带来的组织或人生选择"
+        ],
+        "reasoning_moves": [
+          "先立一个旧判断",
+          "说明它如何卡住",
+          "点破真正 bottleneck",
+          "把新判断落到现实选择上"
+        ],
+        "rewrite_formula": "旧判断 -> 卡住或失败 -> 真正约束 -> 新判断 -> 现实选择 -> 可迁移教训",
+        "surface_forms": [
+          "retrospective essay",
+          "decision memo",
+          "关键节点回看",
+          "他人点破",
+          "更稳的 lesson"
+        ],
+        "anti_patterns": [
+          "泛泛励志文",
+          "全是感悟，没有真正 constraint",
+          "只会认错，不会重定义问题",
+          "把复杂经历压成三句鸡汤"
+        ],
+        "style_profile_id": "04_constraint_reframe_style",
+        "sample_ids": [
+          "2033027083476054377",
+          "2033792268335817177"
+        ]
+      }
+    ]
+  },
+  "style": {
+    "global_style_principles": [
+      "共同风格不是忏悔，而是旧路径到新路径的重建",
+      "很少一上来就喊我错了",
+      "中段一定会有点破根因的句子",
+      "结尾通常更冷静，而不是更兴奋",
+      "必须走 纠偏逻辑 + 子模式语感，而不是反思作文模板"
+    ],
+    "global_anti_ai_rules": [
+      "避免三条人生感悟模板",
+      "避免把真实约束说成模糊情绪",
+      "避免只有认错，没有新方向",
+      "避免把复盘写成情绪排泄",
+      "避免 system_pivot 变成产品种草",
+      "避免 constraint_reframe 变成鸡汤"
+    ],
+    "submode_profiles": [
+      {
+        "style_profile_id": "04_system_pivot_style",
+        "submode_id": "system_pivot",
+        "tone_core": "像一个用过 1.0 又把 2.0 跑通的人在做版本升级说明，不是抱怨旧系统，而是解释为什么该迁移。",
+        "opening_moves": [
+          "先回顾 1.0 做成了什么",
+          "立刻指出复刻或真实使用后的问题",
+          "用 1.0 / 2.0 / 3.0 这种版本化语言组织全文"
+        ],
+        "sentence_rhythm": [
+          "段落短，操作密度高",
+          "小标题明显",
+          "先看看效果 / 怎么做 / 踩坑经验 这类转场很多",
+          "新旧系统对照频繁"
+        ],
+        "surface_forms": [
+          "旧方案问题",
+          "新方案流程图",
+          "配置说明",
+          "权限与 skill 踩坑",
+          "下一版本展望"
+        ],
+        "language_moves": [
+          "那是 1.0",
+          "今天来说 2.0",
+          "根本问题是",
+          "用下来最大的感受是",
+          "说说我现在正在折腾的 3.0"
+        ],
+        "keep": [
+          "版本感",
+          "根因定位",
+          "运行流程",
+          "踩坑细节"
+        ],
+        "avoid": [
+          "线性教程",
+          "只有工具优点，没有迁移原因",
+          "新旧对照太工整像模板",
+          "没有真实坑和 tradeoff"
+        ],
+        "ai_smells": [
+          "只有升级兴奋，没有旧系统失败证据",
+          "新系统像功能清单",
+          "迁移原因太薄",
+          "没有真实使用感"
+        ],
+        "one_sentence_portrait": "像一个把旧方案跑坏过、又把新方案调顺了的人，在告诉你这次到底改对了什么。"
+      },
+      {
+        "style_profile_id": "04_constraint_reframe_style",
+        "submode_id": "constraint_reframe",
+        "tone_core": "更像把一个误判拆开给你看，重点不是情绪宣泄，而是把真正卡住我的东西命名出来。",
+        "opening_moves": [
+          "先立一个旧判断",
+          "先承认自己卡住了",
+          "先让读者看到我原来理解错了",
+          "长文会先用时代落差制造 tension，短文会直接进入问题"
+        ],
+        "sentence_rhythm": [
+          "可长可短，但都依赖转折句",
+          "常见我以为...其实...",
+          "长文更 retrospective，短文更像 memo",
+          "结尾一般收得平，不煽情"
+        ],
+        "surface_forms": [
+          "关键节点回看",
+          "根因命名",
+          "他人点破",
+          "新判断下的行动选择",
+          "calmer lesson"
+        ],
+        "language_moves": [
+          "坦白讲",
+          "回头看",
+          "真正的问题是",
+          "止血比造血更紧急",
+          "如果说我做对了什么"
+        ],
+        "keep": [
+          "旧判断的合理性",
+          "根因命名",
+          "转折句力度",
+          "更稳更冷的收尾"
+        ],
+        "avoid": [
+          "复盘写成鸡汤",
+          "只有认错，没有重定义问题",
+          "看起来像表演反思",
+          "复杂约束变成模糊情绪"
+        ],
+        "ai_smells": [
+          "三条人生感悟",
+          "自我疗愈腔盖过结构问题",
+          "长文只剩回忆",
+          "短文只剩态度"
+        ],
+        "one_sentence_portrait": "像一个终于把困住自己的真正约束讲明白的人，回过头来把错误路径和更好路径一起交代清楚。"
+      }
+    ]
+  },
+  "samples": {
+    "sample_count": 4,
+    "sample_refs": [
+      {
+        "sample_id": "2031935177421685126",
+        "title": "AI内容工厂2.0：我把OpenClaw换成ArkClaw，接管了整个飞书",
+        "url": "https://x.com/bggg_ai/status/2031935177421685126",
+        "author": "@bggg_ai",
+        "submode_id": "system_pivot",
+        "why_it_matters": "典型 system_pivot 样本，先承认 1.0 解决过问题，再指出真实使用中的流动性和执行层瓶颈。",
+        "hook_move": "不是从 2.0 很强开始，而是先承认 1.0 被复刻后暴露出真实问题。",
+        "proof_mode": [
+          "旧系统缺陷",
+          "新系统工作流",
+          "工具理由",
+          "配置过程",
+          "权限踩坑"
+        ],
+        "reusable_parts": [
+          "先证明旧方案解决过问题",
+          "再指出它为什么不够",
+          "新方案必须连运行流程和坑一起写"
+        ],
+        "non_reusable_parts": [
+          "ArkClaw、飞书、抖音 skill 等工具链",
+          "具体配置文件和导入细节"
+        ],
+        "style_cue": "像把系统跑过一遍的操盘手，在做 1.0 到 2.0 的迁移说明。"
+      },
+      {
+        "sample_id": "2032349419811827866",
+        "title": "AI内容工厂2.0：我把OpenClaw换成ArkClaw，接管了整个飞书",
+        "url": "https://x.com/bggg_ai/status/2032349419811827866",
+        "author": "@bggg_ai",
+        "submode_id": "system_pivot",
+        "why_it_matters": "与上一条近重复，更说明 system_pivot 的稳定写法依赖迁移逻辑而不是单条文案。",
+        "hook_move": "同样从旧系统局限和新执行层切换展开，但文案更干净。",
+        "proof_mode": [
+          "新旧对照",
+          "配置说明",
+          "初始化步骤",
+          "权限与 skill 踩坑",
+          "3.0 展望"
+        ],
+        "reusable_parts": [
+          "同一套迁移逻辑可在不同版本文案中复用",
+          "说明重复发布不改变底层框架"
+        ],
+        "non_reusable_parts": [
+          "与样本 1 基本一致"
+        ],
+        "style_cue": "更能说明稳定写法，而不是新的子模式。"
+      },
+      {
+        "sample_id": "2033027083476054377",
+        "title": "2016 年，我做过一次 AI 写代码创业",
+        "url": "https://x.com/xleaps/status/2033027083476054377",
+        "author": "@xleaps",
+        "submode_id": "constraint_reframe",
+        "why_it_matters": "长文 retrospective essay 样本，情绪有，但被技术、资源和时代判断压住了。",
+        "hook_move": "先用今天已经成真的愿景开局，再补一句我当年的创业早停在 2016 年。",
+        "proof_mode": [
+          "创业时间线",
+          "技术细节",
+          "融资受阻",
+          "共同创始人问题",
+          "资源缺口"
+        ],
+        "reusable_parts": [
+          "先给愿景与现实落差",
+          "把失败写成约束分析，而不是遗憾抒情",
+          "结尾回到更稳的世界观"
+        ],
+        "non_reusable_parts": [
+          "2016 AI 技术背景",
+          "个人职业路径和家庭细节"
+        ],
+        "style_cue": "不是教训清单，而是 retrospective essay。"
+      },
+      {
+        "sample_id": "2033792268335817177",
+        "title": "AI黄叔和AI亦仁帮我想清楚了：在杭州招这个岗位",
+        "url": "https://x.com/PMbackttfuture/status/2033792268335817177",
+        "author": "@PMbackttfuture",
+        "submode_id": "constraint_reframe",
+        "why_it_matters": "高密度 decision memo 样本，篇幅不长，但问题到底是什么被点得很准。",
+        "hook_move": "先承认我招聘的思路有问题，再通过两个 AI 教练把问题越问越准。",
+        "proof_mode": [
+          "旧招聘思路",
+          "AI 对话推理",
+          "关键判断句",
+          "新岗位定义",
+          "招聘标准"
+        ],
+        "reusable_parts": [
+          "不是简单改 JD，而是重定义问题",
+          "用一句特别准的判断点破根因",
+          "从认知纠偏顺滑过渡到行动方案"
+        ],
+        "non_reusable_parts": [
+          "黄叔、亦仁、杭州、社群规模背景",
+          "具体招聘信息"
+        ],
+        "style_cue": "更像高密度 decision memo，短但非常准。"
+      }
+    ],
+    "coverage_notes": "Current sample pool covers 4 reclassified examples and supports two clear submodes. Coverage is balanced but compact, so routing should strongly require visible old-path/new-path contrast."
+  },
+  "execution_controls": {
+    "must_keep": [
+      "旧路径",
+      "失效点",
+      "真正 constraint",
+      "新方向或新设计",
+      "真实成本或 tradeoff",
+      "可迁移判断"
+    ],
+    "must_avoid": [
+      "认错模板",
+      "只有新方案，没有旧方案失效原因",
+      "鸡汤式复盘",
+      "情绪排泄",
+      "没有根因命名"
+    ],
+    "rewrite_failure_modes": [
+      "system_pivot 退化成工具种草文",
+      "constraint_reframe 退化成人生感悟",
+      "旧路径写得太弱，导致纠偏不成立",
+      "只有根因，没有新方向",
+      "只有反思，没有现实代价"
+    ],
+    "quality_checks": [
+      "是否交代了旧路径原本解决什么",
+      "是否明确指出旧路径在哪开始失效",
+      "是否命名了真正的 constraint",
+      "是否给出了新方向和 tradeoff",
+      "是否保留了真实成本，而不是温和感悟",
+      "是否保留了对应子模式的语感，而不是反思作文模板"
+    ],
+    "human_review_triggers": [
+      "source 只有升级，没有明显旧路径失效证据",
+      "writer 输出后像鸡汤或产品推广文",
+      "constraint 没有被准确命名",
+      "system_pivot 没有踩坑和 tradeoff",
+      "新方向看起来像另一个未证明的口号"
+    ]
+  }
+}

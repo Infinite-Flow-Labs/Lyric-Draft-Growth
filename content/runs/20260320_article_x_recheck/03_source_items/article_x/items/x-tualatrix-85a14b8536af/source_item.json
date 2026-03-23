@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-tualatrix-85a14b8536af",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/tualatrix/status/2033133063006474495",
+  "author": {
+    "handle": "@tualatrix",
+    "display_name": "tualatrix",
+    "account_url": "https://x.com/tualatrix"
+  },
+  "title": "最近看过最有故事的长文。看了开头就把全文耐心看完了。",
+  "language": "unknown",
+  "published_at": "2026-03-15T10:47:50Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/tualatrix/status/2033133063006474495",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/tualatrix/status/2033133063006474495#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "最近看过最有故事的长文。看了开头就把全文耐心看完了。 Eric Xu (e/Mettā) (@xleaps) x.com/i/article/203302332144… — https://nitter.net/xleaps/status/2033027083476054377#m",
+    "full_text": "Post title: 最近看过最有故事的长文。看了开头就把全文耐心看完了。\n\nPost summary: 最近看过最有故事的长文。看了开头就把全文耐心看完了。 Eric Xu (e/Mettā) (@xleaps) x.com/i/article/203302332144… — https://nitter.net/xleaps/status/2033027083476054377#m\n\nCanonical URL: https://x.com/tualatrix/status/2033133063006474495",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Eric Xu",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "最近看过最有故事的长文。看了开头就把全文耐心看完了。",
+      "最近看过最有故事的长文。看了开头就把全文耐心看完了。 Eric Xu (e/Mettā) (@xleaps) x.com/i/article/203302332144… — https://nitter.net/xleaps/status/2033027083476054377#m",
+      "Eric Xu",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

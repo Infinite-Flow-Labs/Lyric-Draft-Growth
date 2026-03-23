@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/03_source_items/article_x/items/x-gorden_sun-4d1bb97e37f3/source_item.json",
+  "source_id": "x-gorden_sun-4d1bb97e37f3",
+  "longform_eligible": false,
+  "recommended_action": "hold_or_shortform",
+  "reasons": [
+    "full_text too short for longform (14 words < 140)"
+  ],
+  "signals": {
+    "source_kind": "x_thread",
+    "primary_text_source": "x_post",
+    "participant_count": 0,
+    "summary_words": 4,
+    "full_text_words": 14,
+    "fact_anchor_count": 5,
+    "trimmed_noisy_episode_page": false,
+    "linked_context_asset_count": 0,
+    "announcement_like": false
+  }
+}

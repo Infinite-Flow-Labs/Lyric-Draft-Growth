@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-fkysly-5b340e56a325",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/fkysly/status/2034098864966508586",
+  "author": {
+    "handle": "@fkysly",
+    "display_name": "fkysly",
+    "account_url": "https://x.com/fkysly"
+  },
+  "title": "x.com/i/article/203409127778…",
+  "language": "unknown",
+  "published_at": "2026-03-18T02:45:35Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/fkysly/status/2034098864966508586",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/fkysly/status/2034098864966508586#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "x.com/i/article/203409127778…",
+    "full_text": "Post title: x.com/i/article/203409127778…\n\nPost summary: x.com/i/article/203409127778…\n\nCanonical URL: https://x.com/fkysly/status/2034098864966508586",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "x.com/i/article/203409127778…",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

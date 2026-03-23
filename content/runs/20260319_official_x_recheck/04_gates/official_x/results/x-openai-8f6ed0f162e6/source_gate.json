@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck/03_source_items/official_x/items/x-openai-8f6ed0f162e6/source_item.json",
+  "source_id": "x-openai-8f6ed0f162e6",
+  "longform_eligible": true,
+  "recommended_action": "write_longform",
+  "reasons": [
+    "announcement source has linked context support and passes longform gate"
+  ],
+  "signals": {
+    "source_kind": "x_thread",
+    "primary_text_source": "x_post_with_link_context",
+    "participant_count": 0,
+    "summary_words": 28,
+    "full_text_words": 730,
+    "fact_anchor_count": 34,
+    "trimmed_noisy_episode_page": false,
+    "linked_context_asset_count": 1,
+    "announcement_like": true
+  }
+}

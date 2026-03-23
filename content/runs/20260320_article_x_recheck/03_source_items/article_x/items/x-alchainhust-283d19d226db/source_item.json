@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alchainhust-283d19d226db",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlchainHust/status/2033584179351547952",
+  "author": {
+    "handle": "@AlchainHust",
+    "display_name": "AlchainHust",
+    "account_url": "https://x.com/AlchainHust"
+  },
+  "title": "我去，据知情人士线报，这篇文章的一作居然是个17岁到Kimi实习的高中生 @nathancgy4 甚至这个想法是他在考场的草稿纸上想出来的。绝了！！",
+  "language": "unknown",
+  "published_at": "2026-03-16T16:40:25Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlchainHust/status/2033584179351547952",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlchainHust/status/2033584179351547952#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "我去，据知情人士线报，这篇文章的一作居然是个17岁到Kimi实习的高中生 @nathancgy4 甚至这个想法是他在考场的草稿纸上想出来的。绝了！！ 花叔 (@AlchainHust) x.com/i/article/203357113238… — https://nitter.net/AlchainHust/status/2033573236240466178#m",
+    "full_text": "Post title: 我去，据知情人士线报，这篇文章的一作居然是个17岁到Kimi实习的高中生 @nathancgy4 甚至这个想法是他在考场的草稿纸上想出来的。绝了！！\n\nPost summary: 我去，据知情人士线报，这篇文章的一作居然是个17岁到Kimi实习的高中生 @nathancgy4 甚至这个想法是他在考场的草稿纸上想出来的。绝了！！ 花叔 (@AlchainHust) x.com/i/article/203357113238… — https://nitter.net/AlchainHust/status/2033573236240466178#m\n\nCanonical URL: https://x.com/AlchainHust/status/2033584179351547952",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "AlchainHust",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "我去，据知情人士线报，这篇文章的一作居然是个17岁到Kimi实习的高中生 @nathancgy4 甚至这个想法是他在考场的草稿纸上想出来的。绝了！！",
+      "我去，据知情人士线报，这篇文章的一作居然是个17岁到Kimi实习的高中生 @nathancgy4 甚至这个想法是他在考场的草稿纸上想出来的。绝了！！ 花叔 (@AlchainHust) x.com/i/article/203357113238… — https://nitter.net/AlchainHust/status/2033573236240466178#m",
+      "AlchainHust",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

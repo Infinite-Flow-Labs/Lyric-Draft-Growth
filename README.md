@@ -7,7 +7,7 @@ Infinite Flow Labs 的增长系统。独立于任何单一产品，可复用于 
 ```
 growth-engine/
 ├── strategy/        # 增长策略文档
-├── accounts/        # 矩阵账号定义与运营规范
+├── framework/       # framework spec、schema 与基准账号资料
 ├── content/         # 内容框架、模板、素材库
 ├── playbook/        # 可复用的增长 Playbook
 └── campaigns/       # 具体产品的增长战役（按产品分子目录）

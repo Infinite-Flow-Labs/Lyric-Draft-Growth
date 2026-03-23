@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-chuhaiqu-6fbe1b4fa95c",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/chuhaiqu/status/2034820738113470514",
+  "author": {
+    "handle": "@chuhaiqu",
+    "display_name": "chuhaiqu",
+    "account_url": "https://x.com/chuhaiqu"
+  },
+  "title": "Felix 有 7 年设计经验，先后在 Gotrade（YC S19）和 ADPList 工作。以前上线一个功能要写 brief、等排期、跟工程师来回沟通，几天起步。现在靠两个东西，流程完全变了。 第一个是 Figma MCP。 通过 MCP 把 Claude Code 连上 Figma，Claude 可以直接读组件、design token、间距。你指向一个 frame 告诉它要实现什么，它照着设计稿写代码。设计稿和最终产物第一次真正对齐了。 第二个是 Claude Code 的构建循环。 用自然语言描述功能，Claude 出第一版，你视觉上检查，告诉它哪不对，改，循环。 他说多年练出来的设计眼光在这个流程里反而是最大优势。 padding 不对、字重不对、交互不顺，一眼就能看出来，直接让 Claude 改。他在 ADPList 做的第一个内部工具，工程师估计两天，他四个小时搞定。 原型阶段变化也大。 以前 Figma 里做可点击原型要两小时，现在跟 Claude Code 描述交互直接生成能跑的代码，手机上就能测，30 分钟搞定。能跑的东西和看起来能跑的东西，拿到的反馈质量完全不一样。 还有个容易忽略的点是 context files。维护一份文件写清楚产品、用户、设计原则，每次 session 开头加载，产出质量和效率会比直接口喷高效太多太多。",
+  "language": "unknown",
+  "published_at": "2026-03-20T02:34:03Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/chuhaiqu/status/2034820738113470514",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/chuhaiqu/status/2034820738113470514#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Felix 有 7 年设计经验，先后在 Gotrade（YC S19）和 ADPList 工作。以前上线一个功能要写 brief、等排期、跟工程师来回沟通，几天起步。现在靠两个东西，流程完全变了。 第一个是 Figma MCP。 通过 MCP 把 Claude Code 连上 Figma，Claude 可以直接读组件、design token、间距。你指向一个 frame 告诉它要实现什么，它照着设计稿写代码。设计稿和最终产物第一次真正对齐了。 第二个是 Claude Code 的构建循环。 用自然语言描述功能，Claude 出第一版，你视觉上检查，告诉它哪不对，改，循环。 他说多年练出来的设计眼光在这个流程里反而是最大优势。 padding 不对、字重不对、交互不顺，一眼就能看出来，直接让 Claude 改。他在 ADPList 做的第一个内部工具，工程师估计两天，他四个小时搞定。 原型阶段变化也大。 以前 Figma 里做可点击原型要两小时，现在跟 Claude Code 描述交互直接生成能跑的代码，手机上就能测，30 分钟搞定。能跑的东西和看起来能跑的东西，拿到的反馈质量完全不一样。 还有个容易忽略的点是 context files。维护一份文件写清楚产品、用户、设计原则，每次 session 开头加载，产出质量和效率会比直接口喷高效太多太多。 Felix Lee (@felixleezd) x.com/i/article/202854193240… — https://nitter.net/felixleezd/status/2029236285005860903#m",
+    "full_text": "Post title: Felix 有 7 年设计经验，先后在 Gotrade（YC S19）和 ADPList 工作。以前上线一个功能要写 brief、等排期、跟工程师来回沟通，几天起步。现在靠两个东西，流程完全变了。 第一个是 Figma MCP。 通过 MCP 把 Claude Code 连上 Figma，Claude 可以直接读组件、design token、间距。你指向一个 frame 告诉它要实现什么，它照着设计稿写代码。设计稿和最终产物第一次真正对齐了。 第二个是 Claude Code 的构建循环。 用自然语言描述功能，Claude 出第一版，你视觉上检查，告诉它哪不对，改，循环。 他说多年练出来的设计眼光在这个流程里反而是最大优势。 padding 不对、字重不对、交互不顺，一眼就能看出来，直接让 Claude 改。他在 ADPList 做的第一个内部工具，工程师估计两天，他四个小时搞定。 原型阶段变化也大。 以前 Figma 里做可点击原型要两小时，现在跟 Claude Code 描述交互直接生成能跑的代码，手机上就能测，30 分钟搞定。能跑的东西和看起来能跑的东西，拿到的反馈质量完全不一样。 还有个容易忽略的点是 context files。维护一份文件写清楚产品、用户、设计原则，每次 session 开头加载，产出质量和效率会比直接口喷高效太多太多。\n\nPost summary: Felix 有 7 年设计经验，先后在 Gotrade（YC S19）和 ADPList 工作。以前上线一个功能要写 brief、等排期、跟工程师来回沟通，几天起步。现在靠两个东西，流程完全变了。 第一个是 Figma MCP。 通过 MCP 把 Claude Code 连上 Figma，Claude 可以直接读组件、design token、间距。你指向一个 frame 告诉它要实现什么，它照着设计稿写代码。设计稿和最终产物第一次真正对齐了。 第二个是 Claude Code 的构建循环。 用自然语言描述功能，Claude 出第一版，你视觉上检查，告诉它哪不对，改，循环。 他说多年练出来的设计眼光在这个流程里反而是最大优势。 padding 不对、字重不对、交互不顺，一眼就能看出来，直接让 Claude 改。他在 ADPList 做的第一个内部工具，工程师估计两天，他四个小时搞定。 原型阶段变化也大。 以前 Figma 里做可点击原型要两小时，现在跟 Claude Code 描述交互直接生成能跑的代码，手机上就能测，30 分钟搞定。能跑的东西和看起来能跑的东西，拿到的反馈质量完全不一样。 还有个容易忽略的点是 context files。维护一份文件写清楚产品、用户、设计原则，每次 session 开头加载，产出质量和效率会比直接口喷高效太多太多。 Felix Lee (@felixleezd) x.com/i/article/202854193240… — https://nitter.net/felixleezd/status/2029236285005860903#m\n\nCanonical URL: https://x.com/chuhaiqu/status/2034820738113470514",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Felix",
+      "Gotrade",
+      "YC S19",
+      "ADPList",
+      "Figma MCP",
+      "MCP",
+      "Claude Code",
+      "Figma",
+      "Claude",
+      "Felix Lee",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Felix 有 7 年设计经验，先后在 Gotrade（YC S19）和 ADPList 工作。以前上线一个功能要写 brief、等排期、跟工程师来回沟通，几天起步。现在靠两个东西，流程完全变了。 第一个是 Figma MCP。 通过 MCP 把 Claude Code 连上 Figma，Claude 可以直接读组件、design token、间距。你指向一个 frame 告诉它要实现什么，它照着设计稿写代码。设计稿和最终产物第一次真正对齐了。 第二个是 Claude Code 的构建循环。 用自然语言描述功能，Claude 出第一版，你视觉上检查，告诉它哪不对，改，循环。 他说多年练出来的设计眼光在这个流程里反而是最大优势。 padding 不对、字重不对、交互不顺，一眼就能看出来，直接让 Claude 改。他在 ADPList 做的第一个内部工具，工程师估计两天，他四个小时搞定。 原型阶段变化也大。 以前 Figma 里做可点击原型要两小时，现在跟 Claude Code 描述交互直接生成能跑的代码，手机上就能测，30 分钟搞定。能跑的东西和看起来能跑的东西，拿到的反馈质量完全不一样。 还有个容易忽略的点是 context files。维护一份文件写清楚产品、用户、设计原则，每次 session 开头加载，产出质量和效率会比直接口喷高效太多太多。",
+      "Felix 有 7 年设计经验，先后在 Gotrade（YC S19）和 ADPList 工作。以前上线一个功能要写 brief、等排期、跟工程师来回沟通，几天起步。现在靠两个东西，流程完全变了。 第一个是 Figma MCP。 通过 MCP 把 Claude Code 连上 Figma，Claude 可以直接读组件、design token、间距。你指向一个 frame 告诉它要实现什么，它照着设计稿写代码。设计稿和最终产物第一次真正对齐了。 第二个是 Claude Code 的构建循环。 用自然语言描述功能，Claude 出第一版，你视觉上检查，告诉它哪不对，改，循环。 他说多年练出来的设计眼光在这个流程里反而是最大优势。 padding 不对、字重不对、交互不顺，一眼就能看出来，直接让 Claude 改。他在 ADPList 做的第一个内部工具，工程师估计两天，他四个小时搞定。 原型阶段变化也大。 以前 Figma 里做可点击原型要两小时，现在跟 Claude Code 描述交互直接生成能跑的代码，手机上就能测，30 分钟搞定。能跑的东西和看起来能跑的东西，拿到的反馈质量完全不一样。 还有个容易忽略的点是 context files。维护一份文件写清楚产品、用户、设计原则，每次 session 开头加载，产出质量和效率会比直接口喷高效太多太多。 Felix Lee (@felixleezd) x.com/i/article/202854193240… — https://nitter.net/felixleezd/status/2029236285005860903#m",
+      "Felix",
+      "Gotrade",
+      "YC S19",
+      "ADPList",
+      "Figma MCP",
+      "MCP",
+      "Claude Code",
+      "Figma",
+      "Claude",
+      "Felix Lee",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

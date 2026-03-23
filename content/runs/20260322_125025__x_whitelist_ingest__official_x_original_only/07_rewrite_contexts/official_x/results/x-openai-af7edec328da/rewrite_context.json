@@ -1,0 +1,494 @@
+{
+  "schema_version": "0.1.0",
+  "assembly_mode": "deterministic_selection",
+  "assembled_at": "2026-03-22T12:54:53Z",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/03_source_items/official_x/items/x-openai-af7edec328da/source_item.json",
+  "framework_match_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/06_routing/official_x/results/x-openai-af7edec328da/framework_match.json",
+  "framework_spec_ref": "/home/lyric/growth-engine-pipeline/framework/06_checklist_template/FRAMEWORK_SPEC.json",
+  "selected_framework": {
+    "framework_id": "06_checklist_template",
+    "framework_label": "能力交付型技术分享",
+    "submode_id": "guided_onboarding",
+    "confidence": "medium"
+  },
+  "assembly_manifest": {
+    "no_summarization": true,
+    "selected_spec_paths": [
+      "metadata.framework_id",
+      "metadata.framework_label",
+      "structure.hidden_skeleton",
+      "structure.visible_template_bans",
+      "structure.allowed_surface_moves",
+      "structure.forbidden_surface_moves",
+      "structure.submodes[submode_id=guided_onboarding]",
+      "style.global_style_principles",
+      "style.global_anti_ai_rules",
+      "style.submode_profiles[style_profile_id=06_guided_onboarding_style]",
+      "execution_controls.must_keep",
+      "execution_controls.must_avoid",
+      "execution_controls.rewrite_failure_modes",
+      "execution_controls.quality_checks",
+      "execution_controls.human_review_triggers",
+      "samples.sample_refs[sample_id=2029894874888278198]"
+    ],
+    "selected_sample_ids": [
+      "2029894874888278198"
+    ],
+    "selection_rationale": "Deterministically selected the exact framework slices required by the chosen route: shared structure constraints, the matched submode spec, its mapped style profile, explicitly selected sample refs, and execution controls. No LLM summarization was used."
+  },
+  "structure_packet": {
+    "hidden_skeleton": [
+      "Hook",
+      "Why it matters",
+      "How to get/use/build it",
+      "Proof / Validation",
+      "Boundary / Close"
+    ],
+    "visible_template_bans": [
+      "不得把稳定段落流直接输出成固定小标题目录",
+      "不得每篇都使用首先/其次/最后的机械展开",
+      "不得把 Why、How、Proof 写成教科书式平铺段落",
+      "不得只满足结构，不保留样本里的语感和节奏",
+      "不得让每篇看起来像同一个模板换词"
+    ],
+    "allowed_surface_moves": [
+      "合并相邻功能段",
+      "调整局部顺序",
+      "省略弱功能段",
+      "用场景、对话、案例、反问、清单、FAQ 承载功能段",
+      "把一个功能段拆散到不同自然段中",
+      "先讲结果再补原理，或先讲场景再补步骤"
+    ],
+    "forbidden_surface_moves": [
+      "把隐式骨架翻成外显模板",
+      "所有文章都变成标准说明书",
+      "所有文章都变成固定编号教程",
+      "只保留结构，不保留样本语感",
+      "用过度均匀的段落长度制造假整齐感"
+    ],
+    "selected_submode_spec": {
+      "submode_id": "guided_onboarding",
+      "label": "保姆级接入/安装教程",
+      "summary": "把安装、接入、配置、完整攻略类内容压成低门槛、可跟做、能避坑的上手路径。",
+      "use_when": [
+        "目标是把不会变成能开始做",
+        "读者最关心门槛、步骤和是否会踩坑",
+        "source 的主要承诺是跟着做完"
+      ],
+      "avoid_when": [
+        "正文真正重点在系统架构而不是上手路径",
+        "正文重点在给现有系统补能力而不是从零开始",
+        "正文主要价值来自清单筛选而不是步骤指导"
+      ],
+      "source_fit": [
+        "安装、接入、配置、开通、完整攻略、入门路径",
+        "需要准备清单、权限项、材料项、FAQ、风险提醒的内容"
+      ],
+      "source_unfit": [
+        "复杂系统设计拆解",
+        "能力补丁型短文",
+        "listicle 清单文"
+      ],
+      "hidden_flow": [
+        "Hook",
+        "Why this matters now",
+        "Prep / prerequisites",
+        "Step-by-step path",
+        "Validation / tips / FAQ",
+        "Boundary / close"
+      ],
+      "hook_patterns": [
+        "保姆级",
+        "一文讲全",
+        "几分钟搞定",
+        "0基础也能做",
+        "只看这篇就够了"
+      ],
+      "evidence_mix": [
+        "准备清单",
+        "操作步骤",
+        "命令 / 配置项",
+        "权限项 / 材料项",
+        "小技巧 / FAQ / 风险提醒"
+      ],
+      "reasoning_moves": [
+        "先降低门槛，再给步骤",
+        "先给大纲，再展开细节",
+        "多用动作导向句，而不是概念解释句",
+        "结尾补适不适合你或有什么坑"
+      ],
+      "rewrite_formula": "结果承诺 -> 进入门槛很低 -> 准备项 -> 步骤 -> 验证 -> 坑点/边界",
+      "surface_forms": [
+        "大纲",
+        "目录",
+        "步骤",
+        "FAQ",
+        "小技巧",
+        "注意事项"
+      ],
+      "anti_patterns": [
+        "只有步骤，没有告诉读者为什么值得做",
+        "只讲功能，不讲准备项",
+        "步骤太散，没有总览",
+        "全文没有验证/风险/边界提醒"
+      ],
+      "style_profile_id": "06_guided_onboarding_style",
+      "sample_ids": [
+        "2029894874888278198",
+        "2031396119104856437",
+        "2032432901812588603",
+        "2030878769955901844",
+        "2029203445589414147",
+        "2031555224968785990"
+      ]
+    }
+  },
+  "style_packet": {
+    "global_style_principles": [
+      "都在替读者压缩决策成本",
+      "都很少从抽象定义开始",
+      "都倾向于先给结果感、场景感或问题感",
+      "都把复杂能力翻成可执行动作",
+      "都保留较强的人说话感，而不是说明书口吻",
+      "必须走 隐式结构层 + 样本语感层，而不是稳定段落流 = 最终文章结构"
+    ],
+    "global_anti_ai_rules": [
+      "避免过于完整均匀的段落长度",
+      "避免每段都像说明书",
+      "避免机械性的总分总",
+      "避免反复出现标准转折词",
+      "避免清单、目录、小标题过度使用",
+      "避免每篇都长得像同一个模板换词",
+      "允许某些功能段合并或由一个案例带过去",
+      "允许先讲结果再补原理，或者先讲场景再补步骤",
+      "必须局部保留样本里的口语感、判断感、提醒感"
+    ],
+    "selected_style_profile": {
+      "style_profile_id": "06_guided_onboarding_style",
+      "submode_id": "guided_onboarding",
+      "tone_core": "像一个熟门熟路的人在带新人上手，不是冷静中立，而是带一点热情、提醒和替读者省事的姿态。",
+      "opening_moves": [
+        "先承诺：保姆级 / 一文讲全 / 几分钟搞定",
+        "先交代背景热度或现实问题",
+        "先说你不用担心门槛",
+        "先给目录、大纲或步骤总览，降低焦虑",
+        "少数样本会用小故事或角色对话把新概念拉近"
+      ],
+      "sentence_rhythm": [
+        "整体偏快",
+        "短句密度高",
+        "感叹和反问明显比其他子模式多",
+        "经常是短句推进 + 小列表插入",
+        "读起来像人边讲边提醒，不像论文"
+      ],
+      "surface_forms": [
+        "大纲",
+        "目录",
+        "步骤",
+        "FAQ",
+        "小技巧",
+        "注意事项",
+        "如果你只想解决问题，直接看这段"
+      ],
+      "language_moves": [
+        "先把门槛压低：完全不会也行、无脑跟着做就行",
+        "主动替读者预判顾虑：贵不贵、麻不麻烦、会不会失败",
+        "喜欢把复杂词翻成生活化说法",
+        "收尾经常补一句边界判断"
+      ],
+      "keep": [
+        "朋友式教学感",
+        "降门槛动作",
+        "步骤前的总览感",
+        "中途提醒和小技巧",
+        "最后的边界判断"
+      ],
+      "avoid": [
+        "所有文章都变成准备 -> 步骤1/2/3 -> 总结",
+        "每篇都用同一套编号标题",
+        "把样本里的口语感洗没"
+      ],
+      "ai_smells": [
+        "把所有步骤平均铺开，变成说明书",
+        "每段都很工整，没有人味提醒",
+        "只写步骤，不写为什么值得做",
+        "结尾没有边界提醒，只剩总结一下"
+      ],
+      "one_sentence_portrait": "像一个已经踩过坑的人，在帮你把第一次上手的心理负担和试错成本一起拿掉。"
+    }
+  },
+  "sample_packet": {
+    "selected_sample_refs": [
+      {
+        "sample_id": "2029894874888278198",
+        "title": "VSCode + Copilot 保姆级 AI 编程实战教程，免费用 Claude，夯爆了！",
+        "url": "https://x.com/yupi996/status/2029894874888278198",
+        "author": "@yupi996",
+        "submode_id": "guided_onboarding",
+        "why_it_matters": "典型的保姆级入门教程，价值点在替初学者做路径压缩。",
+        "hook_move": "用保姆级 + 免费用 Claude 同时抓住难度和成本两个敏感点。",
+        "proof_mode": [
+          "个人体验",
+          "快捷键",
+          "功能列表",
+          "试用信息",
+          "资源入口"
+        ],
+        "reusable_parts": [
+          "先给为什么值得用，再进安装",
+          "基础操作按使用场景分块",
+          "结尾加试用和练手资源，推动真正行动"
+        ],
+        "non_reusable_parts": [
+          "Copilot 试用政策",
+          "学生免费",
+          "特定快捷键和项目推荐"
+        ],
+        "style_cue": "朋友式教学、门槛感知强、分步清晰、带一点夸张语气。"
+      }
+    ],
+    "sample_selection_rationale": "Used matched_sample_ids from framework_match final_decision."
+  },
+  "execution_packet": {
+    "must_keep": [
+      "明确读者收益",
+      "可执行动作",
+      "具体证据支撑",
+      "降低试错成本",
+      "边界提醒或适用范围",
+      "保留目标样本的语气和节奏，而不是只保留结构"
+    ],
+    "must_avoid": [
+      "只剩功能介绍",
+      "只剩抽象评价",
+      "把隐式骨架直接翻译成外显模板",
+      "只满足结构，不保留样本人味",
+      "把技术分享写成说明书"
+    ],
+    "rewrite_failure_modes": [
+      "结构上完整但表面像模板拼装",
+      "语气正确但信息组织散掉",
+      "把 capability_extension 写成纯安装文",
+      "把 workflow_architecture 写成组件列表 without dynamics",
+      "把 guided_onboarding 写成无边界的操作手册",
+      "把 curated_list 写成没有行动入口的榜单"
+    ],
+    "quality_checks": [
+      "是否先交代了读者收益，而不是一上来堆功能点",
+      "是否给出了执行路径，而不是只停留在概念层",
+      "是否使用了具体证据，例如步骤、命令、场景、对比、角色分工、项目结果、仓库链接",
+      "是否降低了读者的不确定性，例如准备清单、步骤总览、FAQ、坑点、边界提醒",
+      "是否保留了相应子模式的语感而不是只保留结构",
+      "是否避免了机械性的总分总和过度整齐的小标题"
+    ],
+    "human_review_triggers": [
+      "source 同时看起来像 06 与 02 或 03，存在跨框架歧义",
+      "router 无法确定该走哪个子模式",
+      "writer 输出后表面模板感强，疑似只学结构没学语感",
+      "curated_list 只有 1-2 个条目，可能不应走清单模式",
+      "sample coverage 与 source 场景距离过大，需要人工确认是否真的属于能力交付型技术分享"
+    ]
+  },
+  "writer_guardrails": {
+    "use_raw_source_as_primary_fact_base": true,
+    "do_not_summarize_framework_spec": true,
+    "preserve_hidden_structure_as_invisible": true,
+    "prefer_sample_voice_over_template_surface": true
+  },
+  "capability_packets": {
+    "playbook_version": "2026-03-20.v1",
+    "playbook_ref": "content/research/hook_study/2026-03-20/04_second_round/capability_playbook.json",
+    "global_anti_patterns": [
+      "Background-first opening",
+      "Title as neutral explanation",
+      "Dek repeating the title",
+      "Unclear source identity",
+      "Flat mid-section with no attention resets",
+      "Bullet lists used in place of reasoning",
+      "Process-tail ending",
+      "Learning stylistic habits from promo wrappers or link shells"
+    ],
+    "sample_quality_gate": {
+      "positive_sample_requirements": [
+        "Has a clear thesis instead of pure forwarding or recommendation",
+        "Contains at least one evidence expansion: result, process, mechanism, comparison, scenario, or checklist",
+        "Shows pacing or section-level movement instead of one flat explanatory block",
+        "Ends with a judgment, action, boundary, risk, or lift"
+      ],
+      "minimum_positive_requirement_count": 3,
+      "exclude_patterns": [
+        "Pure endorsement or follow recommendation",
+        "Bare x.com/i/article link wrapper with no thesis",
+        "Second-hand packaging with no original angle",
+        "Pure hype or result bait without mechanism or judgment"
+      ]
+    },
+    "title_attack_packet": {
+      "job": "Break the reader's default frame and expose the real stakes before the article starts.",
+      "recommended_moves": [
+        {
+          "move_id": "filter_or_completeness_promise",
+          "label": "Filter or completeness promise",
+          "when_to_use": "The article saves the reader time by filtering, comparing, or organizing a complicated decision."
+        },
+        {
+          "move_id": "release_to_adoption",
+          "label": "Release to adoption",
+          "when_to_use": "The source is a release, launch, or feature update and the article should focus on adoption judgment."
+        }
+      ],
+      "sample_hook_moves": [
+        "用保姆级 + 免费用 Claude 同时抓住难度和成本两个敏感点。"
+      ],
+      "submode_hook_patterns": [
+        "保姆级",
+        "一文讲全",
+        "几分钟搞定",
+        "0基础也能做",
+        "只看这篇就够了"
+      ],
+      "stakes_signals": [
+        "partnership",
+        "$25",
+        "$500",
+        "$1000",
+        "Are you up for a challenge? http://openai.com/parameter-golf",
+        "Are you up for a challenge? openai.com/parameter-golf Video"
+      ],
+      "forbidden_moves": [
+        "Neutral explanation titles",
+        "Title as a topic label only",
+        "Only naming a person or product without the reason to care"
+      ]
+    },
+    "dek_value_packet": {
+      "job": "Act as the second attack by defining what the piece is really about and why it is not just another release, interview, or tutorial.",
+      "stable_moves": [
+        "Recenter the piece on its real value, not the surface event.",
+        "Cool hype into credible stakes.",
+        "State what misread this piece corrects."
+      ],
+      "sample_why_it_matters": [
+        "典型的保姆级入门教程，价值点在替初学者做路径压缩。"
+      ],
+      "reader_payoff_signals": [
+        "把安装、接入、配置、完整攻略类内容压成低门槛、可跟做、能避坑的上手路径。",
+        "目标是把不会变成能开始做",
+        "读者最关心门槛、步骤和是否会踩坑",
+        "source 的主要承诺是跟着做完",
+        "个人体验",
+        "快捷键",
+        "功能列表",
+        "试用信息"
+      ],
+      "forbidden_moves": [
+        "Repeating the title with softer wording",
+        "Mood-only lines with no informational function"
+      ]
+    },
+    "opening_value_packet": {
+      "job": "Open with a frame break, then attach the source identity and reader stake quickly.",
+      "stable_sequence": [
+        "State the default frame or common misread.",
+        "Break it quickly.",
+        "Attach who said or did it and why that carrier matters.",
+        "Show the article's real value path."
+      ],
+      "identity_anchor": {
+        "author_handle": "@OpenAI",
+        "author_display_name": "OpenAI",
+        "source_title": "Are you up for a challenge? http://openai.com/parameter-golf",
+        "published_at": "2026-03-18T17:06:02Z",
+        "hosts": [],
+        "guests": [],
+        "other_participants": []
+      },
+      "sample_hook_moves": [
+        "用保姆级 + 免费用 Claude 同时抓住难度和成本两个敏感点。"
+      ],
+      "opening_moves": [
+        "先承诺：保姆级 / 一文讲全 / 几分钟搞定",
+        "先交代背景热度或现实问题",
+        "先说你不用担心门槛",
+        "先给目录、大纲或步骤总览，降低焦虑",
+        "少数样本会用小故事或角色对话把新概念拉近"
+      ],
+      "why_now_signals": [
+        "2026-03-18T17:06:02Z",
+        "partnership",
+        "tutorial",
+        "opinion_decode"
+      ],
+      "forbidden_moves": [
+        "Background-first opening",
+        "Anonymous source protagonist",
+        "Explainer tone before value is established"
+      ]
+    },
+    "mid_reset_plan": {
+      "job": "Re-earn attention throughout the middle instead of flattening into explanation mode.",
+      "reset_frequency": "At least one reset every 2-4 paragraphs",
+      "allowed_reset_moves": [
+        "Stronger judgment",
+        "Perspective switch",
+        "Abstract to concrete scenario",
+        "Result to mechanism",
+        "Address likely skepticism",
+        "Raise stakes to workflow, market, or role level"
+      ],
+      "format_helpers": [
+        "section_heading",
+        "bullet_list",
+        "quote",
+        "link_cta"
+      ],
+      "section_turn_targets": [
+        "先降低门槛，再给步骤",
+        "先给大纲，再展开细节",
+        "多用动作导向句，而不是概念解释句",
+        "结尾补适不适合你或有什么坑",
+        "准备清单",
+        "操作步骤",
+        "命令 / 配置项",
+        "权限项 / 材料项",
+        "小技巧 / FAQ / 风险提醒",
+        "是否先交代了读者收益，而不是一上来堆功能点"
+      ],
+      "forbidden_moves": [
+        "4 or more consecutive paragraphs with the same explanatory density",
+        "Bullet lists replacing the actual reasoning",
+        "Formatting used without a cognitive shift"
+      ]
+    },
+    "closing_carry_packet": {
+      "job": "Lift the piece one level higher at the end instead of repeating the thesis or falling into process talk.",
+      "recommended_moves": [
+        {
+          "move_id": "release_to_adoption_decision",
+          "label": "Release to adoption decision",
+          "when_to_use": "The article starts from a launch but should end at whether and how to adopt."
+        },
+        {
+          "move_id": "tool_to_workflow",
+          "label": "Tool to workflow",
+          "when_to_use": "The article starts from a feature or tool but should end at work-method implications."
+        }
+      ],
+      "closing_targets": [
+        "是否先交代了读者收益，而不是一上来堆功能点",
+        "是否给出了执行路径，而不是只停留在概念层",
+        "是否使用了具体证据，例如步骤、命令、场景、对比、角色分工、项目结果、仓库链接",
+        "是否降低了读者的不确定性，例如准备清单、步骤总览、FAQ、坑点、边界提醒",
+        "是否保留了相应子模式的语感而不是只保留结构",
+        "是否避免了机械性的总分总和过度整齐的小标题",
+        "结构上完整但表面像模板拼装",
+        "语气正确但信息组织散掉"
+      ],
+      "forbidden_endings": [
+        "Restating the article summary",
+        "Ending with pipeline or process language",
+        "Ending with a generic creator slogan that does not lift the piece upward"
+      ]
+    }
+  }
+}

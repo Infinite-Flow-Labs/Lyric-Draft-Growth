@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-runwayml-0a7031607ba1/source_item.json",
+  "source_id": "x-runwayml-0a7031607ba1",
+  "longform_eligible": true,
+  "recommended_action": "write_longform",
+  "reasons": [
+    "enough source density and factual anchors for longform rewrite"
+  ],
+  "signals": {
+    "source_kind": "x_thread",
+    "primary_text_source": "x_post",
+    "participant_count": 0,
+    "summary_words": 84,
+    "full_text_words": 174,
+    "fact_anchor_count": 14,
+    "trimmed_noisy_episode_page": false,
+    "linked_context_asset_count": 0,
+    "announcement_like": false
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "profile_name": "x_whitelist_accounts",
+  "generated_from": "framework/koc_benchmark_accounts.md",
+  "benchmark_accounts": [
+    {
+      "handle": "abhi1thakur",
+      "display_name": "abhi1thakur"
+    },
+    {
+      "handle": "ai_for_success",
+      "display_name": "ai_for_success"
+    },
+    {
+      "handle": "AI_Jasonyu",
+      "display_name": "AI_Jasonyu"
+    },
+    {
+      "handle": "AiBreakfast",
+      "display_name": "AiBreakfast"
+    },
+    {
+      "handle": "AlchainHust",
+      "display_name": "AlchainHust"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "display_name": "AlphaSignalAI"
+    },
+    {
+      "handle": "ammaar",
+      "display_name": "ammaar"
+    },
+    {
+      "handle": "Astronaut_1216",
+      "display_name": "Astronaut_1216"
+    },
+    {
+      "handle": "AxtonLiu",
+      "display_name": "AxtonLiu"
+    },
+    {
+      "handle": "balconychy",
+      "display_name": "balconychy"
+    },
+    {
+      "handle": "Barret_China",
+      "display_name": "Barret_China"
+    },
+    {
+      "handle": "bentossell",
+      "display_name": "bentossell"
+    },
+    {
+      "handle": "berryxia",
+      "display_name": "berryxia"
+    },
+    {
+      "handle": "chuhaiqu",
+      "display_name": "chuhaiqu"
+    },
+    {
+      "handle": "Cydiar404",
+      "display_name": "Cydiar404"
+    },
+    {
+      "handle": "danshipper",
+      "display_name": "danshipper"
+    },
+    {
+      "handle": "DavidSHolz",
+      "display_name": "DavidSHolz"
+    },
+    {
+      "handle": "dev_afei",
+      "display_name": "dev_afei"
+    },
+    {
+      "handle": "dotey",
+      "display_name": "dotey"
+    },
+    {
+      "handle": "ericciarla",
+      "display_name": "ericciarla"
+    },
+    {
+      "handle": "evilcos",
+      "display_name": "evilcos"
+    },
+    {
+      "handle": "fkysly",
+      "display_name": "fkysly"
+    },
+    {
+      "handle": "gefei55",
+      "display_name": "gefei55"
+    },
+    {
+      "handle": "Gorden_Sun",
+      "display_name": "Gorden_Sun"
+    },
+    {
+      "handle": "GregKamradt",
+      "display_name": "GregKamradt"
+    },
+    {
+      "handle": "guishou_56",
+      "display_name": "guishou_56"
+    },
+    {
+      "handle": "HBCoop_",
+      "display_name": "HBCoop_"
+    },
+    {
+      "handle": "heyBarsee",
+      "display_name": "heyBarsee"
+    },
+    {
+      "handle": "HiTw93",
+      "display_name": "HiTw93"
+    },
+    {
+      "handle": "icreatelife",
+      "display_name": "icreatelife"
+    },
+    {
+      "handle": "idoubicc",
+      "display_name": "idoubicc"
+    },
+    {
+      "handle": "indie_maker_fox",
+      "display_name": "indie_maker_fox"
+    },
+    {
+      "handle": "iScienceLuvr",
+      "display_name": "iScienceLuvr"
+    },
+    {
+      "handle": "itsandrewgao",
+      "display_name": "itsandrewgao"
+    },
+    {
+      "handle": "ivanfioravanti",
+      "display_name": "ivanfioravanti"
+    },
+    {
+      "handle": "JustinFineberg",
+      "display_name": "JustinFineberg"
+    },
+    {
+      "handle": "jxnlco",
+      "display_name": "jxnlco"
+    },
+    {
+      "handle": "kasong2048",
+      "display_name": "kasong2048"
+    },
+    {
+      "handle": "latentspacepod",
+      "display_name": "latentspacepod"
+    },
+    {
+      "handle": "liamottley_",
+      "display_name": "liamottley_"
+    },
+    {
+      "handle": "lijigang",
+      "display_name": "lijigang"
+    },
+    {
+      "handle": "lxfater",
+      "display_name": "lxfater"
+    },
+    {
+      "handle": "lyc_zh",
+      "display_name": "lyc_zh"
+    },
+    {
+      "handle": "madawei2699",
+      "display_name": "madawei2699"
+    },
+    {
+      "handle": "mreflow",
+      "display_name": "mreflow"
+    },
+    {
+      "handle": "nateleex",
+      "display_name": "nateleex"
+    },
+    {
+      "handle": "nickscamara_",
+      "display_name": "nickscamara_"
+    },
+    {
+      "handle": "nishuang",
+      "display_name": "nishuang"
+    },
+    {
+      "handle": "nutlope",
+      "display_name": "nutlope"
+    },
+    {
+      "handle": "op7418",
+      "display_name": "op7418"
+    },
+    {
+      "handle": "oran_ge",
+      "display_name": "oran_ge"
+    },
+    {
+      "handle": "OwenYoungZh",
+      "display_name": "OwenYoungZh"
+    },
+    {
+      "handle": "petitegeek",
+      "display_name": "petitegeek"
+    },
+    {
+      "handle": "PMbackttfuture",
+      "display_name": "PMbackttfuture"
+    },
+    {
+      "handle": "ramsri_goutham",
+      "display_name": "ramsri_goutham"
+    },
+    {
+      "handle": "reach_vb",
+      "display_name": "reach_vb"
+    },
+    {
+      "handle": "RLanceMartin",
+      "display_name": "RLanceMartin"
+    },
+    {
+      "handle": "SaadBencherif10",
+      "display_name": "SaadBencherif10"
+    },
+    {
+      "handle": "shengxj1",
+      "display_name": "shengxj1"
+    },
+    {
+      "handle": "skirano",
+      "display_name": "skirano"
+    },
+    {
+      "handle": "sophiamyang",
+      "display_name": "sophiamyang"
+    },
+    {
+      "handle": "steventey",
+      "display_name": "steventey"
+    },
+    {
+      "handle": "svpino",
+      "display_name": "svpino"
+    },
+    {
+      "handle": "thinkingjimmy",
+      "display_name": "thinkingjimmy"
+    },
+    {
+      "handle": "tualatrix",
+      "display_name": "tualatrix"
+    },
+    {
+      "handle": "vista8",
+      "display_name": "vista8"
+    },
+    {
+      "handle": "waylybaye",
+      "display_name": "waylybaye"
+    },
+    {
+      "handle": "weijunext",
+      "display_name": "weijunext"
+    },
+    {
+      "handle": "wenquai",
+      "display_name": "wenquai"
+    },
+    {
+      "handle": "whoiskatrin",
+      "display_name": "whoiskatrin"
+    },
+    {
+      "handle": "yan5xu",
+      "display_name": "yan5xu"
+    },
+    {
+      "handle": "yoheinakajima",
+      "display_name": "yoheinakajima"
+    },
+    {
+      "handle": "zeng_wt",
+      "display_name": "zeng_wt"
+    }
+  ],
+  "manual_benchmark_accounts": []
+}

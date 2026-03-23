@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/03_source_items/official_x/items/x-googledeepmind-2ac914f175fb/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof",
+      "02_launch_application"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=8 because title_hit=$, title_hit=k, signal_hit=%, business_metric_signals=2",
+      "02_launch_application: score=2 because signal_hit=launch"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:39:57Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "high",
+      "rationale": "The source is a launch post for a public challenge/resource tied to DeepMind's AGI evaluation framework. It is not a results postmortem: the money signal is prize funding, not proof of achieved business or growth outcomes. The reader payoff is deciding whether this newly launched challenge is worth checking, joining, or bookmarking via the linked entry point.",
+      "triggered_routing_signals": [
+        "Explicit launch language: \"We’re launching a global hackathon\"",
+        "Clear resource entry point with join link",
+        "Value framing is showcase-oriented: new evaluations, Kaggle partnership, $200k prizes",
+        "Pushes reader toward an adoption action: \"Join the challenge\""
+      ],
+      "supporting_source_quotes": [
+        "“We’re launching a global hackathon”",
+        "“with @Kaggle”",
+        "“build new cognitive evaluations for AI”",
+        "“$200k in prizes”",
+        "“Join the challenge”"
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986"
+      ],
+      "ambiguity_notes": [
+        "The prefilter favored money_proof because of \"$200k\", but this is prize framing, not outcome proof.",
+        "The post is promotional and concise, so it fits launch/application only through showcase, not deeper adoption guidance."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "medium",
+        "rationale": "A weaker but plausible alternative if the linked framework/article were treated as the main payload. Still, the X post itself does not explain usage boundaries or practical how-to in enough detail for a playbook.",
+        "triggered_routing_signals": [
+          "New framework/evaluation concept",
+          "Some implied concept explanation via linked context"
+        ],
+        "supporting_source_quotes": [
+          "“put our framework to the test”",
+          "“new cognitive evaluations for AI”"
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "Submode fit weakens because the post lacks concrete quickstart, best practices, or boundaries."
+        ]
+      },
+      {
+        "framework_id": "01_money_proof",
+        "submode_id": "metric_postmortem",
+        "confidence": "low",
+        "rationale": "The numeric prize signal superficially resembles a metric-led post, but the source lacks any audited result, process breakdown, bottleneck, or lessons learned. It is a launch announcement, not a quantified postmortem.",
+        "triggered_routing_signals": [
+          "Contains a hard number",
+          "Touches AGI progress measurement"
+        ],
+        "supporting_source_quotes": [
+          "“$200k in prizes”",
+          "“measure progress toward AGI”"
+        ],
+        "matched_sample_ids": [
+          "2031489944083116370"
+        ],
+        "ambiguity_notes": [
+          "Disqualified because the number is incentive budget, not demonstrated performance or system results."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:40:04Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "high",
+    "rationale": "The source is a launch post for a public challenge/resource tied to DeepMind's AGI evaluation framework. It is not a results postmortem: the money signal is prize funding, not proof of achieved business or growth outcomes. The reader payoff is deciding whether this newly launched challenge is worth checking, joining, or bookmarking via the linked entry point.",
+    "matched_sample_ids": [
+      "2033848539332415986"
+    ],
+    "requires_human_review": false
+  }
+}

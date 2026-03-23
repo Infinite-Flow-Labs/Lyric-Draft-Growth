@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-runwayml-0a7031607ba1",
+  "fetched_at": "2026-03-22T12:50:38Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/runwayml/status/2034284298769985914",
+  "author": {
+    "handle": "@runwayml",
+    "display_name": "Runway",
+    "account_url": "https://x.com/runwayml"
+  },
+  "title": "A breakthrough in real-time video generation. As a research preview developed with @NVIDIA and shared at @NVIDIAGTC this week, we trained a new real-time video model running on Vera Rubin. HD videos generate instantly, with time-to-first-frame under 100ms. Unlocking an entirely new creative paradigm and bolstering the foundations of our General World Model, GWM-1. Real-time generation opens a fundamentally different design space for video models and world simulation. We're investing in co-designing our models alongside advances in hardware to keep pushing this frontier.",
+  "language": "unknown",
+  "published_at": "2026-03-18T15:02:26Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/runwayml/status/2034284298769985914",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/runwayml/status/2034284298769985914#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "A breakthrough in real-time video generation. As a research preview developed with @NVIDIA and shared at @NVIDIAGTC this week, we trained a new real-time video model running on Vera Rubin. HD videos generate instantly, with time-to-first-frame under 100ms. Unlocking an entirely new creative paradigm and bolstering the foundations of our General World Model, GWM-1. Real-time generation opens a fundamentally different design space for video models and world simulation. We're investing in co-designing our models alongside advances in hardware to keep pushing this frontier. Video",
+    "full_text": "Post title: A breakthrough in real-time video generation. As a research preview developed with @NVIDIA and shared at @NVIDIAGTC this week, we trained a new real-time video model running on Vera Rubin. HD videos generate instantly, with time-to-first-frame under 100ms. Unlocking an entirely new creative paradigm and bolstering the foundations of our General World Model, GWM-1. Real-time generation opens a fundamentally different design space for video models and world simulation. We're investing in co-designing our models alongside advances in hardware to keep pushing this frontier.\n\nPost summary: A breakthrough in real-time video generation. As a research preview developed with @NVIDIA and shared at @NVIDIAGTC this week, we trained a new real-time video model running on Vera Rubin. HD videos generate instantly, with time-to-first-frame under 100ms. Unlocking an entirely new creative paradigm and bolstering the foundations of our General World Model, GWM-1. Real-time generation opens a fundamentally different design space for video models and world simulation. We're investing in co-designing our models alongside advances in hardware to keep pushing this frontier. Video\n\nCanonical URL: https://x.com/runwayml/status/2034284298769985914",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "As",
+      "NVIDIA",
+      "NVIDIAGTC",
+      "Vera Rubin. HD",
+      "Unlocking",
+      "General World Model",
+      "GWM",
+      "Real",
+      "We",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "A breakthrough in real-time video generation. As a research preview developed with @NVIDIA and shared at @NVIDIAGTC this week, we trained a new real-time video model running on Vera Rubin. HD videos generate instantly, with time-to-first-frame under 100ms. Unlocking an entirely new creative paradigm and bolstering the foundations of our General World Model, GWM-1. Real-time generation opens a fundamentally different design space for video models and world simulation. We're investing in co-designing our models alongside advances in hardware to keep pushing this frontier.",
+      "A breakthrough in real-time video generation. As a research preview developed with @NVIDIA and shared at @NVIDIAGTC this week, we trained a new real-time video model running on Vera Rubin. HD videos generate instantly, with time-to-first-frame under 100ms. Unlocking an entirely new creative paradigm and bolstering the foundations of our General World Model, GWM-1. Real-time generation opens a fundamentally different design space for video models and world simulation. We're investing in co-designing our models alongside advances in hardware to keep pushing this frontier. Video",
+      "As",
+      "NVIDIA",
+      "NVIDIAGTC",
+      "Vera Rubin. HD",
+      "Unlocking",
+      "General World Model",
+      "GWM",
+      "Real",
+      "We",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

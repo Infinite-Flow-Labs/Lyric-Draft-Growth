@@ -1,0 +1,118 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-anthropicai-b79579a40386",
+  "fetched_at": "2026-03-19T10:32:27Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AnthropicAI/status/2034302152945144166",
+  "author": {
+    "handle": "@AnthropicAI",
+    "display_name": "Anthropic",
+    "account_url": "https://x.com/AnthropicAI"
+  },
+  "title": "We invited Claude users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people responded in one week—the largest qualitative study of its kind. Read more: https://anthropic.com/features/81k-interviews",
+  "language": "unknown",
+  "published_at": "2026-03-18T16:13:23Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AnthropicAI/status/2034302152945144166",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AnthropicAI/status/2034302152945144166#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    },
+    {
+      "asset_kind": "linked_article",
+      "url": "https://anthropic.com/features/81k-interviews",
+      "selected_for_text": true,
+      "notes": "linked context words=8030"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post_with_link_context",
+    "summary": "We invited Claude users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people responded in one week—the largest qualitative study of its kind. Read more: anthropic.com/features/81k-i…",
+    "full_text": "Post title: We invited Claude users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people responded in one week—the largest qualitative study of its kind. Read more: https://anthropic.com/features/81k-interviews\n\nPost summary: We invited Claude users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people responded in one week—the largest qualitative study of its kind. Read more: anthropic.com/features/81k-i…\n\nCanonical URL: https://x.com/AnthropicAI/status/2034302152945144166\n\nLinked source 1: https://anthropic.com/features/81k-interviews\n\nPublic conversation about AI often centers on abstract projections of its risks and benefits. What's largely missing is a vision for what “AI going well” means, grounded in the concrete aspirations of people around the world who already use AI and have begun developing a sense of what it might do for them. So we asked our users about their hopes and concerns with AI, as well as how their perspectives connect to their actual experiences with the technology. Over one week in December, we invited everyone with a Claude.ai account to sit down with [Anthropic Interviewer](https://www.anthropic.com/research/anthropic-interviewer)—a version of Claude prompted to conduct a conversational interview—and tell us about how they view AI. 80,508 people, across 159 countries and 70 languages, took the interview. We believe this is the largest and most multilingual qualitative study ever conducted.¹ What follows is what they said about the role they want AI to play in their lives, whether it's already filling it, and what they're afraid might go wrong along the way. We also built a Quote Wall where you can hear from people directly. ## Seeing the forest and the trees Anthropic Interviewer asked each interviewee a set list of questions about what they want and don’t want from AI, then adapted follow-up questions based on responses. This approach bridges the typical tradeoff in qualitative research between depth and volume, and allows us to collect rich, open-ended interviews at a very large scale. To make sense of this huge amount of information, we built Claude-powered classifiers that categorized each conversation across a range of dimensions—what people want from AI, whether they’re getting what they want, what they fear, what they do for a living (if mentioned), and their sentiment about AI overall. “What people want from AI” was classified into a single primary category per respondent, while concerns were multi-label—a single interview could receive multiple codes, since respondents tended to articulate several distinct worries rather than one. We also used Claude to pull out representative quotes. Before choosing to participate, users were informed their responses would be used for research, and that Anthropic might publish responses with personally identifying information removed in findings. All responses were de-identified before being analyzed by a small team of researchers at Anthropic, and quotes selected for publication underwent further manual review for removal of any potentially identifying details, to help protect the privacy and public anonymity of interviewees. Answers were reflective of AI usage broadly (i.e. not just Claude), though we redacted names of other AI products. The [Appendix](https://cdn.sanity.io/files/4zrzovbb/website/8599749745010a46526a9ddd35b8d1cc247e240d.pdf) describes our methods in more detail, as well as limitations and some additional analysis. We asked Claude to identify and categorize what each person most wanted from AI: ## What people hope for 01. Professional excellence 18.8% Improve effectiveness and lean into more meaningful work by having AI handle routine tasks so they can focus on higher-value strategic work, complex problem-solving, and professional mastery. “I receive 100-150 text messages per day from doctors and nurses. So much of my cognitive labor was spent on documentation... Since implementing AI, the pressure of documentation has been lifted. I have more patience with nurses, more time to explain things to family members.” Healthcare worker, United States of America [Read more quotes about professional excellence](https://anthropic.com/features/81k-interviews#quotes?vision=vision_professional_excellence_and_meaningful_work) 02. Personal transformation 13.7% Achieve personal growth, emotional wellbeing, or life transformation with AI as guide, coach, or support — e.g. self-understanding, behavior change, therapeutic support, companionship, improvements in physical or mental health. “AI modeled emotional intelligence for me... I could use those behaviors with humans and become a better person.” Hungary [Read more quotes about personal transformation](https://anthropic.com/features/81k-interviews#quotes?vision=vision_personal_transformation_and_holistic_wellbeing) 03. Life management 13.5% AI as comprehensive organizational support and cognitive scaffolding — e.g. managing schedules, reducing mental burden, executive function support. “If AI truly handled the mental load… it would give me back something priceless: undivided attention.” Manager/executive, Denmark [Read more quotes about life management](https://anthropic.com/features/81k-interviews#quotes?vision=vision_cognitive_support_and_comprehensive_life_management) 04. Time freedom 11.1% Reclaim time from work and chores to be present with family or friends, pursue hobbies, travel, rest. “With AI support I can now leave work on time to pick up my kids from school, feed them, and play with them.” Software enginee",
+    "sections": [
+      "x_post",
+      "linked_context"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_used:https://anthropic.com/features/81k-interviews"
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "81k",
+      "18.8%",
+      "13.7%",
+      "13.5%",
+      "11.1%"
+    ],
+    "named_entities": [
+      "We",
+      "Claude",
+      "AI",
+      "Nearly",
+      "Read",
+      "Post",
+      "Canonical URL",
+      "AnthropicAI",
+      "Linked",
+      "Public",
+      "What",
+      "So",
+      "Over",
+      "December",
+      "Anthropic Interviewer",
+      "Quote Wall",
+      "Seeing",
+      "This",
+      "To",
+      "Before",
+      "Anthropic",
+      "All",
+      "Answers",
+      "Appendix",
+      "Professional",
+      "Improve",
+      "Since",
+      "Healthcare"
+    ],
+    "task_hints": [
+      "tutorial"
+    ],
+    "fact_anchors": [
+      "We invited Claude users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people responded in one week—the largest qualitative study of its kind. Read more: https://anthropic.com/features/81k-interviews",
+      "We invited Claude users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people responded in one week—the largest qualitative study of its kind. Read more: anthropic.com/features/81k-i…",
+      "81k",
+      "18.8%",
+      "13.7%",
+      "13.5%",
+      "11.1%",
+      "We",
+      "Claude",
+      "AI",
+      "Nearly",
+      "Read",
+      "Post",
+      "Canonical URL",
+      "AnthropicAI",
+      "Linked",
+      "Public",
+      "What",
+      "So",
+      "Over",
+      "December",
+      "Anthropic Interviewer",
+      "Quote Wall",
+      "https://anthropic.com/features/81k-interviews"
+    ],
+    "normalization_notes": "linked_context_count=1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-perplexity_ai-fae567cc03de/source_item.json",
+  "source_id": "x-perplexity_ai-fae567cc03de",
+  "longform_eligible": false,
+  "recommended_action": "hold_or_shortform",
+  "reasons": [
+    "full_text too short for longform (62 words < 180)",
+    "announcement source lacks linked context evidence and is too thin for longform"
+  ],
+  "signals": {
+    "source_kind": "x_thread",
+    "primary_text_source": "x_post",
+    "participant_count": 0,
+    "summary_words": 28,
+    "full_text_words": 62,
+    "fact_anchor_count": 10,
+    "trimmed_noisy_episode_page": false,
+    "linked_context_asset_count": 0,
+    "announcement_like": true
+  }
+}

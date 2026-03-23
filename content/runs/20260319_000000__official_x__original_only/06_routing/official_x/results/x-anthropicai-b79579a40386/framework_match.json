@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-anthropicai-b79579a40386/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof",
+      "06_checklist_template"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=8 because body_hit=growth, title_hit=k, signal_hit=%, business_metric_signals=5",
+      "06_checklist_template: score=5 because body_hit=guide, signal_hit=tutorial, execution_path_hint, sectioned_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:07:16Z",
+    "top_choice": {
+      "framework_id": "01_money_proof",
+      "submode_id": "metric_postmortem",
+      "confidence": "medium",
+      "rationale": "The source is driven by quantified outcome signals and study-scale execution context (sample size, timeframe, geography/language coverage), which aligns best with a metrics-focused postmortem lens rather than a tutorial or onboarding template.",
+      "triggered_routing_signals": [
+        "Hard number appears immediately in the core claim",
+        "Includes measurable scope/timeframe and method context",
+        "Reader payoff is interpreting quantified findings, not executing setup steps"
+      ],
+      "supporting_source_quotes": [
+        "Nearly 81,000 people responded in one week",
+        "largest qualitative study of its kind",
+        "80,508 people, across 159 countries and 70 languages"
+      ],
+      "matched_sample_ids": [
+        "2031489944083116370",
+        "2031701565434732917"
+      ],
+      "ambiguity_notes": [
+        "Primary post is announcement-style; deeper process likely lives in linked page.",
+        "Outcome is research/public-interest scale, not direct revenue/growth ops."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "workflow_architecture",
+        "confidence": "low",
+        "rationale": "A secondary fit only if rewritten around Anthropic Interviewer system mechanics; current evidence does not provide enough architecture or workflow decomposition.",
+        "triggered_routing_signals": [
+          "Mentions a specific interviewing system",
+          "Hints at an implemented process"
+        ],
+        "supporting_source_quotes": [
+          "sit down with Anthropic Interviewer",
+          "prompted to conduct a conversational interview"
+        ],
+        "matched_sample_ids": [
+          "2030113154739621909"
+        ],
+        "ambiguity_notes": [
+          "No explicit component/role diagram in provided text.",
+          "Not an installation or step-by-step execution source."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:07:56Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "`01_money_proof/metric_postmortem` is the best available fit, but the item is a research-announcement thread rather than a classic business KPI postmortem.",
+      "Process evidence is partially dependent on linked-page context; if routing is evaluated on the X post alone, it may resemble a result-only claim.",
+      "Candidate set appears to lack a dedicated research-insight/reporting framework, creating residual classification ambiguity."
+    ],
+    "requires_human_review": true
+  },
+  "final_decision": {
+    "framework_id": "01_money_proof",
+    "submode_id": "metric_postmortem",
+    "confidence": "medium",
+    "rationale": "The source is driven by quantified outcome signals and study-scale execution context (sample size, timeframe, geography/language coverage), which aligns best with a metrics-focused postmortem lens rather than a tutorial or onboarding template.",
+    "matched_sample_ids": [
+      "2031489944083116370",
+      "2031701565434732917"
+    ],
+    "requires_human_review": true
+  }
+}

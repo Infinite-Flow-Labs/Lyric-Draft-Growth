@@ -1,0 +1,114 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/03_source_items/podcast/items/podcast-the_cognitive_revolution-71458406eda4/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "03_opinion_decode",
+      "06_checklist_template",
+      "01_money_proof"
+    ],
+    "why_these_candidates": [
+      "03_opinion_decode: score=8 because source_kind=podcast_transcript, body_hit=host, title_hit=future, body_hit=opinion",
+      "06_checklist_template: score=10 because task_hint=workflow, signal_hit=tutorial, title_hit=workflow, title_hit=how to",
+      "01_money_proof: score=6 because body_hit=profit, title_hit=growth, title_hit=%, business_metric_signals=1"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-18T09:37:00Z",
+    "top_choice": {
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "confidence": "high",
+      "rationale": "This is a narrated AI scouting report that interprets frontier-model developments, safety risks, and why they matter. It is signal-heavy and source-rich, not a dialogue-led distillation or an execution tutorial.",
+      "triggered_routing_signals": [
+        "looks_like_narrated_briefing=true",
+        "title frames an \"AI Scouting Report\"",
+        "summary emphasizes \"fast-paced, source-rich overview\"",
+        "focus on interpreting current AI landscape and implications"
+      ],
+      "supporting_source_quotes": [
+        "\"AI Scouting Report\"",
+        "\"looks_like_narrated_briefing\": true",
+        "\"source-rich overview of where AI is today\""
+      ],
+      "matched_sample_ids": [
+        "2033441957985280451",
+        "2033806716492538155"
+      ],
+      "ambiguity_notes": [
+        "Podcast format is present, but there is no explicit guest/dialogue structure.",
+        "Task hints mention workflow/tutorial, but the content is primarily analytical briefing, not procedural guidance."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "workflow_architecture",
+        "confidence": "low",
+        "rationale": "The topic is structured and survey-like, but it does not actually teach a system, workflow, or implementation path.",
+        "triggered_routing_signals": [
+          "task_hints include workflow",
+          "sections suggest a structured walkthrough"
+        ],
+        "supporting_source_quotes": [
+          "\"workflow\"",
+          "\"Comprehensive AI overview\""
+        ],
+        "matched_sample_ids": [
+          "2030113154739621909",
+          "2030123309594259506"
+        ],
+        "ambiguity_notes": [
+          "This is weaker because the source is not about building or operating a system.",
+          "No concrete steps, setup, or component architecture are present."
+        ]
+      },
+      {
+        "framework_id": "03_opinion_decode",
+        "submode_id": "conversation_distillation",
+        "confidence": "low",
+        "rationale": "The source is a podcast transcript, but it lacks the guest-dialogue and人物弧线 that would justify conversation distillation.",
+        "triggered_routing_signals": [
+          "platform is podcast",
+          "source_kind is podcast_transcript"
+        ],
+        "supporting_source_quotes": [
+          "\"participant_count\": 0",
+          "\"has_explicit_guest_language\": false",
+          "\"AI Scouting Report\""
+        ],
+        "matched_sample_ids": [
+          "2033365853140595122",
+          "2033560336859799814"
+        ],
+        "ambiguity_notes": [
+          "Podcast metadata alone is not enough to choose this submode.",
+          "The source behaves more like a narrated briefing than a dialogue recap."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-18T09:37:08Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "03_opinion_decode",
+    "submode_id": "signal_decode",
+    "confidence": "high",
+    "rationale": "This is a narrated AI scouting report that interprets frontier-model developments, safety risks, and why they matter. It is signal-heavy and source-rich, not a dialogue-led distillation or an execution tutorial.",
+    "matched_sample_ids": [
+      "2033441957985280451",
+      "2033806716492538155"
+    ],
+    "requires_human_review": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_cognitive_revolution-e808e1ad9465/source_item.json",
+  "source_id": "podcast-the_cognitive_revolution-e808e1ad9465",
+  "longform_eligible": true,
+  "recommended_action": "write_longform",
+  "reasons": [
+    "enough source density and factual anchors for longform rewrite"
+  ],
+  "signals": {
+    "source_kind": "podcast_transcript",
+    "primary_text_source": "transcript",
+    "participant_count": 4,
+    "summary_words": 277,
+    "full_text_words": 38113,
+    "fact_anchor_count": 16,
+    "trimmed_noisy_episode_page": false,
+    "linked_context_asset_count": 0,
+    "announcement_like": false
+  }
+}

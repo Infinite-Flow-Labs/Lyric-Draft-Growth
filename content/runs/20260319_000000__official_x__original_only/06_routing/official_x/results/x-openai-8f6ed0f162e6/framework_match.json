@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-openai-8f6ed0f162e6/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof",
+      "02_launch_application",
+      "03_opinion_decode"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=7 because body_hit=customers, signal_hit=%, body_hit=pricing, business_metric_signals=20",
+      "02_launch_application: score=7 because task_hint=release, title_hit=introducing, release_signals=release,introducing,available today",
+      "03_opinion_decode: score=2 because body_hit=future, body_hit=think"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:12:39Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "medium",
+      "rationale": "The source is a release-triggered announcement with a clear entry link and concise value proposition, which matches a publish-and-showcase pattern better than tutorial-style adoption or deep signal decoding.",
+      "triggered_routing_signals": [
+        "Explicit launch timing: available today",
+        "Release language: introducing",
+        "Official release link provided",
+        "Value snapshot: capability scope plus speed delta"
+      ],
+      "supporting_source_quotes": [
+        "GPT-5.4 mini is available today in ChatGPT, Codex, and the API.",
+        "Optimized for coding, computer use, multimodal understanding, and subagents.",
+        "it’s 2x faster than GPT-5 mini.",
+        "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986",
+        "2032044423413182827"
+      ],
+      "ambiguity_notes": [
+        "The post is very short and announcement-like, so depth for adoption guidance is limited.",
+        "If downstream goal is usage instruction, feature_playbook could be a secondary fit."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "low",
+        "rationale": "There is some feature framing (what it is optimized for), but the source lacks quickstart, boundaries, and concrete usage guidance expected for playbook mode.",
+        "triggered_routing_signals": [
+          "New capability announced",
+          "Capability categories listed",
+          "Performance comparison included"
+        ],
+        "supporting_source_quotes": [
+          "Optimized for coding, computer use, multimodal understanding, and subagents.",
+          "it’s 2x faster than GPT-5 mini."
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "No setup steps or when-not-to-use guidance are present."
+        ]
+      },
+      {
+        "framework_id": "03_opinion_decode",
+        "submode_id": "signal_decode",
+        "confidence": "low",
+        "rationale": "It is an external industry signal (major model release), but the source itself does not perform decoding, ranking, or risk interpretation.",
+        "triggered_routing_signals": [
+          "Public company action",
+          "Model release with impact hint",
+          "Contains comparative performance claim"
+        ],
+        "supporting_source_quotes": [
+          "GPT-5.4 mini is available today in ChatGPT, Codex, and the API.",
+          "it’s 2x faster than GPT-5 mini."
+        ],
+        "matched_sample_ids": [
+          "2033441957985280451"
+        ],
+        "ambiguity_notes": [
+          "Without added interpretation, this remains closer to release announcement than decode."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:13:15Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The item is very short and close to a pure announcement, so `02_launch_application` depends on accepting the linked page as the practical entry context.",
+      "`release_showcase` fit is driven by launch signal + value snapshot + link; there is minimal explicit adoption guidance in the post itself."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "medium",
+    "rationale": "The source is a release-triggered announcement with a clear entry link and concise value proposition, which matches a publish-and-showcase pattern better than tutorial-style adoption or deep signal decoding.",
+    "matched_sample_ids": [
+      "2033848539332415986",
+      "2032044423413182827"
+    ],
+    "requires_human_review": false
+  }
+}

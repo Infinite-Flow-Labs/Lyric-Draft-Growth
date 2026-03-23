@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_jasonyu-8c667bdb1e37",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AI_Jasonyu/status/2034668763090759781",
+  "author": {
+    "handle": "@AI_Jasonyu",
+    "display_name": "AI_Jasonyu",
+    "account_url": "https://x.com/AI_Jasonyu"
+  },
+  "title": "啥都不用说了，关注我Jason老师不会错！！！立刻马上兄弟们❤️",
+  "language": "unknown",
+  "published_at": "2026-03-19T16:30:10Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AI_Jasonyu/status/2034668763090759781",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AI_Jasonyu/status/2034668763090759781#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "啥都不用说了，关注我Jason老师不会错！！！立刻马上兄弟们❤️ Jason Zhu (@GoSailGlobal) x.com/i/article/203447719950… — https://nitter.net/GoSailGlobal/status/2034489088716464226#m",
+    "full_text": "Post title: 啥都不用说了，关注我Jason老师不会错！！！立刻马上兄弟们❤️\n\nPost summary: 啥都不用说了，关注我Jason老师不会错！！！立刻马上兄弟们❤️ Jason Zhu (@GoSailGlobal) x.com/i/article/203447719950… — https://nitter.net/GoSailGlobal/status/2034489088716464226#m\n\nCanonical URL: https://x.com/AI_Jasonyu/status/2034668763090759781",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Jason Zhu",
+      "GoSailGlobal",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "啥都不用说了，关注我Jason老师不会错！！！立刻马上兄弟们❤️",
+      "啥都不用说了，关注我Jason老师不会错！！！立刻马上兄弟们❤️ Jason Zhu (@GoSailGlobal) x.com/i/article/203447719950… — https://nitter.net/GoSailGlobal/status/2034489088716464226#m",
+      "Jason Zhu",
+      "GoSailGlobal",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

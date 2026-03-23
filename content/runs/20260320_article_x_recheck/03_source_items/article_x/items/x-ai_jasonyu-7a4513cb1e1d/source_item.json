@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_jasonyu-7a4513cb1e1d",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AI_Jasonyu/status/2034524961835225265",
+  "author": {
+    "handle": "@AI_Jasonyu",
+    "display_name": "AI_Jasonyu",
+    "account_url": "https://x.com/AI_Jasonyu"
+  },
+  "title": "x.com/i/article/203451961308…",
+  "language": "unknown",
+  "published_at": "2026-03-19T06:58:45Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AI_Jasonyu/status/2034524961835225265",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AI_Jasonyu/status/2034524961835225265#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "x.com/i/article/203451961308…",
+    "full_text": "Post title: x.com/i/article/203451961308…\n\nPost summary: x.com/i/article/203451961308…\n\nCanonical URL: https://x.com/AI_Jasonyu/status/2034524961835225265",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "x.com/i/article/203451961308…",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

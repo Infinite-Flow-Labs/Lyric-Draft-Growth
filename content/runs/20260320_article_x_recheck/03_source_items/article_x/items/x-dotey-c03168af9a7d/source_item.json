@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-dotey-c03168af9a7d",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/dotey/status/2034432242307502172",
+  "author": {
+    "handle": "@dotey",
+    "display_name": "dotey",
+    "account_url": "https://x.com/dotey"
+  },
+  "title": "x.com/i/article/203442823574…",
+  "language": "unknown",
+  "published_at": "2026-03-19T00:50:19Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/dotey/status/2034432242307502172",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/dotey/status/2034432242307502172#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "x.com/i/article/203442823574…",
+    "full_text": "Post title: x.com/i/article/203442823574…\n\nPost summary: x.com/i/article/203442823574…\n\nCanonical URL: https://x.com/dotey/status/2034432242307502172",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "x.com/i/article/203442823574…",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

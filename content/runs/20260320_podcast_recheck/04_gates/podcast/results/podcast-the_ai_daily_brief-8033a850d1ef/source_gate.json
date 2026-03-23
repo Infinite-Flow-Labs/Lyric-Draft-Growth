@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_ai_daily_brief-8033a850d1ef/source_item.json",
+  "source_id": "podcast-the_ai_daily_brief-8033a850d1ef",
+  "longform_eligible": false,
+  "recommended_action": "hold_or_shortform",
+  "reasons": [
+    "full_text too short for longform (132 words < 140)",
+    "source was trimmed from a noisy episode page",
+    "episode-page source looks like a briefing summary, not a full transcript"
+  ],
+  "signals": {
+    "source_kind": "podcast_transcript",
+    "primary_text_source": "episode_page",
+    "participant_count": 0,
+    "summary_words": 126,
+    "full_text_words": 132,
+    "fact_anchor_count": 13,
+    "trimmed_noisy_episode_page": true,
+    "linked_context_asset_count": 0,
+    "announcement_like": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lxfater-9b7215c04d9e",
+  "fetched_at": "2026-03-19T06:58:54Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lxfater/status/2034509552004309152",
+  "author": {
+    "handle": "@lxfater",
+    "display_name": "lxfater",
+    "account_url": "https://x.com/lxfater"
+  },
+  "title": "最近有个创业方向就是 Build For Agent，真的是一浪接着一浪，哈哈哈",
+  "language": "unknown",
+  "published_at": "2026-03-19T05:57:31Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lxfater/status/2034509552004309152",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lxfater/status/2034509552004309152#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "最近有个创业方向就是 Build For Agent，真的是一浪接着一浪，哈哈哈 铁锤人 (@lxfater) x.com/i/article/203419015357… — https://nitter.net/lxfater/status/2034192198162653376#m",
+    "full_text": "Post title: 最近有个创业方向就是 Build For Agent，真的是一浪接着一浪，哈哈哈\n\nPost summary: 最近有个创业方向就是 Build For Agent，真的是一浪接着一浪，哈哈哈 铁锤人 (@lxfater) x.com/i/article/203419015357… — https://nitter.net/lxfater/status/2034192198162653376#m\n\nCanonical URL: https://x.com/lxfater/status/2034509552004309152",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Build For Agent",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "最近有个创业方向就是 Build For Agent，真的是一浪接着一浪，哈哈哈",
+      "最近有个创业方向就是 Build For Agent，真的是一浪接着一浪，哈哈哈 铁锤人 (@lxfater) x.com/i/article/203419015357… — https://nitter.net/lxfater/status/2034192198162653376#m",
+      "Build For Agent",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

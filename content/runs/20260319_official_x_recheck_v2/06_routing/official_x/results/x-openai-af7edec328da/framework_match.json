@@ -1,0 +1,106 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/03_source_items/official_x/items/x-openai-af7edec328da/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "02_launch_application"
+    ],
+    "why_these_candidates": [
+      "02_launch_application: score=5 because task_hint=release, signal_hit=introducing, release_signals=introducing"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:42:07Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "high",
+      "rationale": "The source is a release-style post pushing readers to a specific new resource entry point rather than explaining feature mechanics or walking through migration from an old pain point. Its payoff is primarily 'this is worth checking out' via the linked Parameter Golf page and video.",
+      "triggered_routing_signals": [
+        "Explicit release cue via prefilter release signals",
+        "Clear resource entry link to a named page",
+        "Value is framed as a challenge/resource to visit, not a how-to",
+        "No old-vs-new adoption path or detailed feature boundary guidance"
+      ],
+      "supporting_source_quotes": [
+        "Are you up for a challenge?",
+        "http://openai.com/parameter-golf",
+        "OpenAI Model Craft: Parameter Golf",
+        "Video"
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986"
+      ],
+      "ambiguity_notes": [
+        "The post is very short, so submode choice depends heavily on the linked resource framing.",
+        "It could compete with feature_playbook if the linked page is mainly usage guidance, but that evidence is not present here."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "medium",
+        "rationale": "A plausible fallback if Parameter Golf is a newly introduced capability needing explanation and best-practice framing, but the provided source excerpt does not show concept clarification or usage boundaries.",
+        "triggered_routing_signals": [
+          "Release/announcement context",
+          "Named new item in linked page title"
+        ],
+        "supporting_source_quotes": [
+          "OpenAI Model Craft: Parameter Golf",
+          "introducing"
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "Missing evidence of quickstart, configuration, or when-to-use guidance keeps this below release_showcase."
+        ]
+      },
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "pain_to_adoption",
+        "confidence": "low",
+        "rationale": "This would fit only if the linked content argues that an older workflow is too hard and the new release offers a smoother path. The source excerpt itself does not show that contrast.",
+        "triggered_routing_signals": [
+          "Release-style linkout"
+        ],
+        "supporting_source_quotes": [
+          "http://openai.com/parameter-golf"
+        ],
+        "matched_sample_ids": [
+          "2032283258650759362"
+        ],
+        "ambiguity_notes": [
+          "No old baseline, pain comparison, or migration path appears in the source evidence."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:42:21Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The submode choice is reasonable, but the evidence is thin: the X post itself is only a teaser plus link, so most of the fit comes from inferring the linked page is a collectible resource/challenge rather than a feature adoption guide.",
+      "Framework confidence looks overstated. The framework's own disqualifiers include posts that are mostly promotional or announcement-like, and this source is close to that boundary.",
+      "If the linked page turns out to be primarily a tutorial or capability explanation, `feature_playbook` would become competitive; that cannot be resolved from the provided excerpt alone."
+    ],
+    "requires_human_review": true
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "high",
+    "rationale": "The source is a release-style post pushing readers to a specific new resource entry point rather than explaining feature mechanics or walking through migration from an old pain point. Its payoff is primarily 'this is worth checking out' via the linked Parameter Golf page and video.",
+    "matched_sample_ids": [
+      "2033848539332415986"
+    ],
+    "requires_human_review": true
+  }
+}

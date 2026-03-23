@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_jasonyu-f37ac19e33c6",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AI_Jasonyu/status/2034544827191435656",
+  "author": {
+    "handle": "@AI_Jasonyu",
+    "display_name": "AI_Jasonyu",
+    "account_url": "https://x.com/AI_Jasonyu"
+  },
+  "title": "套壳站不知道养活了多少独立开发者。 每一次新的模型都要造富很多的群友，去年线下和很多朋友聊到，有几个在套壳站上已经拿到了月入10万🔪的营收，就算是做的一般的也是上万美金。⬇️继续看 就我知道的就有吉卜力、NanoBanana、Seedance这种大的机会，还有一些小的比如AIDance、MusicGenerator这种，抓住一波，就是财富密码🔑 很可惜，我没抓住，不过只要在牌桌上，还是有机会💪",
+  "language": "unknown",
+  "published_at": "2026-03-19T08:17:41Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AI_Jasonyu/status/2034544827191435656",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AI_Jasonyu/status/2034544827191435656#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "套壳站不知道养活了多少独立开发者。 每一次新的模型都要造富很多的群友，去年线下和很多朋友聊到，有几个在套壳站上已经拿到了月入10万🔪的营收，就算是做的一般的也是上万美金。⬇️继续看 就我知道的就有吉卜力、NanoBanana、Seedance这种大的机会，还有一些小的比如AIDance、MusicGenerator这种，抓住一波，就是财富密码🔑 很可惜，我没抓住，不过只要在牌桌上，还是有机会💪 胡二虎 Will hu🐯 (@willlhhh) x.com/i/article/203429789570… — https://nitter.net/willlhhh/status/2034443224660803709#m",
+    "full_text": "Post title: 套壳站不知道养活了多少独立开发者。 每一次新的模型都要造富很多的群友，去年线下和很多朋友聊到，有几个在套壳站上已经拿到了月入10万🔪的营收，就算是做的一般的也是上万美金。⬇️继续看 就我知道的就有吉卜力、NanoBanana、Seedance这种大的机会，还有一些小的比如AIDance、MusicGenerator这种，抓住一波，就是财富密码🔑 很可惜，我没抓住，不过只要在牌桌上，还是有机会💪\n\nPost summary: 套壳站不知道养活了多少独立开发者。 每一次新的模型都要造富很多的群友，去年线下和很多朋友聊到，有几个在套壳站上已经拿到了月入10万🔪的营收，就算是做的一般的也是上万美金。⬇️继续看 就我知道的就有吉卜力、NanoBanana、Seedance这种大的机会，还有一些小的比如AIDance、MusicGenerator这种，抓住一波，就是财富密码🔑 很可惜，我没抓住，不过只要在牌桌上，还是有机会💪 胡二虎 Will hu🐯 (@willlhhh) x.com/i/article/203429789570… — https://nitter.net/willlhhh/status/2034443224660803709#m\n\nCanonical URL: https://x.com/AI_Jasonyu/status/2034544827191435656",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "NanoBanana",
+      "Will",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "套壳站不知道养活了多少独立开发者。 每一次新的模型都要造富很多的群友，去年线下和很多朋友聊到，有几个在套壳站上已经拿到了月入10万🔪的营收，就算是做的一般的也是上万美金。⬇️继续看 就我知道的就有吉卜力、NanoBanana、Seedance这种大的机会，还有一些小的比如AIDance、MusicGenerator这种，抓住一波，就是财富密码🔑 很可惜，我没抓住，不过只要在牌桌上，还是有机会💪",
+      "套壳站不知道养活了多少独立开发者。 每一次新的模型都要造富很多的群友，去年线下和很多朋友聊到，有几个在套壳站上已经拿到了月入10万🔪的营收，就算是做的一般的也是上万美金。⬇️继续看 就我知道的就有吉卜力、NanoBanana、Seedance这种大的机会，还有一些小的比如AIDance、MusicGenerator这种，抓住一波，就是财富密码🔑 很可惜，我没抓住，不过只要在牌桌上，还是有机会💪 胡二虎 Will hu🐯 (@willlhhh) x.com/i/article/203429789570… — https://nitter.net/willlhhh/status/2034443224660803709#m",
+      "NanoBanana",
+      "Will",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

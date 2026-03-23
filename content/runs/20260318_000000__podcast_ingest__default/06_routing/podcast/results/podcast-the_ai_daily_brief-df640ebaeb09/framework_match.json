@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/03_source_items/podcast/items/podcast-the_ai_daily_brief-df640ebaeb09/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "03_opinion_decode"
+    ],
+    "why_these_candidates": [
+      "03_opinion_decode: score=4 because source_kind=podcast_transcript, body_hit=conversation, podcast_transcript_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-18T09:36:39Z",
+    "top_choice": {
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "confidence": "high",
+      "rationale": "The source is a narrated AI briefing that interprets market and policy signals, not a dialogue-driven interview. It explicitly frames competing narratives, explains why they matter, and pushes a decode/assessment posture around AI agents, enterprise readiness, and the risk of learned helplessness.",
+      "triggered_routing_signals": [
+        "looks_like_narrated_briefing=true",
+        "has_explicit_guest_language=false",
+        "participant_count=0",
+        "正文先交代信号源，再明显介入解释真正重点",
+        "作者主动降噪、做对比、排重要性"
+      ],
+      "supporting_source_quotes": [
+        "\"narrated briefing\"",
+        "\"The Race to Put AI Agents Everywhere\"",
+        "\"the window to shape what AI becomes\""
+      ],
+      "matched_sample_ids": [
+        "2033441957985280451",
+        "2033806716492538155",
+        "2033749685106839903"
+      ],
+      "ambiguity_notes": [
+        "Podcast format alone is not enough for conversation_distillation here because the item lacks dialogue structure and guest-led payoff.",
+        "The transcript behaves more like an external-signal decode than a reconstructed conversation."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "03_opinion_decode",
+        "submode_id": "conversation_distillation",
+        "confidence": "low",
+        "rationale": "The source is a podcast transcript, so conversation_distillation is the nearest competing mode, but the absence of participants, guest language, and scene-based dialogue makes it a weaker fit.",
+        "triggered_routing_signals": [
+          "source_kind=podcast_transcript",
+          "title resembles a podcast episode"
+        ],
+        "supporting_source_quotes": [
+          "\"podcast_transcript\"",
+          "\"participants\": []",
+          "\"has_explicit_guest_language\": false"
+        ],
+        "matched_sample_ids": [
+          "2033365853140595122",
+          "2033560336859799814"
+        ],
+        "ambiguity_notes": [
+          "Would fit better only if the episode were clearly interview-led or built around人物弧线."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-18T09:36:46Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "03_opinion_decode",
+    "submode_id": "signal_decode",
+    "confidence": "high",
+    "rationale": "The source is a narrated AI briefing that interprets market and policy signals, not a dialogue-driven interview. It explicitly frames competing narratives, explains why they matter, and pushes a decode/assessment posture around AI agents, enterprise readiness, and the risk of learned helplessness.",
+    "matched_sample_ids": [
+      "2033441957985280451",
+      "2033806716492538155",
+      "2033749685106839903"
+    ],
+    "requires_human_review": false
+  }
+}

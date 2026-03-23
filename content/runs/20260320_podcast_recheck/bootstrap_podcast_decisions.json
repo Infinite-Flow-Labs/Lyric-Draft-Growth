@@ -1,0 +1,102 @@
+{
+  "decisions": [
+    {
+      "source_id": "podcast-practical_ai-c28e7eb8060b",
+      "router_model": "codex-default",
+      "router_evaluated_at": "2026-03-18T09:35:37Z",
+      "router_top_choice": {
+        "framework_id": "03_opinion_decode",
+        "submode_id": "conversation_distillation",
+        "confidence": "high",
+        "rationale": "This is a guest-led podcast interview with explicit participant structure and a clear人物弧线: Steve Klabnik moves from AI criticism to hands-on use, and the episode extracts his worldview and industry implications. That matches对话蒸馏 better than signal decoding because the payoff is the conversation itself, not a narrated external briefing.",
+        "triggered_routing_signals": [
+          "source is a podcast/ interview",
+          "explicit guest language",
+          "multiple participants and host-guest structure",
+          "focus on人物弧线 and industry meaning",
+          "summary centers on guest journey and implications"
+        ],
+        "supporting_source_quotes": [
+          "\"talk with software engineer Steve Klabnik\"",
+          "\"his journey from criticizing AI to experimenting with it firsthand\"",
+          "\"Featuring: Steve Klabnik\""
+        ],
+        "matched_sample_ids": [
+          "2033365853140595122",
+          "2033560336859799814"
+        ],
+        "ambiguity_notes": [
+          "The topic includes an AI tooling and coding trend, so signal_decode is a plausible competitor, but the source form and payoff are more conversational than briefing-like."
+        ]
+      },
+      "router_alternatives": [
+        {
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "confidence": "medium",
+          "rationale": "The episode also interprets a current AI-coding signal: agentic coding, Claude-assisted development, and what that means for software engineering. If the rewrite angle were more about the trend than the guest arc, this would fit.",
+          "triggered_routing_signals": [
+            "topical AI coding trend",
+            "discussion of future of coding",
+            "mechanism/impact framing",
+            "industry implication angle"
+          ],
+          "supporting_source_quotes": [
+            "\"Humility in the Age of Agentic Coding\"",
+            "\"largely built with the help of AI tools like Claude\"",
+            "\"what this means for software engineering\""
+          ],
+          "matched_sample_ids": [
+            "2033441957985280451",
+            "2033806716492538155"
+          ],
+          "ambiguity_notes": [
+            "This is secondary because the source is still primarily an interview rather than a narrated external signal decode."
+          ]
+        }
+      ],
+      "reviewer_model": "codex-default",
+      "reviewer_evaluated_at": "2026-03-18T09:35:51Z",
+      "reviewer_agrees_with_router": true,
+      "reviewer_override_choice": null,
+      "reviewer_concerns": [],
+      "reviewer_requires_human_review": false
+    },
+    {
+      "source_id": "podcast-the_cognitive_revolution-e808e1ad9465",
+      "router_model": "bootstrap-from-prior-run",
+      "router_evaluated_at": "2026-03-20T05:20:00Z",
+      "router_top_choice": {
+        "framework_id": "03_opinion_decode",
+        "submode_id": "signal_decode",
+        "confidence": "high",
+        "rationale": "This episode is a narrated AI market-and-research interpretation piece, not a guest-led conversational arc. The payoff comes from sorting multiple frontier-model and safety signals into one coherent judgment, which fits signal_decode better than conversation_distillation.",
+        "triggered_routing_signals": [
+          "narrated briefing structure",
+          "multiple AI developments interpreted together",
+          "reader payoff is synthesis and prioritization",
+          "not driven by one guest arc"
+        ],
+        "supporting_source_quotes": [
+          "Zvi's Mic Works!",
+          "Recursive Self-Improvement",
+          "Anthropic vs DoW + More!"
+        ],
+        "matched_sample_ids": [
+          "2033441957985280451",
+          "2033806716492538155"
+        ],
+        "ambiguity_notes": [
+          "The episode contains many signals, but the dominant form is still one authored decode rather than a benchmark or checklist."
+        ]
+      },
+      "router_alternatives": [],
+      "reviewer_model": "bootstrap-from-prior-run",
+      "reviewer_evaluated_at": "2026-03-20T05:20:10Z",
+      "reviewer_agrees_with_router": true,
+      "reviewer_override_choice": null,
+      "reviewer_concerns": [],
+      "reviewer_requires_human_review": false
+    }
+  ]
+}

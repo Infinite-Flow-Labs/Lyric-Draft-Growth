@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "podcast-the_ai_daily_brief-c4e38355b9bd",
+  "fetched_at": "2026-03-20T05:14:35Z",
+  "platform": "podcast",
+  "source_kind": "podcast_transcript",
+  "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Use-Agent-Skills-e3glb09",
+  "author": {
+    "handle": null,
+    "display_name": "The AI Daily Brief",
+    "account_url": null
+  },
+  "title": "How to Use Agent Skills",
+  "language": "unknown",
+  "published_at": "2026-03-18T21:29:07Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "rss_feed",
+      "url": "https://anchor.fm/s/f7cac464/podcast/rss",
+      "selected_for_text": false,
+      "notes": null
+    },
+    {
+      "asset_kind": "episode_page",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Use-Agent-Skills-e3glb09",
+      "selected_for_text": true,
+      "notes": "origin_page_auto"
+    },
+    {
+      "asset_kind": "audio",
+      "url": "https://anchor.fm/s/f7cac464/podcast/play/117139913/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-18%2F420309604-44100-2-cca9c27f729db.mp3",
+      "selected_for_text": false,
+      "notes": null
+    }
+  ],
+  "content": {
+    "primary_text_source": "episode_page",
+    "summary": "The team behind Claude Code's agent skills shares lessons on building, testing, and organizing skills — and the concept is converging across the entire AI stack, from hardcore developers to mainstream tools like Notion. Whether you're orchestrating multi-agent teams or just trying to get an AI to reliably do one task your way, skills represent a shift from ad hoc prompting to reusable, repeatable capabilities. In the headlines: Claude Cowork gets mobile control via Dispatch, China's government grows wary of Open Claw, and Andy Jassy sees AI doubling AWS revenue.",
+    "full_text": "#### What People Really Want From AI\n\nA new Anthropic study based on nearly 81,000 interviews offers a much more nuanced picture of what people actually want from AI: not some clean split between boosters and skeptics, but a messy mix of hope, anxiety, productivity gains, emotional complexity, and fears around reliability, autonomy, and jobs. NLW breaks down the biggest findings, why professional ambition and personal quality of life are so tightly linked in how people describe AI, and why dismissing the views of actual AI users is becoming its own kind of bias. In the headlines: AI brings Val Kilmer back for one final film role, Microsoft restructures Copilot again, and Anthropic’s Cowork Dispatch adds Claude Code sessions.\n_For all the links referenced in the show, sign up for the newsletter:__https://aidailybrief.beehiiv.com/_",
+    "sections": [
+      "What People Really Want From AI"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "Trimmed summary at first non-core marker.; Removed Jina title wrapper.; Removed Jina URL wrapper.; Removed Jina markdown wrapper.; Removed empty markdown link line.; Removed promo line.; Trimmed episode page at sponsor/footer marker.; Built from transcript_source.json: /home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/01_discovery/podcast_ingest/fulltext/auto_discovered/podcast-the_ai_daily_brief-c4e38355b9bd/transcript_source.json; Primary text source selected: episode_page."
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Use Agent Skills",
+      "Claude Code",
+      "AI",
+      "Notion",
+      "Whether",
+      "Claude Cowork",
+      "Dispatch",
+      "China",
+      "Open Claw",
+      "Andy Jassy",
+      "AWS",
+      "What People Really Want",
+      "From AI",
+      "Anthropic",
+      "NLW",
+      "Val Kilmer",
+      "Microsoft",
+      "Copilot",
+      "Cowork Dispatch"
+    ],
+    "task_hints": [
+      "podcast",
+      "tutorial",
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "How to Use Agent Skills",
+      "2026-03-18T21:29:07Z",
+      "Use Agent Skills",
+      "Claude Code",
+      "AI",
+      "Notion",
+      "Whether",
+      "Claude Cowork",
+      "Dispatch",
+      "China",
+      "Open Claw",
+      "Andy Jassy",
+      "The team behind Claude Code's agent skills shares lessons on building, testing, and organizing skills — and the concept is converging across the entire AI stack, from hardcore developers to mainstream tools like Notion"
+    ],
+    "normalization_notes": "Trimmed summary at first non-core marker.; Removed Jina title wrapper.; Removed Jina URL wrapper.; Removed Jina markdown wrapper.; Removed empty markdown link line.; Removed promo line.; Trimmed episode page at sponsor/footer marker.; Built from transcript_source.json: /home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/01_discovery/podcast_ingest/fulltext/auto_discovered/podcast-the_ai_daily_brief-c4e38355b9bd/transcript_source.json"
+  }
+}

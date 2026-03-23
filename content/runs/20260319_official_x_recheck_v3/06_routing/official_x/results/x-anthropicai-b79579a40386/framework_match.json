@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/03_source_items/official_x/items/x-anthropicai-b79579a40386/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof",
+      "06_checklist_template"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=8 because body_hit=growth, title_hit=k, signal_hit=%, business_metric_signals=5",
+      "06_checklist_template: score=5 because body_hit=guide, signal_hit=tutorial, execution_path_hint, sectioned_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:42:21Z",
+    "top_choice": {
+      "framework_id": "01_money_proof",
+      "submode_id": "metric_postmortem",
+      "confidence": "medium",
+      "rationale": "The source is anchored by a large quantitative result and supporting study-method evidence, not by an execution tutorial. Its payoff is closer to an operator-style metrics decode of a large-scale research effort than to onboarding, installation, or checklist content. It is not a cash/clients case, so the metric-focused submode fits best among the provided options, despite the source being more research/reporting than a classic growth postmortem.",
+      "triggered_routing_signals": [
+        "Hard numbers appear immediately",
+        "Evidence includes study scale, countries, languages, and percentages",
+        "Closer to measurable-process interpretation than tutorial execution path",
+        "Not centered on installation, setup, or step-by-step workflow"
+      ],
+      "supporting_source_quotes": [
+        "\"Nearly 81,000 people responded in one week\"",
+        "\"largest qualitative study of its kind\"",
+        "\"80,508 people, across 159 countries and 70 languages\"",
+        "\"18.8%\""
+      ],
+      "matched_sample_ids": [
+        "2031489944083116370"
+      ],
+      "ambiguity_notes": [
+        "This is not a perfect fit because it is a research-study share, not a classic operator postmortem.",
+        "The prefilter's checklist candidate is weaker because the source lacks steps, setup, or follow-along execution."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "guided_onboarding",
+        "confidence": "low",
+        "rationale": "The only case for this route is the linked long-form page and a weak tutorial hint, but the source itself does not promise a follow-along path, setup steps, or onboarding outcome.",
+        "triggered_routing_signals": [
+          "Linked long-form context exists",
+          "Task hint includes tutorial"
+        ],
+        "supporting_source_quotes": [
+          "\"Read more\"",
+          "\"what they dream it could make possible\""
+        ],
+        "matched_sample_ids": [
+          "2029894874888278198"
+        ],
+        "ambiguity_notes": [
+          "The source lacks concrete steps, prerequisites, commands, or FAQ structure, so onboarding fit is weak."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:42:35Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The source is primarily a research/report share from a company account, so neither candidate framework is a clean fit.",
+      "`01_money_proof / metric_postmortem` is only defensible as a nearest-match because the post foregrounds scale and percentages, but it lacks a true operator postmortem structure or transferable execution system.",
+      "`06_checklist_template` is materially weaker: there is no onboarding promise, no steps, and no execution path in the source item itself.",
+      "The `tutorial` task hint appears noisy relative to the actual source content and may have inflated the checklist candidate."
+    ],
+    "requires_human_review": true
+  },
+  "final_decision": {
+    "framework_id": "01_money_proof",
+    "submode_id": "metric_postmortem",
+    "confidence": "medium",
+    "rationale": "The source is anchored by a large quantitative result and supporting study-method evidence, not by an execution tutorial. Its payoff is closer to an operator-style metrics decode of a large-scale research effort than to onboarding, installation, or checklist content. It is not a cash/clients case, so the metric-focused submode fits best among the provided options, despite the source being more research/reporting than a classic growth postmortem.",
+    "matched_sample_ids": [
+      "2031489944083116370"
+    ],
+    "requires_human_review": true
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "podcast-the_ai_daily_brief-8033a850d1ef",
+  "fetched_at": "2026-03-20T05:13:40Z",
+  "platform": "podcast",
+  "source_kind": "podcast_transcript",
+  "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-People-Really-Want-From-AI-e3gn965",
+  "author": {
+    "handle": null,
+    "display_name": "The AI Daily Brief",
+    "account_url": null
+  },
+  "title": "What People Really Want From AI",
+  "language": "unknown",
+  "published_at": "2026-03-19T23:36:43Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "rss_feed",
+      "url": "https://anchor.fm/s/f7cac464/podcast/rss",
+      "selected_for_text": false,
+      "notes": null
+    },
+    {
+      "asset_kind": "episode_page",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-People-Really-Want-From-AI-e3gn965",
+      "selected_for_text": true,
+      "notes": "origin_page_auto"
+    },
+    {
+      "asset_kind": "audio",
+      "url": "https://anchor.fm/s/f7cac464/podcast/play/117203589/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-19%2F420398776-44100-2-25e7b8c729498.mp3",
+      "selected_for_text": false,
+      "notes": null
+    }
+  ],
+  "content": {
+    "primary_text_source": "episode_page",
+    "summary": "A new Anthropic study based on nearly 81,000 interviews offers a much more nuanced picture of what people actually want from AI: not some clean split between boosters and skeptics, but a messy mix of hope, anxiety, productivity gains, emotional complexity, and fears around reliability, autonomy, and jobs. NLW breaks down the biggest findings, why professional ambition and personal quality of life are so tightly linked in how people describe AI, and why dismissing the views of actual AI users is becoming its own kind of bias. In the headlines: AI brings Val Kilmer back for one final film role, Microsoft restructures Copilot again, and Anthropic’s Cowork Dispatch adds Claude Code sessions. For all the links referenced in the show, sign up for the newsletter: https://aidailybrief.beehiiv.com/",
+    "full_text": "#### What People Really Want From AI\n\nA new Anthropic study based on nearly 81,000 interviews offers a much more nuanced picture of what people actually want from AI: not some clean split between boosters and skeptics, but a messy mix of hope, anxiety, productivity gains, emotional complexity, and fears around reliability, autonomy, and jobs. NLW breaks down the biggest findings, why professional ambition and personal quality of life are so tightly linked in how people describe AI, and why dismissing the views of actual AI users is becoming its own kind of bias. In the headlines: AI brings Val Kilmer back for one final film role, Microsoft restructures Copilot again, and Anthropic’s Cowork Dispatch adds Claude Code sessions.\n_For all the links referenced in the show, sign up for the newsletter:__https://aidailybrief.beehiiv.com/_",
+    "sections": [
+      "What People Really Want From AI"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "Trimmed summary at first non-core marker.; Removed Jina title wrapper.; Removed Jina URL wrapper.; Removed Jina markdown wrapper.; Removed empty markdown link line.; Removed promo line.; Trimmed episode page at sponsor/footer marker.; Built from transcript_source.json: /home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/01_discovery/podcast_ingest/fulltext/auto_discovered/podcast-the_ai_daily_brief-8033a850d1ef/transcript_source.json; Primary text source selected: episode_page."
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "What People Really Want",
+      "From AI",
+      "Anthropic",
+      "AI",
+      "NLW",
+      "Val Kilmer",
+      "Microsoft",
+      "Copilot",
+      "Cowork Dispatch",
+      "Claude Code",
+      "For"
+    ],
+    "task_hints": [
+      "podcast",
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "What People Really Want From AI",
+      "2026-03-19T23:36:43Z",
+      "What People Really Want",
+      "From AI",
+      "Anthropic",
+      "AI",
+      "NLW",
+      "Val Kilmer",
+      "Microsoft",
+      "Copilot",
+      "Cowork Dispatch",
+      "Claude Code",
+      "A new Anthropic study based on nearly 81,000 interviews offers a much more nuanced picture of what people actually want from AI: not some clean split between boosters and skeptics, but a messy mix of hope, anxiety, productivity gains, emotional complexity, and fears around reliability, autonomy, and jobs"
+    ],
+    "normalization_notes": "Trimmed summary at first non-core marker.; Removed Jina title wrapper.; Removed Jina URL wrapper.; Removed Jina markdown wrapper.; Removed empty markdown link line.; Removed promo line.; Trimmed episode page at sponsor/footer marker.; Built from transcript_source.json: /home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/01_discovery/podcast_ingest/fulltext/auto_discovered/podcast-the_ai_daily_brief-8033a850d1ef/transcript_source.json"
+  }
+}

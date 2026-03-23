@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/03_source_items/podcast/items/podcast-the_ai_daily_brief-404305cb5b16/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "03_opinion_decode"
+    ],
+    "why_these_candidates": [
+      "03_opinion_decode: score=5 because source_kind=podcast_transcript, title_hit=conversation, podcast_transcript_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-18T09:36:22Z",
+    "top_choice": {
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "confidence": "high",
+      "rationale": "This is a narrated briefing that decodes AI industry signals, not a dialogue-led conversation. The source frames multiple headlines, explains why they matter, and centers interpretation of market and policy signals.",
+      "triggered_routing_signals": [
+        "looks_like_narrated_briefing=true",
+        "has_explicit_guest_language=false",
+        "participant_count=0",
+        "headline-driven industry interpretation",
+        "explicit signal decoding of AI events"
+      ],
+      "supporting_source_quotes": [
+        "\"The AI discourse is absolutely frenetic right now\"",
+        "\"In the headlines: a preview of NVIDIA's GTC\"",
+        "\"SEC filings quietly listing AI agents as a material risk\""
+      ],
+      "matched_sample_ids": [
+        "2033441957985280451",
+        "2033806716492538155",
+        "2033749685106839903"
+      ],
+      "ambiguity_notes": [
+        "Episode title is story-like, but the body behaves like an analytical briefing.",
+        "No guest or dialogue structure is present despite podcast_transcript source_kind."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "03_opinion_decode",
+        "submode_id": "conversation_distillation",
+        "confidence": "low",
+        "rationale": "The source is a podcast transcript, which can sometimes indicate conversation distillation, but this item lacks guests, dialogue turns, or人物弧线.",
+        "triggered_routing_signals": [
+          "podcast_transcript source kind",
+          "title is episode-like"
+        ],
+        "supporting_source_quotes": [
+          "\"participant_count\": 0",
+          "\"has_explicit_guest_language\": false",
+          "\"looks_like_narrated_briefing\": true"
+        ],
+        "matched_sample_ids": [
+          "2033365853140595122",
+          "2033560336859799814"
+        ],
+        "ambiguity_notes": [
+          "This is only a structural fallback, not a content fit.",
+          "The payoff is explanation of external signals, not distilled dialogue."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-18T09:36:28Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "03_opinion_decode",
+    "submode_id": "signal_decode",
+    "confidence": "high",
+    "rationale": "This is a narrated briefing that decodes AI industry signals, not a dialogue-led conversation. The source frames multiple headlines, explains why they matter, and centers interpretation of market and policy signals.",
+    "matched_sample_ids": [
+      "2033441957985280451",
+      "2033806716492538155",
+      "2033749685106839903"
+    ],
+    "requires_human_review": false
+  }
+}

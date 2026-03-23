@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-vista8-164847a1aac8",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/vista8/status/2034563946766877022",
+  "author": {
+    "handle": "@vista8",
+    "display_name": "vista8",
+    "account_url": "https://x.com/vista8"
+  },
+  "title": "飞书今天下午发布会提到的aily智能伙伴，一手内测反馈。 简单易上手，如果办公文档、资料都在飞书的话。 随着持续用，能发挥更大价值。 完全不用配置，点击激活升级，就多了一个AI同事。",
+  "language": "unknown",
+  "published_at": "2026-03-19T09:33:39Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/vista8/status/2034563946766877022",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/vista8/status/2034563946766877022#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "飞书今天下午发布会提到的aily智能伙伴，一手内测反馈。 简单易上手，如果办公文档、资料都在飞书的话。 随着持续用，能发挥更大价值。 完全不用配置，点击激活升级，就多了一个AI同事。 向阳乔木 (@vista8) x.com/i/article/203456090667… — https://nitter.net/vista8/status/2034563097105719765#m",
+    "full_text": "Post title: 飞书今天下午发布会提到的aily智能伙伴，一手内测反馈。 简单易上手，如果办公文档、资料都在飞书的话。 随着持续用，能发挥更大价值。 完全不用配置，点击激活升级，就多了一个AI同事。\n\nPost summary: 飞书今天下午发布会提到的aily智能伙伴，一手内测反馈。 简单易上手，如果办公文档、资料都在飞书的话。 随着持续用，能发挥更大价值。 完全不用配置，点击激活升级，就多了一个AI同事。 向阳乔木 (@vista8) x.com/i/article/203456090667… — https://nitter.net/vista8/status/2034563097105719765#m\n\nCanonical URL: https://x.com/vista8/status/2034563946766877022",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "飞书今天下午发布会提到的aily智能伙伴，一手内测反馈。 简单易上手，如果办公文档、资料都在飞书的话。 随着持续用，能发挥更大价值。 完全不用配置，点击激活升级，就多了一个AI同事。",
+      "飞书今天下午发布会提到的aily智能伙伴，一手内测反馈。 简单易上手，如果办公文档、资料都在飞书的话。 随着持续用，能发挥更大价值。 完全不用配置，点击激活升级，就多了一个AI同事。 向阳乔木 (@vista8) x.com/i/article/203456090667… — https://nitter.net/vista8/status/2034563097105719765#m",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

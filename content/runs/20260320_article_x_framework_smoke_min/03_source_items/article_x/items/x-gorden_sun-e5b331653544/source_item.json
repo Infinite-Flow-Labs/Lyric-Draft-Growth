@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-e5b331653544",
+  "fetched_at": "2026-03-20T09:20:06Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2034091257899978833",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑",
+  "language": "unknown",
+  "published_at": "2026-03-18T02:15:22Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2034091257899978833",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2034091257899978833#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m",
+    "full_text": "Post title: Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑\n\nPost summary: Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m\n\nCanonical URL: https://x.com/Gorden_Sun/status/2034091257899978833",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "ID",
+      "CI",
+      "JSON",
+      "SQLite",
+      "On Demand Hooks",
+      "Thariq",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑",
+      "Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m",
+      "ID",
+      "CI",
+      "JSON",
+      "SQLite",
+      "On Demand Hooks",
+      "Thariq",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-19T06:58:54Z",
+  "guest_rss_catalog_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/02_classification/article_x/results/guest_rss_catalog.json",
+  "out_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items",
+  "count": 32,
+  "schema_errors": 0,
+  "results": [
+    {
+      "source_id": "x-alchainhust-283d19d226db",
+      "canonical_url": "https://x.com/AlchainHust/status/2033584179351547952",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-alchainhust-283d19d226db/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-alchainhust-283d19d226db/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-alchainhust-6e2091c4bb69",
+      "canonical_url": "https://x.com/AlchainHust/status/2033573236240466178",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-alchainhust-6e2091c4bb69/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-alchainhust-6e2091c4bb69/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-alphasignalai-ae59fceea21e",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034444149638734034",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-alphasignalai-ae59fceea21e/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-alphasignalai-ae59fceea21e/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-alphasignalai-32fc36393e26",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034413681916936671",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-alphasignalai-32fc36393e26/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-alphasignalai-32fc36393e26/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-astronaut_1216-42b15184de53",
+      "canonical_url": "https://x.com/Astronaut_1216/status/2034284187520258112",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-astronaut_1216-42b15184de53/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-astronaut_1216-42b15184de53/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-astronaut_1216-5ea0a376015a",
+      "canonical_url": "https://x.com/Astronaut_1216/status/2034141325679874548",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-astronaut_1216-5ea0a376015a/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-astronaut_1216-5ea0a376015a/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-balconychy-1654a6889b56",
+      "canonical_url": "https://x.com/balconychy/status/2032227730235015287",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-balconychy-1654a6889b56/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-balconychy-1654a6889b56/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-bentossell-b94bb38bcda4",
+      "canonical_url": "https://x.com/bentossell/status/2033928328936104170",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-bentossell-b94bb38bcda4/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-bentossell-b94bb38bcda4/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-chuhaiqu-d3ca80c45895",
+      "canonical_url": "https://x.com/chuhaiqu/status/2034416569590386966",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-chuhaiqu-d3ca80c45895/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-chuhaiqu-d3ca80c45895/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-chuhaiqu-978b8c1203e1",
+      "canonical_url": "https://x.com/chuhaiqu/status/2034229910043001141",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-chuhaiqu-978b8c1203e1/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-chuhaiqu-978b8c1203e1/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-danshipper-cb469691ed33",
+      "canonical_url": "https://x.com/danshipper/status/2034332104188727759",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-danshipper-cb469691ed33/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-danshipper-cb469691ed33/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-dotey-c03168af9a7d",
+      "canonical_url": "https://x.com/dotey/status/2034432242307502172",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-dotey-c03168af9a7d/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-dotey-c03168af9a7d/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-fkysly-5b340e56a325",
+      "canonical_url": "https://x.com/fkysly/status/2034098864966508586",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-fkysly-5b340e56a325/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-fkysly-5b340e56a325/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-gefei55-2f75eb47a3b9",
+      "canonical_url": "https://x.com/gefei55/status/2034451658894360898",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-gefei55-2f75eb47a3b9/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-gefei55-2f75eb47a3b9/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-gorden_sun-4d1bb97e37f3",
+      "canonical_url": "https://x.com/Gorden_Sun/status/2034269013275210149",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-gorden_sun-4d1bb97e37f3/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-gorden_sun-4d1bb97e37f3/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-hitw93-7f81d45022ab",
+      "canonical_url": "https://x.com/HiTw93/status/2034416560069087637",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-hitw93-7f81d45022ab/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-hitw93-7f81d45022ab/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-hitw93-e9d0c7cfc248",
+      "canonical_url": "https://x.com/HiTw93/status/2033911478466843115",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-hitw93-e9d0c7cfc248/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-hitw93-e9d0c7cfc248/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-icreatelife-2c40cacbe1b4",
+      "canonical_url": "https://x.com/icreatelife/status/2034059734211338720",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-icreatelife-2c40cacbe1b4/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-icreatelife-2c40cacbe1b4/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-iscienceluvr-a7a6fda0ba46",
+      "canonical_url": "https://x.com/iScienceLuvr/status/2034425586677067794",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-iscienceluvr-a7a6fda0ba46/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-iscienceluvr-a7a6fda0ba46/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-latentspacepod-e97939cef1c0",
+      "canonical_url": "https://x.com/latentspacepod/status/2034523084808438216",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-latentspacepod-e97939cef1c0/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-latentspacepod-e97939cef1c0/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-lxfater-9b7215c04d9e",
+      "canonical_url": "https://x.com/lxfater/status/2034509552004309152",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lxfater-9b7215c04d9e/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lxfater-9b7215c04d9e/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-lxfater-c43921f23e16",
+      "canonical_url": "https://x.com/lxfater/status/2034215423617704370",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lxfater-c43921f23e16/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lxfater-c43921f23e16/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-lyc_zh-2ffb7cd354b3",
+      "canonical_url": "https://x.com/lyc_zh/status/2034087654317559894",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lyc_zh-2ffb7cd354b3/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lyc_zh-2ffb7cd354b3/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-lyc_zh-b47c74c3b336",
+      "canonical_url": "https://x.com/lyc_zh/status/2034042604267188307",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lyc_zh-b47c74c3b336/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lyc_zh-b47c74c3b336/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-lyc_zh-41ebd2ad41bf",
+      "canonical_url": "https://x.com/lyc_zh/status/2033997061256056955",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lyc_zh-41ebd2ad41bf/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-lyc_zh-41ebd2ad41bf/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-op7418-a20aa8c443d2",
+      "canonical_url": "https://x.com/op7418/status/2034082485798314489",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-op7418-a20aa8c443d2/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-op7418-a20aa8c443d2/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-pmbackttfuture-7aeb4dbfcdde",
+      "canonical_url": "https://x.com/PMbackttfuture/status/2033792268335817177",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-pmbackttfuture-7aeb4dbfcdde/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-pmbackttfuture-7aeb4dbfcdde/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-pmbackttfuture-49bd7cc41d75",
+      "canonical_url": "https://x.com/PMbackttfuture/status/2033389708974436482",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-pmbackttfuture-49bd7cc41d75/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-pmbackttfuture-49bd7cc41d75/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-pmbackttfuture-1ac13a3c1e70",
+      "canonical_url": "https://x.com/PMbackttfuture/status/2033365853140595122",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-pmbackttfuture-1ac13a3c1e70/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-pmbackttfuture-1ac13a3c1e70/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-rlancemartin-24293152933c",
+      "canonical_url": "https://x.com/RLanceMartin/status/2032513255986573629",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-rlancemartin-24293152933c/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-rlancemartin-24293152933c/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-rlancemartin-6f12337a4818",
+      "canonical_url": "https://x.com/RLanceMartin/status/2032510338336436647",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-rlancemartin-6f12337a4818/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-rlancemartin-6f12337a4818/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-vista8-68660bdd28e5",
+      "canonical_url": "https://x.com/vista8/status/2034476800420757858",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-vista8-68660bdd28e5/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-vista8-68660bdd28e5/source_item.md",
+      "linked_context_count": 0
+    }
+  ]
+}

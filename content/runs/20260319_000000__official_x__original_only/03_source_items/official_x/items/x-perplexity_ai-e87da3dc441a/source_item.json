@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-perplexity_ai-e87da3dc441a",
+  "fetched_at": "2026-03-19T05:55:26Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/perplexity_ai/status/2033562296077963773",
+  "author": {
+    "handle": "@perplexity_ai",
+    "display_name": "Perplexity",
+    "account_url": "https://x.com/perplexity_ai"
+  },
+  "title": "Computer is now on Android.",
+  "language": "unknown",
+  "published_at": "2026-03-16T15:13:27Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/perplexity_ai/status/2033562296077963773",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/perplexity_ai/status/2033562296077963773#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Computer is now on Android. Video Perplexity (@perplexity_ai) Perplexity Computer is now on mobile. Start any task on any device. Manage Computer from your phone or desktop with cross-device synchronization. Available now for iOS in the Perplexity app. Coming soon to Android. Video — https://nitter.net/perplexity_ai/status/2032494752642568417#m",
+    "full_text": "Post title: Computer is now on Android.\n\nPost summary: Computer is now on Android. Video Perplexity (@perplexity_ai) Perplexity Computer is now on mobile. Start any task on any device. Manage Computer from your phone or desktop with cross-device synchronization. Available now for iOS in the Perplexity app. Coming soon to Android. Video — https://nitter.net/perplexity_ai/status/2032494752642568417#m\n\nCanonical URL: https://x.com/perplexity_ai/status/2033562296077963773",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Computer",
+      "Android",
+      "Video Perplexity",
+      "Perplexity Computer",
+      "Start",
+      "Manage Computer",
+      "Available",
+      "Perplexity",
+      "Coming",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Computer is now on Android.",
+      "Computer is now on Android. Video Perplexity (@perplexity_ai) Perplexity Computer is now on mobile. Start any task on any device. Manage Computer from your phone or desktop with cross-device synchronization. Available now for iOS in the Perplexity app. Coming soon to Android. Video — https://nitter.net/perplexity_ai/status/2032494752642568417#m",
+      "Computer",
+      "Android",
+      "Video Perplexity",
+      "Perplexity Computer",
+      "Start",
+      "Manage Computer",
+      "Available",
+      "Perplexity",
+      "Coming",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

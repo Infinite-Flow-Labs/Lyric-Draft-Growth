@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-runwayml-b1d0ffbc8ad0",
+  "fetched_at": "2026-03-19T10:41:04Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/runwayml/status/2033912901040271672",
+  "author": {
+    "handle": "@runwayml",
+    "display_name": "Runway",
+    "account_url": "https://x.com/runwayml"
+  },
+  "title": "Hear from industry leaders across companies like NVIDIA, EA, Lucasfilm and Adobe at the Runway AI Summit on March 31st in New York. Tickets are available now at the link below.",
+  "language": "unknown",
+  "published_at": "2026-03-17T14:26:38Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/runwayml/status/2033912901040271672",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/runwayml/status/2033912901040271672#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Hear from industry leaders across companies like NVIDIA, EA, Lucasfilm and Adobe at the Runway AI Summit on March 31st in New York. Tickets are available now at the link below. Video",
+    "full_text": "Post title: Hear from industry leaders across companies like NVIDIA, EA, Lucasfilm and Adobe at the Runway AI Summit on March 31st in New York. Tickets are available now at the link below.\n\nPost summary: Hear from industry leaders across companies like NVIDIA, EA, Lucasfilm and Adobe at the Runway AI Summit on March 31st in New York. Tickets are available now at the link below. Video\n\nCanonical URL: https://x.com/runwayml/status/2033912901040271672",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Hear",
+      "NVIDIA",
+      "EA",
+      "Lucasfilm",
+      "Adobe",
+      "Runway AI Summit",
+      "March",
+      "New York. Tickets",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Hear from industry leaders across companies like NVIDIA, EA, Lucasfilm and Adobe at the Runway AI Summit on March 31st in New York. Tickets are available now at the link below.",
+      "Hear from industry leaders across companies like NVIDIA, EA, Lucasfilm and Adobe at the Runway AI Summit on March 31st in New York. Tickets are available now at the link below. Video",
+      "Hear",
+      "NVIDIA",
+      "EA",
+      "Lucasfilm",
+      "Adobe",
+      "Runway AI Summit",
+      "March",
+      "New York. Tickets",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

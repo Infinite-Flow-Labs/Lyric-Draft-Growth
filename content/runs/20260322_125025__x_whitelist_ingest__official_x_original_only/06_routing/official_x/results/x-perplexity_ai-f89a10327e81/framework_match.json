@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/03_source_items/official_x/items/x-perplexity_ai-f89a10327e81/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "02_launch_application",
+      "06_checklist_template",
+      "05_ab_benchmark"
+    ],
+    "why_these_candidates": [
+      "02_launch_application: score=7 because task_hint=release, signal_hit=introducing, body_hit=update, release_signals=introducing,now available",
+      "06_checklist_template: score=6 because task_hint=workflow, signal_hit=workflow, execution_path_hint, sectioned_source",
+      "05_ab_benchmark: score=5 because task_hint=comparison, body_hit=compare, signal_hit=comparison"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "gpt-5.4",
+    "evaluated_at": "2026-03-22T12:54:21Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "medium",
+      "rationale": "The source is a release-triggered announcement with a clear entry link and immediate try-it action. It does not provide onboarding steps, architecture, or true comparison logic, so launch_application is the closest fit. Within that framework, release_showcase fits better than feature_playbook because the payoff is quick value signaling and download/try entry, not detailed usage boundaries or adoption mechanics.",
+      "triggered_routing_signals": [
+        "explicit release language",
+        "clear resource/app entry link",
+        "call to immediate adoption action",
+        "showcase-style announcement rather than tutorial"
+      ],
+      "supporting_source_quotes": [
+        "\"Comet is now available for iOS\"",
+        "\"Download on the App Store\"",
+        "\"Comet - AI Browser & Assistant\""
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986"
+      ],
+      "ambiguity_notes": [
+        "Fit is not perfect because the post is very short and lacks real adoption guidance.",
+        "Not suitable for checklist_template because there is no execution path or step-by-step setup.",
+        "Not suitable for ab_benchmark because no competing options or comparison lens appear."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "low",
+        "rationale": "A weaker same-framework option if the linked App Store page is treated as lightweight feature context, but the source itself does not explain use cases, boundaries, or best practices.",
+        "triggered_routing_signals": [
+          "new capability release",
+          "product naming present"
+        ],
+        "supporting_source_quotes": [
+          "\"now available for iOS\"",
+          "\"AI Browser & Assistant\""
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "Rejected because the source lacks concept clarification and how-to-use guidance."
+        ]
+      },
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "guided_onboarding",
+        "confidence": "low",
+        "rationale": "Could compete only if one overweights the app-download action as onboarding, but there are no steps, requirements, or pitfalls, so the fit is weak.",
+        "triggered_routing_signals": [
+          "download/install entry point"
+        ],
+        "supporting_source_quotes": [
+          "\"Download on the App Store\""
+        ],
+        "matched_sample_ids": [
+          "2029894874888278198"
+        ],
+        "ambiguity_notes": [
+          "Rejected because the source is a release announcement, not a follow-along setup guide."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "gpt-5.4",
+    "evaluated_at": "2026-03-22T12:54:32Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "Borderline fit: the source is extremely thin and partly resembles a bare announcement, which the framework warns can be too close to a newsy/product-promo post.",
+      "`release_showcase` is only defensible because there is a direct try/download entry and the object is a tool/app release; there is still little actual value demonstration beyond availability."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "medium",
+    "rationale": "The source is a release-triggered announcement with a clear entry link and immediate try-it action. It does not provide onboarding steps, architecture, or true comparison logic, so launch_application is the closest fit. Within that framework, release_showcase fits better than feature_playbook because the payoff is quick value signaling and download/try entry, not detailed usage boundaries or adoption mechanics.",
+    "matched_sample_ids": [
+      "2033848539332415986"
+    ],
+    "requires_human_review": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-20T09:20:16Z",
+  "source_item_root": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/03_source_items/article_x/items",
+  "framework_specs_dir": "/home/lyric/growth-engine-pipeline/framework",
+  "count": 8,
+  "results": [
+    {
+      "source_id": "x-alphasignalai-02f909ad9d74",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-02f909ad9d74/prefilter_result.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-02f909ad9d74/prefilter_result.md",
+      "candidate_framework_ids": []
+    },
+    {
+      "source_id": "x-alphasignalai-25aab6235b30",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-25aab6235b30/prefilter_result.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-25aab6235b30/prefilter_result.md",
+      "candidate_framework_ids": []
+    },
+    {
+      "source_id": "x-alphasignalai-32fc36393e26",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-32fc36393e26/prefilter_result.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-32fc36393e26/prefilter_result.md",
+      "candidate_framework_ids": []
+    },
+    {
+      "source_id": "x-alphasignalai-754cfa16383e",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-754cfa16383e/prefilter_result.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-754cfa16383e/prefilter_result.md",
+      "candidate_framework_ids": []
+    },
+    {
+      "source_id": "x-alphasignalai-e019a7a84f1b",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-e019a7a84f1b/prefilter_result.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-alphasignalai-e019a7a84f1b/prefilter_result.md",
+      "candidate_framework_ids": []
+    },
+    {
+      "source_id": "x-gorden_sun-4d1bb97e37f3",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-gorden_sun-4d1bb97e37f3/prefilter_result.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-gorden_sun-4d1bb97e37f3/prefilter_result.md",
+      "candidate_framework_ids": []
+    },
+    {
+      "source_id": "x-gorden_sun-e5b331653544",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-gorden_sun-e5b331653544/prefilter_result.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-gorden_sun-e5b331653544/prefilter_result.md",
+      "candidate_framework_ids": []
+    },
+    {
+      "source_id": "x-op7418-a20aa8c443d2",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-op7418-a20aa8c443d2/prefilter_result.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/05_prefilter/article_x/results/x-op7418-a20aa8c443d2/prefilter_result.md",
+      "candidate_framework_ids": [
+        "02_launch_application"
+      ]
+    }
+  ]
+}

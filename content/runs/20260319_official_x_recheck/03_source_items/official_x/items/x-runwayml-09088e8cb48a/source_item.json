@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-runwayml-09088e8cb48a",
+  "fetched_at": "2026-03-19T10:32:27Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/runwayml/status/2032094354123149588",
+  "author": {
+    "handle": "@runwayml",
+    "display_name": "Runway",
+    "account_url": "https://x.com/runwayml"
+  },
+  "title": "Earlier this week, we launched Runway Characters which represents a new type of real-time interaction with AI. These kinds of immersive simulated experiences are going to reshape the way we experience and engage with the internet. Building a technology this powerful means grappling with how it might be misused. Learn more at the link below about how we're building responsibly towards this new internet.",
+  "language": "unknown",
+  "published_at": "2026-03-12T14:00:23Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/runwayml/status/2032094354123149588",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/runwayml/status/2032094354123149588#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Earlier this week, we launched Runway Characters which represents a new type of real-time interaction with AI. These kinds of immersive simulated experiences are going to reshape the way we experience and engage with the internet. Building a technology this powerful means grappling with how it might be misused. Learn more at the link below about how we're building responsibly towards this new internet.",
+    "full_text": "Post title: Earlier this week, we launched Runway Characters which represents a new type of real-time interaction with AI. These kinds of immersive simulated experiences are going to reshape the way we experience and engage with the internet. Building a technology this powerful means grappling with how it might be misused. Learn more at the link below about how we're building responsibly towards this new internet.\n\nPost summary: Earlier this week, we launched Runway Characters which represents a new type of real-time interaction with AI. These kinds of immersive simulated experiences are going to reshape the way we experience and engage with the internet. Building a technology this powerful means grappling with how it might be misused. Learn more at the link below about how we're building responsibly towards this new internet.\n\nCanonical URL: https://x.com/runwayml/status/2032094354123149588",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch",
+      "launched"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Earlier",
+      "Runway Characters",
+      "AI",
+      "These",
+      "Building",
+      "Learn",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Earlier this week, we launched Runway Characters which represents a new type of real-time interaction with AI. These kinds of immersive simulated experiences are going to reshape the way we experience and engage with the internet. Building a technology this powerful means grappling with how it might be misused. Learn more at the link below about how we're building responsibly towards this new internet.",
+      "launch",
+      "launched",
+      "Earlier",
+      "Runway Characters",
+      "AI",
+      "These",
+      "Building",
+      "Learn",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

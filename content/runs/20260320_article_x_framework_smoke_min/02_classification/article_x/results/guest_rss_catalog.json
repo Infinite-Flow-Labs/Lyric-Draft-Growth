@@ -1,0 +1,381 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-03-20T09:19:42Z",
+  "source_catalog_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_min/01_discovery/x_whitelist_ingest/catalog/guest_rss_catalog.json",
+  "article_patterns": [
+    "/article/",
+    "/articles/",
+    "x.com/i/articles/",
+    "substack.com",
+    "beehiiv.com",
+    "medium.com",
+    "/blog/",
+    "/news/",
+    "newsletter"
+  ],
+  "stats": {
+    "input_post_count": 43,
+    "article_like_post_count": 8,
+    "handle_count": 3
+  },
+  "handles": [
+    {
+      "handle": "AlphaSignalAI",
+      "post_count": 5,
+      "posts": [
+        {
+          "source_id": "x-alphasignalai-02f909ad9d74",
+          "source_family": "benchmark_x_account",
+          "source_type": "x_post_metadata",
+          "discovery_channel": "nitter_rss_guest",
+          "author": "AlphaSignalAI",
+          "origin_url": "https://nitter.net/AlphaSignalAI/status/2034647427609751913#m",
+          "published_at": "2026-03-19T15:05:23Z",
+          "title": "x.com/i/article/203414257168…",
+          "summary": "x.com/i/article/203414257168…",
+          "fulltext_path": "",
+          "language": "unknown",
+          "eligibility": "trigger_until_fulltext",
+          "fetch_status": "discovered",
+          "account_handle": "AlphaSignalAI",
+          "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+          "post_kind": "original",
+          "article_signals": [
+            "pattern:/article/"
+          ]
+        },
+        {
+          "source_id": "x-alphasignalai-32fc36393e26",
+          "source_family": "benchmark_x_account",
+          "source_type": "x_post_metadata",
+          "discovery_channel": "nitter_rss_guest",
+          "author": "AlphaSignalAI",
+          "origin_url": "https://nitter.net/AlphaSignalAI/status/2034413681916936671#m",
+          "published_at": "2026-03-18T23:36:34Z",
+          "title": "x.com/i/article/203413395081…",
+          "summary": "x.com/i/article/203413395081…",
+          "fulltext_path": "",
+          "language": "unknown",
+          "eligibility": "trigger_until_fulltext",
+          "fetch_status": "discovered",
+          "account_handle": "AlphaSignalAI",
+          "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+          "post_kind": "original",
+          "article_signals": [
+            "pattern:/article/"
+          ]
+        },
+        {
+          "source_id": "x-alphasignalai-e019a7a84f1b",
+          "source_family": "benchmark_x_account",
+          "source_type": "x_post_metadata",
+          "discovery_channel": "nitter_rss_guest",
+          "author": "AlphaSignalAI",
+          "origin_url": "https://nitter.net/AlphaSignalAI/status/2034050171672420428#m",
+          "published_at": "2026-03-17T23:32:06Z",
+          "title": "x.com/i/article/203372084519…",
+          "summary": "x.com/i/article/203372084519…",
+          "fulltext_path": "",
+          "language": "unknown",
+          "eligibility": "trigger_until_fulltext",
+          "fetch_status": "discovered",
+          "account_handle": "AlphaSignalAI",
+          "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+          "post_kind": "original",
+          "article_signals": [
+            "pattern:/article/"
+          ]
+        },
+        {
+          "source_id": "x-alphasignalai-754cfa16383e",
+          "source_family": "benchmark_x_account",
+          "source_type": "x_post_metadata",
+          "discovery_channel": "nitter_rss_guest",
+          "author": "AlphaSignalAI",
+          "origin_url": "https://nitter.net/AlphaSignalAI/status/2033720420441186804#m",
+          "published_at": "2026-03-17T01:41:47Z",
+          "title": "x.com/i/article/203334339888…",
+          "summary": "x.com/i/article/203334339888…",
+          "fulltext_path": "",
+          "language": "unknown",
+          "eligibility": "trigger_until_fulltext",
+          "fetch_status": "discovered",
+          "account_handle": "AlphaSignalAI",
+          "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+          "post_kind": "original",
+          "article_signals": [
+            "pattern:/article/"
+          ]
+        },
+        {
+          "source_id": "x-alphasignalai-25aab6235b30",
+          "source_family": "benchmark_x_account",
+          "source_type": "x_post_metadata",
+          "discovery_channel": "nitter_rss_guest",
+          "author": "AlphaSignalAI",
+          "origin_url": "https://nitter.net/AlphaSignalAI/status/2032472074489614626#m",
+          "published_at": "2026-03-13T15:01:18Z",
+          "title": "x.com/i/article/203228070901…",
+          "summary": "x.com/i/article/203228070901…",
+          "fulltext_path": "",
+          "language": "unknown",
+          "eligibility": "trigger_until_fulltext",
+          "fetch_status": "discovered",
+          "account_handle": "AlphaSignalAI",
+          "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+          "post_kind": "original",
+          "article_signals": [
+            "pattern:/article/"
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Gorden_Sun",
+      "post_count": 2,
+      "posts": [
+        {
+          "source_id": "x-gorden_sun-4d1bb97e37f3",
+          "source_family": "benchmark_x_account",
+          "source_type": "x_post_metadata",
+          "discovery_channel": "nitter_rss_guest",
+          "author": "Gorden_Sun",
+          "origin_url": "https://nitter.net/Gorden_Sun/status/2034269013275210149#m",
+          "published_at": "2026-03-18T14:01:42Z",
+          "title": "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客：https://goombalab.github.io/blog/2026/mamba3-part1/",
+          "summary": "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客： goombalab.github.io/blog/202…",
+          "fulltext_path": "",
+          "language": "unknown",
+          "eligibility": "trigger_until_fulltext",
+          "fetch_status": "discovered",
+          "account_handle": "Gorden_Sun",
+          "feed_url": "https://nitter.net/Gorden_Sun/rss",
+          "post_kind": "original",
+          "article_signals": [
+            "pattern:/blog/",
+            "url:https://goombalab.github.io/blog/2026/mamba3-part1/"
+          ]
+        },
+        {
+          "source_id": "x-gorden_sun-e5b331653544",
+          "source_family": "benchmark_x_account",
+          "source_type": "x_post_metadata",
+          "discovery_channel": "nitter_rss_guest",
+          "author": "Gorden_Sun",
+          "origin_url": "https://nitter.net/Gorden_Sun/status/2034091257899978833#m",
+          "published_at": "2026-03-18T02:15:22Z",
+          "title": "Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑",
+          "summary": "Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m",
+          "fulltext_path": "",
+          "language": "unknown",
+          "eligibility": "trigger_until_fulltext",
+          "fetch_status": "discovered",
+          "account_handle": "Gorden_Sun",
+          "feed_url": "https://nitter.net/Gorden_Sun/rss",
+          "post_kind": "original",
+          "article_signals": [
+            "pattern:/article/"
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "op7418",
+      "post_count": 1,
+      "posts": [
+        {
+          "source_id": "x-op7418-a20aa8c443d2",
+          "source_family": "benchmark_x_account",
+          "source_type": "x_post_metadata",
+          "discovery_channel": "nitter_rss_guest",
+          "author": "op7418",
+          "origin_url": "https://nitter.net/op7418/status/2034082485798314489#m",
+          "published_at": "2026-03-18T01:40:30Z",
+          "title": "Claude Code 创建者写的如何使用和创建 Skills 如果你还不了解的话，强烈推荐看看！ Anthropic 内部现在有数百个 Skills 在用，从 API 文档到部署流程全覆盖。他们把这些经验总结出来了。 做个笔记📒： ====== Skills 不只是 Markdown 文件 很多人以为 Skills 就是写个 Markdown 文档，其实不是。Skills 是一个文件夹，里面可以放脚本、资源文件、数据，甚至注册钩子函数。 代理可以发现这些内容，读取它们，执行脚本，在特定时机触发钩子。这才是 Skills 最有意思的地方。 最好的 Skills 都在创造性地使用这些配置选项和文件夹结构。 ====== 九种 Skills 类型 Anthropic 把内部的 Skills 整理了一遍，发现它们基本归为九类。好的 Skills 能明确归入一类，混乱的 Skills 往往跨了好几类。 ------ 1. 库与 API 参考 解释怎么用某个库、CLI 或 SDK。可以是内部库，也可以是 Claude 经常搞错的常用库。 通常包含一个代码片段文件夹，加上一份\"别踩这些坑\"的清单。 比如： ▸ billing-lib — 你们内部计费库的边界情况和常见坑 ▸ internal-platform-cli — 内部 CLI 的每个子命令和使用场景 ▸ frontend-design — 让 Claude 更懂你们的设计系统 ------ 2. 产品验证 描述怎么测试或验证代码是否正常工作。通常配合 Playwright、tmux 这些工具。 验证 Skills 极其重要，值得让工程师花一周时间专门打磨。 可以让 Claude 录制测试视频，或者在每一步强制执行程序化断言。这些通常通过在 Skill 里放各种脚本实现。 比如： ▸ signup-flow-driver — 在无头浏览器里跑注册流程，每步都有状态断言钩子 ▸ checkout-verifier — 用 Stripe 测试卡驱动结账界面，验证发票状态 ▸ tmux-cli-driver — 测试需要 TTY 的交互式命令行工具 ------ 3. 数据获取与分析 连接你的数据和监控栈。可能包含带凭据的数据获取库、仪表盘 ID、常见工作流说明。 比如： ▸ datadog-metrics — 预设的仪表盘链接和常用查询 ▸ postgres-query-helper — 连接生产数据库的只读凭据和常用查询模板 ▸ user-analytics — 获取用户行为数据的脚本和分析模板 ------ 4. 业务自动化 自动化重复的业务流程。比如创建 Jira ticket、发 Slack 通知、更新文档。 这类 Skills 通常包含调用内部 API 的脚本，加上业务流程的说明。 比如： ▸ incident-reporter — 创建事故报告并通知相关人员 ▸ release-notes-generator — 从 Git 提交生成发布说明 ▸ onboarding-automation — 新员工入职的自动化流程 ------ 5. 代码脚手架 生成项目或组件的初始代码结构。包含模板文件和生成脚本。 比如： ▸ react-component-scaffold — 生成符合团队规范的 React 组件 ▸ api-endpoint-generator — 生成 API 端点的样板代码和测试 ▸ microservice-template — 创建新微服务的完整结构 ------ 6. 代码质量与审查 帮助审查代码质量、安全性、性能。可能包含 linter 配置、审查清单、自动化检查脚本。 比如： ▸ security-review — 安全审查清单和常见漏洞检查 ▸ performance-profiler — 性能分析工具和优化建议 ▸ code-review-checklist — 代码审查的标准流程 ------ 7. CI/CD 与部署 管理持续集成和部署流程。包含部署脚本、环境配置、回滚流程。 比如： ▸ deploy-to-staging — 部署到测试环境的完整流程 ▸ rollback-helper — 快速回滚的脚本和检查清单 ▸ ci-debugger — 调试 CI 失败的常用方法 ------ 8. 运行手册 处理生产环境问题的操作指南。通常是\"如果 X 发生了，做 Y\"的格式。 这类 Skills 在紧急情况下特别有用，因为它们把经验固化成了可执行的步骤。 比如： ▸ database-recovery — 数据库故障恢复流程 ▸ traffic-spike-handler — 流量激增时的应对措施 ▸ memory-leak-debugger — 内存泄漏排查步骤 ------ 9. 基础设施运维 管理云资源、容器、网络配置。包含 Terraform 脚本、Kubernetes 配置、监控设置。 比如： ▸ aws-resource-manager — 管理 AWS 资源的脚本和最佳实践 ▸ k8s-troubleshooter — Kubernetes 常见问题排查 ▸ terraform-helper — Terraform 模块和使用指南 ====== 写好 Skills 的最佳实践 Anthropic 总结了一些实用的技巧，都是从实际使用中提炼出来的。 ------ 写明 Gotchas 把常见错误和陷阱明确列出来。Claude 会认真读这些内容，避免重复犯错。 比如在 API 文档里写：\"注意：这个端点有速率限制，每秒最多 10 次请求。超过会返回 429 错误。\" ------ 利用文件系统做渐进式披露 不要把所有信息都塞在一个 Markdown 文件里。用文件夹结构组织内容，让 Claude 按需探索。 比如： ``` my-skill/ README.md # 概览和快速开始 examples/ # 代码示例 scripts/ # 辅助脚本 reference/ # 详细文档 gotchas.md # 常见陷阱 ``` Claude 会先读 README，需要时再深入其他文件。 ------ 存脚本和辅助库 把可复用的脚本放在 Skill 里，而不是让 Claude 每次都重写。 这些脚本可以是 Python、Bash、Node.js，任何能执行的东西。Claude 可以直接调用它们，或者读取代码学习怎么用。 ------ 使用稳定存储做记忆 Skills 可以访问 `${CLAUDE_PLUGIN_DATA}` 目录，这是一个持久化存储位置。 可以用来保存： ▸ 上次运行的状态 ▸ 用户偏好设置 ▸ 缓存的数据 ▸ 历史记录 这样 Skill 就有了\"记忆\"，可以在多次会话间保持状态。 ------ 按需钩子保护危险操作 对于可能造成破坏的操作（删除数据、部署到生产环境），使用按需钩子（on-demand hooks）。 这会在执行前弹出确认提示，让用户明确批准。 比如在 Skill 的 frontmatter 里配置： ```yaml hooks: on_demand: - name: deploy-to-prod command: ./scripts/deploy.sh production confirm: \"确定要部署到生产环境吗？\" ``` ------ 用 PreToolUse 做度量 可以注册 PreToolUse 钩子来记录 Skill 的使用情况。 这样能知道哪些 Skills 最常用，哪些需要改进，哪些可以下线。 ====== 分发 Skills Skills 的一大优势是可以跟团队共享。有两种方式： ------ 签入代码仓库 把 Skills 放在 `./.claude/skills` 目录下，跟代码一起提交。 适合小团队，在少数几个仓库间协作。但每个签入的 Skill 都会占用模型的上下文，所以不能无限增加。 ------ 插件市场 创建一个内部插件市场，让用户上传和安装插件。 适合大团队。用户可以选择安装哪些 Skills，不会污染所有人的上下文。 Anthropic 没有集中式团队管理市场，而是有机地发现有用的 Skills。如果你有个好 Skill，上传到 GitHub 的沙箱文件夹，在 Slack 里分享链接。 如果很多人觉得有用，就会被推广到正式市场。 ====== 管理市场的实用建议 ------ 设置沙箱区域 在市场里创建一个\"实验性\"或\"社区贡献\"区域，让人们可以自由上传。 好的 Skills 会自然浮现，然后可以移到\"官方推荐\"区域。 ------ 鼓励文档和示例 要求每个 Skill 都有清晰的 README 和使用示例。 没有文档的 Skills 很难被采用，即使功能很好。 ------ 定期清理 定期检查哪些 Skills 没人用，考虑下线或合并。 市场里 Skills 太多会让人不知道选哪个，保持精简很重要。 ------ 收集反馈 提供简单的方式让用户反馈 Skills 的问题和改进建议。 可以是 GitHub Issues，也可以是 Slack 频道。 ====== 实际案例 Anthropic 分享了几个他们内部最受欢迎的 Skills： ------ commit-helper 帮助写符合团队规范的 Git 提交信息。 包含提交信息模板、常见类型（feat/fix/docs）的说明、以及检查提交信息格式的脚本。 使用频率极高，因为每个人每天都要提交代码。 ------ pr-reviewer 自动化代码审查流程。 会检查代码风格、测试覆盖率、安全问题，生成审查评论。 节省了大量人工审查时间，让审查者可以专注于逻辑和架构问题。 ------ incident-response 生产环境事故响应流程。 包含排查清单、常用命令、通知模板、事后总结模板。 在紧急情况下特别有用，因为它把经验固化成了清晰的步骤。 ------ api-docs 内部 API 的完整文档和使用示例。 Claude 经常需要调用内部 API，有了这个 Skill 就不用每次都查文档或问人。 ------ test-runner 运行测试的标准流程。 包含不同类型测试（单元测试、集成测试、端到端测试）的运行方法，以及如何解读测试结果。 ====== Skills 的未来 Anthropic 认为 Skills 会朝几个方向发展： ------ 更智能的发现机制 现在 Claude 需要用户明确调用 Skill，未来可能会自动识别场景并推荐相关 Skills。 比如你在写 API 调用代码，Claude 自动建议使用 api-docs Skill。 ------ Skills 之间的组合 现在 Skills 基本是独立的，未来可能会支持 Skills 之间的依赖和组合。 比如 deploy-to-prod Skill 可以自动调用 test-runner 和 security-review Skills。 ------ 动态生成 Skills 根据代码仓库的实际情况，自动生成或更新 Skills。 比如扫描代码库，自动生成 API 文档 Skill。 ------ 跨团队共享 建立公开的 Skills 市场，让不同公司的团队可以共享通用的 Skills。 比如常用框架（React、Django）的最佳实践 Skills。 ====== 核心理念 Skills 的本质是把团队的工程实践和领域知识固化成可复用的扩展。 好的 Skills 应该： ▸ 解决真实的重复性问题 ▸ 包含清晰的文档和示例 ▸ 利用文件夹结构和脚本增强能力 ▸ 在需要时提供保护机制 ▸ 容易分发和维护 不要为了做 Skill 而做 Skill。从团队的实际痛点出发，把那些每次都要重复的事情固化下来。 一个好的 Skill 能让整个团队的 AI 编程体验提升一个档次。",
+          "summary": "Claude Code 创建者写的如何使用和创建 Skills 如果你还不了解的话，强烈推荐看看！ Anthropic 内部现在有数百个 Skills 在用，从 API 文档到部署流程全覆盖。他们把这些经验总结出来了。 做个笔记📒： ====== Skills 不只是 Markdown 文件 很多人以为 Skills 就是写个 Markdown 文档，其实不是。Skills 是一个文件夹，里面可以放脚本、资源文件、数据，甚至注册钩子函数。 代理可以发现这些内容，读取它们，执行脚本，在特定时机触发钩子。这才是 Skills 最有意思的地方。 最好的 Skills 都在创造性地使用这些配置选项和文件夹结构。 ====== 九种 Skills 类型 Anthropic 把内部的 Skills 整理了一遍，发现它们基本归为九类。好的 Skills 能明确归入一类，混乱的 Skills 往往跨了好几类。 ------ 1. 库与 API 参考 解释怎么用某个库、CLI 或 SDK。可以是内部库，也可以是 Claude 经常搞错的常用库。 通常包含一个代码片段文件夹，加上一份\"别踩这些坑\"的清单。 比如： ▸ billing-lib — 你们内部计费库的边界情况和常见坑 ▸ internal-platform-cli — 内部 CLI 的每个子命令和使用场景 ▸ frontend-design — 让 Claude 更懂你们的设计系统 ------ 2. 产品验证 描述怎么测试或验证代码是否正常工作。通常配合 Playwright、tmux 这些工具。 验证 Skills 极其重要，值得让工程师花一周时间专门打磨。 可以让 Claude 录制测试视频，或者在每一步强制执行程序化断言。这些通常通过在 Skill 里放各种脚本实现。 比如： ▸ signup-flow-driver — 在无头浏览器里跑注册流程，每步都有状态断言钩子 ▸ checkout-verifier — 用 Stripe 测试卡驱动结账界面，验证发票状态 ▸ tmux-cli-driver — 测试需要 TTY 的交互式命令行工具 ------ 3. 数据获取与分析 连接你的数据和监控栈。可能包含带凭据的数据获取库、仪表盘 ID、常见工作流说明。 比如： ▸ datadog-metrics — 预设的仪表盘链接和常用查询 ▸ postgres-query-helper — 连接生产数据库的只读凭据和常用查询模板 ▸ user-analytics — 获取用户行为数据的脚本和分析模板 ------ 4. 业务自动化 自动化重复的业务流程。比如创建 Jira ticket、发 Slack 通知、更新文档。 这类 Skills 通常包含调用内部 API 的脚本，加上业务流程的说明。 比如： ▸ incident-reporter — 创建事故报告并通知相关人员 ▸ release-notes-generator — 从 Git 提交生成发布说明 ▸ onboarding-automation — 新员工入职的自动化流程 ------ 5. 代码脚手架 生成项目或组件的初始代码结构。包含模板文件和生成脚本。 比如： ▸ react-component-scaffold — 生成符合团队规范的 React 组件 ▸ api-endpoint-generator — 生成 API 端点的样板代码和测试 ▸ microservice-template — 创建新微服务的完整结构 ------ 6. 代码质量与审查 帮助审查代码质量、安全性、性能。可能包含 linter 配置、审查清单、自动化检查脚本。 比如： ▸ security-review — 安全审查清单和常见漏洞检查 ▸ performance-profiler — 性能分析工具和优化建议 ▸ code-review-checklist — 代码审查的标准流程 ------ 7. CI/CD 与部署 管理持续集成和部署流程。包含部署脚本、环境配置、回滚流程。 比如： ▸ deploy-to-staging — 部署到测试环境的完整流程 ▸ rollback-helper — 快速回滚的脚本和检查清单 ▸ ci-debugger — 调试 CI 失败的常用方法 ------ 8. 运行手册 处理生产环境问题的操作指南。通常是\"如果 X 发生了，做 Y\"的格式。 这类 Skills 在紧急情况下特别有用，因为它们把经验固化成了可执行的步骤。 比如： ▸ database-recovery — 数据库故障恢复流程 ▸ traffic-spike-handler — 流量激增时的应对措施 ▸ memory-leak-debugger — 内存泄漏排查步骤 ------ 9. 基础设施运维 管理云资源、容器、网络配置。包含 Terraform 脚本、Kubernetes 配置、监控设置。 比如： ▸ aws-resource-manager — 管理 AWS 资源的脚本和最佳实践 ▸ k8s-troubleshooter — Kubernetes 常见问题排查 ▸ terraform-helper — Terraform 模块和使用指南 ====== 写好 Skills 的最佳实践 Anthropic 总结了一些实用的技巧，都是从实际使用中提炼出来的。 ------ 写明 Gotchas 把常见错误和陷阱明确列出来。Claude 会认真读这些内容，避免重复犯错。 比如在 API 文档里写：\"注意：这个端点有速率限制，每秒最多 10 次请求。超过会返回 429 错误。\" ------ 利用文件系统做渐进式披露 不要把所有信息都塞在一个 Markdown 文件里。用文件夹结构组织内容，让 Claude 按需探索。 比如： ``` my-skill/ README.md # 概览和快速开始 examples/ # 代码示例 scripts/ # 辅助脚本 reference/ # 详细文档 gotchas.md # 常见陷阱 ``` Claude 会先读 README，需要时再深入其他文件。 ------ 存脚本和辅助库 把可复用的脚本放在 Skill 里，而不是让 Claude 每次都重写。 这些脚本可以是 Python、Bash、Node.js，任何能执行的东西。Claude 可以直接调用它们，或者读取代码学习怎么用。 ------ 使用稳定存储做记忆 Skills 可以访问 `${CLAUDE_PLUGIN_DATA}` 目录，这是一个持久化存储位置。 可以用来保存： ▸ 上次运行的状态 ▸ 用户偏好设置 ▸ 缓存的数据 ▸ 历史记录 这样 Skill 就有了\"记忆\"，可以在多次会话间保持状态。 ------ 按需钩子保护危险操作 对于可能造成破坏的操作（删除数据、部署到生产环境），使用按需钩子（on-demand hooks）。 这会在执行前弹出确认提示，让用户明确批准。 比如在 Skill 的 frontmatter 里配置： ```yaml hooks: on_demand: - name: deploy-to-prod command: ./scripts/deploy.sh production confirm: \"确定要部署到生产环境吗？\" ``` ------ 用 PreToolUse 做度量 可以注册 PreToolUse 钩子来记录 Skill 的使用情况。 这样能知道哪些 Skills 最常用，哪些需要改进，哪些可以下线。 ====== 分发 Skills Skills 的一大优势是可以跟团队共享。有两种方式： ------ 签入代码仓库 把 Skills 放在 `./.claude/skills` 目录下，跟代码一起提交。 适合小团队，在少数几个仓库间协作。但每个签入的 Skill 都会占用模型的上下文，所以不能无限增加。 ------ 插件市场 创建一个内部插件市场，让用户上传和安装插件。 适合大团队。用户可以选择安装哪些 Skills，不会污染所有人的上下文。 Anthropic 没有集中式团队管理市场，而是有机地发现有用的 Skills。如果你有个好 Skill，上传到 GitHub 的沙箱文件夹，在 Slack 里分享链接。 如果很多人觉得有用，就会被推广到正式市场。 ====== 管理市场的实用建议 ------ 设置沙箱区域 在市场里创建一个\"实验性\"或\"社区贡献\"区域，让人们可以自由上传。 好的 Skills 会自然浮现，然后可以移到\"官方推荐\"区域。 ------ 鼓励文档和示例 要求每个 Skill 都有清晰的 README 和使用示例。 没有文档的 Skills 很难被采用，即使功能很好。 ------ 定期清理 定期检查哪些 Skills 没人用，考虑下线或合并。 市场里 Skills 太多会让人不知道选哪个，保持精简很重要。 ------ 收集反馈 提供简单的方式让用户反馈 Skills 的问题和改进建议。 可以是 GitHub Issues，也可以是 Slack 频道。 ====== 实际案例 Anthropic 分享了几个他们内部最受欢迎的 Skills： ------ commit-helper 帮助写符合团队规范的 Git 提交信息。 包含提交信息模板、常见类型（feat/fix/docs）的说明、以及检查提交信息格式的脚本。 使用频率极高，因为每个人每天都要提交代码。 ------ pr-reviewer 自动化代码审查流程。 会检查代码风格、测试覆盖率、安全问题，生成审查评论。 节省了大量人工审查时间，让审查者可以专注于逻辑和架构问题。 ------ incident-response 生产环境事故响应流程。 包含排查清单、常用命令、通知模板、事后总结模板。 在紧急情况下特别有用，因为它把经验固化成了清晰的步骤。 ------ api-docs 内部 API 的完整文档和使用示例。 Claude 经常需要调用内部 API，有了这个 Skill 就不用每次都查文档或问人。 ------ test-runner 运行测试的标准流程。 包含不同类型测试（单元测试、集成测试、端到端测试）的运行方法，以及如何解读测试结果。 ====== Skills 的未来 Anthropic 认为 Skills 会朝几个方向发展： ------ 更智能的发现机制 现在 Claude 需要用户明确调用 Skill，未来可能会自动识别场景并推荐相关 Skills。 比如你在写 API 调用代码，Claude 自动建议使用 api-docs Skill。 ------ Skills 之间的组合 现在 Skills 基本是独立的，未来可能会支持 Skills 之间的依赖和组合。 比如 deploy-to-prod Skill 可以自动调用 test-runner 和 security-review Skills。 ------ 动态生成 Skills 根据代码仓库的实际情况，自动生成或更新 Skills。 比如扫描代码库，自动生成 API 文档 Skill。 ------ 跨团队共享 建立公开的 Skills 市场，让不同公司的团队可以共享通用的 Skills。 比如常用框架（React、Django）的最佳实践 Skills。 ====== 核心理念 Skills 的本质是把团队的工程实践和领域知识固化成可复用的扩展。 好的 Skills 应该： ▸ 解决真实的重复性问题 ▸ 包含清晰的文档和示例 ▸ 利用文件夹结构和脚本增强能力 ▸ 在需要时提供保护机制 ▸ 容易分发和维护 不要为了做 Skill 而做 Skill。从团队的实际痛点出发，把那些每次都要重复的事情固化下来。 一个好的 Skill 能让整个团队的 AI 编程体验提升一个档次。 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m",
+          "fulltext_path": "",
+          "language": "unknown",
+          "eligibility": "trigger_until_fulltext",
+          "fetch_status": "discovered",
+          "account_handle": "op7418",
+          "feed_url": "https://nitter.net/op7418/rss",
+          "post_kind": "original",
+          "article_signals": [
+            "pattern:/article/"
+          ]
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "source_id": "x-alphasignalai-02f909ad9d74",
+      "source_family": "benchmark_x_account",
+      "source_type": "x_post_metadata",
+      "discovery_channel": "nitter_rss_guest",
+      "author": "AlphaSignalAI",
+      "origin_url": "https://nitter.net/AlphaSignalAI/status/2034647427609751913#m",
+      "published_at": "2026-03-19T15:05:23Z",
+      "title": "x.com/i/article/203414257168…",
+      "summary": "x.com/i/article/203414257168…",
+      "fulltext_path": "",
+      "language": "unknown",
+      "eligibility": "trigger_until_fulltext",
+      "fetch_status": "discovered",
+      "account_handle": "AlphaSignalAI",
+      "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+      "post_kind": "original",
+      "article_signals": [
+        "pattern:/article/"
+      ]
+    },
+    {
+      "source_id": "x-alphasignalai-32fc36393e26",
+      "source_family": "benchmark_x_account",
+      "source_type": "x_post_metadata",
+      "discovery_channel": "nitter_rss_guest",
+      "author": "AlphaSignalAI",
+      "origin_url": "https://nitter.net/AlphaSignalAI/status/2034413681916936671#m",
+      "published_at": "2026-03-18T23:36:34Z",
+      "title": "x.com/i/article/203413395081…",
+      "summary": "x.com/i/article/203413395081…",
+      "fulltext_path": "",
+      "language": "unknown",
+      "eligibility": "trigger_until_fulltext",
+      "fetch_status": "discovered",
+      "account_handle": "AlphaSignalAI",
+      "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+      "post_kind": "original",
+      "article_signals": [
+        "pattern:/article/"
+      ]
+    },
+    {
+      "source_id": "x-alphasignalai-e019a7a84f1b",
+      "source_family": "benchmark_x_account",
+      "source_type": "x_post_metadata",
+      "discovery_channel": "nitter_rss_guest",
+      "author": "AlphaSignalAI",
+      "origin_url": "https://nitter.net/AlphaSignalAI/status/2034050171672420428#m",
+      "published_at": "2026-03-17T23:32:06Z",
+      "title": "x.com/i/article/203372084519…",
+      "summary": "x.com/i/article/203372084519…",
+      "fulltext_path": "",
+      "language": "unknown",
+      "eligibility": "trigger_until_fulltext",
+      "fetch_status": "discovered",
+      "account_handle": "AlphaSignalAI",
+      "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+      "post_kind": "original",
+      "article_signals": [
+        "pattern:/article/"
+      ]
+    },
+    {
+      "source_id": "x-alphasignalai-754cfa16383e",
+      "source_family": "benchmark_x_account",
+      "source_type": "x_post_metadata",
+      "discovery_channel": "nitter_rss_guest",
+      "author": "AlphaSignalAI",
+      "origin_url": "https://nitter.net/AlphaSignalAI/status/2033720420441186804#m",
+      "published_at": "2026-03-17T01:41:47Z",
+      "title": "x.com/i/article/203334339888…",
+      "summary": "x.com/i/article/203334339888…",
+      "fulltext_path": "",
+      "language": "unknown",
+      "eligibility": "trigger_until_fulltext",
+      "fetch_status": "discovered",
+      "account_handle": "AlphaSignalAI",
+      "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+      "post_kind": "original",
+      "article_signals": [
+        "pattern:/article/"
+      ]
+    },
+    {
+      "source_id": "x-alphasignalai-25aab6235b30",
+      "source_family": "benchmark_x_account",
+      "source_type": "x_post_metadata",
+      "discovery_channel": "nitter_rss_guest",
+      "author": "AlphaSignalAI",
+      "origin_url": "https://nitter.net/AlphaSignalAI/status/2032472074489614626#m",
+      "published_at": "2026-03-13T15:01:18Z",
+      "title": "x.com/i/article/203228070901…",
+      "summary": "x.com/i/article/203228070901…",
+      "fulltext_path": "",
+      "language": "unknown",
+      "eligibility": "trigger_until_fulltext",
+      "fetch_status": "discovered",
+      "account_handle": "AlphaSignalAI",
+      "feed_url": "https://nitter.net/AlphaSignalAI/rss",
+      "post_kind": "original",
+      "article_signals": [
+        "pattern:/article/"
+      ]
+    },
+    {
+      "source_id": "x-gorden_sun-4d1bb97e37f3",
+      "source_family": "benchmark_x_account",
+      "source_type": "x_post_metadata",
+      "discovery_channel": "nitter_rss_guest",
+      "author": "Gorden_Sun",
+      "origin_url": "https://nitter.net/Gorden_Sun/status/2034269013275210149#m",
+      "published_at": "2026-03-18T14:01:42Z",
+      "title": "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客：https://goombalab.github.io/blog/2026/mamba3-part1/",
+      "summary": "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客： goombalab.github.io/blog/202…",
+      "fulltext_path": "",
+      "language": "unknown",
+      "eligibility": "trigger_until_fulltext",
+      "fetch_status": "discovered",
+      "account_handle": "Gorden_Sun",
+      "feed_url": "https://nitter.net/Gorden_Sun/rss",
+      "post_kind": "original",
+      "article_signals": [
+        "pattern:/blog/",
+        "url:https://goombalab.github.io/blog/2026/mamba3-part1/"
+      ]
+    },
+    {
+      "source_id": "x-gorden_sun-e5b331653544",
+      "source_family": "benchmark_x_account",
+      "source_type": "x_post_metadata",
+      "discovery_channel": "nitter_rss_guest",
+      "author": "Gorden_Sun",
+      "origin_url": "https://nitter.net/Gorden_Sun/status/2034091257899978833#m",
+      "published_at": "2026-03-18T02:15:22Z",
+      "title": "Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑",
+      "summary": "Anthropic是如何使用Skill的，核心就2点：9类Skill和进阶技巧，至于如何创建可以交给AI 9类Skills分类体系 · 库/API参考类：解决内部库或Claude容易用错的外部库问题，附带代码片段和踩坑清单 · 产品验证类：结合Playwright、tmux等工具做自动化验证，建议投入工程师专门打磨，可以让Claude录制测试视频 · 数据获取与分析类：连接数据和监控栈，包含凭证、dashboard ID、常见查询工作流 · 业务流程自动化类：把日报、建工单、周报等重复工作压缩为一条命令 · 代码脚手架类：生成框架模板，特别适合有自然语言要求的场景 · 代码质量与审查类：可结合hooks或GitHub Action自动运行，甚至能spawn子agent做对抗式review · CI/CD与部署类：监控PR、自动重试flaky CI、灰度发布带自动回滚 · Runbook类：从告警/错误出发，多工具联查，输出结构化报告 · 基础设施运维类：资源清理、依赖审批、成本调查等带破坏性操作的任务 进阶用法 · 可在skill目录内存数据（如日志、JSON、SQLite），实现跨会话记忆，注意用${CLAUDE_PLUGIN_DATA}做持久化存储 · 给Claude提供可组合的脚本和函数库，让它把token花在编排逻辑而非重写样板代码上 · 支持按需Hooks(On Demand Hooks)——比如/careful阻止危险命令、/freeze锁定特定目录外的编辑 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m",
+      "fulltext_path": "",
+      "language": "unknown",
+      "eligibility": "trigger_until_fulltext",
+      "fetch_status": "discovered",
+      "account_handle": "Gorden_Sun",
+      "feed_url": "https://nitter.net/Gorden_Sun/rss",
+      "post_kind": "original",
+      "article_signals": [
+        "pattern:/article/"
+      ]
+    },
+    {
+      "source_id": "x-op7418-a20aa8c443d2",
+      "source_family": "benchmark_x_account",
+      "source_type": "x_post_metadata",
+      "discovery_channel": "nitter_rss_guest",
+      "author": "op7418",
+      "origin_url": "https://nitter.net/op7418/status/2034082485798314489#m",
+      "published_at": "2026-03-18T01:40:30Z",
+      "title": "Claude Code 创建者写的如何使用和创建 Skills 如果你还不了解的话，强烈推荐看看！ Anthropic 内部现在有数百个 Skills 在用，从 API 文档到部署流程全覆盖。他们把这些经验总结出来了。 做个笔记📒： ====== Skills 不只是 Markdown 文件 很多人以为 Skills 就是写个 Markdown 文档，其实不是。Skills 是一个文件夹，里面可以放脚本、资源文件、数据，甚至注册钩子函数。 代理可以发现这些内容，读取它们，执行脚本，在特定时机触发钩子。这才是 Skills 最有意思的地方。 最好的 Skills 都在创造性地使用这些配置选项和文件夹结构。 ====== 九种 Skills 类型 Anthropic 把内部的 Skills 整理了一遍，发现它们基本归为九类。好的 Skills 能明确归入一类，混乱的 Skills 往往跨了好几类。 ------ 1. 库与 API 参考 解释怎么用某个库、CLI 或 SDK。可以是内部库，也可以是 Claude 经常搞错的常用库。 通常包含一个代码片段文件夹，加上一份\"别踩这些坑\"的清单。 比如： ▸ billing-lib — 你们内部计费库的边界情况和常见坑 ▸ internal-platform-cli — 内部 CLI 的每个子命令和使用场景 ▸ frontend-design — 让 Claude 更懂你们的设计系统 ------ 2. 产品验证 描述怎么测试或验证代码是否正常工作。通常配合 Playwright、tmux 这些工具。 验证 Skills 极其重要，值得让工程师花一周时间专门打磨。 可以让 Claude 录制测试视频，或者在每一步强制执行程序化断言。这些通常通过在 Skill 里放各种脚本实现。 比如： ▸ signup-flow-driver — 在无头浏览器里跑注册流程，每步都有状态断言钩子 ▸ checkout-verifier — 用 Stripe 测试卡驱动结账界面，验证发票状态 ▸ tmux-cli-driver — 测试需要 TTY 的交互式命令行工具 ------ 3. 数据获取与分析 连接你的数据和监控栈。可能包含带凭据的数据获取库、仪表盘 ID、常见工作流说明。 比如： ▸ datadog-metrics — 预设的仪表盘链接和常用查询 ▸ postgres-query-helper — 连接生产数据库的只读凭据和常用查询模板 ▸ user-analytics — 获取用户行为数据的脚本和分析模板 ------ 4. 业务自动化 自动化重复的业务流程。比如创建 Jira ticket、发 Slack 通知、更新文档。 这类 Skills 通常包含调用内部 API 的脚本，加上业务流程的说明。 比如： ▸ incident-reporter — 创建事故报告并通知相关人员 ▸ release-notes-generator — 从 Git 提交生成发布说明 ▸ onboarding-automation — 新员工入职的自动化流程 ------ 5. 代码脚手架 生成项目或组件的初始代码结构。包含模板文件和生成脚本。 比如： ▸ react-component-scaffold — 生成符合团队规范的 React 组件 ▸ api-endpoint-generator — 生成 API 端点的样板代码和测试 ▸ microservice-template — 创建新微服务的完整结构 ------ 6. 代码质量与审查 帮助审查代码质量、安全性、性能。可能包含 linter 配置、审查清单、自动化检查脚本。 比如： ▸ security-review — 安全审查清单和常见漏洞检查 ▸ performance-profiler — 性能分析工具和优化建议 ▸ code-review-checklist — 代码审查的标准流程 ------ 7. CI/CD 与部署 管理持续集成和部署流程。包含部署脚本、环境配置、回滚流程。 比如： ▸ deploy-to-staging — 部署到测试环境的完整流程 ▸ rollback-helper — 快速回滚的脚本和检查清单 ▸ ci-debugger — 调试 CI 失败的常用方法 ------ 8. 运行手册 处理生产环境问题的操作指南。通常是\"如果 X 发生了，做 Y\"的格式。 这类 Skills 在紧急情况下特别有用，因为它们把经验固化成了可执行的步骤。 比如： ▸ database-recovery — 数据库故障恢复流程 ▸ traffic-spike-handler — 流量激增时的应对措施 ▸ memory-leak-debugger — 内存泄漏排查步骤 ------ 9. 基础设施运维 管理云资源、容器、网络配置。包含 Terraform 脚本、Kubernetes 配置、监控设置。 比如： ▸ aws-resource-manager — 管理 AWS 资源的脚本和最佳实践 ▸ k8s-troubleshooter — Kubernetes 常见问题排查 ▸ terraform-helper — Terraform 模块和使用指南 ====== 写好 Skills 的最佳实践 Anthropic 总结了一些实用的技巧，都是从实际使用中提炼出来的。 ------ 写明 Gotchas 把常见错误和陷阱明确列出来。Claude 会认真读这些内容，避免重复犯错。 比如在 API 文档里写：\"注意：这个端点有速率限制，每秒最多 10 次请求。超过会返回 429 错误。\" ------ 利用文件系统做渐进式披露 不要把所有信息都塞在一个 Markdown 文件里。用文件夹结构组织内容，让 Claude 按需探索。 比如： ``` my-skill/ README.md # 概览和快速开始 examples/ # 代码示例 scripts/ # 辅助脚本 reference/ # 详细文档 gotchas.md # 常见陷阱 ``` Claude 会先读 README，需要时再深入其他文件。 ------ 存脚本和辅助库 把可复用的脚本放在 Skill 里，而不是让 Claude 每次都重写。 这些脚本可以是 Python、Bash、Node.js，任何能执行的东西。Claude 可以直接调用它们，或者读取代码学习怎么用。 ------ 使用稳定存储做记忆 Skills 可以访问 `${CLAUDE_PLUGIN_DATA}` 目录，这是一个持久化存储位置。 可以用来保存： ▸ 上次运行的状态 ▸ 用户偏好设置 ▸ 缓存的数据 ▸ 历史记录 这样 Skill 就有了\"记忆\"，可以在多次会话间保持状态。 ------ 按需钩子保护危险操作 对于可能造成破坏的操作（删除数据、部署到生产环境），使用按需钩子（on-demand hooks）。 这会在执行前弹出确认提示，让用户明确批准。 比如在 Skill 的 frontmatter 里配置： ```yaml hooks: on_demand: - name: deploy-to-prod command: ./scripts/deploy.sh production confirm: \"确定要部署到生产环境吗？\" ``` ------ 用 PreToolUse 做度量 可以注册 PreToolUse 钩子来记录 Skill 的使用情况。 这样能知道哪些 Skills 最常用，哪些需要改进，哪些可以下线。 ====== 分发 Skills Skills 的一大优势是可以跟团队共享。有两种方式： ------ 签入代码仓库 把 Skills 放在 `./.claude/skills` 目录下，跟代码一起提交。 适合小团队，在少数几个仓库间协作。但每个签入的 Skill 都会占用模型的上下文，所以不能无限增加。 ------ 插件市场 创建一个内部插件市场，让用户上传和安装插件。 适合大团队。用户可以选择安装哪些 Skills，不会污染所有人的上下文。 Anthropic 没有集中式团队管理市场，而是有机地发现有用的 Skills。如果你有个好 Skill，上传到 GitHub 的沙箱文件夹，在 Slack 里分享链接。 如果很多人觉得有用，就会被推广到正式市场。 ====== 管理市场的实用建议 ------ 设置沙箱区域 在市场里创建一个\"实验性\"或\"社区贡献\"区域，让人们可以自由上传。 好的 Skills 会自然浮现，然后可以移到\"官方推荐\"区域。 ------ 鼓励文档和示例 要求每个 Skill 都有清晰的 README 和使用示例。 没有文档的 Skills 很难被采用，即使功能很好。 ------ 定期清理 定期检查哪些 Skills 没人用，考虑下线或合并。 市场里 Skills 太多会让人不知道选哪个，保持精简很重要。 ------ 收集反馈 提供简单的方式让用户反馈 Skills 的问题和改进建议。 可以是 GitHub Issues，也可以是 Slack 频道。 ====== 实际案例 Anthropic 分享了几个他们内部最受欢迎的 Skills： ------ commit-helper 帮助写符合团队规范的 Git 提交信息。 包含提交信息模板、常见类型（feat/fix/docs）的说明、以及检查提交信息格式的脚本。 使用频率极高，因为每个人每天都要提交代码。 ------ pr-reviewer 自动化代码审查流程。 会检查代码风格、测试覆盖率、安全问题，生成审查评论。 节省了大量人工审查时间，让审查者可以专注于逻辑和架构问题。 ------ incident-response 生产环境事故响应流程。 包含排查清单、常用命令、通知模板、事后总结模板。 在紧急情况下特别有用，因为它把经验固化成了清晰的步骤。 ------ api-docs 内部 API 的完整文档和使用示例。 Claude 经常需要调用内部 API，有了这个 Skill 就不用每次都查文档或问人。 ------ test-runner 运行测试的标准流程。 包含不同类型测试（单元测试、集成测试、端到端测试）的运行方法，以及如何解读测试结果。 ====== Skills 的未来 Anthropic 认为 Skills 会朝几个方向发展： ------ 更智能的发现机制 现在 Claude 需要用户明确调用 Skill，未来可能会自动识别场景并推荐相关 Skills。 比如你在写 API 调用代码，Claude 自动建议使用 api-docs Skill。 ------ Skills 之间的组合 现在 Skills 基本是独立的，未来可能会支持 Skills 之间的依赖和组合。 比如 deploy-to-prod Skill 可以自动调用 test-runner 和 security-review Skills。 ------ 动态生成 Skills 根据代码仓库的实际情况，自动生成或更新 Skills。 比如扫描代码库，自动生成 API 文档 Skill。 ------ 跨团队共享 建立公开的 Skills 市场，让不同公司的团队可以共享通用的 Skills。 比如常用框架（React、Django）的最佳实践 Skills。 ====== 核心理念 Skills 的本质是把团队的工程实践和领域知识固化成可复用的扩展。 好的 Skills 应该： ▸ 解决真实的重复性问题 ▸ 包含清晰的文档和示例 ▸ 利用文件夹结构和脚本增强能力 ▸ 在需要时提供保护机制 ▸ 容易分发和维护 不要为了做 Skill 而做 Skill。从团队的实际痛点出发，把那些每次都要重复的事情固化下来。 一个好的 Skill 能让整个团队的 AI 编程体验提升一个档次。",
+      "summary": "Claude Code 创建者写的如何使用和创建 Skills 如果你还不了解的话，强烈推荐看看！ Anthropic 内部现在有数百个 Skills 在用，从 API 文档到部署流程全覆盖。他们把这些经验总结出来了。 做个笔记📒： ====== Skills 不只是 Markdown 文件 很多人以为 Skills 就是写个 Markdown 文档，其实不是。Skills 是一个文件夹，里面可以放脚本、资源文件、数据，甚至注册钩子函数。 代理可以发现这些内容，读取它们，执行脚本，在特定时机触发钩子。这才是 Skills 最有意思的地方。 最好的 Skills 都在创造性地使用这些配置选项和文件夹结构。 ====== 九种 Skills 类型 Anthropic 把内部的 Skills 整理了一遍，发现它们基本归为九类。好的 Skills 能明确归入一类，混乱的 Skills 往往跨了好几类。 ------ 1. 库与 API 参考 解释怎么用某个库、CLI 或 SDK。可以是内部库，也可以是 Claude 经常搞错的常用库。 通常包含一个代码片段文件夹，加上一份\"别踩这些坑\"的清单。 比如： ▸ billing-lib — 你们内部计费库的边界情况和常见坑 ▸ internal-platform-cli — 内部 CLI 的每个子命令和使用场景 ▸ frontend-design — 让 Claude 更懂你们的设计系统 ------ 2. 产品验证 描述怎么测试或验证代码是否正常工作。通常配合 Playwright、tmux 这些工具。 验证 Skills 极其重要，值得让工程师花一周时间专门打磨。 可以让 Claude 录制测试视频，或者在每一步强制执行程序化断言。这些通常通过在 Skill 里放各种脚本实现。 比如： ▸ signup-flow-driver — 在无头浏览器里跑注册流程，每步都有状态断言钩子 ▸ checkout-verifier — 用 Stripe 测试卡驱动结账界面，验证发票状态 ▸ tmux-cli-driver — 测试需要 TTY 的交互式命令行工具 ------ 3. 数据获取与分析 连接你的数据和监控栈。可能包含带凭据的数据获取库、仪表盘 ID、常见工作流说明。 比如： ▸ datadog-metrics — 预设的仪表盘链接和常用查询 ▸ postgres-query-helper — 连接生产数据库的只读凭据和常用查询模板 ▸ user-analytics — 获取用户行为数据的脚本和分析模板 ------ 4. 业务自动化 自动化重复的业务流程。比如创建 Jira ticket、发 Slack 通知、更新文档。 这类 Skills 通常包含调用内部 API 的脚本，加上业务流程的说明。 比如： ▸ incident-reporter — 创建事故报告并通知相关人员 ▸ release-notes-generator — 从 Git 提交生成发布说明 ▸ onboarding-automation — 新员工入职的自动化流程 ------ 5. 代码脚手架 生成项目或组件的初始代码结构。包含模板文件和生成脚本。 比如： ▸ react-component-scaffold — 生成符合团队规范的 React 组件 ▸ api-endpoint-generator — 生成 API 端点的样板代码和测试 ▸ microservice-template — 创建新微服务的完整结构 ------ 6. 代码质量与审查 帮助审查代码质量、安全性、性能。可能包含 linter 配置、审查清单、自动化检查脚本。 比如： ▸ security-review — 安全审查清单和常见漏洞检查 ▸ performance-profiler — 性能分析工具和优化建议 ▸ code-review-checklist — 代码审查的标准流程 ------ 7. CI/CD 与部署 管理持续集成和部署流程。包含部署脚本、环境配置、回滚流程。 比如： ▸ deploy-to-staging — 部署到测试环境的完整流程 ▸ rollback-helper — 快速回滚的脚本和检查清单 ▸ ci-debugger — 调试 CI 失败的常用方法 ------ 8. 运行手册 处理生产环境问题的操作指南。通常是\"如果 X 发生了，做 Y\"的格式。 这类 Skills 在紧急情况下特别有用，因为它们把经验固化成了可执行的步骤。 比如： ▸ database-recovery — 数据库故障恢复流程 ▸ traffic-spike-handler — 流量激增时的应对措施 ▸ memory-leak-debugger — 内存泄漏排查步骤 ------ 9. 基础设施运维 管理云资源、容器、网络配置。包含 Terraform 脚本、Kubernetes 配置、监控设置。 比如： ▸ aws-resource-manager — 管理 AWS 资源的脚本和最佳实践 ▸ k8s-troubleshooter — Kubernetes 常见问题排查 ▸ terraform-helper — Terraform 模块和使用指南 ====== 写好 Skills 的最佳实践 Anthropic 总结了一些实用的技巧，都是从实际使用中提炼出来的。 ------ 写明 Gotchas 把常见错误和陷阱明确列出来。Claude 会认真读这些内容，避免重复犯错。 比如在 API 文档里写：\"注意：这个端点有速率限制，每秒最多 10 次请求。超过会返回 429 错误。\" ------ 利用文件系统做渐进式披露 不要把所有信息都塞在一个 Markdown 文件里。用文件夹结构组织内容，让 Claude 按需探索。 比如： ``` my-skill/ README.md # 概览和快速开始 examples/ # 代码示例 scripts/ # 辅助脚本 reference/ # 详细文档 gotchas.md # 常见陷阱 ``` Claude 会先读 README，需要时再深入其他文件。 ------ 存脚本和辅助库 把可复用的脚本放在 Skill 里，而不是让 Claude 每次都重写。 这些脚本可以是 Python、Bash、Node.js，任何能执行的东西。Claude 可以直接调用它们，或者读取代码学习怎么用。 ------ 使用稳定存储做记忆 Skills 可以访问 `${CLAUDE_PLUGIN_DATA}` 目录，这是一个持久化存储位置。 可以用来保存： ▸ 上次运行的状态 ▸ 用户偏好设置 ▸ 缓存的数据 ▸ 历史记录 这样 Skill 就有了\"记忆\"，可以在多次会话间保持状态。 ------ 按需钩子保护危险操作 对于可能造成破坏的操作（删除数据、部署到生产环境），使用按需钩子（on-demand hooks）。 这会在执行前弹出确认提示，让用户明确批准。 比如在 Skill 的 frontmatter 里配置： ```yaml hooks: on_demand: - name: deploy-to-prod command: ./scripts/deploy.sh production confirm: \"确定要部署到生产环境吗？\" ``` ------ 用 PreToolUse 做度量 可以注册 PreToolUse 钩子来记录 Skill 的使用情况。 这样能知道哪些 Skills 最常用，哪些需要改进，哪些可以下线。 ====== 分发 Skills Skills 的一大优势是可以跟团队共享。有两种方式： ------ 签入代码仓库 把 Skills 放在 `./.claude/skills` 目录下，跟代码一起提交。 适合小团队，在少数几个仓库间协作。但每个签入的 Skill 都会占用模型的上下文，所以不能无限增加。 ------ 插件市场 创建一个内部插件市场，让用户上传和安装插件。 适合大团队。用户可以选择安装哪些 Skills，不会污染所有人的上下文。 Anthropic 没有集中式团队管理市场，而是有机地发现有用的 Skills。如果你有个好 Skill，上传到 GitHub 的沙箱文件夹，在 Slack 里分享链接。 如果很多人觉得有用，就会被推广到正式市场。 ====== 管理市场的实用建议 ------ 设置沙箱区域 在市场里创建一个\"实验性\"或\"社区贡献\"区域，让人们可以自由上传。 好的 Skills 会自然浮现，然后可以移到\"官方推荐\"区域。 ------ 鼓励文档和示例 要求每个 Skill 都有清晰的 README 和使用示例。 没有文档的 Skills 很难被采用，即使功能很好。 ------ 定期清理 定期检查哪些 Skills 没人用，考虑下线或合并。 市场里 Skills 太多会让人不知道选哪个，保持精简很重要。 ------ 收集反馈 提供简单的方式让用户反馈 Skills 的问题和改进建议。 可以是 GitHub Issues，也可以是 Slack 频道。 ====== 实际案例 Anthropic 分享了几个他们内部最受欢迎的 Skills： ------ commit-helper 帮助写符合团队规范的 Git 提交信息。 包含提交信息模板、常见类型（feat/fix/docs）的说明、以及检查提交信息格式的脚本。 使用频率极高，因为每个人每天都要提交代码。 ------ pr-reviewer 自动化代码审查流程。 会检查代码风格、测试覆盖率、安全问题，生成审查评论。 节省了大量人工审查时间，让审查者可以专注于逻辑和架构问题。 ------ incident-response 生产环境事故响应流程。 包含排查清单、常用命令、通知模板、事后总结模板。 在紧急情况下特别有用，因为它把经验固化成了清晰的步骤。 ------ api-docs 内部 API 的完整文档和使用示例。 Claude 经常需要调用内部 API，有了这个 Skill 就不用每次都查文档或问人。 ------ test-runner 运行测试的标准流程。 包含不同类型测试（单元测试、集成测试、端到端测试）的运行方法，以及如何解读测试结果。 ====== Skills 的未来 Anthropic 认为 Skills 会朝几个方向发展： ------ 更智能的发现机制 现在 Claude 需要用户明确调用 Skill，未来可能会自动识别场景并推荐相关 Skills。 比如你在写 API 调用代码，Claude 自动建议使用 api-docs Skill。 ------ Skills 之间的组合 现在 Skills 基本是独立的，未来可能会支持 Skills 之间的依赖和组合。 比如 deploy-to-prod Skill 可以自动调用 test-runner 和 security-review Skills。 ------ 动态生成 Skills 根据代码仓库的实际情况，自动生成或更新 Skills。 比如扫描代码库，自动生成 API 文档 Skill。 ------ 跨团队共享 建立公开的 Skills 市场，让不同公司的团队可以共享通用的 Skills。 比如常用框架（React、Django）的最佳实践 Skills。 ====== 核心理念 Skills 的本质是把团队的工程实践和领域知识固化成可复用的扩展。 好的 Skills 应该： ▸ 解决真实的重复性问题 ▸ 包含清晰的文档和示例 ▸ 利用文件夹结构和脚本增强能力 ▸ 在需要时提供保护机制 ▸ 容易分发和维护 不要为了做 Skill 而做 Skill。从团队的实际痛点出发，把那些每次都要重复的事情固化下来。 一个好的 Skill 能让整个团队的 AI 编程体验提升一个档次。 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m",
+      "fulltext_path": "",
+      "language": "unknown",
+      "eligibility": "trigger_until_fulltext",
+      "fetch_status": "discovered",
+      "account_handle": "op7418",
+      "feed_url": "https://nitter.net/op7418/rss",
+      "post_kind": "original",
+      "article_signals": [
+        "pattern:/article/"
+      ]
+    }
+  ]
+}

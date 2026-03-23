@@ -1,0 +1,310 @@
+{
+  "schema_version": "0.1.0",
+  "assembly_mode": "deterministic_selection",
+  "assembled_at": "2026-03-19T06:20:08Z",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-anthropicai-b79579a40386/source_item.json",
+  "framework_match_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/06_routing/official_x/results/x-anthropicai-b79579a40386/framework_match.json",
+  "framework_spec_ref": "/home/lyric/growth-engine-pipeline/framework/01_money_proof/FRAMEWORK_SPEC.json",
+  "selected_framework": {
+    "framework_id": "01_money_proof",
+    "framework_label": "结果证明复盘型",
+    "submode_id": "metric_postmortem",
+    "confidence": "medium"
+  },
+  "assembly_manifest": {
+    "no_summarization": true,
+    "selected_spec_paths": [
+      "metadata.framework_id",
+      "metadata.framework_label",
+      "structure.hidden_skeleton",
+      "structure.visible_template_bans",
+      "structure.allowed_surface_moves",
+      "structure.forbidden_surface_moves",
+      "structure.submodes[submode_id=metric_postmortem]",
+      "style.global_style_principles",
+      "style.global_anti_ai_rules",
+      "style.submode_profiles[style_profile_id=01_metric_postmortem_style]",
+      "execution_controls.must_keep",
+      "execution_controls.must_avoid",
+      "execution_controls.rewrite_failure_modes",
+      "execution_controls.quality_checks",
+      "execution_controls.human_review_triggers",
+      "samples.sample_refs[sample_id=2031489944083116370]",
+      "samples.sample_refs[sample_id=2031701565434732917]"
+    ],
+    "selected_sample_ids": [
+      "2031489944083116370",
+      "2031701565434732917"
+    ],
+    "selection_rationale": "Deterministically selected the exact framework slices required by the chosen route: shared structure constraints, the matched submode spec, its mapped style profile, explicitly selected sample refs, and execution controls. No LLM summarization was used."
+  },
+  "structure_packet": {
+    "hidden_skeleton": [
+      "Hard result",
+      "Why this result matters / why it sounds unbelievable",
+      "Path, system, or timeline",
+      "Key turning points or leverage points",
+      "Mistakes, constraints, or credibility anchors",
+      "Lessons or transferable logic"
+    ],
+    "visible_template_bans": [
+      "不得写成我做到了一个很厉害的结果，我分三步告诉你怎么做",
+      "不得把结果贴写成成功学模板",
+      "不得只堆数字，不讲因果",
+      "不得只有怎么做，没有为什么这样做有效",
+      "不得把失败、约束和质疑全部抹掉"
+    ],
+    "allowed_surface_moves": [
+      "先抛结果，再补质疑点或背景 tension",
+      "先讲某个关键转折，再倒回完整路径",
+      "用时间线、系统拆解、客户案例、指标变化承载正文",
+      "把失败、低谷、误判和修复写进去",
+      "允许 operator、builder、hustler、postmortem 口吻变化"
+    ],
+    "forbidden_surface_moves": [
+      "标准对称成功学段落",
+      "只有数字截图，没有复盘",
+      "全文像卖课广告",
+      "无菌复盘，没有 tension"
+    ],
+    "selected_submode_spec": {
+      "submode_id": "metric_postmortem",
+      "label": "量化指标 postmortem",
+      "summary": "融资、流量、SEO、页面增长或效率提升结果背后的系统、过程、瓶颈和教训复盘。",
+      "use_when": [
+        "结果核心是融资、流量、页面规模、转化或其他硬指标",
+        "正文依赖 stats board、process breakdown、系统架构、charts、lessons learned",
+        "作者更像 operator 在做可审计的复盘"
+      ],
+      "avoid_when": [
+        "文章更像赚钱战例或接单复盘",
+        "没有系统、bottleneck 或 turning point",
+        "只有漂亮数字没有 underlying process"
+      ],
+      "source_fit": [
+        "fundraise",
+        "traffic_or_growth",
+        "delivery scale with measurable process"
+      ],
+      "source_unfit": [
+        "纯机会故事",
+        "没有指标反馈的经验文"
+      ],
+      "hidden_flow": [
+        "Hard metric result",
+        "Operating context",
+        "System or process breakdown",
+        "Turning point or leverage",
+        "What happened after launch / after the grind",
+        "Lessons for next time"
+      ],
+      "hook_patterns": [
+        "250 meetings in 98 days to $1.5M",
+        "13,000+ pages in 3 hours",
+        "+466% in 60 days",
+        "The real fundraise looks like..."
+      ],
+      "evidence_mix": [
+        "数字面板",
+        "process breakdown",
+        "system architecture",
+        "charts or timeline",
+        "bottlenecks",
+        "lessons learned"
+      ],
+      "reasoning_moves": [
+        "先上硬指标，再补 operating context",
+        "把结果拆成系统和过程",
+        "主动指出 bottleneck 和 turning point",
+        "结尾给出 next time different 这类冷静复盘"
+      ],
+      "rewrite_formula": "结果数字 -> 运行背景 -> 系统与流程 -> 关键转折 -> 指标反馈 -> 复盘教训",
+      "surface_forms": [
+        "stats board",
+        "process breakdown",
+        "architecture explanation",
+        "chart reading",
+        "lesson list",
+        "next time different"
+      ],
+      "anti_patterns": [
+        "只有漂亮数字，没有过程",
+        "假精确感太强，像编出来的 case study",
+        "写成无菌 consulting memo",
+        "lessons 全是正确废话"
+      ],
+      "style_profile_id": "01_metric_postmortem_style",
+      "sample_ids": [
+        "2031489944083116370",
+        "2031701565434732917"
+      ]
+    }
+  },
+  "style_packet": {
+    "global_style_principles": [
+      "开头几乎一定有硬数字",
+      "很少一上来就讲方法论",
+      "中段会把流程拆得很实",
+      "结尾通常从个人结果抽到普适逻辑",
+      "必须走 结果证明逻辑 + 子模式语感，而不是成功学模板"
+    ],
+    "global_anti_ai_rules": [
+      "避免成功学口号堆砌",
+      "避免只有结果，没有可信过程",
+      "避免 lessons 不落到具体动作",
+      "避免看起来像凭空编出来的 case study",
+      "避免无菌复盘，没有 tension 或转折"
+    ],
+    "selected_style_profile": {
+      "style_profile_id": "01_metric_postmortem_style",
+      "submode_id": "metric_postmortem",
+      "tone_core": "更像 operator 复盘，重点不是传奇感，而是过程可审计、知道哪里是 bottleneck 和 turning point。",
+      "opening_moves": [
+        "先上最硬的指标",
+        "再补一句与常识相反的事实",
+        "很快进入 operating context"
+      ],
+      "sentence_rhythm": [
+        "更长、更稳",
+        "结构化标题多",
+        "列表和编号较多",
+        "情绪词少，但 tension 仍在"
+      ],
+      "surface_forms": [
+        "stats board",
+        "process breakdown",
+        "architecture explanation",
+        "chart reading",
+        "lesson list"
+      ],
+      "language_moves": [
+        "Here's how...",
+        "The real...",
+        "If you take just one thing from this article",
+        "Some key insights so far",
+        "A few things differently for next time"
+      ],
+      "keep": [
+        "硬指标",
+        "明确 bottleneck",
+        "系统细节",
+        "事后复盘的冷静感"
+      ],
+      "avoid": [
+        "只有结果，没有 underlying system",
+        "过度修辞，让 operator 文变成营销文",
+        "lessons 不落到具体动作",
+        "consulting memo 腔"
+      ],
+      "ai_smells": [
+        "数字很多但完全没有过程 tension",
+        "复盘太平滑，像成功是必然发生的",
+        "只有结论，没有原因链",
+        "没有看得见的系统"
+      ],
+      "one_sentence_portrait": "像一个把战果摆上台面、同时也愿意把系统内部拆开给你看的操盘手。"
+    }
+  },
+  "sample_packet": {
+    "selected_sample_refs": [
+      {
+        "sample_id": "2031489944083116370",
+        "title": "What the Real Fundraise Looks Like: 250 Meetings in 98 Days to $1.5M",
+        "url": "https://x.com/MatijaSosic/status/2031489944083116370",
+        "author": "@MatijaSosic",
+        "submode_id": "metric_postmortem",
+        "why_it_matters": "极干净的 operator postmortem 样本，用 hard stats 打破融资想象，再把低谷期和心态重构写出来。",
+        "hook_move": "先给一个反直觉事实：YC Demo Day 带来的 100+ 投资人线索，零人投资。",
+        "proof_mode": [
+          "数据总览",
+          "时间线",
+          "阶段分解",
+          "心态转折",
+          "fundraise lessons"
+        ],
+        "reusable_parts": [
+          "用 hard stats 直接打破想象",
+          "把死亡谷写出来增强可信度",
+          "结尾给 fundraise 系统认知"
+        ],
+        "non_reusable_parts": [
+          "YC / SAFE / 投资人语境",
+          "创始团队背景"
+        ],
+        "style_cue": "数字很多，但真正抓力来自低谷期和心态重构。"
+      },
+      {
+        "sample_id": "2031701565434732917",
+        "title": "How I built 13,000+ pages in 3 hours and grew SEO traffic +466% in 60 days",
+        "url": "https://x.com/jakezward/status/2031701565434732917",
+        "author": "@jakezward",
+        "submode_id": "metric_postmortem",
+        "why_it_matters": "典型 builder/operator 复盘，结果之后立刻补这不是 template spam，主动回应质疑。",
+        "hook_move": "先给超大结果数字，再立刻补 no template spam, no thin AI content。",
+        "proof_mode": [
+          "系统架构",
+          "content category breakdown",
+          "schema explanation",
+          "rollout metrics",
+          "lessons learned"
+        ],
+        "reusable_parts": [
+          "结果之后立刻补这不是你想的那种东西",
+          "把增长归因到结构而不是模型 magic",
+          "用具体 system parts 证明质量"
+        ],
+        "non_reusable_parts": [
+          "Byword / Gemini Flash / React renderers 技术栈",
+          "具体项目环境"
+        ],
+        "style_cue": "核心不是增长好爽，而是这个系统为什么规模化后还没坏掉。"
+      }
+    ],
+    "sample_selection_rationale": "Used matched_sample_ids from framework_match final_decision."
+  },
+  "execution_packet": {
+    "must_keep": [
+      "硬结果",
+      "处理怀疑",
+      "路径、系统或时间线",
+      "关键转折或杠杆点",
+      "失败、约束或可信锚点",
+      "可迁移经验"
+    ],
+    "must_avoid": [
+      "战绩炫耀模板",
+      "结果没有过程",
+      "成功学口号",
+      "卖课腔",
+      "无菌复盘"
+    ],
+    "rewrite_failure_modes": [
+      "cash_case_replay 退化成夸张战绩贴",
+      "metric_postmortem 退化成 consulting memo",
+      "只有数字，没有系统",
+      "只有过程，没有结果张力",
+      "只有情绪，没有可信度"
+    ],
+    "quality_checks": [
+      "是否在开头给出了足够硬的结果信号",
+      "是否主动处理了读者怀疑",
+      "是否拆出了路径、系统、时间线或交付细节",
+      "是否写出了关键转折、失败、约束或修复",
+      "是否把个人结果抽成了可迁移逻辑",
+      "是否保留了对应子模式的语感，而不是成功学模板"
+    ],
+    "human_review_triggers": [
+      "结果信号过弱或不可验证",
+      "writer 输出后像卖课文案",
+      "cash_case_replay 没有交付细节",
+      "metric_postmortem 没有 bottleneck 或 turning point",
+      "样本与新 source 的结果类型差异过大"
+    ]
+  },
+  "writer_guardrails": {
+    "use_raw_source_as_primary_fact_base": true,
+    "do_not_summarize_framework_spec": true,
+    "preserve_hidden_structure_as_invisible": true,
+    "prefer_sample_voice_over_template_surface": true
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-googledeepmind-2dc9aa068865",
+  "fetched_at": "2026-03-19T05:55:26Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/GoogleDeepMind/status/2032036893076930902",
+  "author": {
+    "handle": "@GoogleDeepMind",
+    "display_name": "Google DeepMind",
+    "account_url": "https://x.com/GoogleDeepMind"
+  },
+  "title": "Pinned: We’re excited to unveil the name of our new London building: Platform 37. 📍 The name honors both the surrounding area’s transport heritage and \"Move 37\" – the critical moment where our AI system AlphaGo showed it could find novel solutions humans hadn't considered.",
+  "language": "unknown",
+  "published_at": "2026-03-12T10:12:03Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/GoogleDeepMind/status/2032036893076930902",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/GoogleDeepMind/status/2032036893076930902#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "We’re excited to unveil the name of our new London building: Platform 37. 📍 The name honors both the surrounding area’s transport heritage and \"Move 37\" – the critical moment where our AI system AlphaGo showed it could find novel solutions humans hadn't considered. Video",
+    "full_text": "Post title: Pinned: We’re excited to unveil the name of our new London building: Platform 37. 📍 The name honors both the surrounding area’s transport heritage and \"Move 37\" – the critical moment where our AI system AlphaGo showed it could find novel solutions humans hadn't considered.\n\nPost summary: We’re excited to unveil the name of our new London building: Platform 37. 📍 The name honors both the surrounding area’s transport heritage and \"Move 37\" – the critical moment where our AI system AlphaGo showed it could find novel solutions humans hadn't considered. Video\n\nCanonical URL: https://x.com/GoogleDeepMind/status/2032036893076930902",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "We",
+      "London",
+      "Platform",
+      "Move",
+      "AI",
+      "AlphaGo",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "GoogleDeepMind"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Pinned: We’re excited to unveil the name of our new London building: Platform 37. 📍 The name honors both the surrounding area’s transport heritage and \"Move 37\" – the critical moment where our AI system AlphaGo showed it could find novel solutions humans hadn't considered.",
+      "We’re excited to unveil the name of our new London building: Platform 37. 📍 The name honors both the surrounding area’s transport heritage and \"Move 37\" – the critical moment where our AI system AlphaGo showed it could find novel solutions humans hadn't considered. Video",
+      "We",
+      "London",
+      "Platform",
+      "Move",
+      "AI",
+      "AlphaGo",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "GoogleDeepMind"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

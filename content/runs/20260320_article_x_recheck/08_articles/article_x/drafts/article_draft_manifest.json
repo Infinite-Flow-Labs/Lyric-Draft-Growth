@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-20T07:20:00Z",
+  "backend": "manual_recovery",
+  "rewrite_context_root": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_recheck/07_rewrite_contexts/article_x/results",
+  "out_root": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_recheck/08_articles/article_x/drafts",
+  "output_language": "zh-CN",
+  "count": 1,
+  "ok_count": 1,
+  "schema_error_count": 0,
+  "skipped_human_review_count": 0,
+  "skipped_source_gate_count": 0,
+  "results": [
+    {
+      "source_id": "x-gorden_sun-4d1bb97e37f3",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_recheck/08_articles/article_x/drafts/x-gorden_sun-4d1bb97e37f3/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_recheck/08_articles/article_x/drafts/x-gorden_sun-4d1bb97e37f3/article_draft.md",
+      "validation_error": null
+    }
+  ]
+}

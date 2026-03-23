@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-icreatelife-2c40cacbe1b4",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/icreatelife/status/2034059734211338720",
+  "author": {
+    "handle": "@icreatelife",
+    "display_name": "icreatelife",
+    "account_url": "https://x.com/icreatelife"
+  },
+  "title": "Someone sent me this article with my work and examples of our community of Rotate Object in Photoshop (beta) https://80.lv/articles/photoshop-beta-gets-a-new-tool-that-transforms-2d-objects-into-3d-images",
+  "language": "unknown",
+  "published_at": "2026-03-18T00:10:06Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/icreatelife/status/2034059734211338720",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/icreatelife/status/2034059734211338720#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    },
+    {
+      "asset_kind": "linked_article",
+      "url": "https://80.lv/articles/photoshop-beta-gets-a-new-tool-that-transforms-2d-objects-into-3d-images",
+      "selected_for_text": true,
+      "notes": "linked context words=330"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post_with_link_context",
+    "summary": "Someone sent me this article with my work and examples of our community of Rotate Object in Photoshop (beta) 80.lv/articles/photoshop-bet…",
+    "full_text": "Post title: Someone sent me this article with my work and examples of our community of Rotate Object in Photoshop (beta) https://80.lv/articles/photoshop-beta-gets-a-new-tool-that-transforms-2d-objects-into-3d-images\n\nPost summary: Someone sent me this article with my work and examples of our community of Rotate Object in Photoshop (beta) 80.lv/articles/photoshop-bet…\n\nCanonical URL: https://x.com/icreatelife/status/2034059734211338720\n\nLinked source 1: https://80.lv/articles/photoshop-beta-gets-a-new-tool-that-transforms-2d-objects-into-3d-images\n\nEditor 16 March 2026 With Rotate Object, you can rotate, spin, tilt, or dolly an object from a pixel layer. Adobe has introduced a new function to Photoshop that allows users to rotate 2D objects, transforming them into 3D images. The feature is available in the Photoshop beta version 27.5.0. The new Rotate Object feature lets users rotate, spin, tilt, or dolly a 2D object from any viewpoint to match perspective and depth. The function fits into a standard Photoshop workflow. To get started, open or place an image and select a pixel layer containing the desired object. To make it easier to preserve the original and make adjustments later, it is recommended to duplicate the layer first, as it will be converted to a Rotate Object Layer. After, press Cmd + T to enter transform mode or Edit > Rotate Object, then click the Rotate object button in the context bar. Please note that the feature costs 20 Generative Credits; the first three attempts are free. Once the 3D conversion is complete, the rotated object will initially appear as a low-resolution preview. ![Image 1](https://cdn.80.lv/api/upload/content/bb/69b7c82202811.gif) The object can be rotated in several ways: * Contextual Task Bar: click to use the Rotate and Tilt sliders. * Click and drag the blue on-canvas controls around the object. * Right-click on the object and drag (on-canvas for unconstrained rotation). * Properties panel: enter specific values while in rotation mode. ![Image 2](https://cdn.80.lv/api/upload/content/34/images/69b7c66e37cd2/widen_920x0.jpg) ### Adobe After the rotation is complete, select Done, and the object will then be upscaled with added detail. To integrate the object more seamlessly into the background, you can apply the Harmonize option.You can also select Edit rotation to adjust the effect, and then done to accept changes. This function costs 20 credits, which are deducted on the first rotation. Check out more examples of using the tool: Sponsored [![Image 3](https://cdn.80.lv/api/upload/promo/2929/6953998f5122c.jpeg)](https://80level.typeform.com/monetize-games?utm_source=80lv_website&utm_medium=image-banner) Sponsored Ad > Expert perspectives on the state of the games industry and what’s coming next. [![Image 4](https://cdn.80.lv/api/upload/promo/2932/692882d9464cb.gif)](https://b3d.superhivemarket.com/rt4-80lv-sb) Sponsored",
+    "sections": [
+      "x_post",
+      "linked_context",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_used:https://80.lv/articles/photoshop-beta-gets-a-new-tool-that-transforms-2d-objects-into-3d-images"
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Someone",
+      "Rotate Object",
+      "Photoshop",
+      "Post",
+      "Canonical URL",
+      "Linked",
+      "Editor",
+      "March",
+      "With Rotate Object",
+      "Adobe",
+      "To",
+      "Rotate Object Layer. After",
+      "Cmd",
+      "Edit",
+      "Rotate",
+      "Please",
+      "Generative Credits",
+      "Once",
+      "Image",
+      "Contextual Task Bar",
+      "Tilt",
+      "Click",
+      "Right",
+      "Properties",
+      "Adobe After",
+      "Done",
+      "Harmonize",
+      "You"
+    ],
+    "task_hints": [
+      "release",
+      "workflow"
+    ],
+    "fact_anchors": [
+      "Someone sent me this article with my work and examples of our community of Rotate Object in Photoshop (beta) https://80.lv/articles/photoshop-beta-gets-a-new-tool-that-transforms-2d-objects-into-3d-images",
+      "Someone sent me this article with my work and examples of our community of Rotate Object in Photoshop (beta) 80.lv/articles/photoshop-bet…",
+      "Someone",
+      "Rotate Object",
+      "Photoshop",
+      "Post",
+      "Canonical URL",
+      "Linked",
+      "Editor",
+      "March",
+      "With Rotate Object",
+      "Adobe",
+      "To",
+      "Rotate Object Layer. After",
+      "Cmd",
+      "Edit",
+      "Rotate",
+      "Please",
+      "https://80.lv/articles/photoshop-beta-gets-a-new-tool-that-transforms-2d-objects-into-3d-images"
+    ],
+    "normalization_notes": "linked_context_count=1"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-perplexity_ai-24a80ac9f768",
+  "fetched_at": "2026-03-19T05:55:26Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/perplexity_ai/status/2032521063918420286",
+  "author": {
+    "handle": "@perplexity_ai",
+    "display_name": "Perplexity",
+    "account_url": "https://x.com/perplexity_ai"
+  },
+  "title": "NVIDIA’s Nemotron 3 Super is now available in Perplexity, Agent API, and Computer.",
+  "language": "unknown",
+  "published_at": "2026-03-13T18:15:58Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/perplexity_ai/status/2032521063918420286",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/perplexity_ai/status/2032521063918420286#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "NVIDIA’s Nemotron 3 Super is now available in Perplexity, Agent API, and Computer.",
+    "full_text": "Post title: NVIDIA’s Nemotron 3 Super is now available in Perplexity, Agent API, and Computer.\n\nPost summary: NVIDIA’s Nemotron 3 Super is now available in Perplexity, Agent API, and Computer.\n\nCanonical URL: https://x.com/perplexity_ai/status/2032521063918420286",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "now available"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "NVIDIA",
+      "Nemotron",
+      "Super",
+      "Perplexity",
+      "Agent API",
+      "Computer",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "NVIDIA’s Nemotron 3 Super is now available in Perplexity, Agent API, and Computer.",
+      "now available",
+      "NVIDIA",
+      "Nemotron",
+      "Super",
+      "Perplexity",
+      "Agent API",
+      "Computer",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

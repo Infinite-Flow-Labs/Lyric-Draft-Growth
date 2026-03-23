@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-perplexity_ai-c22d3979836d",
+  "fetched_at": "2026-03-19T10:32:27Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/perplexity_ai/status/2032160576303219185",
+  "author": {
+    "handle": "@perplexity_ai",
+    "display_name": "Perplexity",
+    "account_url": "https://x.com/perplexity_ai"
+  },
+  "title": "Perplexity Computer is now available for Pro subscribers. Access Computer’s full suite of 20+ advanced models, prebuilt and custom skills, and hundreds of connectors. Max subscribers receive monthly credits and higher spend limits than Pro. http://perplexity.ai/computer",
+  "language": "unknown",
+  "published_at": "2026-03-12T18:23:31Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/perplexity_ai/status/2032160576303219185",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/perplexity_ai/status/2032160576303219185#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Perplexity Computer is now available for Pro subscribers. Access Computer’s full suite of 20+ advanced models, prebuilt and custom skills, and hundreds of connectors. Max subscribers receive monthly credits and higher spend limits than Pro. perplexity.ai/computer Video",
+    "full_text": "Post title: Perplexity Computer is now available for Pro subscribers. Access Computer’s full suite of 20+ advanced models, prebuilt and custom skills, and hundreds of connectors. Max subscribers receive monthly credits and higher spend limits than Pro. http://perplexity.ai/computer\n\nPost summary: Perplexity Computer is now available for Pro subscribers. Access Computer’s full suite of 20+ advanced models, prebuilt and custom skills, and hundreds of connectors. Max subscribers receive monthly credits and higher spend limits than Pro. perplexity.ai/computer Video\n\nCanonical URL: https://x.com/perplexity_ai/status/2032160576303219185",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_failed:http://perplexity.ai/computer (ValueError)"
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "now available"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Perplexity Computer",
+      "Pro",
+      "Access Computer",
+      "Max",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Perplexity Computer is now available for Pro subscribers. Access Computer’s full suite of 20+ advanced models, prebuilt and custom skills, and hundreds of connectors. Max subscribers receive monthly credits and higher spend limits than Pro. http://perplexity.ai/computer",
+      "Perplexity Computer is now available for Pro subscribers. Access Computer’s full suite of 20+ advanced models, prebuilt and custom skills, and hundreds of connectors. Max subscribers receive monthly credits and higher spend limits than Pro. perplexity.ai/computer Video",
+      "now available",
+      "Perplexity Computer",
+      "Pro",
+      "Access Computer",
+      "Max",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

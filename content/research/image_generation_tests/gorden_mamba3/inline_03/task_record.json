@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "927bdb1d7bb70b7cf6926e112ba87a83",
+    "model": "nano-banana-2",
+    "state": "success",
+    "param": "{\"input\":\"{\\\"image_input\\\":[],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Create a high-quality editorial knowledge graphic for an X Article.\\\\nRole: inline.\\\\nPurpose: Reset attention at the first major section transition and summarize the new concept block..\\\\nDiagram type: workflow_map.\\\\nConcept summary: Mamba-3 的核心价值，不是继续从训练优先的角度调旧结构，而是反过来问：如果今天真正昂贵的是推理，那一个为推理而设计的状态空间模型应该长什么样？博客里给出的结论也很清楚：固定状态带来了线性复杂度，但也要求模型把更多过去信息压缩进同一个表示里。问题不在于谁更高级，而在于当推理….\\\\nStyle direction: editorial knowledge graphic, warm light background, flat diagram-first composition, mobile legibility first.\\\\nBackground: warm cream paper-like background.\\\\nPrimary accents: warm orange, coral red, teal green.\\\\nLine work: soft dark gray line work.\\\\nScene elements: pipeline blocks, arrows, input/output artifacts, step modules.\\\\nKey relationships to visualize: show sequence and handoff, make the operating logic obvious at a glance.\\\\nLayout pattern: single_concept_centered.\\\\nDiagram focus: one section concept.\\\\nText position: integrated.\\\\nOn-canvas headline: \\\\\\\"这篇博客最有价值的，是把架构取舍讲明白了\\\\\\\".\\\\nOn-canvas subheadline: \\\\\\\"Mamba-3 的核心价值，不是继续从训练优先的角度调旧结构，而是反过…\\\\\\\".\\\\nUse short Chinese labels only: 让 recurrence 本身更有表达力, 给 transition matrix…, 在每次更新里加入更多几乎免费的并行工作.\\\\nMust have: clear information hierarchy, diagram-first composition, short Chinese labels, editorial infographic feeling, high readability on mobile, keep labels short, focus on one concept only, maintain same house style as cover.\\\\nMust avoid: generic AI wallpaper, cyberpunk neon, photorealistic people, blue digital rain, low-information decoration, no decorative filler, no unrelated icons.\\\\nAdditional direction: Visualize this section's main idea: 这篇博客最有价值的，是把架构取舍讲明白了.\\\\nThe result should look like a premium creator-made article infographic, not generic AI art.\\\\nKeep the composition clean, explanatory, and mobile-legible.\\\",\\\"resolution\\\":\\\"1K\\\"}\",\"model\":\"nano-banana-2\"}",
+    "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1774164688519-r8k4axe459o.png\"]}",
+    "failCode": null,
+    "failMsg": null,
+    "costTime": 39,
+    "completeTime": 1774164689344,
+    "createTime": 1774164647930
+  }
+}

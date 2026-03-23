@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/03_source_items/official_x/items/x-perplexity_ai-f89a10327e81/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "02_launch_application",
+      "06_checklist_template"
+    ],
+    "why_these_candidates": [
+      "02_launch_application: score=7 because task_hint=release, signal_hit=introducing, body_hit=update, release_signals=introducing,now available",
+      "06_checklist_template: score=6 because task_hint=workflow, signal_hit=workflow, execution_path_hint, sectioned_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:42:44Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "medium",
+      "rationale": "The source is a launch-triggered product announcement with a direct trial/download entry point. It fits launch-oriented routing better than checklist/tutorial because there is no execution path, architecture, or setup guidance. Within the launch framework, `release_showcase` is the closest fit because the payoff is quick value signaling plus an entry link, not detailed adoption instructions or pain-migration.",
+      "triggered_routing_signals": [
+        "Explicit launch signal: \"now available\"",
+        "Direct resource/app entry via App Store link",
+        "Announcement centers on trying/downloading, not workflow steps"
+      ],
+      "supporting_source_quotes": [
+        "\"Comet is now available for iOS.\"",
+        "\"Download on the App Store\"",
+        "\"Comet - AI Browser & Assistant\""
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986"
+      ],
+      "ambiguity_notes": [
+        "The post is thinner than an ideal launch-adoption piece and borders on pure promotion.",
+        "`feature_playbook` is weaker because the source does not explain usage, boundaries, or best practices.",
+        "`06_checklist_template` is weaker because there is no onboarding, configuration, or execution path."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "low",
+        "rationale": "A weaker alternative if the linked App Store context is treated as minimal feature definition, but the source still lacks concept clarification and adoption guidance.",
+        "triggered_routing_signals": [
+          "New product capability announcement",
+          "Linked product context beyond the post itself"
+        ],
+        "supporting_source_quotes": [
+          "\"AI Browser & Assistant\"",
+          "\"now available for iOS\""
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "Missing feature boundaries and best-use-case explanation keeps this from being the best fit."
+        ]
+      },
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "capability_extension",
+        "confidence": "low",
+        "rationale": "Possible only if Comet is read as adding a new capability to an existing user workflow, but the source does not describe before/after workflow improvement or integration steps.",
+        "triggered_routing_signals": [
+          "Task hint includes workflow",
+          "Product positioned as an assistant/browser capability"
+        ],
+        "supporting_source_quotes": [
+          "\"AI Browser & Assistant\"",
+          "\"Download on the App Store\""
+        ],
+        "matched_sample_ids": [
+          "2031965027314647316"
+        ],
+        "ambiguity_notes": [
+          "Fails the framework's execution-path expectation and reads more like a launch announcement than a technical capability guide."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:42:55Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "Source is very thin and promotional; it only weakly satisfies `02_launch_application`, whose unfit/disqualifier criteria warn against posts that only introduce a feature without an adoption path.",
+      "`release_showcase` is still the least-bad fit among the provided candidates because there is a concrete entry link and no onboarding, architecture, or workflow guidance.",
+      "Confidence should remain medium at most; if the routing system supports a no-fit/promotional-announcement bucket elsewhere, this item might belong there instead."
+    ],
+    "requires_human_review": true
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "medium",
+    "rationale": "The source is a launch-triggered product announcement with a direct trial/download entry point. It fits launch-oriented routing better than checklist/tutorial because there is no execution path, architecture, or setup guidance. Within the launch framework, `release_showcase` is the closest fit because the payoff is quick value signaling plus an entry link, not detailed adoption instructions or pain-migration.",
+    "matched_sample_ids": [
+      "2033848539332415986"
+    ],
+    "requires_human_review": true
+  }
+}

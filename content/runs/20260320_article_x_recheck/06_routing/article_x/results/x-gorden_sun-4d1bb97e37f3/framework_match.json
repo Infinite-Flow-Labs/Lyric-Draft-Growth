@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_recheck/03_source_items/article_x/items/x-gorden_sun-4d1bb97e37f3/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "02_launch_application",
+      "04_failure_reversal",
+      "06_checklist_template"
+    ],
+    "why_these_candidates": [
+      "02_launch_application: score=7 because task_hint=release, body_hit=update, signal_hit=rollout, release_signals=release,rollout",
+      "04_failure_reversal: score=2 because body_hit=switched, body_hit=bottleneck",
+      "06_checklist_template: score=2 because body_hit=architecture, sectioned_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "manual_recovery",
+    "evaluated_at": "2026-03-20T07:05:00Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "high",
+      "rationale": "This source is a release-style architecture note that introduces Mamba-3 by explaining what changed, why inference now matters more than training-only optimization, and why practitioners should care enough to read the linked blog.",
+      "triggered_routing_signals": [
+        "release framing in the title and post body",
+        "linked official blog with concrete technical changes",
+        "reader payoff is why this update matters now",
+        "fits a showcase of a newly surfaced resource rather than a full tutorial"
+      ],
+      "supporting_source_quotes": [
+        "Mamba-3从推理场景出发",
+        "在不增加推理延迟的前提下显著提升模型质量",
+        "博客：https://goombalab.github.io/blog/2026/mamba3-part1/"
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986"
+      ],
+      "ambiguity_notes": [
+        "It also has feature_playbook traits because the linked post explains architectural levers in detail.",
+        "The dominant payoff is still a release-oriented 'why this matters' judgment plus a resource entry point."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "medium",
+        "rationale": "The source explains concrete changes in recurrence, transition richness, and parallel work, which could support an adoption-oriented explainer.",
+        "triggered_routing_signals": [
+          "describes what changed in the architecture",
+          "explains why inference-first design matters",
+          "contains multiple concrete technical levers"
+        ],
+        "supporting_source_quotes": [
+          "What would an SSM designed with inference in mind look like?",
+          "three levers we can pull",
+          "Mamba与Transformer混合使用效果优于纯模型"
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688",
+          "2032978239853826228"
+        ],
+        "ambiguity_notes": [
+          "This is secondary because the post is still best consumed as a release/showcase note with a blog link, not as a step-by-step usage playbook."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "manual_recovery",
+    "evaluated_at": "2026-03-20T07:05:10Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The source is technical, so the article should avoid turning into a shallow product announcement and must keep the inference-first angle concrete."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "high",
+    "rationale": "This source is a release-style architecture note that introduces Mamba-3 by explaining what changed, why inference now matters more than training-only optimization, and why practitioners should care enough to read the linked blog.",
+    "matched_sample_ids": [
+      "2033848539332415986"
+    ],
+    "requires_human_review": false
+  }
+}

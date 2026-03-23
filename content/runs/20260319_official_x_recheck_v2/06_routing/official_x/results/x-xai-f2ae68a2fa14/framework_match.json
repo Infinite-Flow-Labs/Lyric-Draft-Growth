@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/03_source_items/official_x/items/x-xai-f2ae68a2fa14/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof",
+      "02_launch_application"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=8 because body_hit=traffic, signal_hit=$, signal_hit=pricing, business_metric_signals=3",
+      "02_launch_application: score=3 because task_hint=release, release_signals=now available"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:43:18Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "high",
+      "rationale": "The source is a launch-triggered product announcement for a newly available API, with a clear entry link, value framing, capability list, and pricing. It fits launch-application better than money-proof because it is not a results postmortem and does not provide a proof chain, system breakdown, or quantified outcome narrative. Within that framework, release_showcase fits best because the post’s main job is to quickly show why this new voice API is worth checking, trying, or saving, rather than teaching detailed adoption logic or walking through old-vs-new migration.",
+      "triggered_routing_signals": [
+        "Explicit release signal: 'now available'",
+        "Clear resource entry link to the API page",
+        "Value-showcase language around voices and expressive controls",
+        "Linked context lists capabilities and pricing, not a result postmortem"
+      ],
+      "supporting_source_quotes": [
+        "\"now available\"",
+        "\"Start building with natural voices\"",
+        "\"Choose from five distinct voices\"",
+        "\"$4.20 / 1M characters\""
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986"
+      ],
+      "ambiguity_notes": [
+        "feature_playbook is a plausible runner-up because the linked page includes capabilities and pricing, but the source post itself stays at showcase level.",
+        "01_money_proof was prefiltered due to pricing signals, but those numbers are product pricing, not proof of business results."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "medium",
+        "rationale": "This is a realistic alternative because the linked context explains what the API does, offers capability categories, and gives some practical boundary-setting via formats, telephony/web use, and rate limits. It loses to release_showcase because the source item itself is still primarily an announcement plus value teaser, not a true how-to-adopt explanation.",
+        "triggered_routing_signals": [
+          "New feature/API release",
+          "Capabilities and pricing in linked context",
+          "Some practical usage framing"
+        ],
+        "supporting_source_quotes": [
+          "\"Text to Speech API is now available\"",
+          "\"Built for telephony and web\"",
+          "\"multiple audio formats\""
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "Would rank first if the source had stronger how-to-use guidance, boundary advice, or concrete setup steps."
+        ]
+      },
+      {
+        "framework_id": "01_money_proof",
+        "submode_id": "metric_postmortem",
+        "confidence": "low",
+        "rationale": "The prefilter picked this up because of multiple dollar figures, but the source does not behave like a quantified results breakdown. The numbers are pricing and rate limits for a released API, not outcome metrics backed by process or lessons learned.",
+        "triggered_routing_signals": [
+          "Contains pricing figures",
+          "Contains operational limits"
+        ],
+        "supporting_source_quotes": [
+          "\"$0.05 / min\"",
+          "\"$4.20 / 1M characters\""
+        ],
+        "matched_sample_ids": [
+          "2031489944083116370"
+        ],
+        "ambiguity_notes": [
+          "Weak fit because there is no proof chain, operator postmortem structure, or measurable outcome narrative."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:43:24Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "high",
+    "rationale": "The source is a launch-triggered product announcement for a newly available API, with a clear entry link, value framing, capability list, and pricing. It fits launch-application better than money-proof because it is not a results postmortem and does not provide a proof chain, system breakdown, or quantified outcome narrative. Within that framework, release_showcase fits best because the post’s main job is to quickly show why this new voice API is worth checking, trying, or saving, rather than teaching detailed adoption logic or walking through old-vs-new migration.",
+    "matched_sample_ids": [
+      "2033848539332415986"
+    ],
+    "requires_human_review": false
+  }
+}

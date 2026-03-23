@@ -1,0 +1,7 @@
+{
+  "publisher_type": "x_post_bitbrowser",
+  "publisher_account": "AI 望远镜",
+  "browser_id": "0c045116ce514fab9bad0fd72944d75d",
+  "bit_port": 54345,
+  "accounts_csv_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/accounts_bitbrowser.csv"
+}

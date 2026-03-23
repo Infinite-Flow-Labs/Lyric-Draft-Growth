@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lyc_zh-b47c74c3b336",
+  "fetched_at": "2026-03-19T06:58:54Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lyc_zh/status/2034042604267188307",
+  "author": {
+    "handle": "@lyc_zh",
+    "display_name": "lyc_zh",
+    "account_url": "https://x.com/lyc_zh"
+  },
+  "title": "用户画像系统的问题，不是数据太少。 是「我知道这个用户需要重新激活」和「我知道现在该怎么联系他」之间，还隔着三份报告、一个分析师、一段 SQL。 Tags 是中间产物，不是最终价值。最终价值是：够快、够准的判断。 欢迎大家参与 https://x.com/i/spaces/1jxXgeaDYOoJZ?s=20 听 @hirelucius 工程师来聊～",
+  "language": "unknown",
+  "published_at": "2026-03-17T23:02:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lyc_zh/status/2034042604267188307",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lyc_zh/status/2034042604267188307#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "用户画像系统的问题，不是数据太少。 是「我知道这个用户需要重新激活」和「我知道现在该怎么联系他」之间，还隔着三份报告、一个分析师、一段 SQL。 Tags 是中间产物，不是最终价值。最终价值是：够快、够准的判断。 欢迎大家参与 nitter.net/i/spaces/1jxXgeaDYOoJZ… 听 @hirelucius 工程师来聊～ Lucius AI (@hirelucius) x.com/i/article/203389555733… — https://nitter.net/hirelucius/status/2033930934572011549#m",
+    "full_text": "Post title: 用户画像系统的问题，不是数据太少。 是「我知道这个用户需要重新激活」和「我知道现在该怎么联系他」之间，还隔着三份报告、一个分析师、一段 SQL。 Tags 是中间产物，不是最终价值。最终价值是：够快、够准的判断。 欢迎大家参与 https://x.com/i/spaces/1jxXgeaDYOoJZ?s=20 听 @hirelucius 工程师来聊～\n\nPost summary: 用户画像系统的问题，不是数据太少。 是「我知道这个用户需要重新激活」和「我知道现在该怎么联系他」之间，还隔着三份报告、一个分析师、一段 SQL。 Tags 是中间产物，不是最终价值。最终价值是：够快、够准的判断。 欢迎大家参与 nitter.net/i/spaces/1jxXgeaDYOoJZ… 听 @hirelucius 工程师来聊～ Lucius AI (@hirelucius) x.com/i/article/203389555733… — https://nitter.net/hirelucius/status/2033930934572011549#m\n\nCanonical URL: https://x.com/lyc_zh/status/2034042604267188307",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "SQL",
+      "Tags",
+      "Lucius AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "用户画像系统的问题，不是数据太少。 是「我知道这个用户需要重新激活」和「我知道现在该怎么联系他」之间，还隔着三份报告、一个分析师、一段 SQL。 Tags 是中间产物，不是最终价值。最终价值是：够快、够准的判断。 欢迎大家参与 https://x.com/i/spaces/1jxXgeaDYOoJZ?s=20 听 @hirelucius 工程师来聊～",
+      "用户画像系统的问题，不是数据太少。 是「我知道这个用户需要重新激活」和「我知道现在该怎么联系他」之间，还隔着三份报告、一个分析师、一段 SQL。 Tags 是中间产物，不是最终价值。最终价值是：够快、够准的判断。 欢迎大家参与 nitter.net/i/spaces/1jxXgeaDYOoJZ… 听 @hirelucius 工程师来聊～ Lucius AI (@hirelucius) x.com/i/article/203389555733… — https://nitter.net/hirelucius/status/2033930934572011549#m",
+      "SQL",
+      "Tags",
+      "Lucius AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

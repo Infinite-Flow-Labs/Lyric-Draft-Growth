@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-20T05:17:01Z",
+  "framework_match_root": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/06_routing/podcast/results",
+  "out_root": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/07_rewrite_contexts/podcast/results",
+  "count": 2,
+  "ok_count": 2,
+  "schema_error_count": 0,
+  "results": [
+    {
+      "source_id": "podcast-practical_ai-c28e7eb8060b",
+      "status": "ok",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "conversation_distillation",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/07_rewrite_contexts/podcast/results/podcast-practical_ai-c28e7eb8060b/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/07_rewrite_contexts/podcast/results/podcast-practical_ai-c28e7eb8060b/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "podcast-the_cognitive_revolution-e808e1ad9465",
+      "status": "ok",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/07_rewrite_contexts/podcast/results/podcast-the_cognitive_revolution-e808e1ad9465/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/07_rewrite_contexts/podcast/results/podcast-the_cognitive_revolution-e808e1ad9465/rewrite_context.md",
+      "validation_error": null
+    }
+  ]
+}

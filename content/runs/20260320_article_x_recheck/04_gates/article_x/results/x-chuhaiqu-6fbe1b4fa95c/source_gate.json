@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_recheck/03_source_items/article_x/items/x-chuhaiqu-6fbe1b4fa95c/source_item.json",
+  "source_id": "x-chuhaiqu-6fbe1b4fa95c",
+  "longform_eligible": false,
+  "recommended_action": "hold_or_shortform",
+  "reasons": [
+    "full_text too short for longform (111 words < 140)"
+  ],
+  "signals": {
+    "source_kind": "x_thread",
+    "primary_text_source": "x_post",
+    "participant_count": 0,
+    "summary_words": 55,
+    "full_text_words": 111,
+    "fact_anchor_count": 14,
+    "trimmed_noisy_episode_page": false,
+    "linked_context_asset_count": 0,
+    "announcement_like": false
+  }
+}

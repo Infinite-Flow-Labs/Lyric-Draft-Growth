@@ -1,0 +1,14 @@
+{
+  "publisher_type": "x_post_bitbrowser",
+  "accounts_csv_path": "",
+  "publisher_account": "",
+  "browser_binding_mode": "accounts_csv",
+  "browser_id": "",
+  "bit_port": 54345,
+  "default_publish_time": "20:30",
+  "timezone": "Asia/Shanghai",
+  "image_policy": {
+    "required": true,
+    "default_filename": "post.jpg"
+  }
+}

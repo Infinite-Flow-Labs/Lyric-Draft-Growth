@@ -1,0 +1,282 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-19T10:43:24Z",
+  "backend": "codex_cli",
+  "source_item_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/03_source_items/official_x/items",
+  "prefilter_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/05_prefilter/official_x/results",
+  "source_gate_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/04_gates/official_x/results",
+  "framework_specs_dir": "/home/lyric/growth-engine-pipeline/framework",
+  "count": 30,
+  "results": [
+    {
+      "source_id": "x-aiatmeta-c288c436d081",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-aiatmeta-c288c436d081/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-aiatmeta-c288c436d081/framework_match.md",
+      "final_framework_id": "02_launch_application",
+      "final_submode_id": "release_showcase",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-anthropicai-7216d6565697",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-anthropicai-b79579a40386",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-anthropicai-b79579a40386/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-anthropicai-b79579a40386/framework_match.md",
+      "final_framework_id": "01_money_proof",
+      "final_submode_id": "metric_postmortem",
+      "requires_human_review": true
+    },
+    {
+      "source_id": "x-cohere-88b540bdac01",
+      "status": "skipped_no_candidates",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-cohere-c539ca71e519",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-elevenlabs-1738ed255b22",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-elevenlabs-c58c098985eb",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-googledeepmind-2ac914f175fb",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-googledeepmind-2ac914f175fb/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-googledeepmind-2ac914f175fb/framework_match.md",
+      "final_framework_id": "02_launch_application",
+      "final_submode_id": "release_showcase",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-googledeepmind-cbedf588e2f4",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-googledeepmind-cbedf588e2f4/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-googledeepmind-cbedf588e2f4/framework_match.md",
+      "final_framework_id": "03_opinion_decode",
+      "final_submode_id": "signal_decode",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-mistralai-0722e32bc3de",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-mistralai-7e47f9cf94f3",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-mistralai-eb537fb905fa",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-mistralai-eb537fb905fa/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-mistralai-eb537fb905fa/framework_match.md",
+      "final_framework_id": "02_launch_application",
+      "final_submode_id": "release_showcase",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-openai-707055b8a457",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-openai-8f6ed0f162e6",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-openai-8f6ed0f162e6/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-openai-8f6ed0f162e6/framework_match.md",
+      "final_framework_id": "02_launch_application",
+      "final_submode_id": "release_showcase",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-openai-af7edec328da",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-openai-af7edec328da/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-openai-af7edec328da/framework_match.md",
+      "final_framework_id": "02_launch_application",
+      "final_submode_id": "release_showcase",
+      "requires_human_review": true
+    },
+    {
+      "source_id": "x-openaidevs-6772bdddc69c",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-openaidevs-b34f34f931e7",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-perplexity_ai-051381daad4b",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-perplexity_ai-24a80ac9f768",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-perplexity_ai-8951d9c98a1a",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-perplexity_ai-c22d3979836d",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-perplexity_ai-e87da3dc441a",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-perplexity_ai-f89a10327e81",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-perplexity_ai-f89a10327e81/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-perplexity_ai-f89a10327e81/framework_match.md",
+      "final_framework_id": "02_launch_application",
+      "final_submode_id": "release_showcase",
+      "requires_human_review": true
+    },
+    {
+      "source_id": "x-perplexity_ai-fae567cc03de",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-runwayml-09088e8cb48a",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-runwayml-0a7031607ba1",
+      "status": "skipped_no_candidates",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-runwayml-62f5263a3d75",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-runwayml-b1d0ffbc8ad0",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-runwayml-c735f8b3479d",
+      "status": "skipped_source_gate",
+      "output_json": "",
+      "output_md": "",
+      "final_framework_id": "",
+      "final_submode_id": "",
+      "requires_human_review": false
+    },
+    {
+      "source_id": "x-xai-f2ae68a2fa14",
+      "status": "ok",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-xai-f2ae68a2fa14/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v2/06_routing/official_x/results/x-xai-f2ae68a2fa14/framework_match.md",
+      "final_framework_id": "02_launch_application",
+      "final_submode_id": "release_showcase",
+      "requires_human_review": false
+    }
+  ]
+}

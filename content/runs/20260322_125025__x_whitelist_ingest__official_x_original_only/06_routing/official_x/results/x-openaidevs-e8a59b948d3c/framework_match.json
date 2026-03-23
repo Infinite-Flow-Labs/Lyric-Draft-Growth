@@ -1,0 +1,106 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/03_source_items/official_x/items/x-openaidevs-e8a59b948d3c/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "06_checklist_template",
+      "01_money_proof",
+      "02_launch_application"
+    ],
+    "why_these_candidates": [
+      "06_checklist_template: score=11 because task_hint=workflow, body_hit=steps, body_hit=guide, signal_hit=tutorial",
+      "01_money_proof: score=4 because title_hit=$, body_hit=pricing, business_metric_signals=1",
+      "02_launch_application: score=2 because task_hint=release"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "gpt-5.4",
+    "evaluated_at": "2026-03-22T12:54:02Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "high",
+      "rationale": "The source is a product/resource announcement with a clear entry link and a simple value proposition: eligible students get Codex credits and are invited to try it. It does not provide an execution path, system walkthrough, or quantified outcome proof, so it fits a release-led value showcase better than onboarding or money-proof frames.",
+      "triggered_routing_signals": [
+        "Explicit launch/announcement framing around a new offering",
+        "Clear resource entry point via linked landing page",
+        "Primary reader payoff is deciding whether to click, save, or try it",
+        "Value is presented as a concise offer, not a tutorial or postmortem"
+      ],
+      "supporting_source_quotes": [
+        "\"Meet Codex for Students.\"",
+        "\"$100 in Codex credits\"",
+        "\"U.S. and Canada\"",
+        "\"chatgpt.com/codex/students\""
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986"
+      ],
+      "ambiguity_notes": [
+        "The post mentions a concrete dollar amount, but it is an offer, not proof of business results.",
+        "The linked page may contain onboarding details, but the source excerpt itself is announcement-first, not tutorial-first."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "medium",
+        "rationale": "A weaker but plausible alternative if the linked page substantially explains how students should use Codex and when it is useful. The visible source, however, stays at announcement/value level rather than concept clarification or best-practice adoption guidance.",
+        "triggered_routing_signals": [
+          "New offering tied to a product capability",
+          "Potential adoption intent after announcement"
+        ],
+        "supporting_source_quotes": [
+          "\"support students to learn by building\"",
+          "\"Meet Codex for Students.\""
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "Insufficient evidence in the excerpt for detailed feature explanation or usage boundaries."
+        ]
+      },
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "guided_onboarding",
+        "confidence": "low",
+        "rationale": "Prefilter surfaced workflow/tutorial hints, but the source itself lacks steps, prerequisites, pitfalls, or follow-along structure. That makes onboarding a poor fit unless additional unseen material carries the real payload.",
+        "triggered_routing_signals": [
+          "Linked destination could imply onboarding"
+        ],
+        "supporting_source_quotes": [
+          "\"chatgpt.com/codex/students\""
+        ],
+        "matched_sample_ids": [
+          "2029894874888278198"
+        ],
+        "ambiguity_notes": [
+          "The source post does not show checklist/tutorial evidence required by this framework."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "gpt-5.4",
+    "evaluated_at": "2026-03-22T12:54:06Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "high",
+    "rationale": "The source is a product/resource announcement with a clear entry link and a simple value proposition: eligible students get Codex credits and are invited to try it. It does not provide an execution path, system walkthrough, or quantified outcome proof, so it fits a release-led value showcase better than onboarding or money-proof frames.",
+    "matched_sample_ids": [
+      "2033848539332415986"
+    ],
+    "requires_human_review": false
+  }
+}

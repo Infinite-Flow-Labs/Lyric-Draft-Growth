@@ -1,0 +1,101 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/03_source_items/official_x/items/x-perplexity_ai-f89a10327e81/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "02_launch_application",
+      "06_checklist_template"
+    ],
+    "why_these_candidates": [
+      "02_launch_application: score=7 because task_hint=release, signal_hit=introducing, body_hit=update, release_signals=introducing,now available",
+      "06_checklist_template: score=6 because task_hint=workflow, signal_hit=workflow, execution_path_hint, sectioned_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:45:52Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "low",
+      "rationale": "This is a launch-triggered product announcement with a direct entry link, so it fits a lightweight release/showcase frame better than any execution-path framework. The source is thin and promotional, which weakens fit, but it still aligns more with a quick trial/download prompt than with tutorial or workflow content.",
+      "triggered_routing_signals": [
+        "Explicit release language",
+        "Direct App Store entry link",
+        "Reader payoff is immediate trial/download",
+        "No step-by-step workflow or architecture"
+      ],
+      "supporting_source_quotes": [
+        "\"Comet is now available for iOS\"",
+        "\"Download on the App Store\"",
+        "\"announcement\""
+      ],
+      "matched_sample_ids": [],
+      "ambiguity_notes": [
+        "The post is very short and borders on a pure announcement/news blurb.",
+        "It lacks adoption detail, so framework fit is weaker than a full post-launch adoption writeup."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "low",
+        "rationale": "A weaker alternative because this is a new product capability release, but the source does not explain what the feature solves, how to use it, or its boundaries.",
+        "triggered_routing_signals": [
+          "New capability launch",
+          "Product availability update"
+        ],
+        "supporting_source_quotes": [
+          "\"now available for iOS\"",
+          "\"Comet\""
+        ],
+        "matched_sample_ids": [],
+        "ambiguity_notes": [
+          "Missing concept clarification and best-practice guidance makes this submode weak."
+        ]
+      },
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "capability_extension",
+        "confidence": "low",
+        "rationale": "A distant competitor only because Comet could be seen as extending an existing AI workflow onto iOS, but the source gives no install/config path or before/after capability explanation.",
+        "triggered_routing_signals": [
+          "Workflow hint in prefilter",
+          "Product can imply added capability"
+        ],
+        "supporting_source_quotes": [
+          "\"workflow\"",
+          "\"Download\""
+        ],
+        "matched_sample_ids": [],
+        "ambiguity_notes": [
+          "Framework-level unfit is strong here because there is no execution path."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:46:10Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The source is extremely thin and borderline disqualified for `02_launch_application` because it is close to a pure announcement with almost no adoption path or value translation.",
+      "`release_showcase` is only a weak fit here: there is a clear launch trigger and entry link, but little evidence beyond availability/download CTA.",
+      "`06_checklist_template` is materially worse because the post provides no execution path, setup steps, workflow, or architecture payoff."
+    ],
+    "requires_human_review": true
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "low",
+    "rationale": "This is a launch-triggered product announcement with a direct entry link, so it fits a lightweight release/showcase frame better than any execution-path framework. The source is thin and promotional, which weakens fit, but it still aligns more with a quick trial/download prompt than with tutorial or workflow content.",
+    "matched_sample_ids": [],
+    "requires_human_review": true
+  }
+}

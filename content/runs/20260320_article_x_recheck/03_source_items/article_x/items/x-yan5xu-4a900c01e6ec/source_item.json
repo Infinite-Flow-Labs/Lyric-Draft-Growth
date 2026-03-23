@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-yan5xu-4a900c01e6ec",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/yan5xu/status/2033721922757005519",
+  "author": {
+    "handle": "@yan5xu",
+    "display_name": "yan5xu",
+    "account_url": "https://x.com/yan5xu"
+  },
+  "title": "这里说了几个问题 1. 为什么我不推荐垂类做 Agent 2. 为什么 skill 不会是 Agent application 3. Agent native application 是什么 4. Agent os 和 application 各自的命题，和相互的关系",
+  "language": "unknown",
+  "published_at": "2026-03-17T01:47:45Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/yan5xu/status/2033721922757005519",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/yan5xu/status/2033721922757005519#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "这里说了几个问题 1. 为什么我不推荐垂类做 Agent 2. 为什么 skill 不会是 Agent application 3. Agent native application 是什么 4. Agent os 和 application 各自的命题，和相互的关系 yan5xu (@yan5xu) x.com/i/article/203371576152… — https://nitter.net/yan5xu/status/2033721014413402303#m",
+    "full_text": "Post title: 这里说了几个问题 1. 为什么我不推荐垂类做 Agent 2. 为什么 skill 不会是 Agent application 3. Agent native application 是什么 4. Agent os 和 application 各自的命题，和相互的关系\n\nPost summary: 这里说了几个问题 1. 为什么我不推荐垂类做 Agent 2. 为什么 skill 不会是 Agent application 3. Agent native application 是什么 4. Agent os 和 application 各自的命题，和相互的关系 yan5xu (@yan5xu) x.com/i/article/203371576152… — https://nitter.net/yan5xu/status/2033721014413402303#m\n\nCanonical URL: https://x.com/yan5xu/status/2033721922757005519",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Agent",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "这里说了几个问题 1. 为什么我不推荐垂类做 Agent 2. 为什么 skill 不会是 Agent application 3. Agent native application 是什么 4. Agent os 和 application 各自的命题，和相互的关系",
+      "这里说了几个问题 1. 为什么我不推荐垂类做 Agent 2. 为什么 skill 不会是 Agent application 3. Agent native application 是什么 4. Agent os 和 application 各自的命题，和相互的关系 yan5xu (@yan5xu) x.com/i/article/203371576152… — https://nitter.net/yan5xu/status/2033721014413402303#m",
+      "Agent",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

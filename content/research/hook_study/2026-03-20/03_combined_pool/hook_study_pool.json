@@ -1,0 +1,2527 @@
+{
+  "generated_at": "2026-03-20T13:29:52Z",
+  "stats": {
+    "whitelist_article_like_count": 32,
+    "framework_source_count": 105,
+    "combined_unique_count": 85
+  },
+  "items": [
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "01_money_proof",
+      "framework_label": "结果证明复盘型",
+      "submode_id": "cash_case_replay",
+      "url": "https://x.com/bggg_ai/status/2029810787003552020",
+      "title": "用Openclaw+Obsidian搭建内容工厂，写100W+阅读爆文，单篇6000元",
+      "author": "@bggg_ai",
+      "preview": "去年，我做过公众号爆文项目，凭借以前做内容的网感，爆了一篇百万级阅读量的文章。\n当时还小复盘了一下：\n \n一篇公众号百万阅读量的文章，有多少钱？附10 条「独家」公众号真相",
+      "type_guess": "01_money_proof",
+      "why_it_matters": "战绩做钩子，系统复盘做主体的典型样本，先处理怀疑，再展开方法。",
+      "hook_move": "先给百万阅读和 6000 元收益，再主动提出这到底是内容本身还是老号权重。",
+      "style_cue": "极客感和赚钱感同时存在，不是晒战绩，而是把系统复盘做实。",
+      "proof_mode": [
+        "验证实验",
+        "系统架构",
+        "目录设计",
+        "Agent 配置",
+        "规则文件"
+      ],
+      "reusable_parts": [
+        "先主动处理质疑",
+        "从单点成功过渡到系统化重建",
+        "用底层配置和规则证明不是空话"
+      ],
+      "local_ref": "framework/01_money_proof/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "01_money_proof",
+      "framework_label": "结果证明复盘型",
+      "submode_id": "metric_postmortem",
+      "url": "https://x.com/MatijaSosic/status/2031489944083116370",
+      "title": "What the Real Fundraise Looks Like: 250 Meetings in 98 Days to $1.5M",
+      "author": "@MatijaSosic",
+      "preview": "Our YC Demo Day generated 100+ investor leads. None of them invested. That's how our fundraise started. Here's how the next 98 days went.\nThe stats\n \n212 investors contacted led to 250+ meetings:\n171",
+      "type_guess": "01_money_proof",
+      "why_it_matters": "极干净的 operator postmortem 样本，用 hard stats 打破融资想象，再把低谷期和心态重构写出来。",
+      "hook_move": "先给一个反直觉事实：YC Demo Day 带来的 100+ 投资人线索，零人投资。",
+      "style_cue": "数字很多，但真正抓力来自低谷期和心态重构。",
+      "proof_mode": [
+        "数据总览",
+        "时间线",
+        "阶段分解",
+        "心态转折",
+        "fundraise lessons"
+      ],
+      "reusable_parts": [
+        "用 hard stats 直接打破想象",
+        "把死亡谷写出来增强可信度",
+        "结尾给 fundraise 系统认知"
+      ],
+      "local_ref": "framework/01_money_proof/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "01_money_proof",
+      "framework_label": "结果证明复盘型",
+      "submode_id": "metric_postmortem",
+      "url": "https://x.com/jakezward/status/2031701565434732917",
+      "title": "How I built 13,000+ pages in 3 hours and grew SEO traffic +466% in 60 days",
+      "author": "@jakezward",
+      "preview": "60 days ago, the pages driving most of our SEO traffic didn't exist.\nToday:\n13,000+ programmatic pages live\nWeekly organic clicks went from 971 to 5,500\n+466% (or 5.7x) traffic increase in 60 days\nAnd",
+      "type_guess": "01_money_proof",
+      "why_it_matters": "典型 builder/operator 复盘，结果之后立刻补这不是 template spam，主动回应质疑。",
+      "hook_move": "先给超大结果数字，再立刻补 no template spam, no thin AI content。",
+      "style_cue": "核心不是增长好爽，而是这个系统为什么规模化后还没坏掉。",
+      "proof_mode": [
+        "系统架构",
+        "content category breakdown",
+        "schema explanation",
+        "rollout metrics",
+        "lessons learned"
+      ],
+      "reusable_parts": [
+        "结果之后立刻补这不是你想的那种东西",
+        "把增长归因到结构而不是模型 magic",
+        "用具体 system parts 证明质量"
+      ],
+      "local_ref": "framework/01_money_proof/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "01_money_proof",
+      "framework_label": "结果证明复盘型",
+      "submode_id": "cash_case_replay",
+      "url": "https://x.com/onehopeA9/status/2032820424678191137",
+      "title": "如何用OpenClaw一个月赚到特斯拉（全路径复盘）",
+      "author": "@onehopeA9",
+      "preview": "今天终于把特斯拉提了，说实话我自己都有点不真实的感觉。\n今年 1，2 月，当大厂裁员消息一个接一个的时候，我刷推看到的全是焦虑：“AI 要取代我们了”、“程序员要失业了”。\n我呢，我选择了ALL IN",
+      "type_guess": "01_money_proof",
+      "why_it_matters": "很强的 hustler/operator 混合样本，用市场魔幻感、首单验证和交付踩坑一起证明路径成立。",
+      "hook_move": "先用提特斯拉制造高张力，再主动承认只是首付，减弱标题党反感。",
+      "style_cue": "既有发现赚钱机会的兴奋，也有真正做项目的人才会写出来的细节。",
+      "proof_mode": [
+        "市场价格观察",
+        "周别时间线",
+        "客户需求细节",
+        "方案报价",
+        "技术问题与修复"
+      ],
+      "reusable_parts": [
+        "从市场魔幻感建立机会判断",
+        "用第一单和大单两层证明路径成立",
+        "把交付中的技术坑讲透"
+      ],
+      "local_ref": "framework/01_money_proof/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "02_launch_application",
+      "framework_label": "发布后落地型",
+      "submode_id": "feature_playbook",
+      "url": "https://x.com/emanueledpt/status/2033651724603240688",
+      "title": "How to run subagents in Codex",
+      "author": "@emanueledpt",
+      "preview": "Codex just dropped subagents.\nHere's everything you need to know.\n𝗪𝗵𝗮𝘁 𝗮𝗿𝗲 𝘀𝘂𝗯𝗮𝗴𝗲𝗻𝘁𝘀?\nWhen you use Codex today, everything runs in one single thread.\nYou give it a task. It explores",
+      "type_guess": "02_launch_application",
+      "why_it_matters": "标准 feature_playbook 样本，发布消息只是入口，主体是清晰的功能定义、配置思路和使用边界。",
+      "hook_move": "先给发布消息，再立刻接 Here's everything you need to know。",
+      "style_cue": "清晰分段、快速定义、直接给例子，像熟悉产品的人在做高密度入门说明。",
+      "proof_mode": [
+        "白话机制解释",
+        "prompt 示例",
+        "model 选择建议",
+        "best use cases",
+        "when not to use"
+      ],
+      "reusable_parts": [
+        "先解释旧工作流噪音问题，再引出新 feature",
+        "用一个 prompt 例子快速落地",
+        "正反场景并列帮助读者做采用判断"
+      ],
+      "local_ref": "framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "02_launch_application",
+      "framework_label": "发布后落地型",
+      "submode_id": "release_showcase",
+      "url": "https://x.com/oran_ge/status/2033848539332415986",
+      "title": "清华团队开源 AI 课堂，人人都能学起来",
+      "author": "@oran_ge",
+      "preview": "前两天清华团队开源了个好东西，一个 AI 课堂，名字叫 OpenMAIC。\n简单说，它是一个 AI 教学系统，有点像一个高级版的 NotebookLM。\n你给它一个话题或者丢给它任何学习材料，它就能自动生成一堂完整的 AI 互动课 。",
+      "type_guess": "02_launch_application",
+      "why_it_matters": "中文资源发布型典型样本，用高级版 NotebookLM 这类白话定位快速完成价值翻译。",
+      "hook_move": "先说开源了个好东西，再用高级版 NotebookLM 一秒钟定位。",
+      "style_cue": "低门槛定义、快速举例、把抽象功能翻成人人能想象的学习场景。",
+      "proof_mode": [
+        "一句话定位",
+        "快速上手说明",
+        "多个使用场景",
+        "教育意义收束",
+        "链接出口"
+      ],
+      "reusable_parts": [
+        "简单说，它是...",
+        "先讲怎么用，再给具体场景",
+        "把抽象功能翻成学习场景"
+      ],
+      "local_ref": "framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "02_launch_application",
+      "framework_label": "发布后落地型",
+      "submode_id": "pain_to_adoption",
+      "url": "https://x.com/bggg_ai/status/2032283258650759362",
+      "title": "90%的亚马逊选品还不如算命，AI选品系统发布！！",
+      "author": "@bggg_ai",
+      "preview": "做了十年数据分析，我发现一个特别残酷的事实。\n跨境电商圈90%的选品决策，本质上跟扔骰子没区别。\n花钱买卖家精灵，看半天数据。",
+      "type_guess": "02_launch_application",
+      "why_it_matters": "强销售转化感的 pain_to_adoption 样本，但正文靠 dashboard、流程和评分逻辑撑住，不是空泛卖点。",
+      "hook_move": "先用 90% 选品像算命 猛烈打穿旧认知，再把新系统命名成选品算命。",
+      "style_cue": "强销售转化感的产品文，但正文靠 dashboard、流程和评分逻辑撑住。",
+      "proof_mode": [
+        "旧流程痛点",
+        "仪表盘 walkthrough",
+        "评分逻辑解释",
+        "AI 对话示例",
+        "数据导入步骤"
+      ],
+      "reusable_parts": [
+        "先打旧方法，再抬新方法",
+        "用控制台和操作路径证明不是空口卖点",
+        "既讲系统怎么判断，也讲系统怎么落地"
+      ],
+      "local_ref": "framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "02_launch_application",
+      "framework_label": "发布后落地型",
+      "submode_id": "pain_to_adoption",
+      "url": "https://x.com/oran_ge/status/2033420708815208868",
+      "title": "龙虾专属模型来了，给你的虾换个好脑子吧",
+      "author": "@oran_ge",
+      "preview": "最近🦞养虾成了全国潮流。\n各家大厂都在推波助澜，线下活动场场爆满。\n当我们去线下交流的时候，就发现了真正的问题。\n除了国产大模型御三家之外，大部分云厂商所提供的模型，都还是上一代的模型，DeepSeek V3.2",
+      "type_guess": "02_launch_application",
+      "why_it_matters": "模型升级发布被翻译成真实任务能力升级，是从体验感切入的采用文代表样本。",
+      "hook_move": "从线下交流里发现的真实问题切入，不是从参数表或跑分开局。",
+      "style_cue": "口语强、画面感强、KOC 式兴奋感和产品经理式体验分享混在一起。",
+      "proof_mode": [
+        "旧模型失灵场景",
+        "跑分背书",
+        "真实任务测试",
+        "套餐和价格"
+      ],
+      "reusable_parts": [
+        "先建错误基线，再说明新模型带来的质变",
+        "用多个具体任务证明能干活",
+        "从体验感受过渡到采用动作"
+      ],
+      "local_ref": "framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "02_launch_application",
+      "framework_label": "发布后落地型",
+      "submode_id": "feature_playbook",
+      "url": "https://x.com/xxx111god/status/2032978239853826228",
+      "title": "Claude 给了你 1M Token 的上下文，但别真的全塞满",
+      "author": "@xxx111god",
+      "preview": "昨天 Anthropic 官宣：Opus 4.6 和 Sonnet 4.6 全面开放 1M context window，所有付费用户都能用。而且取消了长上下文溢价，塞 10K 还是 900K，每个 token 价格一样。\n这绝对是好事。100 万 token，大概 75",
+      "type_guess": "02_launch_application",
+      "why_it_matters": "典型 corrective stance 样本：借发布消息做采用纠偏，而不是重复官方乐观叙事。",
+      "hook_move": "先承认这是好事，立刻接一个但，把热情转成判断。",
+      "style_cue": "节制兴奋 + 技术现实主义，核心是别被发布消息误导。",
+      "proof_mode": [
+        "机制解释",
+        "Reddit 用户反馈",
+        "官方做法",
+        "个人实践经验",
+        "best practices"
+      ],
+      "reusable_parts": [
+        "发布消息只是入口",
+        "多层证据堆叠：原理、社区反馈、官方做法、个人经验",
+        "结尾给出明确行动建议"
+      ],
+      "local_ref": "framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "02_launch_application",
+      "framework_label": "发布后落地型",
+      "submode_id": "release_showcase",
+      "url": "https://x.com/canghe/status/2032044423413182827",
+      "title": "《OpenClaw 从入门到精通指南》正式发布，开源免费！",
+      "author": "@canghe",
+      "preview": "今天，我们打磨了很久的《OpenClaw 从入门到精通指南》终于正式和大家见面了。\n \n他是完全免费的，开源的。\n从 OpenClaw 还没大火的时候，我们就开始写这份文档，那个时候在 X",
+      "type_guess": "02_launch_application",
+      "why_it_matters": "强实践者背书的 release_showcase 样本，不是靠功能列表，而是靠制作过程证明这份资源值得信。",
+      "hook_move": "不是先吹内容，而是先讲我们做了很久、每一步都亲自实践过。",
+      "style_cue": "强烈的实践者背书风格，不像官方文档发布，更像真的做过很多坑的人把成果交给你。",
+      "proof_mode": [
+        "制作过程",
+        "覆盖内容",
+        "入门痛点",
+        "应用场景",
+        "skill 推荐和打包"
+      ],
+      "reusable_parts": [
+        "用制作过程本身证明质量",
+        "先解决为什么这份资料值得信",
+        "把内容丰富翻译成拿来就能用"
+      ],
+      "local_ref": "framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "02_launch_application",
+      "framework_label": "发布后落地型",
+      "submode_id": "feature_playbook",
+      "url": "https://x.com/reach_vb/status/2033636057690800452",
+      "title": "You Should Be Using Subagents in Codex!",
+      "author": "@reach_vb",
+      "preview": "Codex supports subagents: specialized child agents that you explicitly spawn for parallel work. Each subagent runs with its own instructions, model settings, and tool context, and Codex merges the",
+      "type_guess": "02_launch_application",
+      "why_it_matters": "更接近 docs-to-human 的技术说明样本，定义、限制和 role example 三件事都很清楚。",
+      "hook_move": "开头不做铺垫，直接定义 subagents 是什么，以及它们在 runtime 中怎么存在。",
+      "style_cue": "句子完整、边界清楚，但仍保留你应该这么用的主张性。",
+      "proof_mode": [
+        "运行模型定义",
+        "自定义 agent 配置字段",
+        "global limits",
+        "role split 示例",
+        "tips and principles"
+      ],
+      "reusable_parts": [
+        "先定义，再限制，再给好用模式",
+        "通过 role example 让用法可视化",
+        "非常适合功能本身需要概念澄清的发布文"
+      ],
+      "local_ref": "framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "02_launch_application",
+      "framework_label": "发布后落地型",
+      "submode_id": "pain_to_adoption",
+      "url": "https://x.com/ityouknows/status/2032316152375099424",
+      "title": "这应该使用 OpenClaw 最简单的方案了，点击安装就能用，1 分钟绑定微信，直接在微信里让电脑干活。",
+      "author": "@ityouknows",
+      "preview": "说实话，用命令行在 Windows 系统下安装 OpenClaw ，确实太费劲了，需要处理各种各样的环境问题，安装时各种异常问题。\n现在腾讯最新版的 WorkBuddy",
+      "type_guess": "02_launch_application",
+      "why_it_matters": "典型把复杂开源软件采用路径产品化的样本，旧基线是命令行安装门槛，新方案是点击安装的低摩擦答案。",
+      "hook_move": "直接从命令行安装太费劲了开场，立刻把产品化方案摆出来。",
+      "style_cue": "门槛感和顺滑感对照非常强，像在替普通用户把复杂开源软件改造成能直接上手的产品。",
+      "proof_mode": [
+        "安装步骤",
+        "注册和领取积分",
+        "微信绑定流程",
+        "主界面功能说明",
+        "群入口和后续资源"
+      ],
+      "reusable_parts": [
+        "先明确旧门槛",
+        "把复杂采用路径改造成产品化 onboarding",
+        "让普通用户也能迅速想象第一步"
+      ],
+      "local_ref": "framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "03_opinion_decode",
+      "framework_label": "外部信号解码型",
+      "submode_id": "signal_decode",
+      "url": "https://x.com/dotey/status/2033441957985280451",
+      "title": "智能体工程的 8 个等级【译】",
+      "author": "@dotey",
+      "preview": "作者：Bassim Eledath\n原文：The 8 Levels of Agentic Engineering — Bassim Eledath\nAI 的编程能力正在超越我们驾驭它的能力。这就是为什么所有那些拼命刷 SWE-bench",
+      "type_guess": "03_opinion_decode",
+      "why_it_matters": "典型 paper/framework 解码样本，不是硬翻译，而是把等级框架压成一条可理解的升级路径。",
+      "hook_move": "先立能力和实践之间有一道差距，再告诉读者这个差距是分 8 级逐步缩小的。",
+      "style_cue": "翻译现成框架，但读起来不像生硬翻译，依赖解释性过渡和分级命名。",
+      "proof_mode": [
+        "框架翻译",
+        "分级解释",
+        "实践举例",
+        "来源引用"
+      ],
+      "reusable_parts": [
+        "不仅翻 level 名称，还讲清楚为什么重要",
+        "用你应该在意的原因建立阅读动机",
+        "在大框架里穿插具体工具和系统例子"
+      ],
+      "local_ref": "framework/03_opinion_decode/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "03_opinion_decode",
+      "framework_label": "外部信号解码型",
+      "submode_id": "conversation_distillation",
+      "url": "https://x.com/PMbackttfuture/status/2033365853140595122",
+      "title": "从产品经理到120万订阅者，Lenny揭秘内容创业的真实代价",
+      "author": "@PMbackttfuture",
+      "preview": "2019年，Lenny Rachitsky在Airbnb当了七年产品经理后，开始在Medium上写文章。\n没人能预料到，这个不爱抛头露面的内向工程师，会在五年后打造出120万订阅的newsletter和长期占据前十的科技播客。",
+      "type_guess": "03_opinion_decode",
+      "why_it_matters": "人物特稿 + 播客蒸馏的标准样本，结果导入后很快切进真实代价和职业代价。",
+      "hook_move": "先用 120 万订阅的结果吸引注意，再立刻切进真实代价。",
+      "style_cue": "像杂志人物稿和播客摘要的结合体，既有故事感，也有抽出来的创作洞察。",
+      "proof_mode": [
+        "场景化讲述",
+        "关键引语",
+        "人生转折点",
+        "作者总结"
+      ],
+      "reusable_parts": [
+        "先搭人物戏剧张力，再抽方法论",
+        "引语和叙述交替，避免变成流水账",
+        "结尾把人物困境升成普遍性命题"
+      ],
+      "local_ref": "framework/03_opinion_decode/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "03_opinion_decode",
+      "framework_label": "外部信号解码型",
+      "submode_id": "signal_decode",
+      "url": "https://x.com/dotey/status/2033806716492538155",
+      "title": "OpenClaw 这只龙虾为什么会这么火？",
+      "author": "@dotey",
+      "preview": "全国两会上，中国工程院院士高文说：\"现在大家急得不得了，生怕没有养上龙虾。\"\n这个“龙虾”不是美食，是一个叫 OpenClaw 的开源 AI 智能体，因为图标是一只红色龙虾得名。它在 GitHub 上 7 天拿到 15 万",
+      "type_guess": "03_opinion_decode",
+      "why_it_matters": "现象级项目解码样本，信息量很大，但核心是把热度背后的结构因果串起来。",
+      "hook_move": "用院士原话和一连串热度数据起手，先让读者接受这不是小圈子热度。",
+      "style_cue": "典型现象解码文，价值在于热度背后的结构因果，而不是堆信息。",
+      "proof_mode": [
+        "热度和政策信号",
+        "产品类比",
+        "原因链拆解",
+        "生态说明",
+        "风险案例"
+      ],
+      "reusable_parts": [
+        "先解释它到底是什么",
+        "用类比拉开不同产品的位置",
+        "不只讲爆火原因，也讲风险"
+      ],
+      "local_ref": "framework/03_opinion_decode/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "03_opinion_decode",
+      "framework_label": "外部信号解码型",
+      "submode_id": "signal_decode",
+      "url": "https://x.com/karminski3/status/2033749685106839903",
+      "title": "马斯克一波点赞给Kimi论文冲到了2百万阅读!",
+      "author": "@karminski3",
+      "preview": "月之暗面刚发了个论文, 截止到我截图, 在X上已经有220万的阅读了, 连马斯克都来凑热闹点赞了, 那搞了什么东西这么火? 来, 给大家写一个尽量不需要专业知识就能看懂的文:\n\n\n \n论文的名字叫 Attention Residuals,",
+      "type_guess": "03_opinion_decode",
+      "why_it_matters": "典型论文解读样本，靠类比和背景补课拆低门槛，而不是展示自己很懂。",
+      "hook_move": "先用马斯克点赞制造热度入口，再承诺尽量不需要专业知识也能看懂。",
+      "style_cue": "论文解读文靠的是把门槛拆低，所以口语和类比是关键资产。",
+      "proof_mode": [
+        "白话类比",
+        "基础知识补课",
+        "旧方案 vs 新方案",
+        "最终性能结果"
+      ],
+      "reusable_parts": [
+        "先补背景，再解释创新点",
+        "用具象类比替代术语堆砌",
+        "让读者知道为什么这是革命性的"
+      ],
+      "local_ref": "framework/03_opinion_decode/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "03_opinion_decode",
+      "framework_label": "外部信号解码型",
+      "submode_id": "conversation_distillation",
+      "url": "https://x.com/blackanger/status/2033560336859799814",
+      "title": "Wiz 320 亿收购始末 | 网络安全最黑暗的十年正在到来",
+      "author": "@blackanger",
+      "preview": "免责声明：本文为 AI 辅助写作，建议 AI PTSD 患者勿点，如果不小心伤害了您脆弱的小心灵，后果自负。\n本文整理自科技投资播客 Sourcery 对 Gili Raanan 的深度访谈。\n \n2:29\n背景：一笔改写历史的收购\n2026 年 3 月",
+      "type_guess": "03_opinion_decode",
+      "why_it_matters": "大事件 + 深度访谈的蒸馏样本，先用收购事件吸引注意，再回头解释人物和行业大判断。",
+      "hook_move": "先给出 Google 320 亿美元收购 Wiz 这个巨型事件，再回头解释关键人物和判断。",
+      "style_cue": "像深度播客精华版，既要有人物戏，也要有行业结构感。",
+      "proof_mode": [
+        "时间线",
+        "人物背景",
+        "关键原则",
+        "行业判断",
+        "直接引语"
+      ],
+      "reusable_parts": [
+        "用大事件吸引读者，再引入访谈嘉宾",
+        "章节式蒸馏人物和行业观点",
+        "从人物哲学一路推到行业结构判断"
+      ],
+      "local_ref": "framework/03_opinion_decode/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "03_opinion_decode",
+      "framework_label": "外部信号解码型",
+      "submode_id": "signal_decode",
+      "url": "https://x.com/AlchainHust/status/2033573236240466178",
+      "title": "马斯克惊叹！DeepSeek和Kimi先后出手，捅破了Transformer的「潜规则」！",
+      "author": "@AlchainHust",
+      "preview": "晚上突然看到马斯克发了一条推：「Impressive work from Kimi」。\n \n去查了下，想看看咋咋唬唬的老马又是被啥震惊到了。\n然后，发现原来是Kimi发了篇论文👇",
+      "type_guess": "03_opinion_decode",
+      "why_it_matters": "对比式论文解码样本，不是解释一篇论文，而是解释两套看似相近方案真正差在哪。",
+      "hook_move": "从马斯克发推和作者个人困惑开始，建立我也看不懂，所以我替你看的代入感。",
+      "style_cue": "像对比式解码，关键在于把相似名词拆开，告诉读者差别到底在哪里。",
+      "proof_mode": [
+        "论文对比",
+        "白话类比",
+        "结构拆分",
+        "实验结果",
+        "行业意义"
+      ],
+      "reusable_parts": [
+        "解释两篇论文的差别，而不是各讲一遍",
+        "一层层把问题定义拉开",
+        "结尾从细节回到架构趋势"
+      ],
+      "local_ref": "framework/03_opinion_decode/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "04_failure_reversal",
+      "framework_label": "纠偏转向型",
+      "submode_id": "system_pivot",
+      "url": "https://x.com/bggg_ai/status/2031935177421685126",
+      "title": "AI内容工厂2.0：我把OpenClaw换成ArkClaw，接管了整个飞书",
+      "author": "@bggg_ai",
+      "preview": "之前写过一篇：用 OpenClaw + Obsidian 搭建内容工厂，写出了百万阅读的爆文。\n那篇文章有人复刻成功。但也有人用了一段时间后发现：灵感还是在积压，选题还是不知道选哪个，写完的文章还是找不到。",
+      "type_guess": "04_failure_reversal",
+      "why_it_matters": "典型 system_pivot 样本，先承认 1.0 解决过问题，再指出真实使用中的流动性和执行层瓶颈。",
+      "hook_move": "不是从 2.0 很强开始，而是先承认 1.0 被复刻后暴露出真实问题。",
+      "style_cue": "像把系统跑过一遍的操盘手，在做 1.0 到 2.0 的迁移说明。",
+      "proof_mode": [
+        "旧系统缺陷",
+        "新系统工作流",
+        "工具理由",
+        "配置过程",
+        "权限踩坑"
+      ],
+      "reusable_parts": [
+        "先证明旧方案解决过问题",
+        "再指出它为什么不够",
+        "新方案必须连运行流程和坑一起写"
+      ],
+      "local_ref": "framework/04_failure_reversal/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "04_failure_reversal",
+      "framework_label": "纠偏转向型",
+      "submode_id": "system_pivot",
+      "url": "https://x.com/bggg_ai/status/2032349419811827866",
+      "title": "AI内容工厂2.0：我把OpenClaw换成ArkClaw，接管了整个飞书",
+      "author": "@bggg_ai",
+      "preview": "之前写过一篇：用 OpenClaw + Obsidian 搭建内容工厂，写出了百万阅读的爆文。\n那篇文章有人复刻成功。但也有人用了一段时间后发现：灵感还是在积压，选题还是不知道选哪个，写完的文章还是找不到。",
+      "type_guess": "04_failure_reversal",
+      "why_it_matters": "与上一条近重复，更说明 system_pivot 的稳定写法依赖迁移逻辑而不是单条文案。",
+      "hook_move": "同样从旧系统局限和新执行层切换展开，但文案更干净。",
+      "style_cue": "更能说明稳定写法，而不是新的子模式。",
+      "proof_mode": [
+        "新旧对照",
+        "配置说明",
+        "初始化步骤",
+        "权限与 skill 踩坑",
+        "3.0 展望"
+      ],
+      "reusable_parts": [
+        "同一套迁移逻辑可在不同版本文案中复用",
+        "说明重复发布不改变底层框架"
+      ],
+      "local_ref": "framework/04_failure_reversal/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "04_failure_reversal",
+      "framework_label": "纠偏转向型",
+      "submode_id": "constraint_reframe",
+      "url": "https://x.com/xleaps/status/2033027083476054377",
+      "title": "2016 年，我做过一次 AI 写代码创业",
+      "author": "@xleaps",
+      "preview": "2016 年，当 AI 还远没有成为今天这样的全民浪潮时，我已经开始认真尝试一件事：用语言模型来理解、修改和生成代码。\n我给公司起名叫 ai.codes。这个名字几乎不需要解释：AI codes——把 code",
+      "type_guess": "04_failure_reversal",
+      "why_it_matters": "长文 retrospective essay 样本，情绪有，但被技术、资源和时代判断压住了。",
+      "hook_move": "先用今天已经成真的愿景开局，再补一句我当年的创业早停在 2016 年。",
+      "style_cue": "不是教训清单，而是 retrospective essay。",
+      "proof_mode": [
+        "创业时间线",
+        "技术细节",
+        "融资受阻",
+        "共同创始人问题",
+        "资源缺口"
+      ],
+      "reusable_parts": [
+        "先给愿景与现实落差",
+        "把失败写成约束分析，而不是遗憾抒情",
+        "结尾回到更稳的世界观"
+      ],
+      "local_ref": "framework/04_failure_reversal/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "04_failure_reversal",
+      "framework_label": "纠偏转向型",
+      "submode_id": "constraint_reframe",
+      "url": "https://x.com/PMbackttfuture/status/2033792268335817177",
+      "title": "AI黄叔和AI亦仁帮我想清楚了：在杭州招这个岗位",
+      "author": "@PMbackttfuture",
+      "preview": "前段时间发了一篇招聘帖，前前后后有小400人加了我。\n绝大多数人看中的是内容+产品这个岗位。我也见了几位朋友。\n但坦白讲，我觉得我招聘的思路有问题。\n什么问题？",
+      "type_guess": "04_failure_reversal",
+      "why_it_matters": "高密度 decision memo 样本，篇幅不长，但问题到底是什么被点得很准。",
+      "hook_move": "先承认我招聘的思路有问题，再通过两个 AI 教练把问题越问越准。",
+      "style_cue": "更像高密度 decision memo，短但非常准。",
+      "proof_mode": [
+        "旧招聘思路",
+        "AI 对话推理",
+        "关键判断句",
+        "新岗位定义",
+        "招聘标准"
+      ],
+      "reusable_parts": [
+        "不是简单改 JD，而是重定义问题",
+        "用一句特别准的判断点破根因",
+        "从认知纠偏顺滑过渡到行动方案"
+      ],
+      "local_ref": "framework/04_failure_reversal/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "05_ab_benchmark",
+      "framework_label": "对比筛选型",
+      "submode_id": "alternative_benchmark",
+      "url": "https://x.com/lxfater/status/2033748548915741131",
+      "title": "OpenClaw免费开源本地记忆系统：Tokens节省近 35.24%， 自动生成 Skill，越用越聪明",
+      "author": "@lxfater",
+      "preview": "今天在网上看到一个吐槽OpenClaw的图片。\n \n聊着聊着，突然提示上下文压缩，然后失去记忆了，像老年痴呆一样。除了失忆，还有个问题，就是喜欢磨洋工。\n叫小龙虾干活，长时间运行，没啥成果，反而还消耗大量token。",
+      "type_guess": "05_ab_benchmark",
+      "why_it_matters": "说明这个框架不是介绍一个项目，而是先否掉社区里最常见的两种解法，再给一个更现实的折中解。",
+      "hook_move": "先从吐槽图和真实痛点切入，不是从项目功能切入。",
+      "style_cue": "更像替你排雷后给一个更现实解，不是纯产品介绍。",
+      "proof_mode": [
+        "痛点复述",
+        "两种旧解法缺点",
+        "安装配置",
+        "节省比例",
+        "自动进化机制"
+      ],
+      "reusable_parts": [
+        "先立痛点，再做路线比较",
+        "把为什么另外两种不现实讲清楚",
+        "推荐方案要带安装和原理"
+      ],
+      "local_ref": "framework/05_ab_benchmark/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article",
+        "framework_local_sample"
+      ],
+      "related_refs": [
+        "framework/06_checklist_template/samples/TS-20260317-001.md",
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "05_ab_benchmark",
+      "framework_label": "对比筛选型",
+      "submode_id": "market_shortlist",
+      "url": "https://x.com/ityouknows/status/2031922182436323468",
+      "title": "实测20款 OpenClaw 产品！腾讯阿里字节华为百度小米全线下场，最快部署仅需 1 分钟？（全名单）",
+      "author": "@ityouknows",
+      "preview": "天下武功，唯快不破。\n在 AI 的时代，那就更快了，我估计小龙虾都不知道，自己为啥在2026年，会这么火？\n今天给大家汇总一下，国内所有热门龙虾类产品，最后一个部署竟然真的只需要一分钟（99%的人都可成功）。",
+      "type_guess": "05_ab_benchmark",
+      "why_it_matters": "说明这个框架的另一面是市场 shortlist：不是测试 20 款本身，而是替读者先分区、再筛到值得关注的几个。",
+      "hook_move": "先用实测 20 款、最快 1 分钟建立极强筛选承诺。",
+      "style_cue": "像市场 roundup，但价值点在于已经替你先看了一圈，最后告诉你先看哪几个。",
+      "proof_mode": [
+        "大盘覆盖",
+        "分类分组",
+        "代表产品点评",
+        "最终推荐",
+        "资源与社群导流"
+      ],
+      "reusable_parts": [
+        "用大盘感建立权威",
+        "用分类分组降低复杂度",
+        "最终必须有 shortlist"
+      ],
+      "local_ref": "framework/05_ab_benchmark/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "workflow_architecture",
+      "url": "https://x.com/bggg_ai/status/2030113154739621909",
+      "title": "7*24小时全栈开发的性价比黑奴：Agent Team",
+      "author": "@bggg_ai",
+      "preview": "先说结论：我跑通了一套能连续运行 10 小时以上、全自动处理复杂全栈开发的本地 AI 编程工作流。\n这套系统不仅能写代码，还能自己跑测试、自己修 Bug、自己管理数据库，甚至还能组建一个“AI 工程师团队”",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "最完整的问题 -> 架构 -> 实装 -> 结果闭环样本。",
+      "hook_move": "开头直接给出连续运行 10 小时以上、自动处理复杂全栈开发的结果。",
+      "style_cue": "结论先行、工程比喻、组件清单、阶段升级叙事。",
+      "proof_mode": [
+        "亲身实战",
+        "关键文件结构",
+        "命令参数",
+        "角色分工",
+        "测试结果"
+      ],
+      "reusable_parts": [
+        "先打 AI 编程最后一公里痛点，再给架构原则",
+        "用文件即记忆统一后续组件",
+        "用真实项目验收证明方法有效"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "guided_onboarding",
+      "url": "https://x.com/onehopeA9/status/2030878769955901844",
+      "title": "一文讲全：2026香港银行卡开户、转账、投资完整攻略",
+      "author": "@onehopeA9",
+      "preview": "📋 目录\n前言：为什么要开香港银行卡？\n一、2026 年最新政策变化\n二、开户所需材料清单\n必备材料\n补充材料\n三、香港主要银行开户对比——已经帮大家选好了\n传统银行篇（汇丰/中银/渣打）\n虚拟银行篇（众安/天星）",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "大而全保姆级指南的标准样本，目录、清单、对比、流程、风险提醒齐全。",
+      "hook_move": "标题和目录共同制造这篇讲全了的心理预期。",
+      "style_cue": "替读者做决策的保姆级攻略写法。",
+      "proof_mode": [
+        "实际经历",
+        "政策信息",
+        "材料清单",
+        "银行对比",
+        "场景映射"
+      ],
+      "reusable_parts": [
+        "目录先行",
+        "先讲为什么值得做，再讲怎么做",
+        "对比和流程并行",
+        "最后补风险提示"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "capability_extension",
+      "url": "https://x.com/onehopeA9/status/2031965027314647316",
+      "title": "给你的 OpenClaw 装上\"搜索大脑\"！四引擎并行让信息检索超人一等",
+      "author": "@onehopeA9",
+      "preview": "你的 OpenClaw 是否也有这样的困境？\n搜索结果不尽如人意，那么这篇文章就是解决这个问题\n场景一：交易所调研时\n你： “帮我调研一下 Okx vs Binance vs Kraken，我要做交易所选型”\nOpenClaw（没装 search-skills",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "典型的给现有系统补一个关键能力模块的写法。",
+      "hook_move": "用是否也有这样的困境把读者带进使用失败场景。",
+      "style_cue": "场景提问、能力命名、夸张但具体的效率承诺、结尾升维。",
+      "proof_mode": [
+        "场景对话",
+        "前后对比",
+        "安装指令",
+        "功能结果"
+      ],
+      "reusable_parts": [
+        "先以失败场景代替功能清单",
+        "强调装前/装后差异",
+        "安装部分尽量压缩到一步",
+        "结尾用能力包归纳"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "workflow_architecture",
+      "url": "https://x.com/bggg_ai/status/2030123309594259506",
+      "title": "用OpenClaw搭跨境电商团队：5个AI员工，跑通全平台矩阵！",
+      "author": "@bggg_ai",
+      "preview": "我用Mac mini本地部署了OpenClaw，然后设计了一个多Agent Team：5个独立的AI数字员工，直接接管了跨境电商的选品调研、TikTok UGC视频生成、Reddit种草引流和亚马逊运营。",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "把多 Agent 系统讲成可想象、可模仿的业务工作流。",
+      "hook_move": "5个AI员工，跑通全平台矩阵，把抽象架构翻译成业务组织。",
+      "style_cue": "拟人化、业务场景化、问题驱动 FAQ、强演示感。",
+      "proof_mode": [
+        "角色分工",
+        "案例链路",
+        "飞书配置细节",
+        "常见坑"
+      ],
+      "reusable_parts": [
+        "用 AI 员工代替抽象 agent",
+        "用单一任务贯通全链路",
+        "配置教程后置",
+        "最后单列坑点"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "guided_onboarding",
+      "url": "https://x.com/yupi996/status/2029894874888278198",
+      "title": "VSCode + Copilot 保姆级 AI 编程实战教程，免费用 Claude，夯爆了！",
+      "author": "@yupi996",
+      "preview": "从安装到实战，手把手教你用 VSCode + GitHub Copilot 进行 AI 编程\n你好，我是程序员鱼皮。\nAI 编程工具现在是真的百花齐放，Cursor、Claude Code、OpenCode、…… 每隔一段时间就冒出来一个新选手。",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "典型的保姆级入门教程，价值点在替初学者做路径压缩。",
+      "hook_move": "用保姆级 + 免费用 Claude 同时抓住难度和成本两个敏感点。",
+      "style_cue": "朋友式教学、门槛感知强、分步清晰、带一点夸张语气。",
+      "proof_mode": [
+        "个人体验",
+        "快捷键",
+        "功能列表",
+        "试用信息",
+        "资源入口"
+      ],
+      "reusable_parts": [
+        "先给为什么值得用，再进安装",
+        "基础操作按使用场景分块",
+        "结尾加试用和练手资源，推动真正行动"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "guided_onboarding",
+      "url": "https://x.com/yupi996/status/2031396119104856437",
+      "title": "OpenClaw 安装 + 接入QQ 保姆级教程！附上门卸载服务",
+      "author": "@yupi996",
+      "preview": "OpenClaw 安装 + 接入 QQ 对话，傻瓜式教程\n大家好，我是程序员鱼皮。\n最近特别流行养龙虾，不是真的龙虾，而是一个叫 OpenClaw 的 AI 智能助手。\n你可以把它理解成一个住在你电脑里的 AI 员工，它不像普通的 AI",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "保姆级教程的完整节奏样本，且教程完成后补了适不适合你的边界判断。",
+      "hook_move": "安装 + 接入 QQ + 保姆级，把最终可见结果和低门槛一起打出来。",
+      "style_cue": "门槛极低的承诺、连续否定句降压、朋友式提醒、最后反 hype。",
+      "proof_mode": [
+        "安装步骤",
+        "命令",
+        "接入场景",
+        "卸载命令",
+        "使用判断"
+      ],
+      "reusable_parts": [
+        "教程前先压低读者心理门槛",
+        "先给步骤总览再展开",
+        "加入退出路径和适用边界，提高可信度"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "workflow_architecture",
+      "url": "https://x.com/xxx111god/status/2033261636195373123",
+      "title": "\"永续\" Agent 的最后一环：Self-Improving Skills",
+      "author": "@xxx111god",
+      "preview": "过去2个月我使用OpenClaw🦞过程中一直在听到“永续工作”的概念，也写了几篇我自己思考和实践的文章\n任务管理系统让 agent 能 24/7 自主工作，issue 系统追踪每个任务的状态\n记忆系统实现了 L0/L1/L2 分层管理，daily",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "概念型技术分享的标准样本，把抽象新概念压成可执行的五步框架。",
+      "hook_move": "指出永续系统真正还没被解决的一环是 Skills 本身。",
+      "style_cue": "框架命名、步骤化、每步都有目标/实现/错误、最后升维总结。",
+      "proof_mode": [
+        "长期使用场景",
+        "版本号",
+        "失败教训",
+        "伪数据结构",
+        "优化例子"
+      ],
+      "reusable_parts": [
+        "先写系统盲点，再抛循环模型",
+        "每步都绑定错误案例",
+        "结尾补 safeguards，防止文章被看成空洞概念"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "guided_onboarding",
+      "url": "https://x.com/yupi996/status/2032432901812588603",
+      "title": "OpenClaw接入飞书保姆级教程，几分钟搞定手机养龙虾！",
+      "author": "@yupi996",
+      "preview": "大家好，我是程序员鱼皮。\n最近 OpenClaw 爆火，之前鱼皮已经出了 《保姆级小龙虾安装教程》，帮大家搞到了自己的小龙虾 🦞，还接入了 QQ，随时随地在手机上跟 AI 对话：\n \n不过 QQ",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "渠道接入型教程的标准格式：先说能干什么，再给准备项和短链路步骤。",
+      "hook_move": "几分钟搞定手机养龙虾，把时间成本和结果体验绑在一起。",
+      "style_cue": "无脑跟做、短步骤、实用型 tips、教程结束后再强化收益。",
+      "proof_mode": [
+        "步骤清单",
+        "权限说明",
+        "命令示例",
+        "使用 tips"
+      ],
+      "reusable_parts": [
+        "接入类教程优先保证几步走",
+        "正文重点放配置",
+        "尾部追加小技巧提高实用感"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "workflow_architecture",
+      "url": "https://x.com/_bgiori/status/2031412763902534069",
+      "title": "Don't spend $20 for a code review. Build custom PR agents on Cloudflare for pennies",
+      "author": "@_bgiori",
+      "preview": "Anthropic's Claude Code Action, OpenAI's Codex GitHub Action, Cursor's Bugbot Autofix — everyone is shipping PR review bots right now, and they all want you to pay a premium.\nThese tools are great for",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "英文技术分享型高质量样本，先对标市场方案，再抽象自己的通用 workflow pattern。",
+      "hook_move": "标题直接把价格和替代方案对冲。",
+      "style_cue": "强对比开头、命名清楚、两阶段结构、工程写作里的 takeaway bullet。",
+      "proof_mode": [
+        "内部 use case",
+        "具体 stack",
+        "执行流程",
+        "安全设计",
+        "UX 模式"
+      ],
+      "reusable_parts": [
+        "先对标市场方案，再抽象自己的通用模式",
+        "正文按 stack / phase / why it matters 展开",
+        "最后回到原则总结"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "guided_onboarding",
+      "url": "https://x.com/yupi996/status/2029203445589414147",
+      "title": "什么是 Elasticsearch？都要学什么？",
+      "author": "@yupi996",
+      "preview": "你是小阿巴，刚入职的后端程序员。\n这天，产品经理给你安排任务：阿巴阿巴，咱们网站要加一个文章搜索功能。\n你心想：简单，直接写一句 SQL 查询数据库就搞定了~\n \n结果上线没几天，就收到了大量用户的投诉！",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "概念入门也能写成教程的典型样本，用故事导入和分阶段学习路径降低理解难度。",
+      "hook_move": "用 SQL 搜索上线后被投诉让技术概念立刻变具体。",
+      "style_cue": "角色扮演、对话式教学、把概念翻成人话、鼓励实践。",
+      "proof_mode": [
+        "业务故事",
+        "概念解释",
+        "阶段学习法",
+        "基础操作"
+      ],
+      "reusable_parts": [
+        "用故事带出技术名词",
+        "学习路径先分阶段，再补操作",
+        "结尾强调实战型技术要多练"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "curated_list",
+      "url": "https://x.com/vista8/status/2033803842668949834",
+      "title": "5个龙虾Skill开源分享，最后一个堪称「神级」",
+      "author": "@vista8",
+      "preview": "前段时间，龙虾（OpenClaw）火的得过分，担心大家跑偏。\n于是写了篇文章，建议多研究打磨自己的Skills。\n文章发到了微信公众号小号「AI不插电」和 X 账号。\nhttps://mp.weixin.qq.com/s/mpoOI3gAiVd9I-uuzSgxAw\n没想到获得大量认同，X上竟有 60",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "工具/skill 清单型技术分享的标准写法，核心不是深讲一个能力，而是多例子、多安装指令和选择性悬念。",
+      "hook_move": "5个 + 最后一个神级，共同制造浏览动力。",
+      "style_cue": "清单感强、悬念驱动、短段落、高密度可执行动作。",
+      "proof_mode": [
+        "skill demo",
+        "安装指令",
+        "GitHub 地址"
+      ],
+      "reusable_parts": [
+        "清单文章的关键是每项都能立刻试",
+        "demo + install + repo 三件套稳定复用"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "guided_onboarding",
+      "url": "https://x.com/ityouknows/status/2031555224968785990",
+      "title": "OpenClaw 龙虾完全卸载指南！",
+      "author": "@ityouknows",
+      "preview": "我的创业故事：《我的创业故事：87年出生，我开了一家一人公司，年营收百万+》\n大家好，我是微笑哥。\n龙虾好用，但要注意安全！",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "极窄需求型教程的代表，正文高度压缩，直接给最快动作链。",
+      "hook_move": "先强调好用但要注意安全，再给只看卸载命令直接拉到文末的捷径承诺。",
+      "style_cue": "快捷入口、极短动作链、安全导向。",
+      "proof_mode": [
+        "命令",
+        "文档链接",
+        "安全提醒"
+      ],
+      "reusable_parts": [
+        "对极窄需求文章，不需要大背景",
+        "先给最快路径",
+        "正文尽量短"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "capability_extension",
+      "url": "https://x.com/onehopeA9/status/2031552504593526946",
+      "title": "这个OPENCLAW SKILL,5分钟，让你的虾帮你全市场选股，全热点追踪",
+      "author": "@onehopeA9",
+      "preview": "装了龙虾后，到底能干什么？\n一直有人问，龙虾无用论也一直甚嚣尘上，今天我举一个金融业例子，抛砖引玉\ntushare-data 量化领域的平权（老哥，不给钱，打点积分吧）\n玩A股量化的一定逃不过",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "场景型 skill 分享标准样本，不先讲安装，而是先证明装完能替你做什么专业工作。",
+      "hook_move": "5分钟 + 全市场选股 + 全热点追踪，把安装成本和结果收益直接绑定。",
+      "style_cue": "场景 -> 传统做法 -> AI 做法对照、行业词汇、工具人格化。",
+      "proof_mode": [
+        "场景案例",
+        "可调用接口",
+        "prompt 示例",
+        "分析结果描述"
+      ],
+      "reusable_parts": [
+        "不直接卖功能，而是卖应用场景",
+        "把能力写成 prompt 与结果链条，更容易迁移到其他 skill"
+      ],
+      "local_ref": "framework/06_checklist_template/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "category_reframe",
+      "url": "https://x.com/gsivulka/status/2024187126020272197",
+      "title": "In defense of vertical software",
+      "author": "@gsivulka",
+      "preview": "Right now everyone in this industry is asking some version of the same question: in a world where Anthropic, OpenAI, and Google are pouring hundreds of billions of dollars into building the most",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "垂直软件类目重画地图的代表样本，用 process engineering 替换界面和代码护城河叙事。",
+      "hook_move": "先复述垂直软件没戏的讨论，再用 it misses the point 切断主流共识。",
+      "style_cue": "长句、高密度推理、极少情绪词、强框架替换。",
+      "proof_mode": [
+        "金融团队细节",
+        "流程差异",
+        "Bloomberg 例子",
+        "法律 AI 表现"
+      ],
+      "reusable_parts": [
+        "明确主流共识",
+        "替换价值来源",
+        "用行业细节证明最后 10% 才是 moat"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "category_reframe",
+      "url": "https://x.com/JulienBek/status/2029680516568600933",
+      "title": "Services: The New Software",
+      "author": "@JulienBek",
+      "preview": "The next $1T company will be a software company masquerading as a services firm.\n\nEvery founder building an AI tool is asking the same question: what happens when the next version of Claude makes my",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "典型的 tool vs work 重命名样本，用市场地图而不是情绪完成框架替换。",
+      "hook_move": "用 tool vs work 的收入对比直接切题。",
+      "style_cue": "投资人式抽象、概念命名明确、逻辑层层推进。",
+      "proof_mode": [
+        "copilot/autopilot 对照",
+        "行业 labour spend",
+        "机会地图"
+      ],
+      "reusable_parts": [
+        "先定义一对对立概念",
+        "再用市场地图展开",
+        "把产品问题升级成收入与工作结果问题"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "category_reframe",
+      "url": "https://x.com/yan5xu/status/2033721014413402303",
+      "title": "最近一些 Agent 认知：OS 与 Agent-native 应用",
+      "author": "@yan5xu",
+      "preview": "一、Agent 是 OS，垂类做 OS 是找死\n1/ Agent 是一种交互范式，就像手机是一种交互范式。你通过手机购物、社交、理财，但不会为了购物专门买一部手机。Agent 也一样。垂类不应该尝试做 Agent（做手机），应该做",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "中文高压缩 category_reframe 的代表，用强判断和编号 thesis 直接重画 Agent 分层。",
+      "hook_move": "开头就下结论，垂类做 OS 是找死。",
+      "style_cue": "中文高压缩编号论点、概念命名、二元对照密集。",
+      "proof_mode": [
+        "历史类比",
+        "skill/script/application 光谱",
+        "物理约束"
+      ],
+      "reusable_parts": [
+        "强判断开场",
+        "连续编号 thesis",
+        "每层都给为什么不行/为什么行的根因"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "category_reframe",
+      "url": "https://x.com/yenkel/status/2032098351567487037",
+      "title": "If you kill MCP, you don't give a s**t about security",
+      "author": "@yenkel",
+      "preview": "Here's why. CLIs calling APIs don't provide the guarantees you want for good security. Code mode against an API (no CLI), can provide the security but requires the API to be sufficiently close to an",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "polemic 开头但正文完全由安全架构推导托住，是锋利判断不漂的好样本。",
+      "hook_move": "先用粗暴立场句制造冲突，再马上转入安全论证。",
+      "style_cue": "英文 polemic 开头 + 工程推理正文。",
+      "proof_mode": [
+        "OAuth",
+        "dynamic client registration",
+        "approval chain",
+        "policy enforcement"
+      ],
+      "reusable_parts": [
+        "先把争议拉满",
+        "再用工程约束收束",
+        "把情绪立场转成结构推导"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "category_reframe",
+      "url": "https://x.com/tricalt/status/2032179887277060476",
+      "title": "Self improving skills for agents",
+      "author": "@tricalt",
+      "preview": "“not just agents with skills, but agents with skills that can improve over time”\nSeems that “SKILL.md” is here to stay, however, we haven’t really solved the most fundamental problem around them:",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "把 skill 从静态文件重命名成 living system components 的典型框架替换文。",
+      "hook_move": "skills are static, environment is not 直接指出根本矛盾。",
+      "style_cue": "英文技术框架文，句式直接，定义和流程高度绑定。",
+      "proof_mode": [
+        "失败场景",
+        "改进循环",
+        "回滚要求",
+        "评估机制"
+      ],
+      "reusable_parts": [
+        "指出静态文件和动态环境的张力",
+        "给出 disciplined cycle",
+        "把能力文写成系统演化问题"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "category_reframe",
+      "url": "https://x.com/gsivulka/status/2031797989908627849",
+      "title": "Productive Individuals Don't Make Productive Firms",
+      "author": "@gsivulka",
+      "preview": "AI just made every individual 10x more productive.\nNo company became 10x more valuable as a result.\nWhere did the productivity go?\n \nThis isn’t the first time this has happened.\nIn the 1890s,",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "强反差开头 + 历史类比 + 组织机制的完整组合，是 category_reframe 的完整范式。",
+      "hook_move": "用 individual 10x productive 但 company 没变 10x valuable 形成强反差。",
+      "style_cue": "历史类比撑起大论点，长文推进稳，反差句很强。",
+      "proof_mode": [
+        "历史类比",
+        "institutional intelligence pillars",
+        "企业部署逻辑"
+      ],
+      "reusable_parts": [
+        "结果反差起手",
+        "借历史类比说明技术换了但工厂没重做",
+        "扩展成系统原则"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "imported_mental_model",
+      "url": "https://x.com/LongChenNotes/status/2032084211960864844",
+      "title": "管好Agent最厉害的人，不在硅谷，在战场上（5位指挥官的管理秘诀）",
+      "author": "@LongChenNotes",
+      "preview": "我发现一个特别有意思的现象。\n身边能把 Agent 用得溜的，几乎清一色是做过管理的人。创始人、带过团队的、当过老板的。他们有一个共同点：给个方向，允许犯错，再急也不亲自下场。\n反过来，执行层面的人呢？Agent",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "外部模型迁移的标准样本，从身边观察切入，再借战场指挥官模型重写 Agent 使用心智。",
+      "hook_move": "先观察管理者比执行者更会用 Agent，再否定技术差距解释。",
+      "style_cue": "口语强、对照鲜明、故事推动论证。",
+      "proof_mode": [
+        "身边观察",
+        "Santa Fe 故事",
+        "战场指挥原则",
+        "管理者/执行者对照"
+      ],
+      "reusable_parts": [
+        "从身边观察切入",
+        "先给错误解释",
+        "引入外部领域高手",
+        "回译成当前行动原则"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "imported_mental_model",
+      "url": "https://x.com/LongChenNotes/status/2031616430651879599",
+      "title": "聪明人用AI省了4小时，却不知道最值钱的灵感在饭后那20分钟",
+      "author": "@LongChenNotes",
+      "preview": "很多人用AI省下来4小时，又拿去多干了4小时活。\n但我认识一个传统to B公司老板，每天忙得跟打仗似的，从早上8点就开始连轴转，会议排到晚上，手机就没安静过。",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "把效率迷思重写成系统一/系统二与空转洞察问题，是 imported_mental_model 的高可迁移样本。",
+      "hook_move": "很多人省了 4 小时，又拿去多干 4 小时活，直接打到效率幻觉。",
+      "style_cue": "中文短句推进、提问密度高、结尾非常行动导向。",
+      "proof_mode": [
+        "老板习惯",
+        "名人案例",
+        "系统一/系统二解释",
+        "行动清单"
+      ],
+      "reusable_parts": [
+        "先打效率幻觉",
+        "引入认知模型",
+        "最后转成可执行日常习惯"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "civilizational_speculation",
+      "url": "https://x.com/LongChenNotes/status/2033557490756104400",
+      "title": "八十亿人，为什么你活在一个让你变弱的系统里，以及唯一的逃生路线",
+      "author": "@LongChenNotes",
+      "preview": "最近打开推特，有没有发现刷十条，八条长一个样。\nAI保姆级教程、手把手教你日入过万。等等\n标题不同但说的是同一件事。\n为什么这些内容越来越像？",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "从平台表层现象切入，再拉高到文明尺度，最后压回今天能做的一件事，是时代判断文的标准路径。",
+      "hook_move": "从刷十条八条长一个样的日常观察进入，再迅速拉高到八十亿人史上最强配置却长成一个样。",
+      "style_cue": "句子短、提问多、情绪推进明显，收尾很像宣言。",
+      "proof_mode": [
+        "平台观察",
+        "播客观点",
+        "老鼠实验",
+        "创造行为类比"
+      ],
+      "reusable_parts": [
+        "从平台表层现象切入",
+        "放大到文明尺度",
+        "再把出口压回到今天的一件小事"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "civilizational_speculation",
+      "url": "https://x.com/AlchainHust/status/2030262600999514229",
+      "title": "活着的最小单元",
+      "author": "@AlchainHust",
+      "preview": "1\n所有活着的东西都有一个共同点：它们有自己的节律。",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "从一个技术命名差异切入，再抬升成生命和默认在场问题，是 essay 式尺度抬升的细腻样本。",
+      "hook_move": "从生命节律和心跳入手，把技术功能命名提升到生命隐喻。",
+      "style_cue": "散文感强，问题放大慢，结尾余味很重。",
+      "proof_mode": [
+        "生命节律类比",
+        "哲学引用",
+        "与 AI 共处场景"
+      ],
+      "reusable_parts": [
+        "从命名差异切入",
+        "把功能转译成哲学命题",
+        "最后回到作者真实生活中的默认在场体验"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "civilizational_speculation",
+      "url": "https://x.com/onehopeA9/status/2031197655121178654",
+      "title": "如果可以，你会上传意识到openclaw?",
+      "author": "@onehopeA9",
+      "preview": "昨晚，我经历了一个新的「震撼时刻」，上次这种时刻还是看到 MiroFish 的「预测未来」和人生K线。\n这次的主角是 Eon Systems，一家由物理学家 Alex Wissner-Gross",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "高概念问题链样本，先给技术突破，再做两次尺度跳跃，最后落到伦理和身份问题。",
+      "hook_move": "用果蝇全脑仿真视频制造震撼时刻，迅速把问题抬到上传意识。",
+      "style_cue": "高概念、高跳跃、问题链非常密，科幻感和现实感交替。",
+      "proof_mode": [
+        "技术路线图",
+        "思想实验",
+        "伦理问题链",
+        "安全与自治风险"
+      ],
+      "reusable_parts": [
+        "先给技术突破",
+        "再做两次尺度跳跃",
+        "最后落到伦理/社会/哲学四连问"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "07_contrarian_take",
+      "framework_label": "逆主流判断型",
+      "submode_id": "civilizational_speculation",
+      "url": "https://x.com/vista8/status/2033809142670893208",
+      "title": "龙虾刷屏全中国，硅谷却在打哈欠：一个前谷歌PM的冷思考",
+      "author": "@vista8",
+      "preview": "好友文君和张泓组织 “MindCode 闭门会”（42期）\n邀请前Google/YouTube美国产品经理、生产力社区AceMode创始人、湾区中国MBA社区创始人——硅谷大舅 bigjoe",
+      "type_guess": "07_contrarian_take",
+      "why_it_matters": "跨文化反差进入社会结构解释，再把读者放回职业处境，是现实锚点充足的时代 essay 样本。",
+      "hook_move": "用强反差标题建立跨文化张力。",
+      "style_cue": "口语化 essay，读感像访谈后的冷思考，不是纯分析报告。",
+      "proof_mode": [
+        "访谈内容",
+        "身边观察",
+        "PM 职能差异",
+        "社会结构判断"
+      ],
+      "reusable_parts": [
+        "先写反差",
+        "再解释表层差异背后的社会结构",
+        "最后把读者重新放回职业处境中"
+      ],
+      "local_ref": "framework/07_contrarian_take/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "08_signal_to_action",
+      "framework_label": "信号转行动型",
+      "submode_id": "market_window_playbook",
+      "url": "https://x.com/Zephyr_hg/status/2033549188261146778",
+      "title": "The 5 AI Skills That Will Be Worth $350K in 2027. Right Now, You Have 90 Days to Learn Them.",
+      "author": "@Zephyr_hg",
+      "preview": "Something is happening right now that most professionals are completely missing.\nNot because they're not paying attention. Because the signals are subtle. The salary data is starting to show up in job",
+      "type_guess": "08_signal_to_action",
+      "why_it_matters": "典型未来价值预警 + 当下卡位样本，用 hidden signal、salary anchor 和 skill list 完成窗口定价。",
+      "hook_move": "先说大多数专业人士正在错过一件事，再立刻把未来薪资和 90 天窗口钉出来。",
+      "style_cue": "商业性很强，但骨架也很清晰。",
+      "proof_mode": [
+        "未来薪资 anchor",
+        "skills 清单",
+        "为什么这几项会涨价",
+        "为什么窗口只有现在",
+        "compounding logic"
+      ],
+      "reusable_parts": [
+        "先给 market gap，再给列表",
+        "每个 skill 都解释商业稀缺性",
+        "urgency 来自时点差，不是情绪勒索"
+      ],
+      "local_ref": "framework/08_signal_to_action/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_spec_sample",
+      "framework_id": "08_signal_to_action",
+      "framework_label": "信号转行动型",
+      "submode_id": "market_window_playbook",
+      "url": "https://x.com/Zephyr_hg/status/2033848970238161112",
+      "title": "The 4 Job Titles That Will Pay $200K in 2028. Almost Nobody Is Training for Them.",
+      "author": "@Zephyr_hg",
+      "preview": "There are 4 roles being created right now that barely exist yet.\nBy 2028, they'll be the most in-demand positions in any serious company.\nAnd right now, almost no one is training for them.\nWhy These",
+      "type_guess": "08_signal_to_action",
+      "why_it_matters": "和上一条是同一写法引擎：把组织结构变化翻译成新岗位，并强调训练路径还没标准化。",
+      "hook_move": "先说这些岗位几乎还不存在，再给 2028 年和 $200K 的薪资锚点。",
+      "style_cue": "用未来岗位而不是未来技能承载同一个窗口预警任务。",
+      "proof_mode": [
+        "新岗位清单",
+        "企业组织需求",
+        "为什么现在没人训练",
+        "为什么两年后窗口会关闭"
+      ],
+      "reusable_parts": [
+        "岗位不是凭空编的，要写出组织需求来源",
+        "先解释为什么旧路径不够，再讲新岗位",
+        "结尾收在先定义角色的人会拿走优势"
+      ],
+      "local_ref": "framework/08_signal_to_action/FRAMEWORK_SPEC.json",
+      "origins": [
+        "framework_spec_sample",
+        "framework_seed_article"
+      ],
+      "related_refs": [
+        "framework/seed_articles_30d.reclassified.json"
+      ]
+    },
+    {
+      "bucket": "framework_local_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "清单 / 模板 / SOP型",
+      "submode_id": "",
+      "url": "https://x.com/lxfater/status/2032360949865464124",
+      "title": "一行配置，让你的 OpenClaw拥有超强文档识别能力，（将线下业务数据引入 AI）",
+      "author": "@lxfater",
+      "preview": "",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "Checklist/template local sample kept in repo for decomposition study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "framework/06_checklist_template/samples/TS-20260317-002.md",
+      "origins": [
+        "framework_local_sample"
+      ]
+    },
+    {
+      "bucket": "framework_local_sample",
+      "framework_id": "06_checklist_template",
+      "framework_label": "清单 / 模板 / SOP型",
+      "submode_id": "",
+      "url": "https://x.com/jakevin7/status/2032342979890016561",
+      "title": "AI Memory 的真正难点：为什么 Vector Store + Embedding 远远不够",
+      "author": "@jakevin7",
+      "preview": "",
+      "type_guess": "06_checklist_template",
+      "why_it_matters": "Checklist/template local sample kept in repo for decomposition study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "framework/06_checklist_template/samples/TS-20260317-003.md",
+      "origins": [
+        "framework_local_sample"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/AI_Jasonyu/status/2034668763090759781#m",
+      "title": "啥都不用说了，关注我Jason老师不会错！！！立刻马上兄弟们❤️",
+      "author": "@AI_Jasonyu",
+      "preview": "啥都不用说了，关注我Jason老师不会错！！！立刻马上兄弟们❤️ Jason Zhu (@GoSailGlobal) x.com/i/article/203447719950… — https://nitter.net/GoSailGlobal/status/2034489088716464226#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T16:30:10Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/AI_Jasonyu/status/2034544827191435656#m",
+      "title": "套壳站不知道养活了多少独立开发者。 每一次新的模型都要造富很多的群友，去年线下和很多朋友聊到，有几个在套壳站上已经拿到了月入10万🔪的营收，就算是做的一般的也是上万美金。⬇️继续看 就我知道的就有吉卜力、NanoBanana、Seedance这种大的机会，还有一些小的比如AIDance、MusicGenerator这种，抓住一波，就是财富密码🔑 很可惜，我没抓住，不过只要在牌桌上，还是有机会💪",
+      "author": "@AI_Jasonyu",
+      "preview": "套壳站不知道养活了多少独立开发者。 每一次新的模型都要造富很多的群友，去年线下和很多朋友聊到，有几个在套壳站上已经拿到了月入10万🔪的营收，就算是做的一般的也是上万美金。⬇️继续看 就我知道的就有吉卜力、NanoBanana、Seedance这种大的机会，还有一些小的比如AIDance、MusicGenerator这种，抓住一波，就是财富密码🔑 很可惜，我没抓住，不过只要在牌桌上，还是有机会💪 胡二虎 Will hu🐯 (@willlhhh) x.com/i/article/203429789570… — https://nitter.net/willlhhh/status/2034443224660803709#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T08:17:41Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/AlphaSignalAI/status/2034647427609751913#m",
+      "title": "x.com/i/article/203414257168…",
+      "author": "@AlphaSignalAI",
+      "preview": "x.com/i/article/203414257168…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T15:05:23Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/AlphaSignalAI/status/2034413681916936671#m",
+      "title": "x.com/i/article/203413395081…",
+      "author": "@AlphaSignalAI",
+      "preview": "x.com/i/article/203413395081…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-18T23:36:34Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/AlphaSignalAI/status/2034050171672420428#m",
+      "title": "x.com/i/article/203372084519…",
+      "author": "@AlphaSignalAI",
+      "preview": "x.com/i/article/203372084519…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-17T23:32:06Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/Astronaut_1216/status/2034871401350324575#m",
+      "title": "借着阿川的踩坑经验和总结 说一下什么是AI first 思维 1.遇到问题先问AI 2.发现问题优先让AI解决，AI解决不掉，你再想办法让AI解决 3.一定要在每次让AI解决问题的时候，给他足够多的上下文，或者给他配一个Perplexity search skill 以上，你直接收藏吧，我会等你回来谢我的",
+      "author": "@Astronaut_1216",
+      "preview": "借着阿川的踩坑经验和总结 说一下什么是AI first 思维 1.遇到问题先问AI 2.发现问题优先让AI解决，AI解决不掉，你再想办法让AI解决 3.一定要在每次让AI解决问题的时候，给他足够多的上下文，或者给他配一个Perplexity search skill 以上，你直接收藏吧，我会等你回来谢我的 阿川 | AI thinking (@AI_jacksaku) x.com/i/article/203466057129… — https://nitter.net/AI_jacksaku/status/2034798346175443088#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-20T05:55:22Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/Astronaut_1216/status/2034635444646756828#m",
+      "title": "大部分人留学是为了在国内换一份5000月薪的工作 而jaden哥却能走出一条不一样的路 这条路有AI、有心力、有七位数 今天和jaden哥电话聊了很久 他是一个把AI融入业务场景的人 天生的销售+AI赋能，也是我见过思路最清晰的 建筑转行，建筑留学我们有太多想讲的 如果你在国外，你在迷茫，不妨复刻这条人生路径",
+      "author": "@Astronaut_1216",
+      "preview": "大部分人留学是为了在国内换一份5000月薪的工作 而jaden哥却能走出一条不一样的路 这条路有AI、有心力、有七位数 今天和jaden哥电话聊了很久 他是一个把AI融入业务场景的人 天生的销售+AI赋能，也是我见过思路最清晰的 建筑转行，建筑留学我们有太多想讲的 如果你在国外，你在迷茫，不妨复刻这条人生路径 Jaden思考日志 (@Jaden_riku) x.com/i/article/203460299794… — https://nitter.net/Jaden_riku/status/2034609950710985038#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T14:17:46Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/chuhaiqu/status/2034951598582243562#m",
+      "title": "看完 Mau 把 App 做到月入 2.5 万美元的复盘，最有共鸣的其实就一句话， 在顶层流量跑通之前，去优化 UI、改颜色、加新功能，纯纯浪费时间。 做独立开发最大的幻觉，就是沉迷于不停地开发新产品！ AI 两周就能搓个产品出来，但这恰恰变成了新的廉价多巴胺。很多人以为自己在疯狂创业，其实只是在逃避做营销增长。 👉 真正能赚到钱的极简实操路径应该是这样的： 首先戒掉绝对原创的执念。找一个已经验证能赚钱的 App 加上自己的特色，或者把两个成功的玩法融合在一起，强迫自己两周内必须上线。 接下来用数据定生死。如果首日有转化，立刻停下手去搞流量。如果首日挂零，千万别回去改产品，直接去社媒发视频铺量。如果在拿到 10 万播放量后依然是 0 转化，这时候再果断扔掉，绝不恋战。 当你熬到每天能稳定拿 300 个下载时，再回头看产品。 这时候依然别加新功能，而是把 100% 的精力花在 Onboarding（新手引导）上。 绝大多数人的引导只是在搜集用户信息，而顶级的引导是一出三幕剧。 先通过提问点醒用户的痛点，再让他直接在引导里体验核心功能。 只要每一步都在提供价值，就把引导大胆拉长到 10 分钟。 等用户投入了足够的沉没成本，最后弹出付费墙，转化率自然会极高。 对于做「一人公司」来说，谁能最快戒掉写代码的爽感，把 90% 的精力扑在营销获客上，谁才能拿到结果。",
+      "author": "@chuhaiqu",
+      "preview": "看完 Mau 把 App 做到月入 2.5 万美元的复盘，最有共鸣的其实就一句话， 在顶层流量跑通之前，去优化 UI、改颜色、加新功能，纯纯浪费时间。 做独立开发最大的幻觉，就是沉迷于不停地开发新产品！ AI 两周就能搓个产品出来，但这恰恰变成了新的廉价多巴胺。很多人以为自己在疯狂创业，其实只是在逃避做营销增长。 👉 真正能赚到钱的极简实操路径应该是这样的： 首先戒掉绝对原创的执念。找一个已经验证能赚钱的 App 加上自己的特色，或者把两个成功的玩法融合在一起，强迫自己两周内必须上线。 接下来用数据定生死。如果首日有转化，立刻停下手去搞流量。如果首日挂零，千万别回去改产品，直接去社媒发视频铺量。如果在拿到 10 万播放量后依然是 0 转化，这时候再果断扔掉，绝不恋战。 当你熬到每天能稳定拿 300 个下载时，再回头看产品。 这时候依然别加新功能，而是把 100% 的精力花在 Onboarding（新手引导）上。 绝大多数人的引导只是在搜集用户信息，而顶级的引导是一出三幕剧。 先通过提问点醒用户的痛点，再让他直接在引导里体验核心功能。 只要每一步都在提供价值，就把引导大胆拉长到 10 分钟。 等用户投入了足够的沉没成本，最后弹出付费墙，转化率自然会极高。 对于做「一人公司」来说，谁能最快戒掉写代码的爽感，把 90% 的精力扑在营销获客上，谁才能拿到结果。 Mau Baron (@maubaron) x.com/i/article/202738634629… — https://nitter.net/maubaron/status/2027551137768083619#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-20T11:14:03Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/chuhaiqu/status/2034929668512784582#m",
+      "title": "很多人用 AI 最大的内耗，就是死磕对话框。反复改提示词，最后发现还没自己动手快。 看完 Jesse 这篇被瞬间点醒，AI 真正的效率玩法应该是委派（Delegate）而不是聊天（Chat）。 他提到像 Claude Cowork 这种桌面端 Agent，最大优势就是拿到了本地文件夹的读写权限。 也就是说你只要给个验收标准，它会自己拆解任务、干完活把结果存在你的硬盘里。 顺着他的思路，我提炼了一套极简 Cowork 设置方法： 1. 安全起见，只给 AI 这一个大文件夹的权限。建个专属文件夹（如 Claude Workspace），分三个子区：Context（背景）、Projects（干活）、Outputs（交差）。 2. 立好规矩：在 Context 里扔三个文本文件，分别是who-i-am（业务重点与禁区）、how-i-talk（历史文章喂语调）、how-you-work（工作纪律，比如“只交 PDF”或“删文件必问我”）。 3. 把上述要求浓缩进全局指令，并去设置里打开“代码执行和文件创建”权限。 系统搭完，就可以当甩手掌柜了。 无论是把塞了半年的杂乱素材按日期重命名归档，还是派它去爬竞品的粉丝互动率、第二天早上收一份干净的 Excel 表，都不用你再亲自盯着。",
+      "author": "@chuhaiqu",
+      "preview": "很多人用 AI 最大的内耗，就是死磕对话框。反复改提示词，最后发现还没自己动手快。 看完 Jesse 这篇被瞬间点醒，AI 真正的效率玩法应该是委派（Delegate）而不是聊天（Chat）。 他提到像 Claude Cowork 这种桌面端 Agent，最大优势就是拿到了本地文件夹的读写权限。 也就是说你只要给个验收标准，它会自己拆解任务、干完活把结果存在你的硬盘里。 顺着他的思路，我提炼了一套极简 Cowork 设置方法： 1. 安全起见，只给 AI 这一个大文件夹的权限。建个专属文件夹（如 Claude Workspace），分三个子区：Context（背景）、Projects（干活）、Outputs（交差）。 2. 立好规矩：在 Context 里扔三个文本文件，分别是who-i-am（业务重点与禁区）、how-i-talk（历史文章喂语调）、how-you-work（工作纪律，比如“只交 PDF”或“删文件必问我”）。 3. 把上述要求浓缩进全局指令，并去设置里打开“代码执行和文件创建”权限。 系统搭完，就可以当甩手掌柜了。 无论是把塞了半年的杂乱素材按日期重命名归档，还是派它去爬竞品的粉丝互动率、第二天早上收一份干净的 Excel 表，都不用你再亲自盯着。 Jesse Pujji (@jspujji) x.com/i/article/203434260503… — https://nitter.net/jspujji/status/2034616093386678778#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-20T09:46:54Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/chuhaiqu/status/2034820738113470514#m",
+      "title": "Felix 有 7 年设计经验，先后在 Gotrade（YC S19）和 ADPList 工作。以前上线一个功能要写 brief、等排期、跟工程师来回沟通，几天起步。现在靠两个东西，流程完全变了。 第一个是 Figma MCP。 通过 MCP 把 Claude Code 连上 Figma，Claude 可以直接读组件、design token、间距。你指向一个 frame 告诉它要实现什么，它照着设计稿写代码。设计稿和最终产物第一次真正对齐了。 第二个是 Claude Code 的构建循环。 用自然语言描述功能，Claude 出第一版，你视觉上检查，告诉它哪不对，改，循环。 他说多年练出来的设计眼光在这个流程里反而是最大优势。 padding 不对、字重不对、交互不顺，一眼就能看出来，直接让 Claude 改。他在 ADPList 做的第一个内部工具，工程师估计两天，他四个小时搞定。 原型阶段变化也大。 以前 Figma 里做可点击原型要两小时，现在跟 Claude Code 描述交互直接生成能跑的代码，手机上就能测，30 分钟搞定。能跑的东西和看起来能跑的东西，拿到的反馈质量完全不一样。 还有个容易忽略的点是 context files。维护一份文件写清楚产品、用户、设计原则，每次 session 开头加载，产出质量和效率会比直接口喷高效太多太多。",
+      "author": "@chuhaiqu",
+      "preview": "Felix 有 7 年设计经验，先后在 Gotrade（YC S19）和 ADPList 工作。以前上线一个功能要写 brief、等排期、跟工程师来回沟通，几天起步。现在靠两个东西，流程完全变了。 第一个是 Figma MCP。 通过 MCP 把 Claude Code 连上 Figma，Claude 可以直接读组件、design token、间距。你指向一个 frame 告诉它要实现什么，它照着设计稿写代码。设计稿和最终产物第一次真正对齐了。 第二个是 Claude Code 的构建循环。 用自然语言描述功能，Claude 出第一版，你视觉上检查，告诉它哪不对，改，循环。 他说多年练出来的设计眼光在这个流程里反而是最大优势。 padding 不对、字重不对、交互不顺，一眼就能看出来，直接让 Claude 改。他在 ADPList 做的第一个内部工具，工程师估计两天，他四个小时搞定。 原型阶段变化也大。 以前 Figma 里做可点击原型要两小时，现在跟 Claude Code 描述交互直接生成能跑的代码，手机上就能测，30 分钟搞定。能跑的东西和看起来能跑的东西，拿到的反馈质量完全不一样。 还有个容易忽略的点是 context files。维护一份文件写清楚产品、用户、设计原则，每次 session 开头加载，产出质量和效率会比直接口喷高效太多太多。 Felix Lee (@felixleezd) x.com/i/article/202854193240… — https://nitter.net/felixleezd/status/2029236285005860903#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-20T02:34:03Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/Cydiar404/status/2034912262537060368#m",
+      "title": "丛林法则永远适用于 Jason 兄，快速成长不是你曾经会什么。而是，即刻能学会什么。关注 Jason 不迷路，宝藏博主，人品极佳！",
+      "author": "@Cydiar404",
+      "preview": "丛林法则永远适用于 Jason 兄，快速成长不是你曾经会什么。而是，即刻能学会什么。关注 Jason 不迷路，宝藏博主，人品极佳！ Jason Zhu (@GoSailGlobal) x.com/i/article/203447719950… — https://nitter.net/GoSailGlobal/status/2034489088716464226#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-20T08:37:44Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/danshipper/status/2034332104188727759#m",
+      "title": "new status symbol is getting Jensen to sign your server",
+      "author": "@danshipper",
+      "preview": "new status symbol is getting Jensen to sign your server NVIDIA AI Developer (@NVIDIAAIDev) 🙌 Andrej Karpathy’s lab has received the first DGX Station GB300 -- a Dell Pro Max with GB300. 💚 We can't wait to see what you’ll create @karpathy ! 🔗 blogs.nvidia.com/blog/gtc-20… @DellTech — https://nitter.net/NVIDIAAIDev/status/2034291235041554871#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-18T18:12:24Z",
+      "article_signals": [
+        "pattern:/blog/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/dotey/status/2034432242307502172#m",
+      "title": "x.com/i/article/203442823574…",
+      "author": "@dotey",
+      "preview": "x.com/i/article/203442823574…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T00:50:19Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/gefei55/status/2034451658894360898#m",
+      "title": "所有这些，都是哥飞学员作品。 虽然说做套壳站有一些道德风险，但是你不做我不做，老外也会做，还不如我们去做，多赚点美元回来改善生活。 他们的 SEO 技巧都来自于哥飞教授，但并不意味着哥飞的 SEO 技巧只能做套壳站，其实很多 AI 相关的需求词，都被我们占领了，而且我们还在占领更多的词。",
+      "author": "@gefei55",
+      "preview": "所有这些，都是哥飞学员作品。 虽然说做套壳站有一些道德风险，但是你不做我不做，老外也会做，还不如我们去做，多赚点美元回来改善生活。 他们的 SEO 技巧都来自于哥飞教授，但并不意味着哥飞的 SEO 技巧只能做套壳站，其实很多 AI 相关的需求词，都被我们占领了，而且我们还在占领更多的词。 胡二虎 Will hu🐯 (@willlhhh) x.com/i/article/203429789570… — https://nitter.net/willlhhh/status/2034443224660803709#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T02:07:28Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/guishou_56/status/2034564251353055314#m",
+      "title": "一个模型词就是一波财务自由的机会，所有能预判到的模型，都被至少提前半年埋伏了，今年的套壳大军太疯狂了",
+      "author": "@guishou_56",
+      "preview": "一个模型词就是一波财务自由的机会，所有能预判到的模型，都被至少提前半年埋伏了，今年的套壳大军太疯狂了 胡二虎 Will hu🐯 (@willlhhh) x.com/i/article/203429789570… — https://nitter.net/willlhhh/status/2034443224660803709#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T09:34:52Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/HiTw93/status/2034416560069087637#m",
+      "title": "I’ve been running a small weekly newsletter for 5 years. This year I started publishing it in English too. I share things I learn in tech, useful tools, how I use AI in daily work, and bits of life from a Chinese engineer’s perspective. Latest issue: https://weekly.tw93.fun/en/posts/260",
+      "author": "@HiTw93",
+      "preview": "I’ve been running a small weekly newsletter for 5 years. This year I started publishing it in English too. I share things I learn in tech, useful tools, how I use AI in daily work, and bits of life from a Chinese engineer’s perspective. Latest issue: weekly.tw93.fun/en/posts/260",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-18T23:48:00Z",
+      "article_signals": [
+        "pattern:newsletter"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/HiTw93/status/2033911478466843115#m",
+      "title": "Most Claude Code problems are not prompting problems. They are systems-design problems. I wrote a deep dive on Claude Code's architecture, governance, and engineering internals. If you want the practical takeaway: `npx skills add tw93/claude-health`, then run `/health`.",
+      "author": "@HiTw93",
+      "preview": "Most Claude Code problems are not prompting problems. They are systems-design problems. I wrote a deep dive on Claude Code's architecture, governance, and engineering internals. If you want the practical takeaway: `npx skills add tw93/claude-health`, then run `/health`. Tw93 (@HiTw93) x.com/i/article/203236418602… — https://nitter.net/HiTw93/status/2033181380432339045#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-17T14:20:59Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/HiTw93/status/2033181380432339045#m",
+      "title": "x.com/i/article/203236418602…",
+      "author": "@HiTw93",
+      "preview": "x.com/i/article/203236418602…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-15T13:59:50Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/iScienceLuvr/status/2034425586677067794#m",
+      "title": "Btw, @SophontAI recently got a shout-out in a recent edition of Out-Of-Pocket newsletter, a very popular healthtech newsletter. Appreciate the mention, @nikillinit!",
+      "author": "@iScienceLuvr",
+      "preview": "Btw, @SophontAI recently got a shout-out in a recent edition of Out-Of-Pocket newsletter, a very popular healthtech newsletter. Appreciate the mention, @nikillinit !",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T00:23:52Z",
+      "article_signals": [
+        "pattern:newsletter"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/jxnlco/status/2034840293195870333#m",
+      "title": "great read on the state of oss and ai https://pydantic.dev/articles/pyai-oss-panel",
+      "author": "@jxnlco",
+      "preview": "great read on the state of oss and ai pydantic.dev/articles/pyai-o…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-20T03:51:46Z",
+      "article_signals": [
+        "pattern:/articles/",
+        "url:https://pydantic.dev/articles/pyai-oss-panel"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/latentspacepod/status/2034523084808438216#m",
+      "title": "AINews: 18 Mar 2026 MiniMax 2.7: GLM-5 at 1/3 cost SOTA Open Model https://www.latent.space/p/ainews-minimax-27-glm-5-at-13-cost congrats MiniMax!",
+      "author": "@latentspacepod",
+      "preview": "AINews: 18 Mar 2026 MiniMax 2.7: GLM-5 at 1/3 cost SOTA Open Model latent.space/p/ainews-minima… congrats MiniMax! MiniMax (official) (@MiniMax_AI) x.com/i/article/203420256669… — https://nitter.net/MiniMax_AI/status/2034335605145182659#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T06:51:17Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/lyc_zh/status/2034087654317559894#m",
+      "title": "我有一个内容归档助手，从第一版写到了第十五版。每一次重写，都是因为它又犯了某个新错误——我加一条规则，它下次就不犯了。 看完这篇文章才明白：这就是他们说的「Gotchas 章节」。Anthropic 内部也是这么干的。 你用自然语言给 AI 写的那些规则，本质上是你踩坑的记录。踩得越多，规则越细，它就越懂你。 有人问我「你的 AI 有什么特别的」，现在答案很清楚：不是用了什么模型——是它身上刻了多少我踩过的坑。 但也有个反向问题：Gotchas 加着加着，Skill 变成一堵规则墙——AI 读完就 context rotten 了，带宽被规则占满，真正要做的事反而变差。 我的解法是定期蒸馏：把相关规则合并成原则，能代码化的逻辑变成脚本，让 SKILL 文件只留下「只有人类才能写清楚的边界」。",
+      "author": "@lyc_zh",
+      "preview": "我有一个内容归档助手，从第一版写到了第十五版。每一次重写，都是因为它又犯了某个新错误——我加一条规则，它下次就不犯了。 看完这篇文章才明白：这就是他们说的「Gotchas 章节」。Anthropic 内部也是这么干的。 你用自然语言给 AI 写的那些规则，本质上是你踩坑的记录。踩得越多，规则越细，它就越懂你。 有人问我「你的 AI 有什么特别的」，现在答案很清楚：不是用了什么模型——是它身上刻了多少我踩过的坑。 但也有个反向问题：Gotchas 加着加着，Skill 变成一堵规则墙——AI 读完就 context rotten 了，带宽被规则占满，真正要做的事反而变差。 我的解法是定期蒸馏：把相关规则合并成原则，能代码化的逻辑变成脚本，让 SKILL 文件只留下「只有人类才能写清楚的边界」。 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-18T02:01:02Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/op7418/status/2034082485798314489#m",
+      "title": "Claude Code 创建者写的如何使用和创建 Skills 如果你还不了解的话，强烈推荐看看！ Anthropic 内部现在有数百个 Skills 在用，从 API 文档到部署流程全覆盖。他们把这些经验总结出来了。 做个笔记📒： ====== Skills 不只是 Markdown 文件 很多人以为 Skills 就是写个 Markdown 文档，其实不是。Skills 是一个文件夹，里面可以放脚本、资源文件、数据，甚至注册钩子函数。 代理可以发现这些内容，读取它们，执行脚本，在特定时机触发钩子。这才是 Skills 最有意思的地方。 最好的 Skills 都在创造性地使用这些配置选项和文件夹结构。 ====== 九种 Skills 类型 Anthropic 把内部的 Skills 整理了一遍，发现它们基本归为九类。好的 Skills 能明确归入一类，混乱的 Skills 往往跨了好几类。 ------ 1. 库与 API 参考 解释怎么用某个库、CLI 或 SDK。可以是内部库，也可以是 Claude 经常搞错的常用库。 通常包含一个代码片段文件夹，加上一份\"别踩这些坑\"的清单。 比如： ▸ billing-lib — 你们内部计费库的边界情况和常见坑 ▸ internal-platform-cli — 内部 CLI 的每个子命令和使用场景 ▸ frontend-design — 让 Claude 更懂你们的设计系统 ------ 2. 产品验证 描述怎么测试或验证代码是否正常工作。通常配合 Playwright、tmux 这些工具。 验证 Skills 极其重要，值得让工程师花一周时间专门打磨。 可以让 Claude 录制测试视频，或者在每一步强制执行程序化断言。这些通常通过在 Skill 里放各种脚本实现。 比如： ▸ signup-flow-driver — 在无头浏览器里跑注册流程，每步都有状态断言钩子 ▸ checkout-verifier — 用 Stripe 测试卡驱动结账界面，验证发票状态 ▸ tmux-cli-driver — 测试需要 TTY 的交互式命令行工具 ------ 3. 数据获取与分析 连接你的数据和监控栈。可能包含带凭据的数据获取库、仪表盘 ID、常见工作流说明。 比如： ▸ datadog-metrics — 预设的仪表盘链接和常用查询 ▸ postgres-query-helper — 连接生产数据库的只读凭据和常用查询模板 ▸ user-analytics — 获取用户行为数据的脚本和分析模板 ------ 4. 业务自动化 自动化重复的业务流程。比如创建 Jira ticket、发 Slack 通知、更新文档。 这类 Skills 通常包含调用内部 API 的脚本，加上业务流程的说明。 比如： ▸ incident-reporter — 创建事故报告并通知相关人员 ▸ release-notes-generator — 从 Git 提交生成发布说明 ▸ onboarding-automation — 新员工入职的自动化流程 ------ 5. 代码脚手架 生成项目或组件的初始代码结构。包含模板文件和生成脚本。 比如： ▸ react-component-scaffold — 生成符合团队规范的 React 组件 ▸ api-endpoint-generator — 生成 API 端点的样板代码和测试 ▸ microservice-template — 创建新微服务的完整结构 ------ 6. 代码质量与审查 帮助审查代码质量、安全性、性能。可能包含 linter 配置、审查清单、自动化检查脚本。 比如： ▸ security-review — 安全审查清单和常见漏洞检查 ▸ performance-profiler — 性能分析工具和优化建议 ▸ code-review-checklist — 代码审查的标准流程 ------ 7. CI/CD 与部署 管理持续集成和部署流程。包含部署脚本、环境配置、回滚流程。 比如： ▸ deploy-to-staging — 部署到测试环境的完整流程 ▸ rollback-helper — 快速回滚的脚本和检查清单 ▸ ci-debugger — 调试 CI 失败的常用方法 ------ 8. 运行手册 处理生产环境问题的操作指南。通常是\"如果 X 发生了，做 Y\"的格式。 这类 Skills 在紧急情况下特别有用，因为它们把经验固化成了可执行的步骤。 比如： ▸ database-recovery — 数据库故障恢复流程 ▸ traffic-spike-handler — 流量激增时的应对措施 ▸ memory-leak-debugger — 内存泄漏排查步骤 ------ 9. 基础设施运维 管理云资源、容器、网络配置。包含 Terraform 脚本、Kubernetes 配置、监控设置。 比如： ▸ aws-resource-manager — 管理 AWS 资源的脚本和最佳实践 ▸ k8s-troubleshooter — Kubernetes 常见问题排查 ▸ terraform-helper — Terraform 模块和使用指南 ====== 写好 Skills 的最佳实践 Anthropic 总结了一些实用的技巧，都是从实际使用中提炼出来的。 ------ 写明 Gotchas 把常见错误和陷阱明确列出来。Claude 会认真读这些内容，避免重复犯错。 比如在 API 文档里写：\"注意：这个端点有速率限制，每秒最多 10 次请求。超过会返回 429 错误。\" ------ 利用文件系统做渐进式披露 不要把所有信息都塞在一个 Markdown 文件里。用文件夹结构组织内容，让 Claude 按需探索。 比如： ``` my-skill/ README.md # 概览和快速开始 examples/ # 代码示例 scripts/ # 辅助脚本 reference/ # 详细文档 gotchas.md # 常见陷阱 ``` Claude 会先读 README，需要时再深入其他文件。 ------ 存脚本和辅助库 把可复用的脚本放在 Skill 里，而不是让 Claude 每次都重写。 这些脚本可以是 Python、Bash、Node.js，任何能执行的东西。Claude 可以直接调用它们，或者读取代码学习怎么用。 ------ 使用稳定存储做记忆 Skills 可以访问 `${CLAUDE_PLUGIN_DATA}` 目录，这是一个持久化存储位置。 可以用来保存： ▸ 上次运行的状态 ▸ 用户偏好设置 ▸ 缓存的数据 ▸ 历史记录 这样 Skill 就有了\"记忆\"，可以在多次会话间保持状态。 ------ 按需钩子保护危险操作 对于可能造成破坏的操作（删除数据、部署到生产环境），使用按需钩子（on-demand hooks）。 这会在执行前弹出确认提示，让用户明确批准。 比如在 Skill 的 frontmatter 里配置： ```yaml hooks: on_demand: - name: deploy-to-prod command: ./scripts/deploy.sh production confirm: \"确定要部署到生产环境吗？\" ``` ------ 用 PreToolUse 做度量 可以注册 PreToolUse 钩子来记录 Skill 的使用情况。 这样能知道哪些 Skills 最常用，哪些需要改进，哪些可以下线。 ====== 分发 Skills Skills 的一大优势是可以跟团队共享。有两种方式： ------ 签入代码仓库 把 Skills 放在 `./.claude/skills` 目录下，跟代码一起提交。 适合小团队，在少数几个仓库间协作。但每个签入的 Skill 都会占用模型的上下文，所以不能无限增加。 ------ 插件市场 创建一个内部插件市场，让用户上传和安装插件。 适合大团队。用户可以选择安装哪些 Skills，不会污染所有人的上下文。 Anthropic 没有集中式团队管理市场，而是有机地发现有用的 Skills。如果你有个好 Skill，上传到 GitHub 的沙箱文件夹，在 Slack 里分享链接。 如果很多人觉得有用，就会被推广到正式市场。 ====== 管理市场的实用建议 ------ 设置沙箱区域 在市场里创建一个\"实验性\"或\"社区贡献\"区域，让人们可以自由上传。 好的 Skills 会自然浮现，然后可以移到\"官方推荐\"区域。 ------ 鼓励文档和示例 要求每个 Skill 都有清晰的 README 和使用示例。 没有文档的 Skills 很难被采用，即使功能很好。 ------ 定期清理 定期检查哪些 Skills 没人用，考虑下线或合并。 市场里 Skills 太多会让人不知道选哪个，保持精简很重要。 ------ 收集反馈 提供简单的方式让用户反馈 Skills 的问题和改进建议。 可以是 GitHub Issues，也可以是 Slack 频道。 ====== 实际案例 Anthropic 分享了几个他们内部最受欢迎的 Skills： ------ commit-helper 帮助写符合团队规范的 Git 提交信息。 包含提交信息模板、常见类型（feat/fix/docs）的说明、以及检查提交信息格式的脚本。 使用频率极高，因为每个人每天都要提交代码。 ------ pr-reviewer 自动化代码审查流程。 会检查代码风格、测试覆盖率、安全问题，生成审查评论。 节省了大量人工审查时间，让审查者可以专注于逻辑和架构问题。 ------ incident-response 生产环境事故响应流程。 包含排查清单、常用命令、通知模板、事后总结模板。 在紧急情况下特别有用，因为它把经验固化成了清晰的步骤。 ------ api-docs 内部 API 的完整文档和使用示例。 Claude 经常需要调用内部 API，有了这个 Skill 就不用每次都查文档或问人。 ------ test-runner 运行测试的标准流程。 包含不同类型测试（单元测试、集成测试、端到端测试）的运行方法，以及如何解读测试结果。 ====== Skills 的未来 Anthropic 认为 Skills 会朝几个方向发展： ------ 更智能的发现机制 现在 Claude 需要用户明确调用 Skill，未来可能会自动识别场景并推荐相关 Skills。 比如你在写 API 调用代码，Claude 自动建议使用 api-docs Skill。 ------ Skills 之间的组合 现在 Skills 基本是独立的，未来可能会支持 Skills 之间的依赖和组合。 比如 deploy-to-prod Skill 可以自动调用 test-runner 和 security-review Skills。 ------ 动态生成 Skills 根据代码仓库的实际情况，自动生成或更新 Skills。 比如扫描代码库，自动生成 API 文档 Skill。 ------ 跨团队共享 建立公开的 Skills 市场，让不同公司的团队可以共享通用的 Skills。 比如常用框架（React、Django）的最佳实践 Skills。 ====== 核心理念 Skills 的本质是把团队的工程实践和领域知识固化成可复用的扩展。 好的 Skills 应该： ▸ 解决真实的重复性问题 ▸ 包含清晰的文档和示例 ▸ 利用文件夹结构和脚本增强能力 ▸ 在需要时提供保护机制 ▸ 容易分发和维护 不要为了做 Skill 而做 Skill。从团队的实际痛点出发，把那些每次都要重复的事情固化下来。 一个好的 Skill 能让整个团队的 AI 编程体验提升一个档次。",
+      "author": "@op7418",
+      "preview": "Claude Code 创建者写的如何使用和创建 Skills 如果你还不了解的话，强烈推荐看看！ Anthropic 内部现在有数百个 Skills 在用，从 API 文档到部署流程全覆盖。他们把这些经验总结出来了。 做个笔记📒： ====== Skills 不只是 Markdown 文件 很多人以为 Skills 就是写个 Markdown 文档，其实不是。Skills 是一个文件夹，里面可以放脚本、资源文件、数据，甚至注册钩子函数。 代理可以发现这些内容，读取它们，执行脚本，在特定时机触发钩子。这才是 Skills 最有意思的地方。 最好的 Skills 都在创造性地使用这些配置选项和文件夹结构。 ====== 九种 Skills 类型 Anthropic 把内部的 Skills 整理了一遍，发现它们基本归为九类。好的 Skills 能明确归入一类，混乱的 Skills 往往跨了好几类。 ------ 1. 库与 API 参考 解释怎么用某个库、CLI 或 SDK。可以是内部库，也可以是 Claude 经常搞错的常用库。 通常包含一个代码片段文件夹，加上一份\"别踩这些坑\"的清单。 比如： ▸ billing-lib — 你们内部计费库的边界情况和常见坑 ▸ internal-platform-cli — 内部 CLI 的每个子命令和使用场景 ▸ frontend-design — 让 Claude 更懂你们的设计系统 ------ 2. 产品验证 描述怎么测试或验证代码是否正常工作。通常配合 Playwright、tmux 这些工具。 验证 Skills 极其重要，值得让工程师花一周时间专门打磨。 可以让 Claude 录制测试视频，或者在每一步强制执行程序化断言。这些通常通过在 Skill 里放各种脚本实现。 比如： ▸ signup-flow-driver — 在无头浏览器里跑注册流程，每步都有状态断言钩子 ▸ checkout-verifier — 用 Stripe 测试卡驱动结账界面，验证发票状态 ▸ tmux-cli-driver — 测试需要 TTY 的交互式命令行工具 ------ 3. 数据获取与分析 连接你的数据和监控栈。可能包含带凭据的数据获取库、仪表盘 ID、常见工作流说明。 比如： ▸ datadog-metrics — 预设的仪表盘链接和常用查询 ▸ postgres-query-helper — 连接生产数据库的只读凭据和常用查询模板 ▸ user-analytics — 获取用户行为数据的脚本和分析模板 ------ 4. 业务自动化 自动化重复的业务流程。比如创建 Jira ticket、发 Slack 通知、更新文档。 这类 Skills 通常包含调用内部 API 的脚本，加上业务流程的说明。 比如： ▸ incident-reporter — 创建事故报告并通知相关人员 ▸ release-notes-generator — 从 Git 提交生成发布说明 ▸ onboarding-automation — 新员工入职的自动化流程 ------ 5. 代码脚手架 生成项目或组件的初始代码结构。包含模板文件和生成脚本。 比如： ▸ react-component-scaffold — 生成符合团队规范的 React 组件 ▸ api-endpoint-generator — 生成 API 端点的样板代码和测试 ▸ microservice-template — 创建新微服务的完整结构 ------ 6. 代码质量与审查 帮助审查代码质量、安全性、性能。可能包含 linter 配置、审查清单、自动化检查脚本。 比如： ▸ security-review — 安全审查清单和常见漏洞检查 ▸ performance-profiler — 性能分析工具和优化建议 ▸ code-review-checklist — 代码审查的标准流程 ------ 7. CI/CD 与部署 管理持续集成和部署流程。包含部署脚本、环境配置、回滚流程。 比如： ▸ deploy-to-staging — 部署到测试环境的完整流程 ▸ rollback-helper — 快速回滚的脚本和检查清单 ▸ ci-debugger — 调试 CI 失败的常用方法 ------ 8. 运行手册 处理生产环境问题的操作指南。通常是\"如果 X 发生了，做 Y\"的格式。 这类 Skills 在紧急情况下特别有用，因为它们把经验固化成了可执行的步骤。 比如： ▸ database-recovery — 数据库故障恢复流程 ▸ traffic-spike-handler — 流量激增时的应对措施 ▸ memory-leak-debugger — 内存泄漏排查步骤 ------ 9. 基础设施运维 管理云资源、容器、网络配置。包含 Terraform 脚本、Kubernetes 配置、监控设置。 比如： ▸ aws-resource-manager — 管理 AWS 资源的脚本和最佳实践 ▸ k8s-troubleshooter — Kubernetes 常见问题排查 ▸ terraform-helper — Terraform 模块和使用指南 ====== 写好 Skills 的最佳实践 Anthropic 总结了一些实用的技巧，都是从实际使用中提炼出来的。 ------ 写明 Gotchas 把常见错误和陷阱明确列出来。Claude 会认真读这些内容，避免重复犯错。 比如在 API 文档里写：\"注意：这个端点有速率限制，每秒最多 10 次请求。超过会返回 429 错误。\" ------ 利用文件系统做渐进式披露 不要把所有信息都塞在一个 Markdown 文件里。用文件夹结构组织内容，让 Claude 按需探索。 比如： ``` my-skill/ README.md # 概览和快速开始 examples/ # 代码示例 scripts/ # 辅助脚本 reference/ # 详细文档 gotchas.md # 常见陷阱 ``` Claude 会先读 README，需要时再深入其他文件。 ------ 存脚本和辅助库 把可复用的脚本放在 Skill 里，而不是让 Claude 每次都重写。 这些脚本可以是 Python、Bash、Node.js，任何能执行的东西。Claude 可以直接调用它们，或者读取代码学习怎么用。 ------ 使用稳定存储做记忆 Skills 可以访问 `${CLAUDE_PLUGIN_DATA}` 目录，这是一个持久化存储位置。 可以用来保存： ▸ 上次运行的状态 ▸ 用户偏好设置 ▸ 缓存的数据 ▸ 历史记录 这样 Skill 就有了\"记忆\"，可以在多次会话间保持状态。 ------ 按需钩子保护危险操作 对于可能造成破坏的操作（删除数据、部署到生产环境），使用按需钩子（on-demand hooks）。 这会在执行前弹出确认提示，让用户明确批准。 比如在 Skill 的 frontmatter 里配置： ```yaml hooks: on_demand: - name: deploy-to-prod command: ./scripts/deploy.sh production confirm: \"确定要部署到生产环境吗？\" ``` ------ 用 PreToolUse 做度量 可以注册 PreToolUse 钩子来记录 Skill 的使用情况。 这样能知道哪些 Skills 最常用，哪些需要改进，哪些可以下线。 ====== 分发 Skills Skills 的一大优势是可以跟团队共享。有两种方式： ------ 签入代码仓库 把 Skills 放在 `./.claude/skills` 目录下，跟代码一起提交。 适合小团队，在少数几个仓库间协作。但每个签入的 Skill 都会占用模型的上下文，所以不能无限增加。 ------ 插件市场 创建一个内部插件市场，让用户上传和安装插件。 适合大团队。用户可以选择安装哪些 Skills，不会污染所有人的上下文。 Anthropic 没有集中式团队管理市场，而是有机地发现有用的 Skills。如果你有个好 Skill，上传到 GitHub 的沙箱文件夹，在 Slack 里分享链接。 如果很多人觉得有用，就会被推广到正式市场。 ====== 管理市场的实用建议 ------ 设置沙箱区域 在市场里创建一个\"实验性\"或\"社区贡献\"区域，让人们可以自由上传。 好的 Skills 会自然浮现，然后可以移到\"官方推荐\"区域。 ------ 鼓励文档和示例 要求每个 Skill 都有清晰的 README 和使用示例。 没有文档的 Skills 很难被采用，即使功能很好。 ------ 定期清理 定期检查哪些 Skills 没人用，考虑下线或合并。 市场里 Skills 太多会让人不知道选哪个，保持精简很重要。 ------ 收集反馈 提供简单的方式让用户反馈 Skills 的问题和改进建议。 可以是 GitHub Issues，也可以是 Slack 频道。 ====== 实际案例 Anthropic 分享了几个他们内部最受欢迎的 Skills： ------ commit-helper 帮助写符合团队规范的 Git 提交信息。 包含提交信息模板、常见类型（feat/fix/docs）的说明、以及检查提交信息格式的脚本。 使用频率极高，因为每个人每天都要提交代码。 ------ pr-reviewer 自动化代码审查流程。 会检查代码风格、测试覆盖率、安全问题，生成审查评论。 节省了大量人工审查时间，让审查者可以专注于逻辑和架构问题。 ------ incident-response 生产环境事故响应流程。 包含排查清单、常用命令、通知模板、事后总结模板。 在紧急情况下特别有用，因为它把经验固化成了清晰的步骤。 ------ api-docs 内部 API 的完整文档和使用示例。 Claude 经常需要调用内部 API，有了这个 Skill 就不用每次都查文档或问人。 ------ test-runner 运行测试的标准流程。 包含不同类型测试（单元测试、集成测试、端到端测试）的运行方法，以及如何解读测试结果。 ====== Skills 的未来 Anthropic 认为 Skills 会朝几个方向发展： ------ 更智能的发现机制 现在 Claude 需要用户明确调用 Skill，未来可能会自动识别场景并推荐相关 Skills。 比如你在写 API 调用代码，Claude 自动建议使用 api-docs Skill。 ------ Skills 之间的组合 现在 Skills 基本是独立的，未来可能会支持 Skills 之间的依赖和组合。 比如 deploy-to-prod Skill 可以自动调用 test-runner 和 security-review Skills。 ------ 动态生成 Skills 根据代码仓库的实际情况，自动生成或更新 Skills。 比如扫描代码库，自动生成 API 文档 Skill。 ------ 跨团队共享 建立公开的 Skills 市场，让不同公司的团队可以共享通用的 Skills。 比如常用框架（React、Django）的最佳实践 Skills。 ====== 核心理念 Skills 的本质是把团队的工程实践和领域知识固化成可复用的扩展。 好的 Skills 应该： ▸ 解决真实的重复性问题 ▸ 包含清晰的文档和示例 ▸ 利用文件夹结构和脚本增强能力 ▸ 在需要时提供保护机制 ▸ 容易分发和维护 不要为了做 Skill 而做 Skill。从团队的实际痛点出发，把那些每次都要重复的事情固化下来。 一个好的 Skill 能让整个团队的 AI 编程体验提升一个档次。 Thariq (@trq212) x.com/i/article/203377262153… — https://nitter.net/trq212/status/2033949937936085378#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-18T01:40:30Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/oran_ge/status/2034645280411316233#m",
+      "title": "x.com/i/article/203464375874…",
+      "author": "@oran_ge",
+      "preview": "x.com/i/article/203464375874…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-19T14:56:51Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/PMbackttfuture/status/2033792268335817177#m",
+      "title": "x.com/i/article/203378856441…",
+      "author": "@PMbackttfuture",
+      "preview": "x.com/i/article/203378856441…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-17T06:27:17Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/PMbackttfuture/status/2033389708974436482#m",
+      "title": "X上很多推友都在做内容 Lenny这个复盘给我有几点启发： 1. “找到自己享受、擅长、有价值的Ikigai交集” 这一点又让我继续思考自己当前交集是否和去年一致 2.“每个人都有幸福基线，你能做的是提高那条线，而不是追逐短暂的高峰。” 春节前一直在努力卖课 后来发现似乎这种对自己的消耗挺大的 于是最近又沉淀了一下 找到自己的幸福基线也挺有意义的 3.“newsletter成功的关键是，所有内容都来自真实的实践者” 自己也在实践 如何持续的在Build 再分享出去 以及这种是否有更好的路径 需要持续学习 4.“一旦它变成你必须做的事，它就变了。” 每周坚持直播+更新课程 也是有一些压力的 是否足够喜欢这件事 也要变成我更新的动力 挺有启发的，做内容的朋友欢迎评论",
+      "author": "@PMbackttfuture",
+      "preview": "X上很多推友都在做内容 Lenny这个复盘给我有几点启发： 1. “找到自己享受、擅长、有价值的Ikigai交集” 这一点又让我继续思考自己当前交集是否和去年一致 2.“每个人都有幸福基线，你能做的是提高那条线，而不是追逐短暂的高峰。” 春节前一直在努力卖课 后来发现似乎这种对自己的消耗挺大的 于是最近又沉淀了一下 找到自己的幸福基线也挺有意义的 3.“newsletter成功的关键是，所有内容都来自真实的实践者” 自己也在实践 如何持续的在Build 再分享出去 以及这种是否有更好的路径 需要持续学习 4.“一旦它变成你必须做的事，它就变了。” 每周坚持直播+更新课程 也是有一些压力的 是否足够喜欢这件事 也要变成我更新的动力 挺有启发的，做内容的朋友欢迎评论 AI产品黄叔 (@PMbackttfuture) x.com/i/article/203336399770… — https://nitter.net/PMbackttfuture/status/2033365853140595122#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-16T03:47:39Z",
+      "article_signals": [
+        "pattern:/article/",
+        "pattern:newsletter"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/PMbackttfuture/status/2033365853140595122#m",
+      "title": "x.com/i/article/203336399770…",
+      "author": "@PMbackttfuture",
+      "preview": "x.com/i/article/203336399770…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-16T02:12:52Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/RLanceMartin/status/2032513255986573629#m",
+      "title": "i've been surprised to see how quickly Claude is getting better at long context retrieval + reasoning. also, we just announced flat pricing across the full context window to 1M tokens. it's a good time to explore long context when building with Claude. https://x.com/RLanceMartin/status/2032510338336436647?s=20",
+      "author": "@RLanceMartin",
+      "preview": "i've been surprised to see how quickly Claude is getting better at long context retrieval + reasoning. also, we just announced flat pricing across the full context window to 1M tokens. it's a good time to explore long context when building with Claude. nitter.net/RLanceMartin/status/20… Lance Martin (@RLanceMartin) x.com/i/article/203249595480… — https://nitter.net/RLanceMartin/status/2032510338336436647#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-13T17:44:57Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/RLanceMartin/status/2032510338336436647#m",
+      "title": "x.com/i/article/203249595480…",
+      "author": "@RLanceMartin",
+      "preview": "x.com/i/article/203249595480…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-13T17:33:21Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/steventey/status/2034784565269864571#m",
+      "title": "the Forbes 30u30 pipeline reigns supreme",
+      "author": "@steventey",
+      "preview": "the Forbes 30u30 pipeline reigns supreme erin griffith (@eringriffith) A detailed and brutal look at the tactics of buzzy AI compliance startup Delve \"Delve built a machine designed to make clients complicit without their knowledge, to manufacture plausible deniability while producing exactly the opposite.\" substack.com/home/post/p-191… — https://nitter.net/eringriffith/status/2034698536147943558#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-20T00:10:19Z",
+      "article_signals": [
+        "pattern:substack.com"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/yan5xu/status/2033721922757005519#m",
+      "title": "这里说了几个问题 1. 为什么我不推荐垂类做 Agent 2. 为什么 skill 不会是 Agent application 3. Agent native application 是什么 4. Agent os 和 application 各自的命题，和相互的关系",
+      "author": "@yan5xu",
+      "preview": "这里说了几个问题 1. 为什么我不推荐垂类做 Agent 2. 为什么 skill 不会是 Agent application 3. Agent native application 是什么 4. Agent os 和 application 各自的命题，和相互的关系 yan5xu (@yan5xu) x.com/i/article/203371576152… — https://nitter.net/yan5xu/status/2033721014413402303#m",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-17T01:47:45Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    },
+    {
+      "bucket": "whitelist_article_like",
+      "framework_id": "",
+      "framework_label": "",
+      "submode_id": "",
+      "url": "https://nitter.net/yan5xu/status/2033721014413402303#m",
+      "title": "x.com/i/article/203371576152…",
+      "author": "@yan5xu",
+      "preview": "x.com/i/article/203371576152…",
+      "type_guess": "",
+      "why_it_matters": "Fresh whitelist article-like source fetched for hook/pacing study.",
+      "hook_move": "",
+      "style_cue": "",
+      "proof_mode": [],
+      "reusable_parts": [],
+      "local_ref": "content/research/hook_study/2026-03-20/01_x_whitelist_article_like/classification/guest_rss_catalog.json",
+      "published_at": "2026-03-17T01:44:09Z",
+      "article_signals": [
+        "pattern:/article/"
+      ],
+      "origins": [
+        "whitelist_article_like"
+      ]
+    }
+  ]
+}

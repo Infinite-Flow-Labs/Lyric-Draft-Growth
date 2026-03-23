@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "podcast-the_ai_daily_brief-df640ebaeb09",
+  "fetched_at": "2026-03-18T07:12:06Z",
+  "platform": "podcast",
+  "source_kind": "podcast_transcript",
+  "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Power-to-Shape-AI-e3gfi08",
+  "author": {
+    "handle": null,
+    "display_name": "The AI Daily Brief",
+    "account_url": null
+  },
+  "title": "The Power to Shape AI",
+  "language": "unknown",
+  "published_at": "2026-03-15T20:00:00Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "rss_feed",
+      "url": "https://anchor.fm/s/f7cac464/podcast/rss",
+      "selected_for_text": false,
+      "notes": null
+    },
+    {
+      "asset_kind": "episode_page",
+      "url": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Power-to-Shape-AI-e3gfi08",
+      "selected_for_text": true,
+      "notes": "origin_page_auto"
+    },
+    {
+      "asset_kind": "audio",
+      "url": "https://anchor.fm/s/f7cac464/podcast/play/116950472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-15%2F420052278-44100-2-4c7d075c873db.mp3",
+      "selected_for_text": false,
+      "notes": null
+    }
+  ],
+  "content": {
+    "primary_text_source": "episode_page",
+    "summary": "AI capabilities are compounding, disruption is rolling through markets and politics, and a growing chorus wants you to believe the only response is fear. But the narrative of learned helplessness — from scary ad campaigns with no policy ideas to moratoriums that miss the point — is more dangerous than the disruption itself, and the window to shape what AI becomes is still wide open. Ethan Mollick's Essay: https://www.oneusefulthing.org/p/the-shape-of-the-thing",
+    "full_text": "#### The Race to Put AI Agents Everywhere\n\nQ1 was defined by the realization that agents are here — Q2 is shaping up as an all-out race to make them enterprise-ready. From Nvidia's Nemo Claw adding security to Open Claw, to Manus and Adaptive launching desktop agents, to OpenAI's internal \"code red\" refocus on enterprise and coding, every major player is converging on the same goal: getting agents out of experimentation and into production. In the headlines: Jensen Huang forecasts a trillion dollars in Nvidia revenue, Meta signs a $27 billion deal with Nebius, and Chinese AI labs start keeping their best models closed source.",
+    "sections": [
+      "The Race to Put AI Agents Everywhere"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "Trimmed summary at first non-core marker.; Removed Jina title wrapper.; Removed Jina URL wrapper.; Removed Jina markdown wrapper.; Removed empty markdown link line.; Removed promo line.; Trimmed episode page at sponsor/footer marker.; Built from transcript_source.json: /home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/01_discovery/podcast_ingest/fulltext/auto_discovered/podcast-the_ai_daily_brief-df640ebaeb09/transcript_source.json; Primary text source selected: episode_page."
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch"
+    ],
+    "metric_signals": [
+      "$27"
+    ],
+    "named_entities": [
+      "The Power",
+      "Shape AI",
+      "AI",
+      "Ethan Mollick",
+      "Essay",
+      "The Race",
+      "Put AI Agents Everywhere",
+      "Q1",
+      "Q2",
+      "From Nvidia",
+      "Nemo Claw",
+      "Open Claw",
+      "Manus",
+      "Adaptive",
+      "OpenAI",
+      "Jensen Huang",
+      "Nvidia",
+      "Meta",
+      "Nebius",
+      "Chinese AI"
+    ],
+    "task_hints": [
+      "podcast"
+    ],
+    "fact_anchors": [
+      "The Power to Shape AI",
+      "2026-03-15T20:00:00Z",
+      "$27",
+      "The Power",
+      "Shape AI",
+      "AI",
+      "Ethan Mollick",
+      "Essay",
+      "The Race",
+      "Put AI Agents Everywhere",
+      "Q1",
+      "Q2",
+      "From Nvidia",
+      "AI capabilities are compounding, disruption is rolling through markets and politics, and a growing chorus wants you to believe the only response is fear"
+    ],
+    "normalization_notes": "Trimmed summary at first non-core marker.; Removed Jina title wrapper.; Removed Jina URL wrapper.; Removed Jina markdown wrapper.; Removed empty markdown link line.; Removed promo line.; Trimmed episode page at sponsor/footer marker.; Built from transcript_source.json: /home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/01_discovery/podcast_ingest/fulltext/auto_discovered/podcast-the_ai_daily_brief-df640ebaeb09/transcript_source.json"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "publisher_type": "x_post_bitbrowser",
+  "publisher_account": "aiflow_notes",
+  "browser_id": "0d97ec9b7fa141e99e0231d907af8052",
+  "bit_port": 54345,
+  "accounts_csv_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/accounts_bitbrowser.csv"
+}

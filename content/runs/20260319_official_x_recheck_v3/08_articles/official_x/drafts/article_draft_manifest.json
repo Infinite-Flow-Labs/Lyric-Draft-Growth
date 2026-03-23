@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-20T05:15:00Z",
+  "backend": "codex_cli",
+  "rewrite_context_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/07_rewrite_contexts/official_x/results",
+  "out_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts",
+  "output_language": "zh-CN",
+  "count": 9,
+  "ok_count": 9,
+  "schema_error_count": 0,
+  "skipped_human_review_count": 0,
+  "skipped_source_gate_count": 0,
+  "results": [
+    {
+      "source_id": "x-aiatmeta-c288c436d081",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-aiatmeta-c288c436d081/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-aiatmeta-c288c436d081/article_draft.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-anthropicai-b79579a40386",
+      "status": "ok",
+      "framework_id": "01_money_proof",
+      "submode_id": "metric_postmortem",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-anthropicai-b79579a40386/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-anthropicai-b79579a40386/article_draft.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-googledeepmind-2ac914f175fb",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-googledeepmind-2ac914f175fb/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-googledeepmind-2ac914f175fb/article_draft.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-googledeepmind-cbedf588e2f4",
+      "status": "ok",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-googledeepmind-cbedf588e2f4/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-googledeepmind-cbedf588e2f4/article_draft.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-mistralai-eb537fb905fa",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-mistralai-eb537fb905fa/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-mistralai-eb537fb905fa/article_draft.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-openai-8f6ed0f162e6",
+      "status": "ok",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-openai-8f6ed0f162e6/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-openai-8f6ed0f162e6/article_draft.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-openai-af7edec328da",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-openai-af7edec328da/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-openai-af7edec328da/article_draft.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-perplexity_ai-f89a10327e81",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-perplexity_ai-f89a10327e81/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-perplexity_ai-f89a10327e81/article_draft.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-xai-f2ae68a2fa14",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "feature_playbook",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-xai-f2ae68a2fa14/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/08_articles/official_x/drafts/x-xai-f2ae68a2fa14/article_draft.md",
+      "validation_error": null
+    }
+  ]
+}

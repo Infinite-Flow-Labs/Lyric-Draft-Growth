@@ -1,0 +1,118 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-openai-af7edec328da",
+  "fetched_at": "2026-03-19T05:55:26Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/OpenAI/status/2034315401438580953",
+  "author": {
+    "handle": "@OpenAI",
+    "display_name": "OpenAI",
+    "account_url": "https://x.com/OpenAI"
+  },
+  "title": "Are you up for a challenge? http://openai.com/parameter-golf",
+  "language": "unknown",
+  "published_at": "2026-03-18T17:06:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/OpenAI/status/2034315401438580953",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/OpenAI/status/2034315401438580953#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    },
+    {
+      "asset_kind": "linked_article",
+      "url": "http://openai.com/parameter-golf",
+      "selected_for_text": true,
+      "notes": "linked context words=1064"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post_with_link_context",
+    "summary": "Are you up for a challenge? openai.com/parameter-golf Video",
+    "full_text": "Post title: Are you up for a challenge? http://openai.com/parameter-golf\n\nPost summary: Are you up for a challenge? openai.com/parameter-golf Video\n\nCanonical URL: https://x.com/OpenAI/status/2034315401438580953\n\nLinked source 1: http://openai.com/parameter-golf\n\n# OpenAI Model Craft: Parameter Golf | OpenAI [](http://openai.com/) * [Research](http://openai.com/research/index/) * [Safety](http://openai.com/safety/) * [For Business](http://openai.com/business/) * [For Developers](http://openai.com/api/) * [ChatGPT(opens in a new window)](https://chatgpt.com/overview?openaicom-did=955d25ea-7af7-4074-b875-3ba8c5991d63&openaicom_referred=true) * [Sora](http://openai.com/sora/) * [Codex](http://openai.com/codex/) * [Stories](http://openai.com/stories/) * [Company](http://openai.com/about/) * [News](http://openai.com/news/company-announcements/) Log in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=955d25ea-7af7-4074-b875-3ba8c5991d63&openaicom_referred=true) * Research * Safety * For Business * For Developers * [ChatGPT(opens in a new window)](https://chatgpt.com/overview?openaicom-did=955d25ea-7af7-4074-b875-3ba8c5991d63&openaicom_referred=true) * [Sora](http://openai.com/sora/) * [Codex](http://openai.com/codex/) * [Stories](http://openai.com/stories/) * Company * [News](http://openai.com/news/company-announcements/) OpenAI Model Craft: Parameter Golf | OpenAI ![Image 2](https://images.ctfassets.net/kftzwdyauwt9/6BXBcORmNhFOqZKpFOuaiO/6d022a26c203d7ea0089276f213d6e48/LightGreen.svg) ![Image 4](https://images.ctfassets.net/kftzwdyauwt9/1vgYR7neRkgzrloAAZBgGB/f8e0eb9c404693eb3d01af7f72b47b23/GraphOverlay.svg) ![Image 6](https://images.ctfassets.net/kftzwdyauwt9/dVEzJCA8vQPyGkZAe4Ypk/6963124c70b48383f8aa8eb1397593d2/Grass.png?w=3840&q=90&fm=webp) ![Image 8](https://images.ctfassets.net/kftzwdyauwt9/2lncrOt6h9LHgCzimQoIah/ac113c39d5015d9a9f98f9d3d09c14c8/GridBackground.svg) ![Image 10](https://images.ctfassets.net/kftzwdyauwt9/parameterGolfHeroGridOverlaySvgV2/9bf0dbce49eea76c00d715a42787ed1d/Grid.svg) ![Image 12](https://images.ctfassets.net/kftzwdyauwt9/yJ0vHQYB1EABfr1dmfNFZ/cf7570e1d5ad33234a1038bcb8116404/Texture.png?w=3840&q=90&fm=webp) ![Image 14](https://images.ctfassets.net/kftzwdyauwt9/1Ux7dP6yrC4MntYJvAjuqN/dfca5fc8d7449dba820bc121835f8a15/TextureOverlay.svg) OpenAI Model Craft # Parameter Golf [Enter the challenge on GitHub(opens in a new window)](https://github.com/openai/parameter-golf) We know good ideas can come from anywhere. So we’re hosting an open research challenge to build the most efficient pretrained model under extreme constraints. Your goal: minimize held-out loss on a fixed FineWeb dataset while staying within a strict 16 MB artifact limit (weights + training code combined) and a 10-minute training budget on 8×H100s. #### How to participate We provide a GitHub repo with a baseline, fixed dataset, and evaluation scripts. Fork it, improve the model within the size and compute caps, and submit a PR with your code, logs, score, and a short write-up. Once approved, your result is merged and the leaderboard updates automatically. You can [apply for free compute credits⁠](http://openai.com/parameter-golf#credit-form) with Runpod (while supplies last). #### Why you should enter This challenge is designed to surface exceptional researchers and engineers we’d want to hire. Standout participants may be invited to interview for job opportunities at OpenAI, and winning approaches may be featured publicly. * [Enter the challenge on GitHub(opens in a new window)](https://github.com/openai/parameter-golf) _If you love solving technical problems like this and are interested in connecting with our recruiting team,_[_tell us about yourself_⁠(opens in a new window)](https://jobs.ashbyhq.com/openai/form/open-ai-challenge-parameter-golf)_._ ### Compute Credit Request Form Our goal is to support participants as they experiment and iterate on their ideas. Through [our partnership with Runpod⁠(opens in a new window)](http://modelcraft.runpod.io/?utm_medium=referral&utm_source=website&utm_campaign=WEB-parameter-golf&utm_internal_source=blog), we are offering compute credits to help you get started and scale promising approaches. First name* Last name* Email*Must match OpenAI account email GitHub username* Country of residence* Current role* What level of compute support are you requesting?* Quick-start credits (~$25 / ~8 compute hours). I just want to experiment. Development grant (~$500 / ~160 compute hours). I have a concrete approach, have experimented, and need more compute. Advanced competitor grant (~$1000 / ~320 compute hours). I’m actively competing near the top of the leaderboard. By submitting this form, you are opting in to being contacted by OpenAI and our third-party vendor, and certifying that you are using any awarded Runpod credits for the OpenAI Challenge. Your responses will be handled according to the OpenAI [privacy policy](http://openai.com/policies/privacy-policy/). We review all submissions for accuracy, eligibility, and compliance. Submission of this form does **not** guarantee that compute credits will be granted. Credits may only be issued to participants located in authorized countries or regions and to individuals who are",
+    "sections": [
+      "x_post",
+      "linked_context"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_used:http://openai.com/parameter-golf"
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "partnership"
+    ],
+    "metric_signals": [
+      "$25",
+      "$500",
+      "$1000"
+    ],
+    "named_entities": [
+      "Are",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "OpenAI",
+      "Linked",
+      "OpenAI Model Craft",
+      "Parameter Golf",
+      "Research",
+      "Safety",
+      "For Business",
+      "For Developers",
+      "ChatGPT",
+      "Sora",
+      "Codex",
+      "Stories",
+      "Company",
+      "News",
+      "Log",
+      "Try ChatGPT",
+      "Image",
+      "LightGreen",
+      "GraphOverlay",
+      "Grass",
+      "GridBackground",
+      "Grid",
+      "Texture",
+      "TextureOverlay"
+    ],
+    "task_hints": [
+      "tutorial",
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "Are you up for a challenge? http://openai.com/parameter-golf",
+      "Are you up for a challenge? openai.com/parameter-golf Video",
+      "partnership",
+      "$25",
+      "$500",
+      "$1000",
+      "Are",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "OpenAI",
+      "Linked",
+      "OpenAI Model Craft",
+      "Parameter Golf",
+      "Research",
+      "Safety",
+      "For Business",
+      "For Developers",
+      "ChatGPT",
+      "Sora",
+      "Codex",
+      "Stories",
+      "http://openai.com/parameter-golf"
+    ],
+    "normalization_notes": "linked_context_count=1"
+  }
+}

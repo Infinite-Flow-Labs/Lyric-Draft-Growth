@@ -1,0 +1,235 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-19T06:58:59Z",
+  "source_item_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items",
+  "out_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results",
+  "count": 32,
+  "longform_eligible_count": 3,
+  "hold_or_shortform_count": 29,
+  "results": [
+    {
+      "source_id": "x-alchainhust-283d19d226db",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-alchainhust-283d19d226db/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-alchainhust-283d19d226db/source_gate.md"
+    },
+    {
+      "source_id": "x-alchainhust-6e2091c4bb69",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-alchainhust-6e2091c4bb69/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-alchainhust-6e2091c4bb69/source_gate.md"
+    },
+    {
+      "source_id": "x-alphasignalai-32fc36393e26",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-alphasignalai-32fc36393e26/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-alphasignalai-32fc36393e26/source_gate.md"
+    },
+    {
+      "source_id": "x-alphasignalai-ae59fceea21e",
+      "longform_eligible": true,
+      "recommended_action": "write_longform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-alphasignalai-ae59fceea21e/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-alphasignalai-ae59fceea21e/source_gate.md"
+    },
+    {
+      "source_id": "x-astronaut_1216-42b15184de53",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-astronaut_1216-42b15184de53/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-astronaut_1216-42b15184de53/source_gate.md"
+    },
+    {
+      "source_id": "x-astronaut_1216-5ea0a376015a",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-astronaut_1216-5ea0a376015a/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-astronaut_1216-5ea0a376015a/source_gate.md"
+    },
+    {
+      "source_id": "x-balconychy-1654a6889b56",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-balconychy-1654a6889b56/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-balconychy-1654a6889b56/source_gate.md"
+    },
+    {
+      "source_id": "x-bentossell-b94bb38bcda4",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-bentossell-b94bb38bcda4/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-bentossell-b94bb38bcda4/source_gate.md"
+    },
+    {
+      "source_id": "x-chuhaiqu-978b8c1203e1",
+      "longform_eligible": true,
+      "recommended_action": "write_longform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-chuhaiqu-978b8c1203e1/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-chuhaiqu-978b8c1203e1/source_gate.md"
+    },
+    {
+      "source_id": "x-chuhaiqu-d3ca80c45895",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-chuhaiqu-d3ca80c45895/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-chuhaiqu-d3ca80c45895/source_gate.md"
+    },
+    {
+      "source_id": "x-danshipper-cb469691ed33",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-danshipper-cb469691ed33/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-danshipper-cb469691ed33/source_gate.md"
+    },
+    {
+      "source_id": "x-dotey-c03168af9a7d",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-dotey-c03168af9a7d/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-dotey-c03168af9a7d/source_gate.md"
+    },
+    {
+      "source_id": "x-fkysly-5b340e56a325",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-fkysly-5b340e56a325/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-fkysly-5b340e56a325/source_gate.md"
+    },
+    {
+      "source_id": "x-gefei55-2f75eb47a3b9",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-gefei55-2f75eb47a3b9/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-gefei55-2f75eb47a3b9/source_gate.md"
+    },
+    {
+      "source_id": "x-gorden_sun-4d1bb97e37f3",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-gorden_sun-4d1bb97e37f3/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-gorden_sun-4d1bb97e37f3/source_gate.md"
+    },
+    {
+      "source_id": "x-hitw93-7f81d45022ab",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-hitw93-7f81d45022ab/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-hitw93-7f81d45022ab/source_gate.md"
+    },
+    {
+      "source_id": "x-hitw93-e9d0c7cfc248",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-hitw93-e9d0c7cfc248/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-hitw93-e9d0c7cfc248/source_gate.md"
+    },
+    {
+      "source_id": "x-icreatelife-2c40cacbe1b4",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-icreatelife-2c40cacbe1b4/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-icreatelife-2c40cacbe1b4/source_gate.md"
+    },
+    {
+      "source_id": "x-iscienceluvr-a7a6fda0ba46",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-iscienceluvr-a7a6fda0ba46/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-iscienceluvr-a7a6fda0ba46/source_gate.md"
+    },
+    {
+      "source_id": "x-latentspacepod-e97939cef1c0",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-latentspacepod-e97939cef1c0/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-latentspacepod-e97939cef1c0/source_gate.md"
+    },
+    {
+      "source_id": "x-lxfater-9b7215c04d9e",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lxfater-9b7215c04d9e/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lxfater-9b7215c04d9e/source_gate.md"
+    },
+    {
+      "source_id": "x-lxfater-c43921f23e16",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lxfater-c43921f23e16/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lxfater-c43921f23e16/source_gate.md"
+    },
+    {
+      "source_id": "x-lyc_zh-2ffb7cd354b3",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lyc_zh-2ffb7cd354b3/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lyc_zh-2ffb7cd354b3/source_gate.md"
+    },
+    {
+      "source_id": "x-lyc_zh-41ebd2ad41bf",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lyc_zh-41ebd2ad41bf/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lyc_zh-41ebd2ad41bf/source_gate.md"
+    },
+    {
+      "source_id": "x-lyc_zh-b47c74c3b336",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lyc_zh-b47c74c3b336/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-lyc_zh-b47c74c3b336/source_gate.md"
+    },
+    {
+      "source_id": "x-op7418-a20aa8c443d2",
+      "longform_eligible": true,
+      "recommended_action": "write_longform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-op7418-a20aa8c443d2/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-op7418-a20aa8c443d2/source_gate.md"
+    },
+    {
+      "source_id": "x-pmbackttfuture-1ac13a3c1e70",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-pmbackttfuture-1ac13a3c1e70/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-pmbackttfuture-1ac13a3c1e70/source_gate.md"
+    },
+    {
+      "source_id": "x-pmbackttfuture-49bd7cc41d75",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-pmbackttfuture-49bd7cc41d75/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-pmbackttfuture-49bd7cc41d75/source_gate.md"
+    },
+    {
+      "source_id": "x-pmbackttfuture-7aeb4dbfcdde",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-pmbackttfuture-7aeb4dbfcdde/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-pmbackttfuture-7aeb4dbfcdde/source_gate.md"
+    },
+    {
+      "source_id": "x-rlancemartin-24293152933c",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-rlancemartin-24293152933c/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-rlancemartin-24293152933c/source_gate.md"
+    },
+    {
+      "source_id": "x-rlancemartin-6f12337a4818",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-rlancemartin-6f12337a4818/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-rlancemartin-6f12337a4818/source_gate.md"
+    },
+    {
+      "source_id": "x-vista8-68660bdd28e5",
+      "longform_eligible": false,
+      "recommended_action": "hold_or_shortform",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-vista8-68660bdd28e5/source_gate.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/04_gates/article_x/results/x-vista8-68660bdd28e5/source_gate.md"
+    }
+  ]
+}

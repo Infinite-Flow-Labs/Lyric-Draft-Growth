@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_article_x_framework_smoke_existing/03_source_items/article_x/items/x-alphasignalai-ae59fceea21e/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=7 because title_hit=$, title_hit=pricing, business_metric_signals=3"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-20T09:29:36Z",
+    "top_choice": {
+      "framework_id": "01_money_proof",
+      "submode_id": "metric_postmortem",
+      "confidence": "low",
+      "rationale": "This is only a partial fit. The post uses concrete pricing numbers and explains how a system change alters usage behavior, which is closer to an operator-style system interpretation than a cash/client replay. But it lacks the core proof chain for money_proof: no owned result, no timeline, no bottleneck postmortem, and no audited metrics.",
+      "triggered_routing_signals": [
+        "Hard numbers appear early via plan pricing",
+        "Explains a system change and its behavioral effect",
+        "Closer to operator-style interpretation than client/delivery replay"
+      ],
+      "supporting_source_quotes": [
+        "replaced per-request credits with daily and weekly quotas",
+        "Pro ($20/mo): all frontier models",
+        "Credits charged the same rate",
+        "Ask small questions freely"
+      ],
+      "matched_sample_ids": [],
+      "ambiguity_notes": [
+        "Prefilter is driven by pricing numbers, not a true result proof chain",
+        "Source is closer to product-pricing commentary than a measurable postmortem"
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "01_money_proof",
+        "submode_id": "cash_case_replay",
+        "confidence": "low",
+        "rationale": "A weaker alternative because pricing and monetization are central, but there is no client work, quoting, delivery path, or service monetization evidence.",
+        "triggered_routing_signals": [
+          "Monetization language is prominent",
+          "Paid tiers are explicitly listed"
+        ],
+        "supporting_source_quotes": [
+          "Max ($200/mo): power-user-grade limits",
+          "Teams ($40/seat): admin dashboard"
+        ],
+        "matched_sample_ids": [],
+        "ambiguity_notes": [
+          "No customers, projects, or delivery mechanics appear in the source"
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-20T09:30:06Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The source is product-pricing commentary, not a true money-proof replay; the dollar figures are subscription tiers rather than demonstrated results.",
+      "Within the provided choices, `metric_postmortem` is the least-bad fit because it analyzes a system change and expected usage behavior, but it still lacks the core proof chain required by the framework: no owned outcome, no timeline, no before/after metrics, and no audited breakdown.",
+      "The prefilter likely over-weighted pricing signals (`$20`, `$200`, `$40`) and confused monetization language with quantified performance evidence.",
+      "Empty sample matches reinforce that this is a weak framework fit rather than a clean submode match."
+    ],
+    "requires_human_review": true
+  },
+  "final_decision": {
+    "framework_id": "01_money_proof",
+    "submode_id": "metric_postmortem",
+    "confidence": "low",
+    "rationale": "This is only a partial fit. The post uses concrete pricing numbers and explains how a system change alters usage behavior, which is closer to an operator-style system interpretation than a cash/client replay. But it lacks the core proof chain for money_proof: no owned result, no timeline, no bottleneck postmortem, and no audited metrics.",
+    "matched_sample_ids": [],
+    "requires_human_review": true
+  }
+}

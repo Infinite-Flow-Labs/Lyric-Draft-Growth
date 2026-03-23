@@ -1,0 +1,114 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-4d1bb97e37f3",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2034269013275210149",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客：https://goombalab.github.io/blog/2026/mamba3-part1/",
+  "language": "unknown",
+  "published_at": "2026-03-18T14:01:42Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2034269013275210149",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2034269013275210149#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    },
+    {
+      "asset_kind": "linked_article",
+      "url": "https://goombalab.github.io/blog/2026/mamba3-part1/",
+      "selected_for_text": true,
+      "notes": "linked context words=2413"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post_with_link_context",
+    "summary": "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客： goombalab.github.io/blog/202…",
+    "full_text": "Post title: Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客：https://goombalab.github.io/blog/2026/mamba3-part1/\n\nPost summary: Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客： goombalab.github.io/blog/202…\n\nCanonical URL: https://x.com/Gorden_Sun/status/2034269013275210149\n\nLinked source 1: https://goombalab.github.io/blog/2026/mamba3-part1/\n\n[[Paper](https://arxiv.org/abs/2603.15569)] [[Code](https://github.com/state-spaces/mamba)] **This series is cross-posted at [tridao.me](https://tridao.me/blog/2026/mamba3-part1/)** 1. Part I 2. [Part II](https://goombalab.github.io/blog/2026/mamba3-part2/) Since the release of Mamba-2 in mid-2024, most architectures have switched from Mamba-1. Why? Mamba-2 made the bet that training efficiency was the largest bottleneck for state space models (SSMs), and thus simplified the underlying SSM mechanism to deliver 2-8\\times faster training compared to its predecessor, leading to wider adoption. Since then, the LLM landscape has started to shift. While pretraining is still super important, more attention has been focused on post-training and deployment, both of which are _extremely inference-heavy_. The scaling of post-training methods, especially with reinforcement learning with verifiable rewards (RLVR) for coding or math, requires huge amounts of generated rollouts, and most recently, agentic workflows, such as Codex, Claude Code, or even OpenClaw, have **pushed inference demand through the roof**. Despite the clear, growing importance of inference, many linear architectures (including Mamba-2) were developed from a training-first perspective. To accelerate pretraining, the underlying SSM was _progressively simplified_ (e.g., the diagonal transition was reduced to a scalar times identity). While this brought training speed, it left the inference step “too simple” and squarely memory-bound — the GPUs aren’t brr-ing but moving memory most of the time. In this new age of inference, we care a lot about pushing the boundaries of the quality-efficiency frontier: we want the _better_ models to run _faster_. A natural question arises: > What would an SSM designed with **inference** in mind look like? ## The Mamba-3 Model **What’s missing?** The main appeal of linear models is in their name: compute scales linearly with sequence length because of a fixed-size state. Unfortunately, there is _no free lunch_. The same **fixed state size** that enables efficient computation forces the model to compress all past information into one representation, the exact opposite of a Transformer, which stores all past information through a continuously growing state (the KV cache) — a _fundamental_ difference. So, if we can’t grow the state, how do we make that fixed state do more work? We see that earlier designs simplified the recurrence and the transition matrix to make training fast. However, the change also _reduced the richness_ of the dynamics and left decoding memory-bound: each token update performs very little computation relative to memory movement. This provides us with three levers we can pull: **(1)** make the recurrence itself more expressive, **(2)** use a richer transition matrix, and **(3)** add more parallel (and almost free) work inside each update. From these insights, we improve upon Mamba-2 in three core ways that: 1. increase the expressivity of the SSM mechanism through a more general recurrence derived from our **exponential-trapezoidal discretization scheme**, 2. expand the state-tracking capabilities by modeling a **complex-valued SSM system**, and 3. improve the model’s general performance with little impact on decode latency by using **multi-input, multi-output (MIMO) SSMs**, which model multiple SSMs in parallel, instead of the current single-input, single-output (SISO) SSMs. Through these three changes, **Mamba-3 pushes the frontier of performance while maintaining similar inference latency**. > Notably, all three of these changes are inspired by the more “classical” control theory and **state space model** literature. Our work goes against the grain of many modern linear architectures, which use alternative interpretations of recurrence (such as **linear attention** or **test-time training**) that _don’t easily capture these concepts_. ## Architecture What has changed in the Mamba-2 layer? Beyond the three methodological upgrades to the core SSM discussed above, we’ve revamped the architecture a bit to make it more in line with conventional modern language models. ![Image 1: Mamba-3 Architecture](https://goombalab.github.io/assets/img/2026-03-16-mamba-3/mamba3-arch.png) Mamba-3 Architecture. Based on the diagram, you’ll notice we’ve changed a couple of things. On a high level, **Norms.** We added in QKNorm or \"BCNorm\" in SSM terminology, which empirically stabilizes the training of Mamba-3 models. The addition of this norm brings Mamba-3 in line with contemporary Transformer and Gated DeltaNet (GDN) models. With QKNorm, the RMSNorm from Mamba-2 becomes optional. However, we empirically find that it may still be worth keeping in hybrid models due to helping length extrapolation capabilities. More on this later. **Goodbye Short Conv.** We’ve been able to get rid of the pesky short causal convolution of Mamba-1/2 by combining (1) simple biases on B and C after BCNorm with (2) our new discretization-based",
+    "sections": [
+      "x_post",
+      "linked_context",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_used:https://goombalab.github.io/blog/2026/mamba3-part1/"
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "release",
+      "rollout"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Mamba",
+      "Post",
+      "Canonical URL",
+      "Linked",
+      "Paper",
+      "Code",
+      "This",
+      "Part",
+      "Part II",
+      "Since",
+      "Why",
+      "SSMs",
+      "SSM",
+      "LLM",
+      "While",
+      "RLVR",
+      "Codex",
+      "Claude Code",
+      "OpenClaw",
+      "Despite",
+      "To",
+      "GPUs",
+      "In",
+      "What",
+      "The Mamba-3 Model",
+      "Unfortunately",
+      "Transformer",
+      "KV"
+    ],
+    "task_hints": [
+      "release",
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客：https://goombalab.github.io/blog/2026/mamba3-part1/",
+      "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客： goombalab.github.io/blog/202…",
+      "release",
+      "rollout",
+      "Mamba",
+      "Post",
+      "Canonical URL",
+      "Linked",
+      "Paper",
+      "Code",
+      "This",
+      "Part",
+      "Part II",
+      "Since",
+      "Why",
+      "SSMs",
+      "SSM",
+      "LLM",
+      "While",
+      "RLVR",
+      "https://goombalab.github.io/blog/2026/mamba3-part1/"
+    ],
+    "normalization_notes": "linked_context_count=1"
+  }
+}

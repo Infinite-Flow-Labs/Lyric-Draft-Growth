@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-perplexity_ai-051381daad4b",
+  "fetched_at": "2026-03-22T12:50:38Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/perplexity_ai/status/2033598416962592813",
+  "author": {
+    "handle": "@perplexity_ai",
+    "display_name": "Perplexity",
+    "account_url": "https://x.com/perplexity_ai"
+  },
+  "title": "Computer can now take full control of Comet to complete tasks. When you’re in Comet, Computer spins up a browser agent that can access any site or logged‑in app with your permission, without the need for connectors or MCPs. Available to all Computer users on Comet.",
+  "language": "unknown",
+  "published_at": "2026-03-16T17:36:59Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/perplexity_ai/status/2033598416962592813",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/perplexity_ai/status/2033598416962592813#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Computer can now take full control of Comet to complete tasks. When you’re in Comet, Computer spins up a browser agent that can access any site or logged‑in app with your permission, without the need for connectors or MCPs. Available to all Computer users on Comet. Video",
+    "full_text": "Post title: Computer can now take full control of Comet to complete tasks. When you’re in Comet, Computer spins up a browser agent that can access any site or logged‑in app with your permission, without the need for connectors or MCPs. Available to all Computer users on Comet.\n\nPost summary: Computer can now take full control of Comet to complete tasks. When you’re in Comet, Computer spins up a browser agent that can access any site or logged‑in app with your permission, without the need for connectors or MCPs. Available to all Computer users on Comet. Video\n\nCanonical URL: https://x.com/perplexity_ai/status/2033598416962592813",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Computer",
+      "Comet",
+      "When",
+      "MCPs",
+      "Available",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Computer can now take full control of Comet to complete tasks. When you’re in Comet, Computer spins up a browser agent that can access any site or logged‑in app with your permission, without the need for connectors or MCPs. Available to all Computer users on Comet.",
+      "Computer can now take full control of Comet to complete tasks. When you’re in Comet, Computer spins up a browser agent that can access any site or logged‑in app with your permission, without the need for connectors or MCPs. Available to all Computer users on Comet. Video",
+      "Computer",
+      "Comet",
+      "When",
+      "MCPs",
+      "Available",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

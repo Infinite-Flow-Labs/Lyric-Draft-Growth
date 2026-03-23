@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-aiatmeta-c288c436d081/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "02_launch_application"
+    ],
+    "why_these_candidates": [
+      "02_launch_application: score=9 because task_hint=release, signal_hit=released, signal_hit=introducing, release_signals=release,released,introducing"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:06:09Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "high",
+      "rationale": "This is a release-driven post announcing an open-source model and pointing readers to a link, with value claims but no in-thread adoption walkthrough. That matches a resource/value showcase better than a playbook or migration path.",
+      "triggered_routing_signals": [
+        "Explicit launch language: announcing/introducing/released",
+        "Open-source model publication with clear entry link",
+        "Value framing focuses on why it matters, not how to implement",
+        "No quickstart, boundary guidance, or old-vs-new migration steps"
+      ],
+      "supporting_source_quotes": [
+        "announcing Canopy Height Maps v2 (CHMv2), an open source model",
+        "developed in partnership with the @WorldResources.",
+        "deliver substantial improvements in accuracy, detail, and global consistency.",
+        "Learn more: https://go.meta.me/70d2e9"
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986",
+        "2032044423413182827"
+      ],
+      "ambiguity_notes": [
+        "Linked article may contain deeper technical guidance not present in the thread excerpt.",
+        "If full text emphasized setup/best-practice boundaries, feature_playbook could be reconsidered."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "low",
+        "rationale": "There is a specific capability mention (DINOv3 Sat-L), but the post itself does not provide practical usage guidance, boundaries, or configuration detail expected for a playbook.",
+        "triggered_routing_signals": [
+          "Names a concrete model capability",
+          "States performance-oriented improvements",
+          "Lacks direct how-to adoption content"
+        ],
+        "supporting_source_quotes": [
+          "CHMv2 leverages our DINOv3 Sat-L vision model",
+          "substantial improvements in accuracy, detail, and global consistency"
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688",
+          "2032978239853826228"
+        ],
+        "ambiguity_notes": [
+          "This alternative depends on linked-page depth, not the in-thread content alone."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:06:30Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The post is very short and announcement-heavy, so it sits near the framework’s 'pure news release' boundary.",
+      "Potential deeper how-to content is only implied via the external link, not evidenced in-thread."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "high",
+    "rationale": "This is a release-driven post announcing an open-source model and pointing readers to a link, with value claims but no in-thread adoption walkthrough. That matches a resource/value showcase better than a playbook or migration path.",
+    "matched_sample_ids": [
+      "2033848539332415986",
+      "2032044423413182827"
+    ],
+    "requires_human_review": false
+  }
+}

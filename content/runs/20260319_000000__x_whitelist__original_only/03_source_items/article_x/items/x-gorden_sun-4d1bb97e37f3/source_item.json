@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-4d1bb97e37f3",
+  "fetched_at": "2026-03-19T06:58:54Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2034269013275210149",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客：https://goombalab.github.io/blog/2026/mamba3-part1/",
+  "language": "unknown",
+  "published_at": "2026-03-18T14:01:42Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2034269013275210149",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2034269013275210149#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客： goombalab.github.io/blog/202…",
+    "full_text": "Post title: Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客：https://goombalab.github.io/blog/2026/mamba3-part1/\n\nPost summary: Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客： goombalab.github.io/blog/202…\n\nCanonical URL: https://x.com/Gorden_Sun/status/2034269013275210149",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_failed:https://goombalab.github.io/blog/2026/mamba3-part1/ (URLError)"
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Mamba",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客：https://goombalab.github.io/blog/2026/mamba3-part1/",
+      "Mamba-3：新一代Memba架构 Mamba-2从训练场景出发，为训练速度做了大量简化；Mamba-3从推理场景出发，在不增加推理延迟的前提下显著提升模型质量。Mamba与Transformer混合使用效果优于纯模型，未来还是以混合使用为主。 博客： goombalab.github.io/blog/202…",
+      "Mamba",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

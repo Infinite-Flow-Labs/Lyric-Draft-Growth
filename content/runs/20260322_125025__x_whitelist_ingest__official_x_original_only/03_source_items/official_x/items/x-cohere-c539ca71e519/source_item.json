@@ -1,0 +1,84 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-cohere-c539ca71e519",
+  "fetched_at": "2026-03-22T12:50:38Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/cohere/status/2033642372404326653",
+  "author": {
+    "handle": "@cohere",
+    "display_name": "Cohere",
+    "account_url": "https://x.com/cohere"
+  },
+  "title": "Today at GTC, we announced that we’re building NVIDIA ecosystem-native models and an optimized instance of our agentic North platform to meet the growing demand for secure, privately deployed AI systems alongside @nvidia. These custom models will be optimized for NVIDIA’s latest architecture and software ecosystem, including NVIDIA DGX Spark – bringing a high-performance, locally run enterprise AI workstation to Spark owners and customers. Learn more on our blog, and visit us at the GTC South Market Lot, Booth #7027: https://lnkd.in/e-48MbTG #NVIDIAGTC",
+  "language": "unknown",
+  "published_at": "2026-03-16T20:31:39Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/cohere/status/2033642372404326653",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/cohere/status/2033642372404326653#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Today at GTC, we announced that we’re building NVIDIA ecosystem-native models and an optimized instance of our agentic North platform to meet the growing demand for secure, privately deployed AI systems alongside @nvidia . These custom models will be optimized for NVIDIA’s latest architecture and software ecosystem, including NVIDIA DGX Spark – bringing a high-performance, locally run enterprise AI workstation to Spark owners and customers. Learn more on our blog, and visit us at the GTC South Market Lot, Booth #7027: lnkd.in/e-48MbTG #NVIDIAGTC",
+    "full_text": "Post title: Today at GTC, we announced that we’re building NVIDIA ecosystem-native models and an optimized instance of our agentic North platform to meet the growing demand for secure, privately deployed AI systems alongside @nvidia. These custom models will be optimized for NVIDIA’s latest architecture and software ecosystem, including NVIDIA DGX Spark – bringing a high-performance, locally run enterprise AI workstation to Spark owners and customers. Learn more on our blog, and visit us at the GTC South Market Lot, Booth #7027: https://lnkd.in/e-48MbTG #NVIDIAGTC\n\nPost summary: Today at GTC, we announced that we’re building NVIDIA ecosystem-native models and an optimized instance of our agentic North platform to meet the growing demand for secure, privately deployed AI systems alongside @nvidia . These custom models will be optimized for NVIDIA’s latest architecture and software ecosystem, including NVIDIA DGX Spark – bringing a high-performance, locally run enterprise AI workstation to Spark owners and customers. Learn more on our blog, and visit us at the GTC South Market Lot, Booth #7027: lnkd.in/e-48MbTG #NVIDIAGTC\n\nCanonical URL: https://x.com/cohere/status/2033642372404326653",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_failed:https://lnkd.in/e-48MbTG (ValueError)"
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "announced"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Today",
+      "GTC",
+      "NVIDIA",
+      "North",
+      "AI",
+      "These",
+      "NVIDIA DGX Spark",
+      "Spark",
+      "Learn",
+      "GTC South Market Lot",
+      "Booth",
+      "NVIDIAGTC Today",
+      "NVIDIAGTC Post",
+      "NVIDIAGTC Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Today at GTC, we announced that we’re building NVIDIA ecosystem-native models and an optimized instance of our agentic North platform to meet the growing demand for secure, privately deployed AI systems alongside @nvidia. These custom models will be optimized for NVIDIA’s latest architecture and software ecosystem, including NVIDIA DGX Spark – bringing a high-performance, locally run enterprise AI workstation to Spark owners and customers. Learn more on our blog, and visit us at the GTC South Market Lot, Booth #7027: https://lnkd.in/e-48MbTG #NVIDIAGTC",
+      "Today at GTC, we announced that we’re building NVIDIA ecosystem-native models and an optimized instance of our agentic North platform to meet the growing demand for secure, privately deployed AI systems alongside @nvidia . These custom models will be optimized for NVIDIA’s latest architecture and software ecosystem, including NVIDIA DGX Spark – bringing a high-performance, locally run enterprise AI workstation to Spark owners and customers. Learn more on our blog, and visit us at the GTC South Market Lot, Booth #7027: lnkd.in/e-48MbTG #NVIDIAGTC",
+      "announced",
+      "Today",
+      "GTC",
+      "NVIDIA",
+      "North",
+      "AI",
+      "These",
+      "NVIDIA DGX Spark",
+      "Spark",
+      "Learn",
+      "GTC South Market Lot",
+      "Booth",
+      "NVIDIAGTC Today",
+      "NVIDIAGTC Post",
+      "NVIDIAGTC Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "brief_path": "/home/lyric/growth-engine-pipeline/content/library/articles/official_x/20260319_official_x_recheck_v3/x-xai-f2ae68a2fa14/article_image_brief.json",
+  "model": "nano-banana-2",
+  "jobs": [
+    {
+      "image_id": "cover_01",
+      "role": "cover",
+      "task_id": "21b4ae73416b88271d33a846c9f85e97",
+      "state": "success",
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1774170452532-vj3knl7nla.png"
+      ]
+    },
+    {
+      "image_id": "inline_01",
+      "role": "inline",
+      "task_id": "bd8e34729a32480474ae64b7b3e75728",
+      "state": "success",
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1774170490608-dl14vqu1scu.png"
+      ]
+    }
+  ]
+}

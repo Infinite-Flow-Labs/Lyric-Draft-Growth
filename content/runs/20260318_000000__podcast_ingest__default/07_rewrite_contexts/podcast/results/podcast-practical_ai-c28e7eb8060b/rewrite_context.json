@@ -1,0 +1,312 @@
+{
+  "schema_version": "0.1.0",
+  "assembly_mode": "deterministic_selection",
+  "assembled_at": "2026-03-18T09:46:11Z",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/03_source_items/podcast/items/podcast-practical_ai-c28e7eb8060b/source_item.json",
+  "framework_match_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/06_routing/podcast/results/podcast-practical_ai-c28e7eb8060b/framework_match.json",
+  "framework_spec_ref": "/home/lyric/growth-engine-pipeline/framework/03_opinion_decode/FRAMEWORK_SPEC.json",
+  "selected_framework": {
+    "framework_id": "03_opinion_decode",
+    "framework_label": "外部信号解码型",
+    "submode_id": "conversation_distillation",
+    "confidence": "high"
+  },
+  "assembly_manifest": {
+    "no_summarization": true,
+    "selected_spec_paths": [
+      "metadata.framework_id",
+      "metadata.framework_label",
+      "structure.hidden_skeleton",
+      "structure.visible_template_bans",
+      "structure.allowed_surface_moves",
+      "structure.forbidden_surface_moves",
+      "structure.submodes[submode_id=conversation_distillation]",
+      "style.global_style_principles",
+      "style.global_anti_ai_rules",
+      "style.submode_profiles[style_profile_id=03_conversation_distillation_style]",
+      "execution_controls.must_keep",
+      "execution_controls.must_avoid",
+      "execution_controls.rewrite_failure_modes",
+      "execution_controls.quality_checks",
+      "execution_controls.human_review_triggers",
+      "samples.sample_refs[sample_id=2033365853140595122]",
+      "samples.sample_refs[sample_id=2033560336859799814]"
+    ],
+    "selected_sample_ids": [
+      "2033365853140595122",
+      "2033560336859799814"
+    ],
+    "selection_rationale": "Deterministically selected the exact framework slices required by the chosen route: shared structure constraints, the matched submode spec, its mapped style profile, explicitly selected sample refs, and execution controls. No LLM summarization was used."
+  },
+  "structure_packet": {
+    "hidden_skeleton": [
+      "Signal source / why this is worth decoding",
+      "What was said or what happened",
+      "What the real point is",
+      "Reasoning, comparison, or narrative evidence",
+      "Why it matters / risk / implication",
+      "Reader repositioning"
+    ],
+    "visible_template_bans": [
+      "不得写成某某说了什么，我总结三点，最后说这意味着什么",
+      "不得把复杂材料平铺成摘要模板",
+      "不得只有引语和信息，没有作者重组动作",
+      "不得把人物或事件重量磨成流水账",
+      "不得只做资料搬运，不做重要性排序"
+    ],
+    "allowed_surface_moves": [
+      "先从震撼数字、反常识结论或场景开局",
+      "先给读者一个大问题，再倒回去拆源头材料",
+      "用人物故事、论文结构、行业比较、风险清单承载解码",
+      "先抛作者结论，再逐步证明为什么这样判断",
+      "允许 source_type 与 decode_target 决定表面形态"
+    ],
+    "forbidden_surface_moves": [
+      "每篇都写成摘要排版模板",
+      "每篇都把外部材料切成平行三点总结",
+      "对话蒸馏写成逐段采访纪要",
+      "论文解读写成无门槛但也无判断的百科摘要",
+      "只堆金句，不建脉络"
+    ],
+    "selected_submode_spec": {
+      "submode_id": "conversation_distillation",
+      "label": "对话蒸馏",
+      "summary": "从播客、访谈、深度采访里抽出人物、世界观、代价、方法论和行业判断，而不是做逐字转写。",
+      "use_when": [
+        "source 是播客、访谈、人物对谈或深度采访",
+        "作者重点在重建人物和行业意义，而不是列采访重点",
+        "正文依赖场景、关键引语、时间线、转折事件和作者提炼"
+      ],
+      "avoid_when": [
+        "来源更像论文、项目、事件而不是对话",
+        "正文只有金句摘录，没有结构化蒸馏",
+        "人物故事和行业意义彼此脱节"
+      ],
+      "source_fit": [
+        "interview_or_podcast",
+        "深度人物对谈",
+        "重大行业对话"
+      ],
+      "source_unfit": [
+        "逐字采访纪要",
+        "只有人物小传没有行业判断",
+        "没有引语和场景的抽象总结"
+      ],
+      "hidden_flow": [
+        "Why this conversation matters",
+        "Scene, guest, or turning point",
+        "Extracted worldview or thesis",
+        "Quotes, beats, or timeline evidence",
+        "What this says about the person or industry",
+        "Resonant close"
+      ],
+      "hook_patterns": [
+        "罕见地坐在被采访席上",
+        "真实代价",
+        "最黑暗的十年正在到来",
+        "一笔改写历史的收购"
+      ],
+      "evidence_mix": [
+        "人物背景",
+        "对话场景",
+        "关键引语",
+        "转折事件",
+        "年份、金额、估值、时间线",
+        "作者提炼后的行业判断"
+      ],
+      "reasoning_moves": [
+        "先搭人物或事件舞台",
+        "不是流水账，而是抽人物与行业的底层逻辑",
+        "引语服务于脉络，而不是素材拼贴",
+        "结尾留下一句带余味的判断"
+      ],
+      "rewrite_formula": "对话价值 -> 人物或事件场景 -> 核心信念 -> 关键引语与转折 -> 行业或方法论意义 -> 余味收束",
+      "surface_forms": [
+        "人物小传",
+        "关键场景",
+        "转折事件",
+        "章节式蒸馏",
+        "引语穿插"
+      ],
+      "anti_patterns": [
+        "写成逐段采访纪要",
+        "只摘金句，不搭结构",
+        "只讲故事，不抽观点",
+        "人物故事和行业意义彼此脱节"
+      ],
+      "style_profile_id": "03_conversation_distillation_style",
+      "sample_ids": [
+        "2033365853140595122",
+        "2033560336859799814"
+      ]
+    }
+  },
+  "style_packet": {
+    "global_style_principles": [
+      "共同目标不是抄笔记，而是替读者重建理解路径",
+      "开头往往先抓张力，而不是先交代来源",
+      "中段必须靠解释、比较、引语或叙事撑住",
+      "作者必须明显介入，告诉读者真正该注意的点",
+      "必须走 隐式解码逻辑 + 来源重量 / 子模式语感，而不是摘要模板"
+    ],
+    "global_anti_ai_rules": [
+      "避免把正文写成平滑摘要器口吻",
+      "避免平铺三点总结",
+      "避免把复杂来源磨成没有张力的读书笔记",
+      "避免引语像素材拼贴，没有叙事牵引",
+      "避免类比太工整，看起来像自动生成",
+      "允许作者介入、排序、对比和重命名，但必须忠于来源重量"
+    ],
+    "selected_style_profile": {
+      "style_profile_id": "03_conversation_distillation_style",
+      "submode_id": "conversation_distillation",
+      "tone_core": "像一篇带判断的人物或行业特稿，不满足于摘采访重点，而是要把人物与行业放进完整叙事里。",
+      "opening_moves": [
+        "先给一个结果或巨型事件",
+        "先搭一个访谈场景或人物反差",
+        "先用一句话概括这场对话真正刺中的命题"
+      ],
+      "sentence_rhythm": [
+        "场景段和总结段切换明显",
+        "问句和引语都多",
+        "标题小节推进感强",
+        "通常有节奏性的转场"
+      ],
+      "surface_forms": [
+        "人物小传",
+        "关键场景",
+        "转折事件",
+        "章节式蒸馏",
+        "引语穿插",
+        "余味收束"
+      ],
+      "language_moves": [
+        "这次，他罕见地...",
+        "真正让他失眠的，是...",
+        "话题回到...",
+        "他总结说...",
+        "最后被问到..."
+      ],
+      "keep": [
+        "人物或事件张力",
+        "关键引语",
+        "结构化蒸馏",
+        "结尾的判断余味"
+      ],
+      "avoid": [
+        "逐条采访纪要",
+        "大段背景介绍",
+        "只堆金句，不建脉络",
+        "把人物稿写成方法论手册"
+      ],
+      "ai_smells": [
+        "引语像素材拼贴",
+        "人物故事和行业判断断开",
+        "结尾只会喊价值观口号",
+        "结构像采访提纲复写"
+      ],
+      "one_sentence_portrait": "像一个既听懂了整场对话、又知道哪几句最重的人，把人物、事件和行业意义重新剪成一篇有弧线的稿子。"
+    }
+  },
+  "sample_packet": {
+    "selected_sample_refs": [
+      {
+        "sample_id": "2033365853140595122",
+        "title": "从产品经理到120万订阅者，Lenny揭秘内容创业的真实代价",
+        "url": "https://x.com/PMbackttfuture/status/2033365853140595122",
+        "author": "@PMbackttfuture",
+        "submode_id": "conversation_distillation",
+        "why_it_matters": "人物特稿 + 播客蒸馏的标准样本，结果导入后很快切进真实代价和职业代价。",
+        "hook_move": "先用 120 万订阅的结果吸引注意，再立刻切进真实代价。",
+        "proof_mode": [
+          "场景化讲述",
+          "关键引语",
+          "人生转折点",
+          "作者总结"
+        ],
+        "reusable_parts": [
+          "先搭人物戏剧张力，再抽方法论",
+          "引语和叙述交替，避免变成流水账",
+          "结尾把人物困境升成普遍性命题"
+        ],
+        "non_reusable_parts": [
+          "Lenny / Michelle 私人经历",
+          "具体地点和事件"
+        ],
+        "style_cue": "像杂志人物稿和播客摘要的结合体，既有故事感，也有抽出来的创作洞察。"
+      },
+      {
+        "sample_id": "2033560336859799814",
+        "title": "Wiz 320 亿收购始末 | 网络安全最黑暗的十年正在到来",
+        "url": "https://x.com/blackanger/status/2033560336859799814",
+        "author": "@blackanger",
+        "submode_id": "conversation_distillation",
+        "why_it_matters": "大事件 + 深度访谈的蒸馏样本，先用收购事件吸引注意，再回头解释人物和行业大判断。",
+        "hook_move": "先给出 Google 320 亿美元收购 Wiz 这个巨型事件，再回头解释关键人物和判断。",
+        "proof_mode": [
+          "时间线",
+          "人物背景",
+          "关键原则",
+          "行业判断",
+          "直接引语"
+        ],
+        "reusable_parts": [
+          "用大事件吸引读者，再引入访谈嘉宾",
+          "章节式蒸馏人物和行业观点",
+          "从人物哲学一路推到行业结构判断"
+        ],
+        "non_reusable_parts": [
+          "Wiz / CyberStarts 具体背景",
+          "收购细节"
+        ],
+        "style_cue": "像深度播客精华版，既要有人物戏，也要有行业结构感。"
+      }
+    ],
+    "sample_selection_rationale": "Used matched_sample_ids from framework_match final_decision."
+  },
+  "execution_packet": {
+    "must_keep": [
+      "明确外部来源",
+      "真正的解码动作，而不是转述",
+      "来源张力或人物重量",
+      "作者自己的判断重建",
+      "重要性排序或读者重新定位"
+    ],
+    "must_avoid": [
+      "平滑摘要器口吻",
+      "三点总结模板",
+      "只有引语没有脉络",
+      "只有信息没有作者重组",
+      "把复杂来源磨成平庸读书笔记"
+    ],
+    "rewrite_failure_modes": [
+      "signal_decode 退化成新闻稿或论文摘要",
+      "conversation_distillation 退化成采访纪要",
+      "只摘金句，不搭脉络",
+      "有来源但没有真正的作者判断",
+      "有解释但没有保住来源的冲突和重量",
+      "结构清楚但像 AI 总结器"
+    ],
+    "quality_checks": [
+      "是否明确说明了外部信号源和它为什么值得看",
+      "是否完成了降噪、排序、解释或重组，而不是复述",
+      "是否保留了来源里的冲突、惊讶、稀缺信息或人物重量",
+      "是否通过类比、对比、引语、时间线或叙事把判断撑住",
+      "是否让读者知道真正重要的是什么、该怎么看",
+      "是否保留了对应子模式的表层语感，而不是统一摘要腔"
+    ],
+    "human_review_triggers": [
+      "source 同时像 03_opinion_decode 与 07_contrarian_take，难区分是在解码还是在替换框架",
+      "writer 输出后像摘要器，没有作者判断",
+      "conversation_distillation 没有场景、引语或人物重量",
+      "signal_decode 只有解释没有重要性排序",
+      "来源本身过长或多源混合，可能需要人工确认重心"
+    ]
+  },
+  "writer_guardrails": {
+    "use_raw_source_as_primary_fact_base": true,
+    "do_not_summarize_framework_spec": true,
+    "preserve_hidden_structure_as_invisible": true,
+    "prefer_sample_voice_over_template_surface": true
+  }
+}

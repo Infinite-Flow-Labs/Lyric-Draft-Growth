@@ -1,0 +1,317 @@
+{
+  "schema_version": "0.1.0",
+  "assembly_mode": "deterministic_selection",
+  "assembled_at": "2026-03-18T09:46:12Z",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/03_source_items/podcast/items/podcast-the_cognitive_revolution-71458406eda4/source_item.json",
+  "framework_match_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/06_routing/podcast/results/podcast-the_cognitive_revolution-71458406eda4/framework_match.json",
+  "framework_spec_ref": "/home/lyric/growth-engine-pipeline/framework/03_opinion_decode/FRAMEWORK_SPEC.json",
+  "selected_framework": {
+    "framework_id": "03_opinion_decode",
+    "framework_label": "外部信号解码型",
+    "submode_id": "signal_decode",
+    "confidence": "high"
+  },
+  "assembly_manifest": {
+    "no_summarization": true,
+    "selected_spec_paths": [
+      "metadata.framework_id",
+      "metadata.framework_label",
+      "structure.hidden_skeleton",
+      "structure.visible_template_bans",
+      "structure.allowed_surface_moves",
+      "structure.forbidden_surface_moves",
+      "structure.submodes[submode_id=signal_decode]",
+      "style.global_style_principles",
+      "style.global_anti_ai_rules",
+      "style.submode_profiles[style_profile_id=03_signal_decode_style]",
+      "execution_controls.must_keep",
+      "execution_controls.must_avoid",
+      "execution_controls.rewrite_failure_modes",
+      "execution_controls.quality_checks",
+      "execution_controls.human_review_triggers",
+      "samples.sample_refs[sample_id=2033441957985280451]",
+      "samples.sample_refs[sample_id=2033806716492538155]"
+    ],
+    "selected_sample_ids": [
+      "2033441957985280451",
+      "2033806716492538155"
+    ],
+    "selection_rationale": "Deterministically selected the exact framework slices required by the chosen route: shared structure constraints, the matched submode spec, its mapped style profile, explicitly selected sample refs, and execution controls. No LLM summarization was used."
+  },
+  "structure_packet": {
+    "hidden_skeleton": [
+      "Signal source / why this is worth decoding",
+      "What was said or what happened",
+      "What the real point is",
+      "Reasoning, comparison, or narrative evidence",
+      "Why it matters / risk / implication",
+      "Reader repositioning"
+    ],
+    "visible_template_bans": [
+      "不得写成某某说了什么，我总结三点，最后说这意味着什么",
+      "不得把复杂材料平铺成摘要模板",
+      "不得只有引语和信息，没有作者重组动作",
+      "不得把人物或事件重量磨成流水账",
+      "不得只做资料搬运，不做重要性排序"
+    ],
+    "allowed_surface_moves": [
+      "先从震撼数字、反常识结论或场景开局",
+      "先给读者一个大问题，再倒回去拆源头材料",
+      "用人物故事、论文结构、行业比较、风险清单承载解码",
+      "先抛作者结论，再逐步证明为什么这样判断",
+      "允许 source_type 与 decode_target 决定表面形态"
+    ],
+    "forbidden_surface_moves": [
+      "每篇都写成摘要排版模板",
+      "每篇都把外部材料切成平行三点总结",
+      "对话蒸馏写成逐段采访纪要",
+      "论文解读写成无门槛但也无判断的百科摘要",
+      "只堆金句，不建脉络"
+    ],
+    "selected_submode_spec": {
+      "submode_id": "signal_decode",
+      "label": "外部信号解码",
+      "summary": "从论文、框架文章、现象级项目、行业事件或人物动作中提炼出更清晰的到底发生了什么、为什么重要。",
+      "use_when": [
+        "source 是论文、框架文章、热项目、行业事件或人物动作",
+        "作者主要在解释热度、创新点、差异点、风险和影响",
+        "正文依赖白话机制解释、对比、类比、时间线或风险说明"
+      ],
+      "avoid_when": [
+        "文章主要在重建一场对话的人物弧线和行业重量",
+        "文章没有明确外部信号，只是作者自己的观点文",
+        "正文没有真正降噪和重组"
+      ],
+      "source_fit": [
+        "paper_or_framework",
+        "hot_project_or_event",
+        "名人点赞 / 公开动作带来的二次解码"
+      ],
+      "source_unfit": [
+        "逐字播客纪要",
+        "没有机制解释的热度搬运",
+        "只有情绪没有原材料的评论"
+      ],
+      "hidden_flow": [
+        "Signal hook or big question",
+        "Plain-language framing",
+        "Core mechanism or cause chain",
+        "Comparison or contrast",
+        "Implication / risk / what to watch"
+      ],
+      "hook_patterns": [
+        "为什么会这么火？",
+        "马斯克点赞到底说明了什么",
+        "我带着困惑把论文读了一遍",
+        "捅破了...潜规则"
+      ],
+      "evidence_mix": [
+        "时间线或热度信号",
+        "白话机制解释",
+        "对比组",
+        "类比",
+        "数据或引用",
+        "风险和边界"
+      ],
+      "reasoning_moves": [
+        "先把复杂材料降噪",
+        "主动提问再回答",
+        "用类比把技术或抽象观点讲人话",
+        "既做信息翻译，也做重要性排序"
+      ],
+      "rewrite_formula": "外部信号 -> 白话重述 -> 真正核心 -> 对比或推理 -> 影响与边界",
+      "surface_forms": [
+        "大问题标题",
+        "白话解释",
+        "old vs new 对照",
+        "时间线",
+        "类比",
+        "意义段 / 风险段"
+      ],
+      "anti_patterns": [
+        "只有翻译，没有判断",
+        "只有态度，没有机制",
+        "只会说这很重要，说不出为什么",
+        "整篇像论文摘要或新闻转载"
+      ],
+      "style_profile_id": "03_signal_decode_style",
+      "sample_ids": [
+        "2033441957985280451",
+        "2033806716492538155",
+        "2033749685106839903",
+        "2033573236240466178"
+      ]
+    }
+  },
+  "style_packet": {
+    "global_style_principles": [
+      "共同目标不是抄笔记，而是替读者重建理解路径",
+      "开头往往先抓张力，而不是先交代来源",
+      "中段必须靠解释、比较、引语或叙事撑住",
+      "作者必须明显介入，告诉读者真正该注意的点",
+      "必须走 隐式解码逻辑 + 来源重量 / 子模式语感，而不是摘要模板"
+    ],
+    "global_anti_ai_rules": [
+      "避免把正文写成平滑摘要器口吻",
+      "避免平铺三点总结",
+      "避免把复杂来源磨成没有张力的读书笔记",
+      "避免引语像素材拼贴，没有叙事牵引",
+      "避免类比太工整，看起来像自动生成",
+      "允许作者介入、排序、对比和重命名，但必须忠于来源重量"
+    ],
+    "selected_style_profile": {
+      "style_profile_id": "03_signal_decode_style",
+      "submode_id": "signal_decode",
+      "tone_core": "像一个已经替你把原材料看过一遍的人，在告诉你真正值得理解的部分，有解释欲，也有明显判断。",
+      "opening_moves": [
+        "先抛一个大问题",
+        "先抓外部热度或名人动作，再倒回内容本身",
+        "先承认自己也有困惑，再带着读者一起拆",
+        "先立一个大框架，再往里填具体层级"
+      ],
+      "sentence_rhythm": [
+        "问句很多",
+        "冒号、破折号、括号、编号常见",
+        "解释段和判断段交替出现",
+        "越技术的样本越依赖类比把节奏压顺"
+      ],
+      "surface_forms": [
+        "大问题标题",
+        "先简单解释一下",
+        "old vs new 对照",
+        "时间线",
+        "白话类比",
+        "风险段 / 意义段"
+      ],
+      "language_moves": [
+        "先快速回顾一下",
+        "简单说",
+        "注意到了吧？",
+        "为什么这很重要",
+        "想想看",
+        "结论是"
+      ],
+      "keep": [
+        "解码姿态",
+        "关键对比",
+        "复杂材料的人话翻译",
+        "最后的重要性排序"
+      ],
+      "avoid": [
+        "过长背景铺垫",
+        "滥用抽象术语制造专业感",
+        "明明有冲突，最后却写得平平无奇",
+        "把结构写成摘要模板"
+      ],
+      "ai_smells": [
+        "教科书摘要",
+        "只有概念，没有张力",
+        "类比太工整像自动生成",
+        "下面是总结这种元话语"
+      ],
+      "one_sentence_portrait": "像一个看过原材料、消化过里面弯弯绕的人，替你把真正该带走的理解路径重新铺出来。"
+    }
+  },
+  "sample_packet": {
+    "selected_sample_refs": [
+      {
+        "sample_id": "2033441957985280451",
+        "title": "智能体工程的 8 个等级【译】",
+        "url": "https://x.com/dotey/status/2033441957985280451",
+        "author": "@dotey",
+        "submode_id": "signal_decode",
+        "why_it_matters": "典型 paper/framework 解码样本，不是硬翻译，而是把等级框架压成一条可理解的升级路径。",
+        "hook_move": "先立能力和实践之间有一道差距，再告诉读者这个差距是分 8 级逐步缩小的。",
+        "proof_mode": [
+          "框架翻译",
+          "分级解释",
+          "实践举例",
+          "来源引用"
+        ],
+        "reusable_parts": [
+          "不仅翻 level 名称，还讲清楚为什么重要",
+          "用你应该在意的原因建立阅读动机",
+          "在大框架里穿插具体工具和系统例子"
+        ],
+        "non_reusable_parts": [
+          "原作者等级定义",
+          "团队和工具案例"
+        ],
+        "style_cue": "翻译现成框架，但读起来不像生硬翻译，依赖解释性过渡和分级命名。"
+      },
+      {
+        "sample_id": "2033806716492538155",
+        "title": "OpenClaw 这只龙虾为什么会这么火？",
+        "url": "https://x.com/dotey/status/2033806716492538155",
+        "author": "@dotey",
+        "submode_id": "signal_decode",
+        "why_it_matters": "现象级项目解码样本，信息量很大，但核心是把热度背后的结构因果串起来。",
+        "hook_move": "用院士原话和一连串热度数据起手，先让读者接受这不是小圈子热度。",
+        "proof_mode": [
+          "热度和政策信号",
+          "产品类比",
+          "原因链拆解",
+          "生态说明",
+          "风险案例"
+        ],
+        "reusable_parts": [
+          "先解释它到底是什么",
+          "用类比拉开不同产品的位置",
+          "不只讲爆火原因，也讲风险"
+        ],
+        "non_reusable_parts": [
+          "OpenClaw 生态与补贴",
+          "具体安全案例",
+          "龙虾隐喻"
+        ],
+        "style_cue": "典型现象解码文，价值在于热度背后的结构因果，而不是堆信息。"
+      }
+    ],
+    "sample_selection_rationale": "Used matched_sample_ids from framework_match final_decision."
+  },
+  "execution_packet": {
+    "must_keep": [
+      "明确外部来源",
+      "真正的解码动作，而不是转述",
+      "来源张力或人物重量",
+      "作者自己的判断重建",
+      "重要性排序或读者重新定位"
+    ],
+    "must_avoid": [
+      "平滑摘要器口吻",
+      "三点总结模板",
+      "只有引语没有脉络",
+      "只有信息没有作者重组",
+      "把复杂来源磨成平庸读书笔记"
+    ],
+    "rewrite_failure_modes": [
+      "signal_decode 退化成新闻稿或论文摘要",
+      "conversation_distillation 退化成采访纪要",
+      "只摘金句，不搭脉络",
+      "有来源但没有真正的作者判断",
+      "有解释但没有保住来源的冲突和重量",
+      "结构清楚但像 AI 总结器"
+    ],
+    "quality_checks": [
+      "是否明确说明了外部信号源和它为什么值得看",
+      "是否完成了降噪、排序、解释或重组，而不是复述",
+      "是否保留了来源里的冲突、惊讶、稀缺信息或人物重量",
+      "是否通过类比、对比、引语、时间线或叙事把判断撑住",
+      "是否让读者知道真正重要的是什么、该怎么看",
+      "是否保留了对应子模式的表层语感，而不是统一摘要腔"
+    ],
+    "human_review_triggers": [
+      "source 同时像 03_opinion_decode 与 07_contrarian_take，难区分是在解码还是在替换框架",
+      "writer 输出后像摘要器，没有作者判断",
+      "conversation_distillation 没有场景、引语或人物重量",
+      "signal_decode 只有解释没有重要性排序",
+      "来源本身过长或多源混合，可能需要人工确认重心"
+    ]
+  },
+  "writer_guardrails": {
+    "use_raw_source_as_primary_fact_base": true,
+    "do_not_summarize_framework_spec": true,
+    "preserve_hidden_structure_as_invisible": true,
+    "prefer_sample_voice_over_template_surface": true
+  }
+}

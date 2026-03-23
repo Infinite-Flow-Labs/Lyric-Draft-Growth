@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__x_whitelist__original_only/03_source_items/article_x/items/x-rlancemartin-6f12337a4818/source_item.json",
+  "source_id": "x-rlancemartin-6f12337a4818",
+  "longform_eligible": false,
+  "recommended_action": "hold_or_shortform",
+  "reasons": [
+    "full_text too short for longform (9 words < 140)",
+    "too few concrete fact anchors (4 < 5)"
+  ],
+  "signals": {
+    "source_kind": "x_thread",
+    "primary_text_source": "x_post",
+    "participant_count": 0,
+    "summary_words": 1,
+    "full_text_words": 9,
+    "fact_anchor_count": 4,
+    "trimmed_noisy_episode_page": false,
+    "linked_context_asset_count": 0,
+    "announcement_like": false
+  }
+}

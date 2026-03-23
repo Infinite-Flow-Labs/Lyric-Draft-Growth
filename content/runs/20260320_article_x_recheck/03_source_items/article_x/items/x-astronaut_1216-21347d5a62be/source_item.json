@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-astronaut_1216-21347d5a62be",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Astronaut_1216/status/2033815449117344104",
+  "author": {
+    "handle": "@Astronaut_1216",
+    "display_name": "Astronaut_1216",
+    "account_url": "https://x.com/Astronaut_1216"
+  },
+  "title": "文科生学AI绝对是今年最值得做的事情 包括我作为一个文科生 所感受的推背感也是很强的 第一点，我用AI赚到了钱，虽然不多，就六位数 第二点，我用AI扩大了我自己的影响力被更多人看见了 第三点，我用AI链接了更多的资源，这是我以前不敢想的 请相信，现在就是最好的时候，错过了，就赶不上AI这波了",
+  "language": "unknown",
+  "published_at": "2026-03-17T07:59:24Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Astronaut_1216/status/2033815449117344104",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Astronaut_1216/status/2033815449117344104#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "文科生学AI绝对是今年最值得做的事情 包括我作为一个文科生 所感受的推背感也是很强的 第一点，我用AI赚到了钱，虽然不多，就六位数 第二点，我用AI扩大了我自己的影响力被更多人看见了 第三点，我用AI链接了更多的资源，这是我以前不敢想的 请相信，现在就是最好的时候，错过了，就赶不上AI这波了 Luna (@rrr12179255) x.com/i/article/203353948420… — https://nitter.net/rrr12179255/status/2033547319753457894#m",
+    "full_text": "Post title: 文科生学AI绝对是今年最值得做的事情 包括我作为一个文科生 所感受的推背感也是很强的 第一点，我用AI赚到了钱，虽然不多，就六位数 第二点，我用AI扩大了我自己的影响力被更多人看见了 第三点，我用AI链接了更多的资源，这是我以前不敢想的 请相信，现在就是最好的时候，错过了，就赶不上AI这波了\n\nPost summary: 文科生学AI绝对是今年最值得做的事情 包括我作为一个文科生 所感受的推背感也是很强的 第一点，我用AI赚到了钱，虽然不多，就六位数 第二点，我用AI扩大了我自己的影响力被更多人看见了 第三点，我用AI链接了更多的资源，这是我以前不敢想的 请相信，现在就是最好的时候，错过了，就赶不上AI这波了 Luna (@rrr12179255) x.com/i/article/203353948420… — https://nitter.net/rrr12179255/status/2033547319753457894#m\n\nCanonical URL: https://x.com/Astronaut_1216/status/2033815449117344104",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Luna",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "文科生学AI绝对是今年最值得做的事情 包括我作为一个文科生 所感受的推背感也是很强的 第一点，我用AI赚到了钱，虽然不多，就六位数 第二点，我用AI扩大了我自己的影响力被更多人看见了 第三点，我用AI链接了更多的资源，这是我以前不敢想的 请相信，现在就是最好的时候，错过了，就赶不上AI这波了",
+      "文科生学AI绝对是今年最值得做的事情 包括我作为一个文科生 所感受的推背感也是很强的 第一点，我用AI赚到了钱，虽然不多，就六位数 第二点，我用AI扩大了我自己的影响力被更多人看见了 第三点，我用AI链接了更多的资源，这是我以前不敢想的 请相信，现在就是最好的时候，错过了，就赶不上AI这波了 Luna (@rrr12179255) x.com/i/article/203353948420… — https://nitter.net/rrr12179255/status/2033547319753457894#m",
+      "Luna",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

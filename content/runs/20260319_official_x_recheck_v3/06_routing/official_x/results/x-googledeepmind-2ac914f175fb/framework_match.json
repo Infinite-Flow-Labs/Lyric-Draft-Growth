@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/03_source_items/official_x/items/x-googledeepmind-2ac914f175fb/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof",
+      "02_launch_application"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=8 because title_hit=$, title_hit=k, signal_hit=%, business_metric_signals=2",
+      "02_launch_application: score=2 because signal_hit=launch"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:42:54Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "medium",
+      "rationale": "The source is a launch-style X post pointing readers to a newly announced public challenge and linked framework entrypoint. It is not a quantified results post with a proof chain, so `01_money_proof` does not fit despite the prize amount. Within launch content, the reader payoff is mainly: why this is worth checking, what it is, and where to join, which matches a resource/showcase release better than a detailed adoption or feature explainer.",
+      "triggered_routing_signals": [
+        "Explicit launch signal in the post",
+        "Provides entry link and challenge framing",
+        "Value is framed as worth joining/testing, not deep how-to",
+        "Prize amount is promotional context, not outcome proof"
+      ],
+      "supporting_source_quotes": [
+        "“We’re launching a global hackathon with @Kaggle”",
+        "“build new cognitive evaluations for AI”",
+        "“With $200k in prizes up for grabs”",
+        "“Join the challenge”"
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986"
+      ],
+      "ambiguity_notes": [
+        "The post is somewhat newsy and thin on adoption detail.",
+        "`feature_playbook` is weaker because there is no real usage guidance or boundary-setting."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "low",
+        "rationale": "Possible because the linked context references a cognitive framework, but the X post itself does not translate the framework into practical usage, boundaries, or best practices.",
+        "triggered_routing_signals": [
+          "Mentions a framework",
+          "Points to a linked resource"
+        ],
+        "supporting_source_quotes": [
+          "“help us put our framework to the test”",
+          "“Measuring progress toward AGI: A cognitive framework”"
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "Missing concept clarification and hands-on adoption guidance."
+        ]
+      },
+      {
+        "framework_id": "01_money_proof",
+        "submode_id": "metric_postmortem",
+        "confidence": "low",
+        "rationale": "The prefilter picked this due to dollar and percent-like signals, but the money here is prize funding, not a measured operational result with system/process evidence.",
+        "triggered_routing_signals": [
+          "Contains dollar amount",
+          "Touches AGI progress measurement"
+        ],
+        "supporting_source_quotes": [
+          "“With $200k in prizes up for grabs”",
+          "“How do we measure progress toward AGI?”"
+        ],
+        "matched_sample_ids": [
+          "2031489944083116370"
+        ],
+        "ambiguity_notes": [
+          "Fails core fit because there is no results proof chain, postmortem, or operator breakdown."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:43:04Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The source is thin and somewhat news-like, so confidence should not be interpreted as strong content richness.",
+      "`01_money_proof` is a prefilter false positive driven by prize-money signals rather than outcome evidence."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "medium",
+    "rationale": "The source is a launch-style X post pointing readers to a newly announced public challenge and linked framework entrypoint. It is not a quantified results post with a proof chain, so `01_money_proof` does not fit despite the prize amount. Within launch content, the reader payoff is mainly: why this is worth checking, what it is, and where to join, which matches a resource/showcase release better than a detailed adoption or feature explainer.",
+    "matched_sample_ids": [
+      "2033848539332415986"
+    ],
+    "requires_human_review": false
+  }
+}

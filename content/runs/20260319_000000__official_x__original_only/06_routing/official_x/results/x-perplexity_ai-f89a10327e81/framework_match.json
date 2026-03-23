@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items/x-perplexity_ai-f89a10327e81/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "02_launch_application",
+      "06_checklist_template"
+    ],
+    "why_these_candidates": [
+      "02_launch_application: score=7 because task_hint=release, signal_hit=introducing, body_hit=update, release_signals=introducing,now available",
+      "06_checklist_template: score=6 because task_hint=workflow, signal_hit=workflow, execution_path_hint, sectioned_source"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:15:28Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "confidence": "medium",
+      "rationale": "The source is a release-triggered post with a direct trial/download entry point, which aligns with launch-after exposure. It does not provide execution steps, architecture, or onboarding flow, so checklist_template is a weaker fit. Inside framework 02, this is closest to lightweight release value display plus入口链接, not feature-boundary teaching or old-vs-new migration.",
+      "triggered_routing_signals": [
+        "Explicit launch signal: now available",
+        "Clear adoption CTA: App Store download link",
+        "Announcement-style release post with linked entry",
+        "No tutorial/execution path signals"
+      ],
+      "supporting_source_quotes": [
+        "Comet is now available for iOS.",
+        "Download on the App Store",
+        "release_signals: introducing, now available"
+      ],
+      "matched_sample_ids": [
+        "2033848539332415986",
+        "2032044423413182827"
+      ],
+      "ambiguity_notes": [
+        "Content is very short and promotional, with minimal evidence beyond launch + link.",
+        "Could shift to feature_playbook only if use-cases/boundaries were present."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "feature_playbook",
+        "confidence": "low",
+        "rationale": "Same launch context, but the post lacks feature definition, best-use cases, boundaries, or practical how-to evidence required by feature_playbook.",
+        "triggered_routing_signals": [
+          "Launch signal present",
+          "Product capability mention (iOS availability)"
+        ],
+        "supporting_source_quotes": [
+          "Comet is now available for iOS.",
+          "Comet - AI Browser & Assistant"
+        ],
+        "matched_sample_ids": [
+          "2033651724603240688"
+        ],
+        "ambiguity_notes": [
+          "No concept-clarification or when-not-to-use content."
+        ]
+      },
+      {
+        "framework_id": "06_checklist_template",
+        "submode_id": "capability_extension",
+        "confidence": "low",
+        "rationale": "iOS availability can be interpreted as product capability expansion, but this source lacks the required install/config execution path and before/after operational guidance for checklist_template.",
+        "triggered_routing_signals": [
+          "Possible extension signal: new platform availability",
+          "Weak workflow hint in metadata"
+        ],
+        "supporting_source_quotes": [
+          "Comet is now available for iOS.",
+          "task_hints: release, workflow"
+        ],
+        "matched_sample_ids": [
+          "2031965027314647316"
+        ],
+        "ambiguity_notes": [
+          "Routing criteria mark pure product release without execution path as unfit."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T06:15:46Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "The post is very thin/promotional and is close to the framework-02 unfit edge case ('feature announcement without real adoption guidance').",
+      "`release_showcase` is still the best available fit because there is an explicit launch signal plus a concrete entry CTA (App Store link), while checklist-style execution content is absent."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "confidence": "medium",
+    "rationale": "The source is a release-triggered post with a direct trial/download entry point, which aligns with launch-after exposure. It does not provide execution steps, architecture, or onboarding flow, so checklist_template is a weaker fit. Inside framework 02, this is closest to lightweight release value display plus入口链接, not feature-boundary teaching or old-vs-new migration.",
+    "matched_sample_ids": [
+      "2033848539332415986",
+      "2032044423413182827"
+    ],
+    "requires_human_review": false
+  }
+}

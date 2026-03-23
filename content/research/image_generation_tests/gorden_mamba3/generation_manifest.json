@@ -1,0 +1,42 @@
+{
+  "brief_path": "/home/lyric/growth-engine-pipeline/content/library/articles/article_x/20260320_article_x_recheck/x-gorden_sun-4d1bb97e37f3/article_image_brief.json",
+  "model": "nano-banana-2",
+  "jobs": [
+    {
+      "image_id": "cover_01",
+      "role": "cover",
+      "task_id": "b9ed89d132fec85459f6cb664cb60b8c",
+      "state": "success",
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1774164537110-jqh9djhumsg.png"
+      ]
+    },
+    {
+      "image_id": "inline_01",
+      "role": "inline",
+      "task_id": "c776b743300c4eea8511af97db0fe46f",
+      "state": "success",
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1774164596947-w9ip3hbzrsb.png"
+      ]
+    },
+    {
+      "image_id": "inline_02",
+      "role": "inline",
+      "task_id": "d21ac10dc389742e79175ef9b5904e7e",
+      "state": "success",
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1774164643245-lmezqbleohj.png"
+      ]
+    },
+    {
+      "image_id": "inline_03",
+      "role": "inline",
+      "task_id": "927bdb1d7bb70b7cf6926e112ba87a83",
+      "state": "success",
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1774164688519-r8k4axe459o.png"
+      ]
+    }
+  ]
+}

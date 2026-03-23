@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-19T06:20:02Z",
+  "backend": "codex_cli",
+  "source_item_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/03_source_items/official_x/items",
+  "prefilter_root": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/05_prefilter/official_x/results",
+  "framework_specs_dir": "/home/lyric/growth-engine-pipeline/framework",
+  "count": 1,
+  "results": [
+    {
+      "source_id": "x-xai-f2ae68a2fa14",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/06_routing/official_x/results/x-xai-f2ae68a2fa14/framework_match.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260319_000000__official_x__original_only/06_routing/official_x/results/x-xai-f2ae68a2fa14/framework_match.md",
+      "final_framework_id": "02_launch_application",
+      "final_submode_id": "release_showcase",
+      "requires_human_review": false
+    }
+  ]
+}

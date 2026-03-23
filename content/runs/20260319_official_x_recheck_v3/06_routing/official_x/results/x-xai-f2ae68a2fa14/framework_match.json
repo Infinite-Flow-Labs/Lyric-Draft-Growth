@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260319_official_x_recheck_v3/03_source_items/official_x/items/x-xai-f2ae68a2fa14/source_item.json",
+  "routing_mode": "llm_router_plus_reviewer",
+  "prefilter": {
+    "candidate_framework_ids": [
+      "01_money_proof",
+      "02_launch_application"
+    ],
+    "why_these_candidates": [
+      "01_money_proof: score=8 because body_hit=traffic, signal_hit=$, signal_hit=pricing, business_metric_signals=3",
+      "02_launch_application: score=3 because task_hint=release, release_signals=now available"
+    ]
+  },
+  "router_decision": {
+    "agent_name": "router",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:46:29Z",
+    "top_choice": {
+      "framework_id": "02_launch_application",
+      "submode_id": "feature_playbook",
+      "confidence": "high",
+      "rationale": "The source is a new API capability announcement with clear release timing plus concrete adoption-oriented details like voices, formats, pricing, rate limits, and docs. It fits launch-driven adoption better than money-proof because the numbers are product pricing, not outcome proof or a postmortem system breakdown.",
+      "triggered_routing_signals": [
+        "Explicit release signal: \"now available\"",
+        "New feature/API capability announcement",
+        "Includes adoption details: docs, pricing, rate limits, formats",
+        "Reader payoff is understanding what the feature does and how to try it"
+      ],
+      "supporting_source_quotes": [
+        "\"Text to Speech API is now available\"",
+        "\"Choose from five distinct voices\"",
+        "\"multiple audio formats\"",
+        "\"$4.20 / 1M characters\"",
+        "\"600 rpm requests per minute\""
+      ],
+      "matched_sample_ids": [
+        "2033651724603240688",
+        "2032978239853826228"
+      ],
+      "ambiguity_notes": [
+        "The post is brief and somewhat promotional, so release_showcase is a plausible competitor.",
+        "It does not show old-vs-new pain migration, so pain_to_adoption is weaker."
+      ]
+    },
+    "alternative_choices": [
+      {
+        "framework_id": "02_launch_application",
+        "submode_id": "release_showcase",
+        "confidence": "medium",
+        "rationale": "A realistic alternative because the post mainly markets a newly available resource/API with a link and quick value framing. It loses to feature_playbook because the linked context contains more feature-specific adoption details than a pure showcase.",
+        "triggered_routing_signals": [
+          "New release with entry link",
+          "Value framed for trial and collection",
+          "Lightweight announcement structure"
+        ],
+        "supporting_source_quotes": [
+          "\"Start building with natural voices\"",
+          "\"See docs\"",
+          "\"Simple, transparent pricing\""
+        ],
+        "matched_sample_ids": [
+          "2033848539332415986"
+        ],
+        "ambiguity_notes": [
+          "Would be stronger if the source centered more on why to bookmark/share than on feature specifics."
+        ]
+      },
+      {
+        "framework_id": "01_money_proof",
+        "submode_id": "metric_postmortem",
+        "confidence": "low",
+        "rationale": "The pricing and rate-limit numbers create superficial metric signals, but they are product specs rather than outcome evidence. There is no audited result, process breakdown, bottleneck, or lessons-learned chain, so this is not a true money-proof fit.",
+        "triggered_routing_signals": [
+          "Contains hard numbers",
+          "Business-like metrics appear in linked context"
+        ],
+        "supporting_source_quotes": [
+          "\"$0.05 / min\"",
+          "\"$4.20 / 1M characters\""
+        ],
+        "matched_sample_ids": [
+          "2031489944083116370"
+        ],
+        "ambiguity_notes": [
+          "Prefilter overweights pricing signals here; the source is a launch announcement, not a quantified postmortem."
+        ]
+      }
+    ]
+  },
+  "reviewer_decision": {
+    "agent_name": "reviewer",
+    "model": "codex-default",
+    "evaluated_at": "2026-03-19T10:46:37Z",
+    "agrees_with_router": true,
+    "override_choice": null,
+    "concerns": [
+      "Prefilter materially overweights pricing/metric signals; this source's numbers are product specs, not proof of outcomes.",
+      "The source is short and promotional, so `release_showcase` is a legitimate alternative, but `feature_playbook` remains the better fit because the linked context adds concrete adoption details and usage boundaries.",
+      "No conversation/podcast risk applies here: this is an `x_thread` announcement, not dialogue-driven source material."
+    ],
+    "requires_human_review": false
+  },
+  "final_decision": {
+    "framework_id": "02_launch_application",
+    "submode_id": "feature_playbook",
+    "confidence": "high",
+    "rationale": "The source is a new API capability announcement with clear release timing plus concrete adoption-oriented details like voices, formats, pricing, rate limits, and docs. It fits launch-driven adoption better than money-proof because the numbers are product pricing, not outcome proof or a postmortem system breakdown.",
+    "matched_sample_ids": [
+      "2033651724603240688",
+      "2032978239853826228"
+    ],
+    "requires_human_review": false
+  }
+}

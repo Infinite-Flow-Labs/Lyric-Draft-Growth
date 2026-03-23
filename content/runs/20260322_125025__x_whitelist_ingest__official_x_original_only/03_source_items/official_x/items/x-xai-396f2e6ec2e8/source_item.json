@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-xai-396f2e6ec2e8",
+  "fetched_at": "2026-03-22T12:50:38Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/xai/status/2035562571932024842",
+  "author": {
+    "handle": "@xai",
+    "display_name": "xAI",
+    "account_url": "https://x.com/xai"
+  },
+  "title": "Pinned: In order to understand the universe, you must explore the universe → http://x.ai/careers",
+  "language": "unknown",
+  "published_at": "2026-03-22T03:41:50Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/xai/status/2035562571932024842",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/xai/status/2035562571932024842#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    },
+    {
+      "asset_kind": "linked_article",
+      "url": "http://x.ai/careers",
+      "selected_for_text": true,
+      "notes": "linked context words=358"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post_with_link_context",
+    "summary": "In order to understand the universe, you must explore the universe → x.ai/careers Video",
+    "full_text": "Post title: Pinned: In order to understand the universe, you must explore the universe → http://x.ai/careers\n\nPost summary: In order to understand the universe, you must explore the universe → x.ai/careers Video\n\nCanonical URL: https://x.com/xai/status/2035562571932024842\n\nLinked source 1: http://x.ai/careers\n\n[Our principles] ## Coding ≥ x ∀ x We are driven by ambitious goals, fast execution, and a strong sense of urgency. Join us if you want to shape the next generation of AI models and products. ### Competitive compensation Competitive cash and equity-based compensation packages to attract top talent. ### Health and wellness Comprehensive health insurance including medical, dental, vision, and disability coverage. ### Life and family Life and AD&D insurance and fertility benefits to ensure our team’s well-being and peace of mind. ### Flexible vacation We work hard but avoid burn out. Take time off when you need it. ### Visa sponsorship We support international talent with visa sponsorship to join our team. ### 401(k) plan Retirement savings plan to secure your financial future. [Join us] ## Featured roles [What to expect] ## Interview process We generally do not use recruiters for assessments. Applications are evaluated by our technical team members. Interviews will be conducted via virtual meetings and/or onsite. Step 1 ### Submit your application Our team will review your CV and statement of exceptional work. Step 2 ### Screening Interview A short interview to learn more about you and assess if the role fits both you and xAI. Prepare for short technical questions and a review of your background and experience. Step 3 ### Technical Interviews Sessions where we dive deep into your technical expertise. This isn't just about solving puzzles; it's about understanding how you approach complex problems, your coding style, and your ability to think critically under pressure. Step 4 ### Offer Extended We value transparency and efficiency, so expect a prompt decision. If you've demonstrated the exceptional skills and mindset we're looking for, we'll extend an offer to join xAI. This isn't just a job offer; it's an invitation to be part of a team that's pushing the boundaries of AI to accelerate human scientific discovery. [Offices] ## Collaboration across borders We are hiring across all our offices in our Palo Alto headquarters, Seattle, San Francisco, Tennessee, and London UK. We prioritize in-person work to support our fast-paced, collaborative projects. Exceptional candidates are welcome to apply from anywhere. [View Open Roles](https://x.ai/careers/open-roles)",
+    "sections": [
+      "x_post",
+      "linked_context"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_used:http://x.ai/careers"
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "In",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "Linked",
+      "Our",
+      "Coding",
+      "We",
+      "Join",
+      "AI",
+      "Competitive",
+      "Health",
+      "Comprehensive",
+      "Life",
+      "AD",
+      "Flexible",
+      "Take",
+      "Visa",
+      "Retirement",
+      "Featured",
+      "What",
+      "Interview",
+      "Applications",
+      "Interviews",
+      "Step",
+      "Submit",
+      "CV",
+      "Screening Interview"
+    ],
+    "task_hints": [
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "Pinned: In order to understand the universe, you must explore the universe → http://x.ai/careers",
+      "In order to understand the universe, you must explore the universe → x.ai/careers Video",
+      "In",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "Linked",
+      "Our",
+      "Coding",
+      "We",
+      "Join",
+      "AI",
+      "Competitive",
+      "Health",
+      "Comprehensive",
+      "Life",
+      "AD",
+      "Flexible",
+      "http://x.ai/careers"
+    ],
+    "normalization_notes": "linked_context_count=1"
+  }
+}

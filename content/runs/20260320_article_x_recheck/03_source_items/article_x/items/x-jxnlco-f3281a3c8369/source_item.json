@@ -1,0 +1,105 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-jxnlco-f3281a3c8369",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/jxnlco/status/2034840293195870333",
+  "author": {
+    "handle": "@jxnlco",
+    "display_name": "jxnlco",
+    "account_url": "https://x.com/jxnlco"
+  },
+  "title": "great read on the state of oss and ai https://pydantic.dev/articles/pyai-oss-panel",
+  "language": "unknown",
+  "published_at": "2026-03-20T03:51:46Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/jxnlco/status/2034840293195870333",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/jxnlco/status/2034840293195870333#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    },
+    {
+      "asset_kind": "linked_article",
+      "url": "https://pydantic.dev/articles/pyai-oss-panel",
+      "selected_for_text": true,
+      "notes": "linked context words=2472"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post_with_link_context",
+    "summary": "great read on the state of oss and ai pydantic.dev/articles/pyai-o…",
+    "full_text": "Post title: great read on the state of oss and ai https://pydantic.dev/articles/pyai-oss-panel\n\nPost summary: great read on the state of oss and ai pydantic.dev/articles/pyai-o…\n\nCanonical URL: https://x.com/jxnlco/status/2034840293195870333\n\nLinked source 1: https://pydantic.dev/articles/pyai-oss-panel\n\nOn March 10, at San Francisco's Ferry Building, we put four Python open source maintainers on a stage and asked them to stop being polite about what AI is doing to their projects. Guido van Rossum, creator of Python. [Sebastián Ramirez](https://github.com/tiangolo), creator of [FastAPI](https://fastapi.tiangolo.com/). [Jeremiah Lowin](https://github.com/jlowin), CEO of Prefect and creator of [FastMCP](https://github.com/prefecthq/fastmcp). [Samuel Colvin](https://github.com/samuelcolvin), creator of [Pydantic](https://github.com/pydantic/). The panel was moderated by me, and part of [PyAI](https://pyai.events/), Pydantic's first conference, co-organised with Prefect. Here's the video of the session and a write-up summary of what was discussed. ## [](https://pydantic.dev/articles/pyai-oss-panel#the-slop-problem-is-real-but-its-not-new)The slop problem is real, but it's not new The conversation opened on something every OS maintainer is dealing with now: AI-generated pull requests flooding repositories. The examples are well documented at this point. curl [ended its bug bounty program](https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/) after AI-generated security reports made triage unsustainable. A matplotlib [maintainer was shamed by an autonomous bot](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/) after closing its PR. GitHub has now shipped a feature letting maintainers [disable PRs entirely](https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/). Ashley Wolf, GitHub's Director of Open Source Programs, put it plainly: \"the cost to create has dropped, but the cost to review has not.\" GitHub's blog called it an [Eternal September](https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/), a reference to the 1993 when AOL began offering Usenet access to its subscribers and brought a continuous flood of new users unfamiliar with community norms. The difference now is it's not just new users, it's automated noise. Sebastián was direct: \"Way worse.\" He framed it as a distributed denial of service (DDoS) attack, not on servers, but on maintainer attention. > \"The effort that person has to make is tiny. And then this creates a PR that will consume days of reviewing. The imbalance of effort is the actual problem. Not bad intent.\" > > > Sebastián Ramirez Guido pointed out that this isn't entirely new territory. CPython has been dealing with bad-faith PRs for decades. People submitting one-line typo fixes just to put \"Python contributor\" on a CV. > AI isn't even all that different. The volume is new. The mechanics of abuse are familiar. > > > Guido van Rossum What CPython has landed on: you can use AI tools, but \"it's not okay to submit a PR that has no sign of a human actually being involved.\" The test is simple. When maintainers ask a question about the PR and there's no response, it gets labeled pending and closed after two weeks. It works, mostly because it's hard to fake engagement. Jeremiah shared what FastMCP did on their repo. Requiring an issue before a PR was opened just meant the issue got opened one second before the PR. Requiring maintainer interaction just moved the burden from the PR queue to the issues page. What actually worked: flagging PRs where the description was too long. > \"LLMs have this weird insistence on telling you everything they did even though the code is right there.\" > > > Jeremiah Lowin A 10,000-word description for five lines of code: closed. Five lines of description for 10,000 lines of code: they'd look at it. He admitted the heuristic would probably be dead in three months once the models learn shorter descriptions. Samuel's solution was structural. \"GitHub needs to build human and AI identity into the contribution system\", he argued. Not perfect detection, but an honesty layer combined with reputation. His idea: > A metric on your GitHub profile tracking how sloppy the code you submit is. You spend a little reputation every time you open a big PR, and get it back when it merges. Reviewers get signal before they ever open the diff.\" > > > Samuel Colvin I called it the \"new economy of open source.\" He was careful to add that federated reputation would be better than centralising it with one company, but Microsoft via GitHub _might_ be better than nothing. A clear worry: any system that raises the bar for contribution will also shut out the well-meaning first-timer. One of the beauties of open source is that it's open for everybody. A reputation score that gates contribution is almost a credit score. You build credibility on one repo before you can contribute to FastAPI. That's a real cost. Samuel acknowledged Pydantic uses something called [Big Cheese](https://youtu.be/nxnQl4AcqFg?t=819?) internally. It's a Chrome extension that shows who's commenting on issues and gives them a one-to-f",
+    "sections": [
+      "x_post",
+      "linked_context"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_used:https://pydantic.dev/articles/pyai-oss-panel"
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL",
+      "Linked",
+      "On March",
+      "San Francisco",
+      "Ferry Building",
+      "Python",
+      "AI",
+      "Guido",
+      "Rossum",
+      "Ramirez",
+      "FastAPI",
+      "Jeremiah Lowin",
+      "CEO",
+      "Prefect",
+      "FastMCP",
+      "Samuel Colvin",
+      "Pydantic",
+      "PyAI",
+      "Here",
+      "OS",
+      "PR",
+      "GitHub",
+      "PRs",
+      "Ashley Wolf",
+      "Director",
+      "Open Source Programs",
+      "Eternal September"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "great read on the state of oss and ai https://pydantic.dev/articles/pyai-oss-panel",
+      "great read on the state of oss and ai pydantic.dev/articles/pyai-o…",
+      "Post",
+      "Canonical URL",
+      "Linked",
+      "On March",
+      "San Francisco",
+      "Ferry Building",
+      "Python",
+      "AI",
+      "Guido",
+      "Rossum",
+      "Ramirez",
+      "FastAPI",
+      "Jeremiah Lowin",
+      "CEO",
+      "Prefect",
+      "FastMCP",
+      "https://pydantic.dev/articles/pyai-oss-panel"
+    ],
+    "normalization_notes": "linked_context_count=1"
+  }
+}

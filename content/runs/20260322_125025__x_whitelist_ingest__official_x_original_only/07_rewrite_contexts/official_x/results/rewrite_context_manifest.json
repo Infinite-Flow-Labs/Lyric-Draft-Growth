@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-22T12:54:53Z",
+  "framework_match_root": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/06_routing/official_x/results",
+  "out_root": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results",
+  "count": 9,
+  "ok_count": 9,
+  "schema_error_count": 0,
+  "results": [
+    {
+      "source_id": "x-anthropicai-b79579a40386",
+      "status": "ok",
+      "framework_id": "01_money_proof",
+      "submode_id": "metric_postmortem",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-anthropicai-b79579a40386/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-anthropicai-b79579a40386/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-cohere-b6b7af400c7f",
+      "status": "ok",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-cohere-b6b7af400c7f/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-cohere-b6b7af400c7f/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-googledeepmind-2ac914f175fb",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-googledeepmind-2ac914f175fb/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-googledeepmind-2ac914f175fb/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-openai-8f6ed0f162e6",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-openai-8f6ed0f162e6/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-openai-8f6ed0f162e6/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-openai-af7edec328da",
+      "status": "ok",
+      "framework_id": "06_checklist_template",
+      "submode_id": "guided_onboarding",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-openai-af7edec328da/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-openai-af7edec328da/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-openaidevs-1921ec9814d2",
+      "status": "ok",
+      "framework_id": "06_checklist_template",
+      "submode_id": "guided_onboarding",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-openaidevs-1921ec9814d2/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-openaidevs-1921ec9814d2/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-openaidevs-e8a59b948d3c",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-openaidevs-e8a59b948d3c/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-openaidevs-e8a59b948d3c/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-perplexity_ai-f89a10327e81",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-perplexity_ai-f89a10327e81/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-perplexity_ai-f89a10327e81/rewrite_context.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "x-xai-396f2e6ec2e8",
+      "status": "ok",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-xai-396f2e6ec2e8/rewrite_context.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260322_125025__x_whitelist_ingest__official_x_original_only/07_rewrite_contexts/official_x/results/x-xai-396f2e6ec2e8/rewrite_context.md",
+      "validation_error": null
+    }
+  ]
+}

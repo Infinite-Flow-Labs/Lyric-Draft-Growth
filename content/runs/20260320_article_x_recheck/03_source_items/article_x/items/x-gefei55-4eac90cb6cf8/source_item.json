@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gefei55-4eac90cb6cf8",
+  "fetched_at": "2026-03-20T06:57:31Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/gefei55/status/2033371402796138996",
+  "author": {
+    "handle": "@gefei55",
+    "display_name": "gefei55",
+    "account_url": "https://x.com/gefei55"
+  },
+  "title": "又一个，跟着小排老师学产品，跟着我学SEO，最终成功拿到正反馈的例子，文章写得好详细，详细到让我觉得太长了，大多数人都没耐心看完。 转发出来，看看我的评论区里有多少看完的。",
+  "language": "unknown",
+  "published_at": "2026-03-16T02:34:55Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/gefei55/status/2033371402796138996",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/gefei55/status/2033371402796138996#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "又一个，跟着小排老师学产品，跟着我学SEO，最终成功拿到正反馈的例子，文章写得好详细，详细到让我觉得太长了，大多数人都没耐心看完。 转发出来，看看我的评论区里有多少看完的。 小耳朵sir (@watreejane) x.com/i/article/203320878065… — https://nitter.net/watreejane/status/2033326447432237058#m",
+    "full_text": "Post title: 又一个，跟着小排老师学产品，跟着我学SEO，最终成功拿到正反馈的例子，文章写得好详细，详细到让我觉得太长了，大多数人都没耐心看完。 转发出来，看看我的评论区里有多少看完的。\n\nPost summary: 又一个，跟着小排老师学产品，跟着我学SEO，最终成功拿到正反馈的例子，文章写得好详细，详细到让我觉得太长了，大多数人都没耐心看完。 转发出来，看看我的评论区里有多少看完的。 小耳朵sir (@watreejane) x.com/i/article/203320878065… — https://nitter.net/watreejane/status/2033326447432237058#m\n\nCanonical URL: https://x.com/gefei55/status/2033371402796138996",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "又一个，跟着小排老师学产品，跟着我学SEO，最终成功拿到正反馈的例子，文章写得好详细，详细到让我觉得太长了，大多数人都没耐心看完。 转发出来，看看我的评论区里有多少看完的。",
+      "又一个，跟着小排老师学产品，跟着我学SEO，最终成功拿到正反馈的例子，文章写得好详细，详细到让我觉得太长了，大多数人都没耐心看完。 转发出来，看看我的评论区里有多少看完的。 小耳朵sir (@watreejane) x.com/i/article/203320878065… — https://nitter.net/watreejane/status/2033326447432237058#m",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

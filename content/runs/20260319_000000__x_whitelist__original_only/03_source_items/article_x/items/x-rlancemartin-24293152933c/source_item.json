@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-rlancemartin-24293152933c",
+  "fetched_at": "2026-03-19T06:58:54Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/RLanceMartin/status/2032513255986573629",
+  "author": {
+    "handle": "@RLanceMartin",
+    "display_name": "RLanceMartin",
+    "account_url": "https://x.com/RLanceMartin"
+  },
+  "title": "i've been surprised to see how quickly Claude is getting better at long context retrieval + reasoning. also, we just announced flat pricing across the full context window to 1M tokens. it's a good time to explore long context when building with Claude. https://x.com/RLanceMartin/status/2032510338336436647?s=20",
+  "language": "unknown",
+  "published_at": "2026-03-13T17:44:57Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/RLanceMartin/status/2032513255986573629",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/RLanceMartin/status/2032513255986573629#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "i've been surprised to see how quickly Claude is getting better at long context retrieval + reasoning. also, we just announced flat pricing across the full context window to 1M tokens. it's a good time to explore long context when building with Claude. nitter.net/RLanceMartin/status/20… Lance Martin (@RLanceMartin) x.com/i/article/203249595480… — https://nitter.net/RLanceMartin/status/2032510338336436647#m",
+    "full_text": "Post title: i've been surprised to see how quickly Claude is getting better at long context retrieval + reasoning. also, we just announced flat pricing across the full context window to 1M tokens. it's a good time to explore long context when building with Claude. https://x.com/RLanceMartin/status/2032510338336436647?s=20\n\nPost summary: i've been surprised to see how quickly Claude is getting better at long context retrieval + reasoning. also, we just announced flat pricing across the full context window to 1M tokens. it's a good time to explore long context when building with Claude. nitter.net/RLanceMartin/status/20… Lance Martin (@RLanceMartin) x.com/i/article/203249595480… — https://nitter.net/RLanceMartin/status/2032510338336436647#m\n\nCanonical URL: https://x.com/RLanceMartin/status/2032513255986573629",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "announced"
+    ],
+    "metric_signals": [
+      "1M"
+    ],
+    "named_entities": [
+      "Claude",
+      "RLanceMartin",
+      "Lance Martin",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "i've been surprised to see how quickly Claude is getting better at long context retrieval + reasoning. also, we just announced flat pricing across the full context window to 1M tokens. it's a good time to explore long context when building with Claude. https://x.com/RLanceMartin/status/2032510338336436647?s=20",
+      "i've been surprised to see how quickly Claude is getting better at long context retrieval + reasoning. also, we just announced flat pricing across the full context window to 1M tokens. it's a good time to explore long context when building with Claude. nitter.net/RLanceMartin/status/20… Lance Martin (@RLanceMartin) x.com/i/article/203249595480… — https://nitter.net/RLanceMartin/status/2032510338336436647#m",
+      "announced",
+      "1M",
+      "Claude",
+      "RLanceMartin",
+      "Lance Martin",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

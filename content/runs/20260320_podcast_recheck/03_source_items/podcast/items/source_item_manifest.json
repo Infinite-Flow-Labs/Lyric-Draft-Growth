@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-20T05:15:29Z",
+  "episode_catalog_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/01_discovery/podcast_ingest/catalog/episode_catalog.json",
+  "transcript_root": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/01_discovery/podcast_ingest/fulltext/auto_discovered",
+  "out_root": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items",
+  "count": 6,
+  "ok_count": 6,
+  "schema_error_count": 0,
+  "results": [
+    {
+      "source_id": "podcast-latent_space-5c7ce416ac51",
+      "status": "ok",
+      "kind": "podcast_transcript",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-latent_space-5c7ce416ac51/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-latent_space-5c7ce416ac51/source_item.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "podcast-practical_ai-c28e7eb8060b",
+      "status": "ok",
+      "kind": "podcast_transcript",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-practical_ai-c28e7eb8060b/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-practical_ai-c28e7eb8060b/source_item.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "podcast-the_ai_daily_brief-34cd14c1656d",
+      "status": "ok",
+      "kind": "podcast_transcript",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_ai_daily_brief-34cd14c1656d/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_ai_daily_brief-34cd14c1656d/source_item.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "podcast-the_ai_daily_brief-8033a850d1ef",
+      "status": "ok",
+      "kind": "podcast_transcript",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_ai_daily_brief-8033a850d1ef/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_ai_daily_brief-8033a850d1ef/source_item.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "podcast-the_ai_daily_brief-c4e38355b9bd",
+      "status": "ok",
+      "kind": "podcast_transcript",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_ai_daily_brief-c4e38355b9bd/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_ai_daily_brief-c4e38355b9bd/source_item.md",
+      "validation_error": null
+    },
+    {
+      "source_id": "podcast-the_cognitive_revolution-e808e1ad9465",
+      "status": "ok",
+      "kind": "podcast_transcript",
+      "output_json": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_cognitive_revolution-e808e1ad9465/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_cognitive_revolution-e808e1ad9465/source_item.md",
+      "validation_error": null
+    }
+  ]
+}
