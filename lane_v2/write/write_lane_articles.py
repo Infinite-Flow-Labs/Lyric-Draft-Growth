@@ -1554,8 +1554,9 @@ def main() -> int:
         dest="enable_self_improving_observe",
         action="store_false",
     )
-    parser.add_argument("--backend", choices=["auto", "openai_compatible", "codex_cli"], default="auto")
-    parser.add_argument("--writer-model", default="", help="Writer model name")
+    parser.add_argument("--backend", choices=["auto", "anthropic", "openai_compatible", "codex_cli"], default="auto")
+    parser.add_argument("--writer-model", default="claude-sonnet-4-6", help="Model for article generation (heavy task)")
+    parser.add_argument("--light-model", default="claude-haiku-4-5-20251001", help="Model for pain point extraction and other light tasks")
     parser.add_argument("--api-base", default="https://api.openai.com/v1", help="OpenAI-compatible API base URL")
     parser.add_argument("--api-key-env", default="OPENAI_API_KEY", help="Environment variable containing API key")
     parser.add_argument("--codex-binary", default="codex", help="Codex CLI binary name or absolute path")
@@ -1737,10 +1738,11 @@ def main() -> int:
         # --- Source enrichment (fetch GitHub metadata etc.) ---
         source_enrichment = enrich_source_materials(primary_source_item, source_materials_packet)
 
-        # --- Pain point extraction (lightweight pre-writer LLM call) ---
+        # --- Pain point extraction (lightweight pre-writer LLM call, uses light model) ---
+        light_model = args.light_model or writer_model
         reader_pain = extract_reader_pain_point(
             backend=backend,
-            model=writer_model,
+            model=light_model,
             topic_statement=trim_text(topic_card.get("topic_statement", ""), 300),
             primary_source_excerpt=trim_text(
                 primary_source_item.get("content", {}).get("full_text", ""), 1200

@@ -1037,10 +1037,10 @@ def build_lane_assignments(
 
         lane_candidates.sort(key=lambda item: item["lane_final_score"], reverse=True)
 
-        # Value estimate: for top 3 candidates, ask LLM if this lane angle produces unique reader value.
+        # Value estimate: ask LLM if each lane angle produces unique reader value.
         if value_backend and value_model:
             topic_statement = str(card.get("topic_statement", "")).strip()
-            for candidate in lane_candidates[:3]:
+            for candidate in lane_candidates:
                 value_score, value_reason = estimate_lane_value(
                     backend=value_backend,
                     model=value_model,
@@ -1704,8 +1704,8 @@ def main() -> int:
     parser.add_argument("--clean-stages", dest="clean_stages", action="store_true", default=True)
     parser.add_argument("--no-clean-stages", dest="clean_stages", action="store_false")
     parser.add_argument("--enable-value-estimate", action="store_true", default=False, help="Use LLM to estimate reader value per lane candidate (top 3)")
-    parser.add_argument("--value-model", default="", help="Model for value estimation LLM calls")
-    parser.add_argument("--value-backend", choices=["auto", "openai_compatible", "codex_cli"], default="auto")
+    parser.add_argument("--value-model", default="claude-haiku-4-5-20251001", help="Model for value estimation LLM calls (light task)")
+    parser.add_argument("--value-backend", choices=["auto", "anthropic", "openai_compatible", "codex_cli"], default="auto")
     parser.add_argument("--value-api-base", default="https://api.openai.com/v1")
     parser.add_argument("--value-api-key-env", default="OPENAI_API_KEY")
     parser.add_argument("--value-codex-binary", default="codex")
