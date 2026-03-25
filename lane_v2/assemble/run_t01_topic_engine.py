@@ -1663,14 +1663,14 @@ def build_topic_ranking(
 
     ranking_rows.sort(key=lambda item: item["ranking_score"], reverse=True)
 
+    # Select ALL valid topics for writer — no artificial quota cap.
+    # Per-lane cap prevents content type monotony.
     selected_topic_ids: list[str] = []
     if approved_topic_ids:
-        # Human-approved topics should be allowed to enter writer even when validity_gate is false.
         approved_order = [row["topic_id"] for row in ranking_rows if row["topic_id"] in approved_topic_ids]
-        selected_topic_ids = approved_order[: max(1, writer_quota)]
+        selected_topic_ids = list(approved_order)
     elif auto_select_topics:
-        # Lane-diverse selection: cap per lane to avoid all articles being the same type.
-        max_per_lane = max(2, writer_quota // 3)
+        max_per_lane = max(3, len(ranking_rows) // 4)
         lane_count: dict[str, int] = {}
         for row in ranking_rows:
             if not row["valid_for_pool"]:
@@ -1680,8 +1680,6 @@ def build_topic_ranking(
                 continue
             selected_topic_ids.append(row["topic_id"])
             lane_count[lane_id] = lane_count.get(lane_id, 0) + 1
-            if len(selected_topic_ids) >= max(1, writer_quota):
-                break
 
     selected_set = set(selected_topic_ids)
     for row in ranking_rows:

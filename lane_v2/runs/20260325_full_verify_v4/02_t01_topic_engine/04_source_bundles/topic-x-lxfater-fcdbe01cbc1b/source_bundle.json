@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-lxfater-fcdbe01cbc1b",
+  "lane_id": "T02_signal_decode",
+  "framework_id": "03_opinion_decode",
+  "submode_id": "signal_decode",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-lxfater-fcdbe01cbc1b",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/lxfater/status/2036101426779484458",
+      "title": "这个产品不错，@TopviewAIhq 我也想试试",
+      "published_at": "2026-03-23T15:23:03Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-lxfater-fcdbe01cbc1b/source_item.json"
+    }
+  ],
+  "supporting_sources": [],
+  "fact_anchors": [
+    {
+      "claim": "这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.com/i/article/203601372806… — https://nitter.net/servasyy_ai/status/2036096858834288973#m",
+      "source_url": "https://x.com/lxfater/status/2036101426779484458",
+      "signal_id": "x-lxfater-fcdbe01cbc1b"
+    },
+    {
+      "claim": "这个产品不错，@TopviewAIhq 我也想试试 这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.com/i/article/203601372806… — https://nitter.net/servasyy_ai/status/2036096858834288973#m Post title: 这个产品不错，@TopviewAIhq 我也想试试 Post summary: 这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.co",
+      "source_url": "https://x.com/lxfater/status/2036101426779484458",
+      "signal_id": "x-lxfater-fcdbe01cbc1b"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 1,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 6,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": true,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": true,
+  "quality_tier": "D",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": false,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": true
+}

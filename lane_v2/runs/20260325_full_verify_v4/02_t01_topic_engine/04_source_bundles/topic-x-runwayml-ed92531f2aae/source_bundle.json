@@ -1,0 +1,114 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-runwayml-ed92531f2aae",
+  "lane_id": "T06_capability_delivery",
+  "framework_id": "06_checklist_template",
+  "submode_id": "workflow_architecture",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-runwayml-ed92531f2aae",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2036445630134886846",
+      "title": "Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below.",
+      "published_at": "2026-03-24T14:10:48Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-ed92531f2aae/source_item.json"
+    },
+    {
+      "signal_id": "x-runwayml-713251b5836e",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2036081560873570742",
+      "title": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+      "published_at": "2026-03-23T14:04:07Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-713251b5836e/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-cohere-2a3efe1d25b4",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/cohere/status/2036444133397577818",
+      "title": "We’re honored to be named one of @FastCompany's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026",
+      "published_at": "2026-03-24T14:04:51Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-cohere-2a3efe1d25b4/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below.",
+      "source_url": "https://x.com/runwayml/status/2036445630134886846",
+      "signal_id": "x-runwayml-ed92531f2aae"
+    },
+    {
+      "claim": "Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below. Video",
+      "source_url": "https://x.com/runwayml/status/2036445630134886846",
+      "signal_id": "x-runwayml-ed92531f2aae"
+    },
+    {
+      "claim": "Submissions for the 2026 AI Festival are now open until April 20th",
+      "source_url": "https://x.com/runwayml/status/2036445630134886846",
+      "signal_id": "x-runwayml-ed92531f2aae"
+    },
+    {
+      "claim": "This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming",
+      "source_url": "https://x.com/runwayml/status/2036445630134886846",
+      "signal_id": "x-runwayml-ed92531f2aae"
+    },
+    {
+      "claim": "Learn more and submit your project at the link below",
+      "source_url": "https://x.com/runwayml/status/2036445630134886846",
+      "signal_id": "x-runwayml-ed92531f2aae"
+    },
+    {
+      "claim": "Video Post title: Submissions for the 2026 AI Festival are now open until April 20th",
+      "source_url": "https://x.com/runwayml/status/2036445630134886846",
+      "signal_id": "x-runwayml-ed92531f2aae"
+    },
+    {
+      "claim": "Video Canonical URL: https://x.com/runwayml/status/2036445630134886846",
+      "source_url": "https://x.com/runwayml/status/2036445630134886846",
+      "signal_id": "x-runwayml-ed92531f2aae"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 6,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": true,
+  "quality_tier": "C",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": true
+}
