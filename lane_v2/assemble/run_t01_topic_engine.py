@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import shutil
+import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -937,11 +939,59 @@ def lane_fit_score_for_spec(
     return round(clamp_score(score), 2), reasons
 
 
+def estimate_lane_value(
+    backend: Any,
+    model: str,
+    topic_statement: str,
+    lane_id: str,
+    lane_label: str,
+) -> tuple[float, str]:
+    """Lightweight LLM call: would this topic produce unique reader value from this lane's angle?"""
+    prompt = json.dumps(
+        {
+            "task": "Score whether this topic, written from this lane angle, would give readers a unique judgment they can't get from a plain news summary.",
+            "topic_statement": topic_statement[:300],
+            "lane_id": lane_id,
+            "lane_label": lane_label,
+            "scoring_guide": [
+                "90-100: The lane angle unlocks a judgment readers can't form themselves (e.g. adoption path, failure analysis, contrarian reframe).",
+                "60-89: The lane angle adds some value but much of it overlaps with a plain summary.",
+                "30-59: The lane angle is technically applicable but the article would read like a reformatted announcement.",
+                "0-29: Forcing this topic into this lane would feel artificial.",
+            ],
+        },
+        ensure_ascii=False,
+        separators=(",", ":"),
+    )
+    schema = {
+        "type": "object",
+        "additionalProperties": False,
+        "required": ["value_score", "reason"],
+        "properties": {
+            "value_score": {"type": "integer", "minimum": 0, "maximum": 100},
+            "reason": {"type": "string"},
+        },
+    }
+    try:
+        result = backend.complete_json(
+            model=model,
+            system_prompt="You evaluate whether a topic-lane pairing would produce unique reader value. Return JSON only.",
+            user_prompt=prompt,
+            output_schema=schema,
+        )
+        return float(result.get("value_score", 50)), str(result.get("reason", ""))
+    except Exception:
+        return 50.0, "value_estimate_failed"
+
+
 def build_lane_assignments(
     topic_cards: list[dict[str, Any]],
     signal_by_id: dict[str, dict[str, Any]],
     lane_specs: list[LaneSpec],
     topic_policy: TopicPolicy,
+    *,
+    value_backend: Any | None = None,
+    value_model: str = "",
 ) -> list[dict[str, Any]]:
     assignments: list[dict[str, Any]] = []
     for card in topic_cards:
@@ -986,6 +1036,32 @@ def build_lane_assignments(
             )
 
         lane_candidates.sort(key=lambda item: item["lane_final_score"], reverse=True)
+
+        # Value estimate: for top 3 candidates, ask LLM if this lane angle produces unique reader value.
+        if value_backend and value_model:
+            topic_statement = str(card.get("topic_statement", "")).strip()
+            for candidate in lane_candidates[:3]:
+                value_score, value_reason = estimate_lane_value(
+                    backend=value_backend,
+                    model=value_model,
+                    topic_statement=topic_statement,
+                    lane_id=candidate["lane_id"],
+                    lane_label=candidate["lane_label"],
+                )
+                candidate["value_score"] = round(value_score, 1)
+                candidate["value_reason"] = value_reason
+                # Recompute final score: fit 50% + value 30% + topic_priority 20%
+                candidate["lane_final_score"] = round(
+                    clamp_score(
+                        0.5 * candidate["lane_fit_score"]
+                        + 0.3 * value_score
+                        + 0.2 * topic_priority
+                    ),
+                    2,
+                )
+            # Re-sort after value adjustment
+            lane_candidates.sort(key=lambda item: item["lane_final_score"], reverse=True)
+
         selected = lane_candidates[0] if lane_candidates else {}
         assignments.append(
             {
@@ -1627,6 +1703,13 @@ def main() -> int:
     parser.add_argument("--force-lane-id", default="", help="Force lane_id for --force-topic-id")
     parser.add_argument("--clean-stages", dest="clean_stages", action="store_true", default=True)
     parser.add_argument("--no-clean-stages", dest="clean_stages", action="store_false")
+    parser.add_argument("--enable-value-estimate", action="store_true", default=False, help="Use LLM to estimate reader value per lane candidate (top 3)")
+    parser.add_argument("--value-model", default="", help="Model for value estimation LLM calls")
+    parser.add_argument("--value-backend", choices=["auto", "openai_compatible", "codex_cli"], default="auto")
+    parser.add_argument("--value-api-base", default="https://api.openai.com/v1")
+    parser.add_argument("--value-api-key-env", default="OPENAI_API_KEY")
+    parser.add_argument("--value-codex-binary", default="codex")
+    parser.add_argument("--value-timeout-s", type=int, default=60)
     args = parser.parse_args()
 
     roots = [Path(value).expanduser().resolve() for value in args.source_item_root]
@@ -1664,7 +1747,31 @@ def main() -> int:
     passed, rejected = apply_global_gate(signal_items, policy=policy, now_utc=now_utc)
     topic_cards = build_topic_cards(passed, topic_policy, now_utc, [spec.lane_id for spec in lane_specs])
     signal_by_id = {signal["signal_id"]: signal for signal in passed}
-    lane_assignments = build_lane_assignments(topic_cards, signal_by_id, lane_specs, topic_policy)
+    # Optional: LLM-based value estimation for lane routing
+    value_backend = None
+    value_model = ""
+    if args.enable_value_estimate:
+        ROUTE_DIR = Path(__file__).resolve().parents[1] / "route"
+        if str(ROUTE_DIR) not in sys.path:
+            sys.path.insert(0, str(ROUTE_DIR))
+        from route_framework_matches import choose_backend as route_choose_backend
+        _, value_backend = route_choose_backend(
+            backend=args.value_backend,
+            api_key_env=args.value_api_key_env,
+            api_base=args.value_api_base,
+            timeout_s=args.value_timeout_s,
+            bootstrap_decisions_file=None,
+            codex_binary=args.value_codex_binary,
+            codex_working_dir="/tmp",
+            codex_reasoning_effort="low",
+        )
+        value_model = args.value_model
+        print(f"Value estimation enabled: model={value_model}, backend={args.value_backend}")
+
+    lane_assignments = build_lane_assignments(
+        topic_cards, signal_by_id, lane_specs, topic_policy,
+        value_backend=value_backend, value_model=value_model,
+    )
     forced_lane_override_report = apply_forced_lane_override(
         assignments=lane_assignments,
         lane_specs_by_id=lane_specs_by_id,
