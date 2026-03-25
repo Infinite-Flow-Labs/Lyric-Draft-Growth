@@ -15,10 +15,20 @@ if str(ROOT) not in sys.path:
 from content.pipeline.write.article_formatter import build_article_blocks, build_publishing_hints
 
 DEFAULT_TEMPLATE_PATH = ROOT / "content/pipeline/configs/ARTICLE_IMAGE_BRIEF.template.json"
+DEFAULT_STYLE_BRIDGE_PATH = ROOT / "content/pipeline/configs/ARTICLE_IMAGE_STYLE_BRIDGE.json"
 
 
 def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_optional_json(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    try:
+        return load_json(path)
+    except Exception:
+        return {}
 
 
 def dump_json(path: Path, payload: dict[str, Any]) -> None:
@@ -54,6 +64,25 @@ def trim_hard(value: str, max_len: int) -> str:
     if len(text) <= max_len:
         return text
     return text[:max_len].rstrip(" ，。；：,.!?！？…")
+
+
+def merge_text(base: str, extra: str) -> str:
+    base_clean = clean_text(base)
+    extra_clean = clean_text(extra)
+    if not extra_clean:
+        return base_clean
+    if not base_clean:
+        return extra_clean
+    if extra_clean in base_clean:
+        return base_clean
+    return f"{base_clean}; {extra_clean}"
+
+
+def merge_prompt_seed(existing: str, additions: list[str], *, max_len: int = 560) -> str:
+    parts = [clean_text(existing)] if clean_text(existing) else []
+    parts.extend(clean_text(item) for item in additions if clean_text(item))
+    merged = " ".join(dedupe(parts))
+    return trim_sentence(merged, max_len)
 
 
 def article_slug(article_path: Path, article_payload: dict[str, Any]) -> str:
@@ -115,13 +144,49 @@ def split_sections(blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "blocks": [block],
             }
             continue
-        if block_type in {"link_cta", "closing_slogan"}:
+        if block_type in {"link_cta", "closing_slogan", "source_embed"}:
             continue
         current["blocks"].append(block)
 
     if current["blocks"] or current["heading"]:
         sections.append(current)
+    # If writer did not emit explicit subheadings, fallback to grouped pseudo-sections
+    # so inline image planning still has enough insertion points.
+    if len(sections) <= 1:
+        grouped = split_sections_without_headings(blocks)
+        if grouped:
+            return grouped
     return sections
+
+
+def split_sections_without_headings(blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    content_blocks = [
+        block
+        for block in blocks
+        if clean_text(block.get("type")) not in {"hero_heading", "link_cta", "closing_slogan", "source_embed"}
+    ]
+    if len(content_blocks) <= 3:
+        return []
+
+    group_size = 3
+    grouped_sections: list[dict[str, Any]] = []
+    for index in range(0, len(content_blocks), group_size):
+        chunk = content_blocks[index : index + group_size]
+        if not chunk:
+            continue
+        heading = ""
+        for block in chunk:
+            if clean_text(block.get("type")) in {"section_heading", "paragraph", "quote"} and clean_text(block.get("text")):
+                heading = trim_sentence(clean_text(block.get("text")), 20)
+                break
+        grouped_sections.append(
+            {
+                "section_ref": f"section_{len(grouped_sections) + 1:02d}",
+                "heading": heading,
+                "blocks": chunk,
+            }
+        )
+    return grouped_sections
 
 
 def collect_section_text(section: dict[str, Any]) -> str:
@@ -461,7 +526,85 @@ def build_inline_brief(template_block: dict[str, Any], section: dict[str, Any], 
     return brief
 
 
-def build_payload(article_path: Path, template_path: Path, *, max_inline: int) -> dict[str, Any]:
+def apply_style_overlay(brief: dict[str, Any], overlay: dict[str, Any]) -> None:
+    if not overlay:
+        return
+
+    composition = brief.get("composition") or {}
+    for field in ("layout_pattern", "diagram_focus", "text_position"):
+        value = clean_text(overlay.get(field))
+        if value:
+            composition[field] = value
+    brief["composition"] = composition
+
+    brief["scene_elements"] = dedupe(list(brief.get("scene_elements") or []) + list(overlay.get("scene_elements_add") or []))
+    brief["key_relationships"] = dedupe(list(brief.get("key_relationships") or []) + list(overlay.get("key_relationships_add") or []))
+    brief["visual_constraints"] = dedupe(
+        list(brief.get("visual_constraints") or []) + list(overlay.get("visual_constraints_add") or [])
+    )
+    brief["negative_constraints"] = dedupe(
+        list(brief.get("negative_constraints") or []) + list(overlay.get("negative_constraints_add") or [])
+    )
+
+    prompt_additions: list[str] = []
+    profile_label = clean_text(overlay.get("profile_label"))
+    if profile_label:
+        prompt_additions.append(f"Style profile: {profile_label}.")
+    style_direction = clean_text(overlay.get("style_direction_add"))
+    if style_direction:
+        prompt_additions.append(style_direction)
+    prompt_additions.extend(clean_text(item) for item in list(overlay.get("prompt_seed_lines") or []))
+    brief["prompt_seed"] = merge_prompt_seed(str(brief.get("prompt_seed") or ""), prompt_additions)
+
+
+def apply_style_bridge(payload: dict[str, Any], style_bridge: dict[str, Any]) -> dict[str, Any]:
+    if not style_bridge:
+        return payload
+
+    style_profile_id = clean_text(style_bridge.get("style_profile_id"))
+    if style_profile_id:
+        payload["style_profile_id"] = style_profile_id
+
+    global_rules = payload.get("global_visual_rules") or {}
+    global_bridge = style_bridge.get("global") or {}
+    global_rules["style_direction"] = merge_text(
+        str(global_rules.get("style_direction") or ""),
+        str(global_bridge.get("style_direction_add") or ""),
+    )
+    global_rules["must_have"] = dedupe(
+        list(global_rules.get("must_have") or []) + list(global_bridge.get("must_have_add") or [])
+    )
+    global_rules["must_avoid"] = dedupe(
+        list(global_rules.get("must_avoid") or []) + list(global_bridge.get("must_avoid_add") or [])
+    )
+    payload["global_visual_rules"] = global_rules
+
+    cover = payload.get("cover_image") or {}
+    cover_cfg = style_bridge.get("cover") or {}
+    apply_style_overlay(cover, cover_cfg.get("default") or {})
+    cover_overrides = cover_cfg.get("diagram_overrides") or {}
+    apply_style_overlay(cover, cover_overrides.get(clean_text(cover.get("diagram_type"))) or {})
+    payload["cover_image"] = cover
+
+    inline_cfg = style_bridge.get("inline") or {}
+    grammar_overrides = inline_cfg.get("grammar_overrides") or {}
+    updated_inline: list[dict[str, Any]] = []
+    for inline in payload.get("inline_images", []) or []:
+        block = copy.deepcopy(inline)
+        apply_style_overlay(block, inline_cfg.get("default") or {})
+        apply_style_overlay(block, grammar_overrides.get(clean_text(block.get("image_grammar"))) or {})
+        updated_inline.append(block)
+    payload["inline_images"] = updated_inline
+    return payload
+
+
+def build_payload(
+    article_path: Path,
+    template_path: Path,
+    *,
+    max_inline: int,
+    style_bridge_path: Path | None,
+) -> dict[str, Any]:
     article_payload = load_json(article_path)
     source_item = get_source_item(article_payload)
     publishing_hints = get_publishing_hints(article_payload, source_item)
@@ -481,7 +624,9 @@ def build_payload(article_path: Path, template_path: Path, *, max_inline: int) -
         build_inline_brief(template["inline_images"][0], section, index + 1)
         for index, section in enumerate(inline_sections)
     ]
-    return payload
+
+    bridge = load_optional_json(style_bridge_path or DEFAULT_STYLE_BRIDGE_PATH)
+    return apply_style_bridge(payload, bridge)
 
 
 def parse_args() -> argparse.Namespace:
@@ -489,6 +634,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--article", required=True, help="Path to article_draft.json")
     parser.add_argument("--out", required=True, help="Output path for ARTICLE_IMAGE_BRIEF JSON")
     parser.add_argument("--template", default=str(DEFAULT_TEMPLATE_PATH))
+    parser.add_argument("--style-bridge", default=str(DEFAULT_STYLE_BRIDGE_PATH))
     parser.add_argument("--max-inline", type=int, default=6)
     return parser.parse_args()
 
@@ -498,8 +644,14 @@ def main() -> int:
     article_path = Path(args.article).resolve()
     out_path = Path(args.out).resolve()
     template_path = Path(args.template).resolve()
+    style_bridge_path = Path(args.style_bridge).resolve() if clean_text(args.style_bridge) else None
 
-    payload = build_payload(article_path, template_path, max_inline=max(0, args.max_inline))
+    payload = build_payload(
+        article_path,
+        template_path,
+        max_inline=max(0, args.max_inline),
+        style_bridge_path=style_bridge_path,
+    )
     dump_json(out_path, payload)
     print(
         json.dumps(
