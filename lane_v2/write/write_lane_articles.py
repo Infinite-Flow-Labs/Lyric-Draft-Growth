@@ -1228,7 +1228,8 @@ def lane_writer_user_prompt(
         f"Output language: {output_language}.",
         "body_markdown must use markdown structure. First chunk must be a quote block: > ...",
         "At least 2 subheadings (## ...), 1 bullet list (>=3 items), 3-10 bold spans.",
-        "Title: 12-32 chars, must carry conflict/reversal/stake. Dek sharpens angle, not repeat title.",
+        "Title: 12-32 chars, must carry conflict/reversal/stake.",
+        "Dek: a plain sentence that sharpens the angle. Do NOT prefix with labels like 'Dek:' or '**Dek**:'. Do NOT repeat the title. The dek field in JSON must contain only the sentence itself.",
         "Do not output framework IDs, submode IDs, model names, or metadata in article text.",
         # Anti-AI smell (merged from humanizer_packet)
         "Banned: 不是...而是..., 不仅...而且..., 首先/其次/最后 template, emoji, em-dash overuse, bold overuse.",

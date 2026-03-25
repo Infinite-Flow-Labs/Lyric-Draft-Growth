@@ -1009,14 +1009,16 @@ def build_lane_assignments(
                 2,
             )
             requirement_failures = lane_requirement_failures(lane_spec, features)
-            high_fit_override = lane_fit_score >= 80.0
-            medium_fit_override = lane_fit_score >= 65.0 and not requirement_failures
+            high_fit_override = lane_fit_score >= 75.0
+            medium_fit_override = lane_fit_score >= 55.0 and not requirement_failures
+            # Soft requirement failures: don't block write, just flag for review
+            has_hard_failure = any(f in {"require_hard_numbers"} for f in requirement_failures)
             eligible_for_write = bool(
                 (meets_topic_threshold or high_fit_override or medium_fit_override)
-                and lane_final_score >= 45.0
-                and not requirement_failures
+                and lane_final_score >= 40.0
+                and not has_hard_failure
             )
-            requires_human_review = bool(lane_final_score < 60.0 or requirement_failures)
+            requires_human_review = bool(lane_final_score < 50.0 or requirement_failures)
             lane_candidates.append(
                 {
                     "lane_id": lane_spec.lane_id,
@@ -1245,19 +1247,32 @@ def strong_event_overlap(seed: dict[str, Any], candidate: dict[str, Any]) -> boo
     if seed_specific and candidate_specific and seed_specific.intersection(candidate_specific):
         return True
 
-    # If they only share BROAD entities (e.g. "claude code"), require additional evidence:
-    # both must have overlapping release_signal content (same product/feature name in the release).
+    # If they only share BROAD entities (e.g. "claude code"), require additional evidence.
     seed_broad_match = seed_entities and candidate_entities and seed_entities.intersection(candidate_entities)
     if seed_broad_match:
+        # Evidence 1: release_signal content overlap (same product/feature keyword)
         seed_release_text = " ".join(str(r).lower() for r in seed.get("release_signals", []))
         candidate_release_text = " ".join(str(r).lower() for r in candidate.get("release_signals", []))
-        if not seed_release_text or not candidate_release_text:
-            return False
-        # Check if they share a meaningful keyword beyond generic release verbs
-        seed_tokens = {t for t in re.split(r"[\s,;.，。；]+", seed_release_text) if len(t) >= 3 and t not in {"更新", "发布", "推出", "上线", "新增", "开放", "update", "release", "launch", "new"}}
-        candidate_tokens = {t for t in re.split(r"[\s,;.，。；]+", candidate_release_text) if len(t) >= 3 and t not in {"更新", "发布", "推出", "上线", "新增", "开放", "update", "release", "launch", "new"}}
-        if seed_tokens and candidate_tokens and seed_tokens.intersection(candidate_tokens):
+        if seed_release_text and candidate_release_text:
+            generic_verbs = {"更新", "发布", "推出", "上线", "新增", "开放", "update", "release", "launch", "new"}
+            seed_tokens = {t for t in re.split(r"[\s,;.，。；]+", seed_release_text) if len(t) >= 3 and t not in generic_verbs}
+            candidate_tokens = {t for t in re.split(r"[\s,;.，。；]+", candidate_release_text) if len(t) >= 3 and t not in generic_verbs}
+            if seed_tokens and candidate_tokens and seed_tokens.intersection(candidate_tokens):
+                return True
+
+        # Evidence 2: same author (likely a thread about the same topic)
+        seed_author = str(seed.get("author_id", "")).strip().lower()
+        candidate_author = str(candidate.get("author_id", "")).strip().lower()
+        if seed_author and candidate_author and seed_author == candidate_author:
             return True
+
+        # Evidence 3: published within 6 hours (tight time window suggests same event)
+        seed_time = parse_iso_datetime(str(seed.get("published_at", "")))
+        candidate_time = parse_iso_datetime(str(candidate.get("published_at", "")))
+        if seed_time and candidate_time:
+            gap_hours = abs((seed_time.astimezone(timezone.utc) - candidate_time.astimezone(timezone.utc)).total_seconds()) / 3600.0
+            if gap_hours <= 6.0:
+                return True
 
     return False
 
@@ -1649,7 +1664,19 @@ def build_topic_ranking(
         approved_order = [row["topic_id"] for row in ranking_rows if row["topic_id"] in approved_topic_ids]
         selected_topic_ids = approved_order[: max(1, writer_quota)]
     elif auto_select_topics:
-        selected_topic_ids = [row["topic_id"] for row in ranking_rows if row["valid_for_pool"]][: max(1, writer_quota)]
+        # Lane-diverse selection: cap per lane to avoid all articles being the same type.
+        max_per_lane = max(2, writer_quota // 3)
+        lane_count: dict[str, int] = {}
+        for row in ranking_rows:
+            if not row["valid_for_pool"]:
+                continue
+            lane_id = row["selected_lane_id"]
+            if lane_count.get(lane_id, 0) >= max_per_lane:
+                continue
+            selected_topic_ids.append(row["topic_id"])
+            lane_count[lane_id] = lane_count.get(lane_id, 0) + 1
+            if len(selected_topic_ids) >= max(1, writer_quota):
+                break
 
     selected_set = set(selected_topic_ids)
     for row in ranking_rows:
