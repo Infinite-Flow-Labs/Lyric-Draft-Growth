@@ -281,7 +281,81 @@ def compress_hook_target(text: str, max_len: int) -> str:
     return trim_hard(value, max_len)
 
 
+VALID_DIAGRAM_TYPES = [
+    "quadrant_map", "stage_evolution", "workflow_map", "comparison_board",
+    "file_artifact_map", "system_stack", "timeline", "example_breakdown",
+    "section_reset_diagram",
+]
+VALID_IMAGE_GRAMMARS = [
+    "hook_cover", "skip_board", "example_comparison", "concept_cluster",
+    "framework_map", "workflow_map", "evolution_map", "decision_board",
+    "section_reset",
+]
+
+# LLM-based image type selector (used when backend is available)
+_image_type_backend: Any = None
+_image_type_model: str = ""
+
+
+def configure_image_type_backend(backend: Any, model: str) -> None:
+    global _image_type_backend, _image_type_model
+    _image_type_backend = backend
+    _image_type_model = model
+
+
+def _llm_choose_image_types(text: str, heading: str, *, is_cover: bool = False) -> tuple[str, str]:
+    """Use LLM to pick diagram_type and image_grammar based on content semantics."""
+    if not _image_type_backend or not _image_type_model:
+        return "", ""
+    prompt = json.dumps({
+        "task": "Choose the best diagram_type and image_grammar for an article image.",
+        "is_cover": is_cover,
+        "heading": clean_text(heading)[:80],
+        "text_excerpt": clean_text(text)[:400],
+        "diagram_type_options": VALID_DIAGRAM_TYPES,
+        "image_grammar_options": VALID_IMAGE_GRAMMARS,
+        "rules": [
+            "For cover images, image_grammar should usually be hook_cover.",
+            "Match the visual type to the content's logical structure, not just keywords.",
+            "comparison_board / example_comparison: when content compares before/after or two options.",
+            "workflow_map: when content describes a process or steps.",
+            "decision_board / skip_board: when content helps reader decide yes/no or filter options.",
+            "evolution_map / stage_evolution: when content shows change over time.",
+            "section_reset: default when content is a single concept or judgment.",
+        ],
+    }, ensure_ascii=False, separators=(",", ":"))
+    schema = {
+        "type": "object",
+        "additionalProperties": False,
+        "required": ["diagram_type", "image_grammar"],
+        "properties": {
+            "diagram_type": {"type": "string", "enum": VALID_DIAGRAM_TYPES},
+            "image_grammar": {"type": "string", "enum": VALID_IMAGE_GRAMMARS},
+        },
+    }
+    try:
+        from route_framework_matches import preview_text  # noqa: reuse utility
+    except ImportError:
+        pass
+    try:
+        result = _image_type_backend.complete_json(
+            model=_image_type_model,
+            system_prompt="You select visual diagram types for article images. Return JSON only.",
+            user_prompt=prompt,
+            output_schema=schema,
+        )
+        return str(result.get("diagram_type", "")), str(result.get("image_grammar", ""))
+    except Exception:
+        return "", ""
+
+
 def choose_diagram_type(text: str, heading: str = "", *, is_cover: bool = False) -> str:
+    # Try LLM first
+    llm_diagram, _ = _llm_choose_image_types(text, heading, is_cover=is_cover)
+    if llm_diagram and llm_diagram in VALID_DIAGRAM_TYPES:
+        return llm_diagram
+
+    # Fallback: regex matching
     haystack = f"{clean_text(heading)}\n{clean_text(text)}"
     checks = [
         ("quadrant_map", [r"四象限", r"象限"]),
@@ -302,6 +376,12 @@ def choose_diagram_type(text: str, heading: str = "", *, is_cover: bool = False)
 
 
 def choose_image_grammar(text: str, heading: str = "", *, is_cover: bool = False) -> str:
+    # Try LLM first
+    _, llm_grammar = _llm_choose_image_types(text, heading, is_cover=is_cover)
+    if llm_grammar and llm_grammar in VALID_IMAGE_GRAMMARS:
+        return llm_grammar
+
+    # Fallback: regex matching
     haystack = f"{clean_text(heading)}\n{clean_text(text)}"
     if is_cover:
         return "hook_cover"
