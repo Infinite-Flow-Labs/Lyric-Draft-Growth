@@ -1499,20 +1499,25 @@ def build_source_bundles(
             "has_limit_or_risk": has_limit_or_risk,
         }
         coverage_core_ok = bool(has_release_action and (has_delta_detail or has_user_impact))
-        validity_gate = bool(
-            assignment.get("eligible_for_write", False)
-            and all(requirement_checks.values())
-            and all(signal_requirement_checks.values())
-            and len(fact_anchors) >= 1
-        )
-        if validity_gate and has_delta_detail and has_user_impact and has_limit_or_risk:
+        req_pass_count = sum(1 for v in requirement_checks.values() if v)
+        sig_pass_count = sum(1 for v in signal_requirement_checks.values() if v)
+        has_facts = len(fact_anchors) >= 1
+        is_eligible = bool(assignment.get("eligible_for_write", False))
+
+        # Tiered quality: all topics enter the pool, quality determines treatment
+        if is_eligible and has_facts and has_delta_detail and has_user_impact and has_limit_or_risk:
             quality_tier = "A"
-        elif validity_gate and (has_delta_detail or has_user_impact):
+        elif is_eligible and has_facts and (has_delta_detail or has_user_impact):
             quality_tier = "B"
-        elif validity_gate:
+        elif has_facts and (has_delta_detail or has_user_impact or coverage_core_ok):
             quality_tier = "C"
+        elif has_facts:
+            quality_tier = "D"
         else:
-            quality_tier = "REJECT"
+            quality_tier = "E"
+
+        # validity_gate: all topics with at least 1 fact anchor can enter writer
+        validity_gate = bool(has_facts)
         ready_for_writer = validity_gate
 
         bundles.append(
@@ -1629,7 +1634,7 @@ def build_topic_ranking(
         topic_priority = float(card.get("topic_priority", 0.0))
         fact_anchor_count = len(bundle.get("fact_anchors", []))
         quality_tier = str(bundle.get("quality_tier", "REJECT"))
-        tier_bonus = {"A": 12.0, "B": 8.0, "C": 4.0}.get(quality_tier, -4.0)
+        tier_bonus = {"A": 12.0, "B": 8.0, "C": 4.0, "D": 0.0, "E": -6.0}.get(quality_tier, -6.0)
         evidence_bonus = min(12.0, fact_anchor_count * 0.35)
         valid_for_pool = bool(bundle.get("validity_gate", False))
         ranking_score = lane_final * 0.55 + topic_priority * 0.35 + tier_bonus + evidence_bonus * 0.1
