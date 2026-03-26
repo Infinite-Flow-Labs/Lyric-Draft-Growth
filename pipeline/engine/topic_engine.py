@@ -10,12 +10,41 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+import urllib.request
+import urllib.error
 from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[2]
 SCHEMA_VERSION = "0.1.0"
 HEAT_ONLY_FAMILIES = {"post_x"}
+
+# Account influence tiers
+_ACCOUNT_INFLUENCE: dict[str, float] = {}
+
+
+def _load_account_influence() -> dict[str, float]:
+    global _ACCOUNT_INFLUENCE
+    if _ACCOUNT_INFLUENCE:
+        return _ACCOUNT_INFLUENCE
+    path = ROOT / "configs" / "account_influence.json"
+    if not path.exists():
+        return _ACCOUNT_INFLUENCE
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        for tier_data in data.get("tiers", {}).values():
+            weight = float(tier_data.get("weight", 1.0))
+            for account in tier_data.get("accounts", []):
+                _ACCOUNT_INFLUENCE[account.lower().lstrip("@")] = weight
+    except Exception:
+        pass
+    return _ACCOUNT_INFLUENCE
+
+
+def get_account_weight(author_id: str) -> float:
+    influence = _load_account_influence()
+    clean = str(author_id or "").strip().lower().lstrip("@")
+    return influence.get(clean, 1.0)
 EVENT_SEED_FAMILIES = {"official_x", "article_x"}
 GENERIC_FACT_ANCHOR_STOPLIST = {
     "we",
@@ -292,6 +321,31 @@ def collect_source_item_paths(roots: list[Path]) -> list[Path]:
     return sorted(paths)
 
 
+TWEET_URL_PATTERN = re.compile(r"(?:x\.com|twitter\.com)/(\w+)/status/(\d+)")
+
+
+def fetch_tweet_engagement(canonical_url: str, *, timeout_s: int = 8) -> dict[str, int]:
+    """Fetch likes/retweets/views from fxtwitter API. No API key needed."""
+    match = TWEET_URL_PATTERN.search(str(canonical_url or ""))
+    if not match:
+        return {}
+    username, tweet_id = match.group(1), match.group(2)
+    api_url = f"https://api.fxtwitter.com/{username}/status/{tweet_id}"
+    try:
+        request = urllib.request.Request(api_url, headers={"User-Agent": "growth-engine/1.0"})
+        with urllib.request.urlopen(request, timeout=timeout_s) as response:
+            data = json.loads(response.read().decode("utf-8"))
+        tweet = data.get("tweet", {})
+        return {
+            "likes": int(tweet.get("likes", 0)),
+            "retweets": int(tweet.get("retweets", 0)),
+            "views": int(tweet.get("views", 0)),
+            "bookmarks": int(tweet.get("bookmarks", 0)),
+        }
+    except Exception:
+        return {}
+
+
 def build_signal_item(source_item_path: Path, source_item: dict[str, Any]) -> dict[str, Any]:
     summary = normalize_space(source_item.get("content", {}).get("summary", ""))
     full_text = normalize_space(source_item.get("content", {}).get("full_text", ""))
@@ -314,13 +368,17 @@ def build_signal_item(source_item_path: Path, source_item: dict[str, Any]) -> di
     published_at = str(source_item.get("published_at") or "")
     fetched_at = str(source_item.get("fetched_at") or "")
 
+    # Fetch engagement data for X posts
+    canonical_url = str(source_item.get("canonical_url") or "")
+    engagement = fetch_tweet_engagement(canonical_url)
+
     return {
         "schema_version": SCHEMA_VERSION,
         "signal_id": str(source_item.get("source_id") or source_item_path.parent.name),
         "source_item_path": str(source_item_path),
         "source_family": infer_source_family(source_item_path, source_item),
         "source_kind": str(source_item.get("source_kind") or ""),
-        "canonical_url": str(source_item.get("canonical_url") or ""),
+        "canonical_url": canonical_url,
         "published_at": published_at,
         "fetched_at": fetched_at,
         "author_id": str(source_item.get("author", {}).get("handle") or source_item.get("author", {}).get("display_name") or ""),
@@ -331,6 +389,10 @@ def build_signal_item(source_item_path: Path, source_item: dict[str, Any]) -> di
         "named_entities": named_entities,
         "linked_hosts": linked_hosts,
         "fact_candidates": fact_candidates,
+        "likes": engagement.get("likes", 0),
+        "retweets": engagement.get("retweets", 0),
+        "views": engagement.get("views", 0),
+        "bookmarks": engagement.get("bookmarks", 0),
         "trace": {
             "platform": str(source_item.get("platform") or ""),
             "build_time": isoformat_z(utc_now()),
@@ -575,7 +637,10 @@ def cluster_signature(signal: dict[str, Any]) -> str:
 
 def score_topic_cluster(signals: list[dict[str, Any]], policy: TopicPolicy, now_utc: datetime) -> dict[str, float]:
     total_facts = sum(len(signal.get("fact_candidates", [])) for signal in signals)
-    volume_score = clamp_score(len(signals) * 25 + min(35, total_facts * 0.8))
+    # Account influence boost: high-tier accounts increase volume score
+    max_author_weight = max((get_account_weight(s.get("author_id", "")) for s in signals), default=1.0)
+    influence_bonus = min(20.0, (max_author_weight - 1.0) * 5.0)  # S=45, A=20, B=5, C=0
+    volume_score = clamp_score(len(signals) * 25 + min(35, total_facts * 0.8) + influence_bonus)
 
     latest_published: datetime | None = None
     for signal in signals:
@@ -1287,7 +1352,18 @@ def post_heat_score(signal: dict[str, Any], now_utc: datetime) -> float:
     else:
         age_hours = max(0.0, (now_utc - published_at.astimezone(timezone.utc)).total_seconds() / 3600.0)
         freshness = max(0.0, 100.0 - min(90.0, age_hours * 2.0))
-    return freshness * 0.55 + fact_count * 2.0 + release_hits * 4.0 + min(20.0, text_words / 20.0)
+
+    # Account influence multiplier
+    author_weight = get_account_weight(signal.get("author_id", ""))
+
+    # Engagement signals (likes, retweets, views) — added by enriched ingest
+    likes = float(signal.get("likes", 0))
+    retweets = float(signal.get("retweets", 0))
+    views = float(signal.get("views", 0))
+    engagement_score = min(30.0, likes * 0.3 + retweets * 1.0 + views * 0.001)
+
+    base = freshness * 0.45 + fact_count * 2.0 + release_hits * 4.0 + min(20.0, text_words / 20.0) + engagement_score
+    return base * min(author_weight, 10.0)
 
 
 def choose_related_signals(

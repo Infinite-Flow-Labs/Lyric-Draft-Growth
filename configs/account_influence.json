@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "description": "Account influence tiers for topic priority scoring. S=10x, A=5x, B=2x, C=1x weight.",
+  "tiers": {
+    "S": {
+      "weight": 10.0,
+      "description": "Official accounts + top-tier KOLs with massive reach",
+      "accounts": [
+        "OpenAI", "AnthropicAI", "GoogleAI", "GoogleAIStudio", "GoogleDeepMind",
+        "MistralAI", "huggingface", "Midjourney", "Cloudflare",
+        "karpathy", "sama", "reidhoffman", "ClementDelangue",
+        "DavidSHolz", "yoheinakajima"
+      ]
+    },
+    "A": {
+      "weight": 5.0,
+      "description": "Active AI KOLs with high engagement and original insights",
+      "accounts": [
+        "dotey", "op7418", "berryxia", "lxfater", "svpino",
+        "bentossell", "danshipper", "AlphaSignalAI", "latentspacepod",
+        "skirano", "nutlope", "liamottley_", "steventey",
+        "vista8", "HiTw93", "evilcos", "chuhaiqu",
+        "Gorden_Sun", "ivanfioravanti", "ericciarla"
+      ]
+    },
+    "B": {
+      "weight": 2.0,
+      "description": "Regular active accounts with consistent output",
+      "accounts": [
+        "Astronaut_1216", "fkysly", "idoubicc", "itsandrewgao",
+        "madawei2699", "waylybaye", "tualatrix", "weijunext",
+        "gefei55", "kasong2048", "shengxj1", "hzlzh",
+        "icreatelife", "nateleex", "dev_afei", "guishou_56",
+        "leeoxiang", "OwenYoungZh", "wenquai", "bggg_ai",
+        "indie_maker_fox", "abhi1thakur", "ramsri_goutham",
+        "firecrawl", "jxnlco", "nickscamara_", "reach_vb",
+        "GregKamradt", "sophiamyang", "gsivulka", "JulienBek"
+      ]
+    },
+    "C": {
+      "weight": 1.0,
+      "description": "Default tier for unlisted accounts",
+      "accounts": []
+    }
+  }
+}
