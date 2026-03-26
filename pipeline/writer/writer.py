@@ -46,6 +46,8 @@ AI_SMELL_PATTERNS = {
     "not_but_variant": r"不是[^。！？\n]{0,60}而在于",
     "not_only_but_also": r"不仅[^。！？\n]{0,60}而且",
     "not_just_more": r"不只是[^。！？\n]{0,60}更是",
+    "not_merely": r"不仅仅是[^。！？\n]{0,60}而是",
+    "no_longer_but": r"不再[^。！？\n]{0,40}而是",
     "formula_sequence": r"(首先|其次|最后)[，,：:]",
     "defensive_negation": r"(不是噱头|不是小事|并非炒作|不是空话|并非偶然|绝非巧合|并不夸张)",
 }
@@ -85,7 +87,8 @@ MID_TURN_MARKERS = (
 ACTION_CUE_PATTERN = re.compile(r"(可以|建议|先|马上|立刻|优先|下一步|试试|先做|先跑|先用)")
 BOUNDARY_CUE_PATTERN = re.compile(r"(边界|不适合|限制|风险|前提|不等于|仅适用于|别把)")
 PROMOTIONAL_WORD_PATTERN = re.compile(
-    r"(颠覆性|革命性|划时代|史诗级|炸裂|封神|王炸|神级|重磅|天花板|无敌|必看|闭眼入|YYDS|震撼|顶配|巅峰)"
+    r"(颠覆性|革命性|划时代|史诗级|炸裂|封神|王炸|神级|重磅|天花板|无敌|必看|闭眼入|YYDS|震撼|顶配|巅峰"
+    r"|效率跃迁|护城河|赋能|降维打击|范式转移|架构革命|终极|全面进化|彻底革新|智障时代)"
 )
 VAGUE_ATTRIBUTION_PATTERNS = [
     re.compile(r"(专家|业内人士|观察者|一些人|很多人|有人|市场人士)(普遍)?(认为|指出|表示|提到|称)"),
@@ -654,7 +657,7 @@ def slim_humanizer_packet(humanizer_packet: dict[str, Any] | None) -> dict[str, 
 
 def build_global_quality_instructions() -> list[str]:
     return [
-        "Write a full-length article. Default to roughly 12-18 substantive paragraphs with varied paragraph lengths.",
+        "Write a full-length article with 12-18 substantive paragraphs. Minimum 2000 Chinese characters in body_markdown. Vary paragraph lengths.",
         "The title must carry a concrete conflict, reversal, or stake. Avoid generic industry-summary titles.",
         "The dek must sharpen the angle and reader payoff, not repeat the title.",
         "Open with tension/paradox/surprise within the first 2 sentences.",
@@ -1192,6 +1195,10 @@ def humanizer_gate(report: dict[str, Any]) -> tuple[bool, list[str]]:
         reasons.append("contains_pattern_not_but_variant")
     if int(report.get("not_just_more", 0)) > 0:
         reasons.append("contains_pattern_not_just_more")
+    if int(report.get("not_merely", 0)) > 0:
+        reasons.append("contains_pattern_not_merely")
+    if int(report.get("no_longer_but", 0)) > 0:
+        reasons.append("contains_pattern_no_longer_but")
     if int(report.get("defensive_negation", 0)) > 0:
         reasons.append("defensive_negation_detected")
     if bool(report.get("rhetorical_ending", False)):

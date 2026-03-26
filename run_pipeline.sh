@@ -178,12 +178,27 @@ WRITER_PACKETS=$(find "${ENGINE_OUT}/06_writer_packets" -name "writer_packet.jso
 PACKET_COUNT=$(echo "$WRITER_PACKETS" | grep -c "." || true)
 echo "  Writing $PACKET_COUNT articles in parallel..."
 
-# Check backend availability
+# Check backend availability — prefer OpenRouter (cheapest), fallback to Anthropic/OpenAI
 BACKEND="auto"
-if [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+WRITER_MODEL="google/gemini-3-flash-preview"
+LIGHT_MODEL="google/gemini-3.1-flash-lite-preview"
+API_BASE="https://openrouter.ai/api/v1"
+API_KEY_ENV="OPENROUTER_API_KEY"
+
+if [ -n "${OPENROUTER_API_KEY:-}" ]; then
+    BACKEND="openai_compatible"
+elif [ -n "${ANTHROPIC_API_KEY:-}" ]; then
     BACKEND="anthropic"
+    WRITER_MODEL="claude-sonnet-4-6"
+    LIGHT_MODEL="claude-haiku-4-5-20251001"
+    API_BASE="https://api.anthropic.com/v1"
+    API_KEY_ENV="ANTHROPIC_API_KEY"
 elif [ -n "${OPENAI_API_KEY:-}" ]; then
     BACKEND="openai_compatible"
+    WRITER_MODEL="gpt-4.1"
+    LIGHT_MODEL="gpt-4.1-mini"
+    API_BASE="https://api.openai.com/v1"
+    API_KEY_ENV="OPENAI_API_KEY"
 fi
 
 WRITER_COMMON_ARGS="\
@@ -193,8 +208,10 @@ WRITER_COMMON_ARGS="\
     --humanizer-packet configs/writer/HUMANIZER_ZH_PACKET.json \
     --t01-signal-boost configs/writer/T01_SIGNAL_BOOST_FROM_DOTEY.json \
     --backend $BACKEND \
-    --writer-model claude-sonnet-4-6 \
-    --light-model claude-haiku-4-5-20251001 \
+    --api-base $API_BASE \
+    --api-key-env $API_KEY_ENV \
+    --writer-model $WRITER_MODEL \
+    --light-model $LIGHT_MODEL \
     --output-language zh-CN \
     --include-human-review-required \
     --no-self-improving-observe \
