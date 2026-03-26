@@ -1208,6 +1208,14 @@ def humanizer_gate(report: dict[str, Any]) -> tuple[bool, list[str]]:
     return (len(reasons) == 0, reasons)
 
 
+def body_length_gate(body_markdown: str, *, min_chars: int = 2000) -> tuple[bool, list[str]]:
+    """Check if body_markdown meets minimum length requirement."""
+    body_len = len(str(body_markdown or "").strip())
+    if body_len < min_chars:
+        return False, [f"body_too_short:{body_len}<{min_chars}"]
+    return True, []
+
+
 def render_markdown(payload: dict[str, Any]) -> str:
     lines = [f"# {payload['title']}", "", f"> {payload['dek']}"]
     normalized_dek = " ".join(str(payload.get("dek", "")).split()).strip()
@@ -1867,8 +1875,9 @@ def main() -> int:
             body_markdown=article["body_markdown"],
         )
         markdown_style_passed, markdown_style_reasons = markdown_format_gate(markdown_style_report)
-        gate_reasons = compact_list([*humanizer_reasons, *structure_reasons, *markdown_style_reasons])
-        hard_gate_passed = bool(humanizer_passed and structure_passed and markdown_style_passed)
+        length_passed, length_reasons = body_length_gate(article["body_markdown"])
+        gate_reasons = compact_list([*humanizer_reasons, *structure_reasons, *markdown_style_reasons, *length_reasons])
+        hard_gate_passed = bool(humanizer_passed and structure_passed and markdown_style_passed and length_passed)
         rewrote_for_gate = False
 
         # LLM repair pass on any hard gate failure (minimal-edit revision).
