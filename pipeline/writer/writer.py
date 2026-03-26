@@ -1623,8 +1623,8 @@ def main() -> int:
         action="store_false",
     )
     parser.add_argument("--backend", choices=["auto", "anthropic", "openai_compatible", "codex_cli"], default="auto")
-    parser.add_argument("--writer-model", default="claude-sonnet-4-6", help="Model for article generation (heavy task)")
-    parser.add_argument("--light-model", default="claude-haiku-4-5-20251001", help="Model for pain point extraction and other light tasks")
+    parser.add_argument("--writer-model", default="google/gemini-3-flash-preview", help="Model for article generation (heavy task)")
+    parser.add_argument("--light-model", default="google/gemini-3-flash-preview", help="Model for light tasks (pain point, etc.)")
     parser.add_argument("--api-base", default="https://api.openai.com/v1", help="OpenAI-compatible API base URL")
     parser.add_argument("--api-key-env", default="OPENAI_API_KEY", help="Environment variable containing API key")
     parser.add_argument("--codex-binary", default="codex", help="Codex CLI binary name or absolute path")

@@ -181,7 +181,7 @@ echo "  Writing $PACKET_COUNT articles in parallel..."
 # Check backend availability — prefer OpenRouter (cheapest), fallback to Anthropic/OpenAI
 BACKEND="auto"
 WRITER_MODEL="google/gemini-3-flash-preview"
-LIGHT_MODEL="google/gemini-3.1-flash-lite-preview"
+LIGHT_MODEL="google/gemini-3-flash-preview"
 API_BASE="https://openrouter.ai/api/v1"
 API_KEY_ENV="OPENROUTER_API_KEY"
 
