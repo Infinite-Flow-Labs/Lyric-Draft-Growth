@@ -1014,15 +1014,23 @@ def ensure_opening_quote_block(body_markdown: str, dek: str) -> str:
     if not text:
         quote_text = " ".join(str(dek or "").split()).strip()
         return f"> {quote_text}" if quote_text else ""
+    # Remove leading --- separator lines (LLM artifact)
+    lines = text.split("\n")
+    while lines and lines[0].strip() in ("---", "***", "___", ""):
+        lines.pop(0)
+    text = "\n".join(lines).strip()
     chunks = [chunk.strip() for chunk in re.split(r"\n\s*\n", text) if chunk.strip()]
+    # Also strip --- chunks from between paragraphs
+    chunks = [c for c in chunks if c.strip() not in ("---", "***", "___")]
     if chunks and chunks[0].startswith(">"):
-        return text
+        return "\n\n".join(chunks)
+    # First chunk is not a quote — prepend dek as quote
     quote_text = " ".join(str(dek or "").split()).strip()
     if not quote_text:
-        quote_text = chunks[0][:120].strip()
+        quote_text = chunks[0][:120].strip() if chunks else ""
     if not quote_text:
-        return text
-    return f"> {quote_text}\n\n{text}"
+        return "\n\n".join(chunks)
+    return f"> {quote_text}\n\n" + "\n\n".join(chunks)
 
 
 def extract_markdown_chunks(body_markdown: str) -> list[str]:
@@ -1229,7 +1237,8 @@ def lane_writer_user_prompt(
         "body_markdown must use markdown structure. First chunk must be a quote block: > ...",
         "At least 2 subheadings (## ...), 1 bullet list (>=3 items), 3-10 bold spans.",
         "Title: 12-32 chars, must carry conflict/reversal/stake.",
-        "Dek: a plain sentence that sharpens the angle. Do NOT prefix with labels like 'Dek:' or '**Dek**:'. Do NOT repeat the title. The dek field in JSON must contain only the sentence itself.",
+        "Dek: a plain sentence that sharpens the angle. Do NOT prefix with labels. Do NOT repeat the title. The dek field in JSON is a plain sentence.",
+        "CRITICAL FORMAT: body_markdown must start with '> ' quote block as the FIRST line. No '---' separators. No plain text before the first quote block. Structure: > hook quote\\n\\n正文段落...",
         "Do not output framework IDs, submode IDs, model names, or metadata in article text.",
         # Anti-AI smell (merged from humanizer_packet)
         "Banned: 不是...而是..., 不仅...而且..., 首先/其次/最后 template, emoji, em-dash overuse, bold overuse.",
