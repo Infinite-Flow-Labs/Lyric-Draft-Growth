@@ -48,6 +48,7 @@ while [[ $# -gt 0 ]]; do
         --skip-publish) SKIP_PUBLISH=true; shift ;;
         --enable-value-estimate) ENABLE_VALUE_ESTIMATE=true; shift ;;
         --bit-api-port) BIT_API_PORT="$2"; shift 2 ;;
+        --run-ingest) RUN_INGEST=true; shift ;;
         *) echo "Unknown option: $1"; exit 1 ;;
     esac
 done
@@ -72,6 +73,38 @@ echo "  Growth Engine Pipeline"
 echo "  Run: ${RUN_ID}"
 echo "  Sources: ${SOURCE_DIRS}"
 echo "════════════════════════════════════════════"
+
+# ── L0: INGEST (optional) ────────────────────────────────
+# If --run-ingest is passed, run source acquisition first
+if [ "${RUN_INGEST:-false}" = true ]; then
+    echo ""
+    echo "▶ L0: Source Acquisition"
+    INGEST_OUT="${RUN_ROOT}/00_ingest"
+    mkdir -p "${INGEST_OUT}/x/items" "${INGEST_OUT}/podcast/items"
+
+    # X/Twitter RSS ingest
+    if [ -f "pipeline/ingest/x/discover_official_x_guest_rss.py" ]; then
+        python3 pipeline/ingest/x/discover_official_x_guest_rss.py \
+            --out-dir "${INGEST_OUT}/x" 2>&1 | tail -3 || echo "  ⚠ X ingest failed"
+    fi
+
+    # Normalize source items
+    if [ -f "pipeline/ingest/normalize.py" ]; then
+        for raw_dir in "${INGEST_OUT}"/*/items; do
+            python3 pipeline/ingest/normalize.py \
+                --source-dir "$raw_dir" \
+                --out-dir "$raw_dir" 2>&1 | tail -1 || true
+        done
+    fi
+
+    # Add ingest output to source dirs
+    for items_dir in "${INGEST_OUT}"/*/items; do
+        if [ -d "$items_dir" ] && [ "$(ls -A "$items_dir" 2>/dev/null)" ]; then
+            SOURCE_DIRS="$SOURCE_DIRS $items_dir"
+        fi
+    done
+    echo "  ✓ Ingest complete, sources updated"
+fi
 
 # ── L1: TOPIC ENGINE ──────────────────────────────────────
 echo ""
