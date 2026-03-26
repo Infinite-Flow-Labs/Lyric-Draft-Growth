@@ -88,7 +88,7 @@ ACTION_CUE_PATTERN = re.compile(r"(可以|建议|先|马上|立刻|优先|下一
 BOUNDARY_CUE_PATTERN = re.compile(r"(边界|不适合|限制|风险|前提|不等于|仅适用于|别把)")
 PROMOTIONAL_WORD_PATTERN = re.compile(
     r"(颠覆性|革命性|划时代|史诗级|炸裂|封神|王炸|神级|重磅|天花板|无敌|必看|闭眼入|YYDS|震撼|顶配|巅峰"
-    r"|效率跃迁|护城河|赋能|降维打击|范式转移|架构革命|终极|全面进化|彻底革新|智障时代)"
+    r"|效率跃迁|赋能|范式转移|架构革命|全面进化|彻底革新)"
 )
 VAGUE_ATTRIBUTION_PATTERNS = [
     re.compile(r"(专家|业内人士|观察者|一些人|很多人|有人|市场人士)(普遍)?(认为|指出|表示|提到|称)"),
