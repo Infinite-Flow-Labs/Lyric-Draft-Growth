@@ -156,12 +156,20 @@ def choose_hero_heading(dek: str, first_block: dict[str, Any] | None) -> str:
 X_POST_URL_RE = re.compile(r"https?://(?:x\.com|twitter\.com)/\w+/status/\d+")
 
 
+BOLD_MARKER_RE = re.compile(r"\*\*([^*]+)\*\*")
+
+
+def strip_bold_markers(text: str) -> str:
+    """Remove **bold** markdown markers, keep the text inside."""
+    return BOLD_MARKER_RE.sub(r"\1", text)
+
+
 def normalize_article_blocks(raw_blocks: list[dict[str, Any]]) -> list[dict[str, Any]]:
     normalized: list[dict[str, Any]] = []
     for block in raw_blocks:
         block_type = str(block.get("type", "")).strip()
-        text = " ".join(str(block.get("text", "")).split()).strip()
-        items = compact_list(block.get("items", []))
+        text = strip_bold_markers(" ".join(str(block.get("text", "")).split()).strip())
+        items = compact_list([strip_bold_markers(item) for item in block.get("items", [])])
         payload: dict[str, Any] = {"type": block_type, "text": text}
         if items:
             payload["items"] = items
@@ -186,13 +194,17 @@ def build_article_blocks(*, title: str, dek: str, body_markdown: str, publishing
     chunks = split_markdown_chunks(body_markdown)
     parsed = [parse_chunk(chunk) for chunk in chunks]
 
-    hero_heading = choose_hero_heading(dek, parsed[0] if parsed else None)
+    # Deduplicate: if the first quote block is identical to the dek, skip it
+    # (title and dek are handled separately by the publish tool, not as blocks)
+    dek_normalized = " ".join(str(dek or "").split()).strip()
     blocks: list[dict[str, Any]] = []
-    if hero_heading:
-        blocks.append({"type": "hero_heading", "text": hero_heading})
+    skipped_dek_quote = False
 
-    for index, block in enumerate(parsed):
-        if index == 0 and block.get("type") == "paragraph" and block.get("text") == hero_heading:
+    for block in parsed:
+        text_normalized = " ".join(str(block.get("text", "")).split()).strip()
+        # Skip the first quote that duplicates the dek
+        if not skipped_dek_quote and block.get("type") == "quote" and text_normalized == dek_normalized:
+            skipped_dek_quote = True
             continue
         blocks.append(block)
 
