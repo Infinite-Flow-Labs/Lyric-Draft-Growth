@@ -1012,25 +1012,23 @@ def structure_gate(
 def ensure_opening_quote_block(body_markdown: str, dek: str) -> str:
     text = str(body_markdown or "").replace("\r\n", "\n").strip()
     if not text:
-        quote_text = " ".join(str(dek or "").split()).strip()
-        return f"> {quote_text}" if quote_text else ""
+        return ""
     # Remove leading --- separator lines (LLM artifact)
     lines = text.split("\n")
     while lines and lines[0].strip() in ("---", "***", "___", ""):
         lines.pop(0)
     text = "\n".join(lines).strip()
     chunks = [chunk.strip() for chunk in re.split(r"\n\s*\n", text) if chunk.strip()]
-    # Also strip --- chunks from between paragraphs
     chunks = [c for c in chunks if c.strip() not in ("---", "***", "___")]
-    if chunks and chunks[0].startswith(">"):
-        return "\n\n".join(chunks)
-    # First chunk is not a quote — prepend dek as quote
-    quote_text = " ".join(str(dek or "").split()).strip()
-    if not quote_text:
-        quote_text = chunks[0][:120].strip() if chunks else ""
-    if not quote_text:
-        return "\n\n".join(chunks)
-    return f"> {quote_text}\n\n" + "\n\n".join(chunks)
+
+    # Remove any quote chunk that duplicates the dek (dek is handled separately)
+    dek_normalized = " ".join(str(dek or "").split()).strip()
+    if dek_normalized:
+        chunks = [c for c in chunks if not (c.startswith(">") and " ".join(c.lstrip("> ").split()).strip() == dek_normalized)]
+
+    if not chunks:
+        return ""
+    return "\n\n".join(chunks)
 
 
 def extract_markdown_chunks(body_markdown: str) -> list[str]:
@@ -1237,7 +1235,7 @@ def lane_writer_user_prompt(
         "body_markdown must use markdown structure. First chunk must be a quote block: > ...",
         "At least 2 subheadings (## ...), 1 bullet list (>=3 items), 3-10 bold spans.",
         "Title: 12-32 chars, must carry conflict/reversal/stake.",
-        "Dek: a plain sentence that sharpens the angle. Do NOT prefix with labels. Do NOT repeat the title. The dek field in JSON is a plain sentence.",
+        "Dek: ONE short sentence (max 30 Chinese chars / 60 English chars) that sharpens the angle. Must fit in one line. Do NOT prefix with labels. Do NOT repeat the title.",
         "CRITICAL FORMAT: body_markdown must start with '> ' quote block as the FIRST line. No '---' separators. No plain text before the first quote block. Structure: > hook quote\\n\\n正文段落...",
         "Do not output framework IDs, submode IDs, model names, or metadata in article text.",
         # Anti-AI smell (merged from humanizer_packet)
