@@ -338,12 +338,49 @@ def enrich_from_github(source_text: str, *, timeout_s: int = 15) -> dict[str, An
     return {"github_repos": enrichments} if enrichments else {}
 
 
+WEB_URL_PATTERN = re.compile(r"https?://[^\s<>\"')\]]+")
+SKIP_HOSTS = {"x.com", "twitter.com", "nitter.net", "t.co", "bit.ly", "github.com"}
+
+
+def enrich_from_web_pages(source_text: str, *, timeout_s: int = 10, max_pages: int = 3) -> list[dict[str, Any]]:
+    """Fetch title + meta description from non-social URLs found in source text."""
+    urls = WEB_URL_PATTERN.findall(source_text)
+    results: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for url in urls:
+        url = url.rstrip(".,;:!?")
+        try:
+            from urllib.parse import urlparse as _urlparse
+            host = _urlparse(url).netloc.lower()
+        except Exception:
+            continue
+        if any(skip in host for skip in SKIP_HOSTS):
+            continue
+        if host in seen:
+            continue
+        seen.add(host)
+        if len(results) >= max_pages:
+            break
+        try:
+            request = urllib.request.Request(url, headers={"User-Agent": "growth-engine-enrichment/1.0"})
+            with urllib.request.urlopen(request, timeout=timeout_s) as response:
+                html = response.read().decode("utf-8", errors="replace")[:8000]
+            title_match = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
+            desc_match = re.search(r'<meta\s+name=["\']description["\']\s+content=["\'](.*?)["\']', html, re.I | re.S)
+            title = title_match.group(1).strip()[:120] if title_match else ""
+            description = desc_match.group(1).strip()[:200] if desc_match else ""
+            if title or description:
+                results.append({"url": url, "host": host, "title": title, "description": description})
+        except Exception:
+            continue
+    return results
+
+
 def enrich_source_materials(
     primary_source_item: dict[str, Any],
     source_materials: list[dict[str, Any]],
 ) -> dict[str, Any]:
     """Collect enrichment data from URLs found in source materials."""
-    # Gather all text to search for URLs
     texts = []
     full_text = primary_source_item.get("content", {}).get("full_text", "")
     if full_text:
@@ -357,9 +394,17 @@ def enrich_source_materials(
     combined = "\n".join(texts)
 
     enrichment: dict[str, Any] = {}
+
+    # GitHub repos
     github_data = enrich_from_github(combined)
     if github_data:
         enrichment.update(github_data)
+
+    # Web pages (product pages, blog posts, docs)
+    web_pages = enrich_from_web_pages(combined)
+    if web_pages:
+        enrichment["web_pages"] = web_pages
+
     return enrichment
 
 
@@ -1278,9 +1323,9 @@ def lane_writer_user_prompt(
         "Audience segments must be by concrete use-case scenario, not vague identity labels like '独立开发者'.",
     ])
     # Enrichment data usage
-    if source_enrichment and source_enrichment.get("github_repos"):
+    if source_enrichment and (source_enrichment.get("github_repos") or source_enrichment.get("web_pages")):
         instructions.append(
-            "source_enrichment contains real-time GitHub data (stars, forks, last update). Use these numbers naturally in the article for credibility. Do not fabricate numbers not in enrichment."
+            "source_enrichment contains real-time data (GitHub stars/forks, web page titles/descriptions). Use these details naturally for credibility. Do not fabricate data not in enrichment."
         )
     # Ending rules
     instructions.extend([
