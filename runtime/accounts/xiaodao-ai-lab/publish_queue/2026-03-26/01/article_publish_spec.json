@@ -1,0 +1,121 @@
+{
+  "publish_contract_version": "article_publish_contract_v2",
+  "title": "PRD写完就过期，产品经理的规划逻辑正在失效",
+  "dek": "当AI三年内把开发能力提升百倍，那套「先规划再执行」的PM工作法已经跑不过模型升级的节奏。",
+  "article_blocks": [
+    {
+      "type": "quote",
+      "text": "你花三周做好的产品路线图，可能在下一次模型升级之后就失效了。这不是夸张，这是当前AI产品经理面对的日常。"
+    },
+    {
+      "type": "paragraph",
+      "text": "你花了三周把PRD写得滴水不漏：市场调研、竞品分析、功能优先级、排期表，每个环节都有交接节点。开发启动第一周，新的AI模型上线，你精心设计用来「兜底」用户输入错误的那套逻辑，现在模型本身就能处理。更惨的情况是，你规划了三个月要做的某个核心功能，有人用Claude Code花半天就做出了可运行的Demo。整个方案不是出错了，是它跑在了一个已经改变的底层假设上。"
+    },
+    {
+      "type": "paragraph",
+      "text": "这正是Anthropic旗下Claude Code产品经理Cat Wu在近期文章中拆解的核心问题，Gorden_Sun (@Gorden_Sun) 随后对这篇文章做了整理和延伸。信号很清晰：AI时代的PM工作法，正在经历一次底层逻辑的切换，而大多数人还在用旧方法跑新地形。"
+    },
+    {
+      "type": "section_heading",
+      "text": "为什么「先规划再执行」的逻辑正在断裂"
+    },
+    {
+      "type": "paragraph",
+      "text": "传统PM工作流的设计前提是：软件开发周期长、成本高、中途调整代价大。所以必须先把规划做扎实，才能启动开发。这套逻辑在过去二十年里是合理的。"
+    },
+    {
+      "type": "paragraph",
+      "text": "但现在底层变了。ChatGPT在2022年11月刚上线时，连一个没有错误的单个HTML文件都很难写出来。到2025年11月，Claude Opus 4.5在Agent模式下，已经可以独立完成一个前后端完整的中型项目。三年，提升幅度超过100倍。"
+    },
+    {
+      "type": "paragraph",
+      "text": "开发周期和成本急剧压缩之后，原来那套「先规划确定性」的方法论，反而变成了负担。你花三个月规划的功能，可能在规划结束时已经不是稀缺资源；你写进PRD里的「暂时无法实现」，可能下次模型升级就直接内置了。"
+    },
+    {
+      "type": "paragraph",
+      "text": "最危险的群体是那些仍在用「写PRD → 跟进开发 → 逐月推进」这套流程的PM，尤其是在需要提前3到6个月规划产品线路的大公司。规划本身变成了一种暴露滞后的方式。"
+    },
+    {
+      "type": "section_heading",
+      "text": "新的工作节奏：Demo先行，PRD变成结果文档"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gorden_Sun整理的新工作方式，核心逻辑是把「规划」和「验证」的顺序对调："
+    },
+    {
+      "type": "bullet_list",
+      "text": "",
+      "items": [
+        "先出可运行的Demo，后补PRD文档。 直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效。而且现在很多Demo的完成度，已经接近直接上线的水准。",
+        "每两周或每月，拿出半天用Claude Code试一下你认为「大概率AI做不到」的功能。 成了就推进，没成就损失半天。Anthropic内部的很多产品，就是这样试出来的。",
+        "每次模型升级后，回头看你产品里的老功能。 很多之前无法实现的能力，可能在新模型里已经具备了，直接复用比重新开发更快。",
+        "别给模型打补丁，或者打最简单的那种。 你因为模型能力不足而加进去的各种兜底逻辑，很可能在下次升级时直接被模型本身覆盖掉。补丁越复杂，技术债越难清。"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "这不是「敏捷开发」的升级版，而是对PM角色的重新定义。产品经理的核心价值，正在从「提前锁定确定性」转移到「在快速变化中识别新机会并放大它」。"
+    },
+    {
+      "type": "section_heading",
+      "text": "这个窗口对谁最重要"
+    },
+    {
+      "type": "paragraph",
+      "text": "需要说清楚，这套新方法有明确的适用边界。对于监管严格、需要合规文档链的产品（金融、医疗），PRD的规范作用不会消失。对于团队规模大、协同成本高的项目，「全员放飞」也需要有人负责整合方向，否则会变成一盘散沙。"
+    },
+    {
+      "type": "paragraph",
+      "text": "真正值得立刻调整工作方式的，是以下几类场景： 正在搭建AI功能的小团队PM；需要频繁验证新功能可行性的0到1阶段产品；以及那些一直在等「时机成熟」再启动某个想法的人，因为他们的等待成本正在被Demo速度压缩。"
+    },
+    {
+      "type": "paragraph",
+      "text": "这个窗口的特殊性在于：当Demo本身已经接近上线水准，「先验证再规划」的成本已经低到可以常态化执行，而不是某次sprint的例外。"
+    },
+    {
+      "type": "section_heading",
+      "text": "现在就可以做的一件事"
+    },
+    {
+      "type": "paragraph",
+      "text": "下周找一个你在PRD里标注了「待定」或「暂不支持」的功能点，用半天时间，用Claude Code或其他AI工具跑一个可运行的版本。"
+    },
+    {
+      "type": "paragraph",
+      "text": "如果跑通了，你有了一个推进依据。如果跑不通，你得到了一个有价值的边界确认。两种结果都比继续等待「时机成熟」更有信息量。原文来自Cat Wu在claude.com/blog的文章，值得直接去读。"
+    }
+  ],
+  "inline_image_insertions": [
+    {
+      "image_id": "inline_01",
+      "image_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-26/01/inline_01.png",
+      "after_block_ordinal": 6
+    },
+    {
+      "image_id": "inline_02",
+      "image_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-26/01/inline_02.png",
+      "after_block_ordinal": 10
+    },
+    {
+      "image_id": "inline_03",
+      "image_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-26/01/inline_03.png",
+      "after_block_ordinal": 14
+    }
+  ],
+  "command": [
+    "/tmp/x-post/.venv/bin/python",
+    "/tmp/x-post/x_schedule_post/cli.py",
+    "--mode",
+    "article",
+    "--dir",
+    "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-26/01",
+    "--accounts-csv",
+    "/home/lyric/growth-engine-pipeline/accounts_runtime/accounts_bitbrowser.csv",
+    "--account",
+    "xiaodao-ai-lab",
+    "--bit-api-port",
+    "54345",
+    "--dry-run"
+  ]
+}

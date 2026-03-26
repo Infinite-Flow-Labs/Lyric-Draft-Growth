@@ -1,0 +1,229 @@
+{
+  "version": "2026-03-20.v1",
+  "research_ref": "content/research/hook_study/2026-03-20/04_second_round/capability_playbook.json",
+  "title_hook": {
+    "job": "Break the reader's default frame and expose the real stakes before the article starts.",
+    "stable_moves": {
+      "old_frame_invalidated": {
+        "label": "Old frame invalidated",
+        "when_to_use": "The source changes how the reader should interpret a product, trend, technical choice, or belief."
+      },
+      "big_result_then_dehype": {
+        "label": "Big result then de-hype",
+        "when_to_use": "The source has a large result but needs credibility repair immediately."
+      },
+      "release_to_adoption": {
+        "label": "Release to adoption",
+        "when_to_use": "The source is a release, launch, or feature update and the article should focus on adoption judgment."
+      },
+      "strong_contrast": {
+        "label": "Strong contrast",
+        "when_to_use": "The article works by contrasting two markets, two outcomes, or two status frames."
+      },
+      "filter_or_completeness_promise": {
+        "label": "Filter or completeness promise",
+        "when_to_use": "The article saves the reader time by filtering, comparing, or organizing a complicated decision."
+      }
+    },
+    "forbidden_moves": [
+      "Neutral explanation titles",
+      "Title as a topic label only",
+      "Only naming a person or product without the reason to care"
+    ]
+  },
+  "dek_function": {
+    "job": "Act as the second attack by defining what the piece is really about and why it is not just another release, interview, or tutorial.",
+    "stable_moves": [
+      "Recenter the piece on its real value, not the surface event.",
+      "Cool hype into credible stakes.",
+      "State what misread this piece corrects."
+    ],
+    "forbidden_moves": [
+      "Repeating the title with softer wording",
+      "Mood-only lines with no informational function"
+    ]
+  },
+  "opening_move": {
+    "job": "Open with a frame break, then attach the source identity and reader stake quickly.",
+    "stable_sequence": [
+      "State the default frame or common misread.",
+      "Break it quickly.",
+      "Attach who said or did it and why that carrier matters.",
+      "Show the article's real value path."
+    ],
+    "forbidden_moves": [
+      "Background-first opening",
+      "Anonymous source protagonist",
+      "Explainer tone before value is established"
+    ]
+  },
+  "mid_article_attention_reset": {
+    "job": "Re-earn attention throughout the middle instead of flattening into explanation mode.",
+    "reset_frequency": "At least one reset every 2-4 paragraphs",
+    "stable_moves": [
+      "Stronger judgment",
+      "Perspective switch",
+      "Abstract to concrete scenario",
+      "Result to mechanism",
+      "Address likely skepticism",
+      "Raise stakes to workflow, market, or role level"
+    ],
+    "format_helpers": [
+      "section_heading",
+      "bullet_list",
+      "quote",
+      "link_cta"
+    ],
+    "forbidden_moves": [
+      "4 or more consecutive paragraphs with the same explanatory density",
+      "Bullet lists replacing the actual reasoning",
+      "Formatting used without a cognitive shift"
+    ]
+  },
+  "closing_carry": {
+    "job": "Lift the piece one level higher at the end instead of repeating the thesis or falling into process talk.",
+    "stable_moves": {
+      "tool_to_workflow": {
+        "label": "Tool to workflow",
+        "when_to_use": "The article starts from a feature or tool but should end at work-method implications."
+      },
+      "case_to_principle": {
+        "label": "Case to principle",
+        "when_to_use": "The source is a case study and the article should leave a broader operating judgment."
+      },
+      "release_to_adoption_decision": {
+        "label": "Release to adoption decision",
+        "when_to_use": "The article starts from a launch but should end at whether and how to adopt."
+      },
+      "conversation_to_open_question": {
+        "label": "Conversation to open question",
+        "when_to_use": "The source is a podcast or interview and the article should leave the reader with a sharper unresolved question."
+      }
+    },
+    "forbidden_moves": [
+      "Restating the article summary",
+      "Ending with pipeline or process language",
+      "Ending with a generic creator slogan that does not lift the piece upward"
+    ]
+  },
+  "framework_defaults": {
+    "01_money_proof": {
+      "title_moves": [
+        "big_result_then_dehype",
+        "old_frame_invalidated"
+      ],
+      "closing_moves": [
+        "case_to_principle"
+      ]
+    },
+    "02_launch_application": {
+      "title_moves": [
+        "release_to_adoption",
+        "old_frame_invalidated"
+      ],
+      "closing_moves": [
+        "release_to_adoption_decision",
+        "tool_to_workflow"
+      ]
+    },
+    "03_opinion_decode": {
+      "title_moves": [
+        "strong_contrast",
+        "old_frame_invalidated"
+      ],
+      "closing_moves": [
+        "case_to_principle",
+        "conversation_to_open_question"
+      ]
+    },
+    "04_failure_reversal": {
+      "title_moves": [
+        "old_frame_invalidated",
+        "strong_contrast"
+      ],
+      "closing_moves": [
+        "case_to_principle",
+        "tool_to_workflow"
+      ]
+    },
+    "05_ab_benchmark": {
+      "title_moves": [
+        "filter_or_completeness_promise",
+        "strong_contrast"
+      ],
+      "closing_moves": [
+        "release_to_adoption_decision",
+        "case_to_principle"
+      ]
+    },
+    "06_checklist_template": {
+      "title_moves": [
+        "filter_or_completeness_promise",
+        "release_to_adoption"
+      ],
+      "closing_moves": [
+        "tool_to_workflow",
+        "case_to_principle"
+      ]
+    },
+    "07_contrarian_take": {
+      "title_moves": [
+        "strong_contrast",
+        "old_frame_invalidated"
+      ],
+      "closing_moves": [
+        "case_to_principle",
+        "conversation_to_open_question"
+      ]
+    },
+    "08_signal_to_action": {
+      "title_moves": [
+        "old_frame_invalidated",
+        "strong_contrast"
+      ],
+      "closing_moves": [
+        "case_to_principle",
+        "release_to_adoption_decision"
+      ]
+    }
+  },
+  "source_kind_closing_overrides": {
+    "podcast_transcript": [
+      "conversation_to_open_question",
+      "case_to_principle"
+    ],
+    "x_thread": [
+      "release_to_adoption_decision",
+      "tool_to_workflow"
+    ],
+    "x_article": [
+      "case_to_principle",
+      "tool_to_workflow"
+    ]
+  },
+  "global_anti_patterns": [
+    "Background-first opening",
+    "Title as neutral explanation",
+    "Dek repeating the title",
+    "Unclear source identity",
+    "Flat mid-section with no attention resets",
+    "Bullet lists used in place of reasoning",
+    "Process-tail ending",
+    "Learning stylistic habits from promo wrappers or link shells"
+  ],
+  "sample_quality_gate": {
+    "positive_sample_requirements": [
+      "Has a clear thesis instead of pure forwarding or recommendation",
+      "Contains at least one evidence expansion: result, process, mechanism, comparison, scenario, or checklist",
+      "Shows pacing or section-level movement instead of one flat explanatory block",
+      "Ends with a judgment, action, boundary, risk, or lift"
+    ],
+    "minimum_positive_requirement_count": 3,
+    "exclude_patterns": [
+      "Pure endorsement or follow recommendation",
+      "Bare x.com/i/article link wrapper with no thesis",
+      "Second-hand packaging with no original angle",
+      "Pure hype or result bait without mechanism or judgment"
+    ]
+  }
+}

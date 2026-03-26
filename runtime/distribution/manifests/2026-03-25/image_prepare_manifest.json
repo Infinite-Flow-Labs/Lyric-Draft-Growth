@@ -1,0 +1,15 @@
+{
+  "phase": "prepare_images",
+  "generated_at": "2026-03-25T09:23:22Z",
+  "families": [
+    "article_x"
+  ],
+  "source_ids": [
+    "topic-x-op7418-b9e09e039182"
+  ],
+  "candidate_count": 0,
+  "generate_images": true,
+  "results": [],
+  "ok_count": 0,
+  "error_count": 0
+}
