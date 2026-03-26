@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T15:35:05Z",
+  "count": 5,
+  "selection_mode": "auto_select_topics",
+  "review_required": false,
+  "writer_inputs": [
+    {
+      "topic_id": "topic-x-op7418-b9e09e039182",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/02_topic_cards/topic-x-op7418-b9e09e039182/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/03_lane_assignments/topic-x-op7418-b9e09e039182/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/04_source_bundles/topic-x-op7418-b9e09e039182/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-0e03768e6ed4",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/02_topic_cards/topic-x-chuhaiqu-0e03768e6ed4/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/03_lane_assignments/topic-x-chuhaiqu-0e03768e6ed4/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/04_source_bundles/topic-x-chuhaiqu-0e03768e6ed4/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-fc4d55fcde88",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/02_topic_cards/topic-x-berryxia-fc4d55fcde88/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/03_lane_assignments/topic-x-berryxia-fc4d55fcde88/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/04_source_bundles/topic-x-berryxia-fc4d55fcde88/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-elevenlabs-91de2cfdcba2",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/02_topic_cards/topic-x-elevenlabs-91de2cfdcba2/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/03_lane_assignments/topic-x-elevenlabs-91de2cfdcba2/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/04_source_bundles/topic-x-elevenlabs-91de2cfdcba2/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-googledeepmind-216377cb6152",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/02_topic_cards/topic-x-googledeepmind-216377cb6152/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/03_lane_assignments/topic-x-googledeepmind-216377cb6152/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v2/02_t01_topic_engine/04_source_bundles/topic-x-googledeepmind-216377cb6152/source_bundle.json"
+    }
+  ]
+}

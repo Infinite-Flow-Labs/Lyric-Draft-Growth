@@ -2,12 +2,18 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from content.pipeline.write.article_formatter import build_article_blocks, build_publishing_hints
+from content.pipeline.write.article_formatter import (
+    build_article_blocks,
+    build_publishing_hints,
+    sanitize_article_blocks,
+    validate_article_publish_contract,
+)
 
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -47,10 +53,14 @@ def render_block_text(blocks: list[dict[str, Any]], fallback_markdown: str) -> s
             for item in block.get("items", []):
                 parts.append(f"- {item}")
         elif block_type == "quote":
-            parts.append(text)
+            if text:
+                parts.append(f"> {text}")
         elif block_type == "link_cta":
             if text:
                 parts.append(text)
+            if block.get("url"):
+                parts.append(str(block["url"]).strip())
+        elif block_type == "source_embed":
             if block.get("url"):
                 parts.append(str(block["url"]).strip())
         elif text:
@@ -110,6 +120,12 @@ def build_publish_ops(
                 }
             )
     return ops
+
+
+def validate_publish_spec_payload(payload: dict[str, Any]) -> tuple[list[str], list[str]]:
+    blocks = payload.get("article_blocks", []) or []
+    inline_insertions = payload.get("inline_image_insertions", []) or []
+    return validate_article_publish_contract(article_blocks=blocks, inline_insertions=inline_insertions)
 
 
 @dataclass(frozen=True)
@@ -222,7 +238,7 @@ def choose_candidates(
 
 def build_article_queue_item(account: AccountRuntime, article: dict[str, Any], slot_dir: Path) -> dict[str, Any]:
     article_payload = load_json(Path(article["article_json"]))
-    article_blocks = article_payload.get("article_blocks", []) or []
+    article_blocks = sanitize_article_blocks(article_payload.get("article_blocks", []) or [], keep_hero_first=True)
     publishing_hints = article_payload.get("publishing_hints", {}) or {}
     source_ref = str(article_payload.get("source_ref", "")).strip()
     if source_ref:
@@ -231,11 +247,14 @@ def build_article_queue_item(account: AccountRuntime, article: dict[str, Any], s
             source_item = load_json(source_item_path)
             publishing_hints = build_publishing_hints(source_item, publishing_hints)
             if not article_blocks:
-                article_blocks = build_article_blocks(
-                    title=article_payload.get("title", ""),
-                    dek=article_payload.get("dek", ""),
-                    body_markdown=article_payload.get("body_markdown", ""),
-                    publishing_hints=publishing_hints,
+                article_blocks = sanitize_article_blocks(
+                    build_article_blocks(
+                        title=article_payload.get("title", ""),
+                        dek=article_payload.get("dek", ""),
+                        body_markdown=article_payload.get("body_markdown", ""),
+                        publishing_hints=publishing_hints,
+                    ),
+                    keep_hero_first=True,
                 )
 
     title_path = slot_dir / "title.txt"
@@ -252,6 +271,7 @@ def build_article_queue_item(account: AccountRuntime, article: dict[str, Any], s
     }
 
     publish_spec_payload = {
+        "publish_contract_version": "article_publish_contract_v2",
         "title": article_payload["title"],
         "dek": article_payload.get("dek", ""),
         "article_blocks": article_blocks,
@@ -298,7 +318,7 @@ def build_article_queue_item(account: AccountRuntime, article: dict[str, Any], s
             current_heading_ordinal = ordinal
             current_first_content_ordinal = None
             continue
-        if block_type in {"link_cta", "closing_slogan"}:
+        if block_type in {"hero_heading", "link_cta", "closing_slogan", "source_embed"}:
             continue
         if current_first_content_ordinal is None:
             current_first_content_ordinal = ordinal
@@ -338,6 +358,15 @@ def build_article_queue_item(account: AccountRuntime, article: dict[str, Any], s
         article_blocks=article_blocks,
         inline_insertions=inline_insertions,
     )
+
+    errors, warnings = validate_publish_spec_payload(publish_spec_payload)
+    publish_spec_payload["contract_validation"] = {
+        "ok": not errors,
+        "errors": errors,
+        "warnings": warnings,
+    }
+    if errors:
+        raise ValueError(f"publish_contract_invalid: {'; '.join(errors)}")
 
     dump_json(spec_path, publish_spec_payload)
     assets_payload["article_publish_spec_json"] = str(spec_path.resolve())
@@ -438,23 +467,45 @@ def main() -> int:
                 "article_md": chosen["article_md"],
             },
         }
-        plan_items.append(plan_row)
 
         if args.dry_run:
+            plan_items.append(plan_row)
             continue
 
         slot_dir.mkdir(parents=True, exist_ok=True)
-        job = build_article_queue_item(account, chosen, slot_dir)
-        manifest_items.append(
-            {
-                "account_id": account.account_id,
-                "slot": slot_dir.name,
-                "queue_dir": str(slot_dir.resolve()),
-                "publish_job": str((slot_dir / "publish_job.json").resolve()),
-                "publish_mode": job["publish_mode"],
-                "source_id": chosen["source_id"],
-            }
-        )
+        try:
+            job = build_article_queue_item(account, chosen, slot_dir)
+            plan_items.append(plan_row)
+            manifest_items.append(
+                {
+                    "account_id": account.account_id,
+                    "slot": slot_dir.name,
+                    "queue_dir": str(slot_dir.resolve()),
+                    "publish_job": str((slot_dir / "publish_job.json").resolve()),
+                    "publish_mode": job["publish_mode"],
+                    "source_id": chosen["source_id"],
+                }
+            )
+        except Exception as exc:
+            try:
+                if slot_dir.exists() and not (slot_dir / "publish_job.json").exists():
+                    shutil.rmtree(slot_dir, ignore_errors=True)
+            except Exception:
+                pass
+            plan_items.append(
+                {
+                    "account_id": account.account_id,
+                    "status": "error_build_queue_item",
+                    "slot": slot_dir.name,
+                    "reason": f"{type(exc).__name__}: {exc}",
+                    "content_ref": {
+                        "family": chosen["family"],
+                        "run_id": chosen["run_id"],
+                        "source_id": chosen["source_id"],
+                    },
+                }
+            )
+            continue
 
     generated_at = isoformat_z(datetime.now(timezone.utc))
     plan_payload = {

@@ -1,0 +1,122 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T15:40:02Z",
+  "count": 23,
+  "writer_packets": [
+    {
+      "topic_id": "topic-x-cohere-2a3efe1d25b4",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-cohere-2a3efe1d25b4/writer_packet.json",
+      "source_material_count": 4
+    },
+    {
+      "topic_id": "topic-x-op7418-b9e09e039182",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-op7418-b9e09e039182/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-0e03768e6ed4",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-chuhaiqu-0e03768e6ed4/writer_packet.json",
+      "source_material_count": 2
+    },
+    {
+      "topic_id": "topic-x-anthropicai-4d80be7b1f63",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-anthropicai-4d80be7b1f63/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-berryxia-fc4d55fcde88",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-berryxia-fc4d55fcde88/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-lxfater-b0716c6556d9",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-lxfater-b0716c6556d9/writer_packet.json",
+      "source_material_count": 2
+    },
+    {
+      "topic_id": "topic-x-fkysly-24f87f5ad00f",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-fkysly-24f87f5ad00f/writer_packet.json",
+      "source_material_count": 2
+    },
+    {
+      "topic_id": "topic-x-astronaut_1216-7ecccf4ff1a8",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-astronaut_1216-7ecccf4ff1a8/writer_packet.json",
+      "source_material_count": 1
+    },
+    {
+      "topic_id": "topic-x-elevenlabs-91de2cfdcba2",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-elevenlabs-91de2cfdcba2/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-berryxia-a1a20dcc5f6f",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-berryxia-a1a20dcc5f6f/writer_packet.json",
+      "source_material_count": 2
+    },
+    {
+      "topic_id": "topic-x-huggingface-5cd3b08a9b48",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-huggingface-5cd3b08a9b48/writer_packet.json",
+      "source_material_count": 1
+    },
+    {
+      "topic_id": "topic-x-ivanfioravanti-c0b404801645",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-ivanfioravanti-c0b404801645/writer_packet.json",
+      "source_material_count": 1
+    },
+    {
+      "topic_id": "topic-x-openaidevs-da2ab731c0c5",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-openaidevs-da2ab731c0c5/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-googledeepmind-216377cb6152",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-googledeepmind-216377cb6152/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-runwayml-ed92531f2aae",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-runwayml-ed92531f2aae/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-googledeepmind-ebac5e5a99f8",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-googledeepmind-ebac5e5a99f8/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-be5152c5042a",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-chuhaiqu-be5152c5042a/writer_packet.json",
+      "source_material_count": 2
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-0b72570c46a8",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-chuhaiqu-0b72570c46a8/writer_packet.json",
+      "source_material_count": 2
+    },
+    {
+      "topic_id": "topic-x-anthropicai-ae4cd058b090",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-anthropicai-ae4cd058b090/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-cohere-7f4e2431ab75",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-cohere-7f4e2431ab75/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-berryxia-c07411c79b38",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-berryxia-c07411c79b38/writer_packet.json",
+      "source_material_count": 2
+    },
+    {
+      "topic_id": "topic-x-gorden_sun-0ea4a6e86556",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-gorden_sun-0ea4a6e86556/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-hitw93-073a7edd337d",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v4/02_t01_topic_engine/06_writer_packets/topic-x-hitw93-073a7edd337d/writer_packet.json",
+      "source_material_count": 1
+    }
+  ]
+}

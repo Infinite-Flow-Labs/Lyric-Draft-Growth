@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openaidevs-da2ab731c0c5",
+  "event_seed_signal_id": "x-openaidevs-da2ab731c0c5",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team.",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 44.89,
+  "heat_breakdown": {
+    "volume_score": 33.8,
+    "velocity_score": 55.25,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "with codex",
+  "cluster_signal_ids": [
+    "x-openaidevs-da2ab731c0c5"
+  ],
+  "source_families": [
+    "official_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+    "published_at": "2026-03-24T19:14:38Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 11
+  }
+}

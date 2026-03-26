@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T13:03:49Z",
+  "backend": "codex_cli",
+  "writer_packet_root": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_rerun_fmt_v2/02_t01_topic_engine/06_writer_packets/topic-x-op7418-b9e09e039182/writer_packet.json",
+  "out_root": "/home/lyric/growth-engine-pipeline/lane_v2/experiments/ablation_outputs/A_full",
+  "output_language": "zh-CN",
+  "count": 1,
+  "ok_count": 0,
+  "schema_error_count": 0,
+  "blocked_humanizer_gate_count": 0,
+  "skipped_human_review_count": 1,
+  "skipped_not_ready_count": 0,
+  "self_improving_observe_ok_count": 0,
+  "self_improving_observe_error_count": 0,
+  "results": [
+    {
+      "topic_id": "topic-x-op7418-b9e09e039182",
+      "status": "skipped_human_review_required",
+      "output_json": "",
+      "output_md": "",
+      "validation_error": null
+    }
+  ]
+}

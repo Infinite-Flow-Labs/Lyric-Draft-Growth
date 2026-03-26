@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T15:38:03Z",
+  "count": 8,
+  "writer_packets": [
+    {
+      "topic_id": "topic-x-cohere-2a3efe1d25b4",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v3/02_t01_topic_engine/06_writer_packets/topic-x-cohere-2a3efe1d25b4/writer_packet.json",
+      "source_material_count": 4
+    },
+    {
+      "topic_id": "topic-x-op7418-b9e09e039182",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v3/02_t01_topic_engine/06_writer_packets/topic-x-op7418-b9e09e039182/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-0e03768e6ed4",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v3/02_t01_topic_engine/06_writer_packets/topic-x-chuhaiqu-0e03768e6ed4/writer_packet.json",
+      "source_material_count": 2
+    },
+    {
+      "topic_id": "topic-x-berryxia-fc4d55fcde88",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v3/02_t01_topic_engine/06_writer_packets/topic-x-berryxia-fc4d55fcde88/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-elevenlabs-91de2cfdcba2",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v3/02_t01_topic_engine/06_writer_packets/topic-x-elevenlabs-91de2cfdcba2/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-ivanfioravanti-c0b404801645",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v3/02_t01_topic_engine/06_writer_packets/topic-x-ivanfioravanti-c0b404801645/writer_packet.json",
+      "source_material_count": 1
+    },
+    {
+      "topic_id": "topic-x-googledeepmind-216377cb6152",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v3/02_t01_topic_engine/06_writer_packets/topic-x-googledeepmind-216377cb6152/writer_packet.json",
+      "source_material_count": 3
+    },
+    {
+      "topic_id": "topic-x-gorden_sun-0ea4a6e86556",
+      "writer_packet_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_full_verify_v3/02_t01_topic_engine/06_writer_packets/topic-x-gorden_sun-0ea4a6e86556/writer_packet.json",
+      "source_material_count": 3
+    }
+  ]
+}

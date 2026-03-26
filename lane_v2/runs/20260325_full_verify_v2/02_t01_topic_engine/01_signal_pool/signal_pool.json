@@ -1,0 +1,1656 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T15:35:05Z",
+  "count": 36,
+  "signals": [
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-astronaut_1216-7ecccf4ff1a8",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-astronaut_1216-7ecccf4ff1a8/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/Astronaut_1216/status/2036647480490852773",
+      "published_at": "2026-03-25T03:32:53Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@Astronaut_1216",
+      "title": "从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包",
+      "text": "从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包\n\n从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包 不想上班的橙子 (@sichen250639) x.com/i/article/203645954311… — https://nitter.net/sichen250639/status/2036463994995875939#m\n\nPost title: 从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包 Post summary: 从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包 不想上班的橙子 (@sichen250639) x.com/i/article/203645954311… — https://nitter.net/sichen250639/status/2036463994995875939#m Canonical URL: https://x.com/Astronaut_1216/status/2036647480490852773",
+      "text_words": 33,
+      "release_signals": [],
+      "named_entities": [
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包",
+        "从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包 不想上班的橙子 (@sichen250639) x.com/i/article/203645954311… — https://nitter.net/sichen250639/status/2036463994995875939#m",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-astronaut_1216-d74627a57dba",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-astronaut_1216-d74627a57dba/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/Astronaut_1216/status/2036446482040053813",
+      "published_at": "2026-03-24T14:14:11Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@Astronaut_1216",
+      "title": "其实最近也有很多人问我 你一个臭土木的怎么转行的？你怎么赚钱的？怎么又能通过转行赚到钱 但其实赚钱的人永远在赚钱 目的决定行为 不是我觉得我未来想赚钱一定要怎么怎么样，所以我觉得这个事要去做 投资自己爱做的事儿，这本身就是复利",
+      "text": "其实最近也有很多人问我 你一个臭土木的怎么转行的？你怎么赚钱的？怎么又能通过转行赚到钱 但其实赚钱的人永远在赚钱 目的决定行为 不是我觉得我未来想赚钱一定要怎么怎么样，所以我觉得这个事要去做 投资自己爱做的事儿，这本身就是复利\n\n其实最近也有很多人问我 你一个臭土木的怎么转行的？你怎么赚钱的？怎么又能通过转行赚到钱 但其实赚钱的人永远在赚钱 目的决定行为 不是我觉得我未来想赚钱一定要怎么怎么样，所以我觉得这个事要去做 投资自己爱做的事儿，这本身就是复利 Koda一人公司 (@bigu62) x.com/i/article/203637034126… — https://nitter.net/bigu62/status/2036371012753957002#m\n\nPost title: 其实最近也有很多人问我 你一个臭土木的怎么转行的？你怎么赚钱的？怎么又能通过转行赚到钱 但其实赚钱的人永远在赚钱 目的决定行为 不是我觉得我未来想赚钱一定要怎么怎么样，所以我觉得这个事要去做 投资自己爱做的事儿，这本身就是复利 Post summary: 其实最近也有很多人问我 你一个臭土木的怎么转行的？你怎么赚钱的？怎么又能通过转行赚到钱 但其实赚钱的人永远在赚钱 目的决定行为 不是我觉得我未来想赚钱一定要怎么怎么样，所以我觉得这个事要去做 投资自己爱做的事儿，这本身就是复利 Koda一人公司 (@bigu62) x.com/i/article/203637034126… — https://nitter.net/bigu62/status/2036371012753957002#m Canonical URL: https://x.com/Astronaut_1216/status/2036446482040053813",
+      "text_words": 41,
+      "release_signals": [],
+      "named_entities": [
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "其实最近也有很多人问我 你一个臭土木的怎么转行的？你怎么赚钱的？怎么又能通过转行赚到钱 但其实赚钱的人永远在赚钱 目的决定行为 不是我觉得我未来想赚钱一定要怎么怎么样，所以我觉得这个事要去做 投资自己爱做的事儿，这本身就是复利",
+        "其实最近也有很多人问我 你一个臭土木的怎么转行的？你怎么赚钱的？怎么又能通过转行赚到钱 但其实赚钱的人永远在赚钱 目的决定行为 不是我觉得我未来想赚钱一定要怎么怎么样，所以我觉得这个事要去做 投资自己爱做的事儿，这本身就是复利 Koda一人公司 (@bigu62) x.com/i/article/203637034126… — https://nitter.net/bigu62/status/2036371012753957002#m",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-berryxia-85cb65cf579e",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-berryxia-85cb65cf579e/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/berryxia/status/2036447329663025443",
+      "published_at": "2026-03-24T14:17:33Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@berryxia",
+      "title": "Panda 的Claude Code 的实践总结实用性拉满，先收藏点赞。 龙虾可以不研究，但是CC一定得学啊！兄弟们！",
+      "text": "Panda 的Claude Code 的实践总结实用性拉满，先收藏点赞。 龙虾可以不研究，但是CC一定得学啊！兄弟们！\n\nPanda 的Claude Code 的实践总结实用性拉满，先收藏点赞。 龙虾可以不研究，但是CC一定得学啊！兄弟们！ Mr Panda (@PandaTalk8) x.com/i/article/203596814870… — https://nitter.net/PandaTalk8/status/2035975664730575325#m\n\nPost title: Panda 的Claude Code 的实践总结实用性拉满，先收藏点赞。 龙虾可以不研究，但是CC一定得学啊！兄弟们！ Post summary: Panda 的Claude Code 的实践总结实用性拉满，先收藏点赞。 龙虾可以不研究，但是CC一定得学啊！兄弟们！ Mr Panda (@PandaTalk8) x.com/i/article/203596814870… — https://nitter.net/PandaTalk8/status/2035975664730575325#m Canonical URL: https://x.com/berryxia/status/2036447329663025443",
+      "text_words": 39,
+      "release_signals": [],
+      "named_entities": [
+        "Panda",
+        "Code",
+        "Mr Panda",
+        "PandaTalk8",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Panda 的Claude Code 的实践总结实用性拉满，先收藏点赞。 龙虾可以不研究，但是CC一定得学啊！兄弟们！",
+        "Panda 的Claude Code 的实践总结实用性拉满，先收藏点赞。 龙虾可以不研究，但是CC一定得学啊！兄弟们！ Mr Panda (@PandaTalk8) x.com/i/article/203596814870… — https://nitter.net/PandaTalk8/status/2035975664730575325#m",
+        "Panda",
+        "Code",
+        "Mr Panda",
+        "PandaTalk8",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-berryxia-a1a20dcc5f6f",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-berryxia-a1a20dcc5f6f/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/berryxia/status/2036607360203104692",
+      "published_at": "2026-03-25T00:53:27Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@berryxia",
+      "title": "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！",
+      "text": "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！\n\n🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！ Berryxia.AI (@berryxia) x.com/i/article/203660103706… — https://nitter.net/berryxia/status/2036605929899302950#m\n\nPost title: 🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！ Post summary: 🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！ Berryxia.AI (@berryxia) x.com/i/article/203660103706… — https://nitter.net/berryxia/status/2036605929899302950#m Canonical URL: https://x.com/berryxia/status/2036607360203104692",
+      "text_words": 45,
+      "release_signals": [],
+      "named_entities": [
+        "Berryxia",
+        "AI",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！",
+        "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！ Berryxia.AI (@berryxia) x.com/i/article/203660103706… — https://nitter.net/berryxia/status/2036605929899302950#m",
+        "Berryxia",
+        "AI",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-berryxia-c07411c79b38",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-berryxia-c07411c79b38/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/berryxia/status/2036300435758477444",
+      "published_at": "2026-03-24T04:33:51Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@berryxia",
+      "title": "有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻",
+      "text": "有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻\n\n有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻 Berryxia.AI (@berryxia) x.com/i/article/203629356747… — https://nitter.net/berryxia/status/2036297242341155242#m\n\nPost title: 有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻 Post summary: 有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻 Berryxia.AI (@berryxia) x.com/i/article/203629356747… — https://nitter.net/berryxia/status/2036297242341155242#m Canonical URL: https://x.com/berryxia/status/2036300435758477444",
+      "text_words": 89,
+      "release_signals": [],
+      "named_entities": [
+        "Neo",
+        "A18 Pro",
+        "Aluminium OS",
+        "Sapphire",
+        "Berryxia",
+        "AI",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻",
+        "有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻 Berryxia.AI (@berryxia) x.com/i/article/203629356747… — https://nitter.net/berryxia/status/2036297242341155242#m",
+        "$599",
+        "Neo",
+        "A18 Pro",
+        "Aluminium OS",
+        "Sapphire",
+        "Berryxia",
+        "AI",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-berryxia-fc4d55fcde88",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-berryxia-fc4d55fcde88/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+      "published_at": "2026-03-24T23:22:12Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@berryxia",
+      "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔",
+      "text": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔\n\n兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Mark Gurman (@markgurman) BREAKING: Apple’s AI reboot this year detailed — Dedicated Siri app to rival ChatGPT; Overhauled Siri interface in the Dynamic Island with chatbot; Unified Siri and Spotlight Search; and “Ask Siri” &amp; “Write with Siri” features. bloomberg.com/news/articles/… — https://nitter.net/markgurman/status/2036516958955356640#m\n\nPost title: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Post summary: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Mark Gurman (@markgurman) BREAKING: Apple’s AI reboot this year detailed — Dedicated Siri app to rival ChatGPT; Overhauled Siri interface in the Dynamic Island with chatbot; Unified Siri and Spotlight Search; and “Ask Siri” &amp; “Write with Siri” features. bloomberg.com/news/articles/… — https://nitter.net/markgurman/status/2036516958955356640#m Canonical URL: https://x.com/berryxia/status/2036584395352711255",
+      "text_words": 835,
+      "release_signals": [
+        "发布",
+        "上线",
+        "推出",
+        "开放",
+        "更新",
+        "新增"
+      ],
+      "named_entities": [
+        "AI",
+        "Siri",
+        "App",
+        "Ask Siri",
+        "Apple Intelligence",
+        "WWDC",
+        "Siri App",
+        "Mac",
+        "Dynamic Island",
+        "Search",
+        "Ask",
+        "Searching",
+        "Liquid Glass",
+        "ChatGPT App",
+        "Write",
+        "Writing Tools",
+        "Campo",
+        "Campos",
+        "Perplexity",
+        "Google Gemini"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔",
+        "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Mark Gurman (@markgurman) BREAKING: Apple’s AI reboot this year detailed — Dedicated Siri app to rival ChatGPT; Overhauled Siri interface in the Dynamic Island with chatbot; Unified Siri and Spotlight Search; and “Ask Siri” &amp; “Write with Siri” features. bloomberg.com/news/articles/… — https://nitter.net/markgurman/status/2036516958955356640#m",
+        "AI",
+        "Siri",
+        "App",
+        "Ask Siri",
+        "Apple Intelligence",
+        "WWDC",
+        "Siri App",
+        "Mac",
+        "Dynamic Island",
+        "Search",
+        "Ask",
+        "Searching",
+        "Liquid Glass",
+        "ChatGPT App",
+        "Write",
+        "Writing Tools"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-chuhaiqu-0b72570c46a8",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-chuhaiqu-0b72570c46a8/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036400652465873355",
+      "published_at": "2026-03-24T11:12:04Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@chuhaiqu",
+      "title": "Semrush 最新报告显示，LinkedIn 被各大 AI 引用的比例已经达到了 11.03%，和公认的语料大户 Reddit 只差了 0.26%。 以前总觉得涨粉和互动量是王道，但在这将近 9 万条被 AI 抓取的链接里，帖子的点赞中位数只有 15 到 25 个，评论往往不到 1 条。 更神奇的是 哪怕你的粉丝不到 500，被大模型引用的概率也跟那些粉丝几万的大 V 没多大区别。 因为大模型只认干货，根本不懂所谓的网感。 涨粉焦虑真的大大缓解了！不用再去迎合社媒算法写段子做标题党，只要把平时踩过的坑、真实的业务增长经验老老实实写下来，哪怕发出去根本没几个人点赞，AI 也会默默把它推给正在搜索精准答案的潜在客户。",
+      "text": "Semrush 最新报告显示，LinkedIn 被各大 AI 引用的比例已经达到了 11.03%，和公认的语料大户 Reddit 只差了 0.26%。 以前总觉得涨粉和互动量是王道，但在这将近 9 万条被 AI 抓取的链接里，帖子的点赞中位数只有 15 到 25 个，评论往往不到 1 条。 更神奇的是 哪怕你的粉丝不到 500，被大模型引用的概率也跟那些粉丝几万的大 V 没多大区别。 因为大模型只认干货，根本不懂所谓的网感。 涨粉焦虑真的大大缓解了！不用再去迎合社媒算法写段子做标题党，只要把平时踩过的坑、真实的业务增长经验老老实实写下来，哪怕发出去根本没几个人点赞，AI 也会默默把它推给正在搜索精准答案的潜在客户。\n\nSemrush 最新报告显示，LinkedIn 被各大 AI 引用的比例已经达到了 11.03%，和公认的语料大户 Reddit 只差了 0.26%。 以前总觉得涨粉和互动量是王道，但在这将近 9 万条被 AI 抓取的链接里，帖子的点赞中位数只有 15 到 25 个，评论往往不到 1 条。 更神奇的是 哪怕你的粉丝不到 500，被大模型引用的概率也跟那些粉丝几万的大 V 没多大区别。 因为大模型只认干货，根本不懂所谓的网感。 涨粉焦虑真的大大缓解了！不用再去迎合社媒算法写段子做标题党，只要把平时踩过的坑、真实的业务增长经验老老实实写下来，哪怕发出去根本没几个人点赞，AI 也会默默把它推给正在搜索精准答案的潜在客户。 出海去孵化器 (@chuhaiqu) x.com/i/article/203490509330… — https://nitter.net/chuhaiqu/status/2035882453471248465#m\n\nPost title: Semrush 最新报告显示，LinkedIn 被各大 AI 引用的比例已经达到了 11.03%，和公认的语料大户 Reddit 只差了 0.26%。 以前总觉得涨粉和互动量是王道，但在这将近 9 万条被 AI 抓取的链接里，帖子的点赞中位数只有 15 到 25 个，评论往往不到 1 条。 更神奇的是 哪怕你的粉丝不到 500，被大模型引用的概率也跟那些粉丝几万的大 V 没多大区别。 因为大模型只认干货，根本不懂所谓的网感。 涨粉焦虑真的大大缓解了！不用再去迎合社媒算法写段子做标题党，只要把平时踩过的坑、真实的业务增长经验老老实实写下来，哪怕发出去根本没几个人点赞，AI 也会默默把它推给正在搜索精准答案的潜在客户。 Post summary: Semrush 最新报告显示，LinkedIn 被各大 AI 引用的比例已经达到了 11.03%，和公认的语料大户 Reddit 只差了 0.26%。 以前总觉得涨粉和互动量是王道，但在这将近 9 万条被 AI 抓取的链接里，帖子的点赞中位数只有 15 到 25 个，评论往往不到 1 条。 更神奇的是 哪怕你的粉丝不到 500，被大模型引用的概率也跟那些粉丝几万的大 V 没多大区别。 因为大模型只认干货，根本不懂所谓的网感。 涨粉焦虑真的大大缓解了！不用再去迎合社媒算法写段子做标题党，只要把平时踩过的坑、真实的业务增长经验老老实实写下来，哪怕发出去根本没几个人点赞，AI 也会默默把它推给正在搜索精准答案的潜在客户。 出海去孵化器 (@chuhaiqu) x.com/i/article/203490509330… — https://nitter.net/chuhaiqu/status/2035882453471248465#m Canonical URL: https://x.com/chuhaiqu/status/2036400652465873355",
+      "text_words": 129,
+      "release_signals": [],
+      "named_entities": [
+        "Semrush",
+        "LinkedIn",
+        "AI",
+        "Reddit",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Semrush 最新报告显示，LinkedIn 被各大 AI 引用的比例已经达到了 11.03%，和公认的语料大户 Reddit 只差了 0.26%。 以前总觉得涨粉和互动量是王道，但在这将近 9 万条被 AI 抓取的链接里，帖子的点赞中位数只有 15 到 25 个，评论往往不到 1 条。 更神奇的是 哪怕你的粉丝不到 500，被大模型引用的概率也跟那些粉丝几万的大 V 没多大区别。 因为大模型只认干货，根本不懂所谓的网感。 涨粉焦虑真的大大缓解了！不用再去迎合社媒算法写段子做标题党，只要把平时踩过的坑、真实的业务增长经验老老实实写下来，哪怕发出去根本没几个人点赞，AI 也会默默把它推给正在搜索精准答案的潜在客户。",
+        "Semrush 最新报告显示，LinkedIn 被各大 AI 引用的比例已经达到了 11.03%，和公认的语料大户 Reddit 只差了 0.26%。 以前总觉得涨粉和互动量是王道，但在这将近 9 万条被 AI 抓取的链接里，帖子的点赞中位数只有 15 到 25 个，评论往往不到 1 条。 更神奇的是 哪怕你的粉丝不到 500，被大模型引用的概率也跟那些粉丝几万的大 V 没多大区别。 因为大模型只认干货，根本不懂所谓的网感。 涨粉焦虑真的大大缓解了！不用再去迎合社媒算法写段子做标题党，只要把平时踩过的坑、真实的业务增长经验老老实实写下来，哪怕发出去根本没几个人点赞，AI 也会默默把它推给正在搜索精准答案的潜在客户。 出海去孵化器 (@chuhaiqu) x.com/i/article/203490509330… — https://nitter.net/chuhaiqu/status/2035882453471248465#m",
+        "11.03%",
+        "0.26%",
+        "Semrush",
+        "LinkedIn",
+        "AI",
+        "Reddit",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-chuhaiqu-0e03768e6ed4",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-chuhaiqu-0e03768e6ed4/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036704393475837965",
+      "published_at": "2026-03-25T07:19:02Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@chuhaiqu",
+      "title": "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。",
+      "text": "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。\n\nNatia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Natia Kurdadze (@natiakourdadze) x.com/i/article/203506810626… — https://nitter.net/natiakourdadze/status/2035070021932658721#m\n\nPost title: Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Post summary: Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Natia Kurdadze (@natiakourdadze) x.com/i/article/203506810626… — https://nitter.net/natiakourdadze/status/2035070021932658721#m Canonical URL: https://x.com/chuhaiqu/status/2036704393475837965",
+      "text_words": 91,
+      "release_signals": [
+        "上线"
+      ],
+      "named_entities": [
+        "Natia",
+        "App",
+        "Astro",
+        "Sensor Tower",
+        "RevenueCat",
+        "Natia Kurdadze",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。",
+        "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Natia Kurdadze (@natiakourdadze) x.com/i/article/203506810626… — https://nitter.net/natiakourdadze/status/2035070021932658721#m",
+        "Natia",
+        "App",
+        "Astro",
+        "Sensor Tower",
+        "RevenueCat",
+        "Natia Kurdadze",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-chuhaiqu-be5152c5042a",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-chuhaiqu-be5152c5042a/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036418001550057653",
+      "published_at": "2026-03-24T12:21:01Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@chuhaiqu",
+      "title": "Nav 在这篇文章里说，LinkedIn 上 Prompt Engineer 的职位过去一年半掉了 40%，这个曾经号称年薪 30 万美元的岗位，窗口期也就 18 个月。 而正在招人、薪资开到 8.4 万到 23.5 万美金的已经变成 context engineering。 之前大家写 prompt，每次打开新的 session 都得从零开始教 AI。这就导致你的技能天花板永远被锁死在单次对话里。 现在更聪明的做法是把记忆当成基础设施，简单点说是决定让模型看到哪些输入。 建个文件夹，里面可以放上 about-me.md，brand-voice.md，working-rules.md 等等。给工具写好 definition，然后把数据库和 API 也进去。每次对话前，这套系统会自动把最匹配的背景、代码风格、上周的邮件全部组装好喂给模型。 这就不是在一个起跑线上比赛了。一个是每次花十分钟调教语气，一个是 AI 已经认识你半年，直接按你喜欢的风格做事。 从「写提示词」升级成了「搭上下文架构」，归根到底拼的是建系统的能力。",
+      "text": "Nav 在这篇文章里说，LinkedIn 上 Prompt Engineer 的职位过去一年半掉了 40%，这个曾经号称年薪 30 万美元的岗位，窗口期也就 18 个月。 而正在招人、薪资开到 8.4 万到 23.5 万美金的已经变成 context engineering。 之前大家写 prompt，每次打开新的 session 都得从零开始教 AI。这就导致你的技能天花板永远被锁死在单次对话里。 现在更聪明的做法是把记忆当成基础设施，简单点说是决定让模型看到哪些输入。 建个文件夹，里面可以放上 about-me.md，brand-voice.md，working-rules.md 等等。给工具写好 definition，然后把数据库和 API 也进去。每次对话前，这套系统会自动把最匹配的背景、代码风格、上周的邮件全部组装好喂给模型。 这就不是在一个起跑线上比赛了。一个是每次花十分钟调教语气，一个是 AI 已经认识你半年，直接按你喜欢的风格做事。 从「写提示词」升级成了「搭上下文架构」，归根到底拼的是建系统的能力。\n\nNav 在这篇文章里说，LinkedIn 上 Prompt Engineer 的职位过去一年半掉了 40%，这个曾经号称年薪 30 万美元的岗位，窗口期也就 18 个月。 而正在招人、薪资开到 8.4 万到 23.5 万美金的已经变成 context engineering。 之前大家写 prompt，每次打开新的 session 都得从零开始教 AI。这就导致你的技能天花板永远被锁死在单次对话里。 现在更聪明的做法是把记忆当成基础设施，简单点说是决定让模型看到哪些输入。 建个文件夹，里面可以放上 about-me.md，brand-voice.md，working-rules.md 等等。给工具写好 definition，然后把数据库和 API 也进去。每次对话前，这套系统会自动把最匹配的背景、代码风格、上周的邮件全部组装好喂给模型。 这就不是在一个起跑线上比赛了。一个是每次花十分钟调教语气，一个是 AI 已经认识你半年，直接按你喜欢的风格做事。 从「写提示词」升级成了「搭上下文架构」，归根到底拼的是建系统的能力。 Nav Toor (@heynavtoor) x.com/i/article/203608795111… — https://nitter.net/heynavtoor/status/2036157094341255344#m\n\nPost title: Nav 在这篇文章里说，LinkedIn 上 Prompt Engineer 的职位过去一年半掉了 40%，这个曾经号称年薪 30 万美元的岗位，窗口期也就 18 个月。 而正在招人、薪资开到 8.4 万到 23.5 万美金的已经变成 context engineering。 之前大家写 prompt，每次打开新的 session 都得从零开始教 AI。这就导致你的技能天花板永远被锁死在单次对话里。 现在更聪明的做法是把记忆当成基础设施，简单点说是决定让模型看到哪些输入。 建个文件夹，里面可以放上 about-me.md，brand-voice.md，working-rules.md 等等。给工具写好 definition，然后把数据库和 API 也进去。每次对话前，这套系统会自动把最匹配的背景、代码风格、上周的邮件全部组装好喂给模型。 这就不是在一个起跑线上比赛了。一个是每次花十分钟调教语气，一个是 AI 已经认识你半年，直接按你喜欢的风格做事。 从「写提示词」升级成了「搭上下文架构」，归根到底拼的是建系统的能力。 Post summary: Nav 在这篇文章里说，LinkedIn 上 Prompt Engineer 的职位过去一年半掉了 40%，这个曾经号称年薪 30 万美元的岗位，窗口期也就 18 个月。 而正在招人、薪资开到 8.4 万到 23.5 万美金的已经变成 context engineering。 之前大家写 prompt，每次打开新的 session 都得从零开始教 AI。这就导致你的技能天花板永远被锁死在单次对话里。 现在更聪明的做法是把记忆当成基础设施，简单点说是决定让模型看到哪些输入。 建个文件夹，里面可以放上 about-me.md，brand-voice.md，working-rules.md 等等。给工具写好 definition，然后把数据库和 API 也进去。每次对话前，这套系统会自动把最匹配的背景、代码风格、上周的邮件全部组装好喂给模型。 这就不是在一个起跑线上比赛了。一个是每次花十分钟调教语气，一个是 AI 已经认识你半年，直接按你喜欢的风格做事。 从「写提示词」升级成了「搭上下文架构」，归根到底拼的是建系统的能力。 Nav Toor (@heynavtoor) x.com/i/article/203608795111… — https://nitter.net/heynavtoor/status/2036157094341255344#m Canonical URL: https://x.com/chuhaiqu/status/2036418001550057653",
+      "text_words": 155,
+      "release_signals": [],
+      "named_entities": [
+        "Nav",
+        "LinkedIn",
+        "Prompt Engineer",
+        "AI",
+        "API",
+        "Nav Toor",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Nav 在这篇文章里说，LinkedIn 上 Prompt Engineer 的职位过去一年半掉了 40%，这个曾经号称年薪 30 万美元的岗位，窗口期也就 18 个月。 而正在招人、薪资开到 8.4 万到 23.5 万美金的已经变成 context engineering。 之前大家写 prompt，每次打开新的 session 都得从零开始教 AI。这就导致你的技能天花板永远被锁死在单次对话里。 现在更聪明的做法是把记忆当成基础设施，简单点说是决定让模型看到哪些输入。 建个文件夹，里面可以放上 about-me.md，brand-voice.md，working-rules.md 等等。给工具写好 definition，然后把数据库和 API 也进去。每次对话前，这套系统会自动把最匹配的背景、代码风格、上周的邮件全部组装好喂给模型。 这就不是在一个起跑线上比赛了。一个是每次花十分钟调教语气，一个是 AI 已经认识你半年，直接按你喜欢的风格做事。 从「写提示词」升级成了「搭上下文架构」，归根到底拼的是建系统的能力。",
+        "Nav 在这篇文章里说，LinkedIn 上 Prompt Engineer 的职位过去一年半掉了 40%，这个曾经号称年薪 30 万美元的岗位，窗口期也就 18 个月。 而正在招人、薪资开到 8.4 万到 23.5 万美金的已经变成 context engineering。 之前大家写 prompt，每次打开新的 session 都得从零开始教 AI。这就导致你的技能天花板永远被锁死在单次对话里。 现在更聪明的做法是把记忆当成基础设施，简单点说是决定让模型看到哪些输入。 建个文件夹，里面可以放上 about-me.md，brand-voice.md，working-rules.md 等等。给工具写好 definition，然后把数据库和 API 也进去。每次对话前，这套系统会自动把最匹配的背景、代码风格、上周的邮件全部组装好喂给模型。 这就不是在一个起跑线上比赛了。一个是每次花十分钟调教语气，一个是 AI 已经认识你半年，直接按你喜欢的风格做事。 从「写提示词」升级成了「搭上下文架构」，归根到底拼的是建系统的能力。 Nav Toor (@heynavtoor) x.com/i/article/203608795111… — https://nitter.net/heynavtoor/status/2036157094341255344#m",
+        "40%",
+        "Nav",
+        "LinkedIn",
+        "Prompt Engineer",
+        "AI",
+        "API",
+        "Nav Toor",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-danshipper-f44fc13fe3f3",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-danshipper-f44fc13fe3f3/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/danshipper/status/2036251531570278825",
+      "published_at": "2026-03-24T01:19:31Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@danshipper",
+      "title": "this is so good obviously the future",
+      "text": "this is so good obviously the future\n\nthis is so good obviously the future Ramp Labs (@RampLabs) x.com/i/article/203614405114… — https://nitter.net/RampLabs/status/2036165188899012655#m\n\nPost title: this is so good obviously the future Post summary: this is so good obviously the future Ramp Labs (@RampLabs) x.com/i/article/203614405114… — https://nitter.net/RampLabs/status/2036165188899012655#m Canonical URL: https://x.com/danshipper/status/2036251531570278825",
+      "text_words": 47,
+      "release_signals": [],
+      "named_entities": [
+        "Ramp Labs",
+        "RampLabs",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "this is so good obviously the future",
+        "this is so good obviously the future Ramp Labs (@RampLabs) x.com/i/article/203614405114… — https://nitter.net/RampLabs/status/2036165188899012655#m",
+        "Ramp Labs",
+        "RampLabs",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-fkysly-24f87f5ad00f",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-fkysly-24f87f5ad00f/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/fkysly/status/2036639260804325439",
+      "published_at": "2026-03-25T03:00:13Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@fkysly",
+      "title": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。",
+      "text": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。\n\n这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。 马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m\n\nPost title: 这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。 Post summary: 这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。 马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m Canonical URL: https://x.com/fkysly/status/2036639260804325439",
+      "text_words": 41,
+      "release_signals": [],
+      "named_entities": [
+        "Vibe Coding",
+        "Agent",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。",
+        "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。 马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m",
+        "Vibe Coding",
+        "Agent",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-gorden_sun-0ea4a6e86556",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-gorden_sun-0ea4a6e86556/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+      "published_at": "2026-03-23T08:52:28Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@Gorden_Sun",
+      "title": "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文：https://claude.com/blog/product-management-on-the-ai-exponential",
+      "text": "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文：https://claude.com/blog/product-management-on-the-ai-exponential\n\nAI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文： claude.com/blog/product-mana…\n\nPost title: AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文：https://claude.com/blog/product-management-on-the-ai-exponential Post summary: AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文： claude.com/blog/product-mana… Canonical URL: https://x.com/Gorden_Sun/status/2036003130576613389",
+      "text_words": 89,
+      "release_signals": [
+        "上线"
+      ],
+      "named_entities": [
+        "Opus",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文：https://claude.com/blog/product-management-on-the-ai-exponential",
+        "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文： claude.com/blog/product-mana…",
+        "Opus",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-hitw93-073a7edd337d",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-hitw93-073a7edd337d/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "published_at": "2026-03-23T23:47:01Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@HiTw93",
+      "title": "4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents.",
+      "text": "4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents.\n\n4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents. Tw93 (@HiTw93) x.com/i/article/203524389747… — https://nitter.net/HiTw93/status/2035527178419683540#m\n\nPost title: 4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents. Post summary: 4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents. Tw93 (@HiTw93) x.com/i/article/203524389747… — https://nitter.net/HiTw93/status/2035527178419683540#m Canonical URL: https://x.com/HiTw93/status/2036228251459395814",
+      "text_words": 149,
+      "release_signals": [],
+      "named_entities": [
+        "Chinese",
+        "English",
+        "Agents",
+        "Covers",
+        "OpenClaw",
+        "Worth",
+        "Tw93",
+        "HiTw93",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents.",
+        "4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents. Tw93 (@HiTw93) x.com/i/article/203524389747… — https://nitter.net/HiTw93/status/2035527178419683540#m",
+        "4k",
+        "Chinese",
+        "English",
+        "Agents",
+        "Covers",
+        "OpenClaw",
+        "Worth",
+        "Tw93",
+        "HiTw93",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-ivanfioravanti-c0b404801645",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-ivanfioravanti-c0b404801645/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "published_at": "2026-03-24T15:05:05Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@ivanfioravanti",
+      "title": "Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless.",
+      "text": "Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless.\n\nArticle updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless. Ivan Fioravanti ᯅ (@ivanfioravanti) x.com/i/article/203636697214… — https://nitter.net/ivanfioravanti/status/2036383167729287335#m\n\nPost title: Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless. Post summary: Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless. Ivan Fioravanti ᯅ (@ivanfioravanti) x.com/i/article/203636697214… — https://nitter.net/ivanfioravanti/status/2036383167729287335#m Canonical URL: https://x.com/ivanfioravanti/status/2036459292639785090",
+      "text_words": 69,
+      "release_signals": [
+        "update"
+      ],
+      "named_entities": [
+        "Article",
+        "M5 Max",
+        "Ivan Fioravanti",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless.",
+        "Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless. Ivan Fioravanti ᯅ (@ivanfioravanti) x.com/i/article/203636697214… — https://nitter.net/ivanfioravanti/status/2036383167729287335#m",
+        "Article",
+        "M5 Max",
+        "Ivan Fioravanti",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-lxfater-b0716c6556d9",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-lxfater-b0716c6556d9/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/lxfater/status/2036704748779524577",
+      "published_at": "2026-03-25T07:20:26Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@lxfater",
+      "title": "你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡",
+      "text": "你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡\n\n你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡 铁锤人 (@lxfater) x.com/i/article/203638016267… — https://nitter.net/lxfater/status/2036381711278248025#m\n\nPost title: 你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡 Post summary: 你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡 铁锤人 (@lxfater) x.com/i/article/203638016267… — https://nitter.net/lxfater/status/2036381711278248025#m Canonical URL: https://x.com/lxfater/status/2036704748779524577",
+      "text_words": 69,
+      "release_signals": [],
+      "named_entities": [
+        "AI",
+        "Agent",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡",
+        "你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡 铁锤人 (@lxfater) x.com/i/article/203638016267… — https://nitter.net/lxfater/status/2036381711278248025#m",
+        "AI",
+        "Agent",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-lxfater-f4506a45e139",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-lxfater-f4506a45e139/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/lxfater/status/2035741034261647609",
+      "published_at": "2026-03-22T15:30:59Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@lxfater",
+      "title": "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需",
+      "text": "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需\n\nAgent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需 铁锤人 (@lxfater) x.com/i/article/202703675950… — https://nitter.net/lxfater/status/2035674347470537012#m\n\nPost title: Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需 Post summary: Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需 铁锤人 (@lxfater) x.com/i/article/202703675950… — https://nitter.net/lxfater/status/2035674347470537012#m Canonical URL: https://x.com/lxfater/status/2035741034261647609",
+      "text_words": 25,
+      "release_signals": [],
+      "named_entities": [
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需",
+        "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需 铁锤人 (@lxfater) x.com/i/article/202703675950… — https://nitter.net/lxfater/status/2035674347470537012#m",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-lxfater-fcdbe01cbc1b",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-lxfater-fcdbe01cbc1b/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/lxfater/status/2036101426779484458",
+      "published_at": "2026-03-23T15:23:03Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@lxfater",
+      "title": "这个产品不错，@TopviewAIhq 我也想试试",
+      "text": "这个产品不错，@TopviewAIhq 我也想试试\n\n这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.com/i/article/203601372806… — https://nitter.net/servasyy_ai/status/2036096858834288973#m\n\nPost title: 这个产品不错，@TopviewAIhq 我也想试试 Post summary: 这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.com/i/article/203601372806… — https://nitter.net/servasyy_ai/status/2036096858834288973#m Canonical URL: https://x.com/lxfater/status/2036101426779484458",
+      "text_words": 27,
+      "release_signals": [],
+      "named_entities": [
+        "TopviewAIhq",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "这个产品不错，@TopviewAIhq 我也想试试",
+        "这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.com/i/article/203601372806… — https://nitter.net/servasyy_ai/status/2036096858834288973#m",
+        "TopviewAIhq",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-op7418-b9e09e039182",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-op7418-b9e09e039182/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+      "published_at": "2026-03-24T01:54:42Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@op7418",
+      "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+      "text": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。\n\nClaude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m\n\nPost title: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 Post summary: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m Canonical URL: https://x.com/op7418/status/2036260385490346133",
+      "text_words": 81,
+      "release_signals": [
+        "更新"
+      ],
+      "named_entities": [
+        "Claude Code",
+        "CodeX",
+        "IM",
+        "Claude",
+        "Skills",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+        "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m",
+        "Claude Code",
+        "CodeX",
+        "IM",
+        "Claude",
+        "Skills",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-yoheinakajima-edf4c6f632ca",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-yoheinakajima-edf4c6f632ca/source_item.json",
+      "source_family": "article_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/yoheinakajima/status/2036136524358754658",
+      "published_at": "2026-03-23T17:42:31Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@yoheinakajima",
+      "title": "three layers of security for agents: machine isolation, capabilities limitation, and runtime validation",
+      "text": "three layers of security for agents: machine isolation, capabilities limitation, and runtime validation\n\nthree layers of security for agents: machine isolation, capabilities limitation, and runtime validation Pietro Valfrè (@p_valfre) x.com/i/article/203581272974… — https://nitter.net/p_valfre/status/2036129180471943679#m\n\nPost title: three layers of security for agents: machine isolation, capabilities limitation, and runtime validation Post summary: three layers of security for agents: machine isolation, capabilities limitation, and runtime validation Pietro Valfrè (@p_valfre) x.com/i/article/203581272974… — https://nitter.net/p_valfre/status/2036129180471943679#m Canonical URL: https://x.com/yoheinakajima/status/2036136524358754658",
+      "text_words": 71,
+      "release_signals": [],
+      "named_entities": [
+        "Pietro",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "three layers of security for agents: machine isolation, capabilities limitation, and runtime validation",
+        "three layers of security for agents: machine isolation, capabilities limitation, and runtime validation Pietro Valfrè (@p_valfre) x.com/i/article/203581272974… — https://nitter.net/p_valfre/status/2036129180471943679#m",
+        "Pietro",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-anthropicai-4d80be7b1f63",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-4d80be7b1f63/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/AnthropicAI/status/2036499691571953848",
+      "published_at": "2026-03-24T17:45:37Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@AnthropicAI",
+      "title": "New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.",
+      "text": "New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.\n\nNew from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.\n\nPost title: New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses. Post summary: New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses. Canonical URL: https://x.com/AnthropicAI/status/2036499691571953848",
+      "text_words": 171,
+      "release_signals": [],
+      "named_entities": [
+        "New",
+        "Anthropic Economic Index",
+        "Claude",
+        "Longer",
+        "They",
+        "Post",
+        "Canonical URL",
+        "AnthropicAI"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.",
+        "New",
+        "Anthropic Economic Index",
+        "Claude",
+        "Longer",
+        "They",
+        "Post",
+        "Canonical URL",
+        "AnthropicAI"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-anthropicai-ae4cd058b090",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-ae4cd058b090/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/AnthropicAI/status/2036179042081317370",
+      "published_at": "2026-03-23T20:31:28Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@AnthropicAI",
+      "title": "Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: https://www.anthropic.com/research/introducing-anthropic-science",
+      "text": "Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: https://www.anthropic.com/research/introducing-anthropic-science\n\nIntroducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: anthropic.com/research/intro…\n\nPost title: Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: https://www.anthropic.com/research/introducing-anthropic-science Post summary: Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: anthropic.com/research/intro… Canonical URL: https://x.com/AnthropicAI/status/2036179042081317370",
+      "text_words": 171,
+      "release_signals": [
+        "introducing"
+      ],
+      "named_entities": [
+        "Introducing",
+        "Anthropic Science Blog. Increasing",
+        "Anthropic",
+        "The Science Blog",
+        "AI",
+        "Read",
+        "Post",
+        "Canonical URL",
+        "AnthropicAI"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: https://www.anthropic.com/research/introducing-anthropic-science",
+        "Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: anthropic.com/research/intro…",
+        "introducing",
+        "Introducing",
+        "Anthropic Science Blog. Increasing",
+        "Anthropic",
+        "The Science Blog",
+        "AI",
+        "Read",
+        "Post",
+        "Canonical URL",
+        "AnthropicAI"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-anthropicai-afec09f42eea",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-afec09f42eea/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/AnthropicAI/status/2036481033621623056",
+      "published_at": "2026-03-24T16:31:29Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@AnthropicAI",
+      "title": "New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "text": "New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: https://www.anthropic.com/engineering/harness-design-long-running-apps\n\nNew on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: anthropic.com/engineering/ha…\n\nPost title: New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: https://www.anthropic.com/engineering/harness-design-long-running-apps Post summary: New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: anthropic.com/engineering/ha… Canonical URL: https://x.com/AnthropicAI/status/2036481033621623056",
+      "text_words": 115,
+      "release_signals": [],
+      "named_entities": [
+        "New",
+        "Anthropic Engineering Blog",
+        "How",
+        "Claude",
+        "Read",
+        "Post",
+        "Canonical URL",
+        "AnthropicAI"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: https://www.anthropic.com/engineering/harness-design-long-running-apps",
+        "New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: anthropic.com/engineering/ha…",
+        "New",
+        "Anthropic Engineering Blog",
+        "How",
+        "Claude",
+        "Read",
+        "Post",
+        "Canonical URL",
+        "AnthropicAI"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-cohere-2a3efe1d25b4",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-cohere-2a3efe1d25b4/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/cohere/status/2036444133397577818",
+      "published_at": "2026-03-24T14:04:51Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@cohere",
+      "title": "We’re honored to be named one of @FastCompany's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026",
+      "text": "We’re honored to be named one of @FastCompany's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026\n\nWe’re honored to be named one of @FastCompany 's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: fastcompany.com/91495412/art…\n\nPost title: We’re honored to be named one of @FastCompany's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026 Post summary: We’re honored to be named one of @FastCompany 's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: fastcompany.com/91495412/art… Canonical URL: https://x.com/cohere/status/2036444133397577818",
+      "text_words": 269,
+      "release_signals": [],
+      "named_entities": [
+        "We",
+        "FastCompany",
+        "Most Innovative Companies",
+        "This",
+        "AI",
+        "Over",
+        "North",
+        "Learn",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "We’re honored to be named one of @FastCompany's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026",
+        "We’re honored to be named one of @FastCompany 's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: fastcompany.com/91495412/art…",
+        "We",
+        "FastCompany",
+        "Most Innovative Companies",
+        "This",
+        "AI",
+        "Over",
+        "North",
+        "Learn",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-cohere-7f4e2431ab75",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-cohere-7f4e2431ab75/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/cohere/status/2036173176934183265",
+      "published_at": "2026-03-23T20:08:10Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@cohere",
+      "title": "We’re excited to announce that we’ve signed a Memorandum of Understanding for advanced AI collaboration with Saab, a global leader in defense and security. Together, we’ll explore groundbreaking AI partnerships for their aerospace platforms and deliver tailored solutions critical to Saab’s operations. Read more: https://cohere.link/cquJlw4",
+      "text": "We’re excited to announce that we’ve signed a Memorandum of Understanding for advanced AI collaboration with Saab, a global leader in defense and security. Together, we’ll explore groundbreaking AI partnerships for their aerospace platforms and deliver tailored solutions critical to Saab’s operations. Read more: https://cohere.link/cquJlw4\n\nWe’re excited to announce that we’ve signed a Memorandum of Understanding for advanced AI collaboration with Saab, a global leader in defense and security. Together, we’ll explore groundbreaking AI partnerships for their aerospace platforms and deliver tailored solutions critical to Saab’s operations. Read more: cohere.link/cquJlw4\n\nPost title: We’re excited to announce that we’ve signed a Memorandum of Understanding for advanced AI collaboration with Saab, a global leader in defense and security. Together, we’ll explore groundbreaking AI partnerships for their aerospace platforms and deliver tailored solutions critical to Saab’s operations. Read more: https://cohere.link/cquJlw4 Post summary: We’re excited to announce that we’ve signed a Memorandum of Understanding for advanced AI collaboration with Saab, a global leader in defense and security. Together, we’ll explore groundbreaking AI partnerships for their aerospace platforms and deliver tailored solutions critical to Saab’s operations. Read more: cohere.link/cquJlw4 Canonical URL: https://x.com/cohere/status/2036173176934183265",
+      "text_words": 187,
+      "release_signals": [
+        "partnership"
+      ],
+      "named_entities": [
+        "We",
+        "Memorandum",
+        "Understanding",
+        "AI",
+        "Saab",
+        "Together",
+        "Read",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "We’re excited to announce that we’ve signed a Memorandum of Understanding for advanced AI collaboration with Saab, a global leader in defense and security. Together, we’ll explore groundbreaking AI partnerships for their aerospace platforms and deliver tailored solutions critical to Saab’s operations. Read more: https://cohere.link/cquJlw4",
+        "We’re excited to announce that we’ve signed a Memorandum of Understanding for advanced AI collaboration with Saab, a global leader in defense and security. Together, we’ll explore groundbreaking AI partnerships for their aerospace platforms and deliver tailored solutions critical to Saab’s operations. Read more: cohere.link/cquJlw4",
+        "partnership",
+        "We",
+        "Memorandum",
+        "Understanding",
+        "AI",
+        "Saab",
+        "Together",
+        "Read",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-elevenlabs-91de2cfdcba2",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-elevenlabs-91de2cfdcba2/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/ElevenLabs/status/2036472147904774289",
+      "published_at": "2026-03-24T15:56:10Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@elevenlabs",
+      "title": "Introducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation.",
+      "text": "Introducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation.\n\nIntroducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation. Video\n\nPost title: Introducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation. Post summary: Introducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation. Video Canonical URL: https://x.com/ElevenLabs/status/2036472147904774289",
+      "text_words": 161,
+      "release_signals": [
+        "introducing"
+      ],
+      "named_entities": [
+        "Introducing Guardrails",
+        "ElevenAgents",
+        "Control",
+        "You",
+        "Or",
+        "Video Post",
+        "Post",
+        "Video Canonical URL",
+        "ElevenLabs"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Introducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation.",
+        "Introducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation. Video",
+        "introducing",
+        "Introducing Guardrails",
+        "ElevenAgents",
+        "Control",
+        "You",
+        "Or",
+        "Video Post",
+        "Post",
+        "Video Canonical URL",
+        "ElevenLabs"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-googledeepmind-216377cb6152",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-googledeepmind-216377cb6152/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "published_at": "2026-03-24T12:21:33Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@GoogleDeepMind",
+      "title": "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → https://goo.gle/4lKu7de",
+      "text": "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → https://goo.gle/4lKu7de\n\nGoogle DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → goo.gle/4lKu7de\n\nPost title: Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → https://goo.gle/4lKu7de Post summary: Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → goo.gle/4lKu7de Canonical URL: https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "text_words": 147,
+      "release_signals": [
+        "partnership"
+      ],
+      "named_entities": [
+        "Google DeepMind",
+        "Agile Robots Our",
+        "Gemini",
+        "Find",
+        "Post",
+        "Canonical URL",
+        "GoogleDeepMind"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → https://goo.gle/4lKu7de",
+        "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → goo.gle/4lKu7de",
+        "partnership",
+        "Google DeepMind",
+        "Agile Robots Our",
+        "Gemini",
+        "Find",
+        "Post",
+        "Canonical URL",
+        "GoogleDeepMind"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-googledeepmind-ebac5e5a99f8",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-googledeepmind-ebac5e5a99f8/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2036483295983100314",
+      "published_at": "2026-03-24T16:40:28Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@GoogleDeepMind",
+      "title": "Watch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡ This browser creates each page in real-time as you click, search, and navigate. Give it a try → https://goo.gle/4t9In1R",
+      "text": "Watch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡ This browser creates each page in real-time as you click, search, and navigate. Give it a try → https://goo.gle/4t9In1R\n\nWatch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡ This browser creates each page in real-time as you click, search, and navigate. Give it a try → goo.gle/4t9In1R Video\n\nPost title: Watch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡ This browser creates each page in real-time as you click, search, and navigate. Give it a try → https://goo.gle/4t9In1R Post summary: Watch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡ This browser creates each page in real-time as you click, search, and navigate. Give it a try → goo.gle/4t9In1R Video Canonical URL: https://x.com/GoogleDeepMind/status/2036483295983100314",
+      "text_words": 125,
+      "release_signals": [],
+      "named_entities": [
+        "Watch",
+        "Gemini",
+        "Flash",
+        "Lite",
+        "This",
+        "Give",
+        "Video Post",
+        "Post",
+        "Video Canonical URL",
+        "GoogleDeepMind"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Watch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡ This browser creates each page in real-time as you click, search, and navigate. Give it a try → https://goo.gle/4t9In1R",
+        "Watch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡ This browser creates each page in real-time as you click, search, and navigate. Give it a try → goo.gle/4t9In1R Video",
+        "Watch",
+        "Gemini",
+        "Flash",
+        "Lite",
+        "This",
+        "Give",
+        "Video Post",
+        "Post",
+        "Video Canonical URL",
+        "GoogleDeepMind"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-huggingface-5cd3b08a9b48",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-huggingface-5cd3b08a9b48/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/huggingface/status/2036562768476742142",
+      "published_at": "2026-03-24T21:56:16Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@huggingface",
+      "title": "do the right thing anon!",
+      "text": "do the right thing anon!\n\ndo the right thing anon! SemiAnalysis (@SemiAnalysis_) CLAUDE OPUS 5 ALERT: I was walking around San Francisco Hayes Valley today and saw an sidewalk this USB key saying it contains the opus 5 weights. Should i plug it into my computer & upload the weights to huggingface or should I give this USB key to @jekbradbury @aj_kourabi in case it is their USB? — https://nitter.net/SemiAnalysis_/status/2036548649728053498#m\n\nPost title: do the right thing anon! Post summary: do the right thing anon! SemiAnalysis (@SemiAnalysis_) CLAUDE OPUS 5 ALERT: I was walking around San Francisco Hayes Valley today and saw an sidewalk this USB key saying it contains the opus 5 weights. Should i plug it into my computer & upload the weights to huggingface or should I give this USB key to @jekbradbury @aj_kourabi in case it is their USB? — https://nitter.net/SemiAnalysis_/status/2036548649728053498#m Canonical URL: https://x.com/huggingface/status/2036562768476742142",
+      "text_words": 147,
+      "release_signals": [],
+      "named_entities": [
+        "SemiAnalysis",
+        "CLAUDE OPUS",
+        "ALERT",
+        "San Francisco Hayes Valley",
+        "USB",
+        "Should",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "do the right thing anon!",
+        "do the right thing anon! SemiAnalysis (@SemiAnalysis_) CLAUDE OPUS 5 ALERT: I was walking around San Francisco Hayes Valley today and saw an sidewalk this USB key saying it contains the opus 5 weights. Should i plug it into my computer & upload the weights to huggingface or should I give this USB key to @jekbradbury @aj_kourabi in case it is their USB? — https://nitter.net/SemiAnalysis_/status/2036548649728053498#m",
+        "SemiAnalysis",
+        "CLAUDE OPUS",
+        "ALERT",
+        "San Francisco Hayes Valley",
+        "USB",
+        "Should",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-openai-4aa0a9ed510f",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openai-4aa0a9ed510f/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "published_at": "2026-03-23T20:47:55Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@OpenAI",
+      "title": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.",
+      "text": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.\n\nIt’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.\n\nPost title: It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK. Post summary: It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK. Canonical URL: https://x.com/OpenAI/status/2036183180219392103",
+      "text_words": 291,
+      "release_signals": [],
+      "named_entities": [
+        "It",
+        "ChatGPT",
+        "You",
+        "Library",
+        "Rolling",
+        "Plus",
+        "Pro",
+        "Business",
+        "EEA",
+        "Switzerland",
+        "UK",
+        "Post",
+        "Canonical URL",
+        "OpenAI"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.",
+        "It",
+        "ChatGPT",
+        "You",
+        "Library",
+        "Rolling",
+        "Plus",
+        "Pro",
+        "Business",
+        "EEA",
+        "Switzerland",
+        "UK",
+        "Post",
+        "Canonical URL",
+        "OpenAI"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-openaidevs-ad431516309f",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-ad431516309f/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2036505705155534907",
+      "published_at": "2026-03-24T18:09:31Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@OpenAIDevs",
+      "title": "We’re releasing prompt-based teen safety policies for gpt-oss-safeguard. They’re designed to help you identify and moderate teen-specific content, and turn safety requirements into classifiers for real-time filtering or offline analysis. https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "text": "We’re releasing prompt-based teen safety policies for gpt-oss-safeguard. They’re designed to help you identify and moderate teen-specific content, and turn safety requirements into classifiers for real-time filtering or offline analysis. https://openai.com/index/teen-safety-policies-gpt-oss-safeguard\n\nWe’re releasing prompt-based teen safety policies for gpt-oss-safeguard. They’re designed to help you identify and moderate teen-specific content, and turn safety requirements into classifiers for real-time filtering or offline analysis. openai.com/index/teen-safety…\n\nPost title: We’re releasing prompt-based teen safety policies for gpt-oss-safeguard. They’re designed to help you identify and moderate teen-specific content, and turn safety requirements into classifiers for real-time filtering or offline analysis. https://openai.com/index/teen-safety-policies-gpt-oss-safeguard Post summary: We’re releasing prompt-based teen safety policies for gpt-oss-safeguard. They’re designed to help you identify and moderate teen-specific content, and turn safety requirements into classifiers for real-time filtering or offline analysis. openai.com/index/teen-safety… Canonical URL: https://x.com/OpenAIDevs/status/2036505705155534907",
+      "text_words": 131,
+      "release_signals": [],
+      "named_entities": [
+        "We",
+        "They",
+        "Post",
+        "Canonical URL",
+        "OpenAIDevs"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "We’re releasing prompt-based teen safety policies for gpt-oss-safeguard. They’re designed to help you identify and moderate teen-specific content, and turn safety requirements into classifiers for real-time filtering or offline analysis. https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+        "We’re releasing prompt-based teen safety policies for gpt-oss-safeguard. They’re designed to help you identify and moderate teen-specific content, and turn safety requirements into classifiers for real-time filtering or offline analysis. openai.com/index/teen-safety…",
+        "We",
+        "They",
+        "Post",
+        "Canonical URL",
+        "OpenAIDevs"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-openaidevs-da2ab731c0c5",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-da2ab731c0c5/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "published_at": "2026-03-24T19:14:38Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@OpenAIDevs",
+      "title": "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team.",
+      "text": "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team.\n\nWith Codex, Ryan built @NotionHQ ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team. Video\n\nPost title: Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team. Post summary: With Codex, Ryan built @NotionHQ ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team. Video Canonical URL: https://x.com/OpenAIDevs/status/2036522094218060241",
+      "text_words": 165,
+      "release_signals": [],
+      "named_entities": [
+        "With Codex",
+        "Ryan",
+        "NotionHQ",
+        "AI Voice Input",
+        "Codex",
+        "Video Post",
+        "Post",
+        "Video Canonical URL",
+        "OpenAIDevs"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team.",
+        "With Codex, Ryan built @NotionHQ ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team. Video",
+        "With Codex",
+        "Ryan",
+        "NotionHQ",
+        "AI Voice Input",
+        "Codex",
+        "Video Post",
+        "Post",
+        "Video Canonical URL",
+        "OpenAIDevs"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-runwayml-713251b5836e",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-713251b5836e/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/runwayml/status/2036081560873570742",
+      "published_at": "2026-03-23T14:04:07Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@runwayml",
+      "title": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+      "text": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.\n\nNobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below. Video\n\nPost title: Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below. Post summary: Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below. Video Canonical URL: https://x.com/runwayml/status/2036081560873570742",
+      "text_words": 189,
+      "release_signals": [],
+      "named_entities": [
+        "Nobody",
+        "You",
+        "The Pippin Garden Hose",
+        "Enter",
+        "RunwayBigAdContest",
+        "Up",
+        "Learn",
+        "Video Post",
+        "Post",
+        "Video Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+        "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below. Video",
+        "$100",
+        "Nobody",
+        "You",
+        "The Pippin Garden Hose",
+        "Enter",
+        "RunwayBigAdContest",
+        "Up",
+        "Learn",
+        "Video Post",
+        "Post",
+        "Video Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-runwayml-ed92531f2aae",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-ed92531f2aae/source_item.json",
+      "source_family": "official_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/runwayml/status/2036445630134886846",
+      "published_at": "2026-03-24T14:10:48Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@runwayml",
+      "title": "Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below.",
+      "text": "Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below.\n\nSubmissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below. Video\n\nPost title: Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below. Post summary: Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below. Video Canonical URL: https://x.com/runwayml/status/2036445630134886846",
+      "text_words": 165,
+      "release_signals": [],
+      "named_entities": [
+        "Submissions",
+        "AI Festival",
+        "April",
+        "This",
+        "AI",
+        "Film",
+        "Design",
+        "New Media",
+        "Fashion",
+        "Advertising",
+        "Gaming",
+        "Learn",
+        "Video Post",
+        "Post",
+        "Video Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below.",
+        "Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below. Video",
+        "Submissions",
+        "AI Festival",
+        "April",
+        "This",
+        "AI",
+        "Film",
+        "Design",
+        "New Media",
+        "Fashion",
+        "Advertising",
+        "Gaming",
+        "Learn",
+        "Video Post",
+        "Post",
+        "Video Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-ai_for_success-3de3eb737dc0",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-ai_for_success-3de3eb737dc0/source_item.json",
+      "source_family": "post_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/ai_for_success/status/2036439278851596496",
+      "published_at": "2026-03-24T13:45:33Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@ai_for_success",
+      "title": "🚨 Google DeepMind has partnered with Agile Robots to bring Gemini into real world robotics. This is about combining AI models with actual industrial robots to build systems that can reason, adapt, and improve over time. TLDR - Gemini Robotics models integrated with real hardware - Focus on industrial and manufacturing use cases first - Goal is adaptable, reasoning robots not fixed automation - Agile Robots already has 20,000+ deployments globally - Real world data → better models → better robots loop - Combines AI + hardware + deployment scale - Aiming for autonomous intelligent production systems",
+      "text": "🚨 Google DeepMind has partnered with Agile Robots to bring Gemini into real world robotics. This is about combining AI models with actual industrial robots to build systems that can reason, adapt, and improve over time. TLDR - Gemini Robotics models integrated with real hardware - Focus on industrial and manufacturing use cases first - Goal is adaptable, reasoning robots not fixed automation - Agile Robots already has 20,000+ deployments globally - Real world data → better models → better robots loop - Combines AI + hardware + deployment scale - Aiming for autonomous intelligent production systems\n\n🚨 Google DeepMind has partnered with Agile Robots to bring Gemini into real world robotics. This is about combining AI models with actual industrial robots to build systems that can reason, adapt, and improve over time. TLDR - Gemini Robotics models integrated with real hardware - Focus on industrial and manufacturing use cases first - Goal is adaptable, reasoning robots not fixed automation - Agile Robots already has 20,000+ deployments globally - Real world data → better models → better robots loop - Combines AI + hardware + deployment scale - Aiming for autonomous intelligent production systems\n\nPost title: 🚨 Google DeepMind has partnered with Agile Robots to bring Gemini into real world robotics. This is about combining AI models with actual industrial robots to build systems that can reason, adapt, and improve over time. TLDR - Gemini Robotics models integrated with real hardware - Focus on industrial and manufacturing use cases first - Goal is adaptable, reasoning robots not fixed automation - Agile Robots already has 20,000+ deployments globally - Real world data → better models → better robots loop - Combines AI + hardware + deployment scale - Aiming for autonomous intelligent production systems Post summary: 🚨 Google DeepMind has partnered with Agile Robots to bring Gemini into real world robotics. This is about combining AI models with actual industrial robots to build systems that can reason, adapt, and improve over time. TLDR - Gemini Robotics models integrated with real hardware - Focus on industrial and manufacturing use cases first - Goal is adaptable, reasoning robots not fixed automation - Agile Robots already has 20,000+ deployments globally - Real world data → better models → better robots loop - Combines AI + hardware + deployment scale - Aiming for autonomous intelligent production systems Canonical URL: https://x.com/ai_for_success/status/2036439278851596496",
+      "text_words": 395,
+      "release_signals": [],
+      "named_entities": [
+        "Google DeepMind",
+        "Agile Robots",
+        "Gemini",
+        "This",
+        "AI",
+        "TLDR",
+        "Gemini Robotics",
+        "Focus",
+        "Goal",
+        "Real",
+        "Combines AI",
+        "Aiming",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "🚨 Google DeepMind has partnered with Agile Robots to bring Gemini into real world robotics. This is about combining AI models with actual industrial robots to build systems that can reason, adapt, and improve over time. TLDR - Gemini Robotics models integrated with real hardware - Focus on industrial and manufacturing use cases first - Goal is adaptable, reasoning robots not fixed automation - Agile Robots already has 20,000+ deployments globally - Real world data → better models → better robots loop - Combines AI + hardware + deployment scale - Aiming for autonomous intelligent production systems",
+        "Google DeepMind",
+        "Agile Robots",
+        "Gemini",
+        "This",
+        "AI",
+        "TLDR",
+        "Gemini Robotics",
+        "Focus",
+        "Goal",
+        "Real",
+        "Combines AI",
+        "Aiming",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-ai_for_success-51294d9c938e",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-ai_for_success-51294d9c938e/source_item.json",
+      "source_family": "post_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/ai_for_success/status/2036633405866328232",
+      "published_at": "2026-03-25T02:36:57Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@ai_for_success",
+      "title": "OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal?",
+      "text": "OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal?\n\nOpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal? Sora (@soraofficialapp) We’re saying goodbye to the Sora app. To everyone who created with Sora, shared it, and built community around it: thank you. What you made with Sora mattered, and we know this news is disappointing. We’ll share more soon, including timelines for the app and API and details on preserving your work. – The Sora Team — https://nitter.net/soraofficialapp/status/2036546752535470382#m\n\nPost title: OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal? Post summary: OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal? Sora (@soraofficialapp) We’re saying goodbye to the Sora app. To everyone who created with Sora, shared it, and built community around it: thank you. What you made with Sora mattered, and we know this news is disappointing. We’ll share more soon, including timelines for the app and API and details on preserving your work. – The Sora Team — https://nitter.net/soraofficialapp/status/2036546752535470382#m Canonical URL: https://x.com/ai_for_success/status/2036633405866328232",
+      "text_words": 187,
+      "release_signals": [],
+      "named_entities": [
+        "OpenAI",
+        "Sora",
+        "Disney",
+        "We",
+        "To",
+        "What",
+        "API",
+        "The Sora Team",
+        "Post",
+        "Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal?",
+        "OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal? Sora (@soraofficialapp) We’re saying goodbye to the Sora app. To everyone who created with Sora, shared it, and built community around it: thank you. What you made with Sora mattered, and we know this news is disappointing. We’ll share more soon, including timelines for the app and API and details on preserving your work. – The Sora Team — https://nitter.net/soraofficialapp/status/2036546752535470382#m",
+        "$1",
+        "OpenAI",
+        "Sora",
+        "Disney",
+        "We",
+        "To",
+        "What",
+        "API",
+        "The Sora Team",
+        "Post",
+        "Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "signal_id": "x-ai_for_success-5a511c45a67c",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-ai_for_success-5a511c45a67c/source_item.json",
+      "source_family": "post_x",
+      "source_kind": "x_thread",
+      "canonical_url": "https://x.com/ai_for_success/status/2036255685042905205",
+      "published_at": "2026-03-24T01:36:01Z",
+      "fetched_at": "2026-03-25T07:23:48Z",
+      "author_id": "@ai_for_success",
+      "title": "Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at your desk.",
+      "text": "Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at your desk.\n\nLooks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at your desk. Video\n\nPost title: Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at your desk. Post summary: Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at your desk. Video Canonical URL: https://x.com/ai_for_success/status/2036255685042905205",
+      "text_words": 165,
+      "release_signals": [],
+      "named_entities": [
+        "Looks",
+        "Anthropic",
+        "Claude",
+        "It",
+        "Video Post",
+        "Post",
+        "Video Canonical URL"
+      ],
+      "linked_hosts": [
+        "nitter.net",
+        "x.com"
+      ],
+      "fact_candidates": [
+        "Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at your desk.",
+        "Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at your desk. Video",
+        "Looks",
+        "Anthropic",
+        "Claude",
+        "It",
+        "Video Post",
+        "Post",
+        "Video Canonical URL"
+      ],
+      "trace": {
+        "platform": "x",
+        "build_time": "2026-03-25T15:35:05Z",
+        "source_item_fetched_at": "2026-03-25T07:23:48Z"
+      }
+    }
+  ]
+}

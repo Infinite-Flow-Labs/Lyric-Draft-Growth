@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-berryxia-c07411c79b38",
+  "lane_id": "T07_contrarian_take",
+  "framework_id": "07_contrarian_take",
+  "submode_id": "category_reframe",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-berryxia-c07411c79b38",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/berryxia/status/2036300435758477444",
+      "title": "有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻",
+      "published_at": "2026-03-24T04:33:51Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-berryxia-c07411c79b38/source_item.json"
+    },
+    {
+      "signal_id": "x-berryxia-a1a20dcc5f6f",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/berryxia/status/2036607360203104692",
+      "title": "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！",
+      "published_at": "2026-03-25T00:53:27Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-berryxia-a1a20dcc5f6f/source_item.json"
+    }
+  ],
+  "supporting_sources": [],
+  "fact_anchors": [
+    {
+      "claim": "有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    },
+    {
+      "claim": "有时候，市场最大的机会不是你发现的，而是对手替你证明的。 苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题。 十年的\"做不到\"，一个下午就推翻了。 现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景。 详细分析👇🏻 Berryxia.AI (@berryxia) x.com/i/article/203629356747… — https://nitter.net/berryxia/status/2036297242341155242#m",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    },
+    {
+      "claim": "有时候，市场最大的机会不是你发现的，而是对手替你证明的",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    },
+    {
+      "claim": "苹果用MacBook Neo（$599 + A18 Pro + macOS）证明了： 移动芯片跑桌面系统，完全没问题",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    },
+    {
+      "claim": "现在Google只需要接住这个球： Aluminium OS + Sapphire = 一台设备，所有场景",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    },
+    {
+      "claim": "详细分析👇🏻 有时候，市场最大的机会不是你发现的，而是对手替你证明的",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    },
+    {
+      "claim": "详细分析👇🏻 Berryxia.AI (@berryxia) x.com/i/article/203629356747… — https://nitter.net/berryxia/status/2036297242341155242#m Post title: 有时候，市场最大的机会不是你发现的，而是对手替你证明的",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    },
+    {
+      "claim": "详细分析👇🏻 Post summary: 有时候，市场最大的机会不是你发现的，而是对手替你证明的",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    },
+    {
+      "claim": "详细分析👇🏻 Berryxia.AI (@berryxia) x.com/i/article/203629356747… — https://nitter.net/berryxia/status/2036297242341155242#m Canonical URL: https://x.com/berryxia/status/2036300435758477444",
+      "source_url": "https://x.com/berryxia/status/2036300435758477444",
+      "signal_id": "x-berryxia-c07411c79b38"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 6,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": true,
+  "quality_tier": "D",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": false,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": true
+}

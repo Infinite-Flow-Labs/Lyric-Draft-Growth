@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-fkysly-24f87f5ad00f",
+  "lane_id": "T02_signal_decode",
+  "framework_id": "03_opinion_decode",
+  "submode_id": "signal_decode",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-fkysly-24f87f5ad00f",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/fkysly/status/2036639260804325439",
+      "title": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。",
+      "published_at": "2026-03-25T03:00:13Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-fkysly-24f87f5ad00f/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-lxfater-b0716c6556d9",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/lxfater/status/2036704748779524577",
+      "title": "你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡",
+      "published_at": "2026-03-25T07:20:26Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-lxfater-b0716c6556d9/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    },
+    {
+      "claim": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。 马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    },
+    {
+      "claim": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    },
+    {
+      "claim": "马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m Post title: 这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    },
+    {
+      "claim": "马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m Canonical URL: https://x.com/fkysly/status/2036639260804325439",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 1,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 6,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": true,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

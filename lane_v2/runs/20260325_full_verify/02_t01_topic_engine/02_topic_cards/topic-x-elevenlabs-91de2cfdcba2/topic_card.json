@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-elevenlabs-91de2cfdcba2",
+  "event_seed_signal_id": "x-elevenlabs-91de2cfdcba2",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Introducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation.",
+  "why_now": "Clustered 2 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 65.1,
+  "heat_breakdown": {
+    "volume_score": 66.8,
+    "velocity_score": 48.69,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "introducing guardrails::introducing",
+  "cluster_signal_ids": [
+    "x-elevenlabs-91de2cfdcba2",
+    "x-ai_for_success-5a511c45a67c"
+  ],
+  "source_families": [
+    "official_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/ElevenLabs/status/2036472147904774289",
+    "published_at": "2026-03-24T15:56:10Z",
+    "release_signals_count": 1,
+    "fact_candidates_count": 21
+  }
+}

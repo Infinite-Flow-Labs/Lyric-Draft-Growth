@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openai-4aa0a9ed510f",
+  "event_seed_signal_id": "x-openai-4aa0a9ed510f",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 34.7,
+  "heat_breakdown": {
+    "volume_score": 37.0,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "chatgpt",
+  "cluster_signal_ids": [
+    "x-openai-4aa0a9ed510f"
+  ],
+  "source_families": [
+    "official_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/OpenAI/status/2036183180219392103",
+    "published_at": "2026-03-23T20:47:55Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 15
+  }
+}
