@@ -1,0 +1,23 @@
+{
+  "plan_date": "2026-03-20",
+  "generated_at": "2026-03-20T06:34:43Z",
+  "queued_count": 2,
+  "items": [
+    {
+      "account_id": "Better-ai-usage-in-life",
+      "slot": "01",
+      "queue_dir": "/home/lyric/growth-engine-pipeline/accounts_runtime/Better-ai-usage-in-life/publish_queue/2026-03-20/01",
+      "publish_job": "/home/lyric/growth-engine-pipeline/accounts_runtime/Better-ai-usage-in-life/publish_queue/2026-03-20/01/publish_job.json",
+      "publish_mode": "article",
+      "source_id": "podcast-the_cognitive_revolution-e808e1ad9465"
+    },
+    {
+      "account_id": "xiaodao-ai-lab",
+      "slot": "01",
+      "queue_dir": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-20/01",
+      "publish_job": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-20/01/publish_job.json",
+      "publish_mode": "article",
+      "source_id": "podcast-practical_ai-c28e7eb8060b"
+    }
+  ]
+}

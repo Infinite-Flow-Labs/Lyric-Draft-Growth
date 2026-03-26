@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "article_ref": "/home/lyric/growth-engine-pipeline/content/library/articles/podcast/20260320_podcast_recheck/podcast-the_cognitive_revolution-e808e1ad9465/article_draft.json",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260320_podcast_recheck/03_source_items/podcast/items/podcast-the_cognitive_revolution-e808e1ad9465/source_item.json",
+  "style_profile_id": "editorial_knowledge_graphic_v1",
+  "output_language": "zh-CN",
+  "global_visual_rules": {
+    "style_direction": "editorial knowledge graphic, warm light background, flat diagram-first composition, mobile legibility first",
+    "palette": {
+      "background": "warm cream paper-like background",
+      "primary_accents": [
+        "warm orange",
+        "coral red",
+        "teal green"
+      ],
+      "linework": "soft dark gray line work",
+      "secondary_neutrals": [
+        "light gray",
+        "off-white"
+      ]
+    },
+    "must_have": [
+      "clear information hierarchy",
+      "diagram-first composition",
+      "short Chinese labels",
+      "editorial infographic feeling",
+      "high readability on mobile"
+    ],
+    "must_avoid": [
+      "generic AI wallpaper",
+      "cyberpunk neon",
+      "photorealistic people",
+      "blue digital rain",
+      "low-information decoration"
+    ]
+  },
+  "cover_image": {
+    "image_id": "cover_01",
+    "role": "cover",
+    "purpose": "Compress the article's main idea into one visual system that is understandable in one glance.",
+    "image_grammar": "hook_cover",
+    "diagram_type": "stage_evolution",
+    "concept_summary": "Zvi Mowshowitz 这期真正给出的，不是一串观点，而是一种重新看 AI 竞争的方法：比起追逐单点爆款，更重要的是看谁开始同时改写岗位、产品速度和安全边界。",
+    "reference_image_urls": [],
+    "scene_elements": [
+      "one dominant visual idea",
+      "2-4 large visual nodes max",
+      "clear title area",
+      "one obvious structure"
+    ],
+    "key_relationships": [
+      "present one question and one promise",
+      "make the article worth clicking in one glance"
+    ],
+    "on_canvas_text": {
+      "headline": "AI 已经从 开场 走进了中",
+      "subheadline": "不是谁又发了模型",
+      "short_labels": []
+    },
+    "composition": {
+      "aspect_ratio": "5:2",
+      "layout_pattern": "diagram_left_text_right",
+      "text_position": "right",
+      "diagram_focus": "single central system diagram"
+    },
+    "visual_constraints": [
+      "wide editorial banner",
+      "clean empty space",
+      "flat shapes with restrained accents",
+      "short labels only"
+    ],
+    "negative_constraints": [
+      "no photorealism",
+      "no dense paragraphs in image",
+      "no random sci-fi effects"
+    ],
+    "generation_prefs": {
+      "aspect_ratio": "21:9",
+      "resolution": "2K",
+      "output_format": "png"
+    },
+    "text_budget": {
+      "max_text_blocks": 2,
+      "headline_max_chars": 16,
+      "subheadline_max_chars": 16,
+      "label_max_chars": 8,
+      "max_labels": 4
+    },
+    "prompt_seed": "Make this a hook-first cover. One question or tension, one promise, not a dense summary. Source context: The Cognitive Revolution"
+  },
+  "inline_images": [
+    {
+      "image_id": "inline_01",
+      "role": "inline",
+      "purpose": "Reset attention at the first major section transition and summarize the new concept block.",
+      "image_grammar": "example_comparison",
+      "diagram_type": "stage_evolution",
+      "concept_summary": "大多数人还在把 AI 赛道当成一连串发布会来理解：谁又更新了模型，谁又做了个更会写代码的 agent，谁又在排行榜上多拿了一点分数。但 Zvi Mowshowitz 这期最值得读的地方，恰恰在于他试图把镜头从“新闻”往后拉一步。他给出的判断很刺耳：AI 已经不太像故事刚开始时那…",
+      "section_ref": "framing",
+      "placement_rule": "Insert near the start of framing to reset attention at this section transition.",
+      "reference_image_urls": [],
+      "scene_elements": [
+        "left card vs right card",
+        "center arrow",
+        "one bottom takeaway",
+        "few text blocks"
+      ],
+      "key_relationships": [
+        "make the before/after or old/new contrast obvious",
+        "show why one example proves the point"
+      ],
+      "on_canvas_text": {
+        "headline": "Zvi Mowshow…",
+        "subheadline": "一个具体例子就够了",
+        "short_labels": []
+      },
+      "composition": {
+        "aspect_ratio": "16:9",
+        "layout_pattern": "single_concept_centered",
+        "text_position": "integrated",
+        "diagram_focus": "one section concept"
+      },
+      "visual_constraints": [
+        "keep labels short",
+        "focus on one concept only",
+        "maintain same house style as cover"
+      ],
+      "negative_constraints": [
+        "no decorative filler",
+        "no unrelated icons"
+      ],
+      "generation_prefs": {
+        "aspect_ratio": "16:9",
+        "resolution": "1K",
+        "output_format": "png"
+      },
+      "text_budget": {
+        "max_text_blocks": 4,
+        "headline_max_chars": 12,
+        "subheadline_max_chars": 10,
+        "label_max_chars": 8,
+        "max_labels": 6
+      },
+      "prompt_seed": "Use the example_comparison grammar. This is one visual job, not a paragraph summary: Zvi Mowshowitz 这期真正给出的，不是一串…"
+    }
+  ]
+}

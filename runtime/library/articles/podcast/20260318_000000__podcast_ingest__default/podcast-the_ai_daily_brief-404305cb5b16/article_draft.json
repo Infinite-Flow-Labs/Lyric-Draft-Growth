@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "source_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/03_source_items/podcast/items/podcast-the_ai_daily_brief-404305cb5b16/source_item.json",
+  "framework_match_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/06_routing/podcast/results/podcast-the_ai_daily_brief-404305cb5b16/framework_match.json",
+  "rewrite_context_ref": "/home/lyric/growth-engine-pipeline/content/runs/20260318_000000__podcast_ingest__default/07_rewrite_contexts/podcast/results/podcast-the_ai_daily_brief-404305cb5b16/rewrite_context.json",
+  "model": "codex-default",
+  "generated_at": "2026-03-18T09:48:27Z",
+  "output_language": "zh-CN",
+  "framework_id": "03_opinion_decode",
+  "submode_id": "signal_decode",
+  "requires_human_review": false,
+  "title": "AI 正在进入第二次震荡：不是更聪明，而是更难解释",
+  "dek": "这期最值得读的，不是某个单独爆点，而是爆点之间的共同指向：AI 已经从“能不能用”进入“会造成什么后果”的阶段。",
+  "body_markdown": "如果说第一次 ChatGPT 震荡让所有人意识到“原来 AI 真能用”，那现在发生的事更像第二次震荡：AI 不再只是演示，不再只是聊天框里的新奇感，而是在往代理、工作流、合规、版权和现实成本里硬挤。\n\n这也是为什么同一周里会出现这么多看似不相干的信号：Karpathy 的工作图被误读，狗癌症被 AI “治好”的故事在网上疯传，NVIDIA 的 GTC 预热，SEC 文件开始把 AI agents 列成 material risk，ByteDance 还因为版权争议把视频模型先搁置。这些材料放在一起看，指向的不是“AI 又火了”，而是“AI 已经开始碰到真正会出事的地方”。\n\nNLW 说这是 AI 的 “Second Moment”，我理解这个判断的重点不在修辞，而在结构：第一次是 ChatGPT 级别的公众震撼，第二次是 agent 级别的现实震撼。前者让普通人相信模型能说会写，后者会让更多人开始面对模型能执行、能串联系统、能介入流程之后的结果。规模更大了，参与的人更多了，经济赌注也更高了，最麻烦的是，这个行业已经有三年时间把自己的解释能力磨得更差了。\n\n所以今天最该警惕的，不是把每个热点都当成神迹，也不是急着把它们都打成噱头。更准确的读法是：AI 正在从“能力证明”转向“责任证明”。接下来真正重要的，不是谁又做出了一个更炫的 demo，而是谁能把 agent 放进生产环境、合规框架和商业约束里，还不把风险一并放大。",
+  "preserved_fact_anchors": [
+    "AI discourse is absolutely frenetic right now",
+    "Karpathy's misinterpreted jobs visualization",
+    "a viral dog cancer cure story that's both less and more than it seems",
+    "we're in AI's Second Moment",
+    "the original ChatGPT shock",
+    "NVIDIA's GTC",
+    "SEC filings quietly listing AI agents as a material risk",
+    "ByteDance shelving its video model over copyright disputes"
+  ],
+  "style_observations": [
+    "开头先给出一个判断，再回头解释为什么这个判断成立。",
+    "用并列的外部信号串出一条因果线，而不是做新闻条目罗列。",
+    "把抽象概念翻成更容易理解的阶段变化：从能力证明到责任证明。",
+    "保留了来源里的张力，但没有把它写成夸张的情绪稿。"
+  ],
+  "open_questions": []
+}

@@ -1,0 +1,44 @@
+{
+  "phase": "publish_queue",
+  "generated_at": "2026-03-25T09:38:04Z",
+  "date": "2026-03-25",
+  "publish_live": false,
+  "targets": [
+    "xiaodao-ai-lab"
+  ],
+  "job_count": 1,
+  "results": [
+    {
+      "account_id": "xiaodao-ai-lab",
+      "publisher_account": "xiaodao-ai-lab",
+      "publish_mode": "article",
+      "slot_dir": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-25/01",
+      "job_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-25/01/publish_job.json",
+      "command": [
+        "/tmp/x-post/.venv/bin/python",
+        "/tmp/x-post/x_schedule_post/cli.py",
+        "--mode",
+        "article",
+        "--dir",
+        "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-25/01",
+        "--accounts-csv",
+        "/home/lyric/growth-engine-pipeline/accounts_runtime/accounts_bitbrowser.csv",
+        "--account",
+        "xiaodao-ai-lab",
+        "--bit-api-port",
+        "54345",
+        "--dry-run"
+      ],
+      "started_at": "2026-03-25T09:36:03Z",
+      "finished_at": "2026-03-25T09:38:04Z",
+      "returncode": 1,
+      "stdout": "[17:36:04] CSV匹配账号: xiaodao-ai-lab -> browser_id=ca471b5d29744e6cbfd9506f7f28751c (bit-api-port=54345)\n[17:36:04] 已通过比特API获取调试地址: http://127.0.0.1:57797\n[17:36:04] 内容目录: /home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-25/01\n[17:36:04] MCP command: /home/lyric/.npm/_npx/15c61037b1978c83/node_modules/.bin/chrome-devtools-mcp --no-usage-statistics --browser-url=http://127.0.0.1:57797\n[17:36:05] 打开 Articles 写作入口...\n[17:36:16] 上传封面图 cover.jpg...\n[17:36:16] 封面图自动瘦身: cover.png (6965416 bytes) -> cover.cover.upload.jpg (315980 bytes)\n[17:36:23] 输入 article 标题...\n[17:36:24] 输入 article 正文...\n[17:36:31] 正文图片粘贴(browser clipboard): inline_01.png\n[17:36:32] browser clipboard 写入结果: {\"ok\": true, \"mimeType\": \"image/png\", \"bytesLength\": 1353510, \"imageName\": \"inline_01.png\"}\n[17:36:39] 媒体后恢复输入定位: {\"ok\": true, \"mediaBottom\": 0, \"targetTop\": 401, \"targetText\": \"composer\"}\n[17:38:02] 样式切换失败(bullet_list_reset -> body)，继续执行: [evaluate_script] The selected page has been closed. Call list_pages to see open pages.\n\n[x-schedule-post] [evaluate_script] The selected page has been closed. Call list_pages to see open pages.",
+      "stderr": "chrome-devtools-mcp exposes content of the browser instance to the MCP clients allowing them to inspect,\ndebug, and modify any data in the browser or DevTools.\nAvoid sharing sensitive or personal information that you do not want to share with MCP clients.\nPerformance tools may send trace URLs to the Google CrUX API to fetch real-user experience data. To disable, run with --no-performance-crux.",
+      "dry_run": true,
+      "status": "failed"
+    }
+  ],
+  "published_count": 0,
+  "dry_run_ok_count": 0,
+  "failed_count": 1
+}

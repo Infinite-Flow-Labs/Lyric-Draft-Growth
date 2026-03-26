@@ -1,0 +1,15 @@
+{
+  "plan_date": "2026-03-19",
+  "generated_at": "2026-03-19T10:21:31Z",
+  "queued_count": 1,
+  "items": [
+    {
+      "account_id": "xiaodao-ai-lab",
+      "slot": "01",
+      "queue_dir": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-19/01",
+      "publish_job": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-19/01/publish_job.json",
+      "publish_mode": "article",
+      "source_id": "x-op7418-a20aa8c443d2"
+    }
+  ]
+}

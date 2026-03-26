@@ -1,69 +1,56 @@
-# Project Directory Guide
-
-## Quick Reference
+# Project Directory
 
 ```
 growth-engine-pipeline/
-├── lane_v2/                    # Core pipeline code (L1 + L2)
-│   ├── assemble/               # L1: topic engine (clustering + routing)
-│   ├── route/                  # LLM backends (Anthropic/OpenAI/Codex)
-│   ├── write/                  # L2: writer + article_formatter
-│   ├── normalize/              # L0: source item normalization
-│   ├── configs/                # Writer configs (HUMANIZER, SIGNAL_BOOST, SCHEMA)
-│   ├── docs/                   # Lane contracts
-│   └── runs/                   # Pipeline run outputs (gitignored in production)
+├── pipeline/                     # All pipeline code
+│   ├── ingest/                   # L0: source acquisition
+│   │   ├── x/                    # X/Twitter ingestion
+│   │   ├── podcast/              # Podcast ingestion
+│   │   ├── normalize.py          # Source item normalization
+│   │   └── build_source_items*.py
+│   ├── engine/                   # L1: topic engine
+│   │   ├── topic_engine.py       # Clustering + routing + ranking
+│   │   ├── backend.py            # LLM backends (Anthropic/OpenAI/Codex)
+│   │   └── build_rewrite_contexts.py
+│   ├── writer/                   # L2: article generation
+│   │   ├── writer.py             # Main writer (pain point + generation + repair)
+│   │   └── formatter.py          # Article blocks + validation + sanitize
+│   ├── image/                    # L3: image generation
+│   │   ├── brief_builder.py      # Build image brief from article
+│   │   ├── generator.py          # Call baoyu/kie image APIs
+│   │   └── run_image_pipeline.py # Orchestrate brief → generate
+│   ├── publish/                  # L4: distribution + publish
+│   │   ├── assemble_queues.py    # Assign articles to accounts
+│   │   ├── publisher.py          # Orchestrate image → queue → publish
+│   │   └── x_post/              # X Articles publisher (bitbrowser)
+│   └── shared/                   # Shared utilities
 │
-├── content/pipeline/           # L0 + L3 + L4 code
-│   ├── ingest/                 # L0: source acquisition (podcast, x_whitelist)
-│   ├── normalize/              # L0: legacy source normalization
-│   ├── shared/                 # Shared utilities (web_feed_utils, enrichment)
-│   ├── write/                  # article_formatter wrapper (→ lane_v2)
-│   ├── publish/                # L3: image + L4: distribution + publish
-│   ├── configs/                # Image configs (STYLE_PROFILES, BRIEF template)
-│   └── _legacy/                # Deprecated code (do not use)
+├── configs/                      # All configuration
+│   ├── frameworks/               # 8 framework specs (01-08)
+│   ├── lanes/                    # Lane maps + topic engine policy
+│   ├── writer/                   # Humanizer, signal boost, schema
+│   ├── image/                    # Style profiles, brief template, style bridge
+│   └── publish/                  # Publish contract
 │
-├── framework/                  # 8 framework specs (01-08)
+├── runtime/                      # All runtime data
+│   ├── accounts/                 # Account profiles + publish queues
+│   ├── distribution/             # Distribution plans + manifests
+│   ├── library/                  # Published article archive
+│   └── runs/                     # Pipeline run outputs
 │
-├── configs/                    # [NEW] Unified config mirror
-│   ├── frameworks/             # Mirror of framework/
-│   ├── lanes/                  # Mirror of lane_v2/configs/lane_pilot/
-│   ├── writer/                 # Mirror of lane_v2/configs/
-│   ├── image/                  # Mirror of content/pipeline/configs/
-│   └── publish/                # Publish contracts
+├── docs/                         # Documentation
+│   ├── lane_contracts/           # Per-lane requirements
+│   └── *.md                      # Architecture, contracts, specs
 │
-├── docs/                       # [NEW] Unified documentation
-│   ├── lanes/                  # Lane requirements + contracts
-│   ├── article_contract.md
-│   └── article_image_style_spec.md
-│
-├── tools/                      # External tools
-│   └── x-schedule-post/        # X Articles publisher (modified, in-repo)
-│
-├── accounts_runtime/           # Account profiles + publish queues
-├── distribution_runtime/       # Distribution plans + manifests
-├── content/library/            # Published article archive
-│
-└── strategy/                   # Growth strategy docs
+└── strategy/                     # Growth strategy docs
 ```
 
-## Pipeline Flow (which code runs where)
+## Pipeline Flow
 
 ```
-L0  ingest     → content/pipeline/ingest/ + lane_v2/normalize/
-L1  engine     → lane_v2/assemble/run_t01_topic_engine.py
-L2  writer     → lane_v2/write/write_lane_articles.py
-L3  image      → content/pipeline/publish/run_article_image_pipeline.py
-L4  publish    → content/pipeline/publish/run_image_distribute_publish.py
-                  → tools/x-schedule-post/x_schedule_post/cli.py
+L0  pipeline/ingest/          → source_item.json
+L1  pipeline/engine/          → topic_card + lane_assignment + writer_packet
+L2  pipeline/writer/          → article_draft.json + article_draft.md
+L3  pipeline/image/           → cover.png + inline_*.png
+L4  pipeline/publish/         → publish via bitbrowser to X Articles
 ```
-
-## Config Locations (authoritative source)
-
-| Config | Authoritative Path | Mirror |
-|--------|-------------------|--------|
-| Framework specs | `framework/0N_*/FRAMEWORK_SPEC.json` | `configs/frameworks/` |
-| Lane map | `lane_v2/configs/lane_pilot/lane_framework_map.v1.json` | `configs/lanes/` |
-| Writer configs | `lane_v2/configs/*.json` | `configs/writer/` |
-| Image configs | `content/pipeline/configs/*.json` | `configs/image/` |
-
-**Important**: The authoritative source is the original location. `configs/` is a mirror for discoverability. If you edit a config, edit it at the authoritative path.

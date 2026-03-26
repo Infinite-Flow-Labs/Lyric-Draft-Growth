@@ -1,0 +1,12 @@
+{
+  "status": "failed_preflight",
+  "reason": "publish_contract_invalid",
+  "errors": [
+    "inline_insertion_before_text_too_short:block_1:0",
+    "inline_insertion_after_text_too_short:block_6:111"
+  ],
+  "warnings": [],
+  "account_id": "xiaodao-ai-lab",
+  "slot_dir": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-22/01",
+  "publish_spec_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/xiaodao-ai-lab/publish_queue/2026-03-22/01/article_publish_spec.json"
+}

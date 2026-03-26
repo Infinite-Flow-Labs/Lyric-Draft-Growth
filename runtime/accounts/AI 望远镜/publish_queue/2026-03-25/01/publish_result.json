@@ -1,0 +1,29 @@
+{
+  "account_id": "AI 望远镜",
+  "publisher_account": "AI 望远镜",
+  "publish_mode": "article",
+  "slot_dir": "/home/lyric/growth-engine-pipeline/accounts_runtime/AI 望远镜/publish_queue/2026-03-25/01",
+  "job_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/AI 望远镜/publish_queue/2026-03-25/01/publish_job.json",
+  "command": [
+    "/tmp/x-post/.venv/bin/python",
+    "/tmp/x-post/x_schedule_post/cli.py",
+    "--mode",
+    "article",
+    "--dir",
+    "/home/lyric/growth-engine-pipeline/accounts_runtime/AI 望远镜/publish_queue/2026-03-25/01",
+    "--accounts-csv",
+    "/home/lyric/growth-engine-pipeline/accounts_runtime/accounts_bitbrowser.csv",
+    "--account",
+    "AI 望远镜",
+    "--bit-api-port",
+    "54345",
+    "--dry-run"
+  ],
+  "started_at": "2026-03-25T08:16:26Z",
+  "finished_at": "2026-03-25T08:16:26Z",
+  "returncode": 1,
+  "stdout": "[16:16:26] CSV匹配账号: AI 望远镜 -> browser_id=0c045116ce514fab9bad0fd72944d75d (bit-api-port=54345)\n\n[x-schedule-post] failed to connect bit browser API http://127.0.0.1:54345/browser/open: <urlopen error [Errno 1] Operation not permitted>",
+  "stderr": "",
+  "dry_run": true,
+  "status": "failed"
+}

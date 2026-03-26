@@ -1,0 +1,1051 @@
+{
+  "schema_version": "2026-03-18.v1",
+  "full_fidelity": true,
+  "metadata": {
+    "framework_id": "06_checklist_template",
+    "framework_label": "能力交付型技术分享",
+    "legacy_label": "技术分享型（工作流 / Skill / 提示词）",
+    "status": "active",
+    "confidence": "high",
+    "last_reviewed": "2026-03-18",
+    "source_of_truth_refs": {
+      "framework_md": "framework/06_checklist_template/FRAMEWORK.md",
+      "style_profiles_md": "framework/06_checklist_template/STYLE_PROFILES.md",
+      "sample_decompositions_md": "framework/06_checklist_template/SAMPLE_DECOMPOSITIONS.md"
+    },
+    "notes": "Mature parent framework with 13 reclassified samples and 4 stable submodes. This spec is intended to remain non-lossy relative to the research markdown files."
+  },
+  "intent": {
+    "definition": "把一个复杂能力、工具、Skill、系统、流程或方法，压缩成读者能够理解、能够照做、能够迁移的执行路径。",
+    "core_value": "让读者知道为什么值得用、怎么开始或怎么增强、以及真正落地时要注意什么，从而显著降低试错成本。",
+    "core_tasks": [
+      "把复杂能力翻译成具体收益",
+      "把抽象方法压缩成可执行步骤或结构",
+      "替读者降低试错成本"
+    ]
+  },
+  "routing": {
+    "should_route_when": [
+      "source 的核心任务是把复杂能力压成可执行路径，而不是做纯观点表达或纯结果炫耀",
+      "读者读完后应该知道为什么值得用、怎么开始、怎样增强或如何做选择",
+      "正文依赖步骤、准备项、架构组件、装前装后对比、条目清单、FAQ、tips、repo 或命令作为主要证据",
+      "作者在替读者压缩决策成本，而不是只展示信息覆盖面"
+    ],
+    "should_not_route_when": [
+      "source 主要任务是转述他人观点、论文、播客或行业事件",
+      "source 主要任务是证明某个增长/赚钱/融资结果",
+      "source 主要任务是提出反主流判断或时代判断",
+      "source 没有明确执行路径，只有抽象介绍或感受"
+    ],
+    "source_fit": [
+      "安装、接入、配置、开通、完整攻略、入门路径",
+      "多 Agent 协作、系统设计、技术工作流、自治开发系统",
+      "给现有系统增加新 Skill、新接口、新器官或新能力",
+      "多个 skill/tool/repo/prompt 的精选清单，重点在先筛再试"
+    ],
+    "source_unfit": [
+      "纯新闻转述",
+      "纯市场评论",
+      "纯人物故事",
+      "纯产品发布 without execution path",
+      "纯框架观点文 without concrete actions"
+    ],
+    "strong_signals": [
+      "明确的读者收益承诺，例如保姆级、一文讲全、几分钟搞定、只看这篇就够了",
+      "步骤、准备项、FAQ、坑点、边界提醒、安装命令、repo 链接、配置项",
+      "角色分工、组件结构、工作流编排、文件和脚本锚点",
+      "装前/装后、旧状态/新能力、场景对比",
+      "我替你筛好了、直接拿去用、最后一个最强 这类清单式筛选姿态"
+    ],
+    "weak_signals": [
+      "标题里出现 Skill、教程、指南、接入、工作流、Agent Team、架构、清单",
+      "作者使用大量动作导向句而不是概念解释句",
+      "结尾补适用人群、边界、是否值得长期用"
+    ],
+    "disqualifiers": [
+      "只有结构没有收益承诺",
+      "只有工具介绍没有执行路径",
+      "只有能力清单没有具体证据",
+      "只有 abstract opinion 没有动作或验证",
+      "通篇更像 README 摘要、新闻转述或结果帖"
+    ],
+    "routing_questions": [
+      "这篇内容的核心目标是让读者开始做、理解系统、增强现有能力，还是从多个选项中做选择？",
+      "正文的主证据是步骤、架构组件、前后对比，还是条目清单？",
+      "作者是在替读者压缩决策成本，还是只是在介绍技术本身？",
+      "读者读完后能不能立刻行动？如果不能，大概率不该路由到 06。"
+    ]
+  },
+  "structure": {
+    "hidden_skeleton": [
+      "Hook",
+      "Why it matters",
+      "How to get/use/build it",
+      "Proof / Validation",
+      "Boundary / Close"
+    ],
+    "visible_template_bans": [
+      "不得把稳定段落流直接输出成固定小标题目录",
+      "不得每篇都使用首先/其次/最后的机械展开",
+      "不得把 Why、How、Proof 写成教科书式平铺段落",
+      "不得只满足结构，不保留样本里的语感和节奏",
+      "不得让每篇看起来像同一个模板换词"
+    ],
+    "allowed_surface_moves": [
+      "合并相邻功能段",
+      "调整局部顺序",
+      "省略弱功能段",
+      "用场景、对话、案例、反问、清单、FAQ 承载功能段",
+      "把一个功能段拆散到不同自然段中",
+      "先讲结果再补原理，或先讲场景再补步骤"
+    ],
+    "forbidden_surface_moves": [
+      "把隐式骨架翻成外显模板",
+      "所有文章都变成标准说明书",
+      "所有文章都变成固定编号教程",
+      "只保留结构，不保留样本语感",
+      "用过度均匀的段落长度制造假整齐感"
+    ],
+    "parameter_axes": [
+      {
+        "axis": "reader_state",
+        "values": [
+          "cold_start",
+          "using_but_blocked",
+          "system_builder",
+          "option_overload"
+        ]
+      },
+      {
+        "axis": "promise_type",
+        "values": [
+          "onboard",
+          "extend",
+          "architect",
+          "curate"
+        ]
+      },
+      {
+        "axis": "proof_mode",
+        "values": [
+          "step_by_step",
+          "before_after",
+          "components_and_roles",
+          "itemized_demo"
+        ]
+      },
+      {
+        "axis": "action_depth",
+        "values": [
+          "single_action",
+          "guided_path",
+          "multi_component_system"
+        ]
+      },
+      {
+        "axis": "close_mode",
+        "values": [
+          "validation",
+          "pitfalls",
+          "boundary_judgment",
+          "selection_advice"
+        ]
+      }
+    ],
+    "submodes": [
+      {
+        "submode_id": "guided_onboarding",
+        "label": "保姆级接入/安装教程",
+        "summary": "把安装、接入、配置、完整攻略类内容压成低门槛、可跟做、能避坑的上手路径。",
+        "use_when": [
+          "目标是把不会变成能开始做",
+          "读者最关心门槛、步骤和是否会踩坑",
+          "source 的主要承诺是跟着做完"
+        ],
+        "avoid_when": [
+          "正文真正重点在系统架构而不是上手路径",
+          "正文重点在给现有系统补能力而不是从零开始",
+          "正文主要价值来自清单筛选而不是步骤指导"
+        ],
+        "source_fit": [
+          "安装、接入、配置、开通、完整攻略、入门路径",
+          "需要准备清单、权限项、材料项、FAQ、风险提醒的内容"
+        ],
+        "source_unfit": [
+          "复杂系统设计拆解",
+          "能力补丁型短文",
+          "listicle 清单文"
+        ],
+        "hidden_flow": [
+          "Hook",
+          "Why this matters now",
+          "Prep / prerequisites",
+          "Step-by-step path",
+          "Validation / tips / FAQ",
+          "Boundary / close"
+        ],
+        "hook_patterns": [
+          "保姆级",
+          "一文讲全",
+          "几分钟搞定",
+          "0基础也能做",
+          "只看这篇就够了"
+        ],
+        "evidence_mix": [
+          "准备清单",
+          "操作步骤",
+          "命令 / 配置项",
+          "权限项 / 材料项",
+          "小技巧 / FAQ / 风险提醒"
+        ],
+        "reasoning_moves": [
+          "先降低门槛，再给步骤",
+          "先给大纲，再展开细节",
+          "多用动作导向句，而不是概念解释句",
+          "结尾补适不适合你或有什么坑"
+        ],
+        "rewrite_formula": "结果承诺 -> 进入门槛很低 -> 准备项 -> 步骤 -> 验证 -> 坑点/边界",
+        "surface_forms": [
+          "大纲",
+          "目录",
+          "步骤",
+          "FAQ",
+          "小技巧",
+          "注意事项"
+        ],
+        "anti_patterns": [
+          "只有步骤，没有告诉读者为什么值得做",
+          "只讲功能，不讲准备项",
+          "步骤太散，没有总览",
+          "全文没有验证/风险/边界提醒"
+        ],
+        "style_profile_id": "06_guided_onboarding_style",
+        "sample_ids": [
+          "2029894874888278198",
+          "2031396119104856437",
+          "2032432901812588603",
+          "2030878769955901844",
+          "2029203445589414147",
+          "2031555224968785990"
+        ]
+      },
+      {
+        "submode_id": "workflow_architecture",
+        "label": "系统设计/工作流架构拆解",
+        "summary": "把多 Agent 协作、系统设计和长期运行机制写成可想象、可模仿、可复用的系统模式。",
+        "use_when": [
+          "source 的主要承诺是理解并搭出一套系统",
+          "正文要解释为什么旧方法不行，以及新架构如何解决",
+          "证据主要是组件、角色、流程和真实运行结果"
+        ],
+        "avoid_when": [
+          "读者主要想跟着做完单个上手路径",
+          "正文重点在装上新能力后的场景收益",
+          "正文只是多个条目的精选清单"
+        ],
+        "source_fit": [
+          "多 Agent 协作",
+          "系统设计",
+          "长时间运行机制",
+          "技术工作流或自治开发系统"
+        ],
+        "source_unfit": [
+          "单点安装教程",
+          "单一 skill 升级说明",
+          "轻量清单分享"
+        ],
+        "hidden_flow": [
+          "Hook / end state",
+          "Current pain or blind spot",
+          "Core principle",
+          "Components / roles / files",
+          "Orchestration flow",
+          "Proof / result",
+          "Pitfalls / safeguards",
+          "Close"
+        ],
+        "hook_patterns": [
+          "我跑通了一套...",
+          "最后一公里 / 最后一环 / 盲点",
+          "5个AI员工",
+          "连续运行 X 小时"
+        ],
+        "evidence_mix": [
+          "角色分工",
+          "文件 / 组件结构",
+          "数据结构 / 命令 / 参数",
+          "工作流示例",
+          "真实项目结果",
+          "失败点或 safeguard"
+        ],
+        "reasoning_moves": [
+          "用系统比喻替代抽象概念",
+          "先讲为什么原来不行，再讲新架构",
+          "组件和流程分开写",
+          "最后用结果或边界回收，不让文章停在抽象层"
+        ],
+        "rewrite_formula": "结果/盲点 -> 为什么旧方法失效 -> 新原则 -> 组件 -> 编排 -> 结果 -> 风险边界",
+        "surface_forms": [
+          "问题定义",
+          "核心原则",
+          "组件说明",
+          "流程演示",
+          "safeguards"
+        ],
+        "anti_patterns": [
+          "只有架构图，没有真实运行结果",
+          "只有组件列表，没有串联流程",
+          "只有结果，没有解释为什么原方案不行",
+          "完全不提风险或 guardrails"
+        ],
+        "style_profile_id": "06_workflow_architecture_style",
+        "sample_ids": [
+          "2030113154739621909",
+          "2030123309594259506",
+          "2033261636195373123",
+          "2031412763902534069"
+        ]
+      },
+      {
+        "submode_id": "capability_extension",
+        "label": "能力扩展/补器官说明",
+        "summary": "给现有系统补一个新能力，不从零教学，而是强调装上之后立刻变强。",
+        "use_when": [
+          "source 的重点是给现有系统补一个新 skill / 模块 / 接口后显著增强现有工具",
+          "读者已经在用基础系统，但遇到了能力瓶颈",
+          "正文强调装前/装后差异而不是从零开始"
+        ],
+        "avoid_when": [
+          "正文更像完整入门教程",
+          "正文更像系统设计复盘",
+          "正文更像清单型筛选"
+        ],
+        "source_fit": [
+          "给现有系统补一个新能力",
+          "装一个新 skill / 模块 / 接口后显著增强现有工具"
+        ],
+        "source_unfit": [
+          "完整攻略",
+          "多角色架构文",
+          "多项精选列表"
+        ],
+        "hidden_flow": [
+          "Current limitation",
+          "Why default state is not enough",
+          "What the extension changes",
+          "Install / integrate",
+          "Before / after payoff",
+          "Close"
+        ],
+        "hook_patterns": [
+          "给 X 装上 Y",
+          "让 X 变成...",
+          "5分钟让你的 X 会做...",
+          "装了之后到底能干什么"
+        ],
+        "evidence_mix": [
+          "场景对话",
+          "装前/装后差异",
+          "新能力列表",
+          "安装指令",
+          "prompt 示例",
+          "自动结果描述"
+        ],
+        "reasoning_moves": [
+          "不先列功能，先写不够用的场景",
+          "用前后差异代替抽象性能描述",
+          "尽量把 skill 的价值翻译成业务动作",
+          "结尾把能力升维成新器官/新大脑/新员工"
+        ],
+        "rewrite_formula": "现有不足 -> 新能力补洞 -> 怎么装 -> 装完能做什么 -> 为什么值",
+        "surface_forms": [
+          "场景痛点",
+          "装前/装后对比",
+          "功能包总结",
+          "能力升级说明"
+        ],
+        "anti_patterns": [
+          "只介绍 skill 名称，不告诉读者它补了什么洞",
+          "只有安装链接，没有装后场景",
+          "能力描述过散，没有前后差异主线"
+        ],
+        "style_profile_id": "06_capability_extension_style",
+        "sample_ids": [
+          "2031965027314647316",
+          "2031552504593526946"
+        ]
+      },
+      {
+        "submode_id": "curated_list",
+        "label": "精选清单/替你筛好",
+        "summary": "多个 skill/tool/repo/prompt 的精选清单，文章价值来自筛选，而不是深入拆一个单点。",
+        "use_when": [
+          "source 的主要承诺是我替你筛好了一组可以直接试的东西",
+          "正文重心在降低决策成本而不是深讲单项",
+          "每个条目都应该附带 demo、安装入口或 repo"
+        ],
+        "avoid_when": [
+          "条目其实很少且单项需要完整教程",
+          "正文重点在单个能力增强",
+          "正文重点在系统架构而不是筛选"
+        ],
+        "source_fit": [
+          "多个 skill / tool / repo / prompt 的精选清单",
+          "读者目标是先拿一组可以试的东西"
+        ],
+        "source_unfit": [
+          "完整入门攻略",
+          "架构拆解",
+          "装前/装后增强说明"
+        ],
+        "hidden_flow": [
+          "Why this list matters",
+          "Item 1..N",
+          "Each item = what it solves + quick demo + action link",
+          "Selection advice / close"
+        ],
+        "hook_patterns": [
+          "N 个",
+          "最后一个最强",
+          "我替你筛好了",
+          "直接拿去用"
+        ],
+        "evidence_mix": [
+          "每项的 demo",
+          "安装指令",
+          "仓库链接",
+          "适用场景"
+        ],
+        "reasoning_moves": [
+          "高密度列举",
+          "每项都能立刻行动",
+          "用悬念词提高看完率",
+          "用你不需要全懂，先试降低心理成本"
+        ],
+        "rewrite_formula": "为什么值得看 -> 按项快速展示 -> 每项都能立刻试 -> 收尾给选择建议",
+        "surface_forms": [
+          "条目化快扫",
+          "每项 demo + 安装入口 + repo",
+          "精选清单"
+        ],
+        "anti_patterns": [
+          "清单里每项都没有行动入口",
+          "清单太长但没有筛选逻辑",
+          "所有条目都只写功能，没有场景"
+        ],
+        "style_profile_id": "06_curated_list_style",
+        "sample_ids": [
+          "2033803842668949834"
+        ]
+      }
+    ]
+  },
+  "style": {
+    "global_style_principles": [
+      "都在替读者压缩决策成本",
+      "都很少从抽象定义开始",
+      "都倾向于先给结果感、场景感或问题感",
+      "都把复杂能力翻成可执行动作",
+      "都保留较强的人说话感，而不是说明书口吻",
+      "必须走 隐式结构层 + 样本语感层，而不是稳定段落流 = 最终文章结构"
+    ],
+    "global_anti_ai_rules": [
+      "避免过于完整均匀的段落长度",
+      "避免每段都像说明书",
+      "避免机械性的总分总",
+      "避免反复出现标准转折词",
+      "避免清单、目录、小标题过度使用",
+      "避免每篇都长得像同一个模板换词",
+      "允许某些功能段合并或由一个案例带过去",
+      "允许先讲结果再补原理，或者先讲场景再补步骤",
+      "必须局部保留样本里的口语感、判断感、提醒感"
+    ],
+    "submode_profiles": [
+      {
+        "style_profile_id": "06_guided_onboarding_style",
+        "submode_id": "guided_onboarding",
+        "tone_core": "像一个熟门熟路的人在带新人上手，不是冷静中立，而是带一点热情、提醒和替读者省事的姿态。",
+        "opening_moves": [
+          "先承诺：保姆级 / 一文讲全 / 几分钟搞定",
+          "先交代背景热度或现实问题",
+          "先说你不用担心门槛",
+          "先给目录、大纲或步骤总览，降低焦虑",
+          "少数样本会用小故事或角色对话把新概念拉近"
+        ],
+        "sentence_rhythm": [
+          "整体偏快",
+          "短句密度高",
+          "感叹和反问明显比其他子模式多",
+          "经常是短句推进 + 小列表插入",
+          "读起来像人边讲边提醒，不像论文"
+        ],
+        "surface_forms": [
+          "大纲",
+          "目录",
+          "步骤",
+          "FAQ",
+          "小技巧",
+          "注意事项",
+          "如果你只想解决问题，直接看这段"
+        ],
+        "language_moves": [
+          "先把门槛压低：完全不会也行、无脑跟着做就行",
+          "主动替读者预判顾虑：贵不贵、麻不麻烦、会不会失败",
+          "喜欢把复杂词翻成生活化说法",
+          "收尾经常补一句边界判断"
+        ],
+        "keep": [
+          "朋友式教学感",
+          "降门槛动作",
+          "步骤前的总览感",
+          "中途提醒和小技巧",
+          "最后的边界判断"
+        ],
+        "avoid": [
+          "所有文章都变成准备 -> 步骤1/2/3 -> 总结",
+          "每篇都用同一套编号标题",
+          "把样本里的口语感洗没"
+        ],
+        "ai_smells": [
+          "把所有步骤平均铺开，变成说明书",
+          "每段都很工整，没有人味提醒",
+          "只写步骤，不写为什么值得做",
+          "结尾没有边界提醒，只剩总结一下"
+        ],
+        "one_sentence_portrait": "像一个已经踩过坑的人，在帮你把第一次上手的心理负担和试错成本一起拿掉。"
+      },
+      {
+        "style_profile_id": "06_workflow_architecture_style",
+        "submode_id": "workflow_architecture",
+        "tone_core": "像工程师在做系统复盘或架构拆解，情绪浓度低于 onboarding，但判断性更强。",
+        "opening_moves": [
+          "先说结论 / 我跑通了一套",
+          "最后一环 / 最后一公里 / 盲点",
+          "先亮结果，再回头讲系统"
+        ],
+        "sentence_rhythm": [
+          "平均句长明显更长",
+          "解释句占比高",
+          "常见短句打痛点 + 长句解释架构",
+          "会出现结构锚点：文件名、角色名、step 名、系统名"
+        ],
+        "surface_forms": [
+          "组件说明",
+          "角色拆分",
+          "工作流 step",
+          "系统原则",
+          "配置片段 / 数据结构示例",
+          "真实运行结果",
+          "safeguard / pitfalls"
+        ],
+        "language_moves": [
+          "先定义问题，不直接堆方案",
+          "把架构讲成人能理解的模型：轮班工人、团队协作、两阶段流程",
+          "组件和流程分开写",
+          "结果段很重要，用来证明不是纸上谈兵"
+        ],
+        "keep": [
+          "明确的问题定义",
+          "核心设计原则",
+          "架构锚点",
+          "运行中的动态感",
+          "最后的 guardrails 或边界判断"
+        ],
+        "avoid": [
+          "用空泛的系统语言替代具体例子",
+          "每篇都写成背景-方案-优势-结论的标准 PPT 腔",
+          "强行把所有组件都列成小标题"
+        ],
+        "ai_smells": [
+          "把架构写成百科条目",
+          "只有组件列表，没有运行中的动态感",
+          "只有这个系统包含 A/B/C，没有为什么这样设计",
+          "没有结果验证，只剩空洞原则"
+        ],
+        "one_sentence_portrait": "像一个真的把系统跑起来的人，在向同类解释它为什么能跑、怎么跑，以及哪里最容易翻车。"
+      },
+      {
+        "style_profile_id": "06_capability_extension_style",
+        "submode_id": "capability_extension",
+        "tone_core": "不是从零教学，而是现有状态不够用，我给你补一块。",
+        "opening_moves": [
+          "你的 X 是否也有这样的困境",
+          "装了之后到底能干什么",
+          "先给读者一组失败场景",
+          "先把旧状态写得不够爽，再提出扩展能力"
+        ],
+        "sentence_rhythm": [
+          "句子最短",
+          "场景切换很频繁",
+          "经常用对话、提问、前后对比推进",
+          "不是长解释，而是痛点一刀刀打进去"
+        ],
+        "surface_forms": [
+          "场景一 / 场景二 / 场景三",
+          "装前 / 装后",
+          "能力列表",
+          "prompt 示例",
+          "安装入口",
+          "收益归纳"
+        ],
+        "language_moves": [
+          "不先讲功能定义，先讲不装时有多难受",
+          "用新大脑 / 新超能力 / 新员工这类能力隐喻升维",
+          "安装动作通常很短，主体重点放在值不值得装",
+          "经常把技术能力翻译成业务动作或日常结果"
+        ],
+        "keep": [
+          "明确的旧状态不足",
+          "装前/装后差异",
+          "技术能力翻译成使用场景",
+          "最后的能力升维句"
+        ],
+        "avoid": [
+          "把全文写成 README 摘要",
+          "一股脑罗列功能点",
+          "场景和安装顺序颠倒，让读者还没觉得值就先去装"
+        ],
+        "ai_smells": [
+          "只剩这个 skill 支持什么功能",
+          "痛点写得像功能缺陷列表，没有真实使用感",
+          "安装动作过长，冲淡了能力增强主线",
+          "结尾只是欢迎使用"
+        ],
+        "one_sentence_portrait": "像在告诉一个已经上手工具的人：你卡住的不是不会用，而是还没给它装上这块关键器官。"
+      },
+      {
+        "style_profile_id": "06_curated_list_style",
+        "submode_id": "curated_list",
+        "tone_core": "作者位置更像 curator，不像老师；重点是我替你筛好了。",
+        "opening_moves": [
+          "先讲为什么现在值得看这个清单",
+          "先给一点个人判断或圈内判断",
+          "很快进入列表，不长篇铺垫"
+        ],
+        "sentence_rhythm": [
+          "最碎、最快",
+          "条目切换快",
+          "段落很短",
+          "高频使用演示一句话 + 安装入口 + 链接组合"
+        ],
+        "surface_forms": [
+          "列表",
+          "demo 句",
+          "repo 链接",
+          "安装指令",
+          "最后一个更强/更有记忆点"
+        ],
+        "language_moves": [
+          "不解释太多原理",
+          "更强调你可以直接试",
+          "一项一项给行动入口",
+          "轻微保留悬念和推荐感"
+        ],
+        "keep": [
+          "低决策成本",
+          "高行动密度",
+          "每项都有入口",
+          "curator 的筛选姿态"
+        ],
+        "avoid": [
+          "把清单写成综述长文",
+          "每项都解释过深",
+          "过度整齐，像数据表格转 prose"
+        ],
+        "ai_smells": [
+          "清单里每一项长度完全一样",
+          "每项都按同样句式机械展开",
+          "只有功能介绍，没有我为什么选它",
+          "悬念写得太假"
+        ],
+        "one_sentence_portrait": "像一个已经试过一圈的人，把真正值得先上手的几样东西捞出来递给你。"
+      }
+    ]
+  },
+  "samples": {
+    "sample_count": 13,
+    "sample_refs": [
+      {
+        "sample_id": "2030113154739621909",
+        "title": "7*24小时全栈开发的性价比黑奴：Agent Team",
+        "url": "https://x.com/bggg_ai/status/2030113154739621909",
+        "author": "@bggg_ai",
+        "submode_id": "workflow_architecture",
+        "why_it_matters": "最完整的问题 -> 架构 -> 实装 -> 结果闭环样本。",
+        "hook_move": "开头直接给出连续运行 10 小时以上、自动处理复杂全栈开发的结果。",
+        "proof_mode": [
+          "亲身实战",
+          "关键文件结构",
+          "命令参数",
+          "角色分工",
+          "测试结果"
+        ],
+        "reusable_parts": [
+          "先打 AI 编程最后一公里痛点，再给架构原则",
+          "用文件即记忆统一后续组件",
+          "用真实项目验收证明方法有效"
+        ],
+        "non_reusable_parts": [
+          "TKCreator 项目背景",
+          "具体模型选择",
+          "截图",
+          "个人部署环境"
+        ],
+        "style_cue": "结论先行、工程比喻、组件清单、阶段升级叙事。"
+      },
+      {
+        "sample_id": "2030878769955901844",
+        "title": "一文讲全：2026香港银行卡开户、转账、投资完整攻略",
+        "url": "https://x.com/onehopeA9/status/2030878769955901844",
+        "author": "@onehopeA9",
+        "submode_id": "guided_onboarding",
+        "why_it_matters": "大而全保姆级指南的标准样本，目录、清单、对比、流程、风险提醒齐全。",
+        "hook_move": "标题和目录共同制造这篇讲全了的心理预期。",
+        "proof_mode": [
+          "实际经历",
+          "政策信息",
+          "材料清单",
+          "银行对比",
+          "场景映射"
+        ],
+        "reusable_parts": [
+          "目录先行",
+          "先讲为什么值得做，再讲怎么做",
+          "对比和流程并行",
+          "最后补风险提示"
+        ],
+        "non_reusable_parts": [
+          "香港银行政策细节",
+          "具体费用",
+          "个人开户经历"
+        ],
+        "style_cue": "替读者做决策的保姆级攻略写法。"
+      },
+      {
+        "sample_id": "2031965027314647316",
+        "title": "给你的 OpenClaw 装上\"搜索大脑\"！四引擎并行让信息检索超人一等",
+        "url": "https://x.com/onehopeA9/status/2031965027314647316",
+        "author": "@onehopeA9",
+        "submode_id": "capability_extension",
+        "why_it_matters": "典型的给现有系统补一个关键能力模块的写法。",
+        "hook_move": "用是否也有这样的困境把读者带进使用失败场景。",
+        "proof_mode": [
+          "场景对话",
+          "前后对比",
+          "安装指令",
+          "功能结果"
+        ],
+        "reusable_parts": [
+          "先以失败场景代替功能清单",
+          "强调装前/装后差异",
+          "安装部分尽量压缩到一步",
+          "结尾用能力包归纳"
+        ],
+        "non_reusable_parts": [
+          "OpenClaw",
+          "具体仓库链接",
+          "具体引擎组合"
+        ],
+        "style_cue": "场景提问、能力命名、夸张但具体的效率承诺、结尾升维。"
+      },
+      {
+        "sample_id": "2030123309594259506",
+        "title": "用OpenClaw搭跨境电商团队：5个AI员工，跑通全平台矩阵！",
+        "url": "https://x.com/bggg_ai/status/2030123309594259506",
+        "author": "@bggg_ai",
+        "submode_id": "workflow_architecture",
+        "why_it_matters": "把多 Agent 系统讲成可想象、可模仿的业务工作流。",
+        "hook_move": "5个AI员工，跑通全平台矩阵，把抽象架构翻译成业务组织。",
+        "proof_mode": [
+          "角色分工",
+          "案例链路",
+          "飞书配置细节",
+          "常见坑"
+        ],
+        "reusable_parts": [
+          "用 AI 员工代替抽象 agent",
+          "用单一任务贯通全链路",
+          "配置教程后置",
+          "最后单列坑点"
+        ],
+        "non_reusable_parts": [
+          "跨境电商业务场景",
+          "具体 role 命名",
+          "飞书权限细节"
+        ],
+        "style_cue": "拟人化、业务场景化、问题驱动 FAQ、强演示感。"
+      },
+      {
+        "sample_id": "2029894874888278198",
+        "title": "VSCode + Copilot 保姆级 AI 编程实战教程，免费用 Claude，夯爆了！",
+        "url": "https://x.com/yupi996/status/2029894874888278198",
+        "author": "@yupi996",
+        "submode_id": "guided_onboarding",
+        "why_it_matters": "典型的保姆级入门教程，价值点在替初学者做路径压缩。",
+        "hook_move": "用保姆级 + 免费用 Claude 同时抓住难度和成本两个敏感点。",
+        "proof_mode": [
+          "个人体验",
+          "快捷键",
+          "功能列表",
+          "试用信息",
+          "资源入口"
+        ],
+        "reusable_parts": [
+          "先给为什么值得用，再进安装",
+          "基础操作按使用场景分块",
+          "结尾加试用和练手资源，推动真正行动"
+        ],
+        "non_reusable_parts": [
+          "Copilot 试用政策",
+          "学生免费",
+          "特定快捷键和项目推荐"
+        ],
+        "style_cue": "朋友式教学、门槛感知强、分步清晰、带一点夸张语气。"
+      },
+      {
+        "sample_id": "2031396119104856437",
+        "title": "OpenClaw 安装 + 接入QQ 保姆级教程！附上门卸载服务",
+        "url": "https://x.com/yupi996/status/2031396119104856437",
+        "author": "@yupi996",
+        "submode_id": "guided_onboarding",
+        "why_it_matters": "保姆级教程的完整节奏样本，且教程完成后补了适不适合你的边界判断。",
+        "hook_move": "安装 + 接入 QQ + 保姆级，把最终可见结果和低门槛一起打出来。",
+        "proof_mode": [
+          "安装步骤",
+          "命令",
+          "接入场景",
+          "卸载命令",
+          "使用判断"
+        ],
+        "reusable_parts": [
+          "教程前先压低读者心理门槛",
+          "先给步骤总览再展开",
+          "加入退出路径和适用边界，提高可信度"
+        ],
+        "non_reusable_parts": [
+          "QQ 渠道",
+          "OpenClaw 安装细节",
+          "作者个人判断"
+        ],
+        "style_cue": "门槛极低的承诺、连续否定句降压、朋友式提醒、最后反 hype。"
+      },
+      {
+        "sample_id": "2033261636195373123",
+        "title": "\"永续\" Agent 的最后一环：Self-Improving Skills",
+        "url": "https://x.com/xxx111god/status/2033261636195373123",
+        "author": "@xxx111god",
+        "submode_id": "workflow_architecture",
+        "why_it_matters": "概念型技术分享的标准样本，把抽象新概念压成可执行的五步框架。",
+        "hook_move": "指出永续系统真正还没被解决的一环是 Skills 本身。",
+        "proof_mode": [
+          "长期使用场景",
+          "版本号",
+          "失败教训",
+          "伪数据结构",
+          "优化例子"
+        ],
+        "reusable_parts": [
+          "先写系统盲点，再抛循环模型",
+          "每步都绑定错误案例",
+          "结尾补 safeguards，防止文章被看成空洞概念"
+        ],
+        "non_reusable_parts": [
+          "作者使用的具体 skill 数量",
+          "个人写作风格 skill 版本",
+          "相关链接"
+        ],
+        "style_cue": "框架命名、步骤化、每步都有目标/实现/错误、最后升维总结。"
+      },
+      {
+        "sample_id": "2032432901812588603",
+        "title": "OpenClaw接入飞书保姆级教程，几分钟搞定手机养龙虾！",
+        "url": "https://x.com/yupi996/status/2032432901812588603",
+        "author": "@yupi996",
+        "submode_id": "guided_onboarding",
+        "why_it_matters": "渠道接入型教程的标准格式：先说能干什么，再给准备项和短链路步骤。",
+        "hook_move": "几分钟搞定手机养龙虾，把时间成本和结果体验绑在一起。",
+        "proof_mode": [
+          "步骤清单",
+          "权限说明",
+          "命令示例",
+          "使用 tips"
+        ],
+        "reusable_parts": [
+          "接入类教程优先保证几步走",
+          "正文重点放配置",
+          "尾部追加小技巧提高实用感"
+        ],
+        "non_reusable_parts": [
+          "飞书权限项",
+          "具体 slash 命令",
+          "导流信息"
+        ],
+        "style_cue": "无脑跟做、短步骤、实用型 tips、教程结束后再强化收益。"
+      },
+      {
+        "sample_id": "2031412763902534069",
+        "title": "Don't spend $20 for a code review. Build custom PR agents on Cloudflare for pennies",
+        "url": "https://x.com/_bgiori/status/2031412763902534069",
+        "author": "@_bgiori",
+        "submode_id": "workflow_architecture",
+        "why_it_matters": "英文技术分享型高质量样本，先对标市场方案，再抽象自己的通用 workflow pattern。",
+        "hook_move": "标题直接把价格和替代方案对冲。",
+        "proof_mode": [
+          "内部 use case",
+          "具体 stack",
+          "执行流程",
+          "安全设计",
+          "UX 模式"
+        ],
+        "reusable_parts": [
+          "先对标市场方案，再抽象自己的通用模式",
+          "正文按 stack / phase / why it matters 展开",
+          "最后回到原则总结"
+        ],
+        "non_reusable_parts": [
+          "Cloudflare 生态",
+          "Amplitude 场景",
+          "具体工具名"
+        ],
+        "style_cue": "强对比开头、命名清楚、两阶段结构、工程写作里的 takeaway bullet。"
+      },
+      {
+        "sample_id": "2029203445589414147",
+        "title": "什么是 Elasticsearch？都要学什么？",
+        "url": "https://x.com/yupi996/status/2029203445589414147",
+        "author": "@yupi996",
+        "submode_id": "guided_onboarding",
+        "why_it_matters": "概念入门也能写成教程的典型样本，用故事导入和分阶段学习路径降低理解难度。",
+        "hook_move": "用 SQL 搜索上线后被投诉让技术概念立刻变具体。",
+        "proof_mode": [
+          "业务故事",
+          "概念解释",
+          "阶段学习法",
+          "基础操作"
+        ],
+        "reusable_parts": [
+          "用故事带出技术名词",
+          "学习路径先分阶段，再补操作",
+          "结尾强调实战型技术要多练"
+        ],
+        "non_reusable_parts": [
+          "具体角色故事",
+          "ES 本身的底层特性"
+        ],
+        "style_cue": "角色扮演、对话式教学、把概念翻成人话、鼓励实践。"
+      },
+      {
+        "sample_id": "2033803842668949834",
+        "title": "5个龙虾Skill开源分享，最后一个堪称「神级」",
+        "url": "https://x.com/vista8/status/2033803842668949834",
+        "author": "@vista8",
+        "submode_id": "curated_list",
+        "why_it_matters": "工具/skill 清单型技术分享的标准写法，核心不是深讲一个能力，而是多例子、多安装指令和选择性悬念。",
+        "hook_move": "5个 + 最后一个神级，共同制造浏览动力。",
+        "proof_mode": [
+          "skill demo",
+          "安装指令",
+          "GitHub 地址"
+        ],
+        "reusable_parts": [
+          "清单文章的关键是每项都能立刻试",
+          "demo + install + repo 三件套稳定复用"
+        ],
+        "non_reusable_parts": [
+          "具体 skill 名和仓库",
+          "个性化 CTA"
+        ],
+        "style_cue": "清单感强、悬念驱动、短段落、高密度可执行动作。"
+      },
+      {
+        "sample_id": "2031555224968785990",
+        "title": "OpenClaw 龙虾完全卸载指南！",
+        "url": "https://x.com/ityouknows/status/2031555224968785990",
+        "author": "@ityouknows",
+        "submode_id": "guided_onboarding",
+        "why_it_matters": "极窄需求型教程的代表，正文高度压缩，直接给最快动作链。",
+        "hook_move": "先强调好用但要注意安全，再给只看卸载命令直接拉到文末的捷径承诺。",
+        "proof_mode": [
+          "命令",
+          "文档链接",
+          "安全提醒"
+        ],
+        "reusable_parts": [
+          "对极窄需求文章，不需要大背景",
+          "先给最快路径",
+          "正文尽量短"
+        ],
+        "non_reusable_parts": [
+          "OpenClaw 命令路径",
+          "社群导流"
+        ],
+        "style_cue": "快捷入口、极短动作链、安全导向。"
+      },
+      {
+        "sample_id": "2031552504593526946",
+        "title": "这个OPENCLAW SKILL,5分钟，让你的虾帮你全市场选股，全热点追踪",
+        "url": "https://x.com/onehopeA9/status/2031552504593526946",
+        "author": "@onehopeA9",
+        "submode_id": "capability_extension",
+        "why_it_matters": "场景型 skill 分享标准样本，不先讲安装，而是先证明装完能替你做什么专业工作。",
+        "hook_move": "5分钟 + 全市场选股 + 全热点追踪，把安装成本和结果收益直接绑定。",
+        "proof_mode": [
+          "场景案例",
+          "可调用接口",
+          "prompt 示例",
+          "分析结果描述"
+        ],
+        "reusable_parts": [
+          "不直接卖功能，而是卖应用场景",
+          "把能力写成 prompt 与结果链条，更容易迁移到其他 skill"
+        ],
+        "non_reusable_parts": [
+          "Tushare 和 A 股语境",
+          "具体金融指标和机构席位"
+        ],
+        "style_cue": "场景 -> 传统做法 -> AI 做法对照、行业词汇、工具人格化。"
+      }
+    ],
+    "coverage_notes": "Current sample pool covers 13 reclassified examples and supports four stable submodes. Coverage is strongest for guided_onboarding and workflow_architecture, moderate for capability_extension, and thin but still valid for curated_list."
+  },
+  "execution_controls": {
+    "must_keep": [
+      "明确读者收益",
+      "可执行动作",
+      "具体证据支撑",
+      "降低试错成本",
+      "边界提醒或适用范围",
+      "保留目标样本的语气和节奏，而不是只保留结构"
+    ],
+    "must_avoid": [
+      "只剩功能介绍",
+      "只剩抽象评价",
+      "把隐式骨架直接翻译成外显模板",
+      "只满足结构，不保留样本人味",
+      "把技术分享写成说明书"
+    ],
+    "rewrite_failure_modes": [
+      "结构上完整但表面像模板拼装",
+      "语气正确但信息组织散掉",
+      "把 capability_extension 写成纯安装文",
+      "把 workflow_architecture 写成组件列表 without dynamics",
+      "把 guided_onboarding 写成无边界的操作手册",
+      "把 curated_list 写成没有行动入口的榜单"
+    ],
+    "quality_checks": [
+      "是否先交代了读者收益，而不是一上来堆功能点",
+      "是否给出了执行路径，而不是只停留在概念层",
+      "是否使用了具体证据，例如步骤、命令、场景、对比、角色分工、项目结果、仓库链接",
+      "是否降低了读者的不确定性，例如准备清单、步骤总览、FAQ、坑点、边界提醒",
+      "是否保留了相应子模式的语感而不是只保留结构",
+      "是否避免了机械性的总分总和过度整齐的小标题"
+    ],
+    "human_review_triggers": [
+      "source 同时看起来像 06 与 02 或 03，存在跨框架歧义",
+      "router 无法确定该走哪个子模式",
+      "writer 输出后表面模板感强，疑似只学结构没学语感",
+      "curated_list 只有 1-2 个条目，可能不应走清单模式",
+      "sample coverage 与 source 场景距离过大，需要人工确认是否真的属于能力交付型技术分享"
+    ]
+  }
+}
