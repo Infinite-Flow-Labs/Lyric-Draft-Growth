@@ -1,0 +1,63 @@
+{
+  "version": "2026-03-25.v2",
+  "source_skill": "/home/lyric/.codex/skills/Humanizer-zh/SKILL.md",
+  "purpose": "Writer-stage anti-AI-writing packet. Use during first-pass generation, not as a post-hoc humanizer rewrite.",
+  "core_principles": [
+    "Delete filler phrases and rhetorical crutches.",
+    "Break formula structures; do not rely on binary reveal or dramatic setup as default.",
+    "Vary rhythm with mixed sentence lengths and paragraph endings.",
+    "Trust the reader; state facts directly instead of over-softening or over-explaining.",
+    "Delete quote-bait lines that sound manufactured."
+  ],
+  "voice_rules": [
+    "Keep a real point of view when the source supports one.",
+    "Allow complexity or mixed judgment instead of flattening into clean certainty.",
+    "Use first-person only when it fits the article stance and does not fabricate experience.",
+    "Prefer concrete feeling or consequence over abstract importance claims.",
+    "Sound like an informed human writer, not a neutral recap engine."
+  ],
+  "ai_smells_to_avoid": [
+    "Overstating symbolic significance or legacy",
+    "Promotional or ad-like wording",
+    "Sentence-ending -ing style pseudo-analysis",
+    "Vague attribution such as experts say or observers note",
+    "Formulaic challenge-and-future section",
+    "Overused AI vocabulary such as additionally, crucial, landscape, showcase, underscore",
+    "Not only X but Y constructions",
+    "Forced rule-of-three lists",
+    "Excessive synonym cycling",
+    "Fake scope constructions such as from X to Y without meaningful scale",
+    "Em dash overuse",
+    "Bold-heavy emphasis",
+    "Inline bold-title bullet lists",
+    "Emoji decoration",
+    "Chatty assistant phrases such as hope this helps or great question",
+    "Stale bridge phrase: 这个判断太轻了",
+    "Stale bridge phrase: 官方说得很直接",
+    "Stale bridge phrase: 最值得看",
+    "Stale bridge phrase: 更容易看清",
+    "Stale bridge phrase: 说透",
+    "Stale bridge phrase: 很清楚"
+  ],
+  "preferred_rewrites": [
+    "Replace abstract importance claims with concrete function, result, or consequence.",
+    "Replace vague authority with specific source-backed attribution or remove it.",
+    "Replace hype adjectives with factual detail.",
+    "Collapse inflated three-part phrasing into cleaner two-part or direct statements.",
+    "Prefer simple is/has/can statements when they are the clearest form."
+  ],
+  "writer_guardrails": [
+    "Do not erase the framework's structure or sample-derived rhythm while humanizing.",
+    "Do not strip away the article's hook, tension, or middle resets in the name of sounding natural.",
+    "Do not weaken hard judgments into generic neutrality.",
+    "Do not change facts, names, metrics, dates, or causal claims beyond source support."
+  ],
+  "self_check": [
+    "Does any paragraph sound like polished AI explanation instead of authored prose?",
+    "Are there any empty importance claims without concrete payload?",
+    "Did the article overuse connector words, rhetorical framing, or triads?",
+    "Does the piece still feel like a person is making judgments rather than summarizing content?",
+    "Did humanization preserve the article's real tension and framework discipline?",
+    "Did I remove stale bridge phrases like 这个判断太轻了 / 官方说得很直接 / 最值得看 / 更容易看清 / 说透 / 很清楚?"
+  ]
+}

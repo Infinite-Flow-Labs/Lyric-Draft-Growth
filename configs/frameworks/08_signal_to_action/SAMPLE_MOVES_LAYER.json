@@ -1,0 +1,281 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T03:47:45Z",
+  "source": {
+    "framework_id": "08_signal_to_action",
+    "sample_decompositions_md": "/home/lyric/growth-engine-pipeline/framework/08_signal_to_action/SAMPLE_DECOMPOSITIONS.md",
+    "sample_count": 2
+  },
+  "sample_cards": [
+    {
+      "title": "The 5 AI Skills That Will Be Worth $350K in 2027. Right Now, You Have 90 Days to Learn Them.",
+      "author": "@Zephyr_hg",
+      "submode_id": "`market_window_playbook`",
+      "opportunity_object": "`skill`",
+      "signal_source": "隐藏在招聘和业务系统需求里的薪资与能力信号。",
+      "core_decode": "作者不是在做泛 AI 励志，而是在说：企业真正缺的是系统级 AI 能力，而不是表层会用工具的人，因此现在存在一个先学先卡位的窗口。",
+      "hook_move": "先说“大多数专业人士正在错过一件事”，再立刻把未来薪资和 90 天窗口钉出来。",
+      "proof_mode": [
+        "未来薪资 anchor",
+        "五项 skills 清单",
+        "为什么这几项会涨价",
+        "为什么窗口只有现在",
+        "compounding logic"
+      ],
+      "reusable_parts": [
+        "先给 market gap，再给列表",
+        "每个 skill 都要解释商业稀缺性",
+        "urgency 来自时点差，不是情绪勒索"
+      ],
+      "non_reusable_parts": [
+        "`$350K`、`90 days` 这种具体定价和时长",
+        "Mastery Bundle 的具体销售收口"
+      ],
+      "style_cue": "这是典型的“未来价值预警 + 当下卡位”文章，商业性很强，但骨架也很清晰。 ---",
+      "sample_id": "2033549188261146778"
+    },
+    {
+      "title": "The 4 Job Titles That Will Pay $200K in 2028. Almost Nobody Is Training for Them.",
+      "author": "@Zephyr_hg",
+      "submode_id": "`market_window_playbook`",
+      "opportunity_object": "`job_title`",
+      "signal_source": "AI 正在重写公司组织结构，但绝大多数人还在学表层工具，没看到新岗位正在形成。",
+      "core_decode": "文章把“AI 融入企业组织”的变化翻译成 4 个具体岗位，并强调这些岗位的训练路径尚未标准化，因此存在提早布局的机会。",
+      "hook_move": "先说“这些岗位几乎还不存在”，再给 2028 年和 `$200K` 的薪资锚点。",
+      "proof_mode": [
+        "新岗位清单",
+        "企业组织需求",
+        "为什么现在没人训练",
+        "为什么两年后窗口会关闭"
+      ],
+      "reusable_parts": [
+        "岗位不是凭空编的，要写出组织需求来源",
+        "先解释为什么旧路径不够，再讲新岗位",
+        "结尾要收在“先定义角色的人会拿走优势”"
+      ],
+      "non_reusable_parts": [
+        "4 个具体岗位命名",
+        "`$200K` 等具体数字",
+        "Mastery Bundle 的销售收口"
+      ],
+      "style_cue": "和上一篇是同一写法引擎：用未来岗位而不是未来技能承载同一个“窗口预警”任务。 ---",
+      "sample_id": "2033848970238161112"
+    }
+  ],
+  "moves_layer": {
+    "title_layer": {
+      "title_examples": [
+        "The 5 AI Skills That Will Be Worth $350K in 2027. Right Now, You Have 90 Days to Learn Them.",
+        "The 4 Job Titles That Will Pay $200K in 2028. Almost Nobody Is Training for Them."
+      ],
+      "title_feature_stats": {
+        "count": 2,
+        "with_number": 2,
+        "with_question_mark": 0,
+        "with_colon_or_dash": 0,
+        "avg_length": 86.5
+      }
+    },
+    "opening_hook_layer": {
+      "moves": [
+        "先说“大多数专业人士正在错过一件事”，再立刻把未来薪资和 90 天窗口钉出来。",
+        "先说“这些岗位几乎还不存在”，再给 2028 年和 `$200K` 的薪资锚点。"
+      ],
+      "top_moves": [
+        {
+          "text": "先说“大多数专业人士正在错过一件事”，再立刻把未来薪资和 90 天窗口钉出来。",
+          "count": 1
+        },
+        {
+          "text": "先说“这些岗位几乎还不存在”，再给 2028 年和 `$200K` 的薪资锚点。",
+          "count": 1
+        }
+      ]
+    },
+    "mid_transition_layer": {
+      "moves": [
+        "先给 market gap，再给列表",
+        "每个 skill 都要解释商业稀缺性",
+        "urgency 来自时点差，不是情绪勒索",
+        "未来薪资 anchor",
+        "五项 skills 清单",
+        "为什么这几项会涨价",
+        "为什么窗口只有现在",
+        "compounding logic",
+        "岗位不是凭空编的，要写出组织需求来源",
+        "先解释为什么旧路径不够，再讲新岗位",
+        "新岗位清单",
+        "企业组织需求",
+        "为什么现在没人训练",
+        "为什么两年后窗口会关闭"
+      ],
+      "top_moves": [
+        {
+          "text": "先给 market gap，再给列表",
+          "count": 1
+        },
+        {
+          "text": "每个 skill 都要解释商业稀缺性",
+          "count": 1
+        },
+        {
+          "text": "urgency 来自时点差，不是情绪勒索",
+          "count": 1
+        },
+        {
+          "text": "未来薪资 anchor",
+          "count": 1
+        },
+        {
+          "text": "五项 skills 清单",
+          "count": 1
+        },
+        {
+          "text": "为什么这几项会涨价",
+          "count": 1
+        },
+        {
+          "text": "为什么窗口只有现在",
+          "count": 1
+        },
+        {
+          "text": "compounding logic",
+          "count": 1
+        },
+        {
+          "text": "岗位不是凭空编的，要写出组织需求来源",
+          "count": 1
+        },
+        {
+          "text": "先解释为什么旧路径不够，再讲新岗位",
+          "count": 1
+        },
+        {
+          "text": "新岗位清单",
+          "count": 1
+        },
+        {
+          "text": "企业组织需求",
+          "count": 1
+        },
+        {
+          "text": "为什么现在没人训练",
+          "count": 1
+        },
+        {
+          "text": "为什么两年后窗口会关闭",
+          "count": 1
+        }
+      ]
+    },
+    "closing_carry_layer": {
+      "moves": [
+        "结尾要收在“先定义角色的人会拿走优势”"
+      ],
+      "top_moves": [
+        {
+          "text": "结尾要收在“先定义角色的人会拿走优势”",
+          "count": 1
+        }
+      ]
+    },
+    "evidence_combo_layer": {
+      "evidence_units": [
+        "未来薪资 anchor",
+        "五项 skills 清单",
+        "为什么这几项会涨价",
+        "为什么窗口只有现在",
+        "compounding logic",
+        "新岗位清单",
+        "企业组织需求",
+        "为什么现在没人训练",
+        "为什么两年后窗口会关闭"
+      ],
+      "top_evidence_units": [
+        {
+          "text": "未来薪资 anchor",
+          "count": 1
+        },
+        {
+          "text": "五项 skills 清单",
+          "count": 1
+        },
+        {
+          "text": "为什么这几项会涨价",
+          "count": 1
+        },
+        {
+          "text": "为什么窗口只有现在",
+          "count": 1
+        },
+        {
+          "text": "compounding logic",
+          "count": 1
+        },
+        {
+          "text": "新岗位清单",
+          "count": 1
+        },
+        {
+          "text": "企业组织需求",
+          "count": 1
+        },
+        {
+          "text": "为什么现在没人训练",
+          "count": 1
+        },
+        {
+          "text": "为什么两年后窗口会关闭",
+          "count": 1
+        }
+      ]
+    },
+    "language_action_layer": {
+      "language_moves": [
+        "这是典型的“未来价值预警 + 当下卡位”文章，商业性很强，但骨架也很清晰。 ---",
+        "和上一篇是同一写法引擎：用未来岗位而不是未来技能承载同一个“窗口预警”任务。 ---"
+      ],
+      "top_language_moves": [
+        {
+          "text": "这是典型的“未来价值预警 + 当下卡位”文章，商业性很强，但骨架也很清晰。 ---",
+          "count": 1
+        },
+        {
+          "text": "和上一篇是同一写法引擎：用未来岗位而不是未来技能承载同一个“窗口预警”任务。 ---",
+          "count": 1
+        }
+      ]
+    },
+    "rewrite_forbidden_zone_layer": {
+      "non_reusable_parts": [
+        "$350K`、`90 days` 这种具体定价和时长",
+        "Mastery Bundle 的具体销售收口",
+        "4 个具体岗位命名",
+        "$200K` 等具体数字",
+        "Mastery Bundle 的销售收口"
+      ],
+      "top_non_reusable_parts": [
+        {
+          "text": "$350K`、`90 days` 这种具体定价和时长",
+          "count": 1
+        },
+        {
+          "text": "Mastery Bundle 的具体销售收口",
+          "count": 1
+        },
+        {
+          "text": "4 个具体岗位命名",
+          "count": 1
+        },
+        {
+          "text": "$200K` 等具体数字",
+          "count": 1
+        },
+        {
+          "text": "Mastery Bundle 的销售收口",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

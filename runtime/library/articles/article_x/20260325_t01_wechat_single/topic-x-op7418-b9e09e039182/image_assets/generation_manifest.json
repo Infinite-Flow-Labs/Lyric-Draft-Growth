@@ -1,0 +1,25 @@
+{
+  "brief_path": "/home/lyric/growth-engine-pipeline/content/library/articles/article_x/20260325_t01_wechat_single/topic-x-op7418-b9e09e039182/article_image_brief.json",
+  "engine": "kie",
+  "model": "nano-banana-2",
+  "jobs": [
+    {
+      "image_id": "cover_01",
+      "role": "cover",
+      "task_id": "dc180d8a45727fc7eebc34876eb0edbd",
+      "state": "success",
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1774426292125-mjqc9qp6oe.png"
+      ]
+    },
+    {
+      "image_id": "inline_01",
+      "role": "inline",
+      "task_id": "cb275d2f43fd8e0e7e26d698b299f3f5",
+      "state": "success",
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1774426557372-ao8eozq5tcj.png"
+      ]
+    }
+  ]
+}

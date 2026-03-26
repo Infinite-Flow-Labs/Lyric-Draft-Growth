@@ -1,5 +1,0 @@
-{
-  "pain_point": "You deployed a voice agent to handle customer interactions, and it went off-script—making claims your brand didn't authorize, promising things customer service can't deliver, or failing to stay on-topic—leaving you scrambling to manage the customer fallout and damage to your reputation.",
-  "hook_sentence": "You've deployed your voice agent to production, and for the first time, a customer called back angry because the agent promised something that was never authorized.",
-  "who_feels_it": "Product leads and operations teams running AI voice agents or conversational applications in production who lack runtime control over agent behavior and brand compliance."
-}

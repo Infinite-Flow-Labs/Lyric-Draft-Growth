@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-03-25T03:47:45Z",
+  "framework_root": "/home/lyric/growth-engine-pipeline/framework",
+  "count": 8,
+  "results": [
+    {
+      "framework_dir": "/home/lyric/growth-engine-pipeline/framework/01_money_proof",
+      "sample_count": 4,
+      "output_json": "/home/lyric/growth-engine-pipeline/framework/01_money_proof/SAMPLE_MOVES_LAYER.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/framework/01_money_proof/SAMPLE_MOVES_LAYER.md"
+    },
+    {
+      "framework_dir": "/home/lyric/growth-engine-pipeline/framework/02_launch_application",
+      "sample_count": 8,
+      "output_json": "/home/lyric/growth-engine-pipeline/framework/02_launch_application/SAMPLE_MOVES_LAYER.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/framework/02_launch_application/SAMPLE_MOVES_LAYER.md"
+    },
+    {
+      "framework_dir": "/home/lyric/growth-engine-pipeline/framework/03_opinion_decode",
+      "sample_count": 7,
+      "output_json": "/home/lyric/growth-engine-pipeline/framework/03_opinion_decode/SAMPLE_MOVES_LAYER.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/framework/03_opinion_decode/SAMPLE_MOVES_LAYER.md"
+    },
+    {
+      "framework_dir": "/home/lyric/growth-engine-pipeline/framework/04_failure_reversal",
+      "sample_count": 4,
+      "output_json": "/home/lyric/growth-engine-pipeline/framework/04_failure_reversal/SAMPLE_MOVES_LAYER.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/framework/04_failure_reversal/SAMPLE_MOVES_LAYER.md"
+    },
+    {
+      "framework_dir": "/home/lyric/growth-engine-pipeline/framework/05_ab_benchmark",
+      "sample_count": 2,
+      "output_json": "/home/lyric/growth-engine-pipeline/framework/05_ab_benchmark/SAMPLE_MOVES_LAYER.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/framework/05_ab_benchmark/SAMPLE_MOVES_LAYER.md"
+    },
+    {
+      "framework_dir": "/home/lyric/growth-engine-pipeline/framework/06_checklist_template",
+      "sample_count": 13,
+      "output_json": "/home/lyric/growth-engine-pipeline/framework/06_checklist_template/SAMPLE_MOVES_LAYER.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/framework/06_checklist_template/SAMPLE_MOVES_LAYER.md"
+    },
+    {
+      "framework_dir": "/home/lyric/growth-engine-pipeline/framework/07_contrarian_take",
+      "sample_count": 12,
+      "output_json": "/home/lyric/growth-engine-pipeline/framework/07_contrarian_take/SAMPLE_MOVES_LAYER.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/framework/07_contrarian_take/SAMPLE_MOVES_LAYER.md"
+    },
+    {
+      "framework_dir": "/home/lyric/growth-engine-pipeline/framework/08_signal_to_action",
+      "sample_count": 2,
+      "output_json": "/home/lyric/growth-engine-pipeline/framework/08_signal_to_action/SAMPLE_MOVES_LAYER.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/framework/08_signal_to_action/SAMPLE_MOVES_LAYER.md"
+    }
+  ]
+}
