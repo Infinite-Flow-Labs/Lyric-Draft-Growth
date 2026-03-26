@@ -1,7 +1,0 @@
-{
-  "publisher_type": "x_post_bitbrowser",
-  "publisher_account": "Hugging Future",
-  "browser_id": "e2ab40db521447a984f026c91c1522e7",
-  "bit_port": 54345,
-  "accounts_csv_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/accounts_bitbrowser.csv"
-}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-26T05:34:22Z",
+  "policy": {
+    "max_age_hours": 168,
+    "require_canonical_url": true,
+    "min_text_words": 25,
+    "drop_if_exact_duplicate": true,
+    "family_max_age_hours": {
+      "official_x": 168,
+      "article_x": 240,
+      "post_x": 96
+    },
+    "family_min_text_words": {
+      "official_x": 18,
+      "article_x": 25,
+      "post_x": 8
+    }
+  },
+  "input_count": 20,
+  "passed_count": 11,
+  "rejected_count": 9,
+  "load_error_count": 0,
+  "rejected": [
+    {
+      "signal_id": "x-ai_jasonyu-26e02c281cbb",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2036471604859806146",
+      "reasons": [
+        "text_words_below_min:21<25"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-0cc40a328686",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2036456000694133127",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-6b3600223661",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2036090084634886569",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-berryxia-60c02b6ba4c7",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/berryxia/status/2036297242341155242",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-berryxia-a438d77a42db",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/berryxia/status/2036605929899302950",
+      "reasons": [
+        "text_words_below_min:13<25"
+      ]
+    },
+    {
+      "signal_id": "x-chuhaiqu-38b887d98a20",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036625373715448110",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-281c0f0019eb",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2036670816344064290",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-8688e1daaaad",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2036535229024792788",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-f6b4a0386726",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2036577857942499670",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    }
+  ],
+  "load_errors": []
+}

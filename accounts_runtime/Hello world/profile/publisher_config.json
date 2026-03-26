@@ -1,7 +1,0 @@
-{
-  "publisher_type": "x_post_bitbrowser",
-  "publisher_account": "Hello world",
-  "browser_id": "9a780222bd4943fa89a11ef398f9fca5",
-  "bit_port": 54345,
-  "accounts_csv_path": "/home/lyric/growth-engine-pipeline/accounts_runtime/accounts_bitbrowser.csv"
-}

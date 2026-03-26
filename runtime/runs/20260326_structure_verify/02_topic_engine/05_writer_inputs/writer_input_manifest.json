@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-26T05:34:22Z",
+  "count": 5,
+  "selection_mode": "auto_select_topics",
+  "review_required": false,
+  "writer_inputs": [
+    {
+      "topic_id": "topic-x-chuhaiqu-0e03768e6ed4",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/02_topic_cards/topic-x-chuhaiqu-0e03768e6ed4/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-chuhaiqu-0e03768e6ed4/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/04_source_bundles/topic-x-chuhaiqu-0e03768e6ed4/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-fc4d55fcde88",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/02_topic_cards/topic-x-berryxia-fc4d55fcde88/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-berryxia-fc4d55fcde88/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/04_source_bundles/topic-x-berryxia-fc4d55fcde88/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-a1a20dcc5f6f",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/02_topic_cards/topic-x-berryxia-a1a20dcc5f6f/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-berryxia-a1a20dcc5f6f/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/04_source_bundles/topic-x-berryxia-a1a20dcc5f6f/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-be5152c5042a",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/02_topic_cards/topic-x-chuhaiqu-be5152c5042a/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-chuhaiqu-be5152c5042a/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/04_source_bundles/topic-x-chuhaiqu-be5152c5042a/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-c07411c79b38",
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/02_topic_cards/topic-x-berryxia-c07411c79b38/topic_card.json",
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-berryxia-c07411c79b38/lane_assignment.json",
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/04_source_bundles/topic-x-berryxia-c07411c79b38/source_bundle.json"
+    }
+  ]
+}

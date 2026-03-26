@@ -1,5 +1,0 @@
-{
-  "pain_point": "Your aerospace platform runs mission-critical workflows that were built for the pre-AI era—complex legacy systems that handle safety, compliance, and operational continuity. You know AI could speed up design iteration, anomaly detection, or operational planning, but integrating new AI models into these hardened systems requires custom integration work, certification reviews, and vendor collaboration that your current tooling doesn't support.",
-  "hook_sentence": "If you're an aerospace engineer or platform architect stuck between legacy system stability and the pressure to adopt AI, Cohere's partnership with Saab signals a concrete path: AI built for constrained, high-stakes environments.",
-  "who_feels_it": "Aerospace and defense platform architects, systems engineers at companies like Saab who manage complex operational systems, and CTOs evaluating whether off-the-shelf AI models can fit into regulated, mission-critical workflows without breaking compliance."
-}

@@ -1,0 +1,469 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-26T05:34:22Z",
+  "count": 11,
+  "assignments": [
+    {
+      "topic_id": "topic-x-chuhaiqu-0e03768e6ed4",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 50.68,
+      "eligible_for_write": true,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 52.0,
+          "lane_final_score": 50.68,
+          "rationale": "release_signal_present | external_source_present | strong_fact_density | user_impact_present",
+          "requirement_failures": [],
+          "eligible_for_write": true,
+          "requires_human_review": false
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 42.0,
+          "lane_final_score": 43.68,
+          "rationale": "release_signal_present | external_source_present | strong_fact_density | user_impact_present | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": true,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-chuhaiqu-0e03768e6ed4/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-fc4d55fcde88",
+      "selected_lane_id": "T06_capability_delivery",
+      "framework_id": "06_checklist_template",
+      "submode_id": "workflow_architecture",
+      "lane_final_score": 61.24,
+      "eligible_for_write": true,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 68.0,
+          "lane_final_score": 61.24,
+          "rationale": "release_signal_present | external_source_present | strong_fact_density | user_impact_present | preferred_has_stepwise_signal | stepwise_signal_hit",
+          "requirement_failures": [],
+          "eligible_for_write": true,
+          "requires_human_review": false
+        },
+        {
+          "lane_id": "T04_failure_reversal",
+          "lane_label": "纠偏转向型",
+          "framework_id": "04_failure_reversal",
+          "submode_id": "system_pivot",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.5,
+          "rewrite_ratio": 0.5,
+          "lane_fit_score": 64.0,
+          "lane_final_score": 58.44,
+          "rationale": "release_signal_present | external_source_present | strong_fact_density | user_impact_present | failure_signal_hit",
+          "requirement_failures": [],
+          "eligible_for_write": true,
+          "requires_human_review": false
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-berryxia-fc4d55fcde88/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-fkysly-24f87f5ad00f",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 31.62,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 28.0,
+          "lane_final_score": 31.62,
+          "rationale": "release_signal_missing | external_source_present | enough_fact_density",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 18.0,
+          "lane_final_score": 24.62,
+          "rationale": "release_signal_missing | external_source_present | enough_fact_density | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-fkysly-24f87f5ad00f/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-astronaut_1216-7ecccf4ff1a8",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 28.74,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 24.0,
+          "lane_final_score": 28.74,
+          "rationale": "release_signal_missing | external_source_present | basic_fact_density",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 14.0,
+          "lane_final_score": 21.74,
+          "rationale": "release_signal_missing | external_source_present | basic_fact_density | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-astronaut_1216-7ecccf4ff1a8/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-a1a20dcc5f6f",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 35.47,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 34.0,
+          "lane_final_score": 35.47,
+          "rationale": "release_signal_missing | external_source_present | enough_fact_density | user_impact_present",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 24.0,
+          "lane_final_score": 28.47,
+          "rationale": "release_signal_missing | external_source_present | enough_fact_density | user_impact_present | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-berryxia-a1a20dcc5f6f/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-85cb65cf579e",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 32.49,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 32.0,
+          "lane_final_score": 32.49,
+          "rationale": "release_signal_missing | external_source_present | strong_fact_density",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 22.0,
+          "lane_final_score": 25.49,
+          "rationale": "release_signal_missing | external_source_present | strong_fact_density | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-berryxia-85cb65cf579e/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-be5152c5042a",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 32.47,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 32.0,
+          "lane_final_score": 32.47,
+          "rationale": "release_signal_missing | external_source_present | strong_fact_density",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 22.0,
+          "lane_final_score": 25.47,
+          "rationale": "release_signal_missing | external_source_present | strong_fact_density | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-chuhaiqu-be5152c5042a/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-c07411c79b38",
+      "selected_lane_id": "T07_contrarian_take",
+      "framework_id": "07_contrarian_take",
+      "submode_id": "category_reframe",
+      "lane_final_score": 45.07,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T07_contrarian_take",
+          "lane_label": "逆主流判断型",
+          "framework_id": "07_contrarian_take",
+          "submode_id": "category_reframe",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.7,
+          "rewrite_ratio": 0.3,
+          "lane_fit_score": 50.0,
+          "lane_final_score": 45.07,
+          "rationale": "release_signal_missing | external_source_present | strong_fact_density | preferred_has_contrarian_signal | contrarian_signal_hit",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 32.0,
+          "lane_final_score": 32.47,
+          "rationale": "release_signal_missing | external_source_present | strong_fact_density",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-berryxia-c07411c79b38/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-0b72570c46a8",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 32.39,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 32.0,
+          "lane_final_score": 32.39,
+          "rationale": "release_signal_missing | external_source_present | strong_fact_density",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 22.0,
+          "lane_final_score": 25.39,
+          "rationale": "release_signal_missing | external_source_present | strong_fact_density | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-chuhaiqu-0b72570c46a8/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-astronaut_1216-d74627a57dba",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 26.54,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 24.0,
+          "lane_final_score": 26.54,
+          "rationale": "release_signal_missing | external_source_present | basic_fact_density",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 14.0,
+          "lane_final_score": 19.54,
+          "rationale": "release_signal_missing | external_source_present | basic_fact_density | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-astronaut_1216-d74627a57dba/lane_assignment.json"
+    },
+    {
+      "topic_id": "topic-x-danshipper-f44fc13fe3f3",
+      "selected_lane_id": "T02_signal_decode",
+      "framework_id": "03_opinion_decode",
+      "submode_id": "signal_decode",
+      "lane_final_score": 29.25,
+      "eligible_for_write": false,
+      "forced_lane_override": {},
+      "lane_candidates": [
+        {
+          "lane_id": "T02_signal_decode",
+          "lane_label": "外部信号解码型",
+          "framework_id": "03_opinion_decode",
+          "submode_id": "signal_decode",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.4,
+          "rewrite_ratio": 0.6,
+          "lane_fit_score": 28.0,
+          "lane_final_score": 29.25,
+          "rationale": "release_signal_missing | external_source_present | enough_fact_density",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        },
+        {
+          "lane_id": "T06_capability_delivery",
+          "lane_label": "能力交付型",
+          "framework_id": "06_checklist_template",
+          "submode_id": "workflow_architecture",
+          "composition_mode": "mixed",
+          "generation_ratio": 0.6,
+          "rewrite_ratio": 0.4,
+          "lane_fit_score": 18.0,
+          "lane_final_score": 22.25,
+          "rationale": "release_signal_missing | external_source_present | enough_fact_density | stepwise_signal_missing",
+          "requirement_failures": [],
+          "eligible_for_write": false,
+          "requires_human_review": true
+        }
+      ],
+      "lane_assignment_json": "/home/lyric/growth-engine-pipeline/runtime/runs/20260326_structure_verify/02_topic_engine/03_lane_assignments/topic-x-danshipper-f44fc13fe3f3/lane_assignment.json"
+    }
+  ]
+}
