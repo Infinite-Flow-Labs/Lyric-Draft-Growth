@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://growth-engine.local/article-draft.schema.json",
+  "title": "ArticleDraft",
+  "description": "Framework-controlled article draft produced from source_item.json plus rewrite_context.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source_ref",
+    "framework_match_ref",
+    "rewrite_context_ref",
+    "model",
+    "generated_at",
+    "output_language",
+    "framework_id",
+    "submode_id",
+    "requires_human_review",
+    "title",
+    "dek",
+    "body_markdown",
+    "preserved_fact_anchors",
+    "style_observations",
+    "open_questions"
+  ],
+  "$defs": {
+    "non_empty_string": {
+      "type": "string",
+      "minLength": 1
+    },
+    "string_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/non_empty_string"
+      }
+    },
+    "article_block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "text"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "hero_heading",
+            "section_heading",
+            "paragraph",
+            "bullet_list",
+            "quote",
+            "link_cta",
+            "closing_slogan"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "items": {
+          "$ref": "#/$defs/string_list"
+        },
+        "url": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "source_ref": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "framework_match_ref": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "rewrite_context_ref": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "model": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "generated_at": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "output_language": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "framework_id": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "submode_id": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "requires_human_review": {
+      "type": "boolean"
+    },
+    "title": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "dek": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "body_markdown": {
+      "type": "string",
+      "minLength": 120
+    },
+    "preserved_fact_anchors": {
+      "$ref": "#/$defs/string_list"
+    },
+    "style_observations": {
+      "$ref": "#/$defs/string_list"
+    },
+    "open_questions": {
+      "$ref": "#/$defs/string_list"
+    },
+    "article_blocks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/article_block"
+      }
+    },
+    "publishing_hints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_label": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "closing_slogan": {
+          "type": "string"
+        },
+        "primary_link_url": {
+          "type": "string"
+        },
+        "primary_link_label": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

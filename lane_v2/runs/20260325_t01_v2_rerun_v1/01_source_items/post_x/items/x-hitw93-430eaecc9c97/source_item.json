@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-hitw93-430eaecc9c97",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/HiTw93/status/2036444601016615307",
+  "author": {
+    "handle": "@HiTw93",
+    "display_name": "HiTw93",
+    "account_url": "https://x.com/HiTw93"
+  },
+  "title": "之前一直纠结要不要买一个制冰机，不过家里只有我一个人喜欢喝冰水，感觉使用率不高，还占位置，之前冻冰块也不方便，一般是要喝的时候发现忘记冻了，发现有一个好东西，就是直接买几个成品冰块放冰箱，要用的时候直接拿出来，还可以直接夏天做美式，性价比非常高。",
+  "language": "unknown",
+  "published_at": "2026-03-24T14:06:42Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/HiTw93/status/2036444601016615307",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/HiTw93/status/2036444601016615307#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "之前一直纠结要不要买一个制冰机，不过家里只有我一个人喜欢喝冰水，感觉使用率不高，还占位置，之前冻冰块也不方便，一般是要喝的时候发现忘记冻了，发现有一个好东西，就是直接买几个成品冰块放冰箱，要用的时候直接拿出来，还可以直接夏天做美式，性价比非常高。",
+    "full_text": "Post title: 之前一直纠结要不要买一个制冰机，不过家里只有我一个人喜欢喝冰水，感觉使用率不高，还占位置，之前冻冰块也不方便，一般是要喝的时候发现忘记冻了，发现有一个好东西，就是直接买几个成品冰块放冰箱，要用的时候直接拿出来，还可以直接夏天做美式，性价比非常高。\n\nPost summary: 之前一直纠结要不要买一个制冰机，不过家里只有我一个人喜欢喝冰水，感觉使用率不高，还占位置，之前冻冰块也不方便，一般是要喝的时候发现忘记冻了，发现有一个好东西，就是直接买几个成品冰块放冰箱，要用的时候直接拿出来，还可以直接夏天做美式，性价比非常高。\n\nCanonical URL: https://x.com/HiTw93/status/2036444601016615307",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL",
+      "HiTw93"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "之前一直纠结要不要买一个制冰机，不过家里只有我一个人喜欢喝冰水，感觉使用率不高，还占位置，之前冻冰块也不方便，一般是要喝的时候发现忘记冻了，发现有一个好东西，就是直接买几个成品冰块放冰箱，要用的时候直接拿出来，还可以直接夏天做美式，性价比非常高。",
+      "Post",
+      "Canonical URL",
+      "HiTw93"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

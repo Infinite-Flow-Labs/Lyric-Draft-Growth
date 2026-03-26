@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-pmbackttfuture-f67f05a1fbc2",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/PMbackttfuture/status/2035919745602789573",
+  "author": {
+    "handle": "@PMbackttfuture",
+    "display_name": "PMbackttfuture",
+    "account_url": "https://x.com/PMbackttfuture"
+  },
+  "title": "谁不想有一个这样的美女助理呢？",
+  "language": "unknown",
+  "published_at": "2026-03-23T03:21:07Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/PMbackttfuture/status/2035919745602789573",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/PMbackttfuture/status/2035919745602789573#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "谁不想有一个这样的美女助理呢？",
+    "full_text": "Post title: 谁不想有一个这样的美女助理呢？\n\nPost summary: 谁不想有一个这样的美女助理呢？\n\nCanonical URL: https://x.com/PMbackttfuture/status/2035919745602789573",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL",
+      "PMbackttfuture"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "谁不想有一个这样的美女助理呢？",
+      "Post",
+      "Canonical URL",
+      "PMbackttfuture"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

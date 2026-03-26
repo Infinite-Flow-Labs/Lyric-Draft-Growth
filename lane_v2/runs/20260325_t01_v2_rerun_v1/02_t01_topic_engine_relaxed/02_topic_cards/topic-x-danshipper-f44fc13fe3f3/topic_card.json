@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-danshipper-f44fc13fe3f3",
+  "event_seed_signal_id": "x-danshipper-f44fc13fe3f3",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "this is so good obviously the future",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 38.03,
+  "heat_breakdown": {
+    "volume_score": 29.8,
+    "velocity_score": 33.39,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "ramp labs",
+  "cluster_signal_ids": [
+    "x-danshipper-f44fc13fe3f3"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/danshipper/status/2036251531570278825",
+    "published_at": "2026-03-24T01:19:31Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 6
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-chuhaiqu-a72a9a06f015",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/chuhaiqu/status/2036121044143259853",
+  "author": {
+    "handle": "@chuhaiqu",
+    "display_name": "chuhaiqu",
+    "account_url": "https://x.com/chuhaiqu"
+  },
+  "title": "OpenClaw 刚刚发的 3.22 新版直接把默认模型切到了 GPT-5.4，还顺手内置了 Exa 搜索和全新的沙箱环境。 还有很多其他更新和 bug 修复，这应该是我看过最长的开源项目更新日子了！",
+  "language": "unknown",
+  "published_at": "2026-03-23T16:41:00Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/chuhaiqu/status/2036121044143259853",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/chuhaiqu/status/2036121044143259853#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "OpenClaw 刚刚发的 3.22 新版直接把默认模型切到了 GPT-5.4，还顺手内置了 Exa 搜索和全新的沙箱环境。 还有很多其他更新和 bug 修复，这应该是我看过最长的开源项目更新日子了！ OpenClaw🦞 (@openclaw) OpenClaw 2026.3.22 🦞 🏪 ClawHub plugin marketplace 🤖 MiniMax M2.7, GPT-5.4-mini/nano + per-agent reasoning 💬 /btw side questions 🏖️ OpenShell + SSH sandboxes 🌐 Exa, Tavily, Firecrawl search This release is so big it needs its own table of contents. github.com/openclaw/openclaw… — https://nitter.net/openclaw/status/2036043904949330407#m",
+    "full_text": "Post title: OpenClaw 刚刚发的 3.22 新版直接把默认模型切到了 GPT-5.4，还顺手内置了 Exa 搜索和全新的沙箱环境。 还有很多其他更新和 bug 修复，这应该是我看过最长的开源项目更新日子了！\n\nPost summary: OpenClaw 刚刚发的 3.22 新版直接把默认模型切到了 GPT-5.4，还顺手内置了 Exa 搜索和全新的沙箱环境。 还有很多其他更新和 bug 修复，这应该是我看过最长的开源项目更新日子了！ OpenClaw🦞 (@openclaw) OpenClaw 2026.3.22 🦞 🏪 ClawHub plugin marketplace 🤖 MiniMax M2.7, GPT-5.4-mini/nano + per-agent reasoning 💬 /btw side questions 🏖️ OpenShell + SSH sandboxes 🌐 Exa, Tavily, Firecrawl search This release is so big it needs its own table of contents. github.com/openclaw/openclaw… — https://nitter.net/openclaw/status/2036043904949330407#m\n\nCanonical URL: https://x.com/chuhaiqu/status/2036121044143259853",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "release"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "OpenClaw",
+      "GPT",
+      "Exa",
+      "ClawHub",
+      "MiniMax M2.7",
+      "OpenShell",
+      "SSH",
+      "Tavily",
+      "Firecrawl",
+      "This",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "OpenClaw 刚刚发的 3.22 新版直接把默认模型切到了 GPT-5.4，还顺手内置了 Exa 搜索和全新的沙箱环境。 还有很多其他更新和 bug 修复，这应该是我看过最长的开源项目更新日子了！",
+      "OpenClaw 刚刚发的 3.22 新版直接把默认模型切到了 GPT-5.4，还顺手内置了 Exa 搜索和全新的沙箱环境。 还有很多其他更新和 bug 修复，这应该是我看过最长的开源项目更新日子了！ OpenClaw🦞 (@openclaw) OpenClaw 2026.3.22 🦞 🏪 ClawHub plugin marketplace 🤖 MiniMax M2.7, GPT-5.4-mini/nano + per-agent reasoning 💬 /btw side questions 🏖️ OpenShell + SSH sandboxes 🌐 Exa, Tavily, Firecrawl search This release is so big it needs its own table of contents. github.com/openclaw/openclaw… — https://nitter.net/openclaw/status/2036043904949330407#m",
+      "release",
+      "OpenClaw",
+      "GPT",
+      "Exa",
+      "ClawHub",
+      "MiniMax M2.7",
+      "OpenShell",
+      "SSH",
+      "Tavily",
+      "Firecrawl",
+      "This",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

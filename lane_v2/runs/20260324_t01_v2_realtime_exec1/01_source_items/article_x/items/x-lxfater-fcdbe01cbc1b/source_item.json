@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lxfater-fcdbe01cbc1b",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lxfater/status/2036101426779484458",
+  "author": {
+    "handle": "@lxfater",
+    "display_name": "lxfater",
+    "account_url": "https://x.com/lxfater"
+  },
+  "title": "这个产品不错，@TopviewAIhq 我也想试试",
+  "language": "unknown",
+  "published_at": "2026-03-23T15:23:03Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lxfater/status/2036101426779484458",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lxfater/status/2036101426779484458#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.com/i/article/203601372806… — https://nitter.net/servasyy_ai/status/2036096858834288973#m",
+    "full_text": "Post title: 这个产品不错，@TopviewAIhq 我也想试试\n\nPost summary: 这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.com/i/article/203601372806… — https://nitter.net/servasyy_ai/status/2036096858834288973#m\n\nCanonical URL: https://x.com/lxfater/status/2036101426779484458",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "TopviewAIhq",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "这个产品不错，@TopviewAIhq 我也想试试",
+      "这个产品不错， @TopviewAIhq 我也想试试 huangserva (@servasyy_ai) x.com/i/article/203601372806… — https://nitter.net/servasyy_ai/status/2036096858834288973#m",
+      "TopviewAIhq",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

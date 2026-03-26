@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_for_success-97b89735330e",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ai_for_success/status/2035927976936923607",
+  "author": {
+    "handle": "@ai_for_success",
+    "display_name": "ai_for_success",
+    "account_url": "https://x.com/ai_for_success"
+  },
+  "title": "What skill separates those who succeed in the AI era from those who don’t?",
+  "language": "unknown",
+  "published_at": "2026-03-23T03:53:50Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ai_for_success/status/2035927976936923607",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ai_for_success/status/2035927976936923607#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "What skill separates those who succeed in the AI era from those who don’t?",
+    "full_text": "Post title: What skill separates those who succeed in the AI era from those who don’t?\n\nPost summary: What skill separates those who succeed in the AI era from those who don’t?\n\nCanonical URL: https://x.com/ai_for_success/status/2035927976936923607",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "What",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "What skill separates those who succeed in the AI era from those who don’t?",
+      "What",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

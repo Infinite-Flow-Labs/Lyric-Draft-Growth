@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-mreflow-dfbe361d31e4",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/mreflow/status/2036531943060414700",
+  "author": {
+    "handle": "@mreflow",
+    "display_name": "mreflow",
+    "account_url": "https://x.com/mreflow"
+  },
+  "title": "Made a couple little QOL updates to the Future Tools News page based on your feedback. 1. The TLDR summaries no longer hide the news below when hovered. 2. There's a TLDR button when viewing on mobile. 3. The header is no longer transparent, which created weird text-overlap issues. 4. Once you join the mailing list, the opt-in form to subscribe stops showing (site wide). Keep the feedback coming! I just want to make this better and more and more useful for you!",
+  "language": "unknown",
+  "published_at": "2026-03-24T19:53:46Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/mreflow/status/2036531943060414700",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/mreflow/status/2036531943060414700#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Made a couple little QOL updates to the Future Tools News page based on your feedback. 1. The TLDR summaries no longer hide the news below when hovered. 2. There's a TLDR button when viewing on mobile. 3. The header is no longer transparent, which created weird text-overlap issues. 4. Once you join the mailing list, the opt-in form to subscribe stops showing (site wide). Keep the feedback coming! I just want to make this better and more and more useful for you!",
+    "full_text": "Post title: Made a couple little QOL updates to the Future Tools News page based on your feedback. 1. The TLDR summaries no longer hide the news below when hovered. 2. There's a TLDR button when viewing on mobile. 3. The header is no longer transparent, which created weird text-overlap issues. 4. Once you join the mailing list, the opt-in form to subscribe stops showing (site wide). Keep the feedback coming! I just want to make this better and more and more useful for you!\n\nPost summary: Made a couple little QOL updates to the Future Tools News page based on your feedback. 1. The TLDR summaries no longer hide the news below when hovered. 2. There's a TLDR button when viewing on mobile. 3. The header is no longer transparent, which created weird text-overlap issues. 4. Once you join the mailing list, the opt-in form to subscribe stops showing (site wide). Keep the feedback coming! I just want to make this better and more and more useful for you!\n\nCanonical URL: https://x.com/mreflow/status/2036531943060414700",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Made",
+      "QOL",
+      "Future Tools News",
+      "The TLDR",
+      "There",
+      "TLDR",
+      "Once",
+      "Keep",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "Made a couple little QOL updates to the Future Tools News page based on your feedback. 1. The TLDR summaries no longer hide the news below when hovered. 2. There's a TLDR button when viewing on mobile. 3. The header is no longer transparent, which created weird text-overlap issues. 4. Once you join the mailing list, the opt-in form to subscribe stops showing (site wide). Keep the feedback coming! I just want to make this better and more and more useful for you!",
+      "Made",
+      "QOL",
+      "Future Tools News",
+      "The TLDR",
+      "There",
+      "TLDR",
+      "Once",
+      "Keep",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

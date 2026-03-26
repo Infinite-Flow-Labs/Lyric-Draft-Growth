@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-fkysly-8dd7c32463fc",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/fkysly/status/2036394128859340831",
+  "author": {
+    "handle": "@fkysly",
+    "display_name": "fkysly",
+    "account_url": "https://x.com/fkysly"
+  },
+  "title": "笑死",
+  "language": "unknown",
+  "published_at": "2026-03-24T10:46:09Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/fkysly/status/2036394128859340831",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/fkysly/status/2036394128859340831#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "笑死 Panda (@Jiaxi_Cui) 如果 founder 不懂营销和增长，我的建议是去杭州随便找个实习生，杭州的人没有不懂的 我甚至去租办公室的时候，中介都会给我讲他自己发小红书的经验，什么时间发，小号怎么切换，要不要买推广 杭州这地是真行 — https://nitter.net/Jiaxi_Cui/status/2036387857095598131#m",
+    "full_text": "Post title: 笑死\n\nPost summary: 笑死 Panda (@Jiaxi_Cui) 如果 founder 不懂营销和增长，我的建议是去杭州随便找个实习生，杭州的人没有不懂的 我甚至去租办公室的时候，中介都会给我讲他自己发小红书的经验，什么时间发，小号怎么切换，要不要买推广 杭州这地是真行 — https://nitter.net/Jiaxi_Cui/status/2036387857095598131#m\n\nCanonical URL: https://x.com/fkysly/status/2036394128859340831",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Panda",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "笑死",
+      "笑死 Panda (@Jiaxi_Cui) 如果 founder 不懂营销和增长，我的建议是去杭州随便找个实习生，杭州的人没有不懂的 我甚至去租办公室的时候，中介都会给我讲他自己发小红书的经验，什么时间发，小号怎么切换，要不要买推广 杭州这地是真行 — https://nitter.net/Jiaxi_Cui/status/2036387857095598131#m",
+      "Panda",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,783 @@
+{
+  "task": "Write one publishable lane-controlled article draft.",
+  "instructions": [
+    "Raw source facts outrank rhetorical cleverness.",
+    "Do not produce a summary digest; produce a judged, usable article.",
+    "Composition: mixed (generation=40%, rewrite=60%).",
+    "Rewrite portion preserves critical release facts; generated portion adds judgment + action paths.",
+    "At least 5 preserved_fact_anchors from provided sources.",
+    "Honor forbidden_claims strictly.",
+    "Output language: zh-CN.",
+    "body_markdown must use markdown structure. First chunk must be a quote block: > ...",
+    "At least 2 subheadings (## ...), 1 bullet list (>=3 items), 3-10 bold spans.",
+    "Title: 12-32 chars, must carry conflict/reversal/stake.",
+    "Dek: a plain sentence that sharpens the angle. Do NOT prefix with labels like 'Dek:' or '**Dek**:'. Do NOT repeat the title. The dek field in JSON must contain only the sentence itself.",
+    "Do not output framework IDs, submode IDs, model names, or metadata in article text.",
+    "Banned: 不是...而是..., 不仅...而且..., 首先/其次/最后 template, emoji, em-dash overuse, bold overuse.",
+    "Banned: promotional hype (颠覆性/炸裂/封神/王炸/天花板), vague attribution (专家认为/据悉).",
+    "Banned: stale bridges (这个判断太轻了/官方说得很直接/最值得看/更容易看清/说透/很清楚).",
+    "Sound like an informed human writer making judgments, not a neutral recap engine.",
+    "Delete filler phrases. Vary rhythm. Trust the reader.",
+    "标题必须包含变化判断，不能是公告标题改写。",
+    "Dek 必须回答真正值得看的变化是什么。",
+    "开篇前两段必须出现发布动作 + 高价值判断。",
+    "中段必须写清变化前后对比 + 人群影响 + 不该用边界。",
+    "结尾必须给出可执行动作（立刻试用 / 观察 / 暂缓）。",
+    "Choose one dominant thesis and make the entire draft serve it.",
+    "Do not pile independent signals like a newsletter digest.",
+    "The article must open by placing the reader inside a concrete personal frustration or blocked workflow, not by stating what product/feature launched.",
+    "First two paragraphs must complete: what is it → what changed → why it matters to YOU specifically.",
+    "Related/tangential signals must not exceed 20% of the article. If removing a related signal paragraph doesn't weaken the main argument, remove it.",
+    "Every external example cited must have a direct causal link to the main topic. 'Same general direction' is not enough.",
+    "When mentioning a source author for the first time, use their known public name or Chinese name (e.g. '归藏' not '@op7418'). @handle can follow in parentheses.",
+    "Do not make quantitative promises (time, effort, cost) not supported by source data.",
+    "Audience segments must be by concrete use-case scenario, not vague identity labels like '独立开发者'.",
+    "The article must end with a concrete actionable next step, NOT a rhetorical question or philosophical open-ended prompt.",
+    "Do not use defensive negation — do not deny accusations nobody made (e.g. '不是噱头', '不是小事').",
+    "CRITICAL: The article must open by placing the reader inside a concrete personal pain point.",
+    "Reader pain point: 开发者在 Claude Code 中完成代码生成或代码审查后，需要手动复制粘贴结果到微信或飞书，中断工作流。尤其是在远程团队协作场景下，每次切换应用、粘贴代码、等待反馈都会打破编码心流。",
+    "Hook inspiration (adapt freely): 你在 Claude Code 里完成了代码，却还要切到微信才能分享给团队——直到现在。",
+    "Who feels this most: 独立开发者、小团队技术负责人、需要快速迭代协作的远程团队成员"
+  ],
+  "topic_card": {
+    "topic_id": "topic-x-op7418-b9e09e039182",
+    "topic_statement": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+    "why_now": "Clustered 2 recent signals across 2 source families with verifiable anchors.",
+    "cluster_signature": "claude code::更新"
+  },
+  "lane_assignment": {
+    "selected_lane_id": "T02_signal_decode",
+    "framework_id": "03_opinion_decode",
+    "submode_id": "signal_decode",
+    "composition_mode": "mixed",
+    "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present"
+  },
+  "primary_source_item": {
+    "source_id": "x-op7418-b9e09e039182",
+    "platform": "x",
+    "source_kind": "x_thread",
+    "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+    "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+    "author": {
+      "handle": "@op7418",
+      "display_name": "op7418",
+      "account_url": "https://x.com/op7418"
+    },
+    "published_at": "2026-03-24T01:54:42Z",
+    "participants": [],
+    "primary_text_source": "x_post",
+    "summary": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m",
+    "full_text": "Post title: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 Post summary: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m Canonical URL: https://x.com/op7418/status/2036260385490346133",
+    "raw_quotes": [],
+    "fact_anchors": [
+      "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+      "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551…...",
+      "Claude Code",
+      "CodeX",
+      "IM",
+      "Claude",
+      "Skills"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Claude Code",
+      "CodeX",
+      "IM",
+      "Claude",
+      "Skills"
+    ]
+  },
+  "source_bundle": {
+    "lane_id": "T02_signal_decode",
+    "framework_id": "03_opinion_decode",
+    "submode_id": "signal_decode",
+    "composition_mode": "mixed",
+    "primary_sources": [
+      {
+        "signal_id": "x-op7418-b9e09e039182",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+        "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+        "published_at": "2026-03-24T01:54:42Z"
+      }
+    ],
+    "supporting_sources": [
+      {
+        "signal_id": "x-berryxia-fc4d55fcde88",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+        "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 W...",
+        "published_at": "2026-03-24T23:22:12Z"
+      },
+      {
+        "signal_id": "x-ai_for_success-5a511c45a67c",
+        "source_family": "post_x",
+        "canonical_url": "https://x.com/ai_for_success/status/2036255685042905205",
+        "title": "Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at yo...",
+        "published_at": "2026-03-24T01:36:01Z"
+      }
+    ],
+    "fact_anchors": [
+      {
+        "claim": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551…...",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "将你的 Claude Code 和 CodeX 远程连接到微信",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "而且配置方式极其简单：它会自动打开一个网页，你扫码就行",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m Post title: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skill...",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m Canonical URL: https://x.com/op7418/status/2036260385490346133",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      }
+    ],
+    "forbidden_claims": [
+      "No unsupported percentage claims about performance or cost change.",
+      "No unsupported claim that this release fully replaces existing workflows.",
+      "No unsupported claim that all teams should adopt immediately."
+    ],
+    "coverage_checks": {
+      "has_release_action": true,
+      "has_delta_detail": false,
+      "has_user_impact": false,
+      "has_limit_or_risk": false
+    },
+    "requirement_checks": {
+      "primary_sources_min_ok": true,
+      "supporting_sources_min_ok": true,
+      "fact_anchors_min_ok": true,
+      "official_primary_required_ok": true
+    }
+  },
+  "source_materials": [
+    {
+      "source_id": "x-op7418-b9e09e039182",
+      "source_role": "primary",
+      "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+      "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+      "fact_anchors": [
+        "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+        "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551…...",
+        "Claude Code",
+        "CodeX",
+        "IM",
+        "Claude",
+        "Skills"
+      ],
+      "full_text_excerpt": "Post title: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 Post summary: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m Canonical URL: https://x.com/op7418/status/2036260385490346133"
+    },
+    {
+      "source_id": "x-berryxia-fc4d55fcde88",
+      "source_role": "supporting",
+      "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+      "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 W...",
+      "fact_anchors": [
+        "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+        "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+        "AI",
+        "Siri",
+        "App",
+        "Ask Siri"
+      ]
+    },
+    {
+      "source_id": "x-ai_for_success-5a511c45a67c",
+      "source_role": "supporting",
+      "canonical_url": "https://x.com/ai_for_success/status/2036255685042905205",
+      "title": "Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do almost anything you would do sitting at yo...",
+      "fact_anchors": [
+        "Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do al...",
+        "Looks like Anthropic’s mission is to wipe out all white-collar jobs. Claude can now use a computer. It can open your apps, navigate your browser, fill in spreadsheets, and do al...",
+        "Looks",
+        "Anthropic",
+        "Claude",
+        "It"
+      ]
+    }
+  ],
+  "framework_context": {
+    "selected_framework": {
+      "framework_id": "03_opinion_decode",
+      "framework_label": "外部信号解码型",
+      "submode_id": "signal_decode"
+    },
+    "framework_spec_slim": {
+      "intent": {
+        "definition": "先抓住一个外部信号，例如论文、访谈、播客、热项目、行业事件或知名人物发言，再把其中真正重要的东西提炼并翻译成读者能理解、能判断、能复述的观点。",
+        "core_value": "把外部噪音压缩成清晰判断，让读者不是只知道内容，而是知道真正重要的是什么、该怎么理解。",
+        "core_tasks": [
+          "说清楚信号源是什么，为什么值得看",
+          "从原始材料里提炼真正核心观点或矛盾",
+          "用更好理解的语言重建出来",
+          "给读者一个判断框架和重要性排序"
+        ]
+      },
+      "structure": {
+        "hidden_skeleton": [
+          "Signal source / why this is worth decoding",
+          "What was said or what happened",
+          "What the real point is",
+          "Reasoning, comparison, or narrative evidence",
+          "Why it matters / risk / implication",
+          "Reader repositioning"
+        ],
+        "visible_template_bans": [
+          "不得写成某某说了什么，我总结三点，最后说这意味着什么",
+          "不得把复杂材料平铺成摘要模板",
+          "不得只有引语和信息，没有作者重组动作",
+          "不得把人物或事件重量磨成流水账",
+          "不得只做资料搬运，不做重要性排序"
+        ],
+        "allowed_surface_moves": [
+          "先从震撼数字、反常识结论或场景开局",
+          "先给读者一个大问题，再倒回去拆源头材料",
+          "用人物故事、论文结构、行业比较、风险清单承载解码",
+          "先抛作者结论，再逐步证明为什么这样判断",
+          "允许 source_type 与 decode_target 决定表面形态"
+        ],
+        "forbidden_surface_moves": [
+          "每篇都写成摘要排版模板",
+          "每篇都把外部材料切成平行三点总结",
+          "对话蒸馏写成逐段采访纪要",
+          "论文解读写成无门槛但也无判断的百科摘要",
+          "只堆金句，不建脉络"
+        ],
+        "parameter_axes": [
+          {
+            "axis": "source_type",
+            "values": [
+              "paper_or_framework",
+              "interview_or_podcast",
+              "hot_project_or_event"
+            ]
+          },
+          {
+            "axis": "decode_target",
+            "values": [
+              "core_thesis",
+              "mental_model",
+              "why_now",
+              "industry_implication"
+            ]
+          },
+          {
+            "axis": "proof_mode",
+            "values": [
+              "mechanism_explanation",
+              "comparison",
+              "narrative_scenes",
+              "quotes_and_timeline"
+            ]
+          },
+          {
+            "axis": "reader_payoff",
+            "values": [
+              "understand_faster",
+              "know_what_matters",
+              "know_how_to_explain_it_to_others"
+            ]
+          }
+        ],
+        "submodes": [
+          {
+            "submode_id": "signal_decode",
+            "label": "外部信号解码",
+            "summary": "从论文、框架文章、现象级项目、行业事件或人物动作中提炼出更清晰的到底发生了什么、为什么重要。",
+            "use_when": [
+              "source 是论文、框架文章、热项目、行业事件或人物动作",
+              "作者主要在解释热度、创新点、差异点、风险和影响",
+              "正文依赖白话机制解释、对比、类比、时间线或风险说明"
+            ],
+            "avoid_when": [
+              "文章主要在重建一场对话的人物弧线和行业重量",
+              "文章没有明确外部信号，只是作者自己的观点文",
+              "正文没有真正降噪和重组"
+            ],
+            "source_fit": [
+              "paper_or_framework",
+              "hot_project_or_event",
+              "名人点赞 / 公开动作带来的二次解码"
+            ],
+            "source_unfit": [
+              "逐字播客纪要",
+              "没有机制解释的热度搬运",
+              "只有情绪没有原材料的评论"
+            ],
+            "hidden_flow": [
+              "Signal hook or big question",
+              "Plain-language framing",
+              "Core mechanism or cause chain",
+              "Comparison or contrast",
+              "Implication / risk / what to watch"
+            ],
+            "hook_patterns": [
+              "为什么会这么火？",
+              "马斯克点赞到底说明了什么",
+              "我带着困惑把论文读了一遍",
+              "捅破了...潜规则"
+            ],
+            "evidence_mix": [
+              "时间线或热度信号",
+              "白话机制解释",
+              "对比组",
+              "类比",
+              "数据或引用",
+              "风险和边界"
+            ],
+            "reasoning_moves": [
+              "先把复杂材料降噪",
+              "主动提问再回答",
+              "用类比把技术或抽象观点讲人话",
+              "既做信息翻译，也做重要性排序"
+            ],
+            "rewrite_formula": "外部信号 -> 白话重述 -> 真正核心 -> 对比或推理 -> 影响与边界",
+            "surface_forms": [
+              "大问题标题",
+              "白话解释",
+              "old vs new 对照",
+              "时间线",
+              "类比",
+              "意义段 / 风险段"
+            ],
+            "anti_patterns": [
+              "只有翻译，没有判断",
+              "只有态度，没有机制",
+              "只会说这很重要，说不出为什么",
+              "整篇像论文摘要或新闻转载"
+            ],
+            "style_profile_id": "03_signal_decode_style",
+            "sample_ids": [
+              "2033441957985280451",
+              "2033806716492538155",
+              "2033749685106839903",
+              "2033573236240466178"
+            ]
+          },
+          {
+            "submode_id": "conversation_distillation",
+            "label": "对话蒸馏",
+            "summary": "从播客、访谈、深度采访里抽出人物、世界观、代价、方法论和行业判断，而不是做逐字转写。",
+            "use_when": [
+              "source 是播客、访谈、人物对谈或深度采访",
+              "作者重点在重建人物和行业意义，而不是列采访重点",
+              "正文依赖场景、关键引语、时间线、转折事件和作者提炼"
+            ],
+            "avoid_when": [
+              "来源更像论文、项目、事件而不是对话",
+              "正文只有金句摘录，没有结构化蒸馏",
+              "人物故事和行业意义彼此脱节"
+            ],
+            "source_fit": [
+              "interview_or_podcast",
+              "深度人物对谈",
+              "重大行业对话"
+            ],
+            "source_unfit": [
+              "逐字采访纪要",
+              "只有人物小传没有行业判断",
+              "没有引语和场景的抽象总结"
+            ],
+            "hidden_flow": [
+              "Why this conversation matters",
+              "Scene, guest, or turning point",
+              "Extracted worldview or thesis",
+              "Quotes, beats, or timeline evidence",
+              "What this says about the person or industry",
+              "Resonant close"
+            ],
+            "hook_patterns": [
+              "罕见地坐在被采访席上",
+              "真实代价",
+              "最黑暗的十年正在到来",
+              "一笔改写历史的收购"
+            ],
+            "evidence_mix": [
+              "人物背景",
+              "对话场景",
+              "关键引语",
+              "转折事件",
+              "年份、金额、估值、时间线",
+              "作者提炼后的行业判断"
+            ],
+            "reasoning_moves": [
+              "先搭人物或事件舞台",
+              "不是流水账，而是抽人物与行业的底层逻辑",
+              "引语服务于脉络，而不是素材拼贴",
+              "结尾留下一句带余味的判断"
+            ],
+            "rewrite_formula": "对话价值 -> 人物或事件场景 -> 核心信念 -> 关键引语与转折 -> 行业或方法论意义 -> 余味收束",
+            "surface_forms": [
+              "人物小传",
+              "关键场景",
+              "转折事件",
+              "章节式蒸馏",
+              "引语穿插"
+            ],
+            "anti_patterns": [
+              "写成逐段采访纪要",
+              "只摘金句，不搭结构",
+              "只讲故事，不抽观点",
+              "人物故事和行业意义彼此脱节"
+            ],
+            "style_profile_id": "03_conversation_distillation_style",
+            "sample_ids": [
+              "2033365853140595122",
+              "2033560336859799814"
+            ]
+          }
+        ]
+      },
+      "style": {
+        "global_style_principles": [
+          "共同目标不是抄笔记，而是替读者重建理解路径",
+          "开头往往先抓张力，而不是先交代来源",
+          "中段必须靠解释、比较、引语或叙事撑住",
+          "作者必须明显介入，告诉读者真正该注意的点",
+          "必须走 隐式解码逻辑 + 来源重量 / 子模式语感，而不是摘要模板"
+        ],
+        "global_anti_ai_rules": [
+          "避免把正文写成平滑摘要器口吻",
+          "避免平铺三点总结",
+          "避免把复杂来源磨成没有张力的读书笔记",
+          "避免引语像素材拼贴，没有叙事牵引",
+          "避免类比太工整，看起来像自动生成",
+          "允许作者介入、排序、对比和重命名，但必须忠于来源重量"
+        ],
+        "submode_profiles": [
+          {
+            "style_profile_id": "03_signal_decode_style",
+            "submode_id": "signal_decode",
+            "tone_core": "像一个已经替你把原材料看过一遍的人，在告诉你真正值得理解的部分，有解释欲，也有明显判断。",
+            "opening_moves": [
+              "先抛一个大问题",
+              "先抓外部热度或名人动作，再倒回内容本身",
+              "先承认自己也有困惑，再带着读者一起拆",
+              "先立一个大框架，再往里填具体层级"
+            ],
+            "sentence_rhythm": [
+              "问句很多",
+              "冒号、破折号、括号、编号常见",
+              "解释段和判断段交替出现",
+              "越技术的样本越依赖类比把节奏压顺"
+            ],
+            "surface_forms": [
+              "大问题标题",
+              "先简单解释一下",
+              "old vs new 对照",
+              "时间线",
+              "白话类比",
+              "风险段 / 意义段"
+            ],
+            "language_moves": [
+              "先快速回顾一下",
+              "简单说",
+              "注意到了吧？",
+              "为什么这很重要",
+              "想想看",
+              "结论是"
+            ],
+            "keep": [
+              "解码姿态",
+              "关键对比",
+              "复杂材料的人话翻译",
+              "最后的重要性排序"
+            ],
+            "avoid": [
+              "过长背景铺垫",
+              "滥用抽象术语制造专业感",
+              "明明有冲突，最后却写得平平无奇",
+              "把结构写成摘要模板"
+            ],
+            "ai_smells": [
+              "教科书摘要",
+              "只有概念，没有张力",
+              "类比太工整像自动生成",
+              "下面是总结这种元话语"
+            ],
+            "one_sentence_portrait": "像一个看过原材料、消化过里面弯弯绕的人，替你把真正该带走的理解路径重新铺出来。"
+          },
+          {
+            "style_profile_id": "03_conversation_distillation_style",
+            "submode_id": "conversation_distillation",
+            "tone_core": "像一篇带判断的人物或行业特稿，不满足于摘采访重点，而是要把人物与行业放进完整叙事里。",
+            "opening_moves": [
+              "先给一个结果或巨型事件",
+              "先搭一个访谈场景或人物反差",
+              "先用一句话概括这场对话真正刺中的命题"
+            ],
+            "sentence_rhythm": [
+              "场景段和总结段切换明显",
+              "问句和引语都多",
+              "标题小节推进感强",
+              "通常有节奏性的转场"
+            ],
+            "surface_forms": [
+              "人物小传",
+              "关键场景",
+              "转折事件",
+              "章节式蒸馏",
+              "引语穿插",
+              "余味收束"
+            ],
+            "language_moves": [
+              "这次，他罕见地...",
+              "真正让他失眠的，是...",
+              "话题回到...",
+              "他总结说...",
+              "最后被问到..."
+            ],
+            "keep": [
+              "人物或事件张力",
+              "关键引语",
+              "结构化蒸馏",
+              "结尾的判断余味"
+            ],
+            "avoid": [
+              "逐条采访纪要",
+              "大段背景介绍",
+              "只堆金句，不建脉络",
+              "把人物稿写成方法论手册"
+            ],
+            "ai_smells": [
+              "引语像素材拼贴",
+              "人物故事和行业判断断开",
+              "结尾只会喊价值观口号",
+              "结构像采访提纲复写"
+            ],
+            "one_sentence_portrait": "像一个既听懂了整场对话、又知道哪几句最重的人，把人物、事件和行业意义重新剪成一篇有弧线的稿子。"
+          }
+        ]
+      },
+      "execution_controls": {
+        "must_keep": [
+          "明确外部来源",
+          "真正的解码动作，而不是转述",
+          "来源张力或人物重量",
+          "作者自己的判断重建",
+          "重要性排序或读者重新定位"
+        ],
+        "must_avoid": [
+          "平滑摘要器口吻",
+          "三点总结模板",
+          "只有引语没有脉络",
+          "只有信息没有作者重组",
+          "把复杂来源磨成平庸读书笔记"
+        ],
+        "rewrite_failure_modes": [
+          "signal_decode 退化成新闻稿或论文摘要",
+          "conversation_distillation 退化成采访纪要",
+          "只摘金句，不搭脉络",
+          "有来源但没有真正的作者判断",
+          "有解释但没有保住来源的冲突和重量",
+          "结构清楚但像 AI 总结器"
+        ],
+        "quality_checks": [
+          "是否明确说明了外部信号源和它为什么值得看",
+          "是否完成了降噪、排序、解释或重组，而不是复述",
+          "是否保留了来源里的冲突、惊讶、稀缺信息或人物重量",
+          "是否通过类比、对比、引语、时间线或叙事把判断撑住",
+          "是否让读者知道真正重要的是什么、该怎么看",
+          "是否保留了对应子模式的表层语感，而不是统一摘要腔"
+        ],
+        "human_review_triggers": [
+          "source 同时像 03_opinion_decode 与 07_contrarian_take，难区分是在解码还是在替换框架",
+          "writer 输出后像摘要器，没有作者判断",
+          "conversation_distillation 没有场景、引语或人物重量",
+          "signal_decode 只有解释没有重要性排序",
+          "来源本身过长或多源混合，可能需要人工确认重心"
+        ]
+      }
+    },
+    "style_profiles_packet": {
+      "style_profiles_ref": "/home/lyric/growth-engine-pipeline/framework/03_opinion_decode/STYLE_PROFILES.md",
+      "overview_section_excerpt": "`03_opinion_decode` 的共同风格，不是“帮读者抄笔记”，而是： - 把外部材料先去噪 - 再提炼出一个真正重要的核心 - 最后用更清楚、更有抓力的方式重建出来 从样本上看，真正可迁移的风格动作是： - 开头往往先抓张力，而不是先交代来源 - 中段必须靠解释、比较、引语或叙事撑住 - 作者会明显介入，告诉你“真正该注意的点” - 结尾不会只停在“信息很多”，而会落到“这意味着什么”",
+      "submode_section_excerpt": "### 样本依据 - 智能体工程的 8 个等级【译】 - OpenClaw 这只龙虾为什么会这么火？ - 马斯克一波点赞给Kimi论文冲到了2百万阅读! - 马斯克惊叹！DeepSeek和Kimi先后出手，捅破了Transformer的「潜规则」！ ### 语气核心 - 像一个已经替你把原材料看过一遍的人，在告诉你真正值得理解的部分 - 有解释欲，也有明显判断 - 常常带一点“我来帮你读懂”的服务感 ### 开头动作 常见动作： - 先抛一个大问题：`为什么会这么火？` - 先抓外部热度或名人动作，再倒回内容本身 - 先承认自己也有困惑，然后带着读者一起拆 - 先立一个大框架，再往里填具体层级 ### 句子节奏 - 问句很多 - 冒号、破折号、括号、编号都常见 - 解释段和判断段会交替出现 - 越技术的样本，越依赖类比把节奏压顺 ### 常见表层承载形式 - 大问题作标题 - `先简单解释一下` - old vs new 对照 - 时间线 - 白话类比 - 风险段 / 意义段 ### 语言动作 - `先快速回顾一下` - `简单说` - `注意到了吧？` - `为什么这很重要` - `想想看` - `结论是` 这类文章的关键不是“知识多”，而是“能不能把复杂信号压成读者听得懂的一条判断链”。 ### 最容易出 AI 味的地方 - 写成教科书摘要 - 只有概念，没有张力 - 类比太工整，像自动生成 - 把“我来帮你解码”写成“下面是总结” ### 改写时应保留 - 解码姿态 - 关键对比 - 复杂材料的人话翻译 - 最后的重要性排序 ### 改写时应避免 - 过长的背景铺垫 - 滥用抽象术语制造专业感 - 明明有冲突，最后却写得平平无奇 ### 一句话画像 像一个看过原材料、消化过里面弯弯绕的人，替你把真正该带走的理解路径重新铺出来。 ---"
+    },
+    "sample_moves_layer_packet": {
+      "sample_moves_layer_ref": "/home/lyric/growth-engine-pipeline/framework/03_opinion_decode/SAMPLE_MOVES_LAYER.json",
+      "opening_hook_moves": [
+        "先立“能力和实践之间有一道差距”，再告诉读者这个差距是分 8 级逐步缩小的。",
+        "先用“120 万订阅”这种结果吸引注意，再立刻切进“真实代价”。",
+        "用院士原话和一连串热度数据起手，先让读者接受“这不是小圈子热度”。",
+        "先用马斯克点赞制造热度入口，再承诺“尽量不需要专业知识也能看懂”。",
+        "先给出 Google 320 亿美元收购 Wiz 这个巨型事件，再回头解释这笔交易背后的关键人物和大判断。",
+        "先从马斯克发推和作者个人困惑开始，迅速建立“我也看不懂，所以我替你看”的代入感。",
+        "开头直接下结论（Sora 结束 + 公司变向），紧接着用“六个月前爆火”形成强反差，再快速进入证据链，避免只停留在情绪判断。"
+      ],
+      "mid_transition_moves": [
+        "不只是翻译 level 名称，而是把每级为什么重要讲清楚",
+        "用“你应该在意的原因”给读者建立阅读动机",
+        "在大框架里穿插具体系统和工具例子",
+        "框架翻译",
+        "分级解释",
+        "实践举例",
+        "来源引用",
+        "先搭人物戏剧张力，再抽方法论",
+        "引语和叙述交替，避免变成流水账",
+        "场景化讲述",
+        "关键引语",
+        "人生转折点"
+      ],
+      "closing_carry_moves": [
+        "结尾把人物困境升成普遍性的创作者命题",
+        "不只讲爆火原因，也讲风险，避免过度站台",
+        "风险案例",
+        "从人物哲学一路推到行业结构判断",
+        "行业判断",
+        "结尾从细节回到架构趋势",
+        "先下判断，再用连续证据回填，不让读者在摘要段里迷失",
+        "在高强度论证中保留边界与代价，不写成单向站队"
+      ],
+      "evidence_combo_units": [
+        "框架翻译",
+        "分级解释",
+        "实践举例",
+        "来源引用",
+        "场景化讲述",
+        "关键引语",
+        "人生转折点",
+        "作者总结",
+        "热度和政策信号",
+        "产品类比"
+      ],
+      "language_action_moves": [
+        "这类样本的核心是“翻译一个现成框架，但读起来不像生硬翻译”，很依赖解释性过渡和分级命名。 ---",
+        "像杂志人物稿和播客摘要的结合体，既有故事感，也有抽出来的创作洞察。 ---",
+        "典型现象解码文，信息量大，但核心不是堆信息，而是把热度背后的结构因果串起来。 ---",
+        "这种论文解读文靠的是“把门槛拆低”，而不是“展示自己很懂”，所以口语和类比是关键资产。 ---",
+        "这类样本像深度播客精华版，既要有人物戏，也要有行业结构感，不能只是截访谈重点句。 ---",
+        "比普通论文解读更像“对比式解码”，关键在于把相似名词拆开，告诉读者差别到底在哪里。 ---",
+        "这类样本是“调查式信号解码”：开头冲击强，中段证据层层加码，后段给出代价与分歧，整篇呈现连续转折和判断升级，不是静态信息堆砌。 ---"
+      ],
+      "forbidden_rewrite_parts": [
+        "原作者和原文章的具体等级定义",
+        "某些团队、工具、公司案例",
+        "Lenny/Michelle 的私人经历和具体背景",
+        "约书亚树、产品福利包等具体事件",
+        "OpenClaw 生态、补贴、装机服务、具体安全案例",
+        "“龙虾”这套本土化隐喻",
+        "Attention Residuals 的具体技术路线",
+        "马斯克、Kimi 的热度背景",
+        "Wiz、CyberStarts、以色列网安生态等具体背景",
+        "Google/Wiz 具体收购细节"
+      ],
+      "sample_cards_for_submode": [
+        {
+          "sample_id": "2033441957985280451",
+          "title": "智能体工程的 8 个等级【译】",
+          "hook_move": "先立“能力和实践之间有一道差距”，再告诉读者这个差距是分 8 级逐步缩小的。",
+          "proof_mode": [
+            "框架翻译",
+            "分级解释",
+            "实践举例",
+            "来源引用"
+          ],
+          "reusable_parts": [
+            "不只是翻译 level 名称，而是把每级为什么重要讲清楚",
+            "用“你应该在意的原因”给读者建立阅读动机",
+            "在大框架里穿插具体系统和工具例子"
+          ],
+          "style_cue": "这类样本的核心是“翻译一个现成框架，但读起来不像生硬翻译”，很依赖解释性过渡和分级命名。 ---"
+        },
+        {
+          "sample_id": "2033806716492538155",
+          "title": "OpenClaw 这只龙虾为什么会这么火？",
+          "hook_move": "用院士原话和一连串热度数据起手，先让读者接受“这不是小圈子热度”。",
+          "proof_mode": [
+            "热度和政策信号",
+            "产品类比",
+            "原因链拆解",
+            "生态说明"
+          ],
+          "reusable_parts": [
+            "先解释“它到底是什么”",
+            "用类比拉开不同产品的位置",
+            "不只讲爆火原因，也讲风险，避免过度站台"
+          ],
+          "style_cue": "典型现象解码文，信息量大，但核心不是堆信息，而是把热度背后的结构因果串起来。 ---"
+        },
+        {
+          "sample_id": "2033749685106839903",
+          "title": "马斯克一波点赞给Kimi论文冲到了2百万阅读!",
+          "hook_move": "先用马斯克点赞制造热度入口，再承诺“尽量不需要专业知识也能看懂”。",
+          "proof_mode": [
+            "白话类比",
+            "基础知识补课",
+            "旧方案 vs 新方案",
+            "最终性能结果"
+          ],
+          "reusable_parts": [
+            "先补背景，再解释创新点",
+            "用具象类比替代术语堆砌",
+            "让读者知道“为什么这是革命性的”"
+          ],
+          "style_cue": "这种论文解读文靠的是“把门槛拆低”，而不是“展示自己很懂”，所以口语和类比是关键资产。 ---"
+        },
+        {
+          "sample_id": "2033573236240466178",
+          "title": "马斯克惊叹！DeepSeek和Kimi先后出手，捅破了Transformer的「潜规则」！",
+          "hook_move": "先从马斯克发推和作者个人困惑开始，迅速建立“我也看不懂，所以我替你看”的代入感。",
+          "proof_mode": [
+            "论文对比",
+            "白话类比",
+            "结构拆分",
+            "实验结果"
+          ],
+          "reusable_parts": [
+            "不是解释一篇论文，而是解释两篇论文的差别",
+            "一层层把问题定义拉开",
+            "结尾从细节回到架构趋势"
+          ],
+          "style_cue": "比普通论文解读更像“对比式解码”，关键在于把相似名词拆开，告诉读者差别到底在哪里。 ---"
+        },
+        {
+          "sample_id": "2036577857942499670",
+          "title": "Sora 死了，OpenAI 正在变成另一家公司",
+          "hook_move": "开头直接下结论（Sora 结束 + 公司变向），紧接着用“六个月前爆火”形成强反差，再快速进入证据链，避免只停留在情绪判断。",
+          "proof_mode": [
+            "时间线复盘",
+            "多源数据佐证（下载、消费、排名）",
+            "权威媒体与公开发言交叉验证",
+            "组织与管理动作拆解"
+          ],
+          "reusable_parts": [
+            "先下判断，再用连续证据回填，不让读者在摘要段里迷失",
+            "每一段都回答一个“所以这意味着什么”，让信息密度持续上升",
+            "中段把分散信号并成一条因果链，而不是平铺罗列",
+            "在高强度论证中保留边界与代价，不写成单向站队",
+            "结尾把判断还给读者（给明确分歧问题），提升讨论势能"
+          ],
+          "style_cue": "这类样本是“调查式信号解码”：开头冲击强，中段证据层层加码，后段给出代价与分歧，整篇呈现连续转折和判断升级，不是静态信息堆砌。 ---"
+        }
+      ]
+    }
+  },
+  "reader_pain_point": {
+    "pain_point": "开发者在 Claude Code 中完成代码生成或代码审查后，需要手动复制粘贴结果到微信或飞书，中断工作流。尤其是在远程团队协作场景下，每次切换应用、粘贴代码、等待反馈都会打破编码心流。",
+    "hook_sentence": "你在 Claude Code 里完成了代码，却还要切到微信才能分享给团队——直到现在。",
+    "who_feels_it": "独立开发者、小团队技术负责人、需要快速迭代协作的远程团队成员"
+  }
+}

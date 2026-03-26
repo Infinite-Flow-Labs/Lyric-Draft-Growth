@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-perplexity_ai-f89a10327e81",
+  "event_seed_signal_id": "x-perplexity_ai-f89a10327e81",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Comet is now available for iOS. Download on the App Store: https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471",
+  "why_now": "Clustered 3 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 83.11,
+  "heat_breakdown": {
+    "volume_score": 98.2,
+    "velocity_score": 76.74,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "missions::now available",
+  "cluster_signal_ids": [
+    "x-bentossell-3031d9f2a29e",
+    "x-ericciarla-6ca1773d1d35",
+    "x-perplexity_ai-f89a10327e81"
+  ],
+  "source_families": [
+    "official_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/perplexity_ai/status/2034315813105103082",
+    "published_at": "2026-03-18T17:07:40Z",
+    "release_signals_count": 3,
+    "fact_candidates_count": 29
+  }
+}

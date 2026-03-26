@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-cydiar404-05407e0f48e8",
+  "event_seed_signal_id": "x-cydiar404-05407e0f48e8",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "丛林法则永远适用于 Jason 兄，快速成长不是你曾经会什么。而是，即刻能学会什么。关注 Jason 不迷路，宝藏博主，人品极佳！",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 32.74,
+  "heat_breakdown": {
+    "volume_score": 31.4,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "jason",
+  "cluster_signal_ids": [
+    "x-cydiar404-05407e0f48e8"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/Cydiar404/status/2034912262537060368",
+    "published_at": "2026-03-20T08:37:44Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 8
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-vista8-0f2359302185",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/vista8/status/2036111418723094633",
+  "author": {
+    "handle": "@vista8",
+    "display_name": "vista8",
+    "account_url": "https://x.com/vista8"
+  },
+  "title": "SEBASTIAN写了本书叫《摇滚经济学》，解释为什么明星现在都靠开演唱会赚钱。 因为网上音乐复制成本太低，不稀缺了。 按这个逻辑推演软件开发和自媒体也会往这个方向发展。 Vibe Coding让软件开发变简单，AI让写文章变容易，甚至泛滥。 一切不稀缺后，属于软件开发和自媒体的“演唱会”在哪儿？",
+  "language": "unknown",
+  "published_at": "2026-03-23T16:02:46Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/vista8/status/2036111418723094633",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/vista8/status/2036111418723094633#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "SEBASTIAN写了本书叫《摇滚经济学》，解释为什么明星现在都靠开演唱会赚钱。 因为网上音乐复制成本太低，不稀缺了。 按这个逻辑推演软件开发和自媒体也会往这个方向发展。 Vibe Coding让软件开发变简单，AI让写文章变容易，甚至泛滥。 一切不稀缺后，属于软件开发和自媒体的“演唱会”在哪儿？",
+    "full_text": "Post title: SEBASTIAN写了本书叫《摇滚经济学》，解释为什么明星现在都靠开演唱会赚钱。 因为网上音乐复制成本太低，不稀缺了。 按这个逻辑推演软件开发和自媒体也会往这个方向发展。 Vibe Coding让软件开发变简单，AI让写文章变容易，甚至泛滥。 一切不稀缺后，属于软件开发和自媒体的“演唱会”在哪儿？\n\nPost summary: SEBASTIAN写了本书叫《摇滚经济学》，解释为什么明星现在都靠开演唱会赚钱。 因为网上音乐复制成本太低，不稀缺了。 按这个逻辑推演软件开发和自媒体也会往这个方向发展。 Vibe Coding让软件开发变简单，AI让写文章变容易，甚至泛滥。 一切不稀缺后，属于软件开发和自媒体的“演唱会”在哪儿？\n\nCanonical URL: https://x.com/vista8/status/2036111418723094633",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Vibe",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "SEBASTIAN写了本书叫《摇滚经济学》，解释为什么明星现在都靠开演唱会赚钱。 因为网上音乐复制成本太低，不稀缺了。 按这个逻辑推演软件开发和自媒体也会往这个方向发展。 Vibe Coding让软件开发变简单，AI让写文章变容易，甚至泛滥。 一切不稀缺后，属于软件开发和自媒体的“演唱会”在哪儿？",
+      "Vibe",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

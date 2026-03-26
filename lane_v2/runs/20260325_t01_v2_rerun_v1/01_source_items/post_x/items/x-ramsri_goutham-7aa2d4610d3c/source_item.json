@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ramsri_goutham-7aa2d4610d3c",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ramsri_goutham/status/2036013018916782181",
+  "author": {
+    "handle": "@ramsri_goutham",
+    "display_name": "ramsri_goutham",
+    "account_url": "https://x.com/ramsri_goutham"
+  },
+  "title": "My biggest U-turn in life has been my view on compassion. I no longer believe that extreme compassion is a good trait. Much of what passes for compassion is actually suicidal empathy. Some people are so foolish that they lose the ability to reason and end up sympathizing more with the perpetrator than the victim. Others are so naive that they think even fighting back when you are in danger is a sin. Too much softness has created a generation of foolishly compassionate people in this world.",
+  "language": "unknown",
+  "published_at": "2026-03-23T09:31:45Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ramsri_goutham/status/2036013018916782181",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ramsri_goutham/status/2036013018916782181#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "My biggest U-turn in life has been my view on compassion. I no longer believe that extreme compassion is a good trait. Much of what passes for compassion is actually suicidal empathy. Some people are so foolish that they lose the ability to reason and end up sympathizing more with the perpetrator than the victim. Others are so naive that they think even fighting back when you are in danger is a sin. Too much softness has created a generation of foolishly compassionate people in this world.",
+    "full_text": "Post title: My biggest U-turn in life has been my view on compassion. I no longer believe that extreme compassion is a good trait. Much of what passes for compassion is actually suicidal empathy. Some people are so foolish that they lose the ability to reason and end up sympathizing more with the perpetrator than the victim. Others are so naive that they think even fighting back when you are in danger is a sin. Too much softness has created a generation of foolishly compassionate people in this world.\n\nPost summary: My biggest U-turn in life has been my view on compassion. I no longer believe that extreme compassion is a good trait. Much of what passes for compassion is actually suicidal empathy. Some people are so foolish that they lose the ability to reason and end up sympathizing more with the perpetrator than the victim. Others are so naive that they think even fighting back when you are in danger is a sin. Too much softness has created a generation of foolishly compassionate people in this world.\n\nCanonical URL: https://x.com/ramsri_goutham/status/2036013018916782181",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "My",
+      "Much",
+      "Some",
+      "Others",
+      "Too",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "My biggest U-turn in life has been my view on compassion. I no longer believe that extreme compassion is a good trait. Much of what passes for compassion is actually suicidal empathy. Some people are so foolish that they lose the ability to reason and end up sympathizing more with the perpetrator than the victim. Others are so naive that they think even fighting back when you are in danger is a sin. Too much softness has created a generation of foolishly compassionate people in this world.",
+      "My",
+      "Much",
+      "Some",
+      "Others",
+      "Too",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

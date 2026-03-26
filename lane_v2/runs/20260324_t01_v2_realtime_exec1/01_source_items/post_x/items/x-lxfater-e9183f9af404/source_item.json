@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lxfater-e9183f9af404",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lxfater/status/2036137730913231210",
+  "author": {
+    "handle": "@lxfater",
+    "display_name": "lxfater",
+    "account_url": "https://x.com/lxfater"
+  },
+  "title": "不错啊网易有道的这个龙虾！ 一个月前我还在围观有道龙虾开源，一个月后连openclaw之父peter都来点赞了！ 前几天也看了一下他们的访问量数据，这妥妥的国内AI Agent第一梯队。",
+  "language": "unknown",
+  "published_at": "2026-03-23T17:47:19Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lxfater/status/2036137730913231210",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lxfater/status/2036137730913231210#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "不错啊网易有道的这个龙虾！ 一个月前我还在围观有道龙虾开源，一个月后连openclaw之父peter都来点赞了！ 前几天也看了一下他们的访问量数据，这妥妥的国内AI Agent第一梯队。 LobsterAI (@YoudaoLobsterAI) Thanks for the mention🫡Appreciate the love！ If you haven’t tried LobsterAI yet, give it a spin — we’re evolving fast. — https://nitter.net/YoudaoLobsterAI/status/2036079765728432149#m",
+    "full_text": "Post title: 不错啊网易有道的这个龙虾！ 一个月前我还在围观有道龙虾开源，一个月后连openclaw之父peter都来点赞了！ 前几天也看了一下他们的访问量数据，这妥妥的国内AI Agent第一梯队。\n\nPost summary: 不错啊网易有道的这个龙虾！ 一个月前我还在围观有道龙虾开源，一个月后连openclaw之父peter都来点赞了！ 前几天也看了一下他们的访问量数据，这妥妥的国内AI Agent第一梯队。 LobsterAI (@YoudaoLobsterAI) Thanks for the mention🫡Appreciate the love！ If you haven’t tried LobsterAI yet, give it a spin — we’re evolving fast. — https://nitter.net/YoudaoLobsterAI/status/2036079765728432149#m\n\nCanonical URL: https://x.com/lxfater/status/2036137730913231210",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "LobsterAI",
+      "YoudaoLobsterAI",
+      "Thanks",
+      "Appreciate",
+      "If",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "不错啊网易有道的这个龙虾！ 一个月前我还在围观有道龙虾开源，一个月后连openclaw之父peter都来点赞了！ 前几天也看了一下他们的访问量数据，这妥妥的国内AI Agent第一梯队。",
+      "不错啊网易有道的这个龙虾！ 一个月前我还在围观有道龙虾开源，一个月后连openclaw之父peter都来点赞了！ 前几天也看了一下他们的访问量数据，这妥妥的国内AI Agent第一梯队。 LobsterAI (@YoudaoLobsterAI) Thanks for the mention🫡Appreciate the love！ If you haven’t tried LobsterAI yet, give it a spin — we’re evolving fast. — https://nitter.net/YoudaoLobsterAI/status/2036079765728432149#m",
+      "LobsterAI",
+      "YoudaoLobsterAI",
+      "Thanks",
+      "Appreciate",
+      "If",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

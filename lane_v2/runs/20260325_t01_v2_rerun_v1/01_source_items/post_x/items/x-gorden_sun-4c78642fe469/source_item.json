@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-4c78642fe469",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2036435348285477064",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "daVinci-MagiHuman：开源音视频模型 由国内GAIR实验室发布，15B参数，能生成带有音频的视频（目前开源可用的同类模型只有LTX 2.3），支持中文、英文、日语等多种语言。效果还行，感觉生成的视频动作幅度不大。 在线体验：https://huggingface.co/spaces/SII-GAIR/daVinci-MagiHuman 模型：https://huggingface.co/GAIR/daVinci-MagiHuman",
+  "language": "unknown",
+  "published_at": "2026-03-24T13:29:56Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2036435348285477064",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2036435348285477064#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "daVinci-MagiHuman：开源音视频模型 由国内GAIR实验室发布，15B参数，能生成带有音频的视频（目前开源可用的同类模型只有LTX 2.3），支持中文、英文、日语等多种语言。效果还行，感觉生成的视频动作幅度不大。 在线体验： huggingface.co/spaces/SII-GA… 模型： huggingface.co/GAIR/daVinci-… Video",
+    "full_text": "Post title: daVinci-MagiHuman：开源音视频模型 由国内GAIR实验室发布，15B参数，能生成带有音频的视频（目前开源可用的同类模型只有LTX 2.3），支持中文、英文、日语等多种语言。效果还行，感觉生成的视频动作幅度不大。 在线体验：https://huggingface.co/spaces/SII-GAIR/daVinci-MagiHuman 模型：https://huggingface.co/GAIR/daVinci-MagiHuman\n\nPost summary: daVinci-MagiHuman：开源音视频模型 由国内GAIR实验室发布，15B参数，能生成带有音频的视频（目前开源可用的同类模型只有LTX 2.3），支持中文、英文、日语等多种语言。效果还行，感觉生成的视频动作幅度不大。 在线体验： huggingface.co/spaces/SII-GA… 模型： huggingface.co/GAIR/daVinci-… Video\n\nCanonical URL: https://x.com/Gorden_Sun/status/2036435348285477064",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "MagiHuman",
+      "SII",
+      "GAIR",
+      "GA",
+      "Video Post",
+      "MagiHuman Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "daVinci-MagiHuman：开源音视频模型 由国内GAIR实验室发布，15B参数，能生成带有音频的视频（目前开源可用的同类模型只有LTX 2.3），支持中文、英文、日语等多种语言。效果还行，感觉生成的视频动作幅度不大。 在线体验：https://huggingface.co/spaces/SII-GAIR/daVinci-MagiHuman 模型：https://huggingface.co/GAIR/daVinci-MagiHuman",
+      "daVinci-MagiHuman：开源音视频模型 由国内GAIR实验室发布，15B参数，能生成带有音频的视频（目前开源可用的同类模型只有LTX 2.3），支持中文、英文、日语等多种语言。效果还行，感觉生成的视频动作幅度不大。 在线体验： huggingface.co/spaces/SII-GA… 模型： huggingface.co/GAIR/daVinci-… Video",
+      "MagiHuman",
+      "SII",
+      "GAIR",
+      "GA",
+      "Video Post",
+      "MagiHuman Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

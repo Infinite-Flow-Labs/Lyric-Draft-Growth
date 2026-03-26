@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gregkamradt-c4183b5d5f5e",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/GregKamradt/status/2035846479609557427",
+  "author": {
+    "handle": "@GregKamradt",
+    "display_name": "GregKamradt",
+    "account_url": "https://x.com/GregKamradt"
+  },
+  "title": "If any harness innovation actually made a model more generally intelligent the labs would immediately put it behind the API",
+  "language": "unknown",
+  "published_at": "2026-03-22T22:29:59Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/GregKamradt/status/2035846479609557427",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/GregKamradt/status/2035846479609557427#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "If any harness innovation actually made a model more generally intelligent the labs would immediately put it behind the API",
+    "full_text": "Post title: If any harness innovation actually made a model more generally intelligent the labs would immediately put it behind the API\n\nPost summary: If any harness innovation actually made a model more generally intelligent the labs would immediately put it behind the API\n\nCanonical URL: https://x.com/GregKamradt/status/2035846479609557427",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "If",
+      "API If",
+      "API Post",
+      "API Canonical URL",
+      "GregKamradt"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "If any harness innovation actually made a model more generally intelligent the labs would immediately put it behind the API",
+      "If",
+      "API If",
+      "API Post",
+      "API Canonical URL",
+      "GregKamradt"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-shengxj1-39d593d2c39c",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/shengxj1/status/2035153189201486190",
+  "author": {
+    "handle": "@shengxj1",
+    "display_name": "shengxj1",
+    "account_url": "https://x.com/shengxj1"
+  },
+  "title": "看了王自如的 Vibe coding 48天的项目视频，真是天才啊，没有技术背景，就用 AI 做了一个 10W 行代码级别的应用，架构分析做的还头头是道 连ddd 可观测性 自动化测试，multi agent 都聊到了 值得一看，虽然评论区他的招聘槽点很多 https://www.bilibili.com/video/BV173wdzgEFu",
+  "language": "unknown",
+  "published_at": "2026-03-21T00:35:06Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/shengxj1/status/2035153189201486190",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/shengxj1/status/2035153189201486190#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "看了王自如的 Vibe coding 48天的项目视频，真是天才啊，没有技术背景，就用 AI 做了一个 10W 行代码级别的应用，架构分析做的还头头是道 连ddd 可观测性 自动化测试，multi agent 都聊到了 值得一看，虽然评论区他的招聘槽点很多 bilibili.com/video/BV173wdzg…",
+    "full_text": "Post title: 看了王自如的 Vibe coding 48天的项目视频，真是天才啊，没有技术背景，就用 AI 做了一个 10W 行代码级别的应用，架构分析做的还头头是道 连ddd 可观测性 自动化测试，multi agent 都聊到了 值得一看，虽然评论区他的招聘槽点很多 https://www.bilibili.com/video/BV173wdzgEFu\n\nPost summary: 看了王自如的 Vibe coding 48天的项目视频，真是天才啊，没有技术背景，就用 AI 做了一个 10W 行代码级别的应用，架构分析做的还头头是道 连ddd 可观测性 自动化测试，multi agent 都聊到了 值得一看，虽然评论区他的招聘槽点很多 bilibili.com/video/BV173wdzg…\n\nCanonical URL: https://x.com/shengxj1/status/2035153189201486190",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Vibe",
+      "AI",
+      "BV173wdzgEFu",
+      "BV173wdzg",
+      "Post",
+      "BV173wdzgEFu Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "看了王自如的 Vibe coding 48天的项目视频，真是天才啊，没有技术背景，就用 AI 做了一个 10W 行代码级别的应用，架构分析做的还头头是道 连ddd 可观测性 自动化测试，multi agent 都聊到了 值得一看，虽然评论区他的招聘槽点很多 https://www.bilibili.com/video/BV173wdzgEFu",
+      "看了王自如的 Vibe coding 48天的项目视频，真是天才啊，没有技术背景，就用 AI 做了一个 10W 行代码级别的应用，架构分析做的还头头是道 连ddd 可观测性 自动化测试，multi agent 都聊到了 值得一看，虽然评论区他的招聘槽点很多 bilibili.com/video/BV173wdzg…",
+      "Vibe",
+      "AI",
+      "BV173wdzgEFu",
+      "BV173wdzg",
+      "Post",
+      "BV173wdzgEFu Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

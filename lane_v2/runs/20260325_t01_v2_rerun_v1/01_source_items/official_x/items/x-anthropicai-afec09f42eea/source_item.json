@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-anthropicai-afec09f42eea",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AnthropicAI/status/2036481033621623056",
+  "author": {
+    "handle": "@AnthropicAI",
+    "display_name": "Anthropic",
+    "account_url": "https://x.com/AnthropicAI"
+  },
+  "title": "New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: https://www.anthropic.com/engineering/harness-design-long-running-apps",
+  "language": "unknown",
+  "published_at": "2026-03-24T16:31:29Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AnthropicAI/status/2036481033621623056",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AnthropicAI/status/2036481033621623056#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: anthropic.com/engineering/ha…",
+    "full_text": "Post title: New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: https://www.anthropic.com/engineering/harness-design-long-running-apps\n\nPost summary: New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: anthropic.com/engineering/ha…\n\nCanonical URL: https://x.com/AnthropicAI/status/2036481033621623056",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_failed:https://www.anthropic.com/engineering/harness-design-long-running-apps (URLError)"
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "New",
+      "Anthropic Engineering Blog",
+      "How",
+      "Claude",
+      "Read",
+      "Post",
+      "Canonical URL",
+      "AnthropicAI"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "New on the Anthropic Engineering Blog: How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering. Read more: anthropic.com/engineering/ha…",
+      "New",
+      "Anthropic Engineering Blog",
+      "How",
+      "Claude",
+      "Read",
+      "Post",
+      "Canonical URL",
+      "AnthropicAI"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

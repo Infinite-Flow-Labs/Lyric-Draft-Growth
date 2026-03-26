@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-vista8-4f48e76b1154",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/vista8/status/2036092962392936565",
+  "author": {
+    "handle": "@vista8",
+    "display_name": "vista8",
+    "account_url": "https://x.com/vista8"
+  },
+  "title": "据说OpenAI 正在开发一款桌面“超级应用”。 将 ChatGPT、Codex 及其 Atlas 浏览器合到一起。 那就类似豆包客户端？",
+  "language": "unknown",
+  "published_at": "2026-03-23T14:49:25Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/vista8/status/2036092962392936565",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/vista8/status/2036092962392936565#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "据说OpenAI 正在开发一款桌面“超级应用”。 将 ChatGPT、Codex 及其 Atlas 浏览器合到一起。 那就类似豆包客户端？",
+    "full_text": "Post title: 据说OpenAI 正在开发一款桌面“超级应用”。 将 ChatGPT、Codex 及其 Atlas 浏览器合到一起。 那就类似豆包客户端？\n\nPost summary: 据说OpenAI 正在开发一款桌面“超级应用”。 将 ChatGPT、Codex 及其 Atlas 浏览器合到一起。 那就类似豆包客户端？\n\nCanonical URL: https://x.com/vista8/status/2036092962392936565",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "ChatGPT",
+      "Codex",
+      "Atlas",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "据说OpenAI 正在开发一款桌面“超级应用”。 将 ChatGPT、Codex 及其 Atlas 浏览器合到一起。 那就类似豆包客户端？",
+      "ChatGPT",
+      "Codex",
+      "Atlas",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

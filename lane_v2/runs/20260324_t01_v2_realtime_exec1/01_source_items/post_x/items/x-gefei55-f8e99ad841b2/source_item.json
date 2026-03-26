@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gefei55-f8e99ad841b2",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/gefei55/status/2034947561178693637",
+  "author": {
+    "handle": "@gefei55",
+    "display_name": "gefei55",
+    "account_url": "https://x.com/gefei55"
+  },
+  "title": "王自如的这个招聘需求，我们群里月入千刀以上都能胜任。 倒不是说群友们把里边列出来的每一项技能都掌握了，按需掌握技能就行。 其实王自如要的也并不是每一项技能都掌握的人，他要的是能够通过做 Web 实现月入千刀以上的人。 只是王自如没办法那样表达，所以只好列出那么多条件出来。 谁要认识王自如，可以让他找我聊聊。",
+  "language": "unknown",
+  "published_at": "2026-03-20T10:58:00Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/gefei55/status/2034947561178693637",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/gefei55/status/2034947561178693637#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "王自如的这个招聘需求，我们群里月入千刀以上都能胜任。 倒不是说群友们把里边列出来的每一项技能都掌握了，按需掌握技能就行。 其实王自如要的也并不是每一项技能都掌握的人，他要的是能够通过做 Web 实现月入千刀以上的人。 只是王自如没办法那样表达，所以只好列出那么多条件出来。 谁要认识王自如，可以让他找我聊聊。",
+    "full_text": "Post title: 王自如的这个招聘需求，我们群里月入千刀以上都能胜任。 倒不是说群友们把里边列出来的每一项技能都掌握了，按需掌握技能就行。 其实王自如要的也并不是每一项技能都掌握的人，他要的是能够通过做 Web 实现月入千刀以上的人。 只是王自如没办法那样表达，所以只好列出那么多条件出来。 谁要认识王自如，可以让他找我聊聊。\n\nPost summary: 王自如的这个招聘需求，我们群里月入千刀以上都能胜任。 倒不是说群友们把里边列出来的每一项技能都掌握了，按需掌握技能就行。 其实王自如要的也并不是每一项技能都掌握的人，他要的是能够通过做 Web 实现月入千刀以上的人。 只是王自如没办法那样表达，所以只好列出那么多条件出来。 谁要认识王自如，可以让他找我聊聊。\n\nCanonical URL: https://x.com/gefei55/status/2034947561178693637",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Web",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "王自如的这个招聘需求，我们群里月入千刀以上都能胜任。 倒不是说群友们把里边列出来的每一项技能都掌握了，按需掌握技能就行。 其实王自如要的也并不是每一项技能都掌握的人，他要的是能够通过做 Web 实现月入千刀以上的人。 只是王自如没办法那样表达，所以只好列出那么多条件出来。 谁要认识王自如，可以让他找我聊聊。",
+      "Web",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

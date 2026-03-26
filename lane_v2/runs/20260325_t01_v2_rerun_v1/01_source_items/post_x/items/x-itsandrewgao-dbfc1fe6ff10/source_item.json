@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-itsandrewgao-dbfc1fe6ff10",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/itsandrewgao/status/2036508476420071752",
+  "author": {
+    "handle": "@itsandrewgao",
+    "display_name": "itsandrewgao",
+    "account_url": "https://x.com/itsandrewgao"
+  },
+  "title": "SWE 1.6 Preview is looking pretty solid 👀",
+  "language": "unknown",
+  "published_at": "2026-03-24T18:20:31Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/itsandrewgao/status/2036508476420071752",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/itsandrewgao/status/2036508476420071752#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "SWE 1.6 Preview is looking pretty solid 👀 adarsh (@adarsh_exe) Traditional coding benchmarks do not reflect how software is actually built and maintained. That's why we built a new benchmark, APEX-SWE, in partnership with @cognition . It measures whether AI models can perform complex, real-world software engineering work to ship systems that work and debug them when they don't. @OpenAI GPT 5.3 Codex (High) tops the leaderboard at 41.5% on Pass@1. Video — https://nitter.net/adarsh_exe/status/2036492054948356462#m",
+    "full_text": "Post title: SWE 1.6 Preview is looking pretty solid 👀\n\nPost summary: SWE 1.6 Preview is looking pretty solid 👀 adarsh (@adarsh_exe) Traditional coding benchmarks do not reflect how software is actually built and maintained. That's why we built a new benchmark, APEX-SWE, in partnership with @cognition . It measures whether AI models can perform complex, real-world software engineering work to ship systems that work and debug them when they don't. @OpenAI GPT 5.3 Codex (High) tops the leaderboard at 41.5% on Pass@1. Video — https://nitter.net/adarsh_exe/status/2036492054948356462#m\n\nCanonical URL: https://x.com/itsandrewgao/status/2036508476420071752",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "partnership"
+    ],
+    "metric_signals": [
+      "41.5%"
+    ],
+    "named_entities": [
+      "SWE",
+      "Preview",
+      "Traditional",
+      "That",
+      "APEX",
+      "It",
+      "AI",
+      "OpenAI GPT",
+      "Codex",
+      "High",
+      "Pass",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "comparison",
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "SWE 1.6 Preview is looking pretty solid 👀",
+      "SWE 1.6 Preview is looking pretty solid 👀 adarsh (@adarsh_exe) Traditional coding benchmarks do not reflect how software is actually built and maintained. That's why we built a new benchmark, APEX-SWE, in partnership with @cognition . It measures whether AI models can perform complex, real-world software engineering work to ship systems that work and debug them when they don't. @OpenAI GPT 5.3 Codex (High) tops the leaderboard at 41.5% on Pass@1. Video — https://nitter.net/adarsh_exe/status/2036492054948356462#m",
+      "partnership",
+      "41.5%",
+      "SWE",
+      "Preview",
+      "Traditional",
+      "That",
+      "APEX",
+      "It",
+      "AI",
+      "OpenAI GPT",
+      "Codex",
+      "High",
+      "Pass",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

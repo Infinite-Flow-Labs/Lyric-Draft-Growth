@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-jxnlco-79ccf0d17658",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/jxnlco/status/2036227725770498392",
+  "author": {
+    "handle": "@jxnlco",
+    "display_name": "jxnlco",
+    "account_url": "https://x.com/jxnlco"
+  },
+  "title": "Image",
+  "language": "unknown",
+  "published_at": "2026-03-23T23:44:55Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/jxnlco/status/2036227725770498392",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/jxnlco/status/2036227725770498392#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Theo - t3.gg (@theo) Does anyone actually get a degree from Waterloo or do they all drop out to make startups? — https://nitter.net/theo/status/2036222038818566563#m",
+    "full_text": "Post title: Image\n\nPost summary: Theo - t3.gg (@theo) Does anyone actually get a degree from Waterloo or do they all drop out to make startups? — https://nitter.net/theo/status/2036222038818566563#m\n\nCanonical URL: https://x.com/jxnlco/status/2036227725770498392",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Image Theo",
+      "Does",
+      "Waterloo",
+      "Post",
+      "Image Post",
+      "Theo",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Image",
+      "Theo - t3.gg (@theo) Does anyone actually get a degree from Waterloo or do they all drop out to make startups? — https://nitter.net/theo/status/2036222038818566563#m",
+      "Image Theo",
+      "Does",
+      "Waterloo",
+      "Post",
+      "Image Post",
+      "Theo",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

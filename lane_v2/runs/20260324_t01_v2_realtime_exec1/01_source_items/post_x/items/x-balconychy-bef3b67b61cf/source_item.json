@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-balconychy-bef3b67b61cf",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/balconychy/status/2034243931450626140",
+  "author": {
+    "handle": "@balconychy",
+    "display_name": "balconychy",
+    "account_url": "https://x.com/balconychy"
+  },
+  "title": "居然用Agent监工人类干活！ 人类员工惨了！",
+  "language": "unknown",
+  "published_at": "2026-03-18T12:22:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/balconychy/status/2034243931450626140",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/balconychy/status/2034243931450626140#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "居然用Agent监工人类干活！ 人类员工惨了！",
+    "full_text": "Post title: 居然用Agent监工人类干活！ 人类员工惨了！\n\nPost summary: 居然用Agent监工人类干活！ 人类员工惨了！\n\nCanonical URL: https://x.com/balconychy/status/2034243931450626140",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "居然用Agent监工人类干活！ 人类员工惨了！",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-shengxj1-e81899a108d5",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/shengxj1/status/2035943043635822736",
+  "author": {
+    "handle": "@shengxj1",
+    "display_name": "shengxj1",
+    "account_url": "https://x.com/shengxj1"
+  },
+  "title": "看到老罗这个广告，不喝咖啡的我都想去瑞幸来一杯",
+  "language": "unknown",
+  "published_at": "2026-03-23T04:53:42Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/shengxj1/status/2035943043635822736",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/shengxj1/status/2035943043635822736#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "看到老罗这个广告，不喝咖啡的我都想去瑞幸来一杯 Video",
+    "full_text": "Post title: 看到老罗这个广告，不喝咖啡的我都想去瑞幸来一杯\n\nPost summary: 看到老罗这个广告，不喝咖啡的我都想去瑞幸来一杯 Video\n\nCanonical URL: https://x.com/shengxj1/status/2035943043635822736",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "看到老罗这个广告，不喝咖啡的我都想去瑞幸来一杯",
+      "看到老罗这个广告，不喝咖啡的我都想去瑞幸来一杯 Video",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

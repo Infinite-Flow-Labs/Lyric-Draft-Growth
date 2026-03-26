@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-bentossell-496acad03e22",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/bentossell/status/2034580294007664991",
+  "author": {
+    "handle": "@bentossell",
+    "display_name": "bentossell",
+    "account_url": "https://x.com/bentossell"
+  },
+  "title": "they should pay me to ignore my codebases for training.",
+  "language": "unknown",
+  "published_at": "2026-03-19T10:38:37Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/bentossell/status/2034580294007664991",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/bentossell/status/2034580294007664991#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "they should pay me to ignore my codebases for training. James Ivings (@JamesIvings) if you use @vercel free plan, they now train their AI on your code by default 😱 madness — https://nitter.net/JamesIvings/status/2034491625553207423#m",
+    "full_text": "Post title: they should pay me to ignore my codebases for training.\n\nPost summary: they should pay me to ignore my codebases for training. James Ivings (@JamesIvings) if you use @vercel free plan, they now train their AI on your code by default 😱 madness — https://nitter.net/JamesIvings/status/2034491625553207423#m\n\nCanonical URL: https://x.com/bentossell/status/2034580294007664991",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "James Ivings",
+      "JamesIvings",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "they should pay me to ignore my codebases for training.",
+      "they should pay me to ignore my codebases for training. James Ivings (@JamesIvings) if you use @vercel free plan, they now train their AI on your code by default 😱 madness — https://nitter.net/JamesIvings/status/2034491625553207423#m",
+      "James Ivings",
+      "JamesIvings",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

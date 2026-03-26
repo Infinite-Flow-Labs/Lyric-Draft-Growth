@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_for_success-da31888a91ac",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ai_for_success/status/2036623242719609049",
+  "author": {
+    "handle": "@ai_for_success",
+    "display_name": "ai_for_success",
+    "account_url": "https://x.com/ai_for_success"
+  },
+  "title": "HyperLearn: AI agents that train AI coding agents. A browser agent can browse live documentation in real time and generate skill files as it discovers knowledge. Open source :",
+  "language": "unknown",
+  "published_at": "2026-03-25T01:56:34Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ai_for_success/status/2036623242719609049",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ai_for_success/status/2036623242719609049#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "HyperLearn: AI agents that train AI coding agents. A browser agent can browse live documentation in real time and generate skill files as it discovers knowledge. Open source : Video Hyperbrowser (@hyperbrowser) Open-source code here: github.com/hyperbrowserai/hy… — https://nitter.net/hyperbrowser/status/2036516356712177971#m",
+    "full_text": "Post title: HyperLearn: AI agents that train AI coding agents. A browser agent can browse live documentation in real time and generate skill files as it discovers knowledge. Open source :\n\nPost summary: HyperLearn: AI agents that train AI coding agents. A browser agent can browse live documentation in real time and generate skill files as it discovers knowledge. Open source : Video Hyperbrowser (@hyperbrowser) Open-source code here: github.com/hyperbrowserai/hy… — https://nitter.net/hyperbrowser/status/2036516356712177971#m\n\nCanonical URL: https://x.com/ai_for_success/status/2036623242719609049",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "HyperLearn",
+      "AI",
+      "Open",
+      "Video Hyperbrowser",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "HyperLearn: AI agents that train AI coding agents. A browser agent can browse live documentation in real time and generate skill files as it discovers knowledge. Open source :",
+      "HyperLearn: AI agents that train AI coding agents. A browser agent can browse live documentation in real time and generate skill files as it discovers knowledge. Open source : Video Hyperbrowser (@hyperbrowser) Open-source code here: github.com/hyperbrowserai/hy… — https://nitter.net/hyperbrowser/status/2036516356712177971#m",
+      "HyperLearn",
+      "AI",
+      "Open",
+      "Video Hyperbrowser",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

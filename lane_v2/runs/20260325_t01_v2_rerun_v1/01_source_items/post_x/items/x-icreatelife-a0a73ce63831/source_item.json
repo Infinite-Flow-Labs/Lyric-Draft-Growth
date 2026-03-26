@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-icreatelife-a0a73ce63831",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/icreatelife/status/2036177277914882069",
+  "author": {
+    "handle": "@icreatelife",
+    "display_name": "icreatelife",
+    "account_url": "https://x.com/icreatelife"
+  },
+  "title": "Guess the AI video model while my mind is blown 🤯",
+  "language": "unknown",
+  "published_at": "2026-03-23T20:24:28Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/icreatelife/status/2036177277914882069",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/icreatelife/status/2036177277914882069#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Guess the AI video model while my mind is blown 🤯 Video",
+    "full_text": "Post title: Guess the AI video model while my mind is blown 🤯\n\nPost summary: Guess the AI video model while my mind is blown 🤯 Video\n\nCanonical URL: https://x.com/icreatelife/status/2036177277914882069",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Guess",
+      "AI",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Guess the AI video model while my mind is blown 🤯",
+      "Guess the AI video model while my mind is blown 🤯 Video",
+      "Guess",
+      "AI",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-cohere-b6b7af400c7f",
+  "lane_id": "T03_money_proof",
+  "framework_id": "01_money_proof",
+  "submode_id": "metric_postmortem",
+  "composition_mode": "rewrite_heavy",
+  "primary_sources": [
+    {
+      "signal_id": "x-cohere-b6b7af400c7f",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/cohere/status/2035025921283883153",
+      "title": "Our team had a great week in San Jose at @NVIDIAGTC ! Cohere leaders and technical staff delivered talks across the event, covering hardware efficiency, enterprise-grade automation, and innovation across the stack. Our CEO, @aidangomez, also joined the GTC live stage to discuss the exciting possibilities for enterprise customers, the barriers to deploying enterprise technology into global economies, and what surprised him most about the evolution of AI adoption. It was great connecting with our customers and partners, including @Dell, @Microsoft, @Oracle, and @CoreWeave, as well as the many other brilliant minds across the ecosystem who are shaping the exciting future of AI. #NVIDIAGTC",
+      "published_at": "2026-03-20T16:09:23Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-cohere-b6b7af400c7f/source_item.json"
+    },
+    {
+      "signal_id": "x-openaidevs-e8a59b948d3c",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2035033703274201109",
+      "title": "Meet Codex for Students. We're offering college students in the U.S. and Canada $100 in Codex credits. Our goal is to support students to learn by building, breaking, and fixing things. http://chatgpt.com/codex/students",
+      "published_at": "2026-03-20T16:40:18Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openaidevs-e8a59b948d3c/source_item.json"
+    }
+  ],
+  "supporting_sources": [],
+  "fact_anchors": [
+    {
+      "claim": "Our team had a great week in San Jose at @NVIDIAGTC ! Cohere leaders and technical staff delivered talks across the event, covering hardware efficiency, enterprise-grade automation, and innovation across the stack. Our CEO, @aidangomez, also joined the GTC live stage to discuss the exciting possibilities for enterprise customers, the barriers to deploying enterprise technology into global economies, and what surprised him most about the evolution of AI adoption. It was great connecting with our customers and partners, including @Dell, @Microsoft, @Oracle, and @CoreWeave, as well as the many other brilliant minds across the ecosystem who are shaping the exciting future of AI. #NVIDIAGTC",
+      "source_url": "https://x.com/cohere/status/2035025921283883153",
+      "signal_id": "x-cohere-b6b7af400c7f"
+    },
+    {
+      "claim": "Our team had a great week in San Jose at @NVIDIAGTC ! Cohere leaders and technical staff delivered talks across the event, covering hardware efficiency, enterprise-grade automation, and innovation across the stack. Our CEO, @aidangomez , also joined the GTC live stage to discuss the exciting possibilities for enterprise customers, the barriers to deploying enterprise technology into global economies, and what surprised him most about the evolution of AI adoption. It was great connecting with our customers and partners, including @Dell , @Microsoft , @Oracle , and @CoreWeave , as well as the many other brilliant minds across the ecosystem who are shaping the exciting future of AI. #NVIDIAGTC",
+      "source_url": "https://x.com/cohere/status/2035025921283883153",
+      "signal_id": "x-cohere-b6b7af400c7f"
+    },
+    {
+      "claim": "Our team had a great week in San Jose at @NVIDIAGTC",
+      "source_url": "https://x.com/cohere/status/2035025921283883153",
+      "signal_id": "x-cohere-b6b7af400c7f"
+    },
+    {
+      "claim": "Cohere leaders and technical staff delivered talks across the event, covering hardware efficiency, enterprise-grade automation, and innovation across the stack. Our CEO, @aidangomez, also joined the GTC live stage to discuss the exciting possibilities for enterprise customers, th",
+      "source_url": "https://x.com/cohere/status/2035025921283883153",
+      "signal_id": "x-cohere-b6b7af400c7f"
+    },
+    {
+      "claim": "Cohere leaders and technical staff delivered talks across the event, covering hardware efficiency, enterprise-grade automation, and innovation across the stack. Our CEO, @aidangomez , also joined the GTC live stage to discuss the exciting possibilities for enterprise customers, t",
+      "source_url": "https://x.com/cohere/status/2035025921283883153",
+      "signal_id": "x-cohere-b6b7af400c7f"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 8,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": true,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": true,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": false,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

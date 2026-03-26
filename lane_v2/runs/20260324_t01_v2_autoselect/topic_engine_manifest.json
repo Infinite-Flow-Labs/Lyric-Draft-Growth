@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-24T07:28:23Z",
+  "input_roots": [
+    "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items",
+    "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items",
+    "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/article_x_ingest/03_source_items/article_x/items",
+    "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items"
+  ],
+  "source_item_count": 870,
+  "loaded_count": 870,
+  "passed_count": 567,
+  "rejected_count": 303,
+  "load_error_count": 0,
+  "topic_count": 54,
+  "lane_assignment_count": 54,
+  "source_bundle_count": 54,
+  "writer_ready_count": 8,
+  "writer_packet_count": 8,
+  "review_required": false,
+  "selected_topic_ids_count": 8,
+  "outputs": {
+    "signal_pool_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_autoselect/01_signal_pool/signal_pool.json",
+    "gate_report_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_autoselect/01_signal_pool/gate_report.json",
+    "topic_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_autoselect/02_topic_cards/topic_card_manifest.json",
+    "lane_assignment_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_autoselect/03_lane_assignments/lane_assignment_manifest.json",
+    "source_bundle_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_autoselect/04_source_bundles/source_bundle_manifest.json",
+    "topic_ranking_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_autoselect/topic_ranking.json",
+    "writer_input_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_autoselect/05_writer_inputs/writer_input_manifest.json",
+    "writer_packet_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_autoselect/06_writer_packets/writer_packet_manifest.json"
+  }
+}

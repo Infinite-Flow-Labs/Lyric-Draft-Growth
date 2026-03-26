@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-chuhaiqu-b1e6d5618bfc",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/chuhaiqu/status/2036654576267624574",
+  "author": {
+    "handle": "@chuhaiqu",
+    "display_name": "chuhaiqu",
+    "account_url": "https://x.com/chuhaiqu"
+  },
+  "title": "MoneyPrinterV2 这个项目有点野，看名字印钞机？！ 号称自动化搞钱，能跑 Twitter 机器人发内容，自动剪 YouTube Shorts，还能做联盟营销和本地商家的 cold outreach。 里面的自动化思路可以学习，也有一个对应的国内版本用来 AI 一键生成短视频（不过上一次更新是 3 个月前） 🔗 https://github.com/FujiwaraChoki/MoneyPrinterV2 · 2.2 万多 star",
+  "language": "unknown",
+  "published_at": "2026-03-25T04:01:04Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/chuhaiqu/status/2036654576267624574",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/chuhaiqu/status/2036654576267624574#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "MoneyPrinterV2 这个项目有点野，看名字印钞机？！ 号称自动化搞钱，能跑 Twitter 机器人发内容，自动剪 YouTube Shorts，还能做联盟营销和本地商家的 cold outreach。 里面的自动化思路可以学习，也有一个对应的国内版本用来 AI 一键生成短视频（不过上一次更新是 3 个月前） 🔗 github.com/FujiwaraChoki/Mon… · 2.2 万多 star",
+    "full_text": "Post title: MoneyPrinterV2 这个项目有点野，看名字印钞机？！ 号称自动化搞钱，能跑 Twitter 机器人发内容，自动剪 YouTube Shorts，还能做联盟营销和本地商家的 cold outreach。 里面的自动化思路可以学习，也有一个对应的国内版本用来 AI 一键生成短视频（不过上一次更新是 3 个月前） 🔗 https://github.com/FujiwaraChoki/MoneyPrinterV2 · 2.2 万多 star\n\nPost summary: MoneyPrinterV2 这个项目有点野，看名字印钞机？！ 号称自动化搞钱，能跑 Twitter 机器人发内容，自动剪 YouTube Shorts，还能做联盟营销和本地商家的 cold outreach。 里面的自动化思路可以学习，也有一个对应的国内版本用来 AI 一键生成短视频（不过上一次更新是 3 个月前） 🔗 github.com/FujiwaraChoki/Mon… · 2.2 万多 star\n\nCanonical URL: https://x.com/chuhaiqu/status/2036654576267624574",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "MoneyPrinterV2",
+      "Twitter",
+      "YouTube Shorts",
+      "AI",
+      "FujiwaraChoki",
+      "Mon",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "MoneyPrinterV2 这个项目有点野，看名字印钞机？！ 号称自动化搞钱，能跑 Twitter 机器人发内容，自动剪 YouTube Shorts，还能做联盟营销和本地商家的 cold outreach。 里面的自动化思路可以学习，也有一个对应的国内版本用来 AI 一键生成短视频（不过上一次更新是 3 个月前） 🔗 https://github.com/FujiwaraChoki/MoneyPrinterV2 · 2.2 万多 star",
+      "MoneyPrinterV2 这个项目有点野，看名字印钞机？！ 号称自动化搞钱，能跑 Twitter 机器人发内容，自动剪 YouTube Shorts，还能做联盟营销和本地商家的 cold outreach。 里面的自动化思路可以学习，也有一个对应的国内版本用来 AI 一键生成短视频（不过上一次更新是 3 个月前） 🔗 github.com/FujiwaraChoki/Mon… · 2.2 万多 star",
+      "MoneyPrinterV2",
+      "Twitter",
+      "YouTube Shorts",
+      "AI",
+      "FujiwaraChoki",
+      "Mon",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

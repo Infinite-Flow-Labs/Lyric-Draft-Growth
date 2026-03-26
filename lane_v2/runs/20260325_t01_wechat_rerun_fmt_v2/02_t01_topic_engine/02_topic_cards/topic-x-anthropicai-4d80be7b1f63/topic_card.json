@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-anthropicai-4d80be7b1f63",
+  "event_seed_signal_id": "x-anthropicai-4d80be7b1f63",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.",
+  "why_now": "Clustered 9 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 81.2,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 66.62,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "claude::更新",
+  "cluster_signal_ids": [
+    "x-danshipper-c34dfb70512d",
+    "x-anthropicai-4d80be7b1f63",
+    "x-anthropicai-afec09f42eea",
+    "x-nickscamara_-0134f77156ce",
+    "x-op7418-6d5e88c7d7a0",
+    "x-op7418-dd4b9944d063",
+    "x-op7418-f217dfe9b64b",
+    "x-gorden_sun-d9bb17f26b2b",
+    "x-fkysly-7021577d3bb0"
+  ],
+  "source_families": [
+    "official_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/AnthropicAI/status/2036499691571953848",
+    "published_at": "2026-03-24T17:45:37Z",
+    "release_signals_count": 4,
+    "fact_candidates_count": 84
+  }
+}

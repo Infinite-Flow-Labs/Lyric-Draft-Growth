@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "style_profile_id": "baoyu_skill_hybrid_v1",
+  "global": {
+    "style_direction_add": "Use baoyu-cover-image + baoyu-article-illustrator + baoyu-infographic style assets as the default visual language.",
+    "must_have_add": [
+      "ample whitespace and one dominant focal structure",
+      "flat color blocks with clear line hierarchy",
+      "layout-first visual storytelling instead of decorative art",
+      "section visuals must map to explicit layout grammar (hub-spoke / linear-progression / comparison-matrix / bento-grid)"
+    ],
+    "must_avoid_add": [
+      "busy ornamental textures that reduce readability",
+      "style drift between cover and inline images",
+      "paragraph-like dense text rendered inside image blocks"
+    ]
+  },
+  "cover": {
+    "default": {
+      "profile_label": "baoyu-cover-image: editorial-infographic (conceptual + warm + hand-drawn)",
+      "style_direction_add": "Cover should feel like an editorial infographic hero image with calm hand-drawn confidence.",
+      "scene_elements_add": [
+        "one focal visual occupying roughly 60-70% area",
+        "icon-based metaphor instead of literal screenshots",
+        "clean title zone with breathing room"
+      ],
+      "key_relationships_add": [
+        "make the core judgment visible within one glance",
+        "show one tension and one payoff only"
+      ],
+      "visual_constraints_add": [
+        "prefer conceptual composition over decorative scene rendering",
+        "preserve warm off-white background and restrained accent colors"
+      ],
+      "negative_constraints_add": [
+        "do not mimic generic social banner aesthetics",
+        "avoid full-image text walls or dense annotation"
+      ],
+      "prompt_seed_lines": [
+        "Apply baoyu-cover-image preset editorial-infographic with conceptual composition.",
+        "Apply hand-drawn organic line quality with controlled imperfection and clean hierarchy.",
+        "Use warm palette behavior: cream base, warm action accent, cool structure accent."
+      ]
+    },
+    "diagram_overrides": {
+      "comparison_board": {
+        "profile_label": "baoyu-article-illustrator: editorial-poster (comparison + screen-print)",
+        "style_direction_add": "For contrast-heavy arguments, shift to poster-like split comparison with bold silhouette logic.",
+        "layout_pattern": "split_comparison_center_divider",
+        "scene_elements_add": [
+          "left-vs-right split board with one decisive divider",
+          "bold symbolic shapes, minimal micro-details"
+        ],
+        "prompt_seed_lines": [
+          "Use screen-print poster cues only when contrast is the article's main hook.",
+          "Keep color count limited and contrast high, but preserve readability."
+        ]
+      },
+      "workflow_map": {
+        "profile_label": "baoyu-infographic: linear-progression",
+        "layout_pattern": "linear_progression_cover",
+        "diagram_focus": "sequential operating logic with explicit stage handoff",
+        "scene_elements_add": [
+          "3-4 clear stages with directional connectors",
+          "start/end anchors that are visually obvious"
+        ],
+        "prompt_seed_lines": [
+          "Use linear-progression composition from baoyu-infographic for workflow-heavy covers."
+        ]
+      },
+      "stage_evolution": {
+        "profile_label": "baoyu-article-illustrator: evolution (timeline + warm)",
+        "layout_pattern": "timeline_stage_transition",
+        "diagram_focus": "time-shift and logic-shift, not feature listing",
+        "scene_elements_add": [
+          "three-stage timeline with transition emphasis",
+          "visual momentum from old frame to new frame"
+        ],
+        "prompt_seed_lines": [
+          "Use evolution/timeline narrative cues to emphasize what changed and why it matters now."
+        ]
+      }
+    }
+  },
+  "inline": {
+    "default": {
+      "profile_label": "baoyu-article-illustrator: knowledge-base (infographic + vector-illustration)",
+      "style_direction_add": "Inline image should behave like a section explainer card with fast scan value.",
+      "visual_constraints_add": [
+        "one image = one clear job",
+        "support section transition and comprehension reset"
+      ],
+      "negative_constraints_add": [
+        "no decorative image blocks without structural meaning"
+      ]
+    },
+    "grammar_overrides": {
+      "workflow_map": {
+        "profile_label": "baoyu-article-illustrator: process-flow (flowchart + notion)",
+        "layout_pattern": "linear_progression",
+        "diagram_focus": "step-by-step process handoff",
+        "scene_elements_add": [
+          "numbered step modules with directional arrows",
+          "one icon per stage for quick recognition"
+        ],
+        "key_relationships_add": [
+          "show sequence and dependencies explicitly"
+        ],
+        "prompt_seed_lines": [
+          "Apply process-flow preset: flowchart logic with Notion-style clean spacing."
+        ]
+      },
+      "framework_map": {
+        "profile_label": "baoyu-article-illustrator: system-design (framework + blueprint)",
+        "layout_pattern": "hub_spoke_or_layered_framework",
+        "diagram_focus": "framework branches and role boundaries",
+        "scene_elements_add": [
+          "hub-spoke or layered modules with branch labels",
+          "clear boundary between zones/tiers"
+        ],
+        "key_relationships_add": [
+          "show which branch answers which decision"
+        ],
+        "prompt_seed_lines": [
+          "Apply system-design preset for framework semantics and clear module hierarchy."
+        ]
+      },
+      "concept_cluster": {
+        "profile_label": "baoyu-infographic: hub-spoke",
+        "layout_pattern": "hub_spoke_concept_map",
+        "diagram_focus": "one center concept with surrounding nodes",
+        "scene_elements_add": [
+          "center node + 3-5 support nodes",
+          "short labels with radial links"
+        ],
+        "prompt_seed_lines": [
+          "Use hub-spoke concept map so the reader can place concepts quickly."
+        ]
+      },
+      "example_comparison": {
+        "profile_label": "baoyu-article-illustrator: versus (comparison + vector-illustration)",
+        "layout_pattern": "comparison_matrix",
+        "diagram_focus": "before/after evidence contrast",
+        "scene_elements_add": [
+          "two-column contrast with one takeaway strip",
+          "evidence markers aligned by criterion"
+        ],
+        "prompt_seed_lines": [
+          "Use comparison-matrix thinking: align differences by one common axis."
+        ]
+      },
+      "decision_board": {
+        "profile_label": "baoyu-infographic: comparison-matrix",
+        "layout_pattern": "decision_matrix_cards",
+        "diagram_focus": "criteria-based decision at a glance",
+        "scene_elements_add": [
+          "3-4 decision cards with priority ordering",
+          "criteria labels and pass/fail markers"
+        ],
+        "prompt_seed_lines": [
+          "Use decision matrix layout with clear criteria and recommendation signal."
+        ]
+      },
+      "skip_board": {
+        "profile_label": "baoyu-article-illustrator: editorial-poster",
+        "layout_pattern": "rejection_board",
+        "diagram_focus": "high-noise areas that should be skipped",
+        "scene_elements_add": [
+          "rejection cards with crossed-out cues",
+          "one top-line verdict and one bottom rule"
+        ],
+        "prompt_seed_lines": [
+          "Design as a reject-board: fast elimination > detailed explanation."
+        ]
+      },
+      "evolution_map": {
+        "profile_label": "baoyu-article-illustrator: evolution (timeline + warm)",
+        "layout_pattern": "linear_progression",
+        "diagram_focus": "shift in logic across stages",
+        "scene_elements_add": [
+          "three chronological checkpoints with transition arrows",
+          "one explicit change signal per checkpoint"
+        ],
+        "prompt_seed_lines": [
+          "Use timeline/evolution cues to show direction of change, not feature inventory."
+        ]
+      },
+      "section_reset": {
+        "profile_label": "baoyu-infographic: bento-grid",
+        "layout_pattern": "bento_single_focus",
+        "diagram_focus": "single section concept with supporting modules",
+        "scene_elements_add": [
+          "one hero cell + 1-2 support cells",
+          "minimal labels, high scan speed"
+        ],
+        "prompt_seed_lines": [
+          "Use bento-style modular reset card: one hero point plus lightweight supporting context."
+        ]
+      }
+    }
+  }
+}

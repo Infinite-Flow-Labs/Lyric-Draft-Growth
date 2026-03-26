@@ -1,0 +1,193 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-googledeepmind-2ac914f175fb",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "generation_ratio": 0.8,
+  "rewrite_ratio": 0.2,
+  "topic_card": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-googledeepmind-2ac914f175fb",
+    "event_seed_signal_id": "x-googledeepmind-2ac914f175fb",
+    "event_seed_source_family": "official_x",
+    "topic_statement": "Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK",
+    "why_now": "Clustered 3 recent signals across 2 source families with verifiable anchors.",
+    "topic_priority": 67.05,
+    "heat_breakdown": {
+      "volume_score": 100.0,
+      "velocity_score": 10.0,
+      "cross_source_resonance_score": 75.0,
+      "novelty_score": 72.0
+    },
+    "cluster_signature": "openclaw::launch",
+    "cluster_signal_ids": [
+      "x-chuhaiqu-2ab49a2fe313",
+      "x-gregkamradt-ce803f89d99f",
+      "x-googledeepmind-2ac914f175fb"
+    ],
+    "source_families": [
+      "official_x",
+      "post_x"
+    ],
+    "candidate_lanes": [
+      "T01_release_decode"
+    ],
+    "eligible_for_write": true,
+    "signal_snapshot": {
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+      "published_at": "2026-03-17T21:09:54Z",
+      "release_signals_count": 5,
+      "fact_candidates_count": 48
+    }
+  },
+  "lane_assignment": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-googledeepmind-2ac914f175fb",
+    "selected_lane_id": "T01_release_decode",
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "composition_mode": "mixed",
+    "generation_ratio": 0.8,
+    "rewrite_ratio": 0.2,
+    "lane_fit_score": 77.0,
+    "topic_priority": 67.05,
+    "lane_final_score": 74.02,
+    "rationale": "release_signals_present | official_source_present | strong_fact_density",
+    "requires_human_review": false,
+    "eligible_for_write": true
+  },
+  "source_bundle": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-googledeepmind-2ac914f175fb",
+    "lane_id": "T01_release_decode",
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "composition_mode": "mixed",
+    "primary_sources": [
+      {
+        "signal_id": "x-googledeepmind-2ac914f175fb",
+        "source_family": "official_x",
+        "canonical_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+        "title": "Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK",
+        "published_at": "2026-03-17T21:09:54Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-googledeepmind-2ac914f175fb/source_item.json"
+      },
+      {
+        "signal_id": "podcast-the_ai_daily_brief-4ba46b24c3a2",
+        "source_family": "podcast",
+        "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Actually-Wont-Take-Your-Job-e3gq5op",
+        "title": "Why AI Actually Won't Take Your Job",
+        "published_at": "2026-03-22T12:18:29Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items/podcast-the_ai_daily_brief-4ba46b24c3a2/source_item.json"
+      }
+    ],
+    "supporting_sources": [
+      {
+        "signal_id": "podcast-the_cognitive_revolution-a726a45212a5",
+        "source_family": "podcast",
+        "canonical_url": "https://www.cognitiverevolution.ai/your-agent-s-self-improving-swiss-army-knife-composio-cto-karan-vaidya-on-building-smart-tools/",
+        "title": "Your Agent's Self-Improving Swiss Army Knife: Composio CTO Karan Vaidya on Building Smart Tools",
+        "published_at": "2026-03-22T20:34:31Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items/podcast-the_cognitive_revolution-a726a45212a5/source_item.json"
+      },
+      {
+        "signal_id": "x-gregkamradt-ce803f89d99f",
+        "source_family": "post_x",
+        "canonical_url": "https://x.com/GregKamradt/status/2035125183334555858",
+        "title": "We're getting warmed up w/ v3 To support ARC Prize 2026 on Kaggle we needed to implement a \"competition mode.\" This enforces a series of rules like \"one run per game\" and \"no full game resets\" We also upgraded LS20 - new mechanics Let us know what you think",
+        "published_at": "2026-03-20T22:43:49Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-gregkamradt-ce803f89d99f/source_item.json"
+      },
+      {
+        "signal_id": "x-chuhaiqu-2ab49a2fe313",
+        "source_family": "post_x",
+        "canonical_url": "https://x.com/chuhaiqu/status/2035608337384153525",
+        "title": "OpenClaw 这波真的太猛了，其实微信在国内是相对封闭的一个平台了，竟然也这么快跟进了。 激活路径：更新微信到最新版本 -> 我的 -> 设置 -> 插件",
+        "published_at": "2026-03-22T06:43:42Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-chuhaiqu-2ab49a2fe313/source_item.json"
+      }
+    ],
+    "fact_anchors": [
+      {
+        "claim": "Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK",
+        "source_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+        "signal_id": "x-googledeepmind-2ac914f175fb"
+      },
+      {
+        "claim": "How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → goo.gle/4uqOVKK",
+        "source_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+        "signal_id": "x-googledeepmind-2ac914f175fb"
+      }
+    ],
+    "forbidden_claims": [
+      "No unsupported percentage claims about performance or cost change.",
+      "No unsupported claim that this release fully replaces existing workflows.",
+      "No unsupported claim that all teams should adopt immediately."
+    ],
+    "coverage_checks": {
+      "has_release_action": true,
+      "has_delta_detail": true,
+      "has_user_impact": false,
+      "has_limit_or_risk": false
+    },
+    "coverage_core_ok": true,
+    "validity_gate": true,
+    "quality_tier": "B",
+    "requirement_checks": {
+      "primary_sources_min_ok": true,
+      "supporting_sources_min_ok": true,
+      "fact_anchors_min_ok": false,
+      "official_primary_required_ok": true
+    },
+    "ready_for_writer": true
+  },
+  "source_materials": [
+    {
+      "source_id": "x-googledeepmind-2ac914f175fb",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+      "title": "Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK",
+      "published_at": "2026-03-17T21:09:54Z",
+      "excerpt": "Post title: Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK Post summary: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → goo.gle/4uqOVKK Canonical URL: https://x.com/GoogleDeepMind/status/2034014385941975298",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-googledeepmind-2ac914f175fb/source_item.json"
+    },
+    {
+      "source_id": "podcast-the_ai_daily_brief-4ba46b24c3a2",
+      "source_family": "podcast",
+      "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Actually-Wont-Take-Your-Job-e3gq5op",
+      "title": "Why AI Actually Won't Take Your Job",
+      "published_at": "2026-03-22T12:18:29Z",
+      "excerpt": "## Why AI Actually Won't Take Your Job The AI Daily Brief: Artificial Intelligence News and Analysis Mar 22, 2026 00:00 32:51 #### The Coming AI Rules Battle AI is rising faster than any other issue in American political polling, and the White House just dropped a legislative framework that's already drawing fire from both sides — populist right critics calling AI \"profoundly anti-human\" and Democrats saying voluntary standards won't cut it. The real question is whether this four-page opening move can hold the center as midterms approach and public anxiety about jobs keeps climbing. In the headlines: OpenAI plans to double its workforce with a major enterprise push, FedEx is training all 400,000 employees on AI, and Meta's internal agents are now talking to each other.For all the links referenced in the show, sign up for the newsletter: ⁠⁠⁠https://aidailybrief.beehiiv.com/⁠⁠⁠Brought to you by:KPMG – Agentic AI is powering a potential $3 trillion productivity shift, and KPMG’s new paper, Agentic AI Untangled, gives leaders a clear framework to decide whether to build, buy, or borrow—download it at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.kpmg.us/Navigate⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Mercury - Modern banking for business and now personal accounts. Learn more at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mercury.com/personal-banking⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AIUC-1 - Get your agents certified to communicate trust to enterprise buyers - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.aiuc-1.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Blitzy - Want to accelerate enterprise software development velocity by 5x? ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://blitzy.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AssemblyAI - The best way to build Voice AI apps - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.assemblyai.com/brief⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Robots & Pencils - Cloud-native AI solutions that power results ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://robotsandpencils.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠The Agent Readiness Audit from Superintelligent - Go to ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://besuper.ai/ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠to request your company's agent readiness score.The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://pod.link/1680633614⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Our Newsletter is BACK: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://aidailybrief.beehiiv.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Interested in sponsoring the show? sponsors@aidailybrief.ai Mar 23, 2026 26:51 #### Why AI Actually Won't Take Your Job \"Will AI take your job?\" has become the dominant question in AI discourse — but it's the wrong one. From AI-washed layoffs to coding benchmarks that don't generalize, from human preference as a market force to capitalism's radically expansionary nature, there are plenty of reasons to push past the panic — and a whole set of better, harder questions we should be asking instead.For all the links referenced in the show, sign up for the newsletter: ⁠⁠https://aidailybrief.beehiiv.com/⁠⁠Brought to you by:KPMG – Agentic AI is powering a potential $3 trillion productivity shift, and KPMG’s new paper, Agentic AI Untangled, gives leaders a clear framework to decide whether to build, buy, or borrow—download it at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.kpmg.us/Navigate⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Mercury - Modern banking for business and now personal accounts. Learn more at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mercury.com/personal-banking⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AIUC-1 - Get your agents certified to communicate trust to enterprise buyers - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.aiuc-1.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Blitzy - Want to accelerate enterprise software development velocity by 5x? ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://blitzy.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AssemblyAI - The best way to build Voice AI apps - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.assemblyai.com/brief⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Robots & Pencils - Cloud-native AI solutions that power results ⁠⁠",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items/podcast-the_ai_daily_brief-4ba46b24c3a2/source_item.json"
+    },
+    {
+      "source_id": "podcast-the_cognitive_revolution-a726a45212a5",
+      "source_family": "podcast",
+      "canonical_url": "https://www.cognitiverevolution.ai/your-agent-s-self-improving-swiss-army-knife-composio-cto-karan-vaidya-on-building-smart-tools/",
+      "title": "Your Agent's Self-Improving Swiss Army Knife: Composio CTO Karan Vaidya on Building Smart Tools",
+      "published_at": "2026-03-22T20:34:31Z",
+      "excerpt": "Published Time: 2026-03-22T20:34:32.000Z # Your Agent's Self-Improving Swiss Army Knife: Composio CTO Karan Vaidya on Building Smart Tools Menu Search Log inSubscribe Sign upSign in * Home * Job Board * Episodes * Sponsor * Acclaim * Contact * Listen On * - YouTube * - Spotify * - Apple Podcasts * - RSS * About * Home * Job Board * Episodes * Sponsor * Acclaim * Contact * Listen On * - YouTube * - Spotify * - Apple Podcasts * - RSS * About * Sign up Latest news newsletter ## Your Agent's Self-Improving Swiss Army Knife: Composio CTO Karan Vaidya on Building Smart Tools Episode ## Your Agent's Self-Improving Swiss Army Knife: Composio CTO Karan Vaidya on Building Smart Tools newsletter ## Zvi's Mic Works! Recursive Self-Improvement, Live Player Analysis, Anthropic vs DoW +More! Log inSubscribe FollowTwitterYoutubeYoutubeRSSApple PodcastsSpotify Episode # Your Agent's Self-Improving Swiss Army Knife: Composio CTO Karan Vaidya on Building Smart Tools Composio CTO Karan Vaidya explains a smart tool platform that lets AI agents access tens of thousands of tools across many apps, discussing discovery, security, feedback loops, and how robust skills reduce model lock-in for job-like agent use cases. * [](https://www.cognitiverevolution.ai/author/nathan/ \"Nathan Labenz\") Nathan LabenzMar 22, 2026 March 22 2026 8:34 PM 59 min read Share TweetShareShareEmailCopy ## Watch Episode Here * * * ## Listen to Episode Here * * * ## Show Notes Karan Vaidya, CTO of Composio, explains how their “smart tool” platform lets AI agents access over 50,000 tools across 1,000+ apps through a single interface. He details how Composio handles tool discovery, authentication, sandboxes, and logging, and how an AI-powered feedback loop continuously improves tools in real time. The conversation explores avoiding model lock-in through robust skills and instructions, translating capabilities across model providers, and why the best agent use cases look more like full jobs than isolated tasks. Google: Try Google's latest and greatest model, Gemini 3.1 Pro, in AI Studio (https://aistudio.google.com/) or the Gemini app. **Sponsors:** **Tasklet:** Tasklet: Build your own Cognitive Revolution monitoring agent%20and%20notify%20me%20(ask%20me%20how%20I%20want%20to%20be%20notified)&ref=cognitiverevolution.ai)in one click. Try it for free and use code COGREV for 50% off your first month at https://tasklet.ai **VCX:** VCX, by Fundrise, is the public ticker for private tech, giving everyday investors access to high-growth private companies in AI, space, defense tech, and more. Learn how to invest at https://getvcx.com **Claude:** Claude is the AI collaborator that understands your entire workflow, from drafting and research to coding and complex problem-solving. Start tackling bigger problems with Claude and unlock Claude Pro’s full capabilities at https://claude.ai/tcr **CHAPTERS:** (00:00) About the Episode (03:38) Special Sponsor (05:10) Composio overview and harness (10:20) Users, trust, security (19:45) Sandboxes and execution (Part 1) (19:53) Sponsors: Tasklet | VCX (22:46) Sandboxes and execution (Part 2) (28:07) Smart MCPs and skills (Part 1) (34:25) Sponsor: Claude (36:38) Smart MCPs and skills (Part 2) (44:10) Context, access, upgrades (54:05) Skills and model lock-in (01:03:51) Memory and agent tools (01:09:21) AI and SaaS disruption (01:20:20) Agents, costs, labor (01:31:18) Monetization and interfaces (01:36:13) Episode Outro (01:39:56) Outro **PRODUCED BY:** https://aipodcast.ing **SOCIAL LINKS:** Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk * * * ## Transcript _This transcript is automatically generated; we strive for accuracy, but errors in wording or speaker identification may occur. Please verify key details when needed._ * * * ## Introduction Hello, and welcome back to the Cognitive Revolution! Today my guest is Karan Vaidya, CTO of Composio, a platform that allows AI agents to access more than 50,000 tools, spanning more than 1,000 apps, all through a single interface, and which is one of the best examples of the \"smart tool\" pattern that I've been watching out for since the MCP paradigm was introduced. This is a sponsored episode, but as always, I have played around with the tool for the last couple of weeks, and it's clear to me that Composio does address several real problems. For starters, core platforms like Gmail, Google Drive, and Slack don't make it easy for do-it-yourselfers to grant access to AI agents. The number of clicks required to get started is a serious barrier for casual users. Most other tools are simpler to connect, but many aren't popular or well-documented",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items/podcast-the_cognitive_revolution-a726a45212a5/source_item.json"
+    },
+    {
+      "source_id": "x-gregkamradt-ce803f89d99f",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/GregKamradt/status/2035125183334555858",
+      "title": "We're getting warmed up w/ v3 To support ARC Prize 2026 on Kaggle we needed to implement a \"competition mode.\" This enforces a series of rules like \"one run per game\" and \"no full game resets\" We also upgraded LS20 - new mechanics Let us know what you think",
+      "published_at": "2026-03-20T22:43:49Z",
+      "excerpt": "Post title: We're getting warmed up w/ v3 To support ARC Prize 2026 on Kaggle we needed to implement a \"competition mode.\" This enforces a series of rules like \"one run per game\" and \"no full game resets\" We also upgraded LS20 - new mechanics Let us know what you think Post summary: We're getting warmed up w/ v3 To support ARC Prize 2026 on Kaggle we needed to implement a \"competition mode.\" This enforces a series of rules like \"one run per game\" and \"no full game resets\" We also upgraded LS20 - new mechanics Let us know what you think ARC Prize (@arcprize) ARC-AGI-3 Toolkit Updates 3.20.2026 - Competition Mode: In prep for ARC-AGI-3 Launch next week, we are releasing guardrails for ARC Prize 2026 Kaggle participants - LS20 Upgrade: LS20 now includes additional mechanics — https://nitter.net/arcprize/status/2035123143615160765#m Canonical URL: https://x.com/GregKamradt/status/2035125183334555858",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-gregkamradt-ce803f89d99f/source_item.json"
+    },
+    {
+      "source_id": "x-chuhaiqu-2ab49a2fe313",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2035608337384153525",
+      "title": "OpenClaw 这波真的太猛了，其实微信在国内是相对封闭的一个平台了，竟然也这么快跟进了。 激活路径：更新微信到最新版本 -> 我的 -> 设置 -> 插件",
+      "published_at": "2026-03-22T06:43:42Z",
+      "excerpt": "Post title: OpenClaw 这波真的太猛了，其实微信在国内是相对封闭的一个平台了，竟然也这么快跟进了。 激活路径：更新微信到最新版本 -> 我的 -> 设置 -> 插件 Post summary: OpenClaw 这波真的太猛了，其实微信在国内是相对封闭的一个平台了，竟然也这么快跟进了。 激活路径：更新微信到最新版本 -&gt; 我的 -&gt; 设置 -&gt; 插件 WeChat (@Weixin_WeChat) Today, we are officially opening the capability to integrate #OpenClaw into #Weixin . With the launch of the #WeixinClawBot , users can use Weixin as a dedicated messaging channel for OpenClaw. Now, you can send and receive messages with OpenClaw just like texting a friend. #AIAutomation #AI — https://nitter.net/Weixin_WeChat/status/2035537088314290236#m Canonical URL: https://x.com/chuhaiqu/status/2035608337384153525",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-chuhaiqu-2ab49a2fe313/source_item.json"
+    }
+  ]
+}

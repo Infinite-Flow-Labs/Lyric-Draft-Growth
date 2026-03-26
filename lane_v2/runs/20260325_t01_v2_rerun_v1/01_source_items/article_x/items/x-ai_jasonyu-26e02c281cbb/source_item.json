@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_jasonyu-26e02c281cbb",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AI_Jasonyu/status/2036471604859806146",
+  "author": {
+    "handle": "@AI_Jasonyu",
+    "display_name": "AI_Jasonyu",
+    "account_url": "https://x.com/AI_Jasonyu"
+  },
+  "title": "关于心梗，关于健康，这是你不得不看的文章，保住生命，才是握住财富的钥匙，赚钱固然重要，但仍需注意身体，祝所有的推友们身体健康，远离心梗，接住我的这份健康祝福！",
+  "language": "unknown",
+  "published_at": "2026-03-24T15:54:01Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AI_Jasonyu/status/2036471604859806146",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AI_Jasonyu/status/2036471604859806146#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "关于心梗，关于健康，这是你不得不看的文章，保住生命，才是握住财富的钥匙，赚钱固然重要，但仍需注意身体，祝所有的推友们身体健康，远离心梗，接住我的这份健康祝福！ Roland的思考日记 (@rwayne) x.com/i/article/203644564231… — https://nitter.net/rwayne/status/2036449395248668903#m",
+    "full_text": "Post title: 关于心梗，关于健康，这是你不得不看的文章，保住生命，才是握住财富的钥匙，赚钱固然重要，但仍需注意身体，祝所有的推友们身体健康，远离心梗，接住我的这份健康祝福！\n\nPost summary: 关于心梗，关于健康，这是你不得不看的文章，保住生命，才是握住财富的钥匙，赚钱固然重要，但仍需注意身体，祝所有的推友们身体健康，远离心梗，接住我的这份健康祝福！ Roland的思考日记 (@rwayne) x.com/i/article/203644564231… — https://nitter.net/rwayne/status/2036449395248668903#m\n\nCanonical URL: https://x.com/AI_Jasonyu/status/2036471604859806146",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "关于心梗，关于健康，这是你不得不看的文章，保住生命，才是握住财富的钥匙，赚钱固然重要，但仍需注意身体，祝所有的推友们身体健康，远离心梗，接住我的这份健康祝福！",
+      "关于心梗，关于健康，这是你不得不看的文章，保住生命，才是握住财富的钥匙，赚钱固然重要，但仍需注意身体，祝所有的推友们身体健康，远离心梗，接住我的这份健康祝福！ Roland的思考日记 (@rwayne) x.com/i/article/203644564231… — https://nitter.net/rwayne/status/2036449395248668903#m",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

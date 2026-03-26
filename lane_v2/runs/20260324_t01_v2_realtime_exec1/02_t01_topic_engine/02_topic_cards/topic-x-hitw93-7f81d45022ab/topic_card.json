@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-hitw93-7f81d45022ab",
+  "event_seed_signal_id": "x-hitw93-7f81d45022ab",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "I’ve been running a small weekly newsletter for 5 years. This year I started publishing it in English too. I share things I learn in tech, useful tools, how I use AI in daily work, and bits of life from a Chinese engineer’s perspective. Latest issue: https://weekly.tw93.fun/en/posts/260",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 33.3,
+  "heat_breakdown": {
+    "volume_score": 33.0,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "this",
+  "cluster_signal_ids": [
+    "x-hitw93-7f81d45022ab"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/HiTw93/status/2034416560069087637",
+    "published_at": "2026-03-18T23:48:00Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 10
+  }
+}

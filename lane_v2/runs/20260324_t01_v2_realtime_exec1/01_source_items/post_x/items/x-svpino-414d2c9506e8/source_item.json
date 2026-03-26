@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-svpino-414d2c9506e8",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/svpino/status/2035374129206178241",
+  "author": {
+    "handle": "@svpino",
+    "display_name": "svpino",
+    "account_url": "https://x.com/svpino"
+  },
+  "title": "Most people have no idea this is happening: Your AI Agent can now have a job on its own! Check out the open-source project I'm linking below. The project is an AI agent skill that lets any compatible agent (Claude Code, Cursor, Codex, Gemini CLI, etc.) interact with the AWP (Agent Working Protocol). You can install and use this skill *right now*. You can have your agents register on the network, find available work, and start completing it to earn money. Registration is free.",
+  "language": "unknown",
+  "published_at": "2026-03-21T15:13:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/svpino/status/2035374129206178241",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/svpino/status/2035374129206178241#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Most people have no idea this is happening: Your AI Agent can now have a job on its own! Check out the open-source project I'm linking below. The project is an AI agent skill that lets any compatible agent (Claude Code, Cursor, Codex, Gemini CLI, etc.) interact with the AWP (Agent Working Protocol). You can install and use this skill *right now*. You can have your agents register on the network, find available work, and start completing it to earn money. Registration is free.",
+    "full_text": "Post title: Most people have no idea this is happening: Your AI Agent can now have a job on its own! Check out the open-source project I'm linking below. The project is an AI agent skill that lets any compatible agent (Claude Code, Cursor, Codex, Gemini CLI, etc.) interact with the AWP (Agent Working Protocol). You can install and use this skill *right now*. You can have your agents register on the network, find available work, and start completing it to earn money. Registration is free.\n\nPost summary: Most people have no idea this is happening: Your AI Agent can now have a job on its own! Check out the open-source project I'm linking below. The project is an AI agent skill that lets any compatible agent (Claude Code, Cursor, Codex, Gemini CLI, etc.) interact with the AWP (Agent Working Protocol). You can install and use this skill *right now*. You can have your agents register on the network, find available work, and start completing it to earn money. Registration is free.\n\nCanonical URL: https://x.com/svpino/status/2035374129206178241",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Most",
+      "Your AI Agent",
+      "Check",
+      "AI",
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "Gemini CLI",
+      "AWP",
+      "Agent Working Protocol",
+      "You",
+      "Registration",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Most people have no idea this is happening: Your AI Agent can now have a job on its own! Check out the open-source project I'm linking below. The project is an AI agent skill that lets any compatible agent (Claude Code, Cursor, Codex, Gemini CLI, etc.) interact with the AWP (Agent Working Protocol). You can install and use this skill *right now*. You can have your agents register on the network, find available work, and start completing it to earn money. Registration is free.",
+      "Most",
+      "Your AI Agent",
+      "Check",
+      "AI",
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "Gemini CLI",
+      "AWP",
+      "Agent Working Protocol",
+      "You",
+      "Registration",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

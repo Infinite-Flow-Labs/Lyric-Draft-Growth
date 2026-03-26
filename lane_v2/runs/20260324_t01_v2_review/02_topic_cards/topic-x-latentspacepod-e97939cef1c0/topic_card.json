@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-latentspacepod-e97939cef1c0",
+  "event_seed_signal_id": "x-latentspacepod-e97939cef1c0",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "AINews: 18 Mar 2026 MiniMax 2.7: GLM-5 at 1/3 cost SOTA Open Model https://www.latent.space/p/ainews-minimax-27-glm-5-at-13-cost congrats MiniMax!",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 33.02,
+  "heat_breakdown": {
+    "volume_score": 32.2,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "ainews",
+  "cluster_signal_ids": [
+    "x-latentspacepod-e97939cef1c0"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/latentspacepod/status/2034523084808438216",
+    "published_at": "2026-03-19T06:51:17Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 9
+  }
+}

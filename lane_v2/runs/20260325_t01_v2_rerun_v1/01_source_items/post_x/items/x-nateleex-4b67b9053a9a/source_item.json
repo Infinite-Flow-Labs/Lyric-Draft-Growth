@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-nateleex-4b67b9053a9a",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/nateleex/status/2036699105968439783",
+  "author": {
+    "handle": "@nateleex",
+    "display_name": "nateleex",
+    "account_url": "https://x.com/nateleex"
+  },
+  "title": "在雪场缆车上 vibe coding。 自用工具，同时开3个 terminal，完整桌面会话，继承钥匙串、GUI 上下文、不会断线，和坐在电脑前一模一样，不是普通 SSH。 工作和娱乐的界限彻底消失了。任何时候都可以工作，但任何时候也都可以玩，看你怎么理解😹😹",
+  "language": "unknown",
+  "published_at": "2026-03-25T06:58:01Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/nateleex/status/2036699105968439783",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/nateleex/status/2036699105968439783#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "在雪场缆车上 vibe coding。 自用工具，同时开3个 terminal，完整桌面会话，继承钥匙串、GUI 上下文、不会断线，和坐在电脑前一模一样，不是普通 SSH。 工作和娱乐的界限彻底消失了。任何时候都可以工作，但任何时候也都可以玩，看你怎么理解😹😹",
+    "full_text": "Post title: 在雪场缆车上 vibe coding。 自用工具，同时开3个 terminal，完整桌面会话，继承钥匙串、GUI 上下文、不会断线，和坐在电脑前一模一样，不是普通 SSH。 工作和娱乐的界限彻底消失了。任何时候都可以工作，但任何时候也都可以玩，看你怎么理解😹😹\n\nPost summary: 在雪场缆车上 vibe coding。 自用工具，同时开3个 terminal，完整桌面会话，继承钥匙串、GUI 上下文、不会断线，和坐在电脑前一模一样，不是普通 SSH。 工作和娱乐的界限彻底消失了。任何时候都可以工作，但任何时候也都可以玩，看你怎么理解😹😹\n\nCanonical URL: https://x.com/nateleex/status/2036699105968439783",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "GUI",
+      "SSH",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "在雪场缆车上 vibe coding。 自用工具，同时开3个 terminal，完整桌面会话，继承钥匙串、GUI 上下文、不会断线，和坐在电脑前一模一样，不是普通 SSH。 工作和娱乐的界限彻底消失了。任何时候都可以工作，但任何时候也都可以玩，看你怎么理解😹😹",
+      "GUI",
+      "SSH",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

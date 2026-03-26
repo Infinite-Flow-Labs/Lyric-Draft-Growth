@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-chuhaiqu-060e600af536",
+  "event_seed_signal_id": "x-chuhaiqu-060e600af536",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "很多人做 TikTok 等短视频可能只会盯着爆款，但其实想要做大规模还是需要一套严密的系统的。 Roman 最近复盘了他砸千万预算，投出 1 亿播放量的 UGC 增长，总共获得了 1.5 亿用户。 做这类获客最大的坑是瞎找个模版把产品硬塞进去。如果视频爆了没下载，说明产品全浮在表面。如果转化高但没播放，那是广告味太大把人劝退了。 最舒服的状态是让应用自然变成视频结尾的那个包袱。 单个爆款模式跑通后，如果纯靠人工挨个私信博主，维系超过 30 个人就会被催稿和算账彻底拖垮。 这个时候可以参考一下 Roman 的做法 1. 把跑通的模版定好标准，直接发悬赏任务让人批量接单 2. 因为是不出镜的内容，彻底放弃死磕大 V 直接让路人兼职提供无限产能 3. 建一个拦截刷量数据的机制，只看真实转化率来决定加预算还是砍掉 4. 数据验收达标后 才走系统批量打款 归根到底拼的还是批量造爆款的系统杠杆。",
+  "why_now": "Clustered 2 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 72.62,
+  "heat_breakdown": {
+    "volume_score": 65.2,
+    "velocity_score": 97.19,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "snapvee",
+  "cluster_signal_ids": [
+    "x-ai_jasonyu-d029da36849d",
+    "x-chuhaiqu-060e600af536"
+  ],
+  "source_families": [
+    "article_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+    "published_at": "2026-03-23T10:22:02Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 19
+  }
+}

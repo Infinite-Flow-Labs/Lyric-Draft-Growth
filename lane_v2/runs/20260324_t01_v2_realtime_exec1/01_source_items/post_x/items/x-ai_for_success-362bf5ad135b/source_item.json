@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_for_success-362bf5ad135b",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ai_for_success/status/2036121311844721049",
+  "author": {
+    "handle": "@ai_for_success",
+    "display_name": "ai_for_success",
+    "account_url": "https://x.com/ai_for_success"
+  },
+  "title": "Luma just unveiled Uni-1, its first unified image model that can generate, edit, and work with reference images too in a single workflow. It ranks #1 in human preference Elo across overall quality, style, editing, and reference based generation. Sponsored",
+  "language": "unknown",
+  "published_at": "2026-03-23T16:42:04Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ai_for_success/status/2036121311844721049",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ai_for_success/status/2036121311844721049#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Luma just unveiled Uni-1, its first unified image model that can generate, edit, and work with reference images too in a single workflow. It ranks #1 in human preference Elo across overall quality, style, editing, and reference based generation. Sponsored Luma (@LumaLabsAI) Uni-1 is here! A new kind of model that thinks and generates pixels simultaneously. Less artificial. More intelligent. Video — https://nitter.net/LumaLabsAI/status/2036107826498544110#m",
+    "full_text": "Post title: Luma just unveiled Uni-1, its first unified image model that can generate, edit, and work with reference images too in a single workflow. It ranks #1 in human preference Elo across overall quality, style, editing, and reference based generation. Sponsored\n\nPost summary: Luma just unveiled Uni-1, its first unified image model that can generate, edit, and work with reference images too in a single workflow. It ranks #1 in human preference Elo across overall quality, style, editing, and reference based generation. Sponsored Luma (@LumaLabsAI) Uni-1 is here! A new kind of model that thinks and generates pixels simultaneously. Less artificial. More intelligent. Video — https://nitter.net/LumaLabsAI/status/2036107826498544110#m\n\nCanonical URL: https://x.com/ai_for_success/status/2036121311844721049",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Luma",
+      "Uni",
+      "It",
+      "Elo",
+      "Sponsored Luma",
+      "LumaLabsAI",
+      "Less",
+      "More",
+      "Video",
+      "Post",
+      "Sponsored Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "workflow"
+    ],
+    "fact_anchors": [
+      "Luma just unveiled Uni-1, its first unified image model that can generate, edit, and work with reference images too in a single workflow. It ranks #1 in human preference Elo across overall quality, style, editing, and reference based generation. Sponsored",
+      "Luma just unveiled Uni-1, its first unified image model that can generate, edit, and work with reference images too in a single workflow. It ranks #1 in human preference Elo across overall quality, style, editing, and reference based generation. Sponsored Luma (@LumaLabsAI) Uni-1 is here! A new kind of model that thinks and generates pixels simultaneously. Less artificial. More intelligent. Video — https://nitter.net/LumaLabsAI/status/2036107826498544110#m",
+      "Luma",
+      "Uni",
+      "It",
+      "Elo",
+      "Sponsored Luma",
+      "LumaLabsAI",
+      "Less",
+      "More",
+      "Video",
+      "Post",
+      "Sponsored Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

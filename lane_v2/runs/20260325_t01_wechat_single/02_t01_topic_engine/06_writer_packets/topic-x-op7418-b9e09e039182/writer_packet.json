@@ -1,0 +1,459 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-op7418-b9e09e039182",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "generation_ratio": 0.8,
+  "rewrite_ratio": 0.2,
+  "topic_card": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-op7418-b9e09e039182",
+    "event_seed_signal_id": "x-op7418-b9e09e039182",
+    "event_seed_source_family": "article_x",
+    "topic_statement": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+    "why_now": "Clustered 12 recent signals across 2 source families with verifiable anchors.",
+    "topic_priority": 87.55,
+    "heat_breakdown": {
+      "volume_score": 100.0,
+      "velocity_score": 92.0,
+      "cross_source_resonance_score": 75.0,
+      "novelty_score": 72.0
+    },
+    "cluster_signature": "skills::新增",
+    "cluster_signal_ids": [
+      "x-dotey-79fcda8f6796",
+      "x-op7418-ed47bdcf645b",
+      "x-vista8-7dfb802d47c0",
+      "x-bentossell-9d8efbfc675a",
+      "x-dotey-661d71572afd",
+      "x-itsandrewgao-dbfc1fe6ff10",
+      "x-danshipper-839e1db9e948",
+      "x-ivanfioravanti-b1287355e86a",
+      "x-alphasignalai-497a34c895ff",
+      "x-op7418-b9e09e039182",
+      "x-op7418-e1e31d6b1b0f",
+      "x-idoubicc-4d7afa04343a"
+    ],
+    "source_families": [
+      "article_x",
+      "post_x"
+    ],
+    "candidate_lanes": [
+      "T01_release_decode",
+      "T02_signal_decode",
+      "T03_money_proof",
+      "T04_failure_reversal",
+      "T05_benchmark",
+      "T06_capability_delivery",
+      "T07_contrarian_take",
+      "T08_signal_to_action"
+    ],
+    "eligible_for_write": true,
+    "signal_snapshot": {
+      "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+      "published_at": "2026-03-24T01:54:42Z",
+      "release_signals_count": 16,
+      "fact_candidates_count": 166
+    }
+  },
+  "lane_assignment": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-op7418-b9e09e039182",
+    "selected_lane_id": "T01_release_decode",
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "composition_mode": "mixed",
+    "generation_ratio": 0.8,
+    "rewrite_ratio": 0.2,
+    "lane_fit_score": 56.0,
+    "topic_priority": 87.55,
+    "lane_final_score": 65.46,
+    "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | preferred_has_stepwise_signal | actionability_signal_hit | multi_source_window | forced_to_T01_release_decode",
+    "requires_human_review": true,
+    "eligible_for_write": false,
+    "feature_snapshot": {
+      "signal_count": 12,
+      "family_count": 2,
+      "families": [
+        "article_x",
+        "post_x"
+      ],
+      "has_release_signal": true,
+      "has_official_source": false,
+      "has_external_source": true,
+      "has_hard_numbers": true,
+      "has_compare_signal": true,
+      "has_failure_signal": true,
+      "has_actionability_signal": true,
+      "has_stepwise_signal": true,
+      "has_contrarian_signal": false,
+      "has_money_signal": false,
+      "has_postmortem_signal": false,
+      "has_user_impact": true,
+      "has_limit_or_risk": true,
+      "fact_avg": 13.83
+    },
+    "lane_candidates": [
+      {
+        "lane_id": "T08_signal_to_action",
+        "lane_label": "信号转行动型",
+        "framework_id": "08_signal_to_action",
+        "submode_id": "market_window_playbook",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.75,
+        "rewrite_ratio": 0.25,
+        "lane_fit_score": 85.0,
+        "lane_final_score": 85.76,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | preferred_has_stepwise_signal | actionability_signal_hit | multi_source_window",
+        "requirement_failures": [],
+        "eligible_for_write": true,
+        "requires_human_review": false
+      },
+      {
+        "lane_id": "T06_capability_delivery",
+        "lane_label": "能力交付型",
+        "framework_id": "06_checklist_template",
+        "submode_id": "workflow_architecture",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.6,
+        "rewrite_ratio": 0.4,
+        "lane_fit_score": 80.0,
+        "lane_final_score": 82.27,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | preferred_has_stepwise_signal | stepwise_signal_hit",
+        "requirement_failures": [],
+        "eligible_for_write": true,
+        "requires_human_review": false
+      }
+    ],
+    "lane_candidates_all": [
+      {
+        "lane_id": "T08_signal_to_action",
+        "lane_label": "信号转行动型",
+        "framework_id": "08_signal_to_action",
+        "submode_id": "market_window_playbook",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.75,
+        "rewrite_ratio": 0.25,
+        "lane_fit_score": 85.0,
+        "lane_final_score": 85.76,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | preferred_has_stepwise_signal | actionability_signal_hit | multi_source_window",
+        "requirement_failures": [],
+        "eligible_for_write": true,
+        "requires_human_review": false
+      },
+      {
+        "lane_id": "T06_capability_delivery",
+        "lane_label": "能力交付型",
+        "framework_id": "06_checklist_template",
+        "submode_id": "workflow_architecture",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.6,
+        "rewrite_ratio": 0.4,
+        "lane_fit_score": 80.0,
+        "lane_final_score": 82.27,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | preferred_has_stepwise_signal | stepwise_signal_hit",
+        "requirement_failures": [],
+        "eligible_for_write": true,
+        "requires_human_review": false
+      },
+      {
+        "lane_id": "T04_failure_reversal",
+        "lane_label": "纠偏转向型",
+        "framework_id": "04_failure_reversal",
+        "submode_id": "system_pivot",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.5,
+        "rewrite_ratio": 0.5,
+        "lane_fit_score": 76.0,
+        "lane_final_score": 79.46,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | failure_signal_hit",
+        "requirement_failures": [],
+        "eligible_for_write": true,
+        "requires_human_review": false
+      },
+      {
+        "lane_id": "T05_benchmark",
+        "lane_label": "对比筛选型",
+        "framework_id": "05_ab_benchmark",
+        "submode_id": "alternative_benchmark",
+        "composition_mode": "rewrite_heavy",
+        "generation_ratio": 0.4,
+        "rewrite_ratio": 0.6,
+        "lane_fit_score": 76.0,
+        "lane_final_score": 79.46,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | compare_signal_hit",
+        "requirement_failures": [],
+        "eligible_for_write": true,
+        "requires_human_review": false
+      },
+      {
+        "lane_id": "T02_signal_decode",
+        "lane_label": "外部信号解码型",
+        "framework_id": "03_opinion_decode",
+        "submode_id": "signal_decode",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.4,
+        "rewrite_ratio": 0.6,
+        "lane_fit_score": 64.0,
+        "lane_final_score": 71.06,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present",
+        "requirement_failures": [],
+        "eligible_for_write": true,
+        "requires_human_review": false
+      },
+      {
+        "lane_id": "T01_release_decode",
+        "lane_label": "发布解读型",
+        "framework_id": "02_launch_application",
+        "submode_id": "release_showcase",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.8,
+        "rewrite_ratio": 0.2,
+        "lane_fit_score": 56.0,
+        "lane_final_score": 65.46,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | missing_require_official_primary | preferred_has_stepwise_signal | actionability_alignment",
+        "requirement_failures": [
+          "require_official_primary"
+        ],
+        "eligible_for_write": false,
+        "requires_human_review": true
+      },
+      {
+        "lane_id": "T07_contrarian_take",
+        "lane_label": "逆主流判断型",
+        "framework_id": "07_contrarian_take",
+        "submode_id": "category_reframe",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.7,
+        "rewrite_ratio": 0.3,
+        "lane_fit_score": 50.0,
+        "lane_final_score": 61.27,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | contrarian_signal_missing",
+        "requirement_failures": [],
+        "eligible_for_write": true,
+        "requires_human_review": false
+      },
+      {
+        "lane_id": "T03_money_proof",
+        "lane_label": "结果证明复盘型",
+        "framework_id": "01_money_proof",
+        "submode_id": "metric_postmortem",
+        "composition_mode": "rewrite_heavy",
+        "generation_ratio": 0.3,
+        "rewrite_ratio": 0.7,
+        "lane_fit_score": 17.0,
+        "lane_final_score": 38.16,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | money_signal_missing | postmortem_signal_missing",
+        "requirement_failures": [],
+        "eligible_for_write": false,
+        "requires_human_review": true
+      }
+    ],
+    "forced_lane_override": {
+      "applied": true,
+      "force_topic_id": "topic-x-op7418-b9e09e039182",
+      "force_lane_id": "T01_release_decode",
+      "previous": {
+        "selected_lane_id": "T08_signal_to_action",
+        "framework_id": "08_signal_to_action",
+        "submode_id": "market_window_playbook"
+      },
+      "forced_candidate": {
+        "lane_id": "T01_release_decode",
+        "lane_label": "发布解读型",
+        "framework_id": "02_launch_application",
+        "submode_id": "release_showcase",
+        "composition_mode": "mixed",
+        "generation_ratio": 0.8,
+        "rewrite_ratio": 0.2,
+        "lane_fit_score": 56.0,
+        "lane_final_score": 65.46,
+        "rationale": "release_signal_present | external_source_present | strong_fact_density | cross_family_present | user_impact_present | limit_or_risk_present | missing_require_official_primary | preferred_has_stepwise_signal | actionability_alignment",
+        "requirement_failures": [
+          "require_official_primary"
+        ],
+        "eligible_for_write": false,
+        "requires_human_review": true
+      }
+    }
+  },
+  "source_bundle": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-op7418-b9e09e039182",
+    "lane_id": "T01_release_decode",
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "composition_mode": "mixed",
+    "primary_sources": [
+      {
+        "signal_id": "x-op7418-b9e09e039182",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+        "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+        "published_at": "2026-03-24T01:54:42Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-op7418-b9e09e039182/source_item.json"
+      },
+      {
+        "signal_id": "x-berryxia-fc4d55fcde88",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+        "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔",
+        "published_at": "2026-03-24T23:22:12Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-berryxia-fc4d55fcde88/source_item.json"
+      }
+    ],
+    "supporting_sources": [
+      {
+        "signal_id": "x-openaidevs-da2ab731c0c5",
+        "source_family": "official_x",
+        "canonical_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+        "title": "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team.",
+        "published_at": "2026-03-24T19:14:38Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-da2ab731c0c5/source_item.json"
+      },
+      {
+        "signal_id": "x-itsandrewgao-dbfc1fe6ff10",
+        "source_family": "post_x",
+        "canonical_url": "https://x.com/itsandrewgao/status/2036508476420071752",
+        "title": "SWE 1.6 Preview is looking pretty solid 👀",
+        "published_at": "2026-03-24T18:20:31Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-itsandrewgao-dbfc1fe6ff10/source_item.json"
+      },
+      {
+        "signal_id": "x-dotey-661d71572afd",
+        "source_family": "post_x",
+        "canonical_url": "https://x.com/dotey/status/2036509826805608525",
+        "title": "Claude Code 新增 auto 模式 Claude Code 推出了一种新的权限管理方式——auto 模式。 之前用 Claude Code，要么每次文件写入和命令执行都手动批准，要么直接跳过所有权限检查。auto 模式走了一条中间路线：让 Claude 自己判断该不该放行。 具体机制是，每次执行操作前，会有一个分类器评估该操作是否有破坏性风险。安全的自动放行，有风险的会被拦截，Claude 会换一种方式完成任务。官方也坦言，这能降低风险但不能完全消除，建议在隔离环境中使用。 目前作为研究预览版在 Team 计划中可用，Enterprise 和 API 访问将在未来几天陆续开放。启用方式：claude --enable-auto-mode，然后用 Shift+Tab 切换模式。",
+        "published_at": "2026-03-24T18:25:53Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-dotey-661d71572afd/source_item.json"
+      }
+    ],
+    "fact_anchors": [
+      {
+        "claim": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "将你的 Claude Code 和 CodeX 远程连接到微信",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "而且配置方式极其简单：它会自动打开一个网页，你扫码就行",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m Post title: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      },
+      {
+        "claim": "歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m Canonical URL: https://x.com/op7418/status/2036260385490346133",
+        "source_url": "https://x.com/op7418/status/2036260385490346133",
+        "signal_id": "x-op7418-b9e09e039182"
+      }
+    ],
+    "forbidden_claims": [
+      "No unsupported percentage claims about performance or cost change.",
+      "No unsupported claim that this release fully replaces existing workflows.",
+      "No unsupported claim that all teams should adopt immediately."
+    ],
+    "lane_requirement_profile": {
+      "primary_sources_min": 2,
+      "supporting_sources_min": 1,
+      "fact_anchors_min": 4,
+      "require_official_primary": true,
+      "require_release_signal": true,
+      "require_external_source": false,
+      "require_hard_numbers": false,
+      "require_compare_signal": false,
+      "require_failure_signal": false,
+      "require_actionability_signal": false
+    },
+    "coverage_checks": {
+      "has_release_action": true,
+      "has_delta_detail": false,
+      "has_user_impact": false,
+      "has_limit_or_risk": false
+    },
+    "coverage_core_ok": false,
+    "validity_gate": false,
+    "quality_tier": "REJECT",
+    "requirement_checks": {
+      "primary_sources_min_ok": true,
+      "supporting_sources_min_ok": true,
+      "fact_anchors_min_ok": true,
+      "official_primary_required_ok": false
+    },
+    "signal_requirement_checks": {
+      "release_signal_required_ok": true,
+      "external_source_required_ok": true,
+      "hard_numbers_required_ok": true,
+      "compare_signal_required_ok": true,
+      "failure_signal_required_ok": true,
+      "actionability_signal_required_ok": true
+    },
+    "ready_for_writer": false
+  },
+  "source_materials": [
+    {
+      "source_id": "x-op7418-b9e09e039182",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+      "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+      "published_at": "2026-03-24T01:54:42Z",
+      "excerpt": "Post title: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 Post summary: Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551… — https://nitter.net/op7418/status/2029563318973952221#m Canonical URL: https://x.com/op7418/status/2036260385490346133",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-op7418-b9e09e039182/source_item.json"
+    },
+    {
+      "source_id": "x-berryxia-fc4d55fcde88",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+      "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔",
+      "published_at": "2026-03-24T23:22:12Z",
+      "excerpt": "Post title: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Post summary: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Mark Gurman (@markgurman) BREAKING: Apple’s AI reboot this year detailed — Dedicated Siri app to rival ChatGPT; Overhauled Siri interface in the Dynamic Island with chatbot; Unified Siri and Spotlight Search; and “Ask Siri” &amp; “Write with Siri” features. bloomberg.com/news/articles/… — https://nitter.net/markgurman/status/2036516958955356640#m Canonical URL: https://x.com/berryxia/status/2036584395352711255",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-berryxia-fc4d55fcde88/source_item.json"
+    },
+    {
+      "source_id": "x-openaidevs-da2ab731c0c5",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "title": "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team.",
+      "published_at": "2026-03-24T19:14:38Z",
+      "excerpt": "Post title: Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team. Post summary: With Codex, Ryan built @NotionHQ ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team. Video Canonical URL: https://x.com/OpenAIDevs/status/2036522094218060241",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-da2ab731c0c5/source_item.json"
+    },
+    {
+      "source_id": "x-itsandrewgao-dbfc1fe6ff10",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/itsandrewgao/status/2036508476420071752",
+      "title": "SWE 1.6 Preview is looking pretty solid 👀",
+      "published_at": "2026-03-24T18:20:31Z",
+      "excerpt": "Post title: SWE 1.6 Preview is looking pretty solid 👀 Post summary: SWE 1.6 Preview is looking pretty solid 👀 adarsh (@adarsh_exe) Traditional coding benchmarks do not reflect how software is actually built and maintained. That's why we built a new benchmark, APEX-SWE, in partnership with @cognition . It measures whether AI models can perform complex, real-world software engineering work to ship systems that work and debug them when they don't. @OpenAI GPT 5.3 Codex (High) tops the leaderboard at 41.5% on Pass@1. Video — https://nitter.net/adarsh_exe/status/2036492054948356462#m Canonical URL: https://x.com/itsandrewgao/status/2036508476420071752",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-itsandrewgao-dbfc1fe6ff10/source_item.json"
+    },
+    {
+      "source_id": "x-dotey-661d71572afd",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/dotey/status/2036509826805608525",
+      "title": "Claude Code 新增 auto 模式 Claude Code 推出了一种新的权限管理方式——auto 模式。 之前用 Claude Code，要么每次文件写入和命令执行都手动批准，要么直接跳过所有权限检查。auto 模式走了一条中间路线：让 Claude 自己判断该不该放行。 具体机制是，每次执行操作前，会有一个分类器评估该操作是否有破坏性风险。安全的自动放行，有风险的会被拦截，Claude 会换一种方式完成任务。官方也坦言，这能降低风险但不能完全消除，建议在隔离环境中使用。 目前作为研究预览版在 Team 计划中可用，Enterprise 和 API 访问将在未来几天陆续开放。启用方式：claude --enable-auto-mode，然后用 Shift+Tab 切换模式。",
+      "published_at": "2026-03-24T18:25:53Z",
+      "excerpt": "Post title: Claude Code 新增 auto 模式 Claude Code 推出了一种新的权限管理方式——auto 模式。 之前用 Claude Code，要么每次文件写入和命令执行都手动批准，要么直接跳过所有权限检查。auto 模式走了一条中间路线：让 Claude 自己判断该不该放行。 具体机制是，每次执行操作前，会有一个分类器评估该操作是否有破坏性风险。安全的自动放行，有风险的会被拦截，Claude 会换一种方式完成任务。官方也坦言，这能降低风险但不能完全消除，建议在隔离环境中使用。 目前作为研究预览版在 Team 计划中可用，Enterprise 和 API 访问将在未来几天陆续开放。启用方式：claude --enable-auto-mode，然后用 Shift+Tab 切换模式。 Post summary: Claude Code 新增 auto 模式 Claude Code 推出了一种新的权限管理方式——auto 模式。 之前用 Claude Code，要么每次文件写入和命令执行都手动批准，要么直接跳过所有权限检查。auto 模式走了一条中间路线：让 Claude 自己判断该不该放行。 具体机制是，每次执行操作前，会有一个分类器评估该操作是否有破坏性风险。安全的自动放行，有风险的会被拦截，Claude 会换一种方式完成任务。官方也坦言，这能降低风险但不能完全消除，建议在隔离环境中使用。 目前作为研究预览版在 Team 计划中可用，Enterprise 和 API 访问将在未来几天陆续开放。启用方式：claude --enable-auto-mode，然后用 Shift+Tab 切换模式。 Claude (@claudeai) New in Claude Code: auto mode. Instead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make permission decisions on your behalf. Safeguards check each action before it runs. Video — https://nitter.net/claudeai/status/2036503582166393240#m Canonical URL: https://x.com/dotey/status/2036509826805608525",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-dotey-661d71572afd/source_item.json"
+    }
+  ]
+}

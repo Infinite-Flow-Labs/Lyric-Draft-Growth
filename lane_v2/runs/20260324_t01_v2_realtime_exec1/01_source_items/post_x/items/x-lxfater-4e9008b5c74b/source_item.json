@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lxfater-4e9008b5c74b",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lxfater/status/2035955201484710003",
+  "author": {
+    "handle": "@lxfater",
+    "display_name": "lxfater",
+    "account_url": "https://x.com/lxfater"
+  },
+  "title": "哪里说合法啦，哈哈哈。 最近还有人听说注意会不会封号呢",
+  "language": "unknown",
+  "published_at": "2026-03-23T05:42:00Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lxfater/status/2035955201484710003",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lxfater/status/2035955201484710003#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "哪里说合法啦，哈哈哈。 最近还有人听说注意会不会封号呢 Andy Stewart (@manateelazycat) 还是你们牛逼，腾讯能在微信开放这个协议，中区推特大佬们功不可没啊🤣 谁也无法否认你们是最早一批玩 OpenClaw 小龙虾的吧？ — https://nitter.net/manateelazycat/status/2035952799280964059#m",
+    "full_text": "Post title: 哪里说合法啦，哈哈哈。 最近还有人听说注意会不会封号呢\n\nPost summary: 哪里说合法啦，哈哈哈。 最近还有人听说注意会不会封号呢 Andy Stewart (@manateelazycat) 还是你们牛逼，腾讯能在微信开放这个协议，中区推特大佬们功不可没啊🤣 谁也无法否认你们是最早一批玩 OpenClaw 小龙虾的吧？ — https://nitter.net/manateelazycat/status/2035952799280964059#m\n\nCanonical URL: https://x.com/lxfater/status/2035955201484710003",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Andy Stewart",
+      "OpenClaw",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "哪里说合法啦，哈哈哈。 最近还有人听说注意会不会封号呢",
+      "哪里说合法啦，哈哈哈。 最近还有人听说注意会不会封号呢 Andy Stewart (@manateelazycat) 还是你们牛逼，腾讯能在微信开放这个协议，中区推特大佬们功不可没啊🤣 谁也无法否认你们是最早一批玩 OpenClaw 小龙虾的吧？ — https://nitter.net/manateelazycat/status/2035952799280964059#m",
+      "Andy Stewart",
+      "OpenClaw",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

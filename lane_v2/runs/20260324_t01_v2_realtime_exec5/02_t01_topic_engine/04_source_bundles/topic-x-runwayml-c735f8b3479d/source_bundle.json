@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-runwayml-c735f8b3479d",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-runwayml-c735f8b3479d",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2034316017862660579",
+      "title": "Introducing Runway's Big Ad Contest For Products That Don't Exist. Your chance to make any ad you can imagine for up to $100K in cash prizes. No client notes. No producers saying no. Just 7 briefs to choose from and 2 weeks to make your wildest concepts come to life. Big ideas win big. Learn more and get started at the link below.",
+      "published_at": "2026-03-18T17:08:29Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-runwayml-c735f8b3479d/source_item.json"
+    },
+    {
+      "signal_id": "x-mistralai-7e47f9cf94f3",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/MistralAI/status/2034012031599427825",
+      "title": "Today, we’re introducing Forge, a system for enterprises to build frontier-grade AI models grounded in their proprietary knowledge. 🌎 Forge bridges the gap between generic AI and enterprise-specific needs. Instead of relying on broad, public data, organizations can train models that understand their internal context embedded within systems, workflows, and policies, aligning AI with their unique operations. We have already partnered with world-leading organizations, like ASML, DSO National Laboratories Singapore, Ericsson, European Space Agency, Home Team Science and Technology Agency (HTX) Singapore and Reply to train models on the proprietary data that powers their most complex systems and future-defining technologies.",
+      "published_at": "2026-03-17T21:00:33Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-mistralai-7e47f9cf94f3/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-elevenlabs-60024ac9dceb",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/ElevenLabs/status/2034651809554244048",
+      "title": "Introducing the Music Marketplace in @ElevenCreative. Creators, artists, and musicians can now publish and earn from their tracks created with our music model.",
+      "published_at": "2026-03-19T15:22:48Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-elevenlabs-60024ac9dceb/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Introducing Runway's Big Ad Contest For Products That Don't Exist. Your chance to make any ad you can imagine for up to $100K in cash prizes. No client notes. No producers saying no. Just 7 briefs to choose from and 2 weeks to make your wildest concepts come to life. Big ideas win big. Learn more and get started at the link below.",
+      "source_url": "https://x.com/runwayml/status/2034316017862660579",
+      "signal_id": "x-runwayml-c735f8b3479d"
+    },
+    {
+      "claim": "Introducing Runway's Big Ad Contest For Products That Don't Exist. Your chance to make any ad you can imagine for up to $100K in cash prizes. No client notes. No producers saying no. Just 7 briefs to choose from and 2 weeks to make your wildest concepts come to life. Big ideas win big. Learn more and get started at the link below. Video",
+      "source_url": "https://x.com/runwayml/status/2034316017862660579",
+      "signal_id": "x-runwayml-c735f8b3479d"
+    },
+    {
+      "claim": "Introducing Runway's Big Ad Contest For Products That Don't Exist",
+      "source_url": "https://x.com/runwayml/status/2034316017862660579",
+      "signal_id": "x-runwayml-c735f8b3479d"
+    },
+    {
+      "claim": "Your chance to make any ad you can imagine for up to $100K in cash prizes",
+      "source_url": "https://x.com/runwayml/status/2034316017862660579",
+      "signal_id": "x-runwayml-c735f8b3479d"
+    },
+    {
+      "claim": "Just 7 briefs to choose from and 2 weeks to make your wildest concepts come to life",
+      "source_url": "https://x.com/runwayml/status/2034316017862660579",
+      "signal_id": "x-runwayml-c735f8b3479d"
+    },
+    {
+      "claim": "Learn more and get started at the link below",
+      "source_url": "https://x.com/runwayml/status/2034316017862660579",
+      "signal_id": "x-runwayml-c735f8b3479d"
+    },
+    {
+      "claim": "Video Post title: Introducing Runway's Big Ad Contest For Products That Don't Exist",
+      "source_url": "https://x.com/runwayml/status/2034316017862660579",
+      "signal_id": "x-runwayml-c735f8b3479d"
+    },
+    {
+      "claim": "Video Canonical URL: https://x.com/runwayml/status/2034316017862660579",
+      "source_url": "https://x.com/runwayml/status/2034316017862660579",
+      "signal_id": "x-runwayml-c735f8b3479d"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 6,
+    "require_official_primary": true,
+    "require_release_signal": true,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": true
+  },
+  "coverage_checks": {
+    "has_release_action": true,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": true,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": false
+  },
+  "ready_for_writer": false
+}

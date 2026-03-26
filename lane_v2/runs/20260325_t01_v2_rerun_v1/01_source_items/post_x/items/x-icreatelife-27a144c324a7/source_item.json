@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-icreatelife-27a144c324a7",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/icreatelife/status/2036606030474260586",
+  "author": {
+    "handle": "@icreatelife",
+    "display_name": "icreatelife",
+    "account_url": "https://x.com/icreatelife"
+  },
+  "title": "Working on my next animation. I just love AI. Here's my storyboard. What are you working on?",
+  "language": "unknown",
+  "published_at": "2026-03-25T00:48:10Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/icreatelife/status/2036606030474260586",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/icreatelife/status/2036606030474260586#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Working on my next animation. I just love AI. Here's my storyboard. What are you working on?",
+    "full_text": "Post title: Working on my next animation. I just love AI. Here's my storyboard. What are you working on?\n\nPost summary: Working on my next animation. I just love AI. Here's my storyboard. What are you working on?\n\nCanonical URL: https://x.com/icreatelife/status/2036606030474260586",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Working",
+      "AI",
+      "Here",
+      "What",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Working on my next animation. I just love AI. Here's my storyboard. What are you working on?",
+      "Working",
+      "AI",
+      "Here",
+      "What",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

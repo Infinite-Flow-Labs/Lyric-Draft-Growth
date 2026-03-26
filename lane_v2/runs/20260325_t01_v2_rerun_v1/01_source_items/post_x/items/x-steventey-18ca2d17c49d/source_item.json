@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-steventey-18ca2d17c49d",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/steventey/status/2036155504586817841",
+  "author": {
+    "handle": "@steventey",
+    "display_name": "steventey",
+    "account_url": "https://x.com/steventey"
+  },
+  "title": "react-scan by @aidenybai is truly a gamechanger for debugging frontend perf issues. case in point: @dubdotco's filter UI has been \"feeling\" sluggish, so I set up react-scan and poof – it found the exact root cause (unnecessary rerenders). filters should feel much quicker now!",
+  "language": "unknown",
+  "published_at": "2026-03-23T18:57:56Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/steventey/status/2036155504586817841",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/steventey/status/2036155504586817841#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "react-scan by @aidenybai is truly a gamechanger for debugging frontend perf issues. case in point: @dubdotco 's filter UI has been \"feeling\" sluggish, so I set up react-scan and poof – it found the exact root cause (unnecessary rerenders). filters should feel much quicker now! Video",
+    "full_text": "Post title: react-scan by @aidenybai is truly a gamechanger for debugging frontend perf issues. case in point: @dubdotco's filter UI has been \"feeling\" sluggish, so I set up react-scan and poof – it found the exact root cause (unnecessary rerenders). filters should feel much quicker now!\n\nPost summary: react-scan by @aidenybai is truly a gamechanger for debugging frontend perf issues. case in point: @dubdotco 's filter UI has been \"feeling\" sluggish, so I set up react-scan and poof – it found the exact root cause (unnecessary rerenders). filters should feel much quicker now! Video\n\nCanonical URL: https://x.com/steventey/status/2036155504586817841",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "UI",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "react-scan by @aidenybai is truly a gamechanger for debugging frontend perf issues. case in point: @dubdotco's filter UI has been \"feeling\" sluggish, so I set up react-scan and poof – it found the exact root cause (unnecessary rerenders). filters should feel much quicker now!",
+      "react-scan by @aidenybai is truly a gamechanger for debugging frontend perf issues. case in point: @dubdotco 's filter UI has been \"feeling\" sluggish, so I set up react-scan and poof – it found the exact root cause (unnecessary rerenders). filters should feel much quicker now! Video",
+      "UI",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

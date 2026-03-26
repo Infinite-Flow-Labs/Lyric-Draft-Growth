@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-hitw93-f587732bf2fb",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/HiTw93/status/2035728164044132368",
+  "author": {
+    "handle": "@HiTw93",
+    "display_name": "HiTw93",
+    "account_url": "https://x.com/HiTw93"
+  },
+  "title": "The spring in Hangzhou is very beautiful.",
+  "language": "unknown",
+  "published_at": "2026-03-22T14:39:50Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/HiTw93/status/2035728164044132368",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/HiTw93/status/2035728164044132368#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "The spring in Hangzhou is very beautiful.",
+    "full_text": "Post title: The spring in Hangzhou is very beautiful.\n\nPost summary: The spring in Hangzhou is very beautiful.\n\nCanonical URL: https://x.com/HiTw93/status/2035728164044132368",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Hangzhou",
+      "Post",
+      "Canonical URL",
+      "HiTw93"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "The spring in Hangzhou is very beautiful.",
+      "Hangzhou",
+      "Post",
+      "Canonical URL",
+      "HiTw93"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

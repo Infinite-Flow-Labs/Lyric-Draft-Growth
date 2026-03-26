@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-chuhaiqu-0b72570c46a8",
+  "event_seed_signal_id": "x-chuhaiqu-0b72570c46a8",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "Semrush 最新报告显示，LinkedIn 被各大 AI 引用的比例已经达到了 11.03%，和公认的语料大户 Reddit 只差了 0.26%。 以前总觉得涨粉和互动量是王道，但在这将近 9 万条被 AI 抓取的链接里，帖子的点赞中位数只有 15 到 25 个，评论往往不到 1 条。 更神奇的是 哪怕你的粉丝不到 500，被大模型引用的概率也跟那些粉丝几万的大 V 没多大区别。 因为大模型只认干货，根本不懂所谓的网感。 涨粉焦虑真的大大缓解了！不用再去迎合社媒算法写段子做标题党，只要把平时踩过的坑、真实的业务增长经验老老实实写下来，哪怕发出去根本没几个人点赞，AI 也会默默把它推给正在搜索精准答案的潜在客户。",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 43.82,
+  "heat_breakdown": {
+    "volume_score": 33.0,
+    "velocity_score": 52.1,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "semrush",
+  "cluster_signal_ids": [
+    "x-chuhaiqu-0b72570c46a8"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/chuhaiqu/status/2036400652465873355",
+    "published_at": "2026-03-24T11:12:04Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 10
+  }
+}

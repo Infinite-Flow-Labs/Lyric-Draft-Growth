@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-op7418-b9e09e039182",
+  "event_seed_signal_id": "x-op7418-b9e09e039182",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+  "why_now": "Clustered 12 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 88.19,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 94.57,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "openclaw::preview",
+  "cluster_signal_ids": [
+    "x-chuhaiqu-2b4ddd864f60",
+    "x-fkysly-50aafd7ebf9c",
+    "x-op7418-6d5e88c7d7a0",
+    "x-fkysly-680e4d96dd98",
+    "x-op7418-b9e09e039182",
+    "x-op7418-dd4b9944d063",
+    "x-op7418-f217dfe9b64b",
+    "x-ai_for_success-5a511c45a67c",
+    "x-op7418-e1e31d6b1b0f",
+    "x-mreflow-59a5cf736b7a",
+    "x-dotey-ac2a2f45e25e",
+    "x-idoubicc-4d7afa04343a"
+  ],
+  "source_families": [
+    "article_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+    "published_at": "2026-03-24T01:54:42Z",
+    "release_signals_count": 17,
+    "fact_candidates_count": 141
+  }
+}

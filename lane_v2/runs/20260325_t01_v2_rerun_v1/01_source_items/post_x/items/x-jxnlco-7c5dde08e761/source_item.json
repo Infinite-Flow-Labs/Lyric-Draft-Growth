@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-jxnlco-7c5dde08e761",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/jxnlco/status/2036236788373790842",
+  "author": {
+    "handle": "@jxnlco",
+    "display_name": "jxnlco",
+    "account_url": "https://x.com/jxnlco"
+  },
+  "title": "This time last year",
+  "language": "unknown",
+  "published_at": "2026-03-24T00:20:56Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/jxnlco/status/2036236788373790842",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/jxnlco/status/2036236788373790842#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "This time last year jason liu (@jxnlco) I worked a lot on my mental health and now I am no longer ambitious. — https://nitter.net/jxnlco/status/1903997085583810994#m",
+    "full_text": "Post title: This time last year\n\nPost summary: This time last year jason liu (@jxnlco) I worked a lot on my mental health and now I am no longer ambitious. — https://nitter.net/jxnlco/status/1903997085583810994#m\n\nCanonical URL: https://x.com/jxnlco/status/2036236788373790842",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "This",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "This time last year",
+      "This time last year jason liu (@jxnlco) I worked a lot on my mental health and now I am no longer ambitious. — https://nitter.net/jxnlco/status/1903997085583810994#m",
+      "This",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

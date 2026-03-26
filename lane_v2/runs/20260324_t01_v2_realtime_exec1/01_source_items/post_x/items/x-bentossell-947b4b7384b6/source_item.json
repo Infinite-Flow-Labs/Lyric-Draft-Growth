@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-bentossell-947b4b7384b6",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/bentossell/status/2034537500731949094",
+  "author": {
+    "handle": "@bentossell",
+    "display_name": "bentossell",
+    "account_url": "https://x.com/bentossell"
+  },
+  "title": "🤨 or ya kno...just toggle the settings in the app",
+  "language": "unknown",
+  "published_at": "2026-03-19T07:48:34Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/bentossell/status/2034537500731949094",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/bentossell/status/2034537500731949094#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "🤨 or ya kno...just toggle the settings in the app",
+    "full_text": "Post title: 🤨 or ya kno...just toggle the settings in the app\n\nPost summary: 🤨 or ya kno...just toggle the settings in the app\n\nCanonical URL: https://x.com/bentossell/status/2034537500731949094",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "🤨 or ya kno...just toggle the settings in the app",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

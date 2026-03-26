@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_jasonyu-aa3c0e3370d8",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AI_Jasonyu/status/2035954588575035881",
+  "author": {
+    "handle": "@AI_Jasonyu",
+    "display_name": "AI_Jasonyu",
+    "account_url": "https://x.com/AI_Jasonyu"
+  },
+  "title": "树姐这篇香港电话卡手机号的文章，把香港可以办理的手机号几乎都涵盖了，怎么选择很清楚，必收藏！ 关于国行手机如何使用esim，如何选择实体eaim卡，也可以看看我之前的这篇https://x.com/ai_jasonyu/status/2012176019206320507?s=46",
+  "language": "unknown",
+  "published_at": "2026-03-23T05:39:34Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AI_Jasonyu/status/2035954588575035881",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AI_Jasonyu/status/2035954588575035881#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "树姐这篇香港电话卡手机号的文章，把香港可以办理的手机号几乎都涵盖了，怎么选择很清楚，必收藏！ 关于国行手机如何使用esim，如何选择实体eaim卡，也可以看看我之前的这篇 nitter.net/ai_jasonyu/status/2012… Eva 树姐👧🏻 (@EvaCmore) x.com/i/article/203489625023… — https://nitter.net/EvaCmore/status/2035259679014830547#m",
+    "full_text": "Post title: 树姐这篇香港电话卡手机号的文章，把香港可以办理的手机号几乎都涵盖了，怎么选择很清楚，必收藏！ 关于国行手机如何使用esim，如何选择实体eaim卡，也可以看看我之前的这篇https://x.com/ai_jasonyu/status/2012176019206320507?s=46\n\nPost summary: 树姐这篇香港电话卡手机号的文章，把香港可以办理的手机号几乎都涵盖了，怎么选择很清楚，必收藏！ 关于国行手机如何使用esim，如何选择实体eaim卡，也可以看看我之前的这篇 nitter.net/ai_jasonyu/status/2012… Eva 树姐👧🏻 (@EvaCmore) x.com/i/article/203489625023… — https://nitter.net/EvaCmore/status/2035259679014830547#m\n\nCanonical URL: https://x.com/AI_Jasonyu/status/2035954588575035881",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Eva",
+      "EvaCmore",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "树姐这篇香港电话卡手机号的文章，把香港可以办理的手机号几乎都涵盖了，怎么选择很清楚，必收藏！ 关于国行手机如何使用esim，如何选择实体eaim卡，也可以看看我之前的这篇https://x.com/ai_jasonyu/status/2012176019206320507?s=46",
+      "树姐这篇香港电话卡手机号的文章，把香港可以办理的手机号几乎都涵盖了，怎么选择很清楚，必收藏！ 关于国行手机如何使用esim，如何选择实体eaim卡，也可以看看我之前的这篇 nitter.net/ai_jasonyu/status/2012… Eva 树姐👧🏻 (@EvaCmore) x.com/i/article/203489625023… — https://nitter.net/EvaCmore/status/2035259679014830547#m",
+      "Eva",
+      "EvaCmore",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

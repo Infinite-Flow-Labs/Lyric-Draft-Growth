@@ -1,0 +1,1623 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-24T08:23:39Z",
+  "policy": {
+    "max_age_hours": 168,
+    "require_canonical_url": true,
+    "min_text_words": 25,
+    "drop_if_exact_duplicate": true,
+    "family_max_age_hours": {
+      "official_x": 168,
+      "article_x": 240,
+      "post_x": 96
+    },
+    "family_min_text_words": {
+      "official_x": 18,
+      "article_x": 25,
+      "post_x": 8
+    }
+  },
+  "input_count": 563,
+  "passed_count": 365,
+  "rejected_count": 198,
+  "load_error_count": 0,
+  "rejected": [
+    {
+      "signal_id": "x-ai_jasonyu-5256000fb3c2",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2035227225394389475",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-33c2cd81ffec",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2035550339391435116",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-9e8d6a7105d1",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2035216344073822677",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-02f909ad9d74",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034647427609751913",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-32fc36393e26",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034413681916936671",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-6b3600223661",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2036090084634886569",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-e019a7a84f1b",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034050171672420428",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-berryxia-60c02b6ba4c7",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/berryxia/status/2036297242341155242",
+      "reasons": [
+        "text_words_below_min:13<25"
+      ]
+    },
+    {
+      "signal_id": "x-chuhaiqu-fb1c572e5be6",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2035882453471248465",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-danshipper-70b486e6ea0a",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/danshipper/status/2036105131465277527",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-265b0d603e8d",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2035621498707177923",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-293770ea79d7",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2036234127691694254",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-3156af81c530",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2035917916269387831",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-32b40123a1aa",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/gefei55/status/2035381888089838013",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-6dddd641fd30",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/HiTw93/status/2035527178419683540",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-8a303aee288e",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/HiTw93/status/2034627967926825175",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-ivanfioravanti-14e30d2b1b2e",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/ivanfioravanti/status/2035770035742900525",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-lxfater-a2efacc9e04f",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/lxfater/status/2035674347470537012",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-oran_ge-206c4c6d4db5",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/oran_ge/status/2034645280411316233",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-pmbackttfuture-f7f4b11aa39d",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/PMbackttfuture/status/2036304783741690070",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-ai_jasonyu-236df61fae62",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-ai_jasonyu-5256000fb3c2",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2035227225394389475",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-ai_jasonyu-aa3c0e3370d8",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2035954588575035881",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-aibreakfast-14b0c4d71665",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AiBreakfast/status/2034469770041458962",
+      "reasons": [
+        "too_old:125.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-aibreakfast-28e8e925f799",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AiBreakfast/status/2034328589316030829",
+      "reasons": [
+        "too_old:134.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-aibreakfast-5868a685f108",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AiBreakfast/status/2034663536455282959",
+      "reasons": [
+        "too_old:112.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-aibreakfast-94a94c00fd7d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AiBreakfast/status/2034008347150823454",
+      "reasons": [
+        "too_old:155.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-aibreakfast-b21cae3ff500",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AiBreakfast/status/2034824242169102432",
+      "reasons": [
+        "too_old:101.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-aibreakfast-dc135fc879d6",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AiBreakfast/status/2034474327446532472",
+      "reasons": [
+        "too_old:124.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-072f1885daea",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2034632648082235618",
+      "reasons": [
+        "too_old:114.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-10f5db3b4090",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2034869363795533895",
+      "reasons": [
+        "too_old:98.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-33c2cd81ffec",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2035550339391435116",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-49d8a1ca880c",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2034545420098310352",
+      "reasons": [
+        "too_old:120.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-50f239b85b4b",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2034878554228342962",
+      "reasons": [
+        "too_old:98.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-526abc84afef",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2034279190607052831",
+      "reasons": [
+        "too_old:137.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-9e8d6a7105d1",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2035216344073822677",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-alchainhust-e94aa3fbf89b",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2035223609497853985",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-02f909ad9d74",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034647427609751913",
+      "reasons": [
+        "too_old:113.3h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-0447d2ade666",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034751488308723866",
+      "reasons": [
+        "too_old:106.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-32fc36393e26",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034413681916936671",
+      "reasons": [
+        "too_old:128.8h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-62086591572c",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034368632721936426",
+      "reasons": [
+        "too_old:131.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-643097500314",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2033936311321502054",
+      "reasons": [
+        "too_old:160.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-6a3f5c3449d6",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034238865616093371",
+      "reasons": [
+        "too_old:140.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-6b3600223661",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2036090084634886569",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-7549de3c2e75",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2033961817861402660",
+      "reasons": [
+        "too_old:158.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-e019a7a84f1b",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034050171672420428",
+      "reasons": [
+        "too_old:152.9h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-ammaar-1033bdb60f33",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ammaar/status/2034698150133334438",
+      "reasons": [
+        "too_old:109.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-ammaar-b4ed29486875",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ammaar/status/2033914943389454712",
+      "reasons": [
+        "too_old:161.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-ammaar-bb8132fac81d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ammaar/status/2034655741877817654",
+      "reasons": [
+        "too_old:112.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-astronaut_1216-7a829b3e9e68",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/Astronaut_1216/status/2034873528898470379",
+      "reasons": [
+        "too_old:98.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-astronaut_1216-ccae1ebf6d84",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/Astronaut_1216/status/2035554128651317400",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-balconychy-8dbadfd81fb9",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/balconychy/status/2034121424324202600",
+      "reasons": [
+        "too_old:148.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-balconychy-bef3b67b61cf",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/balconychy/status/2034243931450626140",
+      "reasons": [
+        "too_old:140.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-bentossell-04be33754afa",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/bentossell/status/2034752613716017639",
+      "reasons": [
+        "too_old:106.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-bentossell-227ce1c51625",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/bentossell/status/2034659760771908083",
+      "reasons": [
+        "too_old:112.5h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-bentossell-2522c42e642a",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/bentossell/status/2034378147680940150",
+      "reasons": [
+        "too_old:131.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-bentossell-496acad03e22",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/bentossell/status/2034580294007664991",
+      "reasons": [
+        "too_old:117.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-bentossell-947b4b7384b6",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/bentossell/status/2034537500731949094",
+      "reasons": [
+        "too_old:120.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-bentossell-efb841febbab",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/bentossell/status/2034710598886302036",
+      "reasons": [
+        "too_old:109.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-berryxia-60c02b6ba4c7",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/berryxia/status/2036297242341155242",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-berryxia-c07411c79b38",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/berryxia/status/2036300435758477444",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-chuhaiqu-060e600af536",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-chuhaiqu-1049589fe779",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2035988045879714252",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-chuhaiqu-8af70a470ec5",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036292931154485761",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-chuhaiqu-fb1c572e5be6",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2035882453471248465",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-cydiar404-05407e0f48e8",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/Cydiar404/status/2034912262537060368",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-danshipper-70b486e6ea0a",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/danshipper/status/2036105131465277527",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-danshipper-f44fc13fe3f3",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/danshipper/status/2036251531570278825",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-265b0d603e8d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/dotey/status/2035621498707177923",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-293770ea79d7",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/dotey/status/2036234127691694254",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-3156af81c530",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/dotey/status/2035917916269387831",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-89046084a6fa",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/dotey/status/2035754880275501405",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-evilcos-06281f365624",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/evilcos/status/2034467033157620111",
+      "reasons": [
+        "too_old:125.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-evilcos-5602595b8273",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/evilcos/status/2034459356675383675",
+      "reasons": [
+        "too_old:125.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-evilcos-583b3dbbd328",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/evilcos/status/2034627668206137631",
+      "reasons": [
+        "too_old:114.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-evilcos-a71ea1159fda",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/evilcos/status/2033923589322461632",
+      "reasons": [
+        "too_old:161.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-evilcos-d646993cccb5",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/evilcos/status/2034066951044300877",
+      "reasons": [
+        "too_old:151.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-2f75eb47a3b9",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034451658894360898",
+      "reasons": [
+        "too_old:126.3h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-32b40123a1aa",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2035381888089838013",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-4692a0d1e9a3",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034062419337875881",
+      "reasons": [
+        "too_old:152.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-57af265be84a",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034813850621804838",
+      "reasons": [
+        "too_old:102.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-63f526a7f6b6",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034279827218280690",
+      "reasons": [
+        "too_old:137.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-6491a06fa424",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034501536169312329",
+      "reasons": [
+        "too_old:123.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-8f612c497c35",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2033913707466527146",
+      "reasons": [
+        "too_old:161.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-9e25ad0b5d85",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034083396008485325",
+      "reasons": [
+        "too_old:150.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-b6e2eac78c3e",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034062863875387444",
+      "reasons": [
+        "too_old:152.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-e159ad39144d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034809747518759371",
+      "reasons": [
+        "too_old:102.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-e477db1ffddc",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034583188639768826",
+      "reasons": [
+        "too_old:117.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gefei55-f0ab781b7f82",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/gefei55/status/2034811750097531152",
+      "reasons": [
+        "too_old:102.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gorden_sun-0ea4a6e86556",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-gregkamradt-5e3cdcf52b8b",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/GregKamradt/status/2033914545950101552",
+      "reasons": [
+        "too_old:161.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-gregkamradt-8129c8e910a2",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/GregKamradt/status/2034302543262789684",
+      "reasons": [
+        "too_old:136.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-guishou_56-03dd499bca85",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/guishou_56/status/2034564251353055314",
+      "reasons": [
+        "too_old:118.8h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-guishou_56-bab7a6d8efcd",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/guishou_56/status/2034853414698704927",
+      "reasons": [
+        "too_old:99.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-073a7edd337d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-6dddd641fd30",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2035527178419683540",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-7ecbe793e3ef",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2034298444429594864",
+      "reasons": [
+        "too_old:136.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-7f81d45022ab",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2034416560069087637",
+      "reasons": [
+        "too_old:128.6h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-8a303aee288e",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2034627967926825175",
+      "reasons": [
+        "too_old:114.6h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-be55abc1a0cc",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2034058451106574480",
+      "reasons": [
+        "too_old:152.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-e96823e59e8f",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2035114867611578797",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-hitw93-e9d0c7cfc248",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2033911478466843115",
+      "reasons": [
+        "too_old:162.0h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-iscienceluvr-4c236aa1a69d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/iScienceLuvr/status/2033815339000336497",
+      "reasons": [
+        "too_old:168.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-iscienceluvr-58783e885456",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/iScienceLuvr/status/2034740838908219627",
+      "reasons": [
+        "too_old:107.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-iscienceluvr-6844de710254",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/iScienceLuvr/status/2034520991490285611",
+      "reasons": [
+        "too_old:121.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-iscienceluvr-a7a6fda0ba46",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/iScienceLuvr/status/2034425586677067794",
+      "reasons": [
+        "too_old:128.0h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-iscienceluvr-bb4e8d694347",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/iScienceLuvr/status/2034681825264799810",
+      "reasons": [
+        "too_old:111.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-iscienceluvr-e749aeef3b6d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/iScienceLuvr/status/2034542334562750787",
+      "reasons": [
+        "too_old:120.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-itsandrewgao-24454b8b141c",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/itsandrewgao/status/2034168192109842618",
+      "reasons": [
+        "too_old:145.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-itsandrewgao-5a9550c98dc6",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/itsandrewgao/status/2034366616159629557",
+      "reasons": [
+        "too_old:131.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-itsandrewgao-5da504e5b5c7",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/itsandrewgao/status/2034868670183481717",
+      "reasons": [
+        "too_old:98.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-itsandrewgao-9a017dd9a600",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/itsandrewgao/status/2034784485166997913",
+      "reasons": [
+        "too_old:104.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-itsandrewgao-9b8c457aadce",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/itsandrewgao/status/2034769038182949018",
+      "reasons": [
+        "too_old:105.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-itsandrewgao-b76818a9931d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/itsandrewgao/status/2034734872225620165",
+      "reasons": [
+        "too_old:107.5h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-itsandrewgao-d5aa60c6bda0",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/itsandrewgao/status/2034366355361972483",
+      "reasons": [
+        "too_old:131.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-ivanfioravanti-14e30d2b1b2e",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ivanfioravanti/status/2035770035742900525",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-100ac6ce50a0",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034841188067680588",
+      "reasons": [
+        "too_old:100.5h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-1c3b0c3c3061",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034552518060183821",
+      "reasons": [
+        "too_old:119.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-1da01bf3cd7b",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034475646307725822",
+      "reasons": [
+        "too_old:124.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-1e8f80e584cd",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034836401326629054",
+      "reasons": [
+        "too_old:100.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-5c76b1760214",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034476523194098034",
+      "reasons": [
+        "too_old:124.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-a4273f865ccf",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034631319091843338",
+      "reasons": [
+        "too_old:114.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-ae2e75d1992e",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034544001484042285",
+      "reasons": [
+        "too_old:120.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-da2d2ef3ee24",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034291280797478959",
+      "reasons": [
+        "too_old:136.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-e0f0337b89b5",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2034639197576085548",
+      "reasons": [
+        "too_old:113.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lxfater-a2efacc9e04f",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lxfater/status/2035674347470537012",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-lxfater-f4506a45e139",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lxfater/status/2035741034261647609",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-lxfater-fcdbe01cbc1b",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lxfater/status/2036101426779484458",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-lyc_zh-1a23d84de9a5",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2034269312471461996",
+      "reasons": [
+        "too_old:138.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lyc_zh-2ffb7cd354b3",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2034087654317559894",
+      "reasons": [
+        "too_old:150.4h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-lyc_zh-643793d616c8",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2034803258196210086",
+      "reasons": [
+        "too_old:103.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lyc_zh-80867b0374d8",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2033909968445817083",
+      "reasons": [
+        "too_old:162.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lyc_zh-97ab54dcdfff",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2033924115544060065",
+      "reasons": [
+        "too_old:161.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lyc_zh-c23dfd5862d1",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2033892875650666511",
+      "reasons": [
+        "too_old:163.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-lyc_zh-e5091734d0e2",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2034265520506093714",
+      "reasons": [
+        "too_old:138.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-mreflow-01df1982bba4",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/mreflow/status/2034781972737008044",
+      "reasons": [
+        "too_old:104.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-mreflow-84d57d3d8566",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/mreflow/status/2034703393445617764",
+      "reasons": [
+        "too_old:109.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-mreflow-90b3ce1087e8",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/mreflow/status/2034744219588599887",
+      "reasons": [
+        "too_old:106.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-op7418-b9e09e039182",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-oran_ge-206c4c6d4db5",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/oran_ge/status/2034645280411316233",
+      "reasons": [
+        "too_old:113.4h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-oran_ge-56e7c32930d9",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/oran_ge/status/2034278410831512025",
+      "reasons": [
+        "too_old:137.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-oran_ge-5ef7e1980061",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/oran_ge/status/2034842114220265798",
+      "reasons": [
+        "too_old:100.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-oran_ge-8c032a88aedf",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/oran_ge/status/2034788161185067178",
+      "reasons": [
+        "too_old:104.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-oran_ge-a75171eb7929",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/oran_ge/status/2034623129902043250",
+      "reasons": [
+        "too_old:114.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-oran_ge-a9e12b0f5de5",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/oran_ge/status/2034753114784636983",
+      "reasons": [
+        "too_old:106.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-oran_ge-acbc7280c2d8",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/oran_ge/status/2034752673032056993",
+      "reasons": [
+        "too_old:106.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-pmbackttfuture-8053808b9a0f",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/PMbackttfuture/status/2034480866794394033",
+      "reasons": [
+        "too_old:124.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-pmbackttfuture-c783fbf099f2",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/PMbackttfuture/status/2034891312651280783",
+      "reasons": [
+        "too_old:97.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-pmbackttfuture-f7f4b11aa39d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/PMbackttfuture/status/2036304783741690070",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-ramsri_goutham-e8ed729d1255",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ramsri_goutham/status/2034884804932772108",
+      "reasons": [
+        "too_old:97.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-reach_vb-0bf5ee16d98c",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2034602048012853287",
+      "reasons": [
+        "too_old:116.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-reach_vb-22e09cc4059c",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2034370061264105864",
+      "reasons": [
+        "too_old:131.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-reach_vb-4c0fa65e5cc1",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2034622569668632594",
+      "reasons": [
+        "too_old:115.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-reach_vb-69b41823f101",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2033954711385121252",
+      "reasons": [
+        "too_old:159.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-reach_vb-b8a603877a70",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2034575643619291362",
+      "reasons": [
+        "too_old:118.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-reach_vb-c04b435cc401",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2033857613608214977",
+      "reasons": [
+        "too_old:165.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-reach_vb-f2460a9bc3bf",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2034208857975636048",
+      "reasons": [
+        "too_old:142.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-rlancemartin-bc7ca38e654d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/RLanceMartin/status/2034346993490030896",
+      "reasons": [
+        "too_old:133.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-0cd2b1d49cc2",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034835746335728087",
+      "reasons": [
+        "too_old:100.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-1cb672f45399",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034423111551234308",
+      "reasons": [
+        "too_old:128.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-25dc300a3614",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034834556097110400",
+      "reasons": [
+        "too_old:100.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-33ff6c1143d9",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034426029205520852",
+      "reasons": [
+        "too_old:128.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-38414e094aa0",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034844571491082288",
+      "reasons": [
+        "too_old:100.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-6851c4c950d3",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034498611564990665",
+      "reasons": [
+        "too_old:123.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-8e4f10a1b949",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034831005023154427",
+      "reasons": [
+        "too_old:101.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-9f8fe2b0e4c4",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034302191499198704",
+      "reasons": [
+        "too_old:136.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-a99e291e2f82",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034490735945502781",
+      "reasons": [
+        "too_old:123.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-shengxj1-f1ae4cca97d8",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/shengxj1/status/2034879058530771315",
+      "reasons": [
+        "too_old:98.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-skirano-180169335fd4",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/skirano/status/2034269154404868314",
+      "reasons": [
+        "too_old:138.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-skirano-dc44a6c2a86f",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/skirano/status/2034770952584581359",
+      "reasons": [
+        "too_old:105.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-skirano-e729d232ac9e",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/skirano/status/2034808588200251607",
+      "reasons": [
+        "too_old:102.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-sophiamyang-e829e9eeb994",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/sophiamyang/status/2034000011671777782",
+      "reasons": [
+        "too_old:156.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-steventey-a073c14aed9a",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/steventey/status/2034784565269864571",
+      "reasons": [
+        "too_old:104.2h>96h",
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-steventey-a4dad80f4db5",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/steventey/status/2034033139765653833",
+      "reasons": [
+        "too_old:154.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-svpino-43415181d5a1",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/svpino/status/2034708756152332612",
+      "reasons": [
+        "too_old:109.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-svpino-88e1246f9a57",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/svpino/status/2034707589821292789",
+      "reasons": [
+        "too_old:109.3h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-tualatrix-2976565c76b9",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/tualatrix/status/2034896182271778827",
+      "reasons": [
+        "too_old:96.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-tualatrix-636aeb416a34",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/tualatrix/status/2034657318839996566",
+      "reasons": [
+        "too_old:112.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-tualatrix-db8f73a000f9",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/tualatrix/status/2034646110900490458",
+      "reasons": [
+        "too_old:113.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-vista8-da523696e157",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/vista8/status/2036114278059762119",
+      "reasons": [
+        "duplicate"
+      ]
+    },
+    {
+      "signal_id": "x-waylybaye-06e8916f9ba4",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/waylybaye/status/2034536583387611342",
+      "reasons": [
+        "too_old:120.6h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-waylybaye-4efb0d25154a",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/waylybaye/status/2034167865516110127",
+      "reasons": [
+        "too_old:145.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-waylybaye-7b1ed3d2af02",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/waylybaye/status/2034171839187128775",
+      "reasons": [
+        "too_old:144.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-waylybaye-c625523ee20c",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/waylybaye/status/2034530242321404076",
+      "reasons": [
+        "too_old:121.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yan5xu-176290b527e1",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yan5xu/status/2034151711208775777",
+      "reasons": [
+        "too_old:146.1h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yan5xu-2822d2d9d87a",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yan5xu/status/2034102488060821776",
+      "reasons": [
+        "too_old:149.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yan5xu-505587661847",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yan5xu/status/2034812566980239392",
+      "reasons": [
+        "too_old:102.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yan5xu-561a1a25f915",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yan5xu/status/2033876326172786989",
+      "reasons": [
+        "too_old:164.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yan5xu-824d47b0d1b4",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yan5xu/status/2034121016700715276",
+      "reasons": [
+        "too_old:148.2h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-18b72f489459",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2034339265644200383",
+      "reasons": [
+        "too_old:133.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-388b0982d9dc",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2034842370446172546",
+      "reasons": [
+        "too_old:100.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-422599ca9531",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2034766793739575774",
+      "reasons": [
+        "too_old:105.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-695c7dba6b79",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2034669922174029900",
+      "reasons": [
+        "too_old:111.8h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-6b91faf3d9e4",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2034773602483282415",
+      "reasons": [
+        "too_old:104.9h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-9cd2774a41f7",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2034731606938984593",
+      "reasons": [
+        "too_old:107.7h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-b12fbfaf8871",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2034691843309674850",
+      "reasons": [
+        "too_old:110.4h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-b8abb554a7c0",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2034757812702814703",
+      "reasons": [
+        "too_old:106.0h>96h"
+      ]
+    },
+    {
+      "signal_id": "x-yoheinakajima-edf4c6f632ca",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/yoheinakajima/status/2036136524358754658",
+      "reasons": [
+        "duplicate"
+      ]
+    }
+  ],
+  "load_errors": []
+}

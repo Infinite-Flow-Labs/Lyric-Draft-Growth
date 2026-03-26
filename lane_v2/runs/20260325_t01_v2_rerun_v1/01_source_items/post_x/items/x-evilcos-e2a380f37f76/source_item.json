@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-evilcos-e2a380f37f76",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/evilcos/status/2036320359499309461",
+  "author": {
+    "handle": "@evilcos",
+    "display_name": "evilcos",
+    "account_url": "https://x.com/evilcos"
+  },
+  "title": "词元（Token），官方定义。",
+  "language": "unknown",
+  "published_at": "2026-03-24T05:53:01Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/evilcos/status/2036320359499309461",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/evilcos/status/2036320359499309461#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "词元（Token），官方定义。",
+    "full_text": "Post title: 词元（Token），官方定义。\n\nPost summary: 词元（Token），官方定义。\n\nCanonical URL: https://x.com/evilcos/status/2036320359499309461",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Token",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "词元（Token），官方定义。",
+      "Token",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

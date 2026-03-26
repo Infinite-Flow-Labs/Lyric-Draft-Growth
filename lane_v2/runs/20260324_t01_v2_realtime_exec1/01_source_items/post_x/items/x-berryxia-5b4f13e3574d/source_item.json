@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-berryxia-5b4f13e3574d",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/berryxia/status/2035733422329790560",
+  "author": {
+    "handle": "@berryxia",
+    "display_name": "berryxia",
+    "account_url": "https://x.com/berryxia"
+  },
+  "title": "蒙兄的信息卡从上个“AI时代” 就制作的很好，现在更是将其封包为skills。 直接开箱就用，真的是方便啊！ 审美也是很到位，推荐给大家。",
+  "language": "unknown",
+  "published_at": "2026-03-22T15:00:44Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/berryxia/status/2035733422329790560",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/berryxia/status/2035733422329790560#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "蒙兄的信息卡从上个“AI时代” 就制作的很好，现在更是将其封包为skills。 直接开箱就用，真的是方便啊！ 审美也是很到位，推荐给大家。 meng shao (@shao__meng) 信息卡制作完整方法我做成了 Skill「infocard-skills」，开源在这里了： github.com/shaom/infocard-sk… 支持 16/9、4/3、1/1、3/4、9/16 几种常见比例信息卡，和 2.35/1、3/1 等常见比例封面的适配性针对设计。 输入需要生成的内容和比例要求（默认 4/3），AI Agent 使用 这个 Skill 生成 HTML 并截图输出 PNG。 下面是这个 Skill 生成的样例 🔽 大家可以在使用中调整成最适合你的样式风格，并沉淀更新到 Skill 里。 — https://nitter.net/shao__meng/status/2035720327037108673#m",
+    "full_text": "Post title: 蒙兄的信息卡从上个“AI时代” 就制作的很好，现在更是将其封包为skills。 直接开箱就用，真的是方便啊！ 审美也是很到位，推荐给大家。\n\nPost summary: 蒙兄的信息卡从上个“AI时代” 就制作的很好，现在更是将其封包为skills。 直接开箱就用，真的是方便啊！ 审美也是很到位，推荐给大家。 meng shao (@shao__meng) 信息卡制作完整方法我做成了 Skill「infocard-skills」，开源在这里了： github.com/shaom/infocard-sk… 支持 16/9、4/3、1/1、3/4、9/16 几种常见比例信息卡，和 2.35/1、3/1 等常见比例封面的适配性针对设计。 输入需要生成的内容和比例要求（默认 4/3），AI Agent 使用 这个 Skill 生成 HTML 并截图输出 PNG。 下面是这个 Skill 生成的样例 🔽 大家可以在使用中调整成最适合你的样式风格，并沉淀更新到 Skill 里。 — https://nitter.net/shao__meng/status/2035720327037108673#m\n\nCanonical URL: https://x.com/berryxia/status/2035733422329790560",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Skill",
+      "AI Agent",
+      "HTML",
+      "PNG",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "蒙兄的信息卡从上个“AI时代” 就制作的很好，现在更是将其封包为skills。 直接开箱就用，真的是方便啊！ 审美也是很到位，推荐给大家。",
+      "蒙兄的信息卡从上个“AI时代” 就制作的很好，现在更是将其封包为skills。 直接开箱就用，真的是方便啊！ 审美也是很到位，推荐给大家。 meng shao (@shao__meng) 信息卡制作完整方法我做成了 Skill「infocard-skills」，开源在这里了： github.com/shaom/infocard-sk… 支持 16/9、4/3、1/1、3/4、9/16 几种常见比例信息卡，和 2.35/1、3/1 等常见比例封面的适配性针对设计。 输入需要生成的内容和比例要求（默认 4/3），AI Agent 使用 这个 Skill 生成 HTML 并截图输出 PNG。 下面是这个 Skill 生成的样例 🔽 大家可以在使用中调整成最适合你的样式风格，并沉淀更新到 Skill 里。 — https://nitter.net/shao__meng/status/2035720327037108673#m",
+      "Skill",
+      "AI Agent",
+      "HTML",
+      "PNG",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

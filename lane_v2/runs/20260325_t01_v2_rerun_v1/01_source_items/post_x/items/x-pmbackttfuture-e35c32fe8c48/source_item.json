@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-pmbackttfuture-e35c32fe8c48",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/PMbackttfuture/status/2036644504200266204",
+  "author": {
+    "handle": "@PMbackttfuture",
+    "display_name": "PMbackttfuture",
+    "account_url": "https://x.com/PMbackttfuture"
+  },
+  "title": "Cli和GUI的配合 活久见了 在CC里调用Youmind Skill CC发现YouMind 的 slides 流程是分步的： 第一步生成了 PPT 大纲 然后CC替我查看了大纲，觉得很棒 直接帮我回复了开始生成 Youmind的GUI里就收到了命令开始生成。。。",
+  "language": "unknown",
+  "published_at": "2026-03-25T03:21:03Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/PMbackttfuture/status/2036644504200266204",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/PMbackttfuture/status/2036644504200266204#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Cli和GUI的配合 活久见了 在CC里调用Youmind Skill CC发现YouMind 的 slides 流程是分步的： 第一步生成了 PPT 大纲 然后CC替我查看了大纲，觉得很棒 直接帮我回复了开始生成 Youmind的GUI里就收到了命令开始生成。。。",
+    "full_text": "Post title: Cli和GUI的配合 活久见了 在CC里调用Youmind Skill CC发现YouMind 的 slides 流程是分步的： 第一步生成了 PPT 大纲 然后CC替我查看了大纲，觉得很棒 直接帮我回复了开始生成 Youmind的GUI里就收到了命令开始生成。。。\n\nPost summary: Cli和GUI的配合 活久见了 在CC里调用Youmind Skill CC发现YouMind 的 slides 流程是分步的： 第一步生成了 PPT 大纲 然后CC替我查看了大纲，觉得很棒 直接帮我回复了开始生成 Youmind的GUI里就收到了命令开始生成。。。\n\nCanonical URL: https://x.com/PMbackttfuture/status/2036644504200266204",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Skill",
+      "PPT",
+      "Post",
+      "Canonical URL",
+      "PMbackttfuture"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Cli和GUI的配合 活久见了 在CC里调用Youmind Skill CC发现YouMind 的 slides 流程是分步的： 第一步生成了 PPT 大纲 然后CC替我查看了大纲，觉得很棒 直接帮我回复了开始生成 Youmind的GUI里就收到了命令开始生成。。。",
+      "Skill",
+      "PPT",
+      "Post",
+      "Canonical URL",
+      "PMbackttfuture"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

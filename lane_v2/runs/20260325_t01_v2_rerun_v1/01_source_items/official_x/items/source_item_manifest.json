@@ -1,0 +1,136 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T07:23:48Z",
+  "guest_rss_catalog_ref": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/00_ingest/official_x/guest_rss_catalog.json",
+  "out_root": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items",
+  "count": 14,
+  "schema_errors": 0,
+  "results": [
+    {
+      "source_id": "x-openai-4aa0a9ed510f",
+      "canonical_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openai-4aa0a9ed510f/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openai-4aa0a9ed510f/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-openaidevs-da2ab731c0c5",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-da2ab731c0c5/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-da2ab731c0c5/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-openaidevs-ad431516309f",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2036505705155534907",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-ad431516309f/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-ad431516309f/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-anthropicai-4d80be7b1f63",
+      "canonical_url": "https://x.com/AnthropicAI/status/2036499691571953848",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-4d80be7b1f63/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-4d80be7b1f63/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-anthropicai-afec09f42eea",
+      "canonical_url": "https://x.com/AnthropicAI/status/2036481033621623056",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-afec09f42eea/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-afec09f42eea/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-anthropicai-ae4cd058b090",
+      "canonical_url": "https://x.com/AnthropicAI/status/2036179042081317370",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-ae4cd058b090/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-anthropicai-ae4cd058b090/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-googledeepmind-ebac5e5a99f8",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2036483295983100314",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-googledeepmind-ebac5e5a99f8/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-googledeepmind-ebac5e5a99f8/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-googledeepmind-216377cb6152",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-googledeepmind-216377cb6152/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-googledeepmind-216377cb6152/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-cohere-2a3efe1d25b4",
+      "canonical_url": "https://x.com/cohere/status/2036444133397577818",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-cohere-2a3efe1d25b4/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-cohere-2a3efe1d25b4/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-cohere-7f4e2431ab75",
+      "canonical_url": "https://x.com/cohere/status/2036173176934183265",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-cohere-7f4e2431ab75/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-cohere-7f4e2431ab75/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-huggingface-5cd3b08a9b48",
+      "canonical_url": "https://x.com/huggingface/status/2036562768476742142",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-huggingface-5cd3b08a9b48/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-huggingface-5cd3b08a9b48/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-elevenlabs-91de2cfdcba2",
+      "canonical_url": "https://x.com/ElevenLabs/status/2036472147904774289",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-elevenlabs-91de2cfdcba2/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-elevenlabs-91de2cfdcba2/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-runwayml-ed92531f2aae",
+      "canonical_url": "https://x.com/runwayml/status/2036445630134886846",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-ed92531f2aae/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-ed92531f2aae/source_item.md",
+      "linked_context_count": 0
+    },
+    {
+      "source_id": "x-runwayml-713251b5836e",
+      "canonical_url": "https://x.com/runwayml/status/2036081560873570742",
+      "schema_ok": true,
+      "schema_error": "",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-713251b5836e/source_item.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-713251b5836e/source_item.md",
+      "linked_context_count": 0
+    }
+  ]
+}

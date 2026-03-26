@@ -1,0 +1,327 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T07:58:54Z",
+  "count": 32,
+  "bundles": [
+    {
+      "topic_id": "topic-x-lxfater-b0716c6556d9",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "C",
+      "primary_count": 2,
+      "supporting_count": 2,
+      "fact_anchor_count": 7,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-lxfater-b0716c6556d9/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-op7418-b9e09e039182",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 7,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-op7418-b9e09e039182/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-cohere-2a3efe1d25b4",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 4,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-cohere-2a3efe1d25b4/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-fkysly-24f87f5ad00f",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 2,
+      "supporting_count": 2,
+      "fact_anchor_count": 5,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-fkysly-24f87f5ad00f/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-elevenlabs-91de2cfdcba2",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 8,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-elevenlabs-91de2cfdcba2/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-hitw93-073a7edd337d",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 2,
+      "fact_anchor_count": 8,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-hitw93-073a7edd337d/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-openai-4aa0a9ed510f",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 4,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-openai-4aa0a9ed510f/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-googledeepmind-216377cb6152",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 7,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-googledeepmind-216377cb6152/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-anthropicai-4d80be7b1f63",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 11,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-anthropicai-4d80be7b1f63/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-runwayml-713251b5836e",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 8,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-runwayml-713251b5836e/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-runwayml-ed92531f2aae",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 7,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-runwayml-ed92531f2aae/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-gorden_sun-0ea4a6e86556",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 12,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-gorden_sun-0ea4a6e86556/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-openaidevs-da2ab731c0c5",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 7,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-openaidevs-da2ab731c0c5/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-anthropicai-ae4cd058b090",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 3,
+      "fact_anchor_count": 9,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-anthropicai-ae4cd058b090/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-googledeepmind-ebac5e5a99f8",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 2,
+      "fact_anchor_count": 8,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-googledeepmind-ebac5e5a99f8/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-huggingface-5cd3b08a9b48",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 1,
+      "fact_anchor_count": 4,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-huggingface-5cd3b08a9b48/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-ivanfioravanti-c0b404801645",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 1,
+      "fact_anchor_count": 7,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-ivanfioravanti-c0b404801645/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-85cb65cf579e",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 1,
+      "fact_anchor_count": 5,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-berryxia-85cb65cf579e/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-0e03768e6ed4",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 1,
+      "supporting_count": 1,
+      "fact_anchor_count": 6,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-chuhaiqu-0e03768e6ed4/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-fc4d55fcde88",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 1,
+      "fact_anchor_count": 12,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-berryxia-fc4d55fcde88/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-astronaut_1216-7ecccf4ff1a8",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 0,
+      "fact_anchor_count": 3,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-astronaut_1216-7ecccf4ff1a8/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-a1a20dcc5f6f",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 1,
+      "fact_anchor_count": 6,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-berryxia-a1a20dcc5f6f/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-openaidevs-ad431516309f",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 2,
+      "supporting_count": 1,
+      "fact_anchor_count": 8,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-openaidevs-ad431516309f/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-be5152c5042a",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 1,
+      "fact_anchor_count": 11,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-chuhaiqu-be5152c5042a/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-0b72570c46a8",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 1,
+      "fact_anchor_count": 8,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-chuhaiqu-0b72570c46a8/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-astronaut_1216-d74627a57dba",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 0,
+      "fact_anchor_count": 7,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-astronaut_1216-d74627a57dba/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-c07411c79b38",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 2,
+      "supporting_count": 0,
+      "fact_anchor_count": 9,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-berryxia-c07411c79b38/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-cohere-7f4e2431ab75",
+      "ready_for_writer": true,
+      "validity_gate": true,
+      "quality_tier": "B",
+      "primary_count": 2,
+      "supporting_count": 1,
+      "fact_anchor_count": 8,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-cohere-7f4e2431ab75/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-danshipper-f44fc13fe3f3",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 0,
+      "fact_anchor_count": 3,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-danshipper-f44fc13fe3f3/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-yoheinakajima-edf4c6f632ca",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 0,
+      "fact_anchor_count": 3,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-yoheinakajima-edf4c6f632ca/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-lxfater-fcdbe01cbc1b",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 0,
+      "fact_anchor_count": 2,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-lxfater-fcdbe01cbc1b/source_bundle.json"
+    },
+    {
+      "topic_id": "topic-x-lxfater-f4506a45e139",
+      "ready_for_writer": false,
+      "validity_gate": false,
+      "quality_tier": "REJECT",
+      "primary_count": 1,
+      "supporting_count": 0,
+      "fact_anchor_count": 3,
+      "source_bundle_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_wechat_single/02_t01_topic_engine/04_source_bundles/topic-x-lxfater-f4506a45e139/source_bundle.json"
+    }
+  ]
+}

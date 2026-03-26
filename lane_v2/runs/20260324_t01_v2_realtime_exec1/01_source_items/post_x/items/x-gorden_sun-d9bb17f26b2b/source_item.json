@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-d9bb17f26b2b",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2036029870258761928",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "Claude Code历史全版本的系统提示词 能看出从v1.0.0到v2.1.81的提示词变化：安全防护的提示词缩到一句话、禁止Emoji、简化Bash说明、强化ripgrep说明。 网址：https://cchistory.mariozechner.at/",
+  "language": "unknown",
+  "published_at": "2026-03-23T10:38:43Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2036029870258761928",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2036029870258761928#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Claude Code历史全版本的系统提示词 能看出从v1.0.0到v2.1.81的提示词变化：安全防护的提示词缩到一句话、禁止Emoji、简化Bash说明、强化ripgrep说明。 网址： cchistory.mariozechner.at/",
+    "full_text": "Post title: Claude Code历史全版本的系统提示词 能看出从v1.0.0到v2.1.81的提示词变化：安全防护的提示词缩到一句话、禁止Emoji、简化Bash说明、强化ripgrep说明。 网址：https://cchistory.mariozechner.at/\n\nPost summary: Claude Code历史全版本的系统提示词 能看出从v1.0.0到v2.1.81的提示词变化：安全防护的提示词缩到一句话、禁止Emoji、简化Bash说明、强化ripgrep说明。 网址： cchistory.mariozechner.at/\n\nCanonical URL: https://x.com/Gorden_Sun/status/2036029870258761928",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Claude",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Claude Code历史全版本的系统提示词 能看出从v1.0.0到v2.1.81的提示词变化：安全防护的提示词缩到一句话、禁止Emoji、简化Bash说明、强化ripgrep说明。 网址：https://cchistory.mariozechner.at/",
+      "Claude Code历史全版本的系统提示词 能看出从v1.0.0到v2.1.81的提示词变化：安全防护的提示词缩到一句话、禁止Emoji、简化Bash说明、强化ripgrep说明。 网址： cchistory.mariozechner.at/",
+      "Claude",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

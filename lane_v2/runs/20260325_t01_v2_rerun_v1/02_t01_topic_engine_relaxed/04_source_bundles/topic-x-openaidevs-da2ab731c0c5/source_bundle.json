@@ -1,0 +1,130 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openaidevs-da2ab731c0c5",
+  "lane_id": "T06_capability_delivery",
+  "framework_id": "06_checklist_template",
+  "submode_id": "workflow_architecture",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-openaidevs-da2ab731c0c5",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "title": "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team.",
+      "published_at": "2026-03-24T19:14:38Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openaidevs-da2ab731c0c5/source_item.json"
+    },
+    {
+      "signal_id": "x-op7418-b9e09e039182",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+      "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+      "published_at": "2026-03-24T01:54:42Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-op7418-b9e09e039182/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-runwayml-ed92531f2aae",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2036445630134886846",
+      "title": "Submissions for the 2026 AI Festival are now open until April 20th. This year's festival will celebrate works utilizing AI across Film, Design, New Media, Fashion, Advertising and Gaming. Learn more and submit your project at the link below.",
+      "published_at": "2026-03-24T14:10:48Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-ed92531f2aae/source_item.json"
+    },
+    {
+      "signal_id": "x-fkysly-50aafd7ebf9c",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/fkysly/status/2036309920853926083",
+      "title": "有个问题非常好奇，古法编程者目前占比是多数还是少数。开个贴统计一下： 目前你所有编程（或相关行为）里 AI Coding 占比是多少？ 像我自己是选1，我日常工作不仅代码本身，电脑操作都100% 交给 Claude Code/Codex 完成。尝试过，但是已经回不去过去的古法手搓了。",
+      "published_at": "2026-03-24T05:11:32Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-fkysly-50aafd7ebf9c/source_item.json"
+    },
+    {
+      "signal_id": "x-fkysly-680e4d96dd98",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/fkysly/status/2036283690532360427",
+      "title": "Claude Code 2.1.81 又把缓存搞错了，难道不为此重置一下大家的用量吗？ 学习一下 Codex 好吗？",
+      "published_at": "2026-03-24T03:27:18Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-fkysly-680e4d96dd98/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team.",
+      "source_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "signal_id": "x-openaidevs-da2ab731c0c5"
+    },
+    {
+      "claim": "With Codex, Ryan built @NotionHQ ’s AI Voice Input feature entirely by himself. @ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team. Video",
+      "source_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "signal_id": "x-openaidevs-da2ab731c0c5"
+    },
+    {
+      "claim": "Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself",
+      "source_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "signal_id": "x-openaidevs-da2ab731c0c5"
+    },
+    {
+      "claim": "@ryannystrom used Codex to understand the context, point Codex to an existing mobile feature, and ship it to web and desktop while still managing a team",
+      "source_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "signal_id": "x-openaidevs-da2ab731c0c5"
+    },
+    {
+      "claim": "With Codex, Ryan built @NotionHQ ’s AI Voice Input feature entirely by himself",
+      "source_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "signal_id": "x-openaidevs-da2ab731c0c5"
+    },
+    {
+      "claim": "Video Post title: Pinned: With Codex, Ryan built @NotionHQ’s AI Voice Input feature entirely by himself",
+      "source_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "signal_id": "x-openaidevs-da2ab731c0c5"
+    },
+    {
+      "claim": "Video Canonical URL: https://x.com/OpenAIDevs/status/2036522094218060241",
+      "source_url": "https://x.com/OpenAIDevs/status/2036522094218060241",
+      "signal_id": "x-openaidevs-da2ab731c0c5"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 6,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": true,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": true,
+  "quality_tier": "B",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": true
+}

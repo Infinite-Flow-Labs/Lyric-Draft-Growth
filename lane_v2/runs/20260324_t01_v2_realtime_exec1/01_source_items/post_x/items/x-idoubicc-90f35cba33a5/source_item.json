@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-idoubicc-90f35cba33a5",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/idoubicc/status/2035886151794614416",
+  "author": {
+    "handle": "@idoubicc",
+    "display_name": "idoubicc",
+    "account_url": "https://x.com/idoubicc"
+  },
+  "title": "开源 WeClaw，让微信 ClawBot 接入任意 Agent 的桥接工具。 一行命令启动，自动发现并连接你电脑上的 OpenClaw / Claude Code / Codex / Gemini / Cursor / Kimi / OpenCode 等终端 Agent，其他 Agent 可以自行配置接入。 支持 ACP / CLI / HTTP 三种接入方式，可对接终端 Agent，桌面 Agent，Web Agent。 在微信 ClawBot 可以使用 /cc /gm /oc 等子命令指定接收消息的 Agent，支持配置和切换默认 Agent。 如何使用？ 1. 复制 WeClaw 项目的一键安装命令，在你的电脑上运行 2. 微信扫码登录，连接微信 ClawBot 与 WeClaw 3. 给微信 ClawBot 发消息，默认发给 Claude Code 4. 使用子命令切换其他 Agent 对话 MIT 开源，欢迎体验，感谢支持。👇 https://github.com/fastclaw-ai/weclaw",
+  "language": "unknown",
+  "published_at": "2026-03-23T01:07:38Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/idoubicc/status/2035886151794614416",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/idoubicc/status/2035886151794614416#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "开源 WeClaw，让微信 ClawBot 接入任意 Agent 的桥接工具。 一行命令启动，自动发现并连接你电脑上的 OpenClaw / Claude Code / Codex / Gemini / Cursor / Kimi / OpenCode 等终端 Agent，其他 Agent 可以自行配置接入。 支持 ACP / CLI / HTTP 三种接入方式，可对接终端 Agent，桌面 Agent，Web Agent。 在微信 ClawBot 可以使用 /cc /gm /oc 等子命令指定接收消息的 Agent，支持配置和切换默认 Agent。 如何使用？ 1. 复制 WeClaw 项目的一键安装命令，在你的电脑上运行 2. 微信扫码登录，连接微信 ClawBot 与 WeClaw 3. 给微信 ClawBot 发消息，默认发给 Claude Code 4. 使用子命令切换其他 Agent 对话 MIT 开源，欢迎体验，感谢支持。👇 github.com/fastclaw-ai/wecla…",
+    "full_text": "Post title: 开源 WeClaw，让微信 ClawBot 接入任意 Agent 的桥接工具。 一行命令启动，自动发现并连接你电脑上的 OpenClaw / Claude Code / Codex / Gemini / Cursor / Kimi / OpenCode 等终端 Agent，其他 Agent 可以自行配置接入。 支持 ACP / CLI / HTTP 三种接入方式，可对接终端 Agent，桌面 Agent，Web Agent。 在微信 ClawBot 可以使用 /cc /gm /oc 等子命令指定接收消息的 Agent，支持配置和切换默认 Agent。 如何使用？ 1. 复制 WeClaw 项目的一键安装命令，在你的电脑上运行 2. 微信扫码登录，连接微信 ClawBot 与 WeClaw 3. 给微信 ClawBot 发消息，默认发给 Claude Code 4. 使用子命令切换其他 Agent 对话 MIT 开源，欢迎体验，感谢支持。👇 https://github.com/fastclaw-ai/weclaw\n\nPost summary: 开源 WeClaw，让微信 ClawBot 接入任意 Agent 的桥接工具。 一行命令启动，自动发现并连接你电脑上的 OpenClaw / Claude Code / Codex / Gemini / Cursor / Kimi / OpenCode 等终端 Agent，其他 Agent 可以自行配置接入。 支持 ACP / CLI / HTTP 三种接入方式，可对接终端 Agent，桌面 Agent，Web Agent。 在微信 ClawBot 可以使用 /cc /gm /oc 等子命令指定接收消息的 Agent，支持配置和切换默认 Agent。 如何使用？ 1. 复制 WeClaw 项目的一键安装命令，在你的电脑上运行 2. 微信扫码登录，连接微信 ClawBot 与 WeClaw 3. 给微信 ClawBot 发消息，默认发给 Claude Code 4. 使用子命令切换其他 Agent 对话 MIT 开源，欢迎体验，感谢支持。👇 github.com/fastclaw-ai/wecla…\n\nCanonical URL: https://x.com/idoubicc/status/2035886151794614416",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "WeClaw",
+      "ClawBot",
+      "Agent",
+      "OpenClaw",
+      "Claude Code",
+      "Codex",
+      "Gemini",
+      "Cursor",
+      "Kimi",
+      "OpenCode",
+      "ACP",
+      "CLI",
+      "HTTP",
+      "Web Agent",
+      "MIT",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "开源 WeClaw，让微信 ClawBot 接入任意 Agent 的桥接工具。 一行命令启动，自动发现并连接你电脑上的 OpenClaw / Claude Code / Codex / Gemini / Cursor / Kimi / OpenCode 等终端 Agent，其他 Agent 可以自行配置接入。 支持 ACP / CLI / HTTP 三种接入方式，可对接终端 Agent，桌面 Agent，Web Agent。 在微信 ClawBot 可以使用 /cc /gm /oc 等子命令指定接收消息的 Agent，支持配置和切换默认 Agent。 如何使用？ 1. 复制 WeClaw 项目的一键安装命令，在你的电脑上运行 2. 微信扫码登录，连接微信 ClawBot 与 WeClaw 3. 给微信 ClawBot 发消息，默认发给 Claude Code 4. 使用子命令切换其他 Agent 对话 MIT 开源，欢迎体验，感谢支持。👇 https://github.com/fastclaw-ai/weclaw",
+      "开源 WeClaw，让微信 ClawBot 接入任意 Agent 的桥接工具。 一行命令启动，自动发现并连接你电脑上的 OpenClaw / Claude Code / Codex / Gemini / Cursor / Kimi / OpenCode 等终端 Agent，其他 Agent 可以自行配置接入。 支持 ACP / CLI / HTTP 三种接入方式，可对接终端 Agent，桌面 Agent，Web Agent。 在微信 ClawBot 可以使用 /cc /gm /oc 等子命令指定接收消息的 Agent，支持配置和切换默认 Agent。 如何使用？ 1. 复制 WeClaw 项目的一键安装命令，在你的电脑上运行 2. 微信扫码登录，连接微信 ClawBot 与 WeClaw 3. 给微信 ClawBot 发消息，默认发给 Claude Code 4. 使用子命令切换其他 Agent 对话 MIT 开源，欢迎体验，感谢支持。👇 github.com/fastclaw-ai/wecla…",
+      "WeClaw",
+      "ClawBot",
+      "Agent",
+      "OpenClaw",
+      "Claude Code",
+      "Codex",
+      "Gemini",
+      "Cursor",
+      "Kimi",
+      "OpenCode",
+      "ACP",
+      "CLI",
+      "HTTP",
+      "Web Agent",
+      "MIT",
+      "Post"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

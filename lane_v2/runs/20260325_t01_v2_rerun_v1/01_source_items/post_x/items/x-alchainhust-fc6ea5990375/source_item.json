@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alchainhust-fc6ea5990375",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlchainHust/status/2035913062470103507",
+  "author": {
+    "handle": "@AlchainHust",
+    "display_name": "AlchainHust",
+    "account_url": "https://x.com/AlchainHust"
+  },
+  "title": "B站做了个「AI新热榜」，目的是帮助新人通过B站快速学习了解AI新概念。 他们整了六期后我才发现，几乎每一期都有我的内容入选。也就是说，如果你或者你的朋友要上B站深度学习AI的话，关注我就够了～ 榜单链接见评论区",
+  "language": "unknown",
+  "published_at": "2026-03-23T02:54:34Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlchainHust/status/2035913062470103507",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlchainHust/status/2035913062470103507#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "B站做了个「AI新热榜」，目的是帮助新人通过B站快速学习了解AI新概念。 他们整了六期后我才发现，几乎每一期都有我的内容入选。也就是说，如果你或者你的朋友要上B站深度学习AI的话，关注我就够了～ 榜单链接见评论区",
+    "full_text": "Post title: B站做了个「AI新热榜」，目的是帮助新人通过B站快速学习了解AI新概念。 他们整了六期后我才发现，几乎每一期都有我的内容入选。也就是说，如果你或者你的朋友要上B站深度学习AI的话，关注我就够了～ 榜单链接见评论区\n\nPost summary: B站做了个「AI新热榜」，目的是帮助新人通过B站快速学习了解AI新概念。 他们整了六期后我才发现，几乎每一期都有我的内容入选。也就是说，如果你或者你的朋友要上B站深度学习AI的话，关注我就够了～ 榜单链接见评论区\n\nCanonical URL: https://x.com/AlchainHust/status/2035913062470103507",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL",
+      "AlchainHust"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "B站做了个「AI新热榜」，目的是帮助新人通过B站快速学习了解AI新概念。 他们整了六期后我才发现，几乎每一期都有我的内容入选。也就是说，如果你或者你的朋友要上B站深度学习AI的话，关注我就够了～ 榜单链接见评论区",
+      "Post",
+      "Canonical URL",
+      "AlchainHust"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

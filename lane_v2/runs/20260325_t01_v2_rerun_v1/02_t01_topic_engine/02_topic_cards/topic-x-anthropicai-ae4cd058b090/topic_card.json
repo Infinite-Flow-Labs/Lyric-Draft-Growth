@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-anthropicai-ae4cd058b090",
+  "event_seed_signal_id": "x-anthropicai-ae4cd058b090",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: https://www.anthropic.com/research/introducing-anthropic-science",
+  "why_now": "Clustered 3 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 75.62,
+  "heat_breakdown": {
+    "volume_score": 98.2,
+    "velocity_score": 46.79,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "anthropic::开源",
+  "cluster_signal_ids": [
+    "x-chuhaiqu-f8b196e4d27e",
+    "x-ai_for_success-5a511c45a67c",
+    "x-anthropicai-ae4cd058b090"
+  ],
+  "source_families": [
+    "official_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/AnthropicAI/status/2036179042081317370",
+    "published_at": "2026-03-23T20:31:28Z",
+    "release_signals_count": 2,
+    "fact_candidates_count": 29
+  }
+}

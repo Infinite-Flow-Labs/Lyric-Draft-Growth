@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-jxnlco-8c8b59adff95",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/jxnlco/status/2036077372957507655",
+  "author": {
+    "handle": "@jxnlco",
+    "display_name": "jxnlco",
+    "account_url": "https://x.com/jxnlco"
+  },
+  "title": "20 w priority boarding and 1hr without. I recommend you spend the extra bucks if you’re flying.",
+  "language": "unknown",
+  "published_at": "2026-03-23T13:47:28Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/jxnlco/status/2036077372957507655",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/jxnlco/status/2036077372957507655#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "20 w priority boarding and 1hr without. I recommend you spend the extra bucks if you’re flying. jason liu (@jxnlco) JFK rn — https://nitter.net/jxnlco/status/2036069395915510222#m",
+    "full_text": "Post title: 20 w priority boarding and 1hr without. I recommend you spend the extra bucks if you’re flying.\n\nPost summary: 20 w priority boarding and 1hr without. I recommend you spend the extra bucks if you’re flying. jason liu (@jxnlco) JFK rn — https://nitter.net/jxnlco/status/2036069395915510222#m\n\nCanonical URL: https://x.com/jxnlco/status/2036077372957507655",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "JFK",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "20 w priority boarding and 1hr without. I recommend you spend the extra bucks if you’re flying.",
+      "20 w priority boarding and 1hr without. I recommend you spend the extra bucks if you’re flying. jason liu (@jxnlco) JFK rn — https://nitter.net/jxnlco/status/2036069395915510222#m",
+      "JFK",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

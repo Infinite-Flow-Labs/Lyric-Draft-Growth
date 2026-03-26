@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alchainhust-10f5db3b4090",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlchainHust/status/2034869363795533895",
+  "author": {
+    "handle": "@AlchainHust",
+    "display_name": "AlchainHust",
+    "account_url": "https://x.com/AlchainHust"
+  },
+  "title": "看到一个有趣的趋势...很多产品都开始Agent优先了，在推产品的时候先把Skill优化好，网页版本的反而好像没那么重视。 尤其是视频生成领域的，Pexo和LibTV这周我都体验了下，无论用Claude Code还是OpenClaw调用都挺舒适的，如果不是为了截图，我都不想打开网站... 视频领域，尤其是要做1分钟以上的长视频的话，其实执行的过程还是免不了要去生成脚本、去提前生成场景和人物做投喂以维持角色一致性。这个过程的复杂度对小白来说真挺高的。 但是对agent来说，只要说清楚流程，调用不同的模型或扮演不同的角色完成这个过程的工作都太容易不过了。",
+  "language": "unknown",
+  "published_at": "2026-03-20T05:47:17Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlchainHust/status/2034869363795533895",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlchainHust/status/2034869363795533895#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "看到一个有趣的趋势...很多产品都开始Agent优先了，在推产品的时候先把Skill优化好，网页版本的反而好像没那么重视。 尤其是视频生成领域的，Pexo和LibTV这周我都体验了下，无论用Claude Code还是OpenClaw调用都挺舒适的，如果不是为了截图，我都不想打开网站... 视频领域，尤其是要做1分钟以上的长视频的话，其实执行的过程还是免不了要去生成脚本、去提前生成场景和人物做投喂以维持角色一致性。这个过程的复杂度对小白来说真挺高的。 但是对agent来说，只要说清楚流程，调用不同的模型或扮演不同的角色完成这个过程的工作都太容易不过了。",
+    "full_text": "Post title: 看到一个有趣的趋势...很多产品都开始Agent优先了，在推产品的时候先把Skill优化好，网页版本的反而好像没那么重视。 尤其是视频生成领域的，Pexo和LibTV这周我都体验了下，无论用Claude Code还是OpenClaw调用都挺舒适的，如果不是为了截图，我都不想打开网站... 视频领域，尤其是要做1分钟以上的长视频的话，其实执行的过程还是免不了要去生成脚本、去提前生成场景和人物做投喂以维持角色一致性。这个过程的复杂度对小白来说真挺高的。 但是对agent来说，只要说清楚流程，调用不同的模型或扮演不同的角色完成这个过程的工作都太容易不过了。\n\nPost summary: 看到一个有趣的趋势...很多产品都开始Agent优先了，在推产品的时候先把Skill优化好，网页版本的反而好像没那么重视。 尤其是视频生成领域的，Pexo和LibTV这周我都体验了下，无论用Claude Code还是OpenClaw调用都挺舒适的，如果不是为了截图，我都不想打开网站... 视频领域，尤其是要做1分钟以上的长视频的话，其实执行的过程还是免不了要去生成脚本、去提前生成场景和人物做投喂以维持角色一致性。这个过程的复杂度对小白来说真挺高的。 但是对agent来说，只要说清楚流程，调用不同的模型或扮演不同的角色完成这个过程的工作都太容易不过了。\n\nCanonical URL: https://x.com/AlchainHust/status/2034869363795533895",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL",
+      "AlchainHust"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "看到一个有趣的趋势...很多产品都开始Agent优先了，在推产品的时候先把Skill优化好，网页版本的反而好像没那么重视。 尤其是视频生成领域的，Pexo和LibTV这周我都体验了下，无论用Claude Code还是OpenClaw调用都挺舒适的，如果不是为了截图，我都不想打开网站... 视频领域，尤其是要做1分钟以上的长视频的话，其实执行的过程还是免不了要去生成脚本、去提前生成场景和人物做投喂以维持角色一致性。这个过程的复杂度对小白来说真挺高的。 但是对agent来说，只要说清楚流程，调用不同的模型或扮演不同的角色完成这个过程的工作都太容易不过了。",
+      "Post",
+      "Canonical URL",
+      "AlchainHust"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

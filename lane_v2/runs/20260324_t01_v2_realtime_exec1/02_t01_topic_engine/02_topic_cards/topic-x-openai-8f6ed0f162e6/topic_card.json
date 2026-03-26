@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openai-8f6ed0f162e6",
+  "event_seed_signal_id": "x-openai-8f6ed0f162e6",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "GPT-5.4 mini is available today in ChatGPT, Codex, and the API. Optimized for coding, computer use, multimodal understanding, and subagents. And it’s 2x faster than GPT-5 mini. https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 37.91,
+  "heat_breakdown": {
+    "volume_score": 34.6,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "gpt::introducing",
+  "cluster_signal_ids": [
+    "x-openai-8f6ed0f162e6"
+  ],
+  "source_families": [
+    "official_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/OpenAI/status/2033953592424731072",
+    "published_at": "2026-03-17T17:08:20Z",
+    "release_signals_count": 2,
+    "fact_candidates_count": 12
+  }
+}

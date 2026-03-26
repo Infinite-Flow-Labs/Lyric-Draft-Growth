@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alphasignalai-04a29fabc89e",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlphaSignalAI/status/2035183003878445100",
+  "author": {
+    "handle": "@AlphaSignalAI",
+    "display_name": "AlphaSignalAI",
+    "account_url": "https://x.com/AlphaSignalAI"
+  },
+  "title": "🚨 Cursor just launched Composer 2. Beats Claude Opus 4.6 at coding. Costs 86% less than v1.5. But plot twist: devs found the model ID in the API — it's Kimi K2.5 with RL on top. Open-source wrapper or real lab? You decide. https://x.com/cursor_ai/status/2034668943676244133",
+  "language": "unknown",
+  "published_at": "2026-03-21T02:33:34Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlphaSignalAI/status/2035183003878445100",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlphaSignalAI/status/2035183003878445100#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "🚨 Cursor just launched Composer 2. Beats Claude Opus 4.6 at coding. Costs 86% less than v1.5. But plot twist: devs found the model ID in the API — it's Kimi K2.5 with RL on top. Open-source wrapper or real lab? You decide. nitter.net/cursor_ai/status/20346… Cursor (@cursor_ai) Composer 2 is now available in Cursor. — https://nitter.net/cursor_ai/status/2034668943676244133#m",
+    "full_text": "Post title: 🚨 Cursor just launched Composer 2. Beats Claude Opus 4.6 at coding. Costs 86% less than v1.5. But plot twist: devs found the model ID in the API — it's Kimi K2.5 with RL on top. Open-source wrapper or real lab? You decide. https://x.com/cursor_ai/status/2034668943676244133\n\nPost summary: 🚨 Cursor just launched Composer 2. Beats Claude Opus 4.6 at coding. Costs 86% less than v1.5. But plot twist: devs found the model ID in the API — it's Kimi K2.5 with RL on top. Open-source wrapper or real lab? You decide. nitter.net/cursor_ai/status/20346… Cursor (@cursor_ai) Composer 2 is now available in Cursor. — https://nitter.net/cursor_ai/status/2034668943676244133#m\n\nCanonical URL: https://x.com/AlphaSignalAI/status/2035183003878445100",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch",
+      "launched",
+      "now available"
+    ],
+    "metric_signals": [
+      "86%"
+    ],
+    "named_entities": [
+      "Cursor",
+      "Composer",
+      "Beats Claude Opus",
+      "Costs",
+      "But",
+      "ID",
+      "API",
+      "Kimi K2.5",
+      "RL",
+      "Open",
+      "You",
+      "Post",
+      "Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "🚨 Cursor just launched Composer 2. Beats Claude Opus 4.6 at coding. Costs 86% less than v1.5. But plot twist: devs found the model ID in the API — it's Kimi K2.5 with RL on top. Open-source wrapper or real lab? You decide. https://x.com/cursor_ai/status/2034668943676244133",
+      "🚨 Cursor just launched Composer 2. Beats Claude Opus 4.6 at coding. Costs 86% less than v1.5. But plot twist: devs found the model ID in the API — it's Kimi K2.5 with RL on top. Open-source wrapper or real lab? You decide. nitter.net/cursor_ai/status/20346… Cursor (@cursor_ai) Composer 2 is now available in Cursor. — https://nitter.net/cursor_ai/status/2034668943676244133#m",
+      "launch",
+      "launched",
+      "now available",
+      "86%",
+      "Cursor",
+      "Composer",
+      "Beats Claude Opus",
+      "Costs",
+      "But",
+      "ID",
+      "API",
+      "Kimi K2.5",
+      "RL",
+      "Open",
+      "You",
+      "Post",
+      "Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

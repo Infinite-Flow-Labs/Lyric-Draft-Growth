@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-idoubicc-50078d5a2a47",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/idoubicc/status/2035647005566161275",
+  "author": {
+    "handle": "@idoubicc",
+    "display_name": "idoubicc",
+    "account_url": "https://x.com/idoubicc"
+  },
+  "title": "目前体验微信 ClawBot 最丝滑的方式。😄",
+  "language": "unknown",
+  "published_at": "2026-03-22T09:17:21Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/idoubicc/status/2035647005566161275",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/idoubicc/status/2035647005566161275#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "目前体验微信 ClawBot 最丝滑的方式。😄 WorkAny (@workanyai) WorkAny Bot is the first cloud-hosted OpenClaw with WeChat (ClawBot) support. Try it! Set it up in minutes: 1/Go to workany.bot → choose a plan 2/Deploy your OpenClaw 3/Add WeChat channel🔥 4/Scan QR to log in 5/Chat with your cloud Agent on WeChat🔥🔥🔥 Try it! — https://nitter.net/workanyai/status/2035646521711177968#m",
+    "full_text": "Post title: 目前体验微信 ClawBot 最丝滑的方式。😄\n\nPost summary: 目前体验微信 ClawBot 最丝滑的方式。😄 WorkAny (@workanyai) WorkAny Bot is the first cloud-hosted OpenClaw with WeChat (ClawBot) support. Try it! Set it up in minutes: 1/Go to workany.bot → choose a plan 2/Deploy your OpenClaw 3/Add WeChat channel🔥 4/Scan QR to log in 5/Chat with your cloud Agent on WeChat🔥🔥🔥 Try it! — https://nitter.net/workanyai/status/2035646521711177968#m\n\nCanonical URL: https://x.com/idoubicc/status/2035647005566161275",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "ClawBot",
+      "WorkAny",
+      "WorkAny Bot",
+      "OpenClaw",
+      "WeChat",
+      "Try",
+      "Set",
+      "Go",
+      "Deploy",
+      "Add WeChat",
+      "Scan QR",
+      "Chat",
+      "Agent",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "目前体验微信 ClawBot 最丝滑的方式。😄",
+      "目前体验微信 ClawBot 最丝滑的方式。😄 WorkAny (@workanyai) WorkAny Bot is the first cloud-hosted OpenClaw with WeChat (ClawBot) support. Try it! Set it up in minutes: 1/Go to workany.bot → choose a plan 2/Deploy your OpenClaw 3/Add WeChat channel🔥 4/Scan QR to log in 5/Chat with your cloud Agent on WeChat🔥🔥🔥 Try it! — https://nitter.net/workanyai/status/2035646521711177968#m",
+      "ClawBot",
+      "WorkAny",
+      "WorkAny Bot",
+      "OpenClaw",
+      "WeChat",
+      "Try",
+      "Set",
+      "Go",
+      "Deploy",
+      "Add WeChat",
+      "Scan QR",
+      "Chat",
+      "Agent",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openaidevs-b34f34f931e7",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "generation_ratio": 0.8,
+  "rewrite_ratio": 0.2,
+  "topic_card": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-openaidevs-b34f34f931e7",
+    "event_seed_signal_id": "x-openaidevs-b34f34f931e7",
+    "event_seed_source_family": "official_x",
+    "topic_statement": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 https://x.com/athasdev/status/2033961305795645506?s=20",
+    "why_now": "Clustered 3 recent signals across 2 source families with verifiable anchors.",
+    "topic_priority": 66.42,
+    "heat_breakdown": {
+      "volume_score": 98.2,
+      "velocity_score": 10.0,
+      "cross_source_resonance_score": 75.0,
+      "novelty_score": 72.0
+    },
+    "cluster_signature": "mole::open source",
+    "cluster_signal_ids": [
+      "x-hitw93-4ecef83e0730",
+      "x-reach_vb-8c426f7b7941",
+      "x-openaidevs-b34f34f931e7"
+    ],
+    "source_families": [
+      "official_x",
+      "post_x"
+    ],
+    "candidate_lanes": [
+      "T01_release_decode"
+    ],
+    "eligible_for_write": true,
+    "signal_snapshot": {
+      "canonical_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+      "published_at": "2026-03-18T17:05:32Z",
+      "release_signals_count": 3,
+      "fact_candidates_count": 29
+    }
+  },
+  "lane_assignment": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-openaidevs-b34f34f931e7",
+    "selected_lane_id": "T01_release_decode",
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "composition_mode": "mixed",
+    "generation_ratio": 0.8,
+    "rewrite_ratio": 0.2,
+    "lane_fit_score": 77.0,
+    "topic_priority": 66.42,
+    "lane_final_score": 73.83,
+    "rationale": "release_signals_present | official_source_present | strong_fact_density",
+    "requires_human_review": false,
+    "eligible_for_write": true
+  },
+  "source_bundle": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-openaidevs-b34f34f931e7",
+    "lane_id": "T01_release_decode",
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "composition_mode": "mixed",
+    "primary_sources": [
+      {
+        "signal_id": "x-openaidevs-b34f34f931e7",
+        "source_family": "official_x",
+        "canonical_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+        "title": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 https://x.com/athasdev/status/2033961305795645506?s=20",
+        "published_at": "2026-03-18T17:05:32Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-openaidevs-b34f34f931e7/source_item.json"
+      },
+      {
+        "signal_id": "x-anthropicai-7216d6565697",
+        "source_family": "official_x",
+        "canonical_url": "https://x.com/AnthropicAI/status/2033939283313402138",
+        "title": "The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on.",
+        "published_at": "2026-03-17T16:11:28Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-anthropicai-7216d6565697/source_item.json"
+      }
+    ],
+    "supporting_sources": [
+      {
+        "signal_id": "podcast-the_ai_daily_brief-4ba46b24c3a2",
+        "source_family": "podcast",
+        "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Actually-Wont-Take-Your-Job-e3gq5op",
+        "title": "Why AI Actually Won't Take Your Job",
+        "published_at": "2026-03-22T12:18:29Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items/podcast-the_ai_daily_brief-4ba46b24c3a2/source_item.json"
+      },
+      {
+        "signal_id": "x-hitw93-4ecef83e0730",
+        "source_family": "post_x",
+        "canonical_url": "https://x.com/HiTw93/status/2035300787937755353",
+        "title": "Mole just shipped v1.31.0 Makima with faster performance and more accurate system status reporting. Huge thanks to all contributors. Still fully open source and free, made possible by the community effort behind it. https://github.com/tw93/Mole/",
+        "published_at": "2026-03-21T10:21:36Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-hitw93-4ecef83e0730/source_item.json"
+      },
+      {
+        "signal_id": "x-reach_vb-8c426f7b7941",
+        "source_family": "post_x",
+        "canonical_url": "https://x.com/reach_vb/status/2035251992767975792",
+        "title": "Codex for Open Source Codex for Students Codex Ambassadors Codex Security What should we do next?",
+        "published_at": "2026-03-21T07:07:42Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-reach_vb-8c426f7b7941/source_item.json"
+      }
+    ],
+    "fact_anchors": [
+      {
+        "claim": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 https://x.com/athasdev/status/2033961305795645506?s=20",
+        "source_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+        "signal_id": "x-openaidevs-b34f34f931e7"
+      },
+      {
+        "claim": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 nitter.net/athasdev/status/203396… athas.dev (@athasdev) 6 months of free Codex. I will use this to make Athas better. Huge thanks to everyone who made this happen ❤️ — https://nitter.net/athasdev/status/2033961305795645506#m",
+        "source_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+        "signal_id": "x-openaidevs-b34f34f931e7"
+      }
+    ],
+    "forbidden_claims": [
+      "No unsupported percentage claims about performance or cost change.",
+      "No unsupported claim that this release fully replaces existing workflows.",
+      "No unsupported claim that all teams should adopt immediately."
+    ],
+    "coverage_checks": {
+      "has_release_action": true,
+      "has_delta_detail": true,
+      "has_user_impact": false,
+      "has_limit_or_risk": false
+    },
+    "coverage_core_ok": true,
+    "validity_gate": true,
+    "quality_tier": "B",
+    "requirement_checks": {
+      "primary_sources_min_ok": true,
+      "supporting_sources_min_ok": true,
+      "fact_anchors_min_ok": false,
+      "official_primary_required_ok": true
+    },
+    "ready_for_writer": true
+  },
+  "source_materials": [
+    {
+      "source_id": "x-openaidevs-b34f34f931e7",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+      "title": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 https://x.com/athasdev/status/2033961305795645506?s=20",
+      "published_at": "2026-03-18T17:05:32Z",
+      "excerpt": "Post title: We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 https://x.com/athasdev/status/2033961305795645506?s=20 Post summary: We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 nitter.net/athasdev/status/203396… athas.dev (@athasdev) 6 months of free Codex. I will use this to make Athas better. Huge thanks to everyone who made this happen ❤️ — https://nitter.net/athasdev/status/2033961305795645506#m Canonical URL: https://x.com/OpenAIDevs/status/2034315278964998407",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-openaidevs-b34f34f931e7/source_item.json"
+    },
+    {
+      "source_id": "x-anthropicai-7216d6565697",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/AnthropicAI/status/2033939283313402138",
+      "title": "The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on.",
+      "published_at": "2026-03-17T16:11:28Z",
+      "excerpt": "Post title: The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on. Post summary: The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on. The Linux Foundation (@linuxfoundation) The Linux Foundation Announces $12.5 Million in Grant Funding (via @AlphaOmegaOSS and @OpenSSF ) @AnthropicAI , @AmazonWebServices, @GitHub , @Google , @GoogleDeepMind , @Microsoft , @OpenAI to Invest in Sustainable Security Solutions for #OpenSource linuxfoundation.org/press/li… — https://nitter.net/linuxfoundation/status/2033938257688563758#m Canonical URL: https://x.com/AnthropicAI/status/2033939283313402138",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-anthropicai-7216d6565697/source_item.json"
+    },
+    {
+      "source_id": "podcast-the_ai_daily_brief-4ba46b24c3a2",
+      "source_family": "podcast",
+      "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Actually-Wont-Take-Your-Job-e3gq5op",
+      "title": "Why AI Actually Won't Take Your Job",
+      "published_at": "2026-03-22T12:18:29Z",
+      "excerpt": "## Why AI Actually Won't Take Your Job The AI Daily Brief: Artificial Intelligence News and Analysis Mar 22, 2026 00:00 32:51 #### The Coming AI Rules Battle AI is rising faster than any other issue in American political polling, and the White House just dropped a legislative framework that's already drawing fire from both sides — populist right critics calling AI \"profoundly anti-human\" and Democrats saying voluntary standards won't cut it. The real question is whether this four-page opening move can hold the center as midterms approach and public anxiety about jobs keeps climbing. In the headlines: OpenAI plans to double its workforce with a major enterprise push, FedEx is training all 400,000 employees on AI, and Meta's internal agents are now talking to each other.For all the links referenced in the show, sign up for the newsletter: ⁠⁠⁠https://aidailybrief.beehiiv.com/⁠⁠⁠Brought to you by:KPMG – Agentic AI is powering a potential $3 trillion productivity shift, and KPMG’s new paper, Agentic AI Untangled, gives leaders a clear framework to decide whether to build, buy, or borrow—download it at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.kpmg.us/Navigate⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Mercury - Modern banking for business and now personal accounts. Learn more at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mercury.com/personal-banking⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AIUC-1 - Get your agents certified to communicate trust to enterprise buyers - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.aiuc-1.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Blitzy - Want to accelerate enterprise software development velocity by 5x? ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://blitzy.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AssemblyAI - The best way to build Voice AI apps - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.assemblyai.com/brief⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Robots & Pencils - Cloud-native AI solutions that power results ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://robotsandpencils.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠The Agent Readiness Audit from Superintelligent - Go to ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://besuper.ai/ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠to request your company's agent readiness score.The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://pod.link/1680633614⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Our Newsletter is BACK: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://aidailybrief.beehiiv.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Interested in sponsoring the show? sponsors@aidailybrief.ai Mar 23, 2026 26:51 #### Why AI Actually Won't Take Your Job \"Will AI take your job?\" has become the dominant question in AI discourse — but it's the wrong one. From AI-washed layoffs to coding benchmarks that don't generalize, from human preference as a market force to capitalism's radically expansionary nature, there are plenty of reasons to push past the panic — and a whole set of better, harder questions we should be asking instead.For all the links referenced in the show, sign up for the newsletter: ⁠⁠https://aidailybrief.beehiiv.com/⁠⁠Brought to you by:KPMG – Agentic AI is powering a potential $3 trillion productivity shift, and KPMG’s new paper, Agentic AI Untangled, gives leaders a clear framework to decide whether to build, buy, or borrow—download it at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.kpmg.us/Navigate⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Mercury - Modern banking for business and now personal accounts. Learn more at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mercury.com/personal-banking⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AIUC-1 - Get your agents certified to communicate trust to enterprise buyers - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.aiuc-1.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Blitzy - Want to accelerate enterprise software development velocity by 5x? ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://blitzy.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AssemblyAI - The best way to build Voice AI apps - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.assemblyai.com/brief⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Robots & Pencils - Cloud-native AI solutions that power results ⁠⁠",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items/podcast-the_ai_daily_brief-4ba46b24c3a2/source_item.json"
+    },
+    {
+      "source_id": "x-hitw93-4ecef83e0730",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2035300787937755353",
+      "title": "Mole just shipped v1.31.0 Makima with faster performance and more accurate system status reporting. Huge thanks to all contributors. Still fully open source and free, made possible by the community effort behind it. https://github.com/tw93/Mole/",
+      "published_at": "2026-03-21T10:21:36Z",
+      "excerpt": "Post title: Mole just shipped v1.31.0 Makima with faster performance and more accurate system status reporting. Huge thanks to all contributors. Still fully open source and free, made possible by the community effort behind it. https://github.com/tw93/Mole/ Post summary: Mole just shipped v1.31.0 Makima with faster performance and more accurate system status reporting. Huge thanks to all contributors. Still fully open source and free, made possible by the community effort behind it. github.com/tw93/Mole/ Video Canonical URL: https://x.com/HiTw93/status/2035300787937755353",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-hitw93-4ecef83e0730/source_item.json"
+    },
+    {
+      "source_id": "x-reach_vb-8c426f7b7941",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2035251992767975792",
+      "title": "Codex for Open Source Codex for Students Codex Ambassadors Codex Security What should we do next?",
+      "published_at": "2026-03-21T07:07:42Z",
+      "excerpt": "Post title: Codex for Open Source Codex for Students Codex Ambassadors Codex Security What should we do next? Post summary: Codex for Open Source Codex for Students Codex Ambassadors Codex Security What should we do next? Canonical URL: https://x.com/reach_vb/status/2035251992767975792",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-reach_vb-8c426f7b7941/source_item.json"
+    }
+  ]
+}

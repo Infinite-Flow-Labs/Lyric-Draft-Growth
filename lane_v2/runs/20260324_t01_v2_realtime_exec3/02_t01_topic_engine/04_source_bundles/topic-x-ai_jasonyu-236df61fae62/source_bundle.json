@@ -1,0 +1,155 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-ai_jasonyu-236df61fae62",
+  "lane_id": "T04_failure_reversal",
+  "framework_id": "04_failure_reversal",
+  "submode_id": "system_pivot",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-ai_jasonyu-236df61fae62",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "title": "Claude最近又在大封杀，朋友的中转站一批能给封几百个。 大家一直也都在找封号原因，网上总结的原因很多。 我之前也给大家分享过这篇防封号的文章，目前我的新账号过了半个月，依然是稳定使用的。方法如下👇👇👇 我认为除了上次我讲的住宅IP+指纹浏览器+U卡，老的账号天然自带权重，我23年的时候开通的这个，直到现在都是稳定的。 然后上次注册的新号就是使用的住宅IP+指纹浏览器的组合，也很稳定，不过这个新账号使用的邮箱是老邮箱，我建议后续大家开通新账号的时候，最好去买一个老的Gmail邮箱，配合我分享的方法，能很大概率防止封号，起码网页端使用是几乎不会的。 如果使用Claude Code，一定要把“虚拟网卡”模式打开，或者配置好本地的规则。 住宅IP推荐大家使用这个（国内直连）：https://www.equaldcdn.com/?ref=8b0ecd560d 指纹浏览器推荐AdsPower：https://www.adspower.net/share/launch 付款卡，推荐大家使用：Bitget Wallet",
+      "published_at": "2026-03-22T11:57:41Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items/x-ai_jasonyu-236df61fae62/source_item.json"
+    },
+    {
+      "signal_id": "x-googledeepmind-2ac914f175fb",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+      "title": "Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK",
+      "published_at": "2026-03-17T21:09:54Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-googledeepmind-2ac914f175fb/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-perplexity_ai-fae567cc03de",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+      "title": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser.",
+      "published_at": "2026-03-17T16:43:03Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-perplexity_ai-fae567cc03de/source_item.json"
+    },
+    {
+      "signal_id": "x-alchainhust-e94aa3fbf89b",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2035223609497853985",
+      "title": "理了下Cursor盗用Kimi K2.5模型这事。 @cursor_ai 发布Composer 2，号称自研编程模型，benchmark图画得漂漂亮亮。 2.5小时后，@fynnso 在API里发现模型ID：kimi-k2p5-rl-0317-s515-fast。 连名字都没改。 老马 @elonmusk 直接回了三个词：Yeah, it's Kimi 2.5。 @Kimi_Moonshot 的人先出来手撕，质问为什么不遵守许可证、为什么没付费，然后帖子删了，最后体面和解。Cursor承认Kimi K2.5是基座，说没标注是\"a miss\"。 这不是第一次了。去年Composer 1就被发现代码里频繁出现中文推理痕迹，Windsurf承认用的智谱GLM，Cognition的SWE-1.5也是GLM-4.6。模式一模一样：拿中国开源模型做基座，微调一层，包装成自研。 但许可证不是重点。重点是：一家正在谈500亿美元估值的公司，没有自己的模型。提供基座的月之暗面估值43亿。12倍。 我是Cursor的早期用户，也确实吃到了红利，承认它让AI编程真正变成普通人可上手的工具。但现在聊AI编程，国内几乎没人聊Cursor了。开发者调查：46%最爱Claude Code，Cursor只有19%。Claude Code 8个月就超越了Cursor两年建立的地位。Codex也已经达到Cursor 60%的使用量。 道理很简单：赛道小的时候，产品公司有先发优势。但当模型公司亲自下场，产品公司就只能让路。@AnthropicAI 有自己的模型，@OpenAI 有自己的模型，Cursor有什么？一个很棒的IDE体验，和一个借来的模型。 不要在模型公司的必经之路上建城堡。",
+      "published_at": "2026-03-21T05:14:55Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items/x-alchainhust-e94aa3fbf89b/source_item.json"
+    },
+    {
+      "signal_id": "x-alchainhust-07fa478fe5d2",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2035248813523574946",
+      "title": "看到 @karpathy 也焦虑到得了AI精神病，我放心多了。 他最近上了一期播客，说自己从去年12月以来就没有手敲过一行代码了。并且认为自己写代码的能力在逐渐萎缩。然后他给这种状态起了个名字：AI Psychosis，AI精神病。 连他都这样，那我这半年的焦虑感算是正常的了。 我我觉得现在大多数接受AI编程的开发者日常状态应该都是：打开终端，同时起3-5个Claude Code Agent，分别处理不同的任务。一个在做新产品，一个修bug，一个写文章，还有一个在帮我更新OpenClaw橙皮书📙。我的工作变成了在它们之间切换，看输出，给反馈，决定下一步。 Karpathy把这种新的工作方式叫做Agentic Engineering。 我觉得这个词比Vibe Coding精确多了。Vibe Coding是去年的状态，你还在跟AI聊天，说个大概意思，它帮你写代码，你看看对不对。 这时候你做的事情就不再是「编程」了。 Karpathy说：「Code is not even the right verb anymore... Manifest.」 编程的动词从Code变成了Manifest。 这句话我琢磨了一会儿。Manifest这个词在英语里的意思是「使显现」「使成为现实」。你脑子里有一个想法，你把它表达出来，它就变成了可运行的软件。这不是比喻，是字面意思。 我每天在做的事情确实更接近Manifest而非Code。我思考的完全是「这个产品应该怎么工作」「用户体验的流程是什么」。然后我把这些想法用自然语言告诉Agent，它去实现。 有意思的是，这种转变带来了一种很奇怪的焦虑。 Karpathy说他现在看订阅额度剩余就紧张，他说这种感觉跟他当PhD时看到GPU空闲一样。我完全理解这种焦虑。你的产出不再取决于你每小时能写多少行代码，而取决于你每小时能消耗多少Token、能同时编排多少个Agent。 我有时候晚上睡觉前会想：今天的Claude Code额度还剩不少，是不是应该再起几个任务跑着？这种想法本身就挺疯的。 但Karpathy说的另一件事让我觉得更值得想。他承认自己的手动编码技能正在退化。他用的词是atrophying，萎缩。 一个OpenAI联合创始成员、前Tesla AI高级总监、CS231n的创始讲师，说自己的编码技能在萎缩 不过这点我倒是还好，我的情况其实比他更极端。他好歹是从手写代码转到不写的，有技能退化的问题。我呢，我从一开始就没有手写过代码。我从来就不存在「退化」这个问题，因为我从来就没有那个技能。 不过话说回来，我倒是没觉得这是个致命的缺陷。你不会弹钢琴，但你可以听得出来这首曲子好不好听。关键是你得有判断力，而不是手速。 AI Psychosis这个词，我觉得Karpathy选得挺好。它不是一个贬义词，更像是对一种新的认知状态的描述。你的能力边界突然扩大了好几倍，你能同时做的事情变多了，你的产出速度快了一个数量级。但你的大脑还没完全适应这种状态。 你知道自己变强了，但你说不清楚是你变强了，还是工具变强了。 这种分不清的感觉，大概就是精神病的症状吧。",
+      "published_at": "2026-03-21T06:55:04Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-alchainhust-07fa478fe5d2/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Claude最近又在大封杀，朋友的中转站一批能给封几百个。 大家一直也都在找封号原因，网上总结的原因很多。 我之前也给大家分享过这篇防封号的文章，目前我的新账号过了半个月，依然是稳定使用的。方法如下👇👇👇 我认为除了上次我讲的住宅IP+指纹浏览器+U卡，老的账号天然自带权重，我23年的时候开通的这个，直到现在都是稳定的。 然后上次注册的新号就是使用的住宅IP+指纹浏览器的组合，也很稳定，不过这个新账号使用的邮箱是老邮箱，我建议后续大家开通新账号的时候，最好去买一个老的Gmail邮箱，配合我分享的方法，能很大概率防止封号，起码网页端使用是几乎不会的。 如果使用Claude Code，一定要把“虚拟网卡”模式打开，或者配置好本地的规则。 住宅IP推荐大家使用这个（国内直连）：https://www.equaldcdn.com/?ref=8b0ecd560d 指纹浏览器推荐AdsPower：https://www.adspower.net/share/launch 付款卡，推荐大家使用：Bitget Wallet",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "Claude最近又在大封杀，朋友的中转站一批能给封几百个。 大家一直也都在找封号原因，网上总结的原因很多。 我之前也给大家分享过这篇防封号的文章，目前我的新账号过了半个月，依然是稳定使用的。方法如下👇👇👇 我认为除了上次我讲的住宅IP+指纹浏览器+U卡，老的账号天然自带权重，我23年的时候开通的这个，直到现在都是稳定的。 然后上次注册的新号就是使用的住宅IP+指纹浏览器的组合，也很稳定，不过这个新账号使用的邮箱是老邮箱，我建议后续大家开通新账号的时候，最好去买一个老的Gmail邮箱，配合我分享的方法，能很大概率防止封号，起码网页端使用是几乎不会的。 如果使用Claude Code，一定要把“虚拟网卡”模式打开，或者配置好本地的规则。 住宅IP推荐大家使用这个（国内直连）： equaldcdn.com/?ref=8b0ecd560… 指纹浏览器推荐AdsPower： adspower.net/share/launch 付款卡，推荐大家使用：Bitget Wallet 鱼总聊AI (@AI_Jasonyu) x.com/i/article/203022855792… — https://nitter.net/AI_Jasonyu/status/2030239866970407135#m",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "Claude最近又在大封杀，朋友的中转站一批能给封几百个",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "大家一直也都在找封号原因，网上总结的原因很多",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "我之前也给大家分享过这篇防封号的文章，目前我的新账号过了半个月，依然是稳定使用的",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "方法如下👇👇👇 我认为除了上次我讲的住宅IP+指纹浏览器+U卡，老的账号天然自带权重，我23年的时候开通的这个，直到现在都是稳定的",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "然后上次注册的新号就是使用的住宅IP+指纹浏览器的组合，也很稳定，不过这个新账号使用的邮箱是老邮箱，我建议后续大家开通新账号的时候，最好去买一个老的Gmail邮箱，配合我分享的方法，能很大概率防止封号，起码网页端使用是几乎不会的",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "如果使用Claude Code，一定要把“虚拟网卡”模式打开，或者配置好本地的规则",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "住宅IP推荐大家使用这个（国内直连）：https://www.equaldcdn.com/",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "ref=8b0ecd560d 指纹浏览器推荐AdsPower：https://www.adspower.net/share/launch 付款卡，推荐大家使用：Bitget Wallet Claude最近又在大封杀，朋友的中转站一批能给封几百个",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "ref=8b0ecd560… 指纹浏览器推荐AdsPower： adspower.net/share/launch 付款卡，推荐大家使用：Bitget Wallet 鱼总聊AI (@AI_Jasonyu) x.com/i/article/203022855792… — https://nitter.net/AI_Jasonyu/status/2030239866970407135#m Post title: Claude最近又在大封杀，朋友的中转站一批能给封几百个",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    },
+    {
+      "claim": "ref=8b0ecd560d 指纹浏览器推荐AdsPower：https://www.adspower.net/share/launch 付款卡，推荐大家使用：Bitget Wallet Post summary: Claude最近又在大封杀，朋友的中转站一批能给封几百个",
+      "source_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "signal_id": "x-ai_jasonyu-236df61fae62"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 2,
+    "fact_anchors_min": 7,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": true,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": true,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": true,
+  "quality_tier": "C",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": true
+}

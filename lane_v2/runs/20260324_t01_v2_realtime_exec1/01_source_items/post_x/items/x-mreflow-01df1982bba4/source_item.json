@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-mreflow-01df1982bba4",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/mreflow/status/2034781972737008044",
+  "author": {
+    "handle": "@mreflow",
+    "display_name": "mreflow",
+    "account_url": "https://x.com/mreflow"
+  },
+  "title": "Anyone else find that they're starting to talk more and more like an LLM? I feel like I've spent so much time working with them that I take on more and more of the vocabulary that's been output by them. I'll write X posts and think \"people will think I had ChatGPT write this.\" I'll say things like \"That's directionally correct but misses some key points,\" and then think, \"holy shit, that's how ChatGPT would have worded it.\"",
+  "language": "unknown",
+  "published_at": "2026-03-20T00:00:01Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/mreflow/status/2034781972737008044",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/mreflow/status/2034781972737008044#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Anyone else find that they're starting to talk more and more like an LLM? I feel like I've spent so much time working with them that I take on more and more of the vocabulary that's been output by them. I'll write X posts and think \"people will think I had ChatGPT write this.\" I'll say things like \"That's directionally correct but misses some key points,\" and then think, \"holy shit, that's how ChatGPT would have worded it.\"",
+    "full_text": "Post title: Anyone else find that they're starting to talk more and more like an LLM? I feel like I've spent so much time working with them that I take on more and more of the vocabulary that's been output by them. I'll write X posts and think \"people will think I had ChatGPT write this.\" I'll say things like \"That's directionally correct but misses some key points,\" and then think, \"holy shit, that's how ChatGPT would have worded it.\"\n\nPost summary: Anyone else find that they're starting to talk more and more like an LLM? I feel like I've spent so much time working with them that I take on more and more of the vocabulary that's been output by them. I'll write X posts and think \"people will think I had ChatGPT write this.\" I'll say things like \"That's directionally correct but misses some key points,\" and then think, \"holy shit, that's how ChatGPT would have worded it.\"\n\nCanonical URL: https://x.com/mreflow/status/2034781972737008044",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Anyone",
+      "LLM",
+      "ChatGPT",
+      "That",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Anyone else find that they're starting to talk more and more like an LLM? I feel like I've spent so much time working with them that I take on more and more of the vocabulary that's been output by them. I'll write X posts and think \"people will think I had ChatGPT write this.\" I'll say things like \"That's directionally correct but misses some key points,\" and then think, \"holy shit, that's how ChatGPT would have worded it.\"",
+      "Anyone",
+      "LLM",
+      "ChatGPT",
+      "That",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

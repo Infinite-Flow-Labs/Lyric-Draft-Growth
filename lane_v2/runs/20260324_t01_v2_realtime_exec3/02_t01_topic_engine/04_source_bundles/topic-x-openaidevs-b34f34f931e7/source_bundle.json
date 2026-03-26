@@ -1,0 +1,128 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openaidevs-b34f34f931e7",
+  "lane_id": "T07_contrarian_take",
+  "framework_id": "07_contrarian_take",
+  "submode_id": "category_reframe",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-openaidevs-b34f34f931e7",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+      "title": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 https://x.com/athasdev/status/2033961305795645506?s=20",
+      "published_at": "2026-03-18T17:05:32Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openaidevs-b34f34f931e7/source_item.json"
+    },
+    {
+      "signal_id": "x-anthropicai-7216d6565697",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/AnthropicAI/status/2033939283313402138",
+      "title": "The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important. We're donating to the Linux Foundation to continue to help secure the foundations AI runs on.",
+      "published_at": "2026-03-17T16:11:28Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-anthropicai-7216d6565697/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-openai-8f6ed0f162e6",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAI/status/2033953592424731072",
+      "title": "GPT-5.4 mini is available today in ChatGPT, Codex, and the API. Optimized for coding, computer use, multimodal understanding, and subagents. And it’s 2x faster than GPT-5 mini. https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+      "published_at": "2026-03-17T17:08:20Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openai-8f6ed0f162e6/source_item.json"
+    },
+    {
+      "signal_id": "x-openaidevs-8726a9caa918",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2034600898912272501",
+      "title": "Codex is coming to India 🇮🇳 Join events led by Codex ambassadors to: Get hands-on with Codex Meet developers building with Codex Ship projects at hackathons",
+      "published_at": "2026-03-19T12:00:30Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openaidevs-8726a9caa918/source_item.json"
+    },
+    {
+      "signal_id": "x-hitw93-4ecef83e0730",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/HiTw93/status/2035300787937755353",
+      "title": "Mole just shipped v1.31.0 Makima with faster performance and more accurate system status reporting. Huge thanks to all contributors. Still fully open source and free, made possible by the community effort behind it. https://github.com/tw93/Mole/",
+      "published_at": "2026-03-21T10:21:36Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-hitw93-4ecef83e0730/source_item.json"
+    },
+    {
+      "signal_id": "x-reach_vb-8c426f7b7941",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/reach_vb/status/2035251992767975792",
+      "title": "Codex for Open Source Codex for Students Codex Ambassadors Codex Security What should we do next?",
+      "published_at": "2026-03-21T07:07:42Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-reach_vb-8c426f7b7941/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 https://x.com/athasdev/status/2033961305795645506?s=20",
+      "source_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+      "signal_id": "x-openaidevs-b34f34f931e7"
+    },
+    {
+      "claim": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 nitter.net/athasdev/status/203396… athas.dev (@athasdev) 6 months of free Codex. I will use this to make Athas better. Huge thanks to everyone who made this happen ❤️ — https://nitter.net/athasdev/status/2033961305795645506#m",
+      "source_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+      "signal_id": "x-openaidevs-b34f34f931e7"
+    },
+    {
+      "claim": "We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 https://x.com/athasdev/status/2033961305795645506",
+      "source_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+      "signal_id": "x-openaidevs-b34f34f931e7"
+    },
+    {
+      "claim": "s=20 We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 nitter.net/athasdev/status/203396… athas.dev (@athasdev) 6 months of free Codex. I will use this to make Athas b",
+      "source_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+      "signal_id": "x-openaidevs-b34f34f931e7"
+    },
+    {
+      "claim": "s=20 Post summary: We’re reviewing Codex for Open Source applications on a rolling basis. Here are some of the projects and maintainers who just joined our Codex for OSS community 👇 nitter.net/athasdev/status/203396… athas.dev (@athasdev) 6 months of free Codex. I will use this t",
+      "source_url": "https://x.com/OpenAIDevs/status/2034315278964998407",
+      "signal_id": "x-openaidevs-b34f34f931e7"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 2,
+    "fact_anchors_min": 8,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": true,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": true,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

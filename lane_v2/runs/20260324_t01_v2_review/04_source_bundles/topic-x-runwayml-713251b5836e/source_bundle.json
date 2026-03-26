@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-runwayml-713251b5836e",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-runwayml-713251b5836e",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2036081560873570742",
+      "title": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+      "published_at": "2026-03-23T14:04:07Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-runwayml-713251b5836e/source_item.json"
+    },
+    {
+      "signal_id": "x-openai-4aa0a9ed510f",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "title": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.",
+      "published_at": "2026-03-23T20:47:55Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-openai-4aa0a9ed510f/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-xai-396f2e6ec2e8",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/xai/status/2035562571932024842",
+      "title": "Pinned: In order to understand the universe, you must explore the universe → http://x.ai/careers",
+      "published_at": "2026-03-22T03:41:50Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-xai-396f2e6ec2e8/source_item.json"
+    },
+    {
+      "signal_id": "x-svpino-c94674a17cc6",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/svpino/status/2036158558971240554",
+      "title": "Every large company will eventually ban vibe-coding. Vibe-coding is now generating as much technical debt as 10 regular developers in half the time. Vibe-coding is awesome for a first draft, but you can't expect to push AI slop to production and not destroy your software over time. Producing code is no longer a bottleneck. Testing that code, debugging it, monitoring it in production, and fixing it when it breaks is where everyone is spending their time. We've 10x'd the speed of writing code, but we are still in the Stone Age with everything that happens after the code is written. Here is a very cool tool tackling this: You can build \"AI Production Engineers\" using PlayerZero and make them work for you. These are agents that do this: • Simulate how your code will work in production • Diagnose issues when they happen • Learn from every incident so it doesn't happen again This is pretty awesome! These agents simulate code behavior against real production data. They use actual customer behavior, historical incidents, and edge cases without writing a single test script. When something breaks, the agent traces the issue to the exact line of code and PR, generates the fix, and routes it to the right engineer. And every bug these agents solve serves as training data to improve the system. Here is a link to check them out: https://playerzero.ai/?utm_campaign=launch_march_26 Thanks to the Player Zero team for partnering with me on this post.",
+      "published_at": "2026-03-23T19:10:05Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-svpino-c94674a17cc6/source_item.json"
+    },
+    {
+      "signal_id": "x-ai_for_success-729386ecda07",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ai_for_success/status/2036124066097283527",
+      "title": "R to @ai_for_success: 2/5 Most engineering teams today have four teams looking at the same production bug through four different tools. SRE sees the alert. Support sees the ticket. QA says tests passed. Engineering says nothing changed. Someone then spends hours manually stitching context together to figure out what happened. PlayerZero connects your codebase, observability stack, and support tickets into one living system called the World Model, and handles the full loop automatically. Before code ships, Sim-1 simulates how that change will behave in production using real customer behavior, historical incidents, and config edge cases, then flags exactly what will break. No test writing. No infrastructure. Runs in minutes. After it ships, if something breaks, PlayerZero traces it to the exact PR, identifies which customer configs are affected, and routes the fix to the right engineer. A customer reports payments failing for UK users. Before your team unmutes on the incident call, PlayerZero has already traced it to PR #4721 and sent the fix.",
+      "published_at": "2026-03-23T16:53:01Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-ai_for_success-729386ecda07/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+      "source_url": "https://x.com/runwayml/status/2036081560873570742",
+      "signal_id": "x-runwayml-713251b5836e"
+    },
+    {
+      "claim": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below. Video",
+      "source_url": "https://x.com/runwayml/status/2036081560873570742",
+      "signal_id": "x-runwayml-713251b5836e"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "ready_for_writer": false
+}

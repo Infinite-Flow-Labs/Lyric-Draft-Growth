@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-skirano-283e7d02de49",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/skirano/status/2035746706864705976",
+  "author": {
+    "handle": "@skirano",
+    "display_name": "skirano",
+    "account_url": "https://x.com/skirano"
+  },
+  "title": "From sketch to interactive design, with your design system. With Themes in @MagicPathAI, you can shape the look and feel of a design starting from something as simple as a sketch on the canvas. It’s the fastest way to visualize ideas in your brand.",
+  "language": "unknown",
+  "published_at": "2026-03-22T15:53:31Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/skirano/status/2035746706864705976",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/skirano/status/2035746706864705976#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "From sketch to interactive design, with your design system. With Themes in @MagicPathAI , you can shape the look and feel of a design starting from something as simple as a sketch on the canvas. It’s the fastest way to visualize ideas in your brand. Video",
+    "full_text": "Post title: From sketch to interactive design, with your design system. With Themes in @MagicPathAI, you can shape the look and feel of a design starting from something as simple as a sketch on the canvas. It’s the fastest way to visualize ideas in your brand.\n\nPost summary: From sketch to interactive design, with your design system. With Themes in @MagicPathAI , you can shape the look and feel of a design starting from something as simple as a sketch on the canvas. It’s the fastest way to visualize ideas in your brand. Video\n\nCanonical URL: https://x.com/skirano/status/2035746706864705976",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "From",
+      "With Themes",
+      "MagicPathAI",
+      "It",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "From sketch to interactive design, with your design system. With Themes in @MagicPathAI, you can shape the look and feel of a design starting from something as simple as a sketch on the canvas. It’s the fastest way to visualize ideas in your brand.",
+      "From sketch to interactive design, with your design system. With Themes in @MagicPathAI , you can shape the look and feel of a design starting from something as simple as a sketch on the canvas. It’s the fastest way to visualize ideas in your brand. Video",
+      "From",
+      "With Themes",
+      "MagicPathAI",
+      "It",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

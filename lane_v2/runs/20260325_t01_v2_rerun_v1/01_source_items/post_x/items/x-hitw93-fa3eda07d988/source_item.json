@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-hitw93-fa3eda07d988",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/HiTw93/status/2036602294142370012",
+  "author": {
+    "handle": "@HiTw93",
+    "display_name": "HiTw93",
+    "account_url": "https://x.com/HiTw93"
+  },
+  "title": "I’ve been using gstack as my open source software factory, turning Claude Code into a full virtual engineering team with roles like CEO, engineering manager, designer, QA, security, and release. It replaces the blank prompt with structured roles, bringing 20 specialists and 8 powerful tools together in one workflow, all written in Markdown and open for anyone to use and build on. If you are building, shipping, or leading, this is worth trying. https://github.com/garrytan/gstack",
+  "language": "unknown",
+  "published_at": "2026-03-25T00:33:19Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/HiTw93/status/2036602294142370012",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/HiTw93/status/2036602294142370012#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "I’ve been using gstack as my open source software factory, turning Claude Code into a full virtual engineering team with roles like CEO, engineering manager, designer, QA, security, and release. It replaces the blank prompt with structured roles, bringing 20 specialists and 8 powerful tools together in one workflow, all written in Markdown and open for anyone to use and build on. If you are building, shipping, or leading, this is worth trying. github.com/garrytan/gstack",
+    "full_text": "Post title: I’ve been using gstack as my open source software factory, turning Claude Code into a full virtual engineering team with roles like CEO, engineering manager, designer, QA, security, and release. It replaces the blank prompt with structured roles, bringing 20 specialists and 8 powerful tools together in one workflow, all written in Markdown and open for anyone to use and build on. If you are building, shipping, or leading, this is worth trying. https://github.com/garrytan/gstack\n\nPost summary: I’ve been using gstack as my open source software factory, turning Claude Code into a full virtual engineering team with roles like CEO, engineering manager, designer, QA, security, and release. It replaces the blank prompt with structured roles, bringing 20 specialists and 8 powerful tools together in one workflow, all written in Markdown and open for anyone to use and build on. If you are building, shipping, or leading, this is worth trying. github.com/garrytan/gstack\n\nCanonical URL: https://x.com/HiTw93/status/2036602294142370012",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "release"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Claude Code",
+      "CEO",
+      "QA",
+      "It",
+      "Markdown",
+      "If",
+      "Post",
+      "Canonical URL",
+      "HiTw93"
+    ],
+    "task_hints": [
+      "release",
+      "workflow"
+    ],
+    "fact_anchors": [
+      "I’ve been using gstack as my open source software factory, turning Claude Code into a full virtual engineering team with roles like CEO, engineering manager, designer, QA, security, and release. It replaces the blank prompt with structured roles, bringing 20 specialists and 8 powerful tools together in one workflow, all written in Markdown and open for anyone to use and build on. If you are building, shipping, or leading, this is worth trying. https://github.com/garrytan/gstack",
+      "I’ve been using gstack as my open source software factory, turning Claude Code into a full virtual engineering team with roles like CEO, engineering manager, designer, QA, security, and release. It replaces the blank prompt with structured roles, bringing 20 specialists and 8 powerful tools together in one workflow, all written in Markdown and open for anyone to use and build on. If you are building, shipping, or leading, this is worth trying. github.com/garrytan/gstack",
+      "release",
+      "Claude Code",
+      "CEO",
+      "QA",
+      "It",
+      "Markdown",
+      "If",
+      "Post",
+      "Canonical URL",
+      "HiTw93"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

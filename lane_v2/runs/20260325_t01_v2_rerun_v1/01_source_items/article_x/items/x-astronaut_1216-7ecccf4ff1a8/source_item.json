@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-astronaut_1216-7ecccf4ff1a8",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Astronaut_1216/status/2036647480490852773",
+  "author": {
+    "handle": "@Astronaut_1216",
+    "display_name": "Astronaut_1216",
+    "account_url": "https://x.com/Astronaut_1216"
+  },
+  "title": "从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包",
+  "language": "unknown",
+  "published_at": "2026-03-25T03:32:53Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Astronaut_1216/status/2036647480490852773",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Astronaut_1216/status/2036647480490852773#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包 不想上班的橙子 (@sichen250639) x.com/i/article/203645954311… — https://nitter.net/sichen250639/status/2036463994995875939#m",
+    "full_text": "Post title: 从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包\n\nPost summary: 从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包 不想上班的橙子 (@sichen250639) x.com/i/article/203645954311… — https://nitter.net/sichen250639/status/2036463994995875939#m\n\nCanonical URL: https://x.com/Astronaut_1216/status/2036647480490852773",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包",
+      "从前在体制内，我觉得体制内都已经乌烟瘴气了 外面世界能好到什么程度 结果我发现出了体制内，外面万里无云 原来是因为我自己就是个草包 不想上班的橙子 (@sichen250639) x.com/i/article/203645954311… — https://nitter.net/sichen250639/status/2036463994995875939#m",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

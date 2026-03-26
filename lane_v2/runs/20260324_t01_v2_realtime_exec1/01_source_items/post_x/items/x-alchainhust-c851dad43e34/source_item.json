@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alchainhust-c851dad43e34",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlchainHust/status/2035711825199644688",
+  "author": {
+    "handle": "@AlchainHust",
+    "display_name": "AlchainHust",
+    "account_url": "https://x.com/AlchainHust"
+  },
+  "title": "又是被腾讯🦞支配的一天。早上看完微信ClawBot刷屏，下午就到香港的岭南大学围观腾讯云的一站式装虾活动… 发现香港的大学生对AI的接受度和使用度还蛮高的，不过对大多数人来说安装开源版的OpenClaw又太困难了还有安全顾虑。 但是发现几乎所有学生听完腾讯的QClaw分享后就自己装上了，这一波应该真的是大多数人在对话式AI之外，首次体验到Agent的魅力。",
+  "language": "unknown",
+  "published_at": "2026-03-22T13:34:55Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlchainHust/status/2035711825199644688",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlchainHust/status/2035711825199644688#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "又是被腾讯🦞支配的一天。早上看完微信ClawBot刷屏，下午就到香港的岭南大学围观腾讯云的一站式装虾活动… 发现香港的大学生对AI的接受度和使用度还蛮高的，不过对大多数人来说安装开源版的OpenClaw又太困难了还有安全顾虑。 但是发现几乎所有学生听完腾讯的QClaw分享后就自己装上了，这一波应该真的是大多数人在对话式AI之外，首次体验到Agent的魅力。",
+    "full_text": "Post title: 又是被腾讯🦞支配的一天。早上看完微信ClawBot刷屏，下午就到香港的岭南大学围观腾讯云的一站式装虾活动… 发现香港的大学生对AI的接受度和使用度还蛮高的，不过对大多数人来说安装开源版的OpenClaw又太困难了还有安全顾虑。 但是发现几乎所有学生听完腾讯的QClaw分享后就自己装上了，这一波应该真的是大多数人在对话式AI之外，首次体验到Agent的魅力。\n\nPost summary: 又是被腾讯🦞支配的一天。早上看完微信ClawBot刷屏，下午就到香港的岭南大学围观腾讯云的一站式装虾活动… 发现香港的大学生对AI的接受度和使用度还蛮高的，不过对大多数人来说安装开源版的OpenClaw又太困难了还有安全顾虑。 但是发现几乎所有学生听完腾讯的QClaw分享后就自己装上了，这一波应该真的是大多数人在对话式AI之外，首次体验到Agent的魅力。\n\nCanonical URL: https://x.com/AlchainHust/status/2035711825199644688",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL",
+      "AlchainHust"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "又是被腾讯🦞支配的一天。早上看完微信ClawBot刷屏，下午就到香港的岭南大学围观腾讯云的一站式装虾活动… 发现香港的大学生对AI的接受度和使用度还蛮高的，不过对大多数人来说安装开源版的OpenClaw又太困难了还有安全顾虑。 但是发现几乎所有学生听完腾讯的QClaw分享后就自己装上了，这一波应该真的是大多数人在对话式AI之外，首次体验到Agent的魅力。",
+      "Post",
+      "Canonical URL",
+      "AlchainHust"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

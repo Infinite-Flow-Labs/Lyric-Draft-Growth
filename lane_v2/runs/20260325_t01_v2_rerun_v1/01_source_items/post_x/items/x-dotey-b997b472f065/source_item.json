@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-dotey-b997b472f065",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/dotey/status/2036442579332464962",
+  "author": {
+    "handle": "@dotey",
+    "display_name": "dotey",
+    "account_url": "https://x.com/dotey"
+  },
+  "title": "问: 老师有机会能讲解一下commit吗，不会用git 答: 可以转变思路，去问 AI ，而且不需要自己学会才能用，只要让 agent 帮你操作就好了： “帮我初始化 git”， “帮我提交变更到git（commit）”",
+  "language": "unknown",
+  "published_at": "2026-03-24T13:58:40Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/dotey/status/2036442579332464962",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/dotey/status/2036442579332464962#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "问: 老师有机会能讲解一下commit吗，不会用git 答: 可以转变思路，去问 AI ，而且不需要自己学会才能用，只要让 agent 帮你操作就好了： “帮我初始化 git”， “帮我提交变更到git（commit）”",
+    "full_text": "Post title: 问: 老师有机会能讲解一下commit吗，不会用git 答: 可以转变思路，去问 AI ，而且不需要自己学会才能用，只要让 agent 帮你操作就好了： “帮我初始化 git”， “帮我提交变更到git（commit）”\n\nPost summary: 问: 老师有机会能讲解一下commit吗，不会用git 答: 可以转变思路，去问 AI ，而且不需要自己学会才能用，只要让 agent 帮你操作就好了： “帮我初始化 git”， “帮我提交变更到git（commit）”\n\nCanonical URL: https://x.com/dotey/status/2036442579332464962",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "问: 老师有机会能讲解一下commit吗，不会用git 答: 可以转变思路，去问 AI ，而且不需要自己学会才能用，只要让 agent 帮你操作就好了： “帮我初始化 git”， “帮我提交变更到git（commit）”",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

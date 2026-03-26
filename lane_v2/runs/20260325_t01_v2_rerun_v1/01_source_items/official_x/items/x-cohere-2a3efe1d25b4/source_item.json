@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-cohere-2a3efe1d25b4",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/cohere/status/2036444133397577818",
+  "author": {
+    "handle": "@cohere",
+    "display_name": "Cohere",
+    "account_url": "https://x.com/cohere"
+  },
+  "title": "We’re honored to be named one of @FastCompany's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026",
+  "language": "unknown",
+  "published_at": "2026-03-24T14:04:51Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/cohere/status/2036444133397577818",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/cohere/status/2036444133397577818#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "We’re honored to be named one of @FastCompany 's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: fastcompany.com/91495412/art…",
+    "full_text": "Post title: We’re honored to be named one of @FastCompany's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026\n\nPost summary: We’re honored to be named one of @FastCompany 's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: fastcompany.com/91495412/art…\n\nCanonical URL: https://x.com/cohere/status/2036444133397577818",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_failed:https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026 (URLError)"
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "We",
+      "FastCompany",
+      "Most Innovative Companies",
+      "This",
+      "AI",
+      "Over",
+      "North",
+      "Learn",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "We’re honored to be named one of @FastCompany's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: https://www.fastcompany.com/91495412/artificial-intelligence-most-innovative-companies-2026",
+      "We’re honored to be named one of @FastCompany 's Most Innovative Companies of 2026! This recognition reflects our commitment to building secure, sovereign AI for enterprises and governments. Over the past year, we’ve deepened our focus on serving the unique needs of highly regulated industries—expanding what organizations can do with their protected data through North, our agentic platform for getting more work done. Learn more: fastcompany.com/91495412/art…",
+      "We",
+      "FastCompany",
+      "Most Innovative Companies",
+      "This",
+      "AI",
+      "Over",
+      "North",
+      "Learn",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

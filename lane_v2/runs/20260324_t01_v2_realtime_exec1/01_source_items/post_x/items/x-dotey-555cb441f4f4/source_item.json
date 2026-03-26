@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-dotey-555cb441f4f4",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/dotey/status/2035749966694465678",
+  "author": {
+    "handle": "@dotey",
+    "display_name": "dotey",
+    "account_url": "https://x.com/dotey"
+  },
+  "title": "说的没有错的，不过这里重点不是当没当过 Manager，而是同时有架构能力和管理能力，能拆分任务，能管理 Agent。 说实话，很多 manager 技术不咋地，就会向上管理和 PUA，但管 Agent 重要的不是向上管理，也不是 PUA，而是“定义问题”和“知人善用”。",
+  "language": "unknown",
+  "published_at": "2026-03-22T16:06:29Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/dotey/status/2035749966694465678",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/dotey/status/2035749966694465678#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "说的没有错的，不过这里重点不是当没当过 Manager，而是同时有架构能力和管理能力，能拆分任务，能管理 Agent。 说实话，很多 manager 技术不咋地，就会向上管理和 PUA，但管 Agent 重要的不是向上管理，也不是 PUA，而是“定义问题”和“知人善用”。 Saito (@SaitoWu) David Singleton，前 Stripe CTO 最近有个观点很炸裂： 当我们所有人都觉得 AI 时代最危险的是 manager，因为不需要中间层了嘛，agent 直接干了。 结果他现在优先招那些以前当过 manager 但现在想回来写代码的人。 原因是他认为 manager 天然擅长拆解任务、协调资源、知道什么时候该推一把什么时候该放手，他认为这才是驾驭 coding agent 最核心的能力。 不知道大家怎么看？ — https://nitter.net/SaitoWu/status/2035711109240438957#m",
+    "full_text": "Post title: 说的没有错的，不过这里重点不是当没当过 Manager，而是同时有架构能力和管理能力，能拆分任务，能管理 Agent。 说实话，很多 manager 技术不咋地，就会向上管理和 PUA，但管 Agent 重要的不是向上管理，也不是 PUA，而是“定义问题”和“知人善用”。\n\nPost summary: 说的没有错的，不过这里重点不是当没当过 Manager，而是同时有架构能力和管理能力，能拆分任务，能管理 Agent。 说实话，很多 manager 技术不咋地，就会向上管理和 PUA，但管 Agent 重要的不是向上管理，也不是 PUA，而是“定义问题”和“知人善用”。 Saito (@SaitoWu) David Singleton，前 Stripe CTO 最近有个观点很炸裂： 当我们所有人都觉得 AI 时代最危险的是 manager，因为不需要中间层了嘛，agent 直接干了。 结果他现在优先招那些以前当过 manager 但现在想回来写代码的人。 原因是他认为 manager 天然擅长拆解任务、协调资源、知道什么时候该推一把什么时候该放手，他认为这才是驾驭 coding agent 最核心的能力。 不知道大家怎么看？ — https://nitter.net/SaitoWu/status/2035711109240438957#m\n\nCanonical URL: https://x.com/dotey/status/2035749966694465678",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Manager",
+      "Agent",
+      "PUA",
+      "Saito",
+      "SaitoWu",
+      "David Singleton",
+      "Stripe CTO",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "说的没有错的，不过这里重点不是当没当过 Manager，而是同时有架构能力和管理能力，能拆分任务，能管理 Agent。 说实话，很多 manager 技术不咋地，就会向上管理和 PUA，但管 Agent 重要的不是向上管理，也不是 PUA，而是“定义问题”和“知人善用”。",
+      "说的没有错的，不过这里重点不是当没当过 Manager，而是同时有架构能力和管理能力，能拆分任务，能管理 Agent。 说实话，很多 manager 技术不咋地，就会向上管理和 PUA，但管 Agent 重要的不是向上管理，也不是 PUA，而是“定义问题”和“知人善用”。 Saito (@SaitoWu) David Singleton，前 Stripe CTO 最近有个观点很炸裂： 当我们所有人都觉得 AI 时代最危险的是 manager，因为不需要中间层了嘛，agent 直接干了。 结果他现在优先招那些以前当过 manager 但现在想回来写代码的人。 原因是他认为 manager 天然擅长拆解任务、协调资源、知道什么时候该推一把什么时候该放手，他认为这才是驾驭 coding agent 最核心的能力。 不知道大家怎么看？ — https://nitter.net/SaitoWu/status/2035711109240438957#m",
+      "Manager",
+      "Agent",
+      "PUA",
+      "Saito",
+      "SaitoWu",
+      "David Singleton",
+      "Stripe CTO",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

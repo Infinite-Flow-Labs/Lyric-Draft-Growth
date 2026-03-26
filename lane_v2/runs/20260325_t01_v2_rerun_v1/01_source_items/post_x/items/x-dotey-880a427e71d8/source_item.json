@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-dotey-880a427e71d8",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/dotey/status/2036674840103448909",
+  "author": {
+    "handle": "@dotey",
+    "display_name": "dotey",
+    "account_url": "https://x.com/dotey"
+  },
+  "title": "问：在什么情况下应该用 slash command？什么情况下应该用skill呢？ 答：slash command 是用户主动触发的，比如 /init 之类 Skills 是由 Agent 自主调用的，它会检查 Skills 列表，看当前任务是不是要用 Skill，以及该用哪个 Skill。 当然 Skill 也可以当 slash command 用",
+  "language": "unknown",
+  "published_at": "2026-03-25T05:21:36Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/dotey/status/2036674840103448909",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/dotey/status/2036674840103448909#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "问：在什么情况下应该用 slash command？什么情况下应该用skill呢？ 答：slash command 是用户主动触发的，比如 /init 之类 Skills 是由 Agent 自主调用的，它会检查 Skills 列表，看当前任务是不是要用 Skill，以及该用哪个 Skill。 当然 Skill 也可以当 slash command 用",
+    "full_text": "Post title: 问：在什么情况下应该用 slash command？什么情况下应该用skill呢？ 答：slash command 是用户主动触发的，比如 /init 之类 Skills 是由 Agent 自主调用的，它会检查 Skills 列表，看当前任务是不是要用 Skill，以及该用哪个 Skill。 当然 Skill 也可以当 slash command 用\n\nPost summary: 问：在什么情况下应该用 slash command？什么情况下应该用skill呢？ 答：slash command 是用户主动触发的，比如 /init 之类 Skills 是由 Agent 自主调用的，它会检查 Skills 列表，看当前任务是不是要用 Skill，以及该用哪个 Skill。 当然 Skill 也可以当 slash command 用\n\nCanonical URL: https://x.com/dotey/status/2036674840103448909",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Skills",
+      "Agent",
+      "Skill",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "问：在什么情况下应该用 slash command？什么情况下应该用skill呢？ 答：slash command 是用户主动触发的，比如 /init 之类 Skills 是由 Agent 自主调用的，它会检查 Skills 列表，看当前任务是不是要用 Skill，以及该用哪个 Skill。 当然 Skill 也可以当 slash command 用",
+      "Skills",
+      "Agent",
+      "Skill",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

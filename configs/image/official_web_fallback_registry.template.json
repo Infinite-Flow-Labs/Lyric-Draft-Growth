@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "description": "Optional fallback registry for official web/newsletter feeds. Used only after autodiscovery candidates are attempted.",
+  "source_group": {
+    "group_id": "official_web_fallback_v1",
+    "enabled": true,
+    "source_family": "official_web",
+    "source_type": "blog_or_newsletter",
+    "priority": "P0",
+    "discovery_channel": "fallback_feed_url",
+    "fetch_mode": "discover_then_fulltext",
+    "fetcher": "web_feed_autodiscovery",
+    "items": [
+      {
+        "site_id": "example_vendor",
+        "label": "Example Vendor",
+        "feed_url": "https://example.com/blog/feed.xml",
+        "candidate_feed_urls": [
+          "https://example.com/blog/feed",
+          "https://example.com/blog/rss.xml"
+        ]
+      }
+    ]
+  }
+}

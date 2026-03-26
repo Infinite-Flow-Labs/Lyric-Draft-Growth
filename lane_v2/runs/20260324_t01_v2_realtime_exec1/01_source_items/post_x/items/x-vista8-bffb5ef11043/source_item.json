@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-vista8-bffb5ef11043",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/vista8/status/2036085806805418084",
+  "author": {
+    "handle": "@vista8",
+    "display_name": "vista8",
+    "account_url": "https://x.com/vista8"
+  },
+  "title": "新版Claude Code缓存命中有问题，如用第三方中转API，会多花很多冤枉钱。 建议降级到 2.1.77版本。 卸载之前的版本 npm uninstall -g @anthropic-ai/claude-code 然后再安装 npm i -g @anthropic-ai/claude-code@2.1.77 如果运行npm慢，可以用pnpm安装，快很多。",
+  "language": "unknown",
+  "published_at": "2026-03-23T14:20:59Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/vista8/status/2036085806805418084",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/vista8/status/2036085806805418084#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "新版Claude Code缓存命中有问题，如用第三方中转API，会多花很多冤枉钱。 建议降级到 2.1.77版本。 卸载之前的版本 npm uninstall -g @anthropic -ai/claude-code 然后再安装 npm i -g @anthropic -ai/claude-code@2.1.77 如果运行npm慢，可以用pnpm安装，快很多。",
+    "full_text": "Post title: 新版Claude Code缓存命中有问题，如用第三方中转API，会多花很多冤枉钱。 建议降级到 2.1.77版本。 卸载之前的版本 npm uninstall -g @anthropic-ai/claude-code 然后再安装 npm i -g @anthropic-ai/claude-code@2.1.77 如果运行npm慢，可以用pnpm安装，快很多。\n\nPost summary: 新版Claude Code缓存命中有问题，如用第三方中转API，会多花很多冤枉钱。 建议降级到 2.1.77版本。 卸载之前的版本 npm uninstall -g @anthropic -ai/claude-code 然后再安装 npm i -g @anthropic -ai/claude-code@2.1.77 如果运行npm慢，可以用pnpm安装，快很多。\n\nCanonical URL: https://x.com/vista8/status/2036085806805418084",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "新版Claude Code缓存命中有问题，如用第三方中转API，会多花很多冤枉钱。 建议降级到 2.1.77版本。 卸载之前的版本 npm uninstall -g @anthropic-ai/claude-code 然后再安装 npm i -g @anthropic-ai/claude-code@2.1.77 如果运行npm慢，可以用pnpm安装，快很多。",
+      "新版Claude Code缓存命中有问题，如用第三方中转API，会多花很多冤枉钱。 建议降级到 2.1.77版本。 卸载之前的版本 npm uninstall -g @anthropic -ai/claude-code 然后再安装 npm i -g @anthropic -ai/claude-code@2.1.77 如果运行npm慢，可以用pnpm安装，快很多。",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

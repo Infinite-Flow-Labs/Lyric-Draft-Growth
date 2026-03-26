@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-ai_jasonyu-aa3c0e3370d8",
+  "event_seed_signal_id": "x-ai_jasonyu-aa3c0e3370d8",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "树姐这篇香港电话卡手机号的文章，把香港可以办理的手机号几乎都涵盖了，怎么选择很清楚，必收藏！ 关于国行手机如何使用esim，如何选择实体eaim卡，也可以看看我之前的这篇https://x.com/ai_jasonyu/status/2012176019206320507?s=46",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 40.48,
+  "heat_breakdown": {
+    "volume_score": 29.8,
+    "velocity_score": 43.21,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "eva",
+  "cluster_signal_ids": [
+    "x-ai_jasonyu-aa3c0e3370d8"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/AI_Jasonyu/status/2035954588575035881",
+    "published_at": "2026-03-23T05:39:34Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 6
+  }
+}

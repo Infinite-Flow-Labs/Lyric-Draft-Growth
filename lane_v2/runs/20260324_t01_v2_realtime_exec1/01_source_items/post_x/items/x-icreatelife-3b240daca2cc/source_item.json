@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-icreatelife-3b240daca2cc",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/icreatelife/status/2035179376187146374",
+  "author": {
+    "handle": "@icreatelife",
+    "display_name": "icreatelife",
+    "account_url": "https://x.com/icreatelife"
+  },
+  "title": "A rose a day, reminds the heart to stay. Share yours 🌹",
+  "language": "unknown",
+  "published_at": "2026-03-21T02:19:09Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/icreatelife/status/2035179376187146374",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/icreatelife/status/2035179376187146374#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "A rose a day, reminds the heart to stay. Share yours 🌹 Justin (@OneStepCol) A rose a day, reminds the heart to stay. Share yours. 🌹 — https://nitter.net/OneStepCol/status/2035077554248483073#m",
+    "full_text": "Post title: A rose a day, reminds the heart to stay. Share yours 🌹\n\nPost summary: A rose a day, reminds the heart to stay. Share yours 🌹 Justin (@OneStepCol) A rose a day, reminds the heart to stay. Share yours. 🌹 — https://nitter.net/OneStepCol/status/2035077554248483073#m\n\nCanonical URL: https://x.com/icreatelife/status/2035179376187146374",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Share",
+      "Justin",
+      "OneStepCol",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "A rose a day, reminds the heart to stay. Share yours 🌹",
+      "A rose a day, reminds the heart to stay. Share yours 🌹 Justin (@OneStepCol) A rose a day, reminds the heart to stay. Share yours. 🌹 — https://nitter.net/OneStepCol/status/2035077554248483073#m",
+      "Share",
+      "Justin",
+      "OneStepCol",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

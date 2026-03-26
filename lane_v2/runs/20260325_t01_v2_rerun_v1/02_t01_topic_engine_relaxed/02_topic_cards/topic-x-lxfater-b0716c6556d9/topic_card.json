@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-lxfater-b0716c6556d9",
+  "event_seed_signal_id": "x-lxfater-b0716c6556d9",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡",
+  "why_now": "Clustered 12 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 89.41,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 99.43,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "agent::更新",
+  "cluster_signal_ids": [
+    "x-lxfater-b0716c6556d9",
+    "x-dotey-d070f398f9a3",
+    "x-oran_ge-8d32018ec101",
+    "x-dotey-880a427e71d8",
+    "x-oran_ge-436f228c7ce4",
+    "x-ericciarla-feeab30096a6",
+    "x-berryxia-ad0c7ce77366",
+    "x-ai_jasonyu-3d59624b665e",
+    "x-ai_jasonyu-939ab91dc2b5",
+    "x-idoubicc-41f0260548a9",
+    "x-kasong2048-64b9ca9dd22d",
+    "x-kasong2048-99c3f1a02c37"
+  ],
+  "source_families": [
+    "article_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/lxfater/status/2036704748779524577",
+    "published_at": "2026-03-25T07:20:26Z",
+    "release_signals_count": 5,
+    "fact_candidates_count": 138
+  }
+}

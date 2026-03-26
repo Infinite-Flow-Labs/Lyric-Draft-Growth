@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-vista8-7dfb802d47c0",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/vista8/status/2036588220738400664",
+  "author": {
+    "handle": "@vista8",
+    "display_name": "vista8",
+    "account_url": "https://x.com/vista8"
+  },
+  "title": "Claude Code 新功能：自动模式。 不用挨个批准文件写入和 bash 命令。 也区别于完全跳过权限检测： 自动模式让 Claude 自己做出权限决策。 现在已经在 Team 计划上作为研究预览版提供。 企业版和 API 访问未来几天内陆续推出。 用 claude --enable-auto-mode 启用，然后使用 Shift+Tab 切换选中。 了解更多：http://claude.com/product/claude…",
+  "language": "unknown",
+  "published_at": "2026-03-24T23:37:24Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/vista8/status/2036588220738400664",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/vista8/status/2036588220738400664#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Claude Code 新功能：自动模式。 不用挨个批准文件写入和 bash 命令。 也区别于完全跳过权限检测： 自动模式让 Claude 自己做出权限决策。 现在已经在 Team 计划上作为研究预览版提供。 企业版和 API 访问未来几天内陆续推出。 用 claude --enable-auto-mode 启用，然后使用 Shift+Tab 切换选中。 了解更多： claude.com/product/claude … Claude (@claudeai) New in Claude Code: auto mode. Instead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make permission decisions on your behalf. Safeguards check each action before it runs. Video — https://nitter.net/claudeai/status/2036503582166393240#m",
+    "full_text": "Post title: Claude Code 新功能：自动模式。 不用挨个批准文件写入和 bash 命令。 也区别于完全跳过权限检测： 自动模式让 Claude 自己做出权限决策。 现在已经在 Team 计划上作为研究预览版提供。 企业版和 API 访问未来几天内陆续推出。 用 claude --enable-auto-mode 启用，然后使用 Shift+Tab 切换选中。 了解更多：http://claude.com/product/claude…\n\nPost summary: Claude Code 新功能：自动模式。 不用挨个批准文件写入和 bash 命令。 也区别于完全跳过权限检测： 自动模式让 Claude 自己做出权限决策。 现在已经在 Team 计划上作为研究预览版提供。 企业版和 API 访问未来几天内陆续推出。 用 claude --enable-auto-mode 启用，然后使用 Shift+Tab 切换选中。 了解更多： claude.com/product/claude … Claude (@claudeai) New in Claude Code: auto mode. Instead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make permission decisions on your behalf. Safeguards check each action before it runs. Video — https://nitter.net/claudeai/status/2036503582166393240#m\n\nCanonical URL: https://x.com/vista8/status/2036588220738400664",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Claude Code",
+      "Claude",
+      "Team",
+      "API",
+      "Shift",
+      "Tab",
+      "New",
+      "Instead",
+      "Safeguards",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Claude Code 新功能：自动模式。 不用挨个批准文件写入和 bash 命令。 也区别于完全跳过权限检测： 自动模式让 Claude 自己做出权限决策。 现在已经在 Team 计划上作为研究预览版提供。 企业版和 API 访问未来几天内陆续推出。 用 claude --enable-auto-mode 启用，然后使用 Shift+Tab 切换选中。 了解更多：http://claude.com/product/claude…",
+      "Claude Code 新功能：自动模式。 不用挨个批准文件写入和 bash 命令。 也区别于完全跳过权限检测： 自动模式让 Claude 自己做出权限决策。 现在已经在 Team 计划上作为研究预览版提供。 企业版和 API 访问未来几天内陆续推出。 用 claude --enable-auto-mode 启用，然后使用 Shift+Tab 切换选中。 了解更多： claude.com/product/claude … Claude (@claudeai) New in Claude Code: auto mode. Instead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make permission decisions on your behalf. Safeguards check each action before it runs. Video — https://nitter.net/claudeai/status/2036503582166393240#m",
+      "Claude Code",
+      "Claude",
+      "Team",
+      "API",
+      "Shift",
+      "Tab",
+      "New",
+      "Instead",
+      "Safeguards",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

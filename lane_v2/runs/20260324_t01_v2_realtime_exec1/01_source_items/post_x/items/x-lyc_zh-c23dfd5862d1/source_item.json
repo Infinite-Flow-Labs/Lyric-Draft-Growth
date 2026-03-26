@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lyc_zh-c23dfd5862d1",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lyc_zh/status/2033892875650666511",
+  "author": {
+    "handle": "@lyc_zh",
+    "display_name": "lyc_zh",
+    "account_url": "https://x.com/lyc_zh"
+  },
+  "title": "市场份额从 100% 掉到 67.6%，听起来很惨。 但数字背后：过去两周 OpenClaw 自己加了 72k stars，其他所有竞争对手加起来 38k。 份额在缩，但绝对领先在扩大。 这不是衰退，是市场在从零到有。赢家通吃的阶段还没到，但 OpenClaw 的护城河已经在这里了。",
+  "language": "unknown",
+  "published_at": "2026-03-17T13:07:04Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lyc_zh/status/2033892875650666511",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lyc_zh/status/2033892875650666511#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "市场份额从 100% 掉到 67.6%，听起来很惨。 但数字背后：过去两周 OpenClaw 自己加了 72k stars，其他所有竞争对手加起来 38k。 份额在缩，但绝对领先在扩大。 这不是衰退，是市场在从零到有。赢家通吃的阶段还没到，但 OpenClaw 的护城河已经在这里了。 Chrys Bader (@chrysb) openclaw ecosystem market report, march 15th: @openclaw dropped from 100% to 69% market share between jan and mar 1. since then it's drifted slightly to 67.6%. but the drift is deceptive. @openclaw added 72k stars in the last 2 weeks. everyone else combined added 38k. openclaw is accelerating in absolute terms, but so is the competition: 1️⃣ hermes is the breakout ( @NousResearch ). v0.2.0 dropped mar 12 and stars nearly doubled in 3 days. +228% in the last week, 28 daily contributors, 263 commits in a single day. accelerating, not cooling. 2️⃣ ironclaw was the breakout two weeks ago (+155% mar 1-15) but is now decelerating. +33% last week vs +92% the week before. still growing, momentum has shifted. 3️⃣ @openfangg went from 1 star to 14.5k in under 3 weeks. cooling now but still the fastest entrance the ecosystem has seen. 4️⃣ @zeroclawlabs launch spike (1.2k to 16.4k in one week) has normalized. classic hype curve. 5️⃣ the long tail is dying. @TinyClawAI flatlined, nanoclaw and picoclaw decelerating. the ecosystem is consolidating around openclaw + 2-3 real challengers. zooming out: the total ecosystem hit 458k stars, up from near zero in late jan. but the growth rate peaked at ~13k stars/day around mar 8 and has dropped to ~3k/day this week. the initial wave that lifted everything is fading. beware the ides of march! source: clawcharts.com — https://nitter.net/chrysb/status/2033326586813165967#m",
+    "full_text": "Post title: 市场份额从 100% 掉到 67.6%，听起来很惨。 但数字背后：过去两周 OpenClaw 自己加了 72k stars，其他所有竞争对手加起来 38k。 份额在缩，但绝对领先在扩大。 这不是衰退，是市场在从零到有。赢家通吃的阶段还没到，但 OpenClaw 的护城河已经在这里了。\n\nPost summary: 市场份额从 100% 掉到 67.6%，听起来很惨。 但数字背后：过去两周 OpenClaw 自己加了 72k stars，其他所有竞争对手加起来 38k。 份额在缩，但绝对领先在扩大。 这不是衰退，是市场在从零到有。赢家通吃的阶段还没到，但 OpenClaw 的护城河已经在这里了。 Chrys Bader (@chrysb) openclaw ecosystem market report, march 15th: @openclaw dropped from 100% to 69% market share between jan and mar 1. since then it's drifted slightly to 67.6%. but the drift is deceptive. @openclaw added 72k stars in the last 2 weeks. everyone else combined added 38k. openclaw is accelerating in absolute terms, but so is the competition: 1️⃣ hermes is the breakout ( @NousResearch ). v0.2.0 dropped mar 12 and stars nearly doubled in 3 days. +228% in the last week, 28 daily contributors, 263 commits in a single day. accelerating, not cooling. 2️⃣ ironclaw was the breakout two weeks ago (+155% mar 1-15) but is now decelerating. +33% last week vs +92% the week before. still growing, momentum has shifted. 3️⃣ @openfangg went from 1 star to 14.5k in under 3 weeks. cooling now but still the fastest entrance the ecosystem has seen. 4️⃣ @zeroclawlabs launch spike (1.2k to 16.4k in one week) has normalized. classic hype curve. 5️⃣ the long tail is dying. @TinyClawAI flatlined, nanoclaw and picoclaw decelerating. the ecosystem is consolidating around openclaw + 2-3 real challengers. zooming out: the total ecosystem hit 458k stars, up from near zero in late jan. but the growth rate peaked at ~13k stars/day around mar 8 and has dropped to ~3k/day this week. the initial wave that lifted everything is fading. beware the ides of march! source: clawcharts.com — https://nitter.net/chrysb/status/2033326586813165967#m\n\nCanonical URL: https://x.com/lyc_zh/status/2033892875650666511",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch"
+    ],
+    "metric_signals": [
+      "100%",
+      "67.6%",
+      "72k",
+      "38k",
+      "69%",
+      "228%",
+      "155%",
+      "33%",
+      "92%",
+      "14.5k",
+      "1.2k",
+      "16.4k",
+      "458k",
+      "13k",
+      "3k"
+    ],
+    "named_entities": [
+      "OpenClaw",
+      "Chrys Bader",
+      "NousResearch",
+      "TinyClawAI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "comparison"
+    ],
+    "fact_anchors": [
+      "市场份额从 100% 掉到 67.6%，听起来很惨。 但数字背后：过去两周 OpenClaw 自己加了 72k stars，其他所有竞争对手加起来 38k。 份额在缩，但绝对领先在扩大。 这不是衰退，是市场在从零到有。赢家通吃的阶段还没到，但 OpenClaw 的护城河已经在这里了。",
+      "市场份额从 100% 掉到 67.6%，听起来很惨。 但数字背后：过去两周 OpenClaw 自己加了 72k stars，其他所有竞争对手加起来 38k。 份额在缩，但绝对领先在扩大。 这不是衰退，是市场在从零到有。赢家通吃的阶段还没到，但 OpenClaw 的护城河已经在这里了。 Chrys Bader (@chrysb) openclaw ecosystem market report, march 15th: @openclaw dropped from 100% to 69% market share between jan and mar 1. since then it's drifted slightly to 67.6%. but the drift is deceptive. @openclaw added 72k stars in the last 2 weeks. everyone else combined added 38k. openclaw is accelerating in absolute terms, but so is the competition: 1️⃣ hermes is the breakout ( @NousResearch ). v0.2.0 dropped mar 12 and stars nearly doubled in 3 days. +228% in the last week, 28 daily contributors, 263 commits in a single day. accelerating, not cooling. 2️⃣ ironclaw was the breakout two weeks ago (+155% mar 1-15) but is now decelerating. +33% last week vs +92% the week before. still growing, momentum has shifted. 3️⃣ @openfangg went from 1 star to 14.5k in under 3 weeks. cooling now but still the fastest entrance the ecosystem has seen. 4️⃣ @zeroclawlabs launch spike (1.2k to 16.4k in one week) has normalized. classic hype curve. 5️⃣ the long tail is dying. @TinyClawAI flatlined, nanoclaw and picoclaw decelerating. the ecosystem is consolidating around openclaw + 2-3 real challengers. zooming out: the total ecosystem hit 458k stars, up from near zero in late jan. but the growth rate peaked at ~13k stars/day around mar 8 and has dropped to ~3k/day this week. the initial wave that lifted everything is fading. beware the ides of march! source: clawcharts.com — https://nitter.net/chrysb/status/2033326586813165967#m",
+      "launch",
+      "100%",
+      "67.6%",
+      "72k",
+      "38k",
+      "69%",
+      "228%",
+      "155%",
+      "33%",
+      "92%",
+      "14.5k",
+      "1.2k",
+      "16.4k",
+      "OpenClaw",
+      "Chrys Bader",
+      "NousResearch",
+      "TinyClawAI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

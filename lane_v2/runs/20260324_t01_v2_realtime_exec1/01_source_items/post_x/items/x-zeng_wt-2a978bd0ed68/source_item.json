@@ -1,0 +1,102 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-zeng_wt-2a978bd0ed68",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/zeng_wt/status/2036295960322854972",
+  "author": {
+    "handle": "@zeng_wt",
+    "display_name": "zeng_wt",
+    "account_url": "https://x.com/zeng_wt"
+  },
+  "title": "Finally. Official Seedance 2.0 is live on Dreamina AI now.🔥",
+  "language": "unknown",
+  "published_at": "2026-03-24T04:16:04Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/zeng_wt/status/2036295960322854972",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/zeng_wt/status/2036295960322854972#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Finally. Official Seedance 2.0 is live on Dreamina AI now.🔥 Dreamina AI (@dreamina_ai) Finally here! Dreamina Seedance 2.0 and Seedream 5.0 Lite are Now Available on Dreamina AI We're excited to introduce our latest models, which are built for deeper control and broader creative possibilities. What Makes Dreamina Seedance 2.0 Exceptional? → Multimodal video model → Reference with image, video, and text inputs → Ultimate consistency across multiple scenes → More expressive, more controllable Create images with Seedream 5.0 Lite → Real-time world knowledge → Follows your prompts, delivers precise results → Upgraded visual expression We are gradually rolling out Dreamina Seedance 2.0 and Seedream 5.0 Lite to our community over the coming days. Hang tight if you don't see it yet and check back soon. Try it now: dreamina.capcut.com/ai-tool/… #DreaminaSeedance2 #DreaminaAI #Seedream5Lite #Seedance2 Video — https://nitter.net/dreamina_ai/status/2036292154671374493#m",
+    "full_text": "Post title: Finally. Official Seedance 2.0 is live on Dreamina AI now.🔥\n\nPost summary: Finally. Official Seedance 2.0 is live on Dreamina AI now.🔥 Dreamina AI (@dreamina_ai) Finally here! Dreamina Seedance 2.0 and Seedream 5.0 Lite are Now Available on Dreamina AI We're excited to introduce our latest models, which are built for deeper control and broader creative possibilities. What Makes Dreamina Seedance 2.0 Exceptional? → Multimodal video model → Reference with image, video, and text inputs → Ultimate consistency across multiple scenes → More expressive, more controllable Create images with Seedream 5.0 Lite → Real-time world knowledge → Follows your prompts, delivers precise results → Upgraded visual expression We are gradually rolling out Dreamina Seedance 2.0 and Seedream 5.0 Lite to our community over the coming days. Hang tight if you don't see it yet and check back soon. Try it now: dreamina.capcut.com/ai-tool/… #DreaminaSeedance2 #DreaminaAI #Seedream5Lite #Seedance2 Video — https://nitter.net/dreamina_ai/status/2036292154671374493#m\n\nCanonical URL: https://x.com/zeng_wt/status/2036295960322854972",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "now available"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Finally",
+      "Official Seedance",
+      "Dreamina AI",
+      "Dreamina Seedance",
+      "Seedream",
+      "Lite",
+      "Now Available",
+      "Dreamina AI We",
+      "What Makes Dreamina Seedance",
+      "Exceptional",
+      "Multimodal",
+      "Reference",
+      "Ultimate",
+      "More",
+      "Create",
+      "Real",
+      "Follows",
+      "Upgraded",
+      "We",
+      "Hang",
+      "Try",
+      "DreaminaSeedance2",
+      "DreaminaAI",
+      "Seedream5Lite",
+      "Seedance2 Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Finally. Official Seedance 2.0 is live on Dreamina AI now.🔥",
+      "Finally. Official Seedance 2.0 is live on Dreamina AI now.🔥 Dreamina AI (@dreamina_ai) Finally here! Dreamina Seedance 2.0 and Seedream 5.0 Lite are Now Available on Dreamina AI We're excited to introduce our latest models, which are built for deeper control and broader creative possibilities. What Makes Dreamina Seedance 2.0 Exceptional? → Multimodal video model → Reference with image, video, and text inputs → Ultimate consistency across multiple scenes → More expressive, more controllable Create images with Seedream 5.0 Lite → Real-time world knowledge → Follows your prompts, delivers precise results → Upgraded visual expression We are gradually rolling out Dreamina Seedance 2.0 and Seedream 5.0 Lite to our community over the coming days. Hang tight if you don't see it yet and check back soon. Try it now: dreamina.capcut.com/ai-tool/… #DreaminaSeedance2 #DreaminaAI #Seedream5Lite #Seedance2 Video — https://nitter.net/dreamina_ai/status/2036292154671374493#m",
+      "now available",
+      "Finally",
+      "Official Seedance",
+      "Dreamina AI",
+      "Dreamina Seedance",
+      "Seedream",
+      "Lite",
+      "Now Available",
+      "Dreamina AI We",
+      "What Makes Dreamina Seedance",
+      "Exceptional",
+      "Multimodal",
+      "Reference",
+      "Ultimate",
+      "More",
+      "Create",
+      "Real"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lijigang-e76001651481",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lijigang/status/2036463085326905538",
+  "author": {
+    "handle": "@lijigang",
+    "display_name": "lijigang",
+    "account_url": "https://x.com/lijigang"
+  },
+  "title": "https://github.com/lijigang/ljg-skills 把「圆桌讨论」的skill 也添加进来了，以后归拢一下，把日常使用比较成熟的skill 都放在这个repo。",
+  "language": "unknown",
+  "published_at": "2026-03-24T15:20:09Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lijigang/status/2036463085326905538",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lijigang/status/2036463085326905538#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "github.com/lijigang/ljg-skil… 把「圆桌讨论」的skill 也添加进来了，以后归拢一下，把日常使用比较成熟的skill 都放在这个repo。",
+    "full_text": "Post title: https://github.com/lijigang/ljg-skills 把「圆桌讨论」的skill 也添加进来了，以后归拢一下，把日常使用比较成熟的skill 都放在这个repo。\n\nPost summary: github.com/lijigang/ljg-skil… 把「圆桌讨论」的skill 也添加进来了，以后归拢一下，把日常使用比较成熟的skill 都放在这个repo。\n\nCanonical URL: https://x.com/lijigang/status/2036463085326905538",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "https://github.com/lijigang/ljg-skills 把「圆桌讨论」的skill 也添加进来了，以后归拢一下，把日常使用比较成熟的skill 都放在这个repo。",
+      "github.com/lijigang/ljg-skil… 把「圆桌讨论」的skill 也添加进来了，以后归拢一下，把日常使用比较成熟的skill 都放在这个repo。",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

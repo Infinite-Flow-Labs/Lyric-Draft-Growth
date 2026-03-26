@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-pmbackttfuture-1b2390c4ed51",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/PMbackttfuture/status/2035279048562413903",
+  "author": {
+    "handle": "@PMbackttfuture",
+    "display_name": "PMbackttfuture",
+    "account_url": "https://x.com/PMbackttfuture"
+  },
+  "title": "OPC出门就一个包 给大家分享我出门/出差包里都装什么 这些迭代了好几个版本 现在我很满意 x友们还有啥好东西多多推荐🙏",
+  "language": "unknown",
+  "published_at": "2026-03-21T08:55:13Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/PMbackttfuture/status/2035279048562413903",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/PMbackttfuture/status/2035279048562413903#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "OPC出门就一个包 给大家分享我出门/出差包里都装什么 这些迭代了好几个版本 现在我很满意 x友们还有啥好东西多多推荐🙏 Video",
+    "full_text": "Post title: OPC出门就一个包 给大家分享我出门/出差包里都装什么 这些迭代了好几个版本 现在我很满意 x友们还有啥好东西多多推荐🙏\n\nPost summary: OPC出门就一个包 给大家分享我出门/出差包里都装什么 这些迭代了好几个版本 现在我很满意 x友们还有啥好东西多多推荐🙏 Video\n\nCanonical URL: https://x.com/PMbackttfuture/status/2035279048562413903",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "PMbackttfuture"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "OPC出门就一个包 给大家分享我出门/出差包里都装什么 这些迭代了好几个版本 现在我很满意 x友们还有啥好东西多多推荐🙏",
+      "OPC出门就一个包 给大家分享我出门/出差包里都装什么 这些迭代了好几个版本 现在我很满意 x友们还有啥好东西多多推荐🙏 Video",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "PMbackttfuture"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

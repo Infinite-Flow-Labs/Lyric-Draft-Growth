@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ivanfioravanti-5a6e9c0f3804",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ivanfioravanti/status/2036485525905736155",
+  "author": {
+    "handle": "@ivanfioravanti",
+    "display_name": "ivanfioravanti",
+    "account_url": "https://x.com/ivanfioravanti"
+  },
+  "title": "M5 is really a big jump from architectural perspective for Apple Silicon! Accelerate your machine learning workloads with the M5 and A19 GPUs is a great video showing this!",
+  "language": "unknown",
+  "published_at": "2026-03-24T16:49:20Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ivanfioravanti/status/2036485525905736155",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ivanfioravanti/status/2036485525905736155#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "M5 is really a big jump from architectural perspective for Apple Silicon! Accelerate your machine learning workloads with the M5 and A19 GPUs is a great video showing this!",
+    "full_text": "Post title: M5 is really a big jump from architectural perspective for Apple Silicon! Accelerate your machine learning workloads with the M5 and A19 GPUs is a great video showing this!\n\nPost summary: M5 is really a big jump from architectural perspective for Apple Silicon! Accelerate your machine learning workloads with the M5 and A19 GPUs is a great video showing this!\n\nCanonical URL: https://x.com/ivanfioravanti/status/2036485525905736155",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "M5",
+      "Apple Silicon",
+      "Accelerate",
+      "A19 GPUs",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "M5 is really a big jump from architectural perspective for Apple Silicon! Accelerate your machine learning workloads with the M5 and A19 GPUs is a great video showing this!",
+      "M5",
+      "Apple Silicon",
+      "Accelerate",
+      "A19 GPUs",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

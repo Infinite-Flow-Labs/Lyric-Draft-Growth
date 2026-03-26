@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T04:07:52Z",
+  "backend": "codex_cli",
+  "writer_packet_root": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/t01_topic_engine/06_writer_packets/topic-x-anthropicai-ae4cd058b090/writer_packet.json",
+  "out_root": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_regen_one_v2",
+  "output_language": "zh-CN",
+  "count": 1,
+  "ok_count": 1,
+  "schema_error_count": 0,
+  "blocked_humanizer_gate_count": 0,
+  "skipped_human_review_count": 0,
+  "skipped_not_ready_count": 0,
+  "self_improving_observe_ok_count": 1,
+  "self_improving_observe_error_count": 0,
+  "results": [
+    {
+      "topic_id": "topic-x-anthropicai-ae4cd058b090",
+      "status": "ok",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "framework_spec_ref": "/home/lyric/growth-engine-pipeline/framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "output_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_regen_one_v2/topic-x-anthropicai-ae4cd058b090/article_draft.json",
+      "output_md": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_regen_one_v2/topic-x-anthropicai-ae4cd058b090/article_draft.md",
+      "validation_error": null,
+      "source_load_errors": [],
+      "rewrote_for_humanizer_gate": true,
+      "humanizer_smell_report": {
+        "not_but": 0,
+        "not_only_but_also": 0,
+        "formula_sequence": 0,
+        "connector_density": 2,
+        "promo_lexicon": 0,
+        "vague_attribution": 0,
+        "emoji_count": 0,
+        "em_dash_count": 0,
+        "bold_span_count": 0
+      },
+      "prompt_metrics": {
+        "user_prompt_total_chars": 53386,
+        "framework_spec_full_json_chars": 14629,
+        "topic_card_chars": 1816,
+        "primary_source_packet_chars": 2302,
+        "source_bundle_packet_chars": 5481,
+        "source_materials_packet_chars": 8713,
+        "style_profiles_packet_chars": 1432,
+        "sample_moves_layer_packet_chars": 2436,
+        "article_quality_contract_chars": 4108,
+        "t01_signal_boost_applied": true,
+        "selected_sample_refs_count": 2
+      },
+      "self_improving_observe": {
+        "status": "ok",
+        "content_hash": "aa795487",
+        "stdout": "✅ 记录原稿: aa795487 📝 字数: 2586 📁 日志: /home/lyric/growth-engine-pipeline/lane_v2/runs/self_improving_logs/2026-03-25.jsonl"
+      }
+    }
+  ]
+}

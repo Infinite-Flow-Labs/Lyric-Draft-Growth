@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lxfater-f4506a45e139",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lxfater/status/2035741034261647609",
+  "author": {
+    "handle": "@lxfater",
+    "display_name": "lxfater",
+    "account_url": "https://x.com/lxfater"
+  },
+  "title": "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需",
+  "language": "unknown",
+  "published_at": "2026-03-22T15:30:59Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lxfater/status/2035741034261647609",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lxfater/status/2035741034261647609#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需 铁锤人 (@lxfater) x.com/i/article/202703675950… — https://nitter.net/lxfater/status/2035674347470537012#m",
+    "full_text": "Post title: Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需\n\nPost summary: Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需 铁锤人 (@lxfater) x.com/i/article/202703675950… — https://nitter.net/lxfater/status/2035674347470537012#m\n\nCanonical URL: https://x.com/lxfater/status/2035741034261647609",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需",
+      "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需 铁锤人 (@lxfater) x.com/i/article/202703675950… — https://nitter.net/lxfater/status/2035674347470537012#m",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

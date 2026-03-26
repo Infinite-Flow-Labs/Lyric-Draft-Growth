@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-oran_ge-12429de9273d",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/oran_ge/status/2035167269698027981",
+  "author": {
+    "handle": "@oran_ge",
+    "display_name": "oran_ge",
+    "account_url": "https://x.com/oran_ge"
+  },
+  "title": "谢赛宁推荐的这本《交大生存手册》太有意思了",
+  "language": "unknown",
+  "published_at": "2026-03-21T01:31:03Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/oran_ge/status/2035167269698027981",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/oran_ge/status/2035167269698027981#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "谢赛宁推荐的这本《交大生存手册》太有意思了",
+    "full_text": "Post title: 谢赛宁推荐的这本《交大生存手册》太有意思了\n\nPost summary: 谢赛宁推荐的这本《交大生存手册》太有意思了\n\nCanonical URL: https://x.com/oran_ge/status/2035167269698027981",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "谢赛宁推荐的这本《交大生存手册》太有意思了",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

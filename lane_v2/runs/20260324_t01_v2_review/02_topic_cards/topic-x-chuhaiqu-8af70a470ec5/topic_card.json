@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-chuhaiqu-8af70a470ec5",
+  "event_seed_signal_id": "x-chuhaiqu-8af70a470ec5",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "Om 最近分享了他用 10 分钟找到验证过的创业点子的完整流程，核心是用一个 Reddit MCP 工具把「读抱怨」这件事自动化。 先是选对圈子。直接扎进具体行业的 subreddit（越细分，痛点越具体），比如 r/smallbusiness、r/freelance、r/marketing 然后用 MCP 抓取真实抱怨。让 AI 去搜「complaints about project management tools」「wish there was a tool」 把带情绪的帖子全拉下来。你不是在看总结，是在读 50 个陌生人描述的同一个烦恼。 接下来让 AI 做交叉验证。找出在 5 个以上不同帖子中出现的重复痛点，这才是真需求。再看这些人现在用什么工具、付多少钱、对现有方案哪里不满。 最后直接 DM 那些发帖抱怨的人。他们就是你的前 50 个种子用户，已经明确告诉你需求的人，转化率极高。 这套流程的本质是用系统代替灵感，让真实的市场信号告诉你该做什么。",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 53.94,
+  "heat_breakdown": {
+    "volume_score": 33.0,
+    "velocity_score": 92.54,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "reddit mcp",
+  "cluster_signal_ids": [
+    "x-chuhaiqu-8af70a470ec5"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/chuhaiqu/status/2036292931154485761",
+    "published_at": "2026-03-24T04:04:01Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 10
+  }
+}

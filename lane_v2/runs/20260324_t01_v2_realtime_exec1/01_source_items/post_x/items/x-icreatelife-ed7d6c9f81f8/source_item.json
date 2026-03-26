@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-icreatelife-ed7d6c9f81f8",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/icreatelife/status/2035161490827649144",
+  "author": {
+    "handle": "@icreatelife",
+    "display_name": "icreatelife",
+    "account_url": "https://x.com/icreatelife"
+  },
+  "title": "It's always a Friday evening question: make another AI animation or play Pokopia. Usually AI animation wins. Saturday is the best day to go viral, because I assume everyone plays Pokopia 😅 and I have to admit, I am very close to doing the same today.",
+  "language": "unknown",
+  "published_at": "2026-03-21T01:08:05Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/icreatelife/status/2035161490827649144",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/icreatelife/status/2035161490827649144#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "It's always a Friday evening question: make another AI animation or play Pokopia. Usually AI animation wins. Saturday is the best day to go viral, because I assume everyone plays Pokopia 😅 and I have to admit, I am very close to doing the same today.",
+    "full_text": "Post title: It's always a Friday evening question: make another AI animation or play Pokopia. Usually AI animation wins. Saturday is the best day to go viral, because I assume everyone plays Pokopia 😅 and I have to admit, I am very close to doing the same today.\n\nPost summary: It's always a Friday evening question: make another AI animation or play Pokopia. Usually AI animation wins. Saturday is the best day to go viral, because I assume everyone plays Pokopia 😅 and I have to admit, I am very close to doing the same today.\n\nCanonical URL: https://x.com/icreatelife/status/2035161490827649144",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "It",
+      "Friday",
+      "AI",
+      "Pokopia",
+      "Usually AI",
+      "Saturday",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "It's always a Friday evening question: make another AI animation or play Pokopia. Usually AI animation wins. Saturday is the best day to go viral, because I assume everyone plays Pokopia 😅 and I have to admit, I am very close to doing the same today.",
+      "It",
+      "Friday",
+      "AI",
+      "Pokopia",
+      "Usually AI",
+      "Saturday",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

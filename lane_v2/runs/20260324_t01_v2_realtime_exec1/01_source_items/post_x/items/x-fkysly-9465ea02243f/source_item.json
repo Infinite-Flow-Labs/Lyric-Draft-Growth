@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-fkysly-9465ea02243f",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/fkysly/status/2035403469130199156",
+  "author": {
+    "handle": "@fkysly",
+    "display_name": "fkysly",
+    "account_url": "https://x.com/fkysly"
+  },
+  "title": "现在观察下来，AI 时代已经可以明确上一个结论是： AI 时代强者更强，自驱力、好奇心让强者跟弱者的差距变得更大。 换个概念说，以前没 AI，就像一张满分100分的卷子，强者再怎么强，也只能考100分，弱者60分也能凑合看，差距1倍。 但是有了 AI 之后，强者直接精力、效率拉满干到1000分，弱者只会浅浅搞到100分，差距变成10倍。 这里的强者不是说以前这人多厉害，而是这人心态上有多开放、好奇心有多大、执行力有多牛。所以 AI 确实看似平权了，弱者也能借助 AI 赶上来，但是事实上，“借助 AI” 着四个字反而是强者更感兴趣。 观察有感。",
+  "language": "unknown",
+  "published_at": "2026-03-21T17:09:37Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/fkysly/status/2035403469130199156",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/fkysly/status/2035403469130199156#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "现在观察下来，AI 时代已经可以明确上一个结论是： AI 时代强者更强，自驱力、好奇心让强者跟弱者的差距变得更大。 换个概念说，以前没 AI，就像一张满分100分的卷子，强者再怎么强，也只能考100分，弱者60分也能凑合看，差距1倍。 但是有了 AI 之后，强者直接精力、效率拉满干到1000分，弱者只会浅浅搞到100分，差距变成10倍。 这里的强者不是说以前这人多厉害，而是这人心态上有多开放、好奇心有多大、执行力有多牛。所以 AI 确实看似平权了，弱者也能借助 AI 赶上来，但是事实上，“借助 AI” 着四个字反而是强者更感兴趣。 观察有感。",
+    "full_text": "Post title: 现在观察下来，AI 时代已经可以明确上一个结论是： AI 时代强者更强，自驱力、好奇心让强者跟弱者的差距变得更大。 换个概念说，以前没 AI，就像一张满分100分的卷子，强者再怎么强，也只能考100分，弱者60分也能凑合看，差距1倍。 但是有了 AI 之后，强者直接精力、效率拉满干到1000分，弱者只会浅浅搞到100分，差距变成10倍。 这里的强者不是说以前这人多厉害，而是这人心态上有多开放、好奇心有多大、执行力有多牛。所以 AI 确实看似平权了，弱者也能借助 AI 赶上来，但是事实上，“借助 AI” 着四个字反而是强者更感兴趣。 观察有感。\n\nPost summary: 现在观察下来，AI 时代已经可以明确上一个结论是： AI 时代强者更强，自驱力、好奇心让强者跟弱者的差距变得更大。 换个概念说，以前没 AI，就像一张满分100分的卷子，强者再怎么强，也只能考100分，弱者60分也能凑合看，差距1倍。 但是有了 AI 之后，强者直接精力、效率拉满干到1000分，弱者只会浅浅搞到100分，差距变成10倍。 这里的强者不是说以前这人多厉害，而是这人心态上有多开放、好奇心有多大、执行力有多牛。所以 AI 确实看似平权了，弱者也能借助 AI 赶上来，但是事实上，“借助 AI” 着四个字反而是强者更感兴趣。 观察有感。\n\nCanonical URL: https://x.com/fkysly/status/2035403469130199156",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "现在观察下来，AI 时代已经可以明确上一个结论是： AI 时代强者更强，自驱力、好奇心让强者跟弱者的差距变得更大。 换个概念说，以前没 AI，就像一张满分100分的卷子，强者再怎么强，也只能考100分，弱者60分也能凑合看，差距1倍。 但是有了 AI 之后，强者直接精力、效率拉满干到1000分，弱者只会浅浅搞到100分，差距变成10倍。 这里的强者不是说以前这人多厉害，而是这人心态上有多开放、好奇心有多大、执行力有多牛。所以 AI 确实看似平权了，弱者也能借助 AI 赶上来，但是事实上，“借助 AI” 着四个字反而是强者更感兴趣。 观察有感。",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

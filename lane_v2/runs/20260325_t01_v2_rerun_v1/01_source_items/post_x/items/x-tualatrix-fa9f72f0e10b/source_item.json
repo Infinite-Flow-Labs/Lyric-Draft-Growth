@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-tualatrix-fa9f72f0e10b",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/tualatrix/status/2035898946552508675",
+  "author": {
+    "handle": "@tualatrix",
+    "display_name": "tualatrix",
+    "account_url": "https://x.com/tualatrix"
+  },
+  "title": "最近的天气太致郁了：空气污染+连绵阴雨。",
+  "language": "unknown",
+  "published_at": "2026-03-23T01:58:28Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/tualatrix/status/2035898946552508675",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/tualatrix/status/2035898946552508675#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "最近的天气太致郁了：空气污染+连绵阴雨。",
+    "full_text": "Post title: 最近的天气太致郁了：空气污染+连绵阴雨。\n\nPost summary: 最近的天气太致郁了：空气污染+连绵阴雨。\n\nCanonical URL: https://x.com/tualatrix/status/2035898946552508675",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "最近的天气太致郁了：空气污染+连绵阴雨。",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

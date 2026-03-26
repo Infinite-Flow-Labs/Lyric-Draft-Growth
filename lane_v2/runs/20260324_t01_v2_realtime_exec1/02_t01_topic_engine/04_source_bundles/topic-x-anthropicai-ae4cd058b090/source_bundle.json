@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-anthropicai-ae4cd058b090",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-anthropicai-ae4cd058b090",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/AnthropicAI/status/2036179042081317370",
+      "title": "Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: https://www.anthropic.com/research/introducing-anthropic-science",
+      "published_at": "2026-03-23T20:31:28Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-anthropicai-ae4cd058b090/source_item.json"
+    },
+    {
+      "signal_id": "x-elevenlabs-60024ac9dceb",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/ElevenLabs/status/2034651809554244048",
+      "title": "Introducing the Music Marketplace in @ElevenCreative. Creators, artists, and musicians can now publish and earn from their tracks created with our music model.",
+      "published_at": "2026-03-19T15:22:48Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-elevenlabs-60024ac9dceb/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-mistralai-7e47f9cf94f3",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/MistralAI/status/2034012031599427825",
+      "title": "Today, we’re introducing Forge, a system for enterprises to build frontier-grade AI models grounded in their proprietary knowledge. 🌎 Forge bridges the gap between generic AI and enterprise-specific needs. Instead of relying on broad, public data, organizations can train models that understand their internal context embedded within systems, workflows, and policies, aligning AI with their unique operations. We have already partnered with world-leading organizations, like ASML, DSO National Laboratories Singapore, Ericsson, European Space Agency, Home Team Science and Technology Agency (HTX) Singapore and Reply to train models on the proprietary data that powers their most complex systems and future-defining technologies.",
+      "published_at": "2026-03-17T21:00:33Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-mistralai-7e47f9cf94f3/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: https://www.anthropic.com/research/introducing-anthropic-science",
+      "source_url": "https://x.com/AnthropicAI/status/2036179042081317370",
+      "signal_id": "x-anthropicai-ae4cd058b090"
+    },
+    {
+      "claim": "Introducing the Anthropic Science Blog. Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work. Read the intro: anthropic.com/research/intro…",
+      "source_url": "https://x.com/AnthropicAI/status/2036179042081317370",
+      "signal_id": "x-anthropicai-ae4cd058b090"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "coverage_checks": {
+    "has_release_action": true,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": true,
+  "validity_gate": true,
+  "quality_tier": "B",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "ready_for_writer": true
+}

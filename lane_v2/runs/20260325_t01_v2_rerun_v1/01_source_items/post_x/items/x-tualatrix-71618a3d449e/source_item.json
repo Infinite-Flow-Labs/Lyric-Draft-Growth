@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-tualatrix-71618a3d449e",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/tualatrix/status/2035691233914560824",
+  "author": {
+    "handle": "@tualatrix",
+    "display_name": "tualatrix",
+    "account_url": "https://x.com/tualatrix"
+  },
+  "title": "修一台已经用了十多年的笔记本，原来那会 NVIDIA 就把 CUDA 招牌亮出来了。",
+  "language": "unknown",
+  "published_at": "2026-03-22T12:13:06Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/tualatrix/status/2035691233914560824",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/tualatrix/status/2035691233914560824#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "修一台已经用了十多年的笔记本，原来那会 NVIDIA 就把 CUDA 招牌亮出来了。",
+    "full_text": "Post title: 修一台已经用了十多年的笔记本，原来那会 NVIDIA 就把 CUDA 招牌亮出来了。\n\nPost summary: 修一台已经用了十多年的笔记本，原来那会 NVIDIA 就把 CUDA 招牌亮出来了。\n\nCanonical URL: https://x.com/tualatrix/status/2035691233914560824",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "NVIDIA",
+      "CUDA",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "修一台已经用了十多年的笔记本，原来那会 NVIDIA 就把 CUDA 招牌亮出来了。",
+      "NVIDIA",
+      "CUDA",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

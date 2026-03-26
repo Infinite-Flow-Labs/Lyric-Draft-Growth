@@ -1,0 +1,71 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-yoheinakajima-9cd2774a41f7",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/yoheinakajima/status/2034731606938984593",
+  "author": {
+    "handle": "@yoheinakajima",
+    "display_name": "yoheinakajima",
+    "account_url": "https://x.com/yoheinakajima"
+  },
+  "title": "slap an api on this for our agents",
+  "language": "unknown",
+  "published_at": "2026-03-19T20:39:53Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/yoheinakajima/status/2034731606938984593",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/yoheinakajima/status/2034731606938984593#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "slap an api on this for our agents Andy Fang (@andyfang) Introducing Dasher Tasks Dashers can now get paid to do general tasks. We think this will be huge for building the frontier of physical intelligence. Look forward to seeing where this goes! — https://nitter.net/andyfang/status/2034725410462998964#m",
+    "full_text": "Post title: slap an api on this for our agents\n\nPost summary: slap an api on this for our agents Andy Fang (@andyfang) Introducing Dasher Tasks Dashers can now get paid to do general tasks. We think this will be huge for building the frontier of physical intelligence. Look forward to seeing where this goes! — https://nitter.net/andyfang/status/2034725410462998964#m\n\nCanonical URL: https://x.com/yoheinakajima/status/2034731606938984593",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "introducing"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Andy Fang",
+      "Introducing Dasher Tasks Dashers",
+      "We",
+      "Look",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "slap an api on this for our agents",
+      "slap an api on this for our agents Andy Fang (@andyfang) Introducing Dasher Tasks Dashers can now get paid to do general tasks. We think this will be huge for building the frontier of physical intelligence. Look forward to seeing where this goes! — https://nitter.net/andyfang/status/2034725410462998964#m",
+      "introducing",
+      "Andy Fang",
+      "Introducing Dasher Tasks Dashers",
+      "We",
+      "Look",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

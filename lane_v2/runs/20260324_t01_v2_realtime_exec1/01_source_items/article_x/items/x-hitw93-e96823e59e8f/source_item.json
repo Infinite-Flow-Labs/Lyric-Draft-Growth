@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-hitw93-e96823e59e8f",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/HiTw93/status/2035114867611578797",
+  "author": {
+    "handle": "@HiTw93",
+    "display_name": "HiTw93",
+    "account_url": "https://x.com/HiTw93"
+  },
+  "title": "第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。",
+  "language": "unknown",
+  "published_at": "2026-03-20T22:02:49Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/HiTw93/status/2035114867611578797",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/HiTw93/status/2035114867611578797#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。 Tw93 (@HiTw93) x.com/i/article/203425351169… — https://nitter.net/HiTw93/status/2034627967926825175#m",
+    "full_text": "Post title: 第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。\n\nPost summary: 第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。 Tw93 (@HiTw93) x.com/i/article/203425351169… — https://nitter.net/HiTw93/status/2034627967926825175#m\n\nCanonical URL: https://x.com/HiTw93/status/2035114867611578797",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Ai",
+      "Agent",
+      "Harness",
+      "Context Rot",
+      "Skills",
+      "ACI",
+      "API",
+      "MEMORY",
+      "Tw93",
+      "HiTw93",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。",
+      "第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。 Tw93 (@HiTw93) x.com/i/article/203425351169… — https://nitter.net/HiTw93/status/2034627967926825175#m",
+      "Ai",
+      "Agent",
+      "Harness",
+      "Context Rot",
+      "Skills",
+      "ACI",
+      "API",
+      "MEMORY",
+      "Tw93",
+      "HiTw93",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

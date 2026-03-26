@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-zeng_wt-2b7448f2001b",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/zeng_wt/status/2036032243215503483",
+  "author": {
+    "handle": "@zeng_wt",
+    "display_name": "zeng_wt",
+    "account_url": "https://x.com/zeng_wt"
+  },
+  "title": "The Hailuo AI Workshop is FULL 🚀 Massive thank you to everyone who signed up. Your support and enthusiasm mean the world 💜 Can’t wait to dive in with you all on April 18 and create some seriously cool things together with Hailuo! See you soon~ 😉",
+  "language": "unknown",
+  "published_at": "2026-03-23T10:48:09Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/zeng_wt/status/2036032243215503483",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/zeng_wt/status/2036032243215503483#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "The Hailuo AI Workshop is FULL 🚀 Massive thank you to everyone who signed up. Your support and enthusiasm mean the world 💜 Can’t wait to dive in with you all on April 18 and create some seriously cool things together with Hailuo! See you soon~ 😉 Hailuo AI (MiniMax) (@Hailuo_AI) 🇲🇾Hailuo AI (MiniMax) Workshop - Kuala Lumpur The first Hailuo AI Workshop lands in Malaysia! Dive into an immersive hands-on experience with cutting-edge AI tools — for creators, filmmakers, designers and anyone ready to shape the future of visual storytelling. Let's build something cool together! 🕑Saturday, April 18, 2:00PM-8:30PM (GMT+8) 📍Locarasa Restaurant & Patisserie, Kuala Lumpur 🔗Request to Join &gt;&gt; luma.com/2gt3tjhg — https://nitter.net/Hailuo_AI/status/2030924669012853157#m",
+    "full_text": "Post title: The Hailuo AI Workshop is FULL 🚀 Massive thank you to everyone who signed up. Your support and enthusiasm mean the world 💜 Can’t wait to dive in with you all on April 18 and create some seriously cool things together with Hailuo! See you soon~ 😉\n\nPost summary: The Hailuo AI Workshop is FULL 🚀 Massive thank you to everyone who signed up. Your support and enthusiasm mean the world 💜 Can’t wait to dive in with you all on April 18 and create some seriously cool things together with Hailuo! See you soon~ 😉 Hailuo AI (MiniMax) (@Hailuo_AI) 🇲🇾Hailuo AI (MiniMax) Workshop - Kuala Lumpur The first Hailuo AI Workshop lands in Malaysia! Dive into an immersive hands-on experience with cutting-edge AI tools — for creators, filmmakers, designers and anyone ready to shape the future of visual storytelling. Let's build something cool together! 🕑Saturday, April 18, 2:00PM-8:30PM (GMT+8) 📍Locarasa Restaurant & Patisserie, Kuala Lumpur 🔗Request to Join &gt;&gt; luma.com/2gt3tjhg — https://nitter.net/Hailuo_AI/status/2030924669012853157#m\n\nCanonical URL: https://x.com/zeng_wt/status/2036032243215503483",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "The Hailuo AI Workshop",
+      "FULL",
+      "Massive",
+      "Your",
+      "Can",
+      "April",
+      "Hailuo",
+      "See",
+      "Hailuo AI",
+      "MiniMax",
+      "Workshop",
+      "Kuala Lumpur The",
+      "Hailuo AI Workshop",
+      "Malaysia",
+      "Dive",
+      "AI",
+      "Let",
+      "Saturday",
+      "GMT",
+      "Locarasa Restaurant",
+      "Patisserie",
+      "Kuala Lumpur",
+      "Request",
+      "Join",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "The Hailuo AI Workshop is FULL 🚀 Massive thank you to everyone who signed up. Your support and enthusiasm mean the world 💜 Can’t wait to dive in with you all on April 18 and create some seriously cool things together with Hailuo! See you soon~ 😉",
+      "The Hailuo AI Workshop is FULL 🚀 Massive thank you to everyone who signed up. Your support and enthusiasm mean the world 💜 Can’t wait to dive in with you all on April 18 and create some seriously cool things together with Hailuo! See you soon~ 😉 Hailuo AI (MiniMax) (@Hailuo_AI) 🇲🇾Hailuo AI (MiniMax) Workshop - Kuala Lumpur The first Hailuo AI Workshop lands in Malaysia! Dive into an immersive hands-on experience with cutting-edge AI tools — for creators, filmmakers, designers and anyone ready to shape the future of visual storytelling. Let's build something cool together! 🕑Saturday, April 18, 2:00PM-8:30PM (GMT+8) 📍Locarasa Restaurant & Patisserie, Kuala Lumpur 🔗Request to Join &gt;&gt; luma.com/2gt3tjhg — https://nitter.net/Hailuo_AI/status/2030924669012853157#m",
+      "The Hailuo AI Workshop",
+      "FULL",
+      "Massive",
+      "Your",
+      "Can",
+      "April",
+      "Hailuo",
+      "See",
+      "Hailuo AI",
+      "MiniMax",
+      "Workshop",
+      "Kuala Lumpur The",
+      "Hailuo AI Workshop",
+      "Malaysia",
+      "Dive",
+      "AI"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

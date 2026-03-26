@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_jasonyu-65ec5b3f779a",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AI_Jasonyu/status/2035388077338747181",
+  "author": {
+    "handle": "@AI_Jasonyu",
+    "display_name": "AI_Jasonyu",
+    "account_url": "https://x.com/AI_Jasonyu"
+  },
+  "title": "你们啊，有些东西真是错过了才知道珍惜！ Giffgaff不早点买，现在风控了，德国沃达丰不早点办，现在需要线下KYC了。 现在去我主页，切换到文章标签，还有荷兰手机号，ClubeSIM等几个卡的教程，赶紧趁早可以备上。 以后我发的教程，大家别光收藏，早点实操用上，窗口期过了，怎么后悔都没用！",
+  "language": "unknown",
+  "published_at": "2026-03-21T16:08:27Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AI_Jasonyu/status/2035388077338747181",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AI_Jasonyu/status/2035388077338747181#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "你们啊，有些东西真是错过了才知道珍惜！ Giffgaff不早点买，现在风控了，德国沃达丰不早点办，现在需要线下KYC了。 现在去我主页，切换到文章标签，还有荷兰手机号，ClubeSIM等几个卡的教程，赶紧趁早可以备上。 以后我发的教程，大家别光收藏，早点实操用上，窗口期过了，怎么后悔都没用！ 沐阳 (@yyyole) 换个思路，搜“英国 信封”之类的关键词， 还能在咸鱼上找得到！！ — https://nitter.net/yyyole/status/2035341874224050489#m",
+    "full_text": "Post title: 你们啊，有些东西真是错过了才知道珍惜！ Giffgaff不早点买，现在风控了，德国沃达丰不早点办，现在需要线下KYC了。 现在去我主页，切换到文章标签，还有荷兰手机号，ClubeSIM等几个卡的教程，赶紧趁早可以备上。 以后我发的教程，大家别光收藏，早点实操用上，窗口期过了，怎么后悔都没用！\n\nPost summary: 你们啊，有些东西真是错过了才知道珍惜！ Giffgaff不早点买，现在风控了，德国沃达丰不早点办，现在需要线下KYC了。 现在去我主页，切换到文章标签，还有荷兰手机号，ClubeSIM等几个卡的教程，赶紧趁早可以备上。 以后我发的教程，大家别光收藏，早点实操用上，窗口期过了，怎么后悔都没用！ 沐阳 (@yyyole) 换个思路，搜“英国 信封”之类的关键词， 还能在咸鱼上找得到！！ — https://nitter.net/yyyole/status/2035341874224050489#m\n\nCanonical URL: https://x.com/AI_Jasonyu/status/2035388077338747181",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "你们啊，有些东西真是错过了才知道珍惜！ Giffgaff不早点买，现在风控了，德国沃达丰不早点办，现在需要线下KYC了。 现在去我主页，切换到文章标签，还有荷兰手机号，ClubeSIM等几个卡的教程，赶紧趁早可以备上。 以后我发的教程，大家别光收藏，早点实操用上，窗口期过了，怎么后悔都没用！",
+      "你们啊，有些东西真是错过了才知道珍惜！ Giffgaff不早点买，现在风控了，德国沃达丰不早点办，现在需要线下KYC了。 现在去我主页，切换到文章标签，还有荷兰手机号，ClubeSIM等几个卡的教程，赶紧趁早可以备上。 以后我发的教程，大家别光收藏，早点实操用上，窗口期过了，怎么后悔都没用！ 沐阳 (@yyyole) 换个思路，搜“英国 信封”之类的关键词， 还能在咸鱼上找得到！！ — https://nitter.net/yyyole/status/2035341874224050489#m",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

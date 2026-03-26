@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-op7418-f217dfe9b64b",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/op7418/status/2036256769429946567",
+  "author": {
+    "handle": "@op7418",
+    "display_name": "op7418",
+    "account_url": "https://x.com/op7418"
+  },
+  "title": "Openclaw 3.22 版本有个巨大的 bug， 打包的时候把网页的部分给漏掉了，导致没有办法打开网页。 建议更新到 3.23 版本，确实是 Vibe Coding，这也太草台了，我自己都不会出现这种问题。 顺便，Peter 在自动化构建的时候，也发生了跟我一样的问题。 就跟我写 Codepilot 一样，每次都会卡在苹果那个傻逼公证流程上，有时候一卡就是几个小时，我去，而且完事之后还超时失败。",
+  "language": "unknown",
+  "published_at": "2026-03-24T01:40:20Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/op7418/status/2036256769429946567",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/op7418/status/2036256769429946567#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Openclaw 3.22 版本有个巨大的 bug， 打包的时候把网页的部分给漏掉了，导致没有办法打开网页。 建议更新到 3.23 版本，确实是 Vibe Coding，这也太草台了，我自己都不会出现这种问题。 顺便，Peter 在自动化构建的时候，也发生了跟我一样的问题。 就跟我写 Codepilot 一样，每次都会卡在苹果那个傻逼公证流程上，有时候一卡就是几个小时，我去，而且完事之后还超时失败。 歸藏(guizang.ai) (@op7418) OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。 — https://nitter.net/op7418/status/2036250151074013436#m",
+    "full_text": "Post title: Openclaw 3.22 版本有个巨大的 bug， 打包的时候把网页的部分给漏掉了，导致没有办法打开网页。 建议更新到 3.23 版本，确实是 Vibe Coding，这也太草台了，我自己都不会出现这种问题。 顺便，Peter 在自动化构建的时候，也发生了跟我一样的问题。 就跟我写 Codepilot 一样，每次都会卡在苹果那个傻逼公证流程上，有时候一卡就是几个小时，我去，而且完事之后还超时失败。\n\nPost summary: Openclaw 3.22 版本有个巨大的 bug， 打包的时候把网页的部分给漏掉了，导致没有办法打开网页。 建议更新到 3.23 版本，确实是 Vibe Coding，这也太草台了，我自己都不会出现这种问题。 顺便，Peter 在自动化构建的时候，也发生了跟我一样的问题。 就跟我写 Codepilot 一样，每次都会卡在苹果那个傻逼公证流程上，有时候一卡就是几个小时，我去，而且完事之后还超时失败。 歸藏(guizang.ai) (@op7418) OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。 — https://nitter.net/op7418/status/2036250151074013436#m\n\nCanonical URL: https://x.com/op7418/status/2036256769429946567",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Openclaw",
+      "Vibe Coding",
+      "Peter",
+      "Codepilot",
+      "OpenClaw",
+      "ClawHub",
+      "Codex",
+      "Claude",
+      "Cursor",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Openclaw 3.22 版本有个巨大的 bug， 打包的时候把网页的部分给漏掉了，导致没有办法打开网页。 建议更新到 3.23 版本，确实是 Vibe Coding，这也太草台了，我自己都不会出现这种问题。 顺便，Peter 在自动化构建的时候，也发生了跟我一样的问题。 就跟我写 Codepilot 一样，每次都会卡在苹果那个傻逼公证流程上，有时候一卡就是几个小时，我去，而且完事之后还超时失败。",
+      "Openclaw 3.22 版本有个巨大的 bug， 打包的时候把网页的部分给漏掉了，导致没有办法打开网页。 建议更新到 3.23 版本，确实是 Vibe Coding，这也太草台了，我自己都不会出现这种问题。 顺便，Peter 在自动化构建的时候，也发生了跟我一样的问题。 就跟我写 Codepilot 一样，每次都会卡在苹果那个傻逼公证流程上，有时候一卡就是几个小时，我去，而且完事之后还超时失败。 歸藏(guizang.ai) (@op7418) OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。 — https://nitter.net/op7418/status/2036250151074013436#m",
+      "Openclaw",
+      "Vibe Coding",
+      "Peter",
+      "Codepilot",
+      "OpenClaw",
+      "ClawHub",
+      "Codex",
+      "Claude",
+      "Cursor",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

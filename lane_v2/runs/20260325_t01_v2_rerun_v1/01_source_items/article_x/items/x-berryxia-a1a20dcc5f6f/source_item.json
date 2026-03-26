@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-berryxia-a1a20dcc5f6f",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/berryxia/status/2036607360203104692",
+  "author": {
+    "handle": "@berryxia",
+    "display_name": "berryxia",
+    "account_url": "https://x.com/berryxia"
+  },
+  "title": "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！",
+  "language": "unknown",
+  "published_at": "2026-03-25T00:53:27Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/berryxia/status/2036607360203104692",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/berryxia/status/2036607360203104692#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！ Berryxia.AI (@berryxia) x.com/i/article/203660103706… — https://nitter.net/berryxia/status/2036605929899302950#m",
+    "full_text": "Post title: 🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！\n\nPost summary: 🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！ Berryxia.AI (@berryxia) x.com/i/article/203660103706… — https://nitter.net/berryxia/status/2036605929899302950#m\n\nCanonical URL: https://x.com/berryxia/status/2036607360203104692",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Berryxia",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！",
+      "🔥兄弟们！今日真的是推荐必须按头学习! 这套来自 A社官方 总结出来的设计一套真正做好复杂的AI 系统的实践指南，非常有学习意义，我觉得大家如果设计Agent 都可以学习。 我已经将其翻译转写为中文，更适合我们学习和阅读，希望对你有用，记得一键三连啊！来吧！ Berryxia.AI (@berryxia) x.com/i/article/203660103706… — https://nitter.net/berryxia/status/2036605929899302950#m",
+      "Berryxia",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

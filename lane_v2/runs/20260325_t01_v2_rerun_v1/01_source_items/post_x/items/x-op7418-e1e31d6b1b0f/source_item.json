@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-op7418-e1e31d6b1b0f",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/op7418/status/2036250151074013436",
+  "author": {
+    "handle": "@op7418",
+    "display_name": "op7418",
+    "account_url": "https://x.com/op7418"
+  },
+  "title": "OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。",
+  "language": "unknown",
+  "published_at": "2026-03-24T01:14:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/op7418/status/2036250151074013436",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/op7418/status/2036250151074013436#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。 OpenClaw🦞 (@openclaw) OpenClaw 2026.3.22 🦞 🏪 ClawHub plugin marketplace 🤖 MiniMax M2.7, GPT-5.4-mini/nano + per-agent reasoning 💬 /btw side questions 🏖️ OpenShell + SSH sandboxes 🌐 Exa, Tavily, Firecrawl search This release is so big it needs its own table of contents. github.com/openclaw/openclaw… — https://nitter.net/openclaw/status/2036043904949330407#m",
+    "full_text": "Post title: OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。\n\nPost summary: OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。 OpenClaw🦞 (@openclaw) OpenClaw 2026.3.22 🦞 🏪 ClawHub plugin marketplace 🤖 MiniMax M2.7, GPT-5.4-mini/nano + per-agent reasoning 💬 /btw side questions 🏖️ OpenShell + SSH sandboxes 🌐 Exa, Tavily, Firecrawl search This release is so big it needs its own table of contents. github.com/openclaw/openclaw… — https://nitter.net/openclaw/status/2036043904949330407#m\n\nCanonical URL: https://x.com/op7418/status/2036250151074013436",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "release"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "OpenClaw",
+      "ClawHub",
+      "Codex",
+      "Claude",
+      "Cursor",
+      "MiniMax M2.7",
+      "GPT",
+      "OpenShell",
+      "SSH",
+      "Exa",
+      "Tavily",
+      "Firecrawl",
+      "This",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。",
+      "OpenClaw 昨天憋了一周的更新发布了，主要是插件系统的重构。 现在的更新项如下： 1. 现在支持在 ClawHub 里面安装插件。 2. 同时兼容 Codex、Claude 和 Cursor 的插件系统。 OpenClaw🦞 (@openclaw) OpenClaw 2026.3.22 🦞 🏪 ClawHub plugin marketplace 🤖 MiniMax M2.7, GPT-5.4-mini/nano + per-agent reasoning 💬 /btw side questions 🏖️ OpenShell + SSH sandboxes 🌐 Exa, Tavily, Firecrawl search This release is so big it needs its own table of contents. github.com/openclaw/openclaw… — https://nitter.net/openclaw/status/2036043904949330407#m",
+      "release",
+      "OpenClaw",
+      "ClawHub",
+      "Codex",
+      "Claude",
+      "Cursor",
+      "MiniMax M2.7",
+      "GPT",
+      "OpenShell",
+      "SSH",
+      "Exa",
+      "Tavily",
+      "Firecrawl",
+      "This",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-f84c8fa3f18e",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2036438312358125924",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "AI资讯日报，3月24日：https://gorden-sun.notion.site/3-24-AI-32d594247325801785badea0986e7c9b?source=copy_link",
+  "language": "unknown",
+  "published_at": "2026-03-24T13:41:43Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2036438312358125924",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2036438312358125924#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "AI资讯日报，3月24日： gorden-sun.notion.site/3-24-…",
+    "full_text": "Post title: AI资讯日报，3月24日：https://gorden-sun.notion.site/3-24-AI-32d594247325801785badea0986e7c9b?source=copy_link\n\nPost summary: AI资讯日报，3月24日： gorden-sun.notion.site/3-24-…\n\nCanonical URL: https://x.com/Gorden_Sun/status/2036438312358125924",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "AI资讯日报，3月24日：https://gorden-sun.notion.site/3-24-AI-32d594247325801785badea0986e7c9b?source=copy_link",
+      "AI资讯日报，3月24日： gorden-sun.notion.site/3-24-…",
+      "AI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-op7418-a415bd61a746",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/op7418/status/2036601153056837742",
+  "author": {
+    "handle": "@op7418",
+    "display_name": "op7418",
+    "account_url": "https://x.com/op7418"
+  },
+  "title": "这个好玩🤩 3D 软件公司 Spline 发布了一个可以用 AI 帮你创建任何 3D 网页的产品 omma 聊天就可以创建非常炫酷的 3D 效果或者网页 3D 游戏，里面的代码和模型都是 AI 生成",
+  "language": "unknown",
+  "published_at": "2026-03-25T00:28:47Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/op7418/status/2036601153056837742",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/op7418/status/2036601153056837742#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "这个好玩🤩 3D 软件公司 Spline 发布了一个可以用 AI 帮你创建任何 3D 网页的产品 omma 聊天就可以创建非常炫酷的 3D 效果或者网页 3D 游戏，里面的代码和模型都是 AI 生成 Video",
+    "full_text": "Post title: 这个好玩🤩 3D 软件公司 Spline 发布了一个可以用 AI 帮你创建任何 3D 网页的产品 omma 聊天就可以创建非常炫酷的 3D 效果或者网页 3D 游戏，里面的代码和模型都是 AI 生成\n\nPost summary: 这个好玩🤩 3D 软件公司 Spline 发布了一个可以用 AI 帮你创建任何 3D 网页的产品 omma 聊天就可以创建非常炫酷的 3D 效果或者网页 3D 游戏，里面的代码和模型都是 AI 生成 Video\n\nCanonical URL: https://x.com/op7418/status/2036601153056837742",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Spline",
+      "AI",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "这个好玩🤩 3D 软件公司 Spline 发布了一个可以用 AI 帮你创建任何 3D 网页的产品 omma 聊天就可以创建非常炫酷的 3D 效果或者网页 3D 游戏，里面的代码和模型都是 AI 生成",
+      "这个好玩🤩 3D 软件公司 Spline 发布了一个可以用 AI 帮你创建任何 3D 网页的产品 omma 聊天就可以创建非常炫酷的 3D 效果或者网页 3D 游戏，里面的代码和模型都是 AI 生成 Video",
+      "Spline",
+      "AI",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

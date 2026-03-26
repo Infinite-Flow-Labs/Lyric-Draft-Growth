@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lxfater-e99b17b461be",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lxfater/status/2035588532484677996",
+  "author": {
+    "handle": "@lxfater",
+    "display_name": "lxfater",
+    "account_url": "https://x.com/lxfater"
+  },
+  "title": "过去五个月里，openai团队一直在进行一项实验： 构建并交付一款软件产品的内部 beta 版，其中没有一行代码是人工编写的 里面的经验值得各位工程师看看，比你想象地自动化很多。 https://openai.com/zh-Hans-CN/index/harness-engineering/",
+  "language": "unknown",
+  "published_at": "2026-03-22T05:25:00Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lxfater/status/2035588532484677996",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lxfater/status/2035588532484677996#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "过去五个月里，openai团队一直在进行一项实验： 构建并交付一款软件产品的内部 beta 版，其中没有一行代码是人工编写的 里面的经验值得各位工程师看看，比你想象地自动化很多。 openai.com/zh-Hans-CN/index/…",
+    "full_text": "Post title: 过去五个月里，openai团队一直在进行一项实验： 构建并交付一款软件产品的内部 beta 版，其中没有一行代码是人工编写的 里面的经验值得各位工程师看看，比你想象地自动化很多。 https://openai.com/zh-Hans-CN/index/harness-engineering/\n\nPost summary: 过去五个月里，openai团队一直在进行一项实验： 构建并交付一款软件产品的内部 beta 版，其中没有一行代码是人工编写的 里面的经验值得各位工程师看看，比你想象地自动化很多。 openai.com/zh-Hans-CN/index/…\n\nCanonical URL: https://x.com/lxfater/status/2035588532484677996",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Hans",
+      "CN",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "过去五个月里，openai团队一直在进行一项实验： 构建并交付一款软件产品的内部 beta 版，其中没有一行代码是人工编写的 里面的经验值得各位工程师看看，比你想象地自动化很多。 https://openai.com/zh-Hans-CN/index/harness-engineering/",
+      "过去五个月里，openai团队一直在进行一项实验： 构建并交付一款软件产品的内部 beta 版，其中没有一行代码是人工编写的 里面的经验值得各位工程师看看，比你想象地自动化很多。 openai.com/zh-Hans-CN/index/…",
+      "Hans",
+      "CN",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

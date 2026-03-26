@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "article_ref": "/home/lyric/growth-engine-pipeline/content/library/articles/article_x/20260325_t01_wechat_single/topic-x-op7418-b9e09e039182/article_draft.json",
+  "source_ref": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-op7418-b9e09e039182/source_item.json",
+  "style_profile_id": "baoyu_skill_hybrid_v1",
+  "output_language": "zh-CN",
+  "global_visual_rules": {
+    "style_direction": "editorial knowledge graphic, warm light background, flat diagram-first composition, mobile legibility first; Use baoyu-cover-image + baoyu-article-illustrator + baoyu-infographic style assets as the default visual language.",
+    "palette": {
+      "background": "warm cream paper-like background",
+      "primary_accents": [
+        "warm orange",
+        "coral red",
+        "teal green"
+      ],
+      "linework": "soft dark gray line work",
+      "secondary_neutrals": [
+        "light gray",
+        "off-white"
+      ]
+    },
+    "must_have": [
+      "clear information hierarchy",
+      "diagram-first composition",
+      "short Chinese labels",
+      "editorial infographic feeling",
+      "high readability on mobile",
+      "ample whitespace and one dominant focal structure",
+      "flat color blocks with clear line hierarchy",
+      "layout-first visual storytelling instead of decorative art",
+      "section visuals must map to explicit layout grammar (hub-spoke / linear-progression / comparison-matrix / bento-grid)"
+    ],
+    "must_avoid": [
+      "generic AI wallpaper",
+      "cyberpunk neon",
+      "photorealistic people",
+      "blue digital rain",
+      "low-information decoration",
+      "busy ornamental textures that reduce readability",
+      "style drift between cover and inline images",
+      "paragraph-like dense text rendered inside image blocks"
+    ]
+  },
+  "cover_image": {
+    "image_id": "cover_01",
+    "role": "cover",
+    "purpose": "Compress the article's main idea into one visual system that is understandable in one glance.",
+    "image_grammar": "hook_cover",
+    "diagram_type": "workflow_map",
+    "concept_summary": "这次更新的重点，是把原本偏飞书场景的远程连接，推进到更高频、更低门槛的微信扫码接入；但在权限、稳定性和适用边界没补足前，它更适合个人与轻协作试用。",
+    "reference_image_urls": [],
+    "scene_elements": [
+      "one dominant visual idea",
+      "2-4 large visual nodes max",
+      "clear title area",
+      "one obvious structure",
+      "one focal visual occupying roughly 60-70% area",
+      "icon-based metaphor instead of literal screenshots",
+      "clean title zone with breathing room",
+      "3-4 clear stages with directional connectors",
+      "start/end anchors that are visually obvious"
+    ],
+    "key_relationships": [
+      "present one question and one promise",
+      "make the article worth clicking in one glance",
+      "make the core judgment visible within one glance",
+      "show one tension and one payoff only"
+    ],
+    "on_canvas_text": {
+      "headline": "微信接入一到位，Claude",
+      "subheadline": "这次更新的重点，是把原本偏飞",
+      "short_labels": []
+    },
+    "composition": {
+      "aspect_ratio": "5:2",
+      "layout_pattern": "linear_progression_cover",
+      "text_position": "right",
+      "diagram_focus": "sequential operating logic with explicit stage handoff"
+    },
+    "visual_constraints": [
+      "wide editorial banner",
+      "clean empty space",
+      "flat shapes with restrained accents",
+      "short labels only",
+      "prefer conceptual composition over decorative scene rendering",
+      "preserve warm off-white background and restrained accent colors"
+    ],
+    "negative_constraints": [
+      "no photorealism",
+      "no dense paragraphs in image",
+      "no random sci-fi effects",
+      "do not mimic generic social banner aesthetics",
+      "avoid full-image text walls or dense annotation"
+    ],
+    "generation_prefs": {
+      "aspect_ratio": "21:9",
+      "resolution": "2K",
+      "output_format": "png"
+    },
+    "text_budget": {
+      "max_text_blocks": 2,
+      "headline_max_chars": 16,
+      "subheadline_max_chars": 16,
+      "label_max_chars": 8,
+      "max_labels": 4
+    },
+    "prompt_seed": "Make this a hook-first cover. One question or tension, one promise, not a dense summary. Source context: op7418 Style profile: baoyu-cover-image: editorial-infographic (conceptual + warm + hand-drawn). Cover should feel like an editorial infographic hero image with calm hand-drawn confidence. Apply baoyu-cover-image preset editorial-infographic with conceptual composition. Apply hand-drawn organic line quality with controlled imperfection and clean hierarchy. Use warm palette behavior: cream base, warm action accent, cool structure accent. Style profile…"
+  },
+  "inline_images": [
+    {
+      "image_id": "inline_01",
+      "role": "inline",
+      "purpose": "Reset attention at the first major section transition and summarize the new concept block.",
+      "image_grammar": "workflow_map",
+      "diagram_type": "workflow_map",
+      "concept_summary": "3 月 24 日，@op7418 提到 Claude-to-IM-Skills 已更新，原本“远程连接到飞书 IM 的插件”现在可以“将你的 Claude Code 和 CodeX 远程连接到微信”，配置方式也从传统接入，压缩成“自动打开一个网页，你扫码就行”。这次更新抓住了一…",
+      "section_ref": "framing",
+      "placement_rule": "Insert near the start of framing to reset attention at this section transition.",
+      "reference_image_urls": [],
+      "scene_elements": [
+        "3-4 step modules",
+        "arrows",
+        "artifact or action icons",
+        "numbered step modules with directional arrows",
+        "one icon per stage for quick recognition"
+      ],
+      "key_relationships": [
+        "show how the system operates",
+        "make stage handoff obvious",
+        "show sequence and dependencies explicitly"
+      ],
+      "on_canvas_text": {
+        "headline": "这次更新的重点，是把原…",
+        "subheadline": "",
+        "short_labels": []
+      },
+      "composition": {
+        "aspect_ratio": "16:9",
+        "layout_pattern": "linear_progression",
+        "text_position": "integrated",
+        "diagram_focus": "step-by-step process handoff"
+      },
+      "visual_constraints": [
+        "keep labels short",
+        "focus on one concept only",
+        "maintain same house style as cover",
+        "one image = one clear job",
+        "support section transition and comprehension reset"
+      ],
+      "negative_constraints": [
+        "no decorative filler",
+        "no unrelated icons",
+        "no decorative image blocks without structural meaning"
+      ],
+      "generation_prefs": {
+        "aspect_ratio": "16:9",
+        "resolution": "1K",
+        "output_format": "png"
+      },
+      "text_budget": {
+        "max_text_blocks": 3,
+        "headline_max_chars": 12,
+        "subheadline_max_chars": 12,
+        "label_max_chars": 8,
+        "max_labels": 4
+      },
+      "prompt_seed": "Use the workflow_map grammar. This is one visual job, not a paragraph summary: 这次更新的重点，是把原本偏飞书场景的远程连接，推进到更… Style profile: baoyu-article-illustrator: knowledge-base (infographic + vector-illustration). Inline image should behave like a section explainer card with fast scan value. Style profile: baoyu-article-illustrator: process-flow (flowchart + notion). Apply process-flow preset: flowchart logic with Notion-style clean spacing."
+    },
+    {
+      "image_id": "inline_02",
+      "role": "inline",
+      "purpose": "Reset attention at the first major section transition and summarize the new concept block.",
+      "image_grammar": "skip_board",
+      "diagram_type": "workflow_map",
+      "concept_summary": "已知事实其实很集中。源信息只确认了三件事：这个插件之前连的是飞书 IM；这次更新后能把 Claude Code 和 CodeX 远程连到微信；新配置会自动拉起网页，用户扫码完成接入。单看信息量不大，但足够支撑一个判断：这次发布的核心收益，是把配置这一步从“需要说明文档”改成了“…",
+      "section_ref": "section_02",
+      "placement_rule": "Insert near the start of section_02 to reset attention at this section transition.",
+      "reference_image_urls": [],
+      "scene_elements": [
+        "4-6 rejection cards",
+        "one strong top verdict",
+        "crossed-out or muted examples",
+        "rejection cards with crossed-out cues",
+        "one top-line verdict and one bottom rule"
+      ],
+      "key_relationships": [
+        "make exclusion easy",
+        "support fast scanning and strong judgment"
+      ],
+      "on_canvas_text": {
+        "headline": "直接跳过",
+        "subheadline": "如果它真的重要，过几个月它…",
+        "short_labels": [
+          "变化不在协议",
+          "在入口"
+        ]
+      },
+      "composition": {
+        "aspect_ratio": "16:9",
+        "layout_pattern": "rejection_board",
+        "text_position": "integrated",
+        "diagram_focus": "high-noise areas that should be skipped"
+      },
+      "visual_constraints": [
+        "keep labels short",
+        "focus on one concept only",
+        "maintain same house style as cover",
+        "one image = one clear job",
+        "support section transition and comprehension reset"
+      ],
+      "negative_constraints": [
+        "no decorative filler",
+        "no unrelated icons",
+        "no decorative image blocks without structural meaning"
+      ],
+      "generation_prefs": {
+        "aspect_ratio": "16:9",
+        "resolution": "1K",
+        "output_format": "png"
+      },
+      "text_budget": {
+        "max_text_blocks": 2,
+        "headline_max_chars": 8,
+        "subheadline_max_chars": 14,
+        "label_max_chars": 6,
+        "max_labels": 6
+      },
+      "prompt_seed": "Use the skip_board grammar. This is one visual job, not a paragraph summary: 变化不在协议，在入口 Style profile: baoyu-article-illustrator: knowledge-base (infographic + vector-illustration). Inline image should behave like a section explainer card with fast scan value. Style profile: baoyu-article-illustrator: editorial-poster. Design as a reject-board: fast elimination > detailed explanation."
+    }
+  ]
+}

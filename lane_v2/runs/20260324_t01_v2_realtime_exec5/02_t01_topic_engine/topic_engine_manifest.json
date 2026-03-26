@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-24T08:39:12Z",
+  "input_roots": [
+    "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items",
+    "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items",
+    "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items"
+  ],
+  "lane_spec_count": 8,
+  "lane_ids": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "source_item_count": 563,
+  "loaded_count": 563,
+  "passed_count": 365,
+  "rejected_count": 198,
+  "load_error_count": 0,
+  "topic_count": 53,
+  "lane_assignment_count": 53,
+  "source_bundle_count": 53,
+  "writer_ready_count": 1,
+  "writer_packet_count": 1,
+  "review_required": false,
+  "selected_topic_ids_count": 1,
+  "outputs": {
+    "signal_pool_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/01_signal_pool/signal_pool.json",
+    "gate_report_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/01_signal_pool/gate_report.json",
+    "topic_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/02_topic_cards/topic_card_manifest.json",
+    "lane_assignment_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/03_lane_assignments/lane_assignment_manifest.json",
+    "source_bundle_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/04_source_bundles/source_bundle_manifest.json",
+    "topic_ranking_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/topic_ranking.json",
+    "writer_input_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/05_writer_inputs/writer_input_manifest.json",
+    "writer_packet_manifest_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/06_writer_packets/writer_packet_manifest.json"
+  }
+}

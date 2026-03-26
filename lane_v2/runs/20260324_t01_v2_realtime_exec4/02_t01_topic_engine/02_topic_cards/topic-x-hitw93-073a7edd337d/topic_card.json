@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-hitw93-073a7edd337d",
+  "event_seed_signal_id": "x-hitw93-073a7edd337d",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents.",
+  "why_now": "Clustered 12 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 88.87,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 97.27,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "slowmist agent security skill::发布",
+  "cluster_signal_ids": [
+    "x-evilcos-5418d7b84ebe",
+    "x-idoubicc-41f0260548a9",
+    "x-hitw93-9c821c9e48ce",
+    "x-idoubicc-c974b997f1c8",
+    "x-hitw93-073a7edd337d",
+    "x-chuhaiqu-a72a9a06f015",
+    "x-svpino-dc32270e5baf",
+    "x-mreflow-9931475a27bf",
+    "x-dotey-23ec1e3841e1",
+    "x-hitw93-38b756f06a3f",
+    "x-lxfater-48bcd9f14469",
+    "x-ai_jasonyu-e1aa1f9ca77e"
+  ],
+  "source_families": [
+    "article_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/HiTw93/status/2036228251459395814",
+    "published_at": "2026-03-23T23:47:01Z",
+    "release_signals_count": 18,
+    "fact_candidates_count": 180
+  }
+}

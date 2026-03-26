@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-zeng_wt-cc755bb83f9a",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/zeng_wt/status/2036543999583068248",
+  "author": {
+    "handle": "@zeng_wt",
+    "display_name": "zeng_wt",
+    "account_url": "https://x.com/zeng_wt"
+  },
+  "title": "I think this is what @pablostanley is building. @efectodotapp right?",
+  "language": "unknown",
+  "published_at": "2026-03-24T20:41:41Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/zeng_wt/status/2036543999583068248",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/zeng_wt/status/2036543999583068248#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "I think this is what @pablostanley is building. @efectodotapp right? Anvisha (@anvisha) We raised $7.5M to kill AI slop. Introducing Moda: the world's first design agent with taste. RT+ comment “Moda” and we’ll design your brand for FREE. Video — https://nitter.net/anvisha/status/2036474296353411290#m",
+    "full_text": "Post title: I think this is what @pablostanley is building. @efectodotapp right?\n\nPost summary: I think this is what @pablostanley is building. @efectodotapp right? Anvisha (@anvisha) We raised $7.5M to kill AI slop. Introducing Moda: the world's first design agent with taste. RT+ comment “Moda” and we’ll design your brand for FREE. Video — https://nitter.net/anvisha/status/2036474296353411290#m\n\nCanonical URL: https://x.com/zeng_wt/status/2036543999583068248",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "introducing"
+    ],
+    "metric_signals": [
+      "$7.5"
+    ],
+    "named_entities": [
+      "Anvisha",
+      "We",
+      "AI",
+      "Introducing Moda",
+      "Moda",
+      "FREE",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "I think this is what @pablostanley is building. @efectodotapp right?",
+      "I think this is what @pablostanley is building. @efectodotapp right? Anvisha (@anvisha) We raised $7.5M to kill AI slop. Introducing Moda: the world's first design agent with taste. RT+ comment “Moda” and we’ll design your brand for FREE. Video — https://nitter.net/anvisha/status/2036474296353411290#m",
+      "introducing",
+      "$7.5",
+      "Anvisha",
+      "We",
+      "AI",
+      "Introducing Moda",
+      "Moda",
+      "FREE",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-icreatelife-78ee70706be3",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/icreatelife/status/2035746345647067261",
+  "author": {
+    "handle": "@icreatelife",
+    "display_name": "icreatelife",
+    "account_url": "https://x.com/icreatelife"
+  },
+  "title": "Happy 20th birthday to this platform ✨🎉🥹 I’d love to hear something positive that happened to you thanks to X / former Twitter. As for me, it opened so many AI career opportunities and even before that my art / photography was published / sold thanks to this platform.",
+  "language": "unknown",
+  "published_at": "2026-03-22T15:52:05Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/icreatelife/status/2035746345647067261",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/icreatelife/status/2035746345647067261#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Happy 20th birthday to this platform ✨🎉🥹 I’d love to hear something positive that happened to you thanks to X / former Twitter. As for me, it opened so many AI career opportunities and even before that my art / photography was published / sold thanks to this platform. Video",
+    "full_text": "Post title: Happy 20th birthday to this platform ✨🎉🥹 I’d love to hear something positive that happened to you thanks to X / former Twitter. As for me, it opened so many AI career opportunities and even before that my art / photography was published / sold thanks to this platform.\n\nPost summary: Happy 20th birthday to this platform ✨🎉🥹 I’d love to hear something positive that happened to you thanks to X / former Twitter. As for me, it opened so many AI career opportunities and even before that my art / photography was published / sold thanks to this platform. Video\n\nCanonical URL: https://x.com/icreatelife/status/2035746345647067261",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Happy",
+      "Twitter",
+      "As",
+      "AI",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Happy 20th birthday to this platform ✨🎉🥹 I’d love to hear something positive that happened to you thanks to X / former Twitter. As for me, it opened so many AI career opportunities and even before that my art / photography was published / sold thanks to this platform.",
+      "Happy 20th birthday to this platform ✨🎉🥹 I’d love to hear something positive that happened to you thanks to X / former Twitter. As for me, it opened so many AI career opportunities and even before that my art / photography was published / sold thanks to this platform. Video",
+      "Happy",
+      "Twitter",
+      "As",
+      "AI",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

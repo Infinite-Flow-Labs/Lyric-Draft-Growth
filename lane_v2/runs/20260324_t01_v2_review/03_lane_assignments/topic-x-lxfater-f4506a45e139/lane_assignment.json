@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-lxfater-f4506a45e139",
+  "selected_lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "generation_ratio": 0.8,
+  "rewrite_ratio": 0.2,
+  "lane_fit_score": 6.0,
+  "topic_priority": 32.15,
+  "lane_final_score": 13.84,
+  "rationale": "release_signals_missing | official_source_missing | supporting_fact_family_present | basic_fact_density",
+  "requires_human_review": true,
+  "eligible_for_write": false
+}

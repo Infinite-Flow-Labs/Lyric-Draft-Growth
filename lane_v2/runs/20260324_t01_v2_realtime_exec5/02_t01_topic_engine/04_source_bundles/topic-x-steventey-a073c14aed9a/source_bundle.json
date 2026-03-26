@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-steventey-a073c14aed9a",
+  "lane_id": "T02_signal_decode",
+  "framework_id": "03_opinion_decode",
+  "submode_id": "signal_decode",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-steventey-a073c14aed9a",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/steventey/status/2034784565269864571",
+      "title": "the Forbes 30u30 pipeline reigns supreme",
+      "published_at": "2026-03-20T00:10:19Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items/x-steventey-a073c14aed9a/source_item.json"
+    }
+  ],
+  "supporting_sources": [],
+  "fact_anchors": [
+    {
+      "claim": "the Forbes 30u30 pipeline reigns supreme",
+      "source_url": "https://x.com/steventey/status/2034784565269864571",
+      "signal_id": "x-steventey-a073c14aed9a"
+    },
+    {
+      "claim": "the Forbes 30u30 pipeline reigns supreme erin griffith (@eringriffith) A detailed and brutal look at the tactics of buzzy AI compliance startup Delve \"Delve built a machine designed to make clients complicit without their knowledge, to manufacture plausible deniability while producing exactly the opposite.\" substack.com/home/post/p-191… — https://nitter.net/eringriffith/status/2034698536147943558#m",
+      "source_url": "https://x.com/steventey/status/2034784565269864571",
+      "signal_id": "x-steventey-a073c14aed9a"
+    },
+    {
+      "claim": "the Forbes 30u30 pipeline reigns supreme the Forbes 30u30 pipeline reigns supreme erin griffith (@eringriffith) A detailed and brutal look at the tactics of buzzy AI compliance startup Delve \"Delve built a machine designed to make clients complicit without their knowledge, to man",
+      "source_url": "https://x.com/steventey/status/2034784565269864571",
+      "signal_id": "x-steventey-a073c14aed9a"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 1,
+    "supporting_sources_min": 2,
+    "fact_anchors_min": 8,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": true,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": false,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

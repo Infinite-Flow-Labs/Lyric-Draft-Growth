@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-runwayml-9264ac30ebd9",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-runwayml-9264ac30ebd9",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2034990639515873498",
+      "title": "Two weeks. Seven briefs. Up to $100K in cash prizes to make any ad you can imagine. Bring your biggest, most ambitious ideas to life with Runway. No client notes required. Runway's Big Ad Contest For Products That Don't Exist. Learn more at the link below.",
+      "published_at": "2026-03-20T13:49:11Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-runwayml-9264ac30ebd9/source_item.json"
+    },
+    {
+      "signal_id": "x-openaidevs-e8a59b948d3c",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2035033703274201109",
+      "title": "Meet Codex for Students. We're offering college students in the U.S. and Canada $100 in Codex credits. Our goal is to support students to learn by building, breaking, and fixing things. http://chatgpt.com/codex/students",
+      "published_at": "2026-03-20T16:40:18Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openaidevs-e8a59b948d3c/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-openaidevs-8726a9caa918",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2034600898912272501",
+      "title": "Codex is coming to India 🇮🇳 Join events led by Codex ambassadors to: Get hands-on with Codex Meet developers building with Codex Ship projects at hackathons",
+      "published_at": "2026-03-19T12:00:30Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openaidevs-8726a9caa918/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Two weeks. Seven briefs. Up to $100K in cash prizes to make any ad you can imagine. Bring your biggest, most ambitious ideas to life with Runway. No client notes required. Runway's Big Ad Contest For Products That Don't Exist. Learn more at the link below.",
+      "source_url": "https://x.com/runwayml/status/2034990639515873498",
+      "signal_id": "x-runwayml-9264ac30ebd9"
+    },
+    {
+      "claim": "Two weeks. Seven briefs. Up to $100K in cash prizes to make any ad you can imagine. Bring your biggest, most ambitious ideas to life with Runway. No client notes required. Runway's Big Ad Contest For Products That Don't Exist. Learn more at the link below. Video",
+      "source_url": "https://x.com/runwayml/status/2034990639515873498",
+      "signal_id": "x-runwayml-9264ac30ebd9"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "ready_for_writer": false
+}

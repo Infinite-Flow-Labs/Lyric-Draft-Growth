@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alphasignalai-6368e09bee3e",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlphaSignalAI/status/2036050738133004641",
+  "author": {
+    "handle": "@AlphaSignalAI",
+    "display_name": "AlphaSignalAI",
+    "account_url": "https://x.com/AlphaSignalAI"
+  },
+  "title": "You can now teach a humanoid robot tennis without showing it a single real match. LATENT is a new paper from Tsinghua University. It skips recording perfect game footage entirely. Instead, it uses short, messy clips of basic moves. A forehand swing here, a sidestep there. Just pieces, not full matches. A two-layer system does the heavy lifting: 1. The bottom layer watches clips and learns individual moves. 2. The top layer figures out when to use which move and fixes mistakes on the fly. It runs on a Unitree G1 robot. The machine holds rallies with real humans. Balls fly in at 15-30 m/s. It reacts within milliseconds. What made this possible: > No clean training data required > No real match recordings needed > No human remote-controlling the robot > Works outside simulation too The same approach could work for soccer and parkour. Any sport where collecting clean data is nearly impossible.",
+  "language": "unknown",
+  "published_at": "2026-03-23T12:01:38Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlphaSignalAI/status/2036050738133004641",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlphaSignalAI/status/2036050738133004641#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "You can now teach a humanoid robot tennis without showing it a single real match. LATENT is a new paper from Tsinghua University. It skips recording perfect game footage entirely. Instead, it uses short, messy clips of basic moves. A forehand swing here, a sidestep there. Just pieces, not full matches. A two-layer system does the heavy lifting: 1. The bottom layer watches clips and learns individual moves. 2. The top layer figures out when to use which move and fixes mistakes on the fly. It runs on a Unitree G1 robot. The machine holds rallies with real humans. Balls fly in at 15-30 m/s. It reacts within milliseconds. What made this possible: &gt; No clean training data required &gt; No real match recordings needed &gt; No human remote-controlling the robot &gt; Works outside simulation too The same approach could work for soccer and parkour. Any sport where collecting clean data is nearly impossible. Video",
+    "full_text": "Post title: You can now teach a humanoid robot tennis without showing it a single real match. LATENT is a new paper from Tsinghua University. It skips recording perfect game footage entirely. Instead, it uses short, messy clips of basic moves. A forehand swing here, a sidestep there. Just pieces, not full matches. A two-layer system does the heavy lifting: 1. The bottom layer watches clips and learns individual moves. 2. The top layer figures out when to use which move and fixes mistakes on the fly. It runs on a Unitree G1 robot. The machine holds rallies with real humans. Balls fly in at 15-30 m/s. It reacts within milliseconds. What made this possible: > No clean training data required > No real match recordings needed > No human remote-controlling the robot > Works outside simulation too The same approach could work for soccer and parkour. Any sport where collecting clean data is nearly impossible.\n\nPost summary: You can now teach a humanoid robot tennis without showing it a single real match. LATENT is a new paper from Tsinghua University. It skips recording perfect game footage entirely. Instead, it uses short, messy clips of basic moves. A forehand swing here, a sidestep there. Just pieces, not full matches. A two-layer system does the heavy lifting: 1. The bottom layer watches clips and learns individual moves. 2. The top layer figures out when to use which move and fixes mistakes on the fly. It runs on a Unitree G1 robot. The machine holds rallies with real humans. Balls fly in at 15-30 m/s. It reacts within milliseconds. What made this possible: &gt; No clean training data required &gt; No real match recordings needed &gt; No human remote-controlling the robot &gt; Works outside simulation too The same approach could work for soccer and parkour. Any sport where collecting clean data is nearly impossible. Video\n\nCanonical URL: https://x.com/AlphaSignalAI/status/2036050738133004641",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "30 m"
+    ],
+    "named_entities": [
+      "You",
+      "LATENT",
+      "Tsinghua University. It",
+      "Instead",
+      "Just",
+      "It",
+      "Unitree G1",
+      "Balls",
+      "What",
+      "No",
+      "Works",
+      "Any",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "You can now teach a humanoid robot tennis without showing it a single real match. LATENT is a new paper from Tsinghua University. It skips recording perfect game footage entirely. Instead, it uses short, messy clips of basic moves. A forehand swing here, a sidestep there. Just pieces, not full matches. A two-layer system does the heavy lifting: 1. The bottom layer watches clips and learns individual moves. 2. The top layer figures out when to use which move and fixes mistakes on the fly. It runs on a Unitree G1 robot. The machine holds rallies with real humans. Balls fly in at 15-30 m/s. It reacts within milliseconds. What made this possible: > No clean training data required > No real match recordings needed > No human remote-controlling the robot > Works outside simulation too The same approach could work for soccer and parkour. Any sport where collecting clean data is nearly impossible.",
+      "You can now teach a humanoid robot tennis without showing it a single real match. LATENT is a new paper from Tsinghua University. It skips recording perfect game footage entirely. Instead, it uses short, messy clips of basic moves. A forehand swing here, a sidestep there. Just pieces, not full matches. A two-layer system does the heavy lifting: 1. The bottom layer watches clips and learns individual moves. 2. The top layer figures out when to use which move and fixes mistakes on the fly. It runs on a Unitree G1 robot. The machine holds rallies with real humans. Balls fly in at 15-30 m/s. It reacts within milliseconds. What made this possible: &gt; No clean training data required &gt; No real match recordings needed &gt; No human remote-controlling the robot &gt; Works outside simulation too The same approach could work for soccer and parkour. Any sport where collecting clean data is nearly impossible. Video",
+      "30 m",
+      "You",
+      "LATENT",
+      "Tsinghua University. It",
+      "Instead",
+      "Just",
+      "It",
+      "Unitree G1",
+      "Balls",
+      "What",
+      "No",
+      "Works",
+      "Any",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ivanfioravanti-cfc77273c807",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ivanfioravanti/status/2035809992020787305",
+  "author": {
+    "handle": "@ivanfioravanti",
+    "display_name": "ivanfioravanti",
+    "account_url": "https://x.com/ivanfioravanti"
+  },
+  "title": "I will soon delegate to Hermes Agent usage of my two M3 Ultra to benchmark on its own like crazy! Exciting times ahead!",
+  "language": "unknown",
+  "published_at": "2026-03-22T20:05:00Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ivanfioravanti/status/2035809992020787305",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ivanfioravanti/status/2035809992020787305#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "I will soon delegate to Hermes Agent usage of my two M3 Ultra to benchmark on its own like crazy! Exciting times ahead!",
+    "full_text": "Post title: I will soon delegate to Hermes Agent usage of my two M3 Ultra to benchmark on its own like crazy! Exciting times ahead!\n\nPost summary: I will soon delegate to Hermes Agent usage of my two M3 Ultra to benchmark on its own like crazy! Exciting times ahead!\n\nCanonical URL: https://x.com/ivanfioravanti/status/2035809992020787305",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Hermes Agent",
+      "M3 Ultra",
+      "Exciting",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "comparison"
+    ],
+    "fact_anchors": [
+      "I will soon delegate to Hermes Agent usage of my two M3 Ultra to benchmark on its own like crazy! Exciting times ahead!",
+      "Hermes Agent",
+      "M3 Ultra",
+      "Exciting",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

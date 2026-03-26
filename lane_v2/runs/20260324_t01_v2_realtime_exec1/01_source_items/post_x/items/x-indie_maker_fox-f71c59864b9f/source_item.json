@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-indie_maker_fox-f71c59864b9f",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/indie_maker_fox/status/2036014412377792894",
+  "author": {
+    "handle": "@indie_maker_fox",
+    "display_name": "indie_maker_fox",
+    "account_url": "https://x.com/indie_maker_fox"
+  },
+  "title": "工具写的晚了，现在都没人看了 其实2年前就想写，一直没空🤦‍♂️",
+  "language": "unknown",
+  "published_at": "2026-03-23T09:37:17Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/indie_maker_fox/status/2036014412377792894",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/indie_maker_fox/status/2036014412377792894#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "工具写的晚了，现在都没人看了 其实2年前就想写，一直没空🤦‍♂️ Fox@MkSaaS.com (@indie_maker_fox) 大家好，分享一个免费制作数据增长型视频工具 tanstarter.dev/tools/video 周末使用TanStarter模板写的，不论是你社媒粉丝数达到多少、MRR收入突破多少、Github收藏量多少、软件下载量多少，都可以使用这个工具来制作，分享到社媒吸引流量，支持参数定制。 请不要错过任何一个里程碑的庆祝时刻 🎉 Video — https://nitter.net/indie_maker_fox/status/2035902442609770658#m",
+    "full_text": "Post title: 工具写的晚了，现在都没人看了 其实2年前就想写，一直没空🤦‍♂️\n\nPost summary: 工具写的晚了，现在都没人看了 其实2年前就想写，一直没空🤦‍♂️ Fox@MkSaaS.com (@indie_maker_fox) 大家好，分享一个免费制作数据增长型视频工具 tanstarter.dev/tools/video 周末使用TanStarter模板写的，不论是你社媒粉丝数达到多少、MRR收入突破多少、Github收藏量多少、软件下载量多少，都可以使用这个工具来制作，分享到社媒吸引流量，支持参数定制。 请不要错过任何一个里程碑的庆祝时刻 🎉 Video — https://nitter.net/indie_maker_fox/status/2035902442609770658#m\n\nCanonical URL: https://x.com/indie_maker_fox/status/2036014412377792894",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Fox",
+      "MkSaaS",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "工具写的晚了，现在都没人看了 其实2年前就想写，一直没空🤦‍♂️",
+      "工具写的晚了，现在都没人看了 其实2年前就想写，一直没空🤦‍♂️ Fox@MkSaaS.com (@indie_maker_fox) 大家好，分享一个免费制作数据增长型视频工具 tanstarter.dev/tools/video 周末使用TanStarter模板写的，不论是你社媒粉丝数达到多少、MRR收入突破多少、Github收藏量多少、软件下载量多少，都可以使用这个工具来制作，分享到社媒吸引流量，支持参数定制。 请不要错过任何一个里程碑的庆祝时刻 🎉 Video — https://nitter.net/indie_maker_fox/status/2035902442609770658#m",
+      "Fox",
+      "MkSaaS",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-googledeepmind-216377cb6152",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-googledeepmind-216377cb6152",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "title": "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → https://goo.gle/4lKu7de",
+      "published_at": "2026-03-24T12:21:33Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-googledeepmind-216377cb6152/source_item.json"
+    },
+    {
+      "signal_id": "x-cohere-7f4e2431ab75",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/cohere/status/2036173176934183265",
+      "title": "We’re excited to announce that we’ve signed a Memorandum of Understanding for advanced AI collaboration with Saab, a global leader in defense and security. Together, we’ll explore groundbreaking AI partnerships for their aerospace platforms and deliver tailored solutions critical to Saab’s operations. Read more: https://cohere.link/cquJlw4",
+      "published_at": "2026-03-23T20:08:10Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-cohere-7f4e2431ab75/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-googledeepmind-ebac5e5a99f8",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2036483295983100314",
+      "title": "Watch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡ This browser creates each page in real-time as you click, search, and navigate. Give it a try → https://goo.gle/4t9In1R",
+      "published_at": "2026-03-24T16:40:28Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-googledeepmind-ebac5e5a99f8/source_item.json"
+    },
+    {
+      "signal_id": "x-berryxia-837405031203",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/berryxia/status/2036591365065453600",
+      "title": "🚀 太震撼了！ Gemini 3.1 Pro（High）+ Claude Opus 4.6 在 Antigravity 里强强联手： Claude Opus 4.6 负责整体规划 Gemini 3.1 Pro 负责代码实现",
+      "published_at": "2026-03-24T23:49:54Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-berryxia-837405031203/source_item.json"
+    },
+    {
+      "signal_id": "x-ai_for_success-bbff49d771df",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ai_for_success/status/2036486537341473266",
+      "title": "Gemini 3.1 Flash-Lite is dope 🔥 Here’s a demo of a website being generated in real time by it.",
+      "published_at": "2026-03-24T16:53:21Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-ai_for_success-bbff49d771df/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → https://goo.gle/4lKu7de",
+      "source_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "signal_id": "x-googledeepmind-216377cb6152"
+    },
+    {
+      "claim": "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → goo.gle/4lKu7de",
+      "source_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "signal_id": "x-googledeepmind-216377cb6152"
+    },
+    {
+      "claim": "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots",
+      "source_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "signal_id": "x-googledeepmind-216377cb6152"
+    },
+    {
+      "claim": "Find out more → https://goo.gle/4lKu7de Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots",
+      "source_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "signal_id": "x-googledeepmind-216377cb6152"
+    },
+    {
+      "claim": "Find out more → goo.gle/4lKu7de Post title: Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots",
+      "source_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "signal_id": "x-googledeepmind-216377cb6152"
+    },
+    {
+      "claim": "Find out more → https://goo.gle/4lKu7de Post summary: Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots",
+      "source_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "signal_id": "x-googledeepmind-216377cb6152"
+    },
+    {
+      "claim": "Find out more → goo.gle/4lKu7de Canonical URL: https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "source_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+      "signal_id": "x-googledeepmind-216377cb6152"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 4,
+    "require_official_primary": true,
+    "require_release_signal": true,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": true,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": true,
+  "validity_gate": true,
+  "quality_tier": "B",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": true
+}

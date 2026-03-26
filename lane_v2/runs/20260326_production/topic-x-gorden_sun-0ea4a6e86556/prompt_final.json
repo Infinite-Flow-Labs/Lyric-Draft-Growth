@@ -1,0 +1,569 @@
+{
+  "task": "Write one publishable lane-controlled article draft.",
+  "instructions": [
+    "Raw source facts outrank rhetorical cleverness.",
+    "Do not produce a summary digest; produce a judged, usable article.",
+    "Composition: mixed (generation=75%, rewrite=25%).",
+    "Rewrite portion preserves critical release facts; generated portion adds judgment + action paths.",
+    "At least 5 preserved_fact_anchors from provided sources.",
+    "Honor forbidden_claims strictly.",
+    "Output language: zh-CN.",
+    "body_markdown must use markdown structure. First chunk must be a quote block: > ...",
+    "At least 2 subheadings (## ...), 1 bullet list (>=3 items), 3-10 bold spans.",
+    "Title: 12-32 chars, must carry conflict/reversal/stake.",
+    "Dek: a plain sentence that sharpens the angle. Do NOT prefix with labels like 'Dek:' or '**Dek**:'. Do NOT repeat the title. The dek field in JSON must contain only the sentence itself.",
+    "Do not output framework IDs, submode IDs, model names, or metadata in article text.",
+    "Banned: 不是...而是..., 不仅...而且..., 首先/其次/最后 template, emoji, em-dash overuse, bold overuse.",
+    "Banned: promotional hype (颠覆性/炸裂/封神/王炸/天花板), vague attribution (专家认为/据悉).",
+    "Banned: stale bridges (这个判断太轻了/官方说得很直接/最值得看/更容易看清/说透/很清楚).",
+    "Sound like an informed human writer making judgments, not a neutral recap engine.",
+    "Delete filler phrases. Vary rhythm. Trust the reader.",
+    "标题必须包含变化判断，不能是公告标题改写。",
+    "Dek 必须回答真正值得看的变化是什么。",
+    "开篇前两段必须出现发布动作 + 高价值判断。",
+    "中段必须写清变化前后对比 + 人群影响 + 不该用边界。",
+    "结尾必须给出可执行动作（立刻试用 / 观察 / 暂缓）。",
+    "The article must open by placing the reader inside a concrete personal frustration or blocked workflow, not by stating what product/feature launched.",
+    "First two paragraphs must complete: what is it → what changed → why it matters to YOU specifically.",
+    "Related/tangential signals must not exceed 20% of the article. If removing a related signal paragraph doesn't weaken the main argument, remove it.",
+    "Every external example cited must have a direct causal link to the main topic. 'Same general direction' is not enough.",
+    "When mentioning a source author for the first time, use their known public name or Chinese name (e.g. '归藏' not '@op7418'). @handle can follow in parentheses.",
+    "Do not make quantitative promises (time, effort, cost) not supported by source data.",
+    "Audience segments must be by concrete use-case scenario, not vague identity labels like '独立开发者'.",
+    "The article must end with a concrete actionable next step, NOT a rhetorical question or philosophical open-ended prompt.",
+    "Do not use defensive negation — do not deny accusations nobody made (e.g. '不是噱头', '不是小事').",
+    "CRITICAL: The article must open by placing the reader inside a concrete personal pain point.",
+    "Reader pain point: 你花三周写了一份详细的产品规划和PRD，定好了每个环节的时间表。但等到开发开始，新的AI模型上线了，之前你费力规划的功能现在一个Agent就能做，你的整个方案瞬间变得不适用。这种'规划好了就过时了'的困境，正是AI时代产品经理最大的无力感。",
+    "Hook inspiration (adapt freely): 你花三周写好的PRD，在AI面前可能活不过三天。",
+    "Who feels this most: 依然在用'写PRD→跟进开发→逐月推进'这套流程的产品经理，特别是那些需要提前3-6个月规划产品线路的传统大公司PM"
+  ],
+  "topic_card": {
+    "topic_id": "topic-x-gorden_sun-0ea4a6e86556",
+    "topic_statement": "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品...",
+    "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+    "cluster_signature": "opus::上线"
+  },
+  "lane_assignment": {
+    "selected_lane_id": "T08_signal_to_action",
+    "framework_id": "08_signal_to_action",
+    "submode_id": "market_window_playbook",
+    "composition_mode": "mixed",
+    "rationale": "release_signal_present | external_source_present | enough_fact_density | user_impact_present | actionability_signal_hit | single_source_window"
+  },
+  "primary_source_item": {
+    "source_id": "x-gorden_sun-0ea4a6e86556",
+    "platform": "x",
+    "source_kind": "x_thread",
+    "canonical_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+    "title": "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文：https://claude.com/blog/product-management-on-the-ai-exponential",
+    "author": {
+      "handle": "@Gorden_Sun",
+      "display_name": "Gorden_Sun",
+      "account_url": "https://x.com/Gorden_Sun"
+    },
+    "published_at": "2026-03-23T08:52:28Z",
+    "participants": [],
+    "primary_text_source": "x_post",
+    "summary": "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。...",
+    "full_text": "Post title: AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文：https://claude.com/blog/product-management-on-the-ai-exponential Post summary: AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文： claude.com/blog/product-mana… Canonical URL: https://x.com/Gorden_Sun/status/2036003130576613389",
+    "raw_quotes": [],
+    "fact_anchors": [
+      "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在...",
+      "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在...",
+      "Opus"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Opus"
+    ]
+  },
+  "source_bundle": {
+    "lane_id": "T08_signal_to_action",
+    "framework_id": "08_signal_to_action",
+    "submode_id": "market_window_playbook",
+    "composition_mode": "mixed",
+    "primary_sources": [
+      {
+        "signal_id": "x-gorden_sun-0ea4a6e86556",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "title": "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Cl...",
+        "published_at": "2026-03-23T08:52:28Z"
+      },
+      {
+        "signal_id": "x-berryxia-fc4d55fcde88",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+        "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 W...",
+        "published_at": "2026-03-24T23:22:12Z"
+      }
+    ],
+    "supporting_sources": [
+      {
+        "signal_id": "x-chuhaiqu-0e03768e6ed4",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/chuhaiqu/status/2036704393475837965",
+        "title": "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。",
+        "published_at": "2026-03-25T07:19:02Z"
+      }
+    ],
+    "fact_anchors": [
+      {
+        "claim": "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在...",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "· 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "Anthropic的很多产品都是这么尝试出来的",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "· 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      },
+      {
+        "claim": "最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会",
+        "source_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+        "signal_id": "x-gorden_sun-0ea4a6e86556"
+      }
+    ],
+    "forbidden_claims": [
+      "No unsupported percentage claims about performance or cost change.",
+      "No unsupported claim that this release fully replaces existing workflows.",
+      "No unsupported claim that all teams should adopt immediately."
+    ],
+    "coverage_checks": {
+      "has_release_action": true,
+      "has_delta_detail": false,
+      "has_user_impact": true,
+      "has_limit_or_risk": false
+    },
+    "requirement_checks": {
+      "primary_sources_min_ok": true,
+      "supporting_sources_min_ok": false,
+      "fact_anchors_min_ok": true,
+      "official_primary_required_ok": true
+    }
+  },
+  "source_materials": [
+    {
+      "source_id": "x-gorden_sun-0ea4a6e86556",
+      "source_role": "primary",
+      "canonical_url": "https://x.com/Gorden_Sun/status/2036003130576613389",
+      "title": "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Cl...",
+      "fact_anchors": [
+        "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在...",
+        "AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在...",
+        "Opus"
+      ],
+      "full_text_excerpt": "Post title: AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文：https://claude.com/blog/product-management-on-the-ai-exponential Post summary: AI时代的产品经理，应该如何工作？ 基于Claude Code产品经理Cat Wu的文章，我做了些整理和思考。 在AI来临之前，产品经理的工作流程是：市场和竞品调研、写PRD、确定产品线路、跟进开发，之所以是这样一套流程，是因为软件开发的周期和成本非常高，中途调整方向的损失非常大，所以必须先规划好再执行。 但是现在AI的能力进化太快了，ChatGPT在22年11月上线的时候，很难写出不出错的单个Html文件；2025年11月的Claude Opus 4.5，在Agent里可以完成一个前后端完整的中型项目，仅仅3年的时间，提升不止100倍。 在开发周期和成本急剧压缩的情况下，AI时代的产品经理应该这样工作： · 先出可运行的Demo，后补PRD文档。直接花半天用AI做出一个可以运行的产品，基于这个可以实际上手的产品来讨论，比PRD更直观和高效，而且很多Demo现在都接近直接上线的水准。 · 全员放飞：角色分工不再那么清晰，产品经理、设计师、开发都可以直接把想法做成产品。每2周/每月挑出半天，用Claude Code试一下你觉得“大概率AI做不到”的功能，成了就推进，没成就损失半天。Anthropic的很多产品都是这么尝试出来的。 · 每次模型升级都重新看看你产品里的老功能，新模型出来了，很多之前无法实现的功能都有可能实现了。 · 别给模型打补丁。因为模型能力差，你做的各种补充和兜底逻辑，很可能下次模型升级时直接内置了。如果必须要打补丁，也要选最简单、成本最低的方式。 最重要的是：产品经理不再是提前规划确定性、按部就班推进项目，而要在快速变化中发现新几乎、放大新机会。 原文： claude.com/blog/product-mana… Canonical URL: https://x.com/Gorden_Sun/status/2036003130576613389"
+    },
+    {
+      "source_id": "x-berryxia-fc4d55fcde88",
+      "source_role": "primary",
+      "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+      "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 W...",
+      "fact_anchors": [
+        "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+        "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+        "AI",
+        "Siri",
+        "App",
+        "Ask Siri",
+        "Apple Intelligence",
+        "WWDC",
+        "Siri App",
+        "Mac"
+      ],
+      "full_text_excerpt": "Post title: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Post summary: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：..."
+    },
+    {
+      "source_id": "x-chuhaiqu-0e03768e6ed4",
+      "source_role": "supporting",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036704393475837965",
+      "title": "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。",
+      "fact_anchors": [
+        "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，...",
+        "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，...",
+        "Natia",
+        "App",
+        "Astro",
+        "Sensor Tower"
+      ]
+    }
+  ],
+  "framework_context": {
+    "selected_framework": {
+      "framework_id": "08_signal_to_action",
+      "framework_label": "信号转行动型",
+      "submode_id": "market_window_playbook"
+    },
+    "framework_spec_slim": {
+      "intent": {
+        "definition": "先指出一个大多数人还没看清的市场信号，再把这个信号压缩成几类具体机会，最后给读者一个带时间窗口的行动感。",
+        "core_value": "不是预测未来，而是把模糊趋势翻译成现在就该做的准备，让读者感到窗口正在打开且需要提前卡位。",
+        "core_tasks": [
+          "告诉读者有一个窗口正在打开",
+          "说明多数人为什么还没看见",
+          "把机会拆成几个具体对象",
+          "把未来高价值转换成现在该行动"
+        ]
+      },
+      "structure": {
+        "hidden_skeleton": [
+          "Hidden signal",
+          "Why most people are missing it",
+          "Future high-value opportunity",
+          "Shortlisted skills or roles",
+          "Why the window is now",
+          "Action urge"
+        ],
+        "visible_template_bans": [
+          "不得写成有一个机会要来了、你要学 5 个东西、不学就晚了",
+          "不得只靠薪资数字和年份制造焦虑",
+          "不得只列机会，不解释组织需求来源",
+          "不得把窗口文写成世界末日式职业恐吓"
+        ],
+        "allowed_surface_moves": [
+          "先从 subtle signal 开局",
+          "先讲为什么现在还看不清",
+          "用 4 到 6 个具体对象承载机会列表",
+          "结尾把 urgency 落在提前卡位而不是恐吓"
+        ],
+        "forbidden_surface_moves": [
+          "倒计时文案模板",
+          "空口号代替证据",
+          "每项机会只剩一句定义",
+          "廉价 FOMO 文"
+        ],
+        "parameter_axes": [
+          {
+            "axis": "opportunity_object",
+            "values": [
+              "skill",
+              "job_title"
+            ]
+          },
+          {
+            "axis": "signal_source",
+            "values": [
+              "salary_data",
+              "emerging_org_need",
+              "market_gap"
+            ]
+          },
+          {
+            "axis": "reader_payoff",
+            "values": [
+              "position_early",
+              "train_before_market_catches_up"
+            ]
+          }
+        ],
+        "submodes": [
+          {
+            "submode_id": "market_window_playbook",
+            "label": "市场窗口行动手册",
+            "summary": "用一个尚未完全显性的市场信号，推动读者提前布局某类技能或岗位。",
+            "use_when": [
+              "文章核心是隐藏窗口 + 机会对象 + 现在就该行动",
+              "每个对象都会被解释为什么值钱、为什么稀缺",
+              "正文有 salary anchor、组织需求或训练路径空白等支撑"
+            ],
+            "avoid_when": [
+              "没有窗口感，只是普通机会列表",
+              "数字没有支撑",
+              "结尾只剩恐吓，不剩行动逻辑"
+            ],
+            "source_fit": [
+              "skill window",
+              "job title window",
+              "hidden org demand before mainstream pricing"
+            ],
+            "source_unfit": [
+              "普通趋势总结",
+              "普通岗位推荐"
+            ],
+            "hidden_flow": [
+              "Subtle signal",
+              "Most people are missing it",
+              "Future salary or demand anchor",
+              "List of opportunities",
+              "Why this window exists now",
+              "Urgent but directed close"
+            ],
+            "hook_patterns": [
+              "Something is happening right now that most professionals are completely missing",
+              "There are 4 roles being created right now that barely exist yet",
+              "Right now, you have 90 days",
+              "Almost nobody is training for them"
+            ],
+            "evidence_mix": [
+              "salary anchor",
+              "hiring need",
+              "org design shift",
+              "rarity of training path",
+              "compounding logic"
+            ],
+            "reasoning_moves": [
+              "先给 market gap，再给列表",
+              "每项对象都要解释为什么会涨价",
+              "urgency 来自时点差和组织需求，不来自情绪勒索"
+            ],
+            "rewrite_formula": "隐藏信号 -> 多数人没看见 -> 未来高价值对象 -> 逐项解释 -> 为什么现在还稀缺 -> 提前布局",
+            "surface_forms": [
+              "hidden signal",
+              "future salary anchor",
+              "numbered list",
+              "why now",
+              "structured close"
+            ],
+            "anti_patterns": [
+              "廉价焦虑营销",
+              "没有支撑的薪资数字",
+              "列表项全是空泛标签",
+              "urgency 完全靠夸张副词"
+            ],
+            "style_profile_id": "08_market_window_playbook_style",
+            "sample_ids": [
+              "2033549188261146778",
+              "2033848970238161112"
+            ]
+          }
+        ]
+      },
+      "style": {
+        "global_style_principles": [
+          "共同目标不是预测未来，而是提早给出行动定价",
+          "先告诉读者市场正在悄悄定价某些能力",
+          "再说明为什么大多数人还没反应过来",
+          "最后把早期差价转成行动冲动",
+          "由于样本薄，writer 应严格保留证据和组织需求解释"
+        ],
+        "global_anti_ai_rules": [
+          "避免廉价职业焦虑帖",
+          "避免只靠年份和薪资数字制造 FOMO",
+          "避免列表项空泛",
+          "避免没有需求来源解释",
+          "默认需要 reviewer 复核窗口和数字是否站得住"
+        ],
+        "submode_profiles": [
+          {
+            "style_profile_id": "08_market_window_playbook_style",
+            "submode_id": "market_window_playbook",
+            "tone_core": "非常强的先看到的人先拿走优势口吻，自信、直接、带定价感，但不能失去证据。",
+            "opening_moves": [
+              "Something is happening right now...",
+              "There are 4 roles being created right now...",
+              "先立一个大多数人错过的窗口",
+              "很快给年份、薪资、天数这类 time-price anchor"
+            ],
+            "sentence_rhythm": [
+              "开头短句压迫感强",
+              "中段列表推进非常稳定",
+              "每一项都遵循这是什么 / 为什么值钱 / 为什么稀缺",
+              "结尾回到窗口和提前布局"
+            ],
+            "surface_forms": [
+              "hidden signal",
+              "future salary anchor",
+              "numbered list",
+              "why now",
+              "window-specific close"
+            ],
+            "language_moves": [
+              "most people are missing",
+              "right now",
+              "by 2027 / by 2028",
+              "almost nobody is training for them",
+              "the window isn't permanently open"
+            ],
+            "keep": [
+              "稀缺窗口感",
+              "未来定价感",
+              "每项机会的组织需求解释",
+              "最后的提前布局逻辑"
+            ],
+            "avoid": [
+              "空口号代替证据",
+              "每项机会只剩一句定义",
+              "把窗口写成世界末日",
+              "只做 FOMO 不做解释"
+            ],
+            "ai_smells": [
+              "焦虑营销",
+              "薪资数字没有支撑",
+              "列表项全是名词堆砌",
+              "urgency 靠副词堆出来"
+            ],
+            "one_sentence_portrait": "像一个比市场早半步的人，在把尚未明牌的组织需求和职业机会提前卖给你。"
+          }
+        ]
+      },
+      "execution_controls": {
+        "must_keep": [
+          "未来窗口感",
+          "具体机会对象",
+          "为什么现在还稀缺",
+          "组织需求或市场 gap 支撑",
+          "directed urgency"
+        ],
+        "must_avoid": [
+          "廉价焦虑营销",
+          "没有支撑的薪资数字",
+          "空泛机会列表",
+          "只会制造 FOMO"
+        ],
+        "rewrite_failure_modes": [
+          "退化成职业焦虑帖",
+          "数字和年份像编出来的",
+          "对象列表没有组织需求解释",
+          "只有窗口，没有行动路径"
+        ],
+        "quality_checks": [
+          "是否明确讲清楚了窗口是什么",
+          "是否解释了为什么现在还稀缺",
+          "是否每个对象都有需求来源说明",
+          "是否把 urgency 建立在时点差和组织变化上",
+          "是否避免了恐吓式口吻"
+        ],
+        "human_review_triggers": [
+          "当前框架样本仅 2 篇且同作者，默认需要 reviewer 复核",
+          "薪资和年份锚点缺乏可验证支撑",
+          "writer 输出后像职业焦虑营销文",
+          "source 其实更像普通趋势总结",
+          "机会对象看起来像拍脑袋命名"
+        ]
+      }
+    },
+    "style_profiles_packet": {
+      "style_profiles_ref": "/home/lyric/growth-engine-pipeline/framework/08_signal_to_action/STYLE_PROFILES.md",
+      "overview_section_excerpt": "`08_signal_to_action` 的共同风格，不是“预测未来”，而是： - 先告诉你市场正在悄悄定价某些能力 - 再告诉你为什么大多数人还没反应过来 - 最后把这种早期差价转成你的行动冲动",
+      "submode_section_excerpt": "### 样本依据 - The 5 AI Skills That Will Be Worth $350K in 2027. Right Now, You Have 90 Days to Learn Them. - The 4 Job Titles That Will Pay $200K in 2028. Almost Nobody Is Training for Them. ### 语气核心 - 非常强的“先看到的人先拿走优势”口吻 - 自信、直接、带定价感 - 不是分析师中立语气，而是强主张语气 ### 开头动作 - `Something is happening right now...` - `There are 4 roles being created right now...` - 先立一个大多数人错过的窗口 - 很快给年份、薪资、天数这类 time-price anchor ### 句子节奏 - 开头短句压迫感强 - 中段列表推进非常稳定 - 每一项都遵循“这是什么 / 为什么值钱 / 为什么稀缺” - 结尾回到窗口和提前布局 ### 常见表层承载形式 - hidden signal - future salary anchor - numbered list - why now - the window is specific - structured close ### 语言动作 - `most people are missing` - `right now` - `by 2027 / by 2028` - `almost nobody is training for them` - `the window isn't permanently open` ### 最容易出 AI 味的地方 - 变成廉价焦虑营销 - 薪资数字没有任何支撑 - 列表项全是空泛标签 - urgency 完全靠夸张副词堆出来 ### 改写时应保留 - 稀缺窗口感 - 未来定价感 - 每项机会的组织需求解释 - 最后的提前布局逻辑 ### 改写时应避免 - 用空口号代替证据 - 每项机会只剩一句定义 - 把“窗口”写成“世界末日” ### 一句话画像 像一个比市场早半步的人，在把尚未明牌的组织需求和职业机会提前卖给你。 ## 最后约束 后续生成 `08_signal_to_action` 时，不能只学“怎么制造 FOMO”，必须同时学： - 为什么这是一个窗口 - 为什么现在还稀缺 - 为什么这几个对象值得提前布局 否则生成结果会很像低质量职业焦虑帖。"
+    },
+    "sample_moves_layer_packet": {
+      "sample_moves_layer_ref": "/home/lyric/growth-engine-pipeline/framework/08_signal_to_action/SAMPLE_MOVES_LAYER.json",
+      "opening_hook_moves": [
+        "先说“大多数专业人士正在错过一件事”，再立刻把未来薪资和 90 天窗口钉出来。",
+        "先说“这些岗位几乎还不存在”，再给 2028 年和 `$200K` 的薪资锚点。"
+      ],
+      "mid_transition_moves": [
+        "先给 market gap，再给列表",
+        "每个 skill 都要解释商业稀缺性",
+        "urgency 来自时点差，不是情绪勒索",
+        "未来薪资 anchor",
+        "五项 skills 清单",
+        "为什么这几项会涨价",
+        "为什么窗口只有现在",
+        "compounding logic",
+        "岗位不是凭空编的，要写出组织需求来源",
+        "先解释为什么旧路径不够，再讲新岗位",
+        "新岗位清单",
+        "企业组织需求"
+      ],
+      "closing_carry_moves": [
+        "结尾要收在“先定义角色的人会拿走优势”"
+      ],
+      "evidence_combo_units": [
+        "未来薪资 anchor",
+        "五项 skills 清单",
+        "为什么这几项会涨价",
+        "为什么窗口只有现在",
+        "compounding logic",
+        "新岗位清单",
+        "企业组织需求",
+        "为什么现在没人训练",
+        "为什么两年后窗口会关闭"
+      ],
+      "language_action_moves": [
+        "这是典型的“未来价值预警 + 当下卡位”文章，商业性很强，但骨架也很清晰。 ---",
+        "和上一篇是同一写法引擎：用未来岗位而不是未来技能承载同一个“窗口预警”任务。 ---"
+      ],
+      "forbidden_rewrite_parts": [
+        "$350K`、`90 days` 这种具体定价和时长",
+        "Mastery Bundle 的具体销售收口",
+        "4 个具体岗位命名",
+        "$200K` 等具体数字",
+        "Mastery Bundle 的销售收口"
+      ],
+      "sample_cards_for_submode": [
+        {
+          "sample_id": "2033549188261146778",
+          "title": "The 5 AI Skills That Will Be Worth $350K in 2027. Right Now, You Have 90 Days to Learn Them.",
+          "hook_move": "先说“大多数专业人士正在错过一件事”，再立刻把未来薪资和 90 天窗口钉出来。",
+          "proof_mode": [
+            "未来薪资 anchor",
+            "五项 skills 清单",
+            "为什么这几项会涨价",
+            "为什么窗口只有现在"
+          ],
+          "reusable_parts": [
+            "先给 market gap，再给列表",
+            "每个 skill 都要解释商业稀缺性",
+            "urgency 来自时点差，不是情绪勒索"
+          ],
+          "style_cue": "这是典型的“未来价值预警 + 当下卡位”文章，商业性很强，但骨架也很清晰。 ---"
+        },
+        {
+          "sample_id": "2033848970238161112",
+          "title": "The 4 Job Titles That Will Pay $200K in 2028. Almost Nobody Is Training for Them.",
+          "hook_move": "先说“这些岗位几乎还不存在”，再给 2028 年和 `$200K` 的薪资锚点。",
+          "proof_mode": [
+            "新岗位清单",
+            "企业组织需求",
+            "为什么现在没人训练",
+            "为什么两年后窗口会关闭"
+          ],
+          "reusable_parts": [
+            "岗位不是凭空编的，要写出组织需求来源",
+            "先解释为什么旧路径不够，再讲新岗位",
+            "结尾要收在“先定义角色的人会拿走优势”"
+          ],
+          "style_cue": "和上一篇是同一写法引擎：用未来岗位而不是未来技能承载同一个“窗口预警”任务。 ---"
+        }
+      ]
+    }
+  },
+  "reader_pain_point": {
+    "pain_point": "你花三周写了一份详细的产品规划和PRD，定好了每个环节的时间表。但等到开发开始，新的AI模型上线了，之前你费力规划的功能现在一个Agent就能做，你的整个方案瞬间变得不适用。这种'规划好了就过时了'的困境，正是AI时代产品经理最大的无力感。",
+    "hook_sentence": "你花三周写好的PRD，在AI面前可能活不过三天。",
+    "who_feels_it": "依然在用'写PRD→跟进开发→逐月推进'这套流程的产品经理，特别是那些需要提前3-6个月规划产品线路的传统大公司PM"
+  }
+}

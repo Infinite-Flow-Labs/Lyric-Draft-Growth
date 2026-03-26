@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-op7418-fe5af7d230f1",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/op7418/status/2036620002095464936",
+  "author": {
+    "handle": "@op7418",
+    "display_name": "op7418",
+    "account_url": "https://x.com/op7418"
+  },
+  "title": "Codepilot 0.39.0 更新 - 统一上下文层，消除冗余 MCP 加载 - 计划模式：Tabs 切换 UI、状态持久化 - Bridge 升级：CLI 工具上下文注入 + 补齐 SDK 选项 - 侧边栏三点菜单：项目支持删除，分屏移到三点菜单里 - 侧边栏窄宽度修复：ScrollArea display:table 溢出问题",
+  "language": "unknown",
+  "published_at": "2026-03-25T01:43:41Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/op7418/status/2036620002095464936",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/op7418/status/2036620002095464936#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Codepilot 0.39.0 更新 - 统一上下文层，消除冗余 MCP 加载 - 计划模式：Tabs 切换 UI、状态持久化 - Bridge 升级：CLI 工具上下文注入 + 补齐 SDK 选项 - 侧边栏三点菜单：项目支持删除，分屏移到三点菜单里 - 侧边栏窄宽度修复：ScrollArea display:table 溢出问题",
+    "full_text": "Post title: Codepilot 0.39.0 更新 - 统一上下文层，消除冗余 MCP 加载 - 计划模式：Tabs 切换 UI、状态持久化 - Bridge 升级：CLI 工具上下文注入 + 补齐 SDK 选项 - 侧边栏三点菜单：项目支持删除，分屏移到三点菜单里 - 侧边栏窄宽度修复：ScrollArea display:table 溢出问题\n\nPost summary: Codepilot 0.39.0 更新 - 统一上下文层，消除冗余 MCP 加载 - 计划模式：Tabs 切换 UI、状态持久化 - Bridge 升级：CLI 工具上下文注入 + 补齐 SDK 选项 - 侧边栏三点菜单：项目支持删除，分屏移到三点菜单里 - 侧边栏窄宽度修复：ScrollArea display:table 溢出问题\n\nCanonical URL: https://x.com/op7418/status/2036620002095464936",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Codepilot",
+      "MCP",
+      "Tabs",
+      "UI",
+      "Bridge",
+      "CLI",
+      "SDK",
+      "ScrollArea",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Codepilot 0.39.0 更新 - 统一上下文层，消除冗余 MCP 加载 - 计划模式：Tabs 切换 UI、状态持久化 - Bridge 升级：CLI 工具上下文注入 + 补齐 SDK 选项 - 侧边栏三点菜单：项目支持删除，分屏移到三点菜单里 - 侧边栏窄宽度修复：ScrollArea display:table 溢出问题",
+      "Codepilot",
+      "MCP",
+      "Tabs",
+      "UI",
+      "Bridge",
+      "CLI",
+      "SDK",
+      "ScrollArea",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

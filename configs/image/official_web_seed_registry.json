@@ -1,0 +1,100 @@
+{
+  "version": "0.1.0",
+  "description": "Seed pages for official AI company blog/newsletter feed autodiscovery. These URLs are discovery starting points, not a hard whitelist.",
+  "source_group": {
+    "group_id": "official_web_seed_v1",
+    "enabled": true,
+    "source_family": "official_web",
+    "source_type": "blog_or_newsletter",
+    "priority": "P0",
+    "discovery_channel": "rss_autodiscovery_then_fallback",
+    "fetch_mode": "discover_then_fulltext",
+    "fetcher": "web_feed_autodiscovery",
+    "items": [
+      {
+        "site_id": "openai",
+        "label": "OpenAI",
+        "homepage_url": "https://openai.com/",
+        "landing_urls": ["https://openai.com/news/"],
+        "kind_hints": ["official_blog", "company_news"]
+      },
+      {
+        "site_id": "anthropic",
+        "label": "Anthropic",
+        "homepage_url": "https://www.anthropic.com/",
+        "landing_urls": ["https://www.anthropic.com/news"],
+        "kind_hints": ["official_blog", "company_news"]
+      },
+      {
+        "site_id": "google_deepmind",
+        "label": "Google DeepMind",
+        "homepage_url": "https://deepmind.google/",
+        "landing_urls": ["https://deepmind.google/discover/blog/"],
+        "kind_hints": ["official_blog", "research_blog"]
+      },
+      {
+        "site_id": "meta_ai",
+        "label": "Meta AI",
+        "homepage_url": "https://ai.meta.com/",
+        "landing_urls": ["https://ai.meta.com/blog/"],
+        "kind_hints": ["official_blog", "research_blog"]
+      },
+      {
+        "site_id": "mistral",
+        "label": "Mistral AI",
+        "homepage_url": "https://mistral.ai/",
+        "landing_urls": ["https://mistral.ai/news/"],
+        "kind_hints": ["official_blog", "company_news"]
+      },
+      {
+        "site_id": "cohere",
+        "label": "Cohere",
+        "homepage_url": "https://cohere.com/",
+        "landing_urls": ["https://cohere.com/blog"],
+        "kind_hints": ["official_blog", "product_blog"]
+      },
+      {
+        "site_id": "huggingface",
+        "label": "Hugging Face",
+        "homepage_url": "https://huggingface.co/",
+        "landing_urls": ["https://huggingface.co/blog"],
+        "kind_hints": ["official_blog", "community_blog"]
+      },
+      {
+        "site_id": "perplexity",
+        "label": "Perplexity",
+        "homepage_url": "https://www.perplexity.ai/",
+        "landing_urls": ["https://www.perplexity.ai/hub/blog"],
+        "kind_hints": ["official_blog", "product_blog"]
+      },
+      {
+        "site_id": "xai",
+        "label": "xAI",
+        "homepage_url": "https://x.ai/",
+        "landing_urls": ["https://x.ai/news", "https://x.ai/blog"],
+        "kind_hints": ["official_blog", "company_news"]
+      },
+      {
+        "site_id": "elevenlabs",
+        "label": "ElevenLabs",
+        "homepage_url": "https://elevenlabs.io/",
+        "landing_urls": ["https://elevenlabs.io/blog"],
+        "kind_hints": ["official_blog", "product_blog"]
+      },
+      {
+        "site_id": "stability_ai",
+        "label": "Stability AI",
+        "homepage_url": "https://stability.ai/",
+        "landing_urls": ["https://stability.ai/news"],
+        "kind_hints": ["official_blog", "company_news"]
+      },
+      {
+        "site_id": "runway",
+        "label": "Runway",
+        "homepage_url": "https://runwayml.com/",
+        "landing_urls": ["https://runwayml.com/research", "https://runwayml.com/blog"],
+        "kind_hints": ["official_blog", "research_blog"]
+      }
+    ]
+  }
+}

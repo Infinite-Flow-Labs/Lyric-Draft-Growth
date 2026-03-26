@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-yoheinakajima-388b0982d9dc",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/yoheinakajima/status/2034842370446172546",
+  "author": {
+    "handle": "@yoheinakajima",
+    "display_name": "yoheinakajima",
+    "account_url": "https://x.com/yoheinakajima"
+  },
+  "title": "me: what are you working on? founder: we're building the emotional friend that everyone needs, but with embedded graph based composable memory that can connect to claude code/openai with mcp/api/cli. it has it's own rl environment it uses to continuously update it's own model and can build a full web/mobile app, identify your target audience, do outreach, find you a girlfriend, buy her gifts, arrange your wedding, and raise your kids",
+  "language": "unknown",
+  "published_at": "2026-03-20T04:00:01Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/yoheinakajima/status/2034842370446172546",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/yoheinakajima/status/2034842370446172546#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "me: what are you working on? founder: we're building the emotional friend that everyone needs, but with embedded graph based composable memory that can connect to claude code/openai with mcp/api/cli. it has it's own rl environment it uses to continuously update it's own model and can build a full web/mobile app, identify your target audience, do outreach, find you a girlfriend, buy her gifts, arrange your wedding, and raise your kids",
+    "full_text": "Post title: me: what are you working on? founder: we're building the emotional friend that everyone needs, but with embedded graph based composable memory that can connect to claude code/openai with mcp/api/cli. it has it's own rl environment it uses to continuously update it's own model and can build a full web/mobile app, identify your target audience, do outreach, find you a girlfriend, buy her gifts, arrange your wedding, and raise your kids\n\nPost summary: me: what are you working on? founder: we're building the emotional friend that everyone needs, but with embedded graph based composable memory that can connect to claude code/openai with mcp/api/cli. it has it's own rl environment it uses to continuously update it's own model and can build a full web/mobile app, identify your target audience, do outreach, find you a girlfriend, buy her gifts, arrange your wedding, and raise your kids\n\nCanonical URL: https://x.com/yoheinakajima/status/2034842370446172546",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "me: what are you working on? founder: we're building the emotional friend that everyone needs, but with embedded graph based composable memory that can connect to claude code/openai with mcp/api/cli. it has it's own rl environment it uses to continuously update it's own model and can build a full web/mobile app, identify your target audience, do outreach, find you a girlfriend, buy her gifts, arrange your wedding, and raise your kids",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

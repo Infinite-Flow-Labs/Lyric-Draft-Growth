@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-jxnlco-473b628c5f5d",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/jxnlco/status/2036507604227334230",
+  "author": {
+    "handle": "@jxnlco",
+    "display_name": "jxnlco",
+    "account_url": "https://x.com/jxnlco"
+  },
+  "title": "exciting to try out even better streaming mechanics from FastAPI https://fastapi.tiangolo.com/advanced/stream-data/",
+  "language": "unknown",
+  "published_at": "2026-03-24T18:17:03Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/jxnlco/status/2036507604227334230",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/jxnlco/status/2036507604227334230#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "exciting to try out even better streaming mechanics from FastAPI fastapi.tiangolo.com/advance…",
+    "full_text": "Post title: exciting to try out even better streaming mechanics from FastAPI https://fastapi.tiangolo.com/advanced/stream-data/\n\nPost summary: exciting to try out even better streaming mechanics from FastAPI fastapi.tiangolo.com/advance…\n\nCanonical URL: https://x.com/jxnlco/status/2036507604227334230",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "FastAPI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "exciting to try out even better streaming mechanics from FastAPI https://fastapi.tiangolo.com/advanced/stream-data/",
+      "exciting to try out even better streaming mechanics from FastAPI fastapi.tiangolo.com/advance…",
+      "FastAPI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

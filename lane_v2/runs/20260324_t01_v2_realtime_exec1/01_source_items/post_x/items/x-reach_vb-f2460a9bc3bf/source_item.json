@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-reach_vb-f2460a9bc3bf",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/reach_vb/status/2034208857975636048",
+  "author": {
+    "handle": "@reach_vb",
+    "display_name": "reach_vb",
+    "account_url": "https://x.com/reach_vb"
+  },
+  "title": "x.com/i/spaces/1pKdRbaLaMpJW",
+  "language": "unknown",
+  "published_at": "2026-03-18T10:02:40Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/reach_vb/status/2034208857975636048",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/reach_vb/status/2034208857975636048#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "nitter.net/i/spaces/1pKdRbaLaMpJW",
+    "full_text": "Post title: x.com/i/spaces/1pKdRbaLaMpJW\n\nPost summary: nitter.net/i/spaces/1pKdRbaLaMpJW\n\nCanonical URL: https://x.com/reach_vb/status/2034208857975636048",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "x.com/i/spaces/1pKdRbaLaMpJW",
+      "nitter.net/i/spaces/1pKdRbaLaMpJW",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

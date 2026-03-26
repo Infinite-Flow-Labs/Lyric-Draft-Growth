@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-24T07:22:35Z",
+  "backend": "codex_cli",
+  "writer_packet_root": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/t01_topic_engine/06_writer_packets/writer_packet_manifest.json",
+  "out_root": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_writer_smoke",
+  "output_language": "zh-CN",
+  "count": 1,
+  "ok_count": 0,
+  "schema_error_count": 0,
+  "blocked_humanizer_gate_count": 1,
+  "skipped_human_review_count": 0,
+  "skipped_not_ready_count": 0,
+  "results": [
+    {
+      "topic_id": "topic-x-hitw93-073a7edd337d",
+      "status": "blocked_humanizer_gate",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "framework_spec_ref": "/home/lyric/growth-engine-pipeline/framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "output_json": "",
+      "output_md": "",
+      "validation_error": "contains_pattern_not_but",
+      "source_load_errors": [],
+      "humanizer_smell_report": {
+        "not_but": 3,
+        "not_only_but_also": 0,
+        "formula_sequence": 0,
+        "connector_density": 1
+      }
+    }
+  ]
+}

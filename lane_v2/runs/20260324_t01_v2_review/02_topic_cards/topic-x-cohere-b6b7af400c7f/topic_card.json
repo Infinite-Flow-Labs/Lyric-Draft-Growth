@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-cohere-b6b7af400c7f",
+  "event_seed_signal_id": "x-cohere-b6b7af400c7f",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Our team had a great week in San Jose at @NVIDIAGTC ! Cohere leaders and technical staff delivered talks across the event, covering hardware efficiency, enterprise-grade automation, and innovation across the stack. Our CEO, @aidangomez, also joined the GTC live stage to discuss the exciting possibilities for enterprise customers, the barriers to deploying enterprise technology into global economies, and what surprised him most about the evolution of AI adoption. It was great connecting with our customers and partners, including @Dell, @Microsoft, @Oracle, and @CoreWeave, as well as the many other brilliant minds across the ecosystem who are shaping the exciting future of AI. #NVIDIAGTC",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 35.26,
+  "heat_breakdown": {
+    "volume_score": 38.6,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "our",
+  "cluster_signal_ids": [
+    "x-cohere-b6b7af400c7f"
+  ],
+  "source_families": [
+    "official_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/cohere/status/2035025921283883153",
+    "published_at": "2026-03-20T16:09:23Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 17
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_for_success-51294d9c938e",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ai_for_success/status/2036633405866328232",
+  "author": {
+    "handle": "@ai_for_success",
+    "display_name": "ai_for_success",
+    "account_url": "https://x.com/ai_for_success"
+  },
+  "title": "OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal?",
+  "language": "unknown",
+  "published_at": "2026-03-25T02:36:57Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ai_for_success/status/2036633405866328232",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ai_for_success/status/2036633405866328232#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal? Sora (@soraofficialapp) We’re saying goodbye to the Sora app. To everyone who created with Sora, shared it, and built community around it: thank you. What you made with Sora mattered, and we know this news is disappointing. We’ll share more soon, including timelines for the app and API and details on preserving your work. – The Sora Team — https://nitter.net/soraofficialapp/status/2036546752535470382#m",
+    "full_text": "Post title: OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal?\n\nPost summary: OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal? Sora (@soraofficialapp) We’re saying goodbye to the Sora app. To everyone who created with Sora, shared it, and built community around it: thank you. What you made with Sora mattered, and we know this news is disappointing. We’ll share more soon, including timelines for the app and API and details on preserving your work. – The Sora Team — https://nitter.net/soraofficialapp/status/2036546752535470382#m\n\nCanonical URL: https://x.com/ai_for_success/status/2036633405866328232",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "$1"
+    ],
+    "named_entities": [
+      "OpenAI",
+      "Sora",
+      "Disney",
+      "We",
+      "To",
+      "What",
+      "API",
+      "The Sora Team",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal?",
+      "OpenAI is shutting down Sora, so what happens to the OpenAI and Disney $1B deal? Sora (@soraofficialapp) We’re saying goodbye to the Sora app. To everyone who created with Sora, shared it, and built community around it: thank you. What you made with Sora mattered, and we know this news is disappointing. We’ll share more soon, including timelines for the app and API and details on preserving your work. – The Sora Team — https://nitter.net/soraofficialapp/status/2036546752535470382#m",
+      "$1",
+      "OpenAI",
+      "Sora",
+      "Disney",
+      "We",
+      "To",
+      "What",
+      "API",
+      "The Sora Team",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

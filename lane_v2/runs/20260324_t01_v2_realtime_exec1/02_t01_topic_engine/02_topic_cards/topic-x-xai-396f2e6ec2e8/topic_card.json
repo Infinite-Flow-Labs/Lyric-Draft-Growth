@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-xai-396f2e6ec2e8",
+  "event_seed_signal_id": "x-xai-396f2e6ec2e8",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Pinned: In order to understand the universe, you must explore the universe → http://x.ai/careers",
+  "why_now": "Clustered 10 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 76.09,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 46.18,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "salesforce::接入",
+  "cluster_signal_ids": [
+    "x-ai_for_success-47d9cbe3c519",
+    "x-ai_for_success-78c7d6a0d667",
+    "x-shengxj1-e81899a108d5",
+    "x-ai_jasonyu-a45594c5714f",
+    "x-icreatelife-78511f43bb9d",
+    "x-skirano-283e7d02de49",
+    "x-icreatelife-78ee70706be3",
+    "x-pmbackttfuture-8a8a907dacf5",
+    "x-fkysly-1b21dbcbe82d",
+    "x-xai-396f2e6ec2e8"
+  ],
+  "source_families": [
+    "official_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/xai/status/2035562571932024842",
+    "published_at": "2026-03-22T03:41:50Z",
+    "release_signals_count": 1,
+    "fact_candidates_count": 72
+  }
+}

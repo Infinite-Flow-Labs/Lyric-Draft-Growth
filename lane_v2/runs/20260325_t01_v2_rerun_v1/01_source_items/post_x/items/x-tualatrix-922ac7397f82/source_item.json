@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-tualatrix-922ac7397f82",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/tualatrix/status/2036064035792363629",
+  "author": {
+    "handle": "@tualatrix",
+    "display_name": "tualatrix",
+    "account_url": "https://x.com/tualatrix"
+  },
+  "title": "十几天前收到 Google Play 的邮件，说我没有提交 App，要把我账号关掉，除非在 5 月 11 前提交一个 App。 真的不知道开发啥 App，谁有在 Android（Google Play）上没满足的需求吗，我来 Vibe 一个占个坑。我不想账号被关掉…",
+  "language": "unknown",
+  "published_at": "2026-03-23T12:54:29Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/tualatrix/status/2036064035792363629",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/tualatrix/status/2036064035792363629#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "十几天前收到 Google Play 的邮件，说我没有提交 App，要把我账号关掉，除非在 5 月 11 前提交一个 App。 真的不知道开发啥 App，谁有在 Android（Google Play）上没满足的需求吗，我来 Vibe 一个占个坑。我不想账号被关掉…",
+    "full_text": "Post title: 十几天前收到 Google Play 的邮件，说我没有提交 App，要把我账号关掉，除非在 5 月 11 前提交一个 App。 真的不知道开发啥 App，谁有在 Android（Google Play）上没满足的需求吗，我来 Vibe 一个占个坑。我不想账号被关掉…\n\nPost summary: 十几天前收到 Google Play 的邮件，说我没有提交 App，要把我账号关掉，除非在 5 月 11 前提交一个 App。 真的不知道开发啥 App，谁有在 Android（Google Play）上没满足的需求吗，我来 Vibe 一个占个坑。我不想账号被关掉…\n\nCanonical URL: https://x.com/tualatrix/status/2036064035792363629",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Google Play",
+      "App",
+      "Android",
+      "Vibe",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "十几天前收到 Google Play 的邮件，说我没有提交 App，要把我账号关掉，除非在 5 月 11 前提交一个 App。 真的不知道开发啥 App，谁有在 Android（Google Play）上没满足的需求吗，我来 Vibe 一个占个坑。我不想账号被关掉…",
+      "Google Play",
+      "App",
+      "Android",
+      "Vibe",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

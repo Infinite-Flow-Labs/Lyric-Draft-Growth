@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-oran_ge-8c032a88aedf",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/oran_ge/status/2034788161185067178",
+  "author": {
+    "handle": "@oran_ge",
+    "display_name": "oran_ge",
+    "account_url": "https://x.com/oran_ge"
+  },
+  "title": "Stripe 给 Agent 做的信用卡服务来了 足不出CLI，一句话就能直接把钱花出去 再也不用在 GUI 的世界里点点点啦 一个人赚钱 一个Agent花钱 你们是完美的一家 https://wallet.tempo.xyz/welcome",
+  "language": "unknown",
+  "published_at": "2026-03-20T00:24:36Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/oran_ge/status/2034788161185067178",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/oran_ge/status/2034788161185067178#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Stripe 给 Agent 做的信用卡服务来了 足不出CLI，一句话就能直接把钱花出去 再也不用在 GUI 的世界里点点点啦 一个人赚钱 一个Agent花钱 你们是完美的一家 wallet.tempo.xyz/welcome",
+    "full_text": "Post title: Stripe 给 Agent 做的信用卡服务来了 足不出CLI，一句话就能直接把钱花出去 再也不用在 GUI 的世界里点点点啦 一个人赚钱 一个Agent花钱 你们是完美的一家 https://wallet.tempo.xyz/welcome\n\nPost summary: Stripe 给 Agent 做的信用卡服务来了 足不出CLI，一句话就能直接把钱花出去 再也不用在 GUI 的世界里点点点啦 一个人赚钱 一个Agent花钱 你们是完美的一家 wallet.tempo.xyz/welcome\n\nCanonical URL: https://x.com/oran_ge/status/2034788161185067178",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Stripe",
+      "Agent",
+      "GUI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Stripe 给 Agent 做的信用卡服务来了 足不出CLI，一句话就能直接把钱花出去 再也不用在 GUI 的世界里点点点啦 一个人赚钱 一个Agent花钱 你们是完美的一家 https://wallet.tempo.xyz/welcome",
+      "Stripe 给 Agent 做的信用卡服务来了 足不出CLI，一句话就能直接把钱花出去 再也不用在 GUI 的世界里点点点啦 一个人赚钱 一个Agent花钱 你们是完美的一家 wallet.tempo.xyz/welcome",
+      "Stripe",
+      "Agent",
+      "GUI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

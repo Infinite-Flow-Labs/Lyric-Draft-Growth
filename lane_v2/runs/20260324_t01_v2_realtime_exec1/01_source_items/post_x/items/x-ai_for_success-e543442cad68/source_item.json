@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_for_success-e543442cad68",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ai_for_success/status/2036150255650218333",
+  "author": {
+    "handle": "@ai_for_success",
+    "display_name": "ai_for_success",
+    "account_url": "https://x.com/ai_for_success"
+  },
+  "title": "Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs",
+  "language": "unknown",
+  "published_at": "2026-03-23T18:37:05Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ai_for_success/status/2036150255650218333",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ai_for_success/status/2036150255650218333#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs Video",
+    "full_text": "Post title: Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs\n\nPost summary: Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs Video\n\nCanonical URL: https://x.com/ai_for_success/status/2036150255650218333",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch",
+      "launched"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Luma",
+      "Uni",
+      "It",
+      "But",
+      "Here",
+      "Reference",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs",
+      "Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs Video",
+      "launch",
+      "launched",
+      "Luma",
+      "Uni",
+      "It",
+      "But",
+      "Here",
+      "Reference",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

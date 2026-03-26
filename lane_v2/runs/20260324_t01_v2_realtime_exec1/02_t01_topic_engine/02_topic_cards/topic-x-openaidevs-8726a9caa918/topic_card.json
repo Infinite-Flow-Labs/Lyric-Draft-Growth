@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openaidevs-8726a9caa918",
+  "event_seed_signal_id": "x-openaidevs-8726a9caa918",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Codex is coming to India 🇮🇳 Join events led by Codex ambassadors to: Get hands-on with Codex Meet developers building with Codex Ship projects at hackathons",
+  "why_now": "Clustered 4 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 67.05,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "super::更新",
+  "cluster_signal_ids": [
+    "x-reach_vb-fcbf7f95b612",
+    "x-gorden_sun-7a3d9d95d5e1",
+    "x-gorden_sun-2bf8f137f071",
+    "x-openaidevs-8726a9caa918"
+  ],
+  "source_families": [
+    "official_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/OpenAIDevs/status/2034600898912272501",
+    "published_at": "2026-03-19T12:00:30Z",
+    "release_signals_count": 2,
+    "fact_candidates_count": 37
+  }
+}

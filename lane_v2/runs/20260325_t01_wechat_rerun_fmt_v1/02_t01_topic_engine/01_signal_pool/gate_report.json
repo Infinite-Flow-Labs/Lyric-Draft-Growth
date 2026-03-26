@@ -1,0 +1,147 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-25T08:58:33Z",
+  "policy": {
+    "max_age_hours": 168,
+    "require_canonical_url": true,
+    "min_text_words": 25,
+    "drop_if_exact_duplicate": true,
+    "family_max_age_hours": {
+      "official_x": 168,
+      "article_x": 240,
+      "post_x": 96
+    },
+    "family_min_text_words": {
+      "official_x": 18,
+      "article_x": 25,
+      "post_x": 8
+    }
+  },
+  "input_count": 356,
+  "passed_count": 341,
+  "rejected_count": 15,
+  "load_error_count": 0,
+  "rejected": [
+    {
+      "signal_id": "x-ai_jasonyu-26e02c281cbb",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2036471604859806146",
+      "reasons": [
+        "text_words_below_min:21<25"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-0cc40a328686",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2036456000694133127",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-alphasignalai-6b3600223661",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2036090084634886569",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-berryxia-60c02b6ba4c7",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/berryxia/status/2036297242341155242",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-berryxia-a438d77a42db",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/berryxia/status/2036605929899302950",
+      "reasons": [
+        "text_words_below_min:13<25"
+      ]
+    },
+    {
+      "signal_id": "x-chuhaiqu-38b887d98a20",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036625373715448110",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-281c0f0019eb",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2036670816344064290",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-8688e1daaaad",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2036535229024792788",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-dotey-f6b4a0386726",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/dotey/status/2036577857942499670",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-fkysly-fee429762c57",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/fkysly/status/2036638966498382180",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-ivanfioravanti-667b17f71c3e",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/ivanfioravanti/status/2036383167729287335",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-lxfater-85f534194a43",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/lxfater/status/2036381711278248025",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-lxfater-a2efacc9e04f",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/lxfater/status/2035674347470537012",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-pmbackttfuture-f7f4b11aa39d",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/PMbackttfuture/status/2036304783741690070",
+      "reasons": [
+        "text_words_below_min:11<25"
+      ]
+    },
+    {
+      "signal_id": "x-lijigang-fefa7acb6bbd",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lijigang/status/2036370468710785449",
+      "reasons": [
+        "text_words_below_min:7<8"
+      ]
+    }
+  ],
+  "load_errors": []
+}

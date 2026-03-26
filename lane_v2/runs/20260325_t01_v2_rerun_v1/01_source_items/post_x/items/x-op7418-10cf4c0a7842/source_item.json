@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-op7418-10cf4c0a7842",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/op7418/status/2035872378673324446",
+  "author": {
+    "handle": "@op7418",
+    "display_name": "op7418",
+    "account_url": "https://x.com/op7418"
+  },
+  "title": "Codepilot 0.38.5 版本已经支持微信桥接 http://github.com/op7418/CodePilot/releases/tag/v0.38.5",
+  "language": "unknown",
+  "published_at": "2026-03-23T00:12:54Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/op7418/status/2035872378673324446",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/op7418/status/2035872378673324446#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Codepilot 0.38.5 版本已经支持微信桥接 github.com/op7418/CodePilot/… 歸藏(guizang.ai) (@op7418) 微信这次也是急了，第一次这么快的追热点 上线 Openclaw 官方插件，只支持私聊 在“我-设置-插件”中启用微信 Clawbot 插件 然后在 Openclaw 安装后，扫描展示的二维码就能启用 目前正在灰度 我看看能不接到我的 Claude-to-im Skills 里面，让你的 Codex 和 Claude Code 也可以跟微信聊天 — https://nitter.net/op7418/status/2035564154636087770#m",
+    "full_text": "Post title: Codepilot 0.38.5 版本已经支持微信桥接 http://github.com/op7418/CodePilot/releases/tag/v0.38.5\n\nPost summary: Codepilot 0.38.5 版本已经支持微信桥接 github.com/op7418/CodePilot/… 歸藏(guizang.ai) (@op7418) 微信这次也是急了，第一次这么快的追热点 上线 Openclaw 官方插件，只支持私聊 在“我-设置-插件”中启用微信 Clawbot 插件 然后在 Openclaw 安装后，扫描展示的二维码就能启用 目前正在灰度 我看看能不接到我的 Claude-to-im Skills 里面，让你的 Codex 和 Claude Code 也可以跟微信聊天 — https://nitter.net/op7418/status/2035564154636087770#m\n\nCanonical URL: https://x.com/op7418/status/2035872378673324446",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "release"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Codepilot",
+      "CodePilot",
+      "Openclaw",
+      "Clawbot",
+      "Claude",
+      "Skills",
+      "Codex",
+      "Claude Code",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Codepilot 0.38.5 版本已经支持微信桥接 http://github.com/op7418/CodePilot/releases/tag/v0.38.5",
+      "Codepilot 0.38.5 版本已经支持微信桥接 github.com/op7418/CodePilot/… 歸藏(guizang.ai) (@op7418) 微信这次也是急了，第一次这么快的追热点 上线 Openclaw 官方插件，只支持私聊 在“我-设置-插件”中启用微信 Clawbot 插件 然后在 Openclaw 安装后，扫描展示的二维码就能启用 目前正在灰度 我看看能不接到我的 Claude-to-im Skills 里面，让你的 Codex 和 Claude Code 也可以跟微信聊天 — https://nitter.net/op7418/status/2035564154636087770#m",
+      "release",
+      "Codepilot",
+      "CodePilot",
+      "Openclaw",
+      "Clawbot",
+      "Claude",
+      "Skills",
+      "Codex",
+      "Claude Code",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

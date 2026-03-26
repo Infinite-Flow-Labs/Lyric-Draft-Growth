@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-perplexity_ai-fae567cc03de",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "generation_ratio": 0.8,
+  "rewrite_ratio": 0.2,
+  "topic_card": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-perplexity_ai-fae567cc03de",
+    "event_seed_signal_id": "x-perplexity_ai-fae567cc03de",
+    "event_seed_source_family": "official_x",
+    "topic_statement": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser.",
+    "why_now": "Clustered 2 recent signals across 2 source families with verifiable anchors.",
+    "topic_priority": 71.42,
+    "heat_breakdown": {
+      "volume_score": 68.4,
+      "velocity_score": 71.72,
+      "cross_source_resonance_score": 75.0,
+      "novelty_score": 72.0
+    },
+    "cluster_signature": "luma::launch",
+    "cluster_signal_ids": [
+      "x-ai_for_success-e543442cad68",
+      "x-perplexity_ai-fae567cc03de"
+    ],
+    "source_families": [
+      "official_x",
+      "post_x"
+    ],
+    "candidate_lanes": [
+      "T01_release_decode"
+    ],
+    "eligible_for_write": true,
+    "signal_snapshot": {
+      "canonical_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+      "published_at": "2026-03-17T16:43:03Z",
+      "release_signals_count": 3,
+      "fact_candidates_count": 23
+    }
+  },
+  "lane_assignment": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-perplexity_ai-fae567cc03de",
+    "selected_lane_id": "T01_release_decode",
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "composition_mode": "mixed",
+    "generation_ratio": 0.8,
+    "rewrite_ratio": 0.2,
+    "lane_fit_score": 77.0,
+    "topic_priority": 71.42,
+    "lane_final_score": 75.33,
+    "rationale": "release_signals_present | official_source_present | strong_fact_density",
+    "requires_human_review": false,
+    "eligible_for_write": true
+  },
+  "source_bundle": {
+    "schema_version": "0.1.0",
+    "topic_id": "topic-x-perplexity_ai-fae567cc03de",
+    "lane_id": "T01_release_decode",
+    "framework_id": "02_launch_application",
+    "submode_id": "release_showcase",
+    "composition_mode": "mixed",
+    "primary_sources": [
+      {
+        "signal_id": "x-perplexity_ai-fae567cc03de",
+        "source_family": "official_x",
+        "canonical_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+        "title": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser.",
+        "published_at": "2026-03-17T16:43:03Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-perplexity_ai-fae567cc03de/source_item.json"
+      },
+      {
+        "signal_id": "x-googledeepmind-2ac914f175fb",
+        "source_family": "official_x",
+        "canonical_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+        "title": "Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK",
+        "published_at": "2026-03-17T21:09:54Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-googledeepmind-2ac914f175fb/source_item.json"
+      }
+    ],
+    "supporting_sources": [
+      {
+        "signal_id": "podcast-the_ai_daily_brief-4ba46b24c3a2",
+        "source_family": "podcast",
+        "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Actually-Wont-Take-Your-Job-e3gq5op",
+        "title": "Why AI Actually Won't Take Your Job",
+        "published_at": "2026-03-22T12:18:29Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items/podcast-the_ai_daily_brief-4ba46b24c3a2/source_item.json"
+      },
+      {
+        "signal_id": "x-ai_for_success-e543442cad68",
+        "source_family": "post_x",
+        "canonical_url": "https://x.com/ai_for_success/status/2036150255650218333",
+        "title": "Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs",
+        "published_at": "2026-03-23T18:37:05Z",
+        "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-ai_for_success-e543442cad68/source_item.json"
+      }
+    ],
+    "fact_anchors": [
+      {
+        "claim": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser.",
+        "source_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+        "signal_id": "x-perplexity_ai-fae567cc03de"
+      },
+      {
+        "claim": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser. Video",
+        "source_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+        "signal_id": "x-perplexity_ai-fae567cc03de"
+      }
+    ],
+    "forbidden_claims": [
+      "No unsupported percentage claims about performance or cost change.",
+      "No unsupported claim that this release fully replaces existing workflows.",
+      "No unsupported claim that all teams should adopt immediately."
+    ],
+    "coverage_checks": {
+      "has_release_action": true,
+      "has_delta_detail": false,
+      "has_user_impact": true,
+      "has_limit_or_risk": false
+    },
+    "coverage_core_ok": true,
+    "validity_gate": true,
+    "quality_tier": "B",
+    "requirement_checks": {
+      "primary_sources_min_ok": true,
+      "supporting_sources_min_ok": true,
+      "fact_anchors_min_ok": false,
+      "official_primary_required_ok": true
+    },
+    "ready_for_writer": true
+  },
+  "source_materials": [
+    {
+      "source_id": "x-perplexity_ai-fae567cc03de",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+      "title": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser.",
+      "published_at": "2026-03-17T16:43:03Z",
+      "excerpt": "Post title: Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser. Post summary: Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser. Video Canonical URL: https://x.com/perplexity_ai/status/2033947232467357874",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-perplexity_ai-fae567cc03de/source_item.json"
+    },
+    {
+      "source_id": "x-googledeepmind-2ac914f175fb",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+      "title": "Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK",
+      "published_at": "2026-03-17T21:09:54Z",
+      "excerpt": "Post title: Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK Post summary: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → goo.gle/4uqOVKK Canonical URL: https://x.com/GoogleDeepMind/status/2034014385941975298",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-googledeepmind-2ac914f175fb/source_item.json"
+    },
+    {
+      "source_id": "podcast-the_ai_daily_brief-4ba46b24c3a2",
+      "source_family": "podcast",
+      "canonical_url": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Actually-Wont-Take-Your-Job-e3gq5op",
+      "title": "Why AI Actually Won't Take Your Job",
+      "published_at": "2026-03-22T12:18:29Z",
+      "excerpt": "## Why AI Actually Won't Take Your Job The AI Daily Brief: Artificial Intelligence News and Analysis Mar 22, 2026 00:00 32:51 #### The Coming AI Rules Battle AI is rising faster than any other issue in American political polling, and the White House just dropped a legislative framework that's already drawing fire from both sides — populist right critics calling AI \"profoundly anti-human\" and Democrats saying voluntary standards won't cut it. The real question is whether this four-page opening move can hold the center as midterms approach and public anxiety about jobs keeps climbing. In the headlines: OpenAI plans to double its workforce with a major enterprise push, FedEx is training all 400,000 employees on AI, and Meta's internal agents are now talking to each other.For all the links referenced in the show, sign up for the newsletter: ⁠⁠⁠https://aidailybrief.beehiiv.com/⁠⁠⁠Brought to you by:KPMG – Agentic AI is powering a potential $3 trillion productivity shift, and KPMG’s new paper, Agentic AI Untangled, gives leaders a clear framework to decide whether to build, buy, or borrow—download it at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.kpmg.us/Navigate⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Mercury - Modern banking for business and now personal accounts. Learn more at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mercury.com/personal-banking⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AIUC-1 - Get your agents certified to communicate trust to enterprise buyers - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.aiuc-1.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Blitzy - Want to accelerate enterprise software development velocity by 5x? ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://blitzy.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AssemblyAI - The best way to build Voice AI apps - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.assemblyai.com/brief⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Robots & Pencils - Cloud-native AI solutions that power results ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://robotsandpencils.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠The Agent Readiness Audit from Superintelligent - Go to ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://besuper.ai/ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠to request your company's agent readiness score.The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://pod.link/1680633614⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Our Newsletter is BACK: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://aidailybrief.beehiiv.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Interested in sponsoring the show? sponsors@aidailybrief.ai Mar 23, 2026 26:51 #### Why AI Actually Won't Take Your Job \"Will AI take your job?\" has become the dominant question in AI discourse — but it's the wrong one. From AI-washed layoffs to coding benchmarks that don't generalize, from human preference as a market force to capitalism's radically expansionary nature, there are plenty of reasons to push past the panic — and a whole set of better, harder questions we should be asking instead.For all the links referenced in the show, sign up for the newsletter: ⁠⁠https://aidailybrief.beehiiv.com/⁠⁠Brought to you by:KPMG – Agentic AI is powering a potential $3 trillion productivity shift, and KPMG’s new paper, Agentic AI Untangled, gives leaders a clear framework to decide whether to build, buy, or borrow—download it at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.kpmg.us/Navigate⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Mercury - Modern banking for business and now personal accounts. Learn more at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mercury.com/personal-banking⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AIUC-1 - Get your agents certified to communicate trust to enterprise buyers - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.aiuc-1.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Blitzy - Want to accelerate enterprise software development velocity by 5x? ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://blitzy.com/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠AssemblyAI - The best way to build Voice AI apps - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.assemblyai.com/brief⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Robots & Pencils - Cloud-native AI solutions that power results ⁠⁠",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/podcast_ingest/03_source_items/podcast/items/podcast-the_ai_daily_brief-4ba46b24c3a2/source_item.json"
+    },
+    {
+      "source_id": "x-ai_for_success-e543442cad68",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ai_for_success/status/2036150255650218333",
+      "title": "Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs",
+      "published_at": "2026-03-23T18:37:05Z",
+      "excerpt": "Post title: Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs Post summary: Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs Video Canonical URL: https://x.com/ai_for_success/status/2036150255650218333",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-ai_for_success-e543442cad68/source_item.json"
+    }
+  ]
+}

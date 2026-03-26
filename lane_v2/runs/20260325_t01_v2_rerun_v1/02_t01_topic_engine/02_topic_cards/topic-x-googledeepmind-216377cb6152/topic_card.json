@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-googledeepmind-216377cb6152",
+  "event_seed_signal_id": "x-googledeepmind-216377cb6152",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Google DeepMind 🤝 Agile Robots Our new research partnership will integrate the Gemini foundation models with their hardware to help build the next generation of more helpful and useful robots. Find out more → https://goo.gle/4lKu7de",
+  "why_now": "Clustered 4 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 85.39,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 83.35,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "gemini::partnership",
+  "cluster_signal_ids": [
+    "x-berryxia-837405031203",
+    "x-ai_for_success-bbff49d771df",
+    "x-googledeepmind-216377cb6152",
+    "x-idoubicc-d8632a464fdb"
+  ],
+  "source_families": [
+    "official_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/GoogleDeepMind/status/2036418139672482229",
+    "published_at": "2026-03-24T12:21:33Z",
+    "release_signals_count": 3,
+    "fact_candidates_count": 47
+  }
+}

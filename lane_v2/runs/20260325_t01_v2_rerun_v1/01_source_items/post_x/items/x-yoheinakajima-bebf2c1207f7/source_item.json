@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-yoheinakajima-bebf2c1207f7",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/yoheinakajima/status/2036139452142329881",
+  "author": {
+    "handle": "@yoheinakajima",
+    "display_name": "yoheinakajima",
+    "account_url": "https://x.com/yoheinakajima"
+  },
+  "title": "leworldmodel",
+  "language": "unknown",
+  "published_at": "2026-03-23T17:54:09Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/yoheinakajima/status/2036139452142329881",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/yoheinakajima/status/2036139452142329881#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "leworldmodel Lucas Maes (@lucasmaes_) JEPA are finally easy to train end-to-end without any tricks! Excited to introduce LeWorldModel: a stable, end-to-end JEPA that learns world models directly from pixels, no heuristics. 15M params, 1 GPU, and full planning &lt;1 second. 📑: le-wm.github.io Video — https://nitter.net/lucasmaes_/status/2036080584569618741#m",
+    "full_text": "Post title: leworldmodel\n\nPost summary: leworldmodel Lucas Maes (@lucasmaes_) JEPA are finally easy to train end-to-end without any tricks! Excited to introduce LeWorldModel: a stable, end-to-end JEPA that learns world models directly from pixels, no heuristics. 15M params, 1 GPU, and full planning &lt;1 second. 📑: le-wm.github.io Video — https://nitter.net/lucasmaes_/status/2036080584569618741#m\n\nCanonical URL: https://x.com/yoheinakajima/status/2036139452142329881",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "15M"
+    ],
+    "named_entities": [
+      "Lucas Maes",
+      "JEPA",
+      "Excited",
+      "LeWorldModel",
+      "GPU",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "leworldmodel",
+      "leworldmodel Lucas Maes (@lucasmaes_) JEPA are finally easy to train end-to-end without any tricks! Excited to introduce LeWorldModel: a stable, end-to-end JEPA that learns world models directly from pixels, no heuristics. 15M params, 1 GPU, and full planning &lt;1 second. 📑: le-wm.github.io Video — https://nitter.net/lucasmaes_/status/2036080584569618741#m",
+      "15M",
+      "Lucas Maes",
+      "JEPA",
+      "Excited",
+      "LeWorldModel",
+      "GPU",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

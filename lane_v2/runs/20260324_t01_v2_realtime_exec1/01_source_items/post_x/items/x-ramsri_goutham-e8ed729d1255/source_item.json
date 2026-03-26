@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ramsri_goutham-e8ed729d1255",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ramsri_goutham/status/2034884804932772108",
+  "author": {
+    "handle": "@ramsri_goutham",
+    "display_name": "ramsri_goutham",
+    "account_url": "https://x.com/ramsri_goutham"
+  },
+  "title": "If humanity’s evolution does not culminate in a high-trust society, then every other form of progress is only a temporary cope.",
+  "language": "unknown",
+  "published_at": "2026-03-20T06:48:38Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ramsri_goutham/status/2034884804932772108",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ramsri_goutham/status/2034884804932772108#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "If humanity’s evolution does not culminate in a high-trust society, then every other form of progress is only a temporary cope.",
+    "full_text": "Post title: If humanity’s evolution does not culminate in a high-trust society, then every other form of progress is only a temporary cope.\n\nPost summary: If humanity’s evolution does not culminate in a high-trust society, then every other form of progress is only a temporary cope.\n\nCanonical URL: https://x.com/ramsri_goutham/status/2034884804932772108",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "If",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "If humanity’s evolution does not culminate in a high-trust society, then every other form of progress is only a temporary cope.",
+      "If",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

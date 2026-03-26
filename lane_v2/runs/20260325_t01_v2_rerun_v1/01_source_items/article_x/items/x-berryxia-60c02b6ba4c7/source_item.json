@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-berryxia-60c02b6ba4c7",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/berryxia/status/2036297242341155242",
+  "author": {
+    "handle": "@berryxia",
+    "display_name": "berryxia",
+    "account_url": "https://x.com/berryxia"
+  },
+  "title": "x.com/i/article/203629356747…",
+  "language": "unknown",
+  "published_at": "2026-03-24T04:21:09Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/berryxia/status/2036297242341155242",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/berryxia/status/2036297242341155242#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "x.com/i/article/203629356747…",
+    "full_text": "Post title: x.com/i/article/203629356747…\n\nPost summary: x.com/i/article/203629356747…\n\nCanonical URL: https://x.com/berryxia/status/2036297242341155242",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "x.com/i/article/203629356747…",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

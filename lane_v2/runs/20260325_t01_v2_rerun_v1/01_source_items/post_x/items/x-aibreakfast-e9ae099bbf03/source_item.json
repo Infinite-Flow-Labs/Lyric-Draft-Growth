@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-aibreakfast-e9ae099bbf03",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AiBreakfast/status/2036479000713769127",
+  "author": {
+    "handle": "@AiBreakfast",
+    "display_name": "AiBreakfast",
+    "account_url": "https://x.com/AiBreakfast"
+  },
+  "title": "Built my own Whisper hotkey program using Claude because of this exact problem. It works great! -No recordings stored -Works offline -Beats Siri -Free forever In fact, it's dictating this tweet right now. Here it is: https://github.com/beepboopbreakfast/WhisperHotkey",
+  "language": "unknown",
+  "published_at": "2026-03-24T16:23:24Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AiBreakfast/status/2036479000713769127",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AiBreakfast/status/2036479000713769127#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Built my own Whisper hotkey program using Claude because of this exact problem. It works great! -No recordings stored -Works offline -Beats Siri -Free forever In fact, it's dictating this tweet right now. Here it is: github.com/beepboopbreakfast… David Ondrej (@DavidOndrej1) i’m paying $200 a month for ChatGPT pro yet I have 10 minutes of dictation only?! what the fuck — https://nitter.net/DavidOndrej1/status/2036011338816770502#m",
+    "full_text": "Post title: Built my own Whisper hotkey program using Claude because of this exact problem. It works great! -No recordings stored -Works offline -Beats Siri -Free forever In fact, it's dictating this tweet right now. Here it is: https://github.com/beepboopbreakfast/WhisperHotkey\n\nPost summary: Built my own Whisper hotkey program using Claude because of this exact problem. It works great! -No recordings stored -Works offline -Beats Siri -Free forever In fact, it's dictating this tweet right now. Here it is: github.com/beepboopbreakfast… David Ondrej (@DavidOndrej1) i’m paying $200 a month for ChatGPT pro yet I have 10 minutes of dictation only?! what the fuck — https://nitter.net/DavidOndrej1/status/2036011338816770502#m\n\nCanonical URL: https://x.com/AiBreakfast/status/2036479000713769127",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "$200"
+    ],
+    "named_entities": [
+      "Built",
+      "Whisper",
+      "Claude",
+      "It",
+      "No",
+      "Works",
+      "Beats Siri",
+      "Free",
+      "In",
+      "Here",
+      "WhisperHotkey Built",
+      "David Ondrej",
+      "DavidOndrej1",
+      "ChatGPT",
+      "Post",
+      "WhisperHotkey Post",
+      "Canonical URL",
+      "AiBreakfast"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Built my own Whisper hotkey program using Claude because of this exact problem. It works great! -No recordings stored -Works offline -Beats Siri -Free forever In fact, it's dictating this tweet right now. Here it is: https://github.com/beepboopbreakfast/WhisperHotkey",
+      "Built my own Whisper hotkey program using Claude because of this exact problem. It works great! -No recordings stored -Works offline -Beats Siri -Free forever In fact, it's dictating this tweet right now. Here it is: github.com/beepboopbreakfast… David Ondrej (@DavidOndrej1) i’m paying $200 a month for ChatGPT pro yet I have 10 minutes of dictation only?! what the fuck — https://nitter.net/DavidOndrej1/status/2036011338816770502#m",
+      "$200",
+      "Built",
+      "Whisper",
+      "Claude",
+      "It",
+      "No",
+      "Works",
+      "Beats Siri",
+      "Free",
+      "In",
+      "Here",
+      "WhisperHotkey Built",
+      "David Ondrej",
+      "DavidOndrej1",
+      "ChatGPT",
+      "Post",
+      "WhisperHotkey Post"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

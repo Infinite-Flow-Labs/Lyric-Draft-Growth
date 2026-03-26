@@ -1,0 +1,18 @@
+{
+  "profile_name": "x_whitelist_accounts_smoke",
+  "generated_from": "framework/koc_benchmark_accounts.md",
+  "benchmark_accounts": [
+    {
+      "handle": "Gorden_Sun",
+      "display_name": "Gorden_Sun"
+    },
+    {
+      "handle": "op7418",
+      "display_name": "op7418"
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "display_name": "AlphaSignalAI"
+    }
+  ]
+}

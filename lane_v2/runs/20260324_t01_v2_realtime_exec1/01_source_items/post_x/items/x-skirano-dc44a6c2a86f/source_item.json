@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-skirano-dc44a6c2a86f",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/skirano/status/2034770952584581359",
+  "author": {
+    "handle": "@skirano",
+    "display_name": "skirano",
+    "account_url": "https://x.com/skirano"
+  },
+  "title": "Image",
+  "language": "unknown",
+  "published_at": "2026-03-19T23:16:13Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/skirano/status/2034770952584581359",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/skirano/status/2034770952584581359#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Sen. Bernie Sanders (@SenSanders) I spoke to Anthropic’s AI agent Claude about AI collecting massive amounts of personal data and how that information is being used to violate our privacy rights. What an AI agent says about the dangers of AI is shocking and should wake us up. Video — https://nitter.net/SenSanders/status/2034715260259557597#m",
+    "full_text": "Post title: Image\n\nPost summary: Sen. Bernie Sanders (@SenSanders) I spoke to Anthropic’s AI agent Claude about AI collecting massive amounts of personal data and how that information is being used to violate our privacy rights. What an AI agent says about the dangers of AI is shocking and should wake us up. Video — https://nitter.net/SenSanders/status/2034715260259557597#m\n\nCanonical URL: https://x.com/skirano/status/2034770952584581359",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Image Sen. Bernie Sanders",
+      "SenSanders",
+      "Anthropic",
+      "AI",
+      "Claude",
+      "What",
+      "Video",
+      "Post",
+      "Image Post",
+      "Sen",
+      "Bernie Sanders",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Image",
+      "Sen. Bernie Sanders (@SenSanders) I spoke to Anthropic’s AI agent Claude about AI collecting massive amounts of personal data and how that information is being used to violate our privacy rights. What an AI agent says about the dangers of AI is shocking and should wake us up. Video — https://nitter.net/SenSanders/status/2034715260259557597#m",
+      "Image Sen. Bernie Sanders",
+      "SenSanders",
+      "Anthropic",
+      "AI",
+      "Claude",
+      "What",
+      "Video",
+      "Post",
+      "Image Post",
+      "Sen",
+      "Bernie Sanders",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

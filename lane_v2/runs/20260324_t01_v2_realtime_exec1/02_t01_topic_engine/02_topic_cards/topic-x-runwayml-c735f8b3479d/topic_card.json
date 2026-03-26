@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-runwayml-c735f8b3479d",
+  "event_seed_signal_id": "x-runwayml-c735f8b3479d",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Introducing Runway's Big Ad Contest For Products That Don't Exist. Your chance to make any ad you can imagine for up to $100K in cash prizes. No client notes. No producers saying no. Just 7 briefs to choose from and 2 weeks to make your wildest concepts come to life. Big ideas win big. Learn more and get started at the link below.",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 39.03,
+  "heat_breakdown": {
+    "volume_score": 37.8,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "introducing runway::introducing",
+  "cluster_signal_ids": [
+    "x-runwayml-c735f8b3479d"
+  ],
+  "source_families": [
+    "official_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/runwayml/status/2034316017862660579",
+    "published_at": "2026-03-18T17:08:29Z",
+    "release_signals_count": 1,
+    "fact_candidates_count": 16
+  }
+}

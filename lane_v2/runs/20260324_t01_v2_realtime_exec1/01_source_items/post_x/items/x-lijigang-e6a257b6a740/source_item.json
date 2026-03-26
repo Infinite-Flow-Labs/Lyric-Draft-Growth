@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lijigang-e6a257b6a740",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lijigang/status/2035194617117995144",
+  "author": {
+    "handle": "@lijigang",
+    "display_name": "lijigang",
+    "account_url": "https://x.com/lijigang"
+  },
+  "title": "你给Agent设定了soul 和 memory，可以给祂一个定时任务： 「每天晚上 12 点写一篇日记，记录你这一天的感受。」 每天早上打开电脑阅读祂的日记，既是在照镜子观自己，又是在观AI。",
+  "language": "unknown",
+  "published_at": "2026-03-21T03:19:43Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lijigang/status/2035194617117995144",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lijigang/status/2035194617117995144#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "你给Agent设定了soul 和 memory，可以给祂一个定时任务： 「每天晚上 12 点写一篇日记，记录你这一天的感受。」 每天早上打开电脑阅读祂的日记，既是在照镜子观自己，又是在观AI。",
+    "full_text": "Post title: 你给Agent设定了soul 和 memory，可以给祂一个定时任务： 「每天晚上 12 点写一篇日记，记录你这一天的感受。」 每天早上打开电脑阅读祂的日记，既是在照镜子观自己，又是在观AI。\n\nPost summary: 你给Agent设定了soul 和 memory，可以给祂一个定时任务： 「每天晚上 12 点写一篇日记，记录你这一天的感受。」 每天早上打开电脑阅读祂的日记，既是在照镜子观自己，又是在观AI。\n\nCanonical URL: https://x.com/lijigang/status/2035194617117995144",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "你给Agent设定了soul 和 memory，可以给祂一个定时任务： 「每天晚上 12 点写一篇日记，记录你这一天的感受。」 每天早上打开电脑阅读祂的日记，既是在照镜子观自己，又是在观AI。",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ammaar-b4ed29486875",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/ammaar/status/2033914943389454712",
+  "author": {
+    "handle": "@ammaar",
+    "display_name": "ammaar",
+    "account_url": "https://x.com/ammaar"
+  },
+  "title": "Today marks 1 year @GoogleDeepMind 🎉 We redesigned AI Studio, helped millions of developers go from idea to app with Gemini, and got to cover launches live that I would’ve been watching from my couch a year before. None of it happens without this team. Back to pushing.",
+  "language": "unknown",
+  "published_at": "2026-03-17T14:34:45Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/ammaar/status/2033914943389454712",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/ammaar/status/2033914943389454712#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Today marks 1 year @GoogleDeepMind 🎉 We redesigned AI Studio, helped millions of developers go from idea to app with Gemini, and got to cover launches live that I would’ve been watching from my couch a year before. None of it happens without this team. Back to pushing.",
+    "full_text": "Post title: Today marks 1 year @GoogleDeepMind 🎉 We redesigned AI Studio, helped millions of developers go from idea to app with Gemini, and got to cover launches live that I would’ve been watching from my couch a year before. None of it happens without this team. Back to pushing.\n\nPost summary: Today marks 1 year @GoogleDeepMind 🎉 We redesigned AI Studio, helped millions of developers go from idea to app with Gemini, and got to cover launches live that I would’ve been watching from my couch a year before. None of it happens without this team. Back to pushing.\n\nCanonical URL: https://x.com/ammaar/status/2033914943389454712",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Today",
+      "GoogleDeepMind",
+      "We",
+      "AI Studio",
+      "Gemini",
+      "None",
+      "Back",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Today marks 1 year @GoogleDeepMind 🎉 We redesigned AI Studio, helped millions of developers go from idea to app with Gemini, and got to cover launches live that I would’ve been watching from my couch a year before. None of it happens without this team. Back to pushing.",
+      "launch",
+      "Today",
+      "GoogleDeepMind",
+      "We",
+      "AI Studio",
+      "Gemini",
+      "None",
+      "Back",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

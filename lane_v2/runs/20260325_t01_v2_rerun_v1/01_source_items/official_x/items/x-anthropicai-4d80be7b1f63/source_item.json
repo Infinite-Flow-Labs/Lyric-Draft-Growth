@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-anthropicai-4d80be7b1f63",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AnthropicAI/status/2036499691571953848",
+  "author": {
+    "handle": "@AnthropicAI",
+    "display_name": "Anthropic",
+    "account_url": "https://x.com/AnthropicAI"
+  },
+  "title": "New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.",
+  "language": "unknown",
+  "published_at": "2026-03-24T17:45:37Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AnthropicAI/status/2036499691571953848",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AnthropicAI/status/2036499691571953848#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.",
+    "full_text": "Post title: New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.\n\nPost summary: New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.\n\nCanonical URL: https://x.com/AnthropicAI/status/2036499691571953848",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "New",
+      "Anthropic Economic Index",
+      "Claude",
+      "Longer",
+      "They",
+      "Post",
+      "Canonical URL",
+      "AnthropicAI"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "New from the Anthropic Economic Index: how people’s use of Claude changes with experience. Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.",
+      "New",
+      "Anthropic Economic Index",
+      "Claude",
+      "Longer",
+      "They",
+      "Post",
+      "Canonical URL",
+      "AnthropicAI"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

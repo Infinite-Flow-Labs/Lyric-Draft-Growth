@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-sophiamyang-e829e9eeb994",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/sophiamyang/status/2034000011671777782",
+  "author": {
+    "handle": "@sophiamyang",
+    "display_name": "sophiamyang",
+    "account_url": "https://x.com/sophiamyang"
+  },
+  "title": "Our @MistralAI skate ramp at @NVIDIAGTC is 🔥! Come check it out if you are around! Big shoutout to our marketing & field marketing team 🐐",
+  "language": "unknown",
+  "published_at": "2026-03-17T20:12:47Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/sophiamyang/status/2034000011671777782",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/sophiamyang/status/2034000011671777782#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Our @MistralAI skate ramp at @NVIDIAGTC is 🔥! Come check it out if you are around! Big shoutout to our marketing &amp; field marketing team 🐐 Video",
+    "full_text": "Post title: Our @MistralAI skate ramp at @NVIDIAGTC is 🔥! Come check it out if you are around! Big shoutout to our marketing & field marketing team 🐐\n\nPost summary: Our @MistralAI skate ramp at @NVIDIAGTC is 🔥! Come check it out if you are around! Big shoutout to our marketing &amp; field marketing team 🐐 Video\n\nCanonical URL: https://x.com/sophiamyang/status/2034000011671777782",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Our",
+      "MistralAI",
+      "NVIDIAGTC",
+      "Come",
+      "Big",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Our @MistralAI skate ramp at @NVIDIAGTC is 🔥! Come check it out if you are around! Big shoutout to our marketing & field marketing team 🐐",
+      "Our @MistralAI skate ramp at @NVIDIAGTC is 🔥! Come check it out if you are around! Big shoutout to our marketing &amp; field marketing team 🐐 Video",
+      "Our",
+      "MistralAI",
+      "NVIDIAGTC",
+      "Come",
+      "Big",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

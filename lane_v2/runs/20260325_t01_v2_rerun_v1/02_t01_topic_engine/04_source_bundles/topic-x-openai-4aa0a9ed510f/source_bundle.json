@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openai-4aa0a9ed510f",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-openai-4aa0a9ed510f",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "title": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.",
+      "published_at": "2026-03-23T20:47:55Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-openai-4aa0a9ed510f/source_item.json"
+    },
+    {
+      "signal_id": "x-runwayml-713251b5836e",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2036081560873570742",
+      "title": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+      "published_at": "2026-03-23T14:04:07Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-runwayml-713251b5836e/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-elevenlabs-91de2cfdcba2",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/ElevenLabs/status/2036472147904774289",
+      "title": "Introducing Guardrails 2.0 in ElevenAgents. Control how agents behave in production with a redesigned safety layer. You can define and enforce custom business policies. Or, toggle on pre-built protections to keep agents on-topic, on-brand, and resistant to manipulation.",
+      "published_at": "2026-03-24T15:56:10Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/official_x/items/x-elevenlabs-91de2cfdcba2/source_item.json"
+    },
+    {
+      "signal_id": "x-lyc_zh-62c72d477bb1",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2036579572322541970",
+      "title": "Harness Engineering、Context Engineering、Prompt Engineering——同一件事，三个名字。 我建 ClawdBot 的时候也走了一样的弯路：把所有知识塞进一个 agent，以为信息越多越好。 结果：废话连篇，答非所问。 上下文窗口不是 RAM。塞得越满，注意力越散。 最后的解法很朴素——每个 skill.md 只放这个工具需要知道的东西，不多一个字。 不需要知道这叫 progressive disclosure。你只需要踩过那个坑。",
+      "published_at": "2026-03-24T23:03:02Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-lyc_zh-62c72d477bb1/source_item.json"
+    },
+    {
+      "signal_id": "x-lyc_zh-ae20982f71ac",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/lyc_zh/status/2036533777200226624",
+      "title": "Prompt Engineering 死了。 Context Engineering 登场。 Harness Engineering 接棒。 下个月大概是 Scaffold Engineering。 好消息：不管叫什么，做法都一样。",
+      "published_at": "2026-03-24T20:01:04Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-lyc_zh-ae20982f71ac/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.",
+      "source_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "signal_id": "x-openai-4aa0a9ed510f"
+    },
+    {
+      "claim": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT",
+      "source_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "signal_id": "x-openai-4aa0a9ed510f"
+    },
+    {
+      "claim": "You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar",
+      "source_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "signal_id": "x-openai-4aa0a9ed510f"
+    },
+    {
+      "claim": "Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK",
+      "source_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "signal_id": "x-openai-4aa0a9ed510f"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 6,
+    "require_official_primary": true,
+    "require_release_signal": true,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": true
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": true,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

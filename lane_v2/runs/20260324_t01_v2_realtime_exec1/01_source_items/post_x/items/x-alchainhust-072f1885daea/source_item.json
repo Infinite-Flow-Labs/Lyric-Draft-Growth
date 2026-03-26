@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alchainhust-072f1885daea",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlchainHust/status/2034632648082235618",
+  "author": {
+    "handle": "@AlchainHust",
+    "display_name": "AlchainHust",
+    "account_url": "https://x.com/AlchainHust"
+  },
+  "title": "明早10:00 @openclaw 官方账号会在B站有一场直播，我到时也和B站有个合作，会带大家一起看这场讨论，欢迎围观～",
+  "language": "unknown",
+  "published_at": "2026-03-19T14:06:39Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlchainHust/status/2034632648082235618",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlchainHust/status/2034632648082235618#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "明早10:00 @openclaw 官方账号会在B站有一场直播，我到时也和B站有个合作，会带大家一起看这场讨论，欢迎围观～",
+    "full_text": "Post title: 明早10:00 @openclaw 官方账号会在B站有一场直播，我到时也和B站有个合作，会带大家一起看这场讨论，欢迎围观～\n\nPost summary: 明早10:00 @openclaw 官方账号会在B站有一场直播，我到时也和B站有个合作，会带大家一起看这场讨论，欢迎围观～\n\nCanonical URL: https://x.com/AlchainHust/status/2034632648082235618",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL",
+      "AlchainHust"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "明早10:00 @openclaw 官方账号会在B站有一场直播，我到时也和B站有个合作，会带大家一起看这场讨论，欢迎围观～",
+      "Post",
+      "Canonical URL",
+      "AlchainHust"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

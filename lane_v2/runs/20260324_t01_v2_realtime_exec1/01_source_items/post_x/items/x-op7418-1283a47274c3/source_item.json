@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-op7418-1283a47274c3",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/op7418/status/2036247992211292485",
+  "author": {
+    "handle": "@op7418",
+    "display_name": "op7418",
+    "account_url": "https://x.com/op7418"
+  },
+  "title": "Luma 发布了一个很厉害的图片模型 UN1 类似 Nano Banana 和 Midjourney 的集合体 支持常识场景补全、空间关系理解和合理的画面变化； 支持多图参考、风格迁移； 支持各种文化、审美、风格的图像生成和理解，尤其是对当代视觉文化和梗图的生成； 最重要的看起来支持中文；",
+  "language": "unknown",
+  "published_at": "2026-03-24T01:05:27Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/op7418/status/2036247992211292485",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/op7418/status/2036247992211292485#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Luma 发布了一个很厉害的图片模型 UN1 类似 Nano Banana 和 Midjourney 的集合体 支持常识场景补全、空间关系理解和合理的画面变化； 支持多图参考、风格迁移； 支持各种文化、审美、风格的图像生成和理解，尤其是对当代视觉文化和梗图的生成； 最重要的看起来支持中文； Luma (@LumaLabsAI) Uni-1 is here! A new kind of model that thinks and generates pixels simultaneously. Less artificial. More intelligent. Video — https://nitter.net/LumaLabsAI/status/2036107826498544110#m",
+    "full_text": "Post title: Luma 发布了一个很厉害的图片模型 UN1 类似 Nano Banana 和 Midjourney 的集合体 支持常识场景补全、空间关系理解和合理的画面变化； 支持多图参考、风格迁移； 支持各种文化、审美、风格的图像生成和理解，尤其是对当代视觉文化和梗图的生成； 最重要的看起来支持中文；\n\nPost summary: Luma 发布了一个很厉害的图片模型 UN1 类似 Nano Banana 和 Midjourney 的集合体 支持常识场景补全、空间关系理解和合理的画面变化； 支持多图参考、风格迁移； 支持各种文化、审美、风格的图像生成和理解，尤其是对当代视觉文化和梗图的生成； 最重要的看起来支持中文； Luma (@LumaLabsAI) Uni-1 is here! A new kind of model that thinks and generates pixels simultaneously. Less artificial. More intelligent. Video — https://nitter.net/LumaLabsAI/status/2036107826498544110#m\n\nCanonical URL: https://x.com/op7418/status/2036247992211292485",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Luma",
+      "UN1",
+      "Nano Banana",
+      "Midjourney",
+      "LumaLabsAI",
+      "Uni",
+      "Less",
+      "More",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Luma 发布了一个很厉害的图片模型 UN1 类似 Nano Banana 和 Midjourney 的集合体 支持常识场景补全、空间关系理解和合理的画面变化； 支持多图参考、风格迁移； 支持各种文化、审美、风格的图像生成和理解，尤其是对当代视觉文化和梗图的生成； 最重要的看起来支持中文；",
+      "Luma 发布了一个很厉害的图片模型 UN1 类似 Nano Banana 和 Midjourney 的集合体 支持常识场景补全、空间关系理解和合理的画面变化； 支持多图参考、风格迁移； 支持各种文化、审美、风格的图像生成和理解，尤其是对当代视觉文化和梗图的生成； 最重要的看起来支持中文； Luma (@LumaLabsAI) Uni-1 is here! A new kind of model that thinks and generates pixels simultaneously. Less artificial. More intelligent. Video — https://nitter.net/LumaLabsAI/status/2036107826498544110#m",
+      "Luma",
+      "UN1",
+      "Nano Banana",
+      "Midjourney",
+      "LumaLabsAI",
+      "Uni",
+      "Less",
+      "More",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

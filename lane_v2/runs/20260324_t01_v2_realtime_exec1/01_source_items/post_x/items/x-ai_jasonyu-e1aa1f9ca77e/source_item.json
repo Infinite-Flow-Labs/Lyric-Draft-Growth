@@ -1,0 +1,90 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_jasonyu-e1aa1f9ca77e",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AI_Jasonyu/status/2035903867376861207",
+  "author": {
+    "handle": "@AI_Jasonyu",
+    "display_name": "AI_Jasonyu",
+    "account_url": "https://x.com/AI_Jasonyu"
+  },
+  "title": "看完我写的龙虾失忆翻车故事，再看 EverMind 的 MSA 论文，突然觉得讽刺： OpenClaw 的记忆系统是“压缩到失忆”，而 MSA 在做的是“让大模型真正记住”。 一个是把记忆当成“预算管理器”，对话长了就总结压缩，关键指令被当垃圾扔掉。 另一个是把记忆长进注意力机制里，1 亿 token 精度衰减不到 9%，4B 参数打赢 235B 的 RAG 系统。 这才是 AI 记忆该有的样子：不是“开卷考试翻笔记”，而是真正“记住”。 如果 OpenClaw 用的是 MSA 这种架构，那些凌晨 3 点的“死刑通知”可能根本不会发生。 期待 MSA 后续进展 → https://github.com/EverMind-AI/MSA",
+  "language": "unknown",
+  "published_at": "2026-03-23T02:18:01Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AI_Jasonyu/status/2035903867376861207",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AI_Jasonyu/status/2035903867376861207#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "看完我写的龙虾失忆翻车故事，再看 EverMind 的 MSA 论文，突然觉得讽刺： OpenClaw 的记忆系统是“压缩到失忆”，而 MSA 在做的是“让大模型真正记住”。 一个是把记忆当成“预算管理器”，对话长了就总结压缩，关键指令被当垃圾扔掉。 另一个是把记忆长进注意力机制里，1 亿 token 精度衰减不到 9%，4B 参数打赢 235B 的 RAG 系统。 这才是 AI 记忆该有的样子：不是“开卷考试翻笔记”，而是真正“记住”。 如果 OpenClaw 用的是 MSA 这种架构，那些凌晨 3 点的“死刑通知”可能根本不会发生。 期待 MSA 后续进展 → github.com/EverMind-AI/MSA 艾略特 (@elliotchen100) 论文来了。名字叫 MSA，Memory Sparse Attention。 一句话说清楚它是什么： 让大模型原生拥有超长记忆。不是外挂检索，不是暴力扩窗口，而是把「记忆」直接长进了注意力机制里，端到端训练。 过去的方案为什么不行？ RAG 的本质是「开卷考试」。模型自己不记东西，全靠现场翻笔记。翻得准不准要看检索质量，翻得快不快要看数据量。一旦信息分散在几十份文档里、需要跨文档推理，就抓瞎了。 线性注意力和 KV 缓存的本质是「压缩记忆」。记是记了，但越压越糊，长了就丢。 MSA 的思路完全不同： → 不压缩，不外挂，而是让模型学会「挑重点看」 核心是一种可扩展的稀疏注意力架构，复杂度是线性的。记忆量翻 10 倍，计算成本不会指数爆炸。 → 模型知道「这段记忆来自哪、什么时候的」 用了一种叫 document-wise RoPE 的位置编码，让模型天然理解文档边界和时间顺序。 → 碎片化的信息也能串起来推理 Memory Interleaving 机制，让模型能在散落各处的记忆片段之间做多跳推理。不是只找到一条相关记录，而是把线索串成链。 结果呢？ · 从 16K 扩到 1 亿 token，精度衰减不到 9% · 4B 参数的 MSA 模型，在长上下文 benchmark 上打赢 235B 级别的顶级 RAG 系统 · 2 张 A800 就能跑 1 亿 token 推理。这不是实验室专属，这是创业公司买得起的成本。 说白了，以前的大模型是一个极度聪明但只有金鱼记忆的天才。MSA 想做的事情是，让它真正「记住」。 我们放 github 上了，算法的同学不容易，可以点颗星星支持一下。🌟👀🙏 github.com/EverMind-AI/MSA — https://nitter.net/elliotchen100/status/2034479369855590660#m",
+    "full_text": "Post title: 看完我写的龙虾失忆翻车故事，再看 EverMind 的 MSA 论文，突然觉得讽刺： OpenClaw 的记忆系统是“压缩到失忆”，而 MSA 在做的是“让大模型真正记住”。 一个是把记忆当成“预算管理器”，对话长了就总结压缩，关键指令被当垃圾扔掉。 另一个是把记忆长进注意力机制里，1 亿 token 精度衰减不到 9%，4B 参数打赢 235B 的 RAG 系统。 这才是 AI 记忆该有的样子：不是“开卷考试翻笔记”，而是真正“记住”。 如果 OpenClaw 用的是 MSA 这种架构，那些凌晨 3 点的“死刑通知”可能根本不会发生。 期待 MSA 后续进展 → https://github.com/EverMind-AI/MSA\n\nPost summary: 看完我写的龙虾失忆翻车故事，再看 EverMind 的 MSA 论文，突然觉得讽刺： OpenClaw 的记忆系统是“压缩到失忆”，而 MSA 在做的是“让大模型真正记住”。 一个是把记忆当成“预算管理器”，对话长了就总结压缩，关键指令被当垃圾扔掉。 另一个是把记忆长进注意力机制里，1 亿 token 精度衰减不到 9%，4B 参数打赢 235B 的 RAG 系统。 这才是 AI 记忆该有的样子：不是“开卷考试翻笔记”，而是真正“记住”。 如果 OpenClaw 用的是 MSA 这种架构，那些凌晨 3 点的“死刑通知”可能根本不会发生。 期待 MSA 后续进展 → github.com/EverMind-AI/MSA 艾略特 (@elliotchen100) 论文来了。名字叫 MSA，Memory Sparse Attention。 一句话说清楚它是什么： 让大模型原生拥有超长记忆。不是外挂检索，不是暴力扩窗口，而是把「记忆」直接长进了注意力机制里，端到端训练。 过去的方案为什么不行？ RAG 的本质是「开卷考试」。模型自己不记东西，全靠现场翻笔记。翻得准不准要看检索质量，翻得快不快要看数据量。一旦信息分散在几十份文档里、需要跨文档推理，就抓瞎了。 线性注意力和 KV 缓存的本质是「压缩记忆」。记是记了，但越压越糊，长了就丢。 MSA 的思路完全不同： → 不压缩，不外挂，而是让模型学会「挑重点看」 核心是一种可扩展的稀疏注意力架构，复杂度是线性的。记忆量翻 10 倍，计算成本不会指数爆炸。 → 模型知道「这段记忆来自哪、什么时候的」 用了一种叫 document-wise RoPE 的位置编码，让模型天然理解文档边界和时间顺序。 → 碎片化的信息也能串起来推理 Memory Interleaving 机制，让模型能在散落各处的记忆片段之间做多跳推理。不是只找到一条相关记录，而是把线索串成链。 结果呢？ · 从 16K 扩到 1 亿 token，精度衰减不到 9% · 4B 参数的 MSA 模型，在长上下文 benchmark 上打赢 235B 级别的顶级 RAG 系统 · 2 张 A800 就能跑 1 亿 token 推理。这不是实验室专属，这是创业公司买得起的成本。 说白了，以前的大模型是一个极度聪明但只有金鱼记忆的天才。MSA 想做的事情是，让它真正「记住」。 我们放 github 上了，算法的同学不容易，可以点颗星星支持一下。🌟👀🙏 github.com/EverMind-AI/MSA — https://nitter.net/elliotchen100/status/2034479369855590660#m\n\nCanonical URL: https://x.com/AI_Jasonyu/status/2035903867376861207",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "9%",
+      "4B",
+      "235B",
+      "16K"
+    ],
+    "named_entities": [
+      "EverMind",
+      "MSA",
+      "OpenClaw",
+      "RAG",
+      "AI",
+      "Memory Sparse Attention",
+      "KV",
+      "RoPE",
+      "Memory Interleaving",
+      "A800",
+      "Post",
+      "MSA Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "comparison"
+    ],
+    "fact_anchors": [
+      "看完我写的龙虾失忆翻车故事，再看 EverMind 的 MSA 论文，突然觉得讽刺： OpenClaw 的记忆系统是“压缩到失忆”，而 MSA 在做的是“让大模型真正记住”。 一个是把记忆当成“预算管理器”，对话长了就总结压缩，关键指令被当垃圾扔掉。 另一个是把记忆长进注意力机制里，1 亿 token 精度衰减不到 9%，4B 参数打赢 235B 的 RAG 系统。 这才是 AI 记忆该有的样子：不是“开卷考试翻笔记”，而是真正“记住”。 如果 OpenClaw 用的是 MSA 这种架构，那些凌晨 3 点的“死刑通知”可能根本不会发生。 期待 MSA 后续进展 → https://github.com/EverMind-AI/MSA",
+      "看完我写的龙虾失忆翻车故事，再看 EverMind 的 MSA 论文，突然觉得讽刺： OpenClaw 的记忆系统是“压缩到失忆”，而 MSA 在做的是“让大模型真正记住”。 一个是把记忆当成“预算管理器”，对话长了就总结压缩，关键指令被当垃圾扔掉。 另一个是把记忆长进注意力机制里，1 亿 token 精度衰减不到 9%，4B 参数打赢 235B 的 RAG 系统。 这才是 AI 记忆该有的样子：不是“开卷考试翻笔记”，而是真正“记住”。 如果 OpenClaw 用的是 MSA 这种架构，那些凌晨 3 点的“死刑通知”可能根本不会发生。 期待 MSA 后续进展 → github.com/EverMind-AI/MSA 艾略特 (@elliotchen100) 论文来了。名字叫 MSA，Memory Sparse Attention。 一句话说清楚它是什么： 让大模型原生拥有超长记忆。不是外挂检索，不是暴力扩窗口，而是把「记忆」直接长进了注意力机制里，端到端训练。 过去的方案为什么不行？ RAG 的本质是「开卷考试」。模型自己不记东西，全靠现场翻笔记。翻得准不准要看检索质量，翻得快不快要看数据量。一旦信息分散在几十份文档里、需要跨文档推理，就抓瞎了。 线性注意力和 KV 缓存的本质是「压缩记忆」。记是记了，但越压越糊，长了就丢。 MSA 的思路完全不同： → 不压缩，不外挂，而是让模型学会「挑重点看」 核心是一种可扩展的稀疏注意力架构，复杂度是线性的。记忆量翻 10 倍，计算成本不会指数爆炸。 → 模型知道「这段记忆来自哪、什么时候的」 用了一种叫 document-wise RoPE 的位置编码，让模型天然理解文档边界和时间顺序。 → 碎片化的信息也能串起来推理 Memory Interleaving 机制，让模型能在散落各处的记忆片段之间做多跳推理。不是只找到一条相关记录，而是把线索串成链。 结果呢？ · 从 16K 扩到 1 亿 token，精度衰减不到 9% · 4B 参数的 MSA 模型，在长上下文 benchmark 上打赢 235B 级别的顶级 RAG 系统 · 2 张 A800 就能跑 1 亿 token 推理。这不是实验室专属，这是创业公司买得起的成本。 说白了，以前的大模型是一个极度聪明但只有金鱼记忆的天才。MSA 想做的事情是，让它真正「记住」。 我们放 github 上了，算法的同学不容易，可以点颗星星支持一下。🌟👀🙏 github.com/EverMind-AI/MSA — https://nitter.net/elliotchen100/status/2034479369855590660#m",
+      "9%",
+      "4B",
+      "235B",
+      "16K",
+      "EverMind",
+      "MSA",
+      "OpenClaw",
+      "RAG",
+      "AI",
+      "Memory Sparse Attention",
+      "KV",
+      "RoPE",
+      "Memory Interleaving",
+      "A800",
+      "Post",
+      "MSA Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

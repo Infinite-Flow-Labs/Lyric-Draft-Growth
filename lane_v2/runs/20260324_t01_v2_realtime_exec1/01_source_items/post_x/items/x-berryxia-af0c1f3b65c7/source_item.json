@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-berryxia-af0c1f3b65c7",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/berryxia/status/2035715666205180069",
+  "author": {
+    "handle": "@berryxia",
+    "display_name": "berryxia",
+    "account_url": "https://x.com/berryxia"
+  },
+  "title": "Apple 的MacBook Air M1 的笔记本在Apple的笔记本历史中留下了重要的一笔。😁 很有意义，的确！",
+  "language": "unknown",
+  "published_at": "2026-03-22T13:50:11Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/berryxia/status/2035715666205180069",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/berryxia/status/2035715666205180069#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Apple 的MacBook Air M1 的笔记本在Apple的笔记本历史中留下了重要的一笔。😁 很有意义，的确！ Dipayan Ray (@geekedout__) The M1 MacBook Air will always be the most revolutionary laptop in history. It literally redefined what a laptop can do — https://nitter.net/geekedout__/status/2035569193454899606#m",
+    "full_text": "Post title: Apple 的MacBook Air M1 的笔记本在Apple的笔记本历史中留下了重要的一笔。😁 很有意义，的确！\n\nPost summary: Apple 的MacBook Air M1 的笔记本在Apple的笔记本历史中留下了重要的一笔。😁 很有意义，的确！ Dipayan Ray (@geekedout__) The M1 MacBook Air will always be the most revolutionary laptop in history. It literally redefined what a laptop can do — https://nitter.net/geekedout__/status/2035569193454899606#m\n\nCanonical URL: https://x.com/berryxia/status/2035715666205180069",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Apple",
+      "Air M1",
+      "Dipayan Ray",
+      "The M1 MacBook Air",
+      "It",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Apple 的MacBook Air M1 的笔记本在Apple的笔记本历史中留下了重要的一笔。😁 很有意义，的确！",
+      "Apple 的MacBook Air M1 的笔记本在Apple的笔记本历史中留下了重要的一笔。😁 很有意义，的确！ Dipayan Ray (@geekedout__) The M1 MacBook Air will always be the most revolutionary laptop in history. It literally redefined what a laptop can do — https://nitter.net/geekedout__/status/2035569193454899606#m",
+      "Apple",
+      "Air M1",
+      "Dipayan Ray",
+      "The M1 MacBook Air",
+      "It",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

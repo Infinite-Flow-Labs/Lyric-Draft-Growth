@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-idoubicc-41f0260548a9",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/idoubicc/status/2036316628426826228",
+  "author": {
+    "handle": "@idoubicc",
+    "display_name": "idoubicc",
+    "account_url": "https://x.com/idoubicc"
+  },
+  "title": "OpenClaw 新版本升级之后没有 WebUI 了？不要慌，正好你可以换一个更好的 UI 开源 ChatClaw：以 OpenClaw 为底层的 Agent 协作系统，为 OPC 而生 1. 基本架构 opc -> companies -> teams -> agents -> tasks 2. 一个 OpenClaw Gateway 对应一个公司，你可以创建多个公司，支持自动发现本地部署的 OpenClaw Gateway，支持连接远程部署的 OpenClaw Gateway 3. 创建公司后，你可以创建多个 agents 和 teams，以 Team 为基础让多个 agents 一起工作 4. 支持以 Company 维度，Team 维度，Agent 维度配置 Skills，支持可视化编辑 Agent 的 SOUL.md ，定义员工性格 5. 支持配置数据库持久化存储配置和对话记录 如何使用？ 1. 拉 ChatClaw 代码，在本地运行 2. 创建 Company，默认检测本地的 OpenClaw Gateway，如果本地没有 OpenClaw，你需要安装一个，或者连接远程托管的 OpenClaw 3. 创建 Agents，创建 Teams，开始使用 ------ MIT 协议开源，欢迎使用，感谢支持👇 https://github.com/fastclaw-ai/chatclaw",
+  "language": "unknown",
+  "published_at": "2026-03-24T05:38:11Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/idoubicc/status/2036316628426826228",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/idoubicc/status/2036316628426826228#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "OpenClaw 新版本升级之后没有 WebUI 了？不要慌，正好你可以换一个更好的 UI 开源 ChatClaw：以 OpenClaw 为底层的 Agent 协作系统，为 OPC 而生 1. 基本架构 opc -&gt; companies -&gt; teams -&gt; agents -&gt; tasks 2. 一个 OpenClaw Gateway 对应一个公司，你可以创建多个公司，支持自动发现本地部署的 OpenClaw Gateway，支持连接远程部署的 OpenClaw Gateway 3. 创建公司后，你可以创建多个 agents 和 teams，以 Team 为基础让多个 agents 一起工作 4. 支持以 Company 维度，Team 维度，Agent 维度配置 Skills，支持可视化编辑 Agent 的 SOUL.md ，定义员工性格 5. 支持配置数据库持久化存储配置和对话记录 如何使用？ 1. 拉 ChatClaw 代码，在本地运行 2. 创建 Company，默认检测本地的 OpenClaw Gateway，如果本地没有 OpenClaw，你需要安装一个，或者连接远程托管的 OpenClaw 3. 创建 Agents，创建 Teams，开始使用 ------ MIT 协议开源，欢迎使用，感谢支持👇 github.com/fastclaw-ai/chatc…",
+    "full_text": "Post title: OpenClaw 新版本升级之后没有 WebUI 了？不要慌，正好你可以换一个更好的 UI 开源 ChatClaw：以 OpenClaw 为底层的 Agent 协作系统，为 OPC 而生 1. 基本架构 opc -> companies -> teams -> agents -> tasks 2. 一个 OpenClaw Gateway 对应一个公司，你可以创建多个公司，支持自动发现本地部署的 OpenClaw Gateway，支持连接远程部署的 OpenClaw Gateway 3. 创建公司后，你可以创建多个 agents 和 teams，以 Team 为基础让多个 agents 一起工作 4. 支持以 Company 维度，Team 维度，Agent 维度配置 Skills，支持可视化编辑 Agent 的 SOUL.md ，定义员工性格 5. 支持配置数据库持久化存储配置和对话记录 如何使用？ 1. 拉 ChatClaw 代码，在本地运行 2. 创建 Company，默认检测本地的 OpenClaw Gateway，如果本地没有 OpenClaw，你需要安装一个，或者连接远程托管的 OpenClaw 3. 创建 Agents，创建 Teams，开始使用 ------ MIT 协议开源，欢迎使用，感谢支持👇 https://github.com/fastclaw-ai/chatclaw\n\nPost summary: OpenClaw 新版本升级之后没有 WebUI 了？不要慌，正好你可以换一个更好的 UI 开源 ChatClaw：以 OpenClaw 为底层的 Agent 协作系统，为 OPC 而生 1. 基本架构 opc -&gt; companies -&gt; teams -&gt; agents -&gt; tasks 2. 一个 OpenClaw Gateway 对应一个公司，你可以创建多个公司，支持自动发现本地部署的 OpenClaw Gateway，支持连接远程部署的 OpenClaw Gateway 3. 创建公司后，你可以创建多个 agents 和 teams，以 Team 为基础让多个 agents 一起工作 4. 支持以 Company 维度，Team 维度，Agent 维度配置 Skills，支持可视化编辑 Agent 的 SOUL.md ，定义员工性格 5. 支持配置数据库持久化存储配置和对话记录 如何使用？ 1. 拉 ChatClaw 代码，在本地运行 2. 创建 Company，默认检测本地的 OpenClaw Gateway，如果本地没有 OpenClaw，你需要安装一个，或者连接远程托管的 OpenClaw 3. 创建 Agents，创建 Teams，开始使用 ------ MIT 协议开源，欢迎使用，感谢支持👇 github.com/fastclaw-ai/chatc…\n\nCanonical URL: https://x.com/idoubicc/status/2036316628426826228",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "OpenClaw",
+      "WebUI",
+      "UI",
+      "ChatClaw",
+      "Agent",
+      "OPC",
+      "OpenClaw Gateway",
+      "Team",
+      "Company",
+      "Skills",
+      "SOUL",
+      "Agents",
+      "Teams",
+      "MIT",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "OpenClaw 新版本升级之后没有 WebUI 了？不要慌，正好你可以换一个更好的 UI 开源 ChatClaw：以 OpenClaw 为底层的 Agent 协作系统，为 OPC 而生 1. 基本架构 opc -> companies -> teams -> agents -> tasks 2. 一个 OpenClaw Gateway 对应一个公司，你可以创建多个公司，支持自动发现本地部署的 OpenClaw Gateway，支持连接远程部署的 OpenClaw Gateway 3. 创建公司后，你可以创建多个 agents 和 teams，以 Team 为基础让多个 agents 一起工作 4. 支持以 Company 维度，Team 维度，Agent 维度配置 Skills，支持可视化编辑 Agent 的 SOUL.md ，定义员工性格 5. 支持配置数据库持久化存储配置和对话记录 如何使用？ 1. 拉 ChatClaw 代码，在本地运行 2. 创建 Company，默认检测本地的 OpenClaw Gateway，如果本地没有 OpenClaw，你需要安装一个，或者连接远程托管的 OpenClaw 3. 创建 Agents，创建 Teams，开始使用 ------ MIT 协议开源，欢迎使用，感谢支持👇 https://github.com/fastclaw-ai/chatclaw",
+      "OpenClaw 新版本升级之后没有 WebUI 了？不要慌，正好你可以换一个更好的 UI 开源 ChatClaw：以 OpenClaw 为底层的 Agent 协作系统，为 OPC 而生 1. 基本架构 opc -&gt; companies -&gt; teams -&gt; agents -&gt; tasks 2. 一个 OpenClaw Gateway 对应一个公司，你可以创建多个公司，支持自动发现本地部署的 OpenClaw Gateway，支持连接远程部署的 OpenClaw Gateway 3. 创建公司后，你可以创建多个 agents 和 teams，以 Team 为基础让多个 agents 一起工作 4. 支持以 Company 维度，Team 维度，Agent 维度配置 Skills，支持可视化编辑 Agent 的 SOUL.md ，定义员工性格 5. 支持配置数据库持久化存储配置和对话记录 如何使用？ 1. 拉 ChatClaw 代码，在本地运行 2. 创建 Company，默认检测本地的 OpenClaw Gateway，如果本地没有 OpenClaw，你需要安装一个，或者连接远程托管的 OpenClaw 3. 创建 Agents，创建 Teams，开始使用 ------ MIT 协议开源，欢迎使用，感谢支持👇 github.com/fastclaw-ai/chatc…",
+      "OpenClaw",
+      "WebUI",
+      "UI",
+      "ChatClaw",
+      "Agent",
+      "OPC",
+      "OpenClaw Gateway",
+      "Team",
+      "Company",
+      "Skills",
+      "SOUL",
+      "Agents",
+      "Teams",
+      "MIT",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

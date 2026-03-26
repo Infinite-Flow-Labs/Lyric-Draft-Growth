@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-fkysly-24f87f5ad00f",
+  "event_seed_signal_id": "x-fkysly-24f87f5ad00f",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。",
+  "why_now": "Clustered 3 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 86.81,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 89.05,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "vibe coding::launch",
+  "cluster_signal_ids": [
+    "x-fkysly-24f87f5ad00f",
+    "x-kasong2048-95bb75bb1d82",
+    "x-svpino-29c6ae5079fc"
+  ],
+  "source_families": [
+    "article_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/fkysly/status/2036639260804325439",
+    "published_at": "2026-03-25T03:00:13Z",
+    "release_signals_count": 4,
+    "fact_candidates_count": 33
+  }
+}

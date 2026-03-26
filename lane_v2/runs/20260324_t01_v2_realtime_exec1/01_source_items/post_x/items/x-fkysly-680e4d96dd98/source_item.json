@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-fkysly-680e4d96dd98",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/fkysly/status/2036283690532360427",
+  "author": {
+    "handle": "@fkysly",
+    "display_name": "fkysly",
+    "account_url": "https://x.com/fkysly"
+  },
+  "title": "Claude Code 2.1.81 又把缓存搞错了，难道不为此重置一下大家的用量吗？ 学习一下 Codex 好吗？",
+  "language": "unknown",
+  "published_at": "2026-03-24T03:27:18Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/fkysly/status/2036283690532360427",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/fkysly/status/2036283690532360427#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Claude Code 2.1.81 又把缓存搞错了，难道不为此重置一下大家的用量吗？ 学习一下 Codex 好吗？",
+    "full_text": "Post title: Claude Code 2.1.81 又把缓存搞错了，难道不为此重置一下大家的用量吗？ 学习一下 Codex 好吗？\n\nPost summary: Claude Code 2.1.81 又把缓存搞错了，难道不为此重置一下大家的用量吗？ 学习一下 Codex 好吗？\n\nCanonical URL: https://x.com/fkysly/status/2036283690532360427",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Claude Code",
+      "Codex",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Claude Code 2.1.81 又把缓存搞错了，难道不为此重置一下大家的用量吗？ 学习一下 Codex 好吗？",
+      "Claude Code",
+      "Codex",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

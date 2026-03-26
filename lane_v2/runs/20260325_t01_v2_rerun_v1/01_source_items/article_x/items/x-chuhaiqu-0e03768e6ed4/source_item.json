@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-chuhaiqu-0e03768e6ed4",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/chuhaiqu/status/2036704393475837965",
+  "author": {
+    "handle": "@chuhaiqu",
+    "display_name": "chuhaiqu",
+    "account_url": "https://x.com/chuhaiqu"
+  },
+  "title": "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。",
+  "language": "unknown",
+  "published_at": "2026-03-25T07:19:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/chuhaiqu/status/2036704393475837965",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/chuhaiqu/status/2036704393475837965#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Natia Kurdadze (@natiakourdadze) x.com/i/article/203506810626… — https://nitter.net/natiakourdadze/status/2035070021932658721#m",
+    "full_text": "Post title: Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。\n\nPost summary: Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Natia Kurdadze (@natiakourdadze) x.com/i/article/203506810626… — https://nitter.net/natiakourdadze/status/2035070021932658721#m\n\nCanonical URL: https://x.com/chuhaiqu/status/2036704393475837965",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Natia",
+      "App",
+      "Astro",
+      "Sensor Tower",
+      "RevenueCat",
+      "Natia Kurdadze",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。",
+      "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Natia Kurdadze (@natiakourdadze) x.com/i/article/203506810626… — https://nitter.net/natiakourdadze/status/2035070021932658721#m",
+      "Natia",
+      "App",
+      "Astro",
+      "Sensor Tower",
+      "RevenueCat",
+      "Natia Kurdadze",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

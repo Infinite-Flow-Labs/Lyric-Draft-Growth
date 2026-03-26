@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-fkysly-1dafa8a265f6",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/fkysly/status/2035580893369192767",
+  "author": {
+    "handle": "@fkysly",
+    "display_name": "fkysly",
+    "account_url": "https://x.com/fkysly"
+  },
+  "title": "https://github.com/m1heng/claude-plugin-weixin 太快了，微信龙虾 Claude Code 插件已经出现了 果然吧，我看到这个微信龙虾插件第一时间，就知道各种骚 Agent 都可以利用这个插件原理，稍微魔改一下就能走同一套协议连接了。你们社区速度是真的快。",
+  "language": "unknown",
+  "published_at": "2026-03-22T04:54:38Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/fkysly/status/2035580893369192767",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/fkysly/status/2035580893369192767#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "github.com/m1heng/claude-plu… 太快了，微信龙虾 Claude Code 插件已经出现了 果然吧，我看到这个微信龙虾插件第一时间，就知道各种骚 Agent 都可以利用这个插件原理，稍微魔改一下就能走同一套协议连接了。你们社区速度是真的快。",
+    "full_text": "Post title: https://github.com/m1heng/claude-plugin-weixin 太快了，微信龙虾 Claude Code 插件已经出现了 果然吧，我看到这个微信龙虾插件第一时间，就知道各种骚 Agent 都可以利用这个插件原理，稍微魔改一下就能走同一套协议连接了。你们社区速度是真的快。\n\nPost summary: github.com/m1heng/claude-plu… 太快了，微信龙虾 Claude Code 插件已经出现了 果然吧，我看到这个微信龙虾插件第一时间，就知道各种骚 Agent 都可以利用这个插件原理，稍微魔改一下就能走同一套协议连接了。你们社区速度是真的快。\n\nCanonical URL: https://x.com/fkysly/status/2035580893369192767",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Claude Code",
+      "Agent",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "https://github.com/m1heng/claude-plugin-weixin 太快了，微信龙虾 Claude Code 插件已经出现了 果然吧，我看到这个微信龙虾插件第一时间，就知道各种骚 Agent 都可以利用这个插件原理，稍微魔改一下就能走同一套协议连接了。你们社区速度是真的快。",
+      "github.com/m1heng/claude-plu… 太快了，微信龙虾 Claude Code 插件已经出现了 果然吧，我看到这个微信龙虾插件第一时间，就知道各种骚 Agent 都可以利用这个插件原理，稍微魔改一下就能走同一套协议连接了。你们社区速度是真的快。",
+      "Claude Code",
+      "Agent",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

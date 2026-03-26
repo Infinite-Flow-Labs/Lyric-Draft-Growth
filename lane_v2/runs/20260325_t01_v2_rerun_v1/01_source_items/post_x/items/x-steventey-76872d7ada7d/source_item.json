@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-steventey-76872d7ada7d",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/steventey/status/2036606183839273164",
+  "author": {
+    "handle": "@steventey",
+    "display_name": "steventey",
+    "account_url": "https://x.com/steventey"
+  },
+  "title": "Slack finally added support for adding/removing attachments in messages No more deleting + resending messages just because you attached the wrong screenshot 😅",
+  "language": "unknown",
+  "published_at": "2026-03-25T00:48:47Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/steventey/status/2036606183839273164",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/steventey/status/2036606183839273164#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Slack finally added support for adding/removing attachments in messages No more deleting + resending messages just because you attached the wrong screenshot 😅",
+    "full_text": "Post title: Slack finally added support for adding/removing attachments in messages No more deleting + resending messages just because you attached the wrong screenshot 😅\n\nPost summary: Slack finally added support for adding/removing attachments in messages No more deleting + resending messages just because you attached the wrong screenshot 😅\n\nCanonical URL: https://x.com/steventey/status/2036606183839273164",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Slack",
+      "No",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Slack finally added support for adding/removing attachments in messages No more deleting + resending messages just because you attached the wrong screenshot 😅",
+      "Slack",
+      "No",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

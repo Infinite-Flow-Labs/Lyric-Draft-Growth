@@ -1,0 +1,112 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-fkysly-24f87f5ad00f",
+  "lane_id": "T06_capability_delivery",
+  "framework_id": "06_checklist_template",
+  "submode_id": "workflow_architecture",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-fkysly-24f87f5ad00f",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/fkysly/status/2036639260804325439",
+      "title": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。",
+      "published_at": "2026-03-25T03:00:13Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-fkysly-24f87f5ad00f/source_item.json"
+    },
+    {
+      "signal_id": "x-lxfater-b0716c6556d9",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/lxfater/status/2036704748779524577",
+      "title": "你是不是一直在想为什么没人做某款应用？ AI 极速发展的时代，每个人都可以通过聊天去构架一款 Agent 应用了 下面文章演示了 1. 聊天 2. 测试 3. 创建应用的全流程 希望大家喜欢🫡",
+      "published_at": "2026-03-25T07:20:26Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-lxfater-b0716c6556d9/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-svpino-29c6ae5079fc",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/svpino/status/2036098202064355712",
+      "title": "Why aren't more people talking about Replit right now? I started using Replit consistently late last year when they released Agent 3. It was my way to \"let go\" as a developer and build things without worrying about the code. It's actually been a good way to teach my kid \"web development\". Replit just launched Agent 4, and I think it's massively, massively underhyped. Best thing: You can now run multiple agents in parallel. • Old agent: You give it a task, and you have to wait for it to finish before you can do anything else. • New agent: Do this, and that, and this. All of it at the same time. It feels like going from a Toyota to a Lexus. I can now run an agent to build my frontend, another agent to build my backend, and a third agent to write test cases. By the way, they also have an infinite design canvas for UI-related work, so you can also do design at the same time as everything else.",
+      "published_at": "2026-03-23T15:10:14Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-svpino-29c6ae5079fc/source_item.json"
+    },
+    {
+      "signal_id": "x-kasong2048-95bb75bb1d82",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/kasong2048/status/2036356708474429817",
+      "title": "Harness Engineering 经常遇到一个问题 —— Agent 跑着跑着，没完成任务就停了。 这里有很多原因，其中一个重要原因是：Agent 有事停下来需要你确认。 这里有个设计 Harness Engineering 的小技巧：把「执行性质的工作」放到 subagent，用 Skill 来编排他们。 举个例子：你要实现一个功能，已经把功能拆解为 N 个 Todo，如果直接唤起 subagent 来编码，那长程任务很可能中途停下来。 这时候可以实现一个「编排 subagent 的 Skill」，由他来唤起所需数量的 subagent，除了给他们填充必要的信息（比如完成任务所需上下文、任务本身），还要让 subagent “遇到问题及时沟通” 。 很多常见的“导致 Agent 停下来的事儿”都能被 Skill 这层兜住，不会更多污染 main agent 导致任务停下来。",
+      "published_at": "2026-03-24T08:17:27Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-kasong2048-95bb75bb1d82/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    },
+    {
+      "claim": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果。 马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    },
+    {
+      "claim": "这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    },
+    {
+      "claim": "马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m Post title: 这篇官方博客文章含金量挺高，非常值得深入研究，无论是自己用 Vibe Coding 做个人产品，还是优化 Agent 效果",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    },
+    {
+      "claim": "马天翼 (@fkysly) x.com/i/article/203662527416… — https://nitter.net/fkysly/status/2036638966498382180#m Canonical URL: https://x.com/fkysly/status/2036639260804325439",
+      "source_url": "https://x.com/fkysly/status/2036639260804325439",
+      "signal_id": "x-fkysly-24f87f5ad00f"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 6,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-vista8-25cce29e479b",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/vista8/status/2036043105959563511",
+  "author": {
+    "handle": "@vista8",
+    "display_name": "vista8",
+    "account_url": "https://x.com/vista8"
+  },
+  "title": "整合网易云音乐Skill，增加了5k多种音乐风格。 安装方法，发给CC下面地址安装： https://github.com/joeseesun/qiaomu-music-player-ncm",
+  "language": "unknown",
+  "published_at": "2026-03-23T11:31:18Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/vista8/status/2036043105959563511",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/vista8/status/2036043105959563511#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "整合网易云音乐Skill，增加了5k多种音乐风格。 安装方法，发给CC下面地址安装： github.com/joeseesun/qiaomu-…",
+    "full_text": "Post title: 整合网易云音乐Skill，增加了5k多种音乐风格。 安装方法，发给CC下面地址安装： https://github.com/joeseesun/qiaomu-music-player-ncm\n\nPost summary: 整合网易云音乐Skill，增加了5k多种音乐风格。 安装方法，发给CC下面地址安装： github.com/joeseesun/qiaomu-…\n\nCanonical URL: https://x.com/vista8/status/2036043105959563511",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "整合网易云音乐Skill，增加了5k多种音乐风格。 安装方法，发给CC下面地址安装： https://github.com/joeseesun/qiaomu-music-player-ncm",
+      "整合网易云音乐Skill，增加了5k多种音乐风格。 安装方法，发给CC下面地址安装： github.com/joeseesun/qiaomu-…",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

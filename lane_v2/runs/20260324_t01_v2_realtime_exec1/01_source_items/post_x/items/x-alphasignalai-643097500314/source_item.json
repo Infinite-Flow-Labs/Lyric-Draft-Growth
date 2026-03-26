@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alphasignalai-643097500314",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlphaSignalAI/status/2033936311321502054",
+  "author": {
+    "handle": "@AlphaSignalAI",
+    "display_name": "AlphaSignalAI",
+    "account_url": "https://x.com/AlphaSignalAI"
+  },
+  "title": "Stop paying for cloud GPUs. You can now train LLMs locally with a full web UI. Unsloth AI just launched Unsloth Studio, an open-source tool to train and run models on your own machine. → 2x faster training, 70% less VRAM → 500+ supported models → Auto-builds datasets from PDFs, CSVs → Self-healing tool calling built-in It works by combining optimized kernels with smart memory reuse, cutting overhead without touching model quality. Fine-tuning a custom model went from a cloud job to a single pip install. https://github.com/unslothai/unsloth",
+  "language": "unknown",
+  "published_at": "2026-03-17T15:59:39Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlphaSignalAI/status/2033936311321502054",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlphaSignalAI/status/2033936311321502054#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Stop paying for cloud GPUs. You can now train LLMs locally with a full web UI. Unsloth AI just launched Unsloth Studio, an open-source tool to train and run models on your own machine. → 2x faster training, 70% less VRAM → 500+ supported models → Auto-builds datasets from PDFs, CSVs → Self-healing tool calling built-in It works by combining optimized kernels with smart memory reuse, cutting overhead without touching model quality. Fine-tuning a custom model went from a cloud job to a single pip install. github.com/unslothai/unsloth Video",
+    "full_text": "Post title: Stop paying for cloud GPUs. You can now train LLMs locally with a full web UI. Unsloth AI just launched Unsloth Studio, an open-source tool to train and run models on your own machine. → 2x faster training, 70% less VRAM → 500+ supported models → Auto-builds datasets from PDFs, CSVs → Self-healing tool calling built-in It works by combining optimized kernels with smart memory reuse, cutting overhead without touching model quality. Fine-tuning a custom model went from a cloud job to a single pip install. https://github.com/unslothai/unsloth\n\nPost summary: Stop paying for cloud GPUs. You can now train LLMs locally with a full web UI. Unsloth AI just launched Unsloth Studio, an open-source tool to train and run models on your own machine. → 2x faster training, 70% less VRAM → 500+ supported models → Auto-builds datasets from PDFs, CSVs → Self-healing tool calling built-in It works by combining optimized kernels with smart memory reuse, cutting overhead without touching model quality. Fine-tuning a custom model went from a cloud job to a single pip install. github.com/unslothai/unsloth Video\n\nCanonical URL: https://x.com/AlphaSignalAI/status/2033936311321502054",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch",
+      "launched"
+    ],
+    "metric_signals": [
+      "70%"
+    ],
+    "named_entities": [
+      "Stop",
+      "GPUs",
+      "You",
+      "LLMs",
+      "UI",
+      "Unsloth AI",
+      "Unsloth Studio",
+      "VRAM",
+      "Auto",
+      "PDFs",
+      "CSVs",
+      "Self",
+      "It",
+      "Fine",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "Stop paying for cloud GPUs. You can now train LLMs locally with a full web UI. Unsloth AI just launched Unsloth Studio, an open-source tool to train and run models on your own machine. → 2x faster training, 70% less VRAM → 500+ supported models → Auto-builds datasets from PDFs, CSVs → Self-healing tool calling built-in It works by combining optimized kernels with smart memory reuse, cutting overhead without touching model quality. Fine-tuning a custom model went from a cloud job to a single pip install. https://github.com/unslothai/unsloth",
+      "Stop paying for cloud GPUs. You can now train LLMs locally with a full web UI. Unsloth AI just launched Unsloth Studio, an open-source tool to train and run models on your own machine. → 2x faster training, 70% less VRAM → 500+ supported models → Auto-builds datasets from PDFs, CSVs → Self-healing tool calling built-in It works by combining optimized kernels with smart memory reuse, cutting overhead without touching model quality. Fine-tuning a custom model went from a cloud job to a single pip install. github.com/unslothai/unsloth Video",
+      "launch",
+      "launched",
+      "70%",
+      "Stop",
+      "GPUs",
+      "You",
+      "LLMs",
+      "UI",
+      "Unsloth AI",
+      "Unsloth Studio",
+      "VRAM",
+      "Auto",
+      "PDFs",
+      "CSVs",
+      "Self",
+      "It",
+      "Fine",
+      "Video Post",
+      "Post"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

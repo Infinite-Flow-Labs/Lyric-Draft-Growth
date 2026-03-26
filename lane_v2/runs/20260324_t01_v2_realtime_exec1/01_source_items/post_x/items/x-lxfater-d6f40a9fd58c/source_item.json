@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lxfater-d6f40a9fd58c",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lxfater/status/2035975678970225125",
+  "author": {
+    "handle": "@lxfater",
+    "display_name": "lxfater",
+    "account_url": "https://x.com/lxfater"
+  },
+  "title": "每天运动对中年人来说很重要 我前段时间扭到膝盖后，开始拄拐，没法工作。春节后恢复了很多，但是还是不能运动。 渐渐地人每天变得无所事事，对什么都提不起劲。后来开始喝咖啡，有些精神了，但是容易心跳过快，睡眠不好。 上几周，我都麻了，啥都不想干。喝咖啡都不顶用了。没法高效工作带来的无力感，焦虑。 昨天出去江边散步一个半小时后，什么都好了。 大概率是触发了，某种激素分泌。感觉年轻了很多，工作也得紧了，推都发多了。 建议大家都把运动作为一项投资来试试。",
+  "language": "unknown",
+  "published_at": "2026-03-23T07:03:23Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lxfater/status/2035975678970225125",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lxfater/status/2035975678970225125#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "每天运动对中年人来说很重要 我前段时间扭到膝盖后，开始拄拐，没法工作。春节后恢复了很多，但是还是不能运动。 渐渐地人每天变得无所事事，对什么都提不起劲。后来开始喝咖啡，有些精神了，但是容易心跳过快，睡眠不好。 上几周，我都麻了，啥都不想干。喝咖啡都不顶用了。没法高效工作带来的无力感，焦虑。 昨天出去江边散步一个半小时后，什么都好了。 大概率是触发了，某种激素分泌。感觉年轻了很多，工作也得紧了，推都发多了。 建议大家都把运动作为一项投资来试试。",
+    "full_text": "Post title: 每天运动对中年人来说很重要 我前段时间扭到膝盖后，开始拄拐，没法工作。春节后恢复了很多，但是还是不能运动。 渐渐地人每天变得无所事事，对什么都提不起劲。后来开始喝咖啡，有些精神了，但是容易心跳过快，睡眠不好。 上几周，我都麻了，啥都不想干。喝咖啡都不顶用了。没法高效工作带来的无力感，焦虑。 昨天出去江边散步一个半小时后，什么都好了。 大概率是触发了，某种激素分泌。感觉年轻了很多，工作也得紧了，推都发多了。 建议大家都把运动作为一项投资来试试。\n\nPost summary: 每天运动对中年人来说很重要 我前段时间扭到膝盖后，开始拄拐，没法工作。春节后恢复了很多，但是还是不能运动。 渐渐地人每天变得无所事事，对什么都提不起劲。后来开始喝咖啡，有些精神了，但是容易心跳过快，睡眠不好。 上几周，我都麻了，啥都不想干。喝咖啡都不顶用了。没法高效工作带来的无力感，焦虑。 昨天出去江边散步一个半小时后，什么都好了。 大概率是触发了，某种激素分泌。感觉年轻了很多，工作也得紧了，推都发多了。 建议大家都把运动作为一项投资来试试。\n\nCanonical URL: https://x.com/lxfater/status/2035975678970225125",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "每天运动对中年人来说很重要 我前段时间扭到膝盖后，开始拄拐，没法工作。春节后恢复了很多，但是还是不能运动。 渐渐地人每天变得无所事事，对什么都提不起劲。后来开始喝咖啡，有些精神了，但是容易心跳过快，睡眠不好。 上几周，我都麻了，啥都不想干。喝咖啡都不顶用了。没法高效工作带来的无力感，焦虑。 昨天出去江边散步一个半小时后，什么都好了。 大概率是触发了，某种激素分泌。感觉年轻了很多，工作也得紧了，推都发多了。 建议大家都把运动作为一项投资来试试。",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

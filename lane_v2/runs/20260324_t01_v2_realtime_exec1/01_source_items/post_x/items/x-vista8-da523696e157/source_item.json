@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-vista8-da523696e157",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/vista8/status/2036114278059762119",
+  "author": {
+    "handle": "@vista8",
+    "display_name": "vista8",
+    "account_url": "https://x.com/vista8"
+  },
+  "title": "确实好文章，今天才读到: 1. 让个人更高效，不等于让公司更高效。个人AI制造混乱，机构AI创造协调。 2. 流程工程可能会成为近期最重要的\"技术\"。 3. 对特定应用来说，深度永远胜过广度。 4. AI能做的最有价值的工作，是那些没人想到要问的工作。 5. 当不再需要人类提示AI，新的界面和工作方式就会出现。",
+  "language": "unknown",
+  "published_at": "2026-03-23T16:14:07Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/vista8/status/2036114278059762119",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/vista8/status/2036114278059762119#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "确实好文章，今天才读到: 1. 让个人更高效，不等于让公司更高效。个人AI制造混乱，机构AI创造协调。 2. 流程工程可能会成为近期最重要的\"技术\"。 3. 对特定应用来说，深度永远胜过广度。 4. AI能做的最有价值的工作，是那些没人想到要问的工作。 5. 当不再需要人类提示AI，新的界面和工作方式就会出现。 George Sivulka (@gsivulka) x.com/i/article/202415724658… — https://nitter.net/gsivulka/status/2031797989908627849#m",
+    "full_text": "Post title: 确实好文章，今天才读到: 1. 让个人更高效，不等于让公司更高效。个人AI制造混乱，机构AI创造协调。 2. 流程工程可能会成为近期最重要的\"技术\"。 3. 对特定应用来说，深度永远胜过广度。 4. AI能做的最有价值的工作，是那些没人想到要问的工作。 5. 当不再需要人类提示AI，新的界面和工作方式就会出现。\n\nPost summary: 确实好文章，今天才读到: 1. 让个人更高效，不等于让公司更高效。个人AI制造混乱，机构AI创造协调。 2. 流程工程可能会成为近期最重要的\"技术\"。 3. 对特定应用来说，深度永远胜过广度。 4. AI能做的最有价值的工作，是那些没人想到要问的工作。 5. 当不再需要人类提示AI，新的界面和工作方式就会出现。 George Sivulka (@gsivulka) x.com/i/article/202415724658… — https://nitter.net/gsivulka/status/2031797989908627849#m\n\nCanonical URL: https://x.com/vista8/status/2036114278059762119",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "George Sivulka",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "确实好文章，今天才读到: 1. 让个人更高效，不等于让公司更高效。个人AI制造混乱，机构AI创造协调。 2. 流程工程可能会成为近期最重要的\"技术\"。 3. 对特定应用来说，深度永远胜过广度。 4. AI能做的最有价值的工作，是那些没人想到要问的工作。 5. 当不再需要人类提示AI，新的界面和工作方式就会出现。",
+      "确实好文章，今天才读到: 1. 让个人更高效，不等于让公司更高效。个人AI制造混乱，机构AI创造协调。 2. 流程工程可能会成为近期最重要的\"技术\"。 3. 对特定应用来说，深度永远胜过广度。 4. AI能做的最有价值的工作，是那些没人想到要问的工作。 5. 当不再需要人类提示AI，新的界面和工作方式就会出现。 George Sivulka (@gsivulka) x.com/i/article/202415724658… — https://nitter.net/gsivulka/status/2031797989908627849#m",
+      "George Sivulka",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

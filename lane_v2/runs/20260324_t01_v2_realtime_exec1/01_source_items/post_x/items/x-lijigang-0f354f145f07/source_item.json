@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lijigang-0f354f145f07",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lijigang/status/2035354083637502280",
+  "author": {
+    "handle": "@lijigang",
+    "display_name": "lijigang",
+    "account_url": "https://x.com/lijigang"
+  },
+  "title": "移动互联网早期，很多 app 都会读取通讯录信息，哪怕用不到也会先要再说。 现在 soul 和 memory 都是纯文本文件，会不会像之前的通讯录一样被各种应用滥用权限读取分析？毕竟，这玩意直接就是一个人最真实的刻画了。",
+  "language": "unknown",
+  "published_at": "2026-03-21T13:53:23Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lijigang/status/2035354083637502280",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lijigang/status/2035354083637502280#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "移动互联网早期，很多 app 都会读取通讯录信息，哪怕用不到也会先要再说。 现在 soul 和 memory 都是纯文本文件，会不会像之前的通讯录一样被各种应用滥用权限读取分析？毕竟，这玩意直接就是一个人最真实的刻画了。",
+    "full_text": "Post title: 移动互联网早期，很多 app 都会读取通讯录信息，哪怕用不到也会先要再说。 现在 soul 和 memory 都是纯文本文件，会不会像之前的通讯录一样被各种应用滥用权限读取分析？毕竟，这玩意直接就是一个人最真实的刻画了。\n\nPost summary: 移动互联网早期，很多 app 都会读取通讯录信息，哪怕用不到也会先要再说。 现在 soul 和 memory 都是纯文本文件，会不会像之前的通讯录一样被各种应用滥用权限读取分析？毕竟，这玩意直接就是一个人最真实的刻画了。\n\nCanonical URL: https://x.com/lijigang/status/2035354083637502280",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "移动互联网早期，很多 app 都会读取通讯录信息，哪怕用不到也会先要再说。 现在 soul 和 memory 都是纯文本文件，会不会像之前的通讯录一样被各种应用滥用权限读取分析？毕竟，这玩意直接就是一个人最真实的刻画了。",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

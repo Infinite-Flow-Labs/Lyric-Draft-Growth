@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-hbcoop_-4539322b2871",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/HBCoop_/status/2036659420797506019",
+  "author": {
+    "handle": "@HBCoop_",
+    "display_name": "HBCoop_",
+    "account_url": "https://x.com/HBCoop_"
+  },
+  "title": "Midjourney v8 moodboard exploration",
+  "language": "unknown",
+  "published_at": "2026-03-25T04:20:19Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/HBCoop_/status/2036659420797506019",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/HBCoop_/status/2036659420797506019#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Midjourney v8 moodboard exploration",
+    "full_text": "Post title: Midjourney v8 moodboard exploration\n\nPost summary: Midjourney v8 moodboard exploration\n\nCanonical URL: https://x.com/HBCoop_/status/2036659420797506019",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Midjourney",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Midjourney v8 moodboard exploration",
+      "Midjourney",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

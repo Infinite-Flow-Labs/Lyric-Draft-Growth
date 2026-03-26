@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-berryxia-923746e6b14b",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/berryxia/status/2036677299341529217",
+  "author": {
+    "handle": "@berryxia",
+    "display_name": "berryxia",
+    "account_url": "https://x.com/berryxia"
+  },
+  "title": "去AI味口癖可以喂给AI然后再优化！",
+  "language": "unknown",
+  "published_at": "2026-03-25T05:31:22Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/berryxia/status/2036677299341529217",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/berryxia/status/2036677299341529217#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "去AI味口癖可以喂给AI然后再优化！ 向阳乔木 (@vista8) GPT的油腻口癖比claude严重多了。 什么稳稳的接住你... 🤮 哈哈哈 — https://nitter.net/vista8/status/2036649366841344478#m",
+    "full_text": "Post title: 去AI味口癖可以喂给AI然后再优化！\n\nPost summary: 去AI味口癖可以喂给AI然后再优化！ 向阳乔木 (@vista8) GPT的油腻口癖比claude严重多了。 什么稳稳的接住你... 🤮 哈哈哈 — https://nitter.net/vista8/status/2036649366841344478#m\n\nCanonical URL: https://x.com/berryxia/status/2036677299341529217",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "去AI味口癖可以喂给AI然后再优化！",
+      "去AI味口癖可以喂给AI然后再优化！ 向阳乔木 (@vista8) GPT的油腻口癖比claude严重多了。 什么稳稳的接住你... 🤮 哈哈哈 — https://nitter.net/vista8/status/2036649366841344478#m",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

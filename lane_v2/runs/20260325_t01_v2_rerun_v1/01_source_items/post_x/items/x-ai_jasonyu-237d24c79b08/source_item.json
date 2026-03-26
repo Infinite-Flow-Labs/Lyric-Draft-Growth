@@ -1,0 +1,70 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-ai_jasonyu-237d24c79b08",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AI_Jasonyu/status/2036460164434301198",
+  "author": {
+    "handle": "@AI_Jasonyu",
+    "display_name": "AI_Jasonyu",
+    "account_url": "https://x.com/AI_Jasonyu"
+  },
+  "title": "IRS漂洋过海过来的ITIN信封收到了，好吧，以后在美国赚钱要缴税了😂 不过也确实会有一些便利，可以看我之前的这个帖子～",
+  "language": "unknown",
+  "published_at": "2026-03-24T15:08:33Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AI_Jasonyu/status/2036460164434301198",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AI_Jasonyu/status/2036460164434301198#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "IRS漂洋过海过来的ITIN信封收到了，好吧，以后在美国赚钱要缴税了😂 不过也确实会有一些便利，可以看我之前的这个帖子～ 鱼总聊AI (@AI_Jasonyu) 卧槽，没想到我的ITIN（美国个人税号）这么快就能下来。 等X Money出来，我应该可以第一时间申请了😄😄。 我是1.30号下单的，2.4号邮寄材料到美国，今天3.12就收到了，总共40天时间。 关于ITIN能干啥，我就简单点说： 1、申请部分信用卡：Amex、BoA、汇丰、华美银行等信用卡 2、海外平台开店：TK、eBay、Amazon... 3、美股账户投资，可以降低股息税收，30%~10% 4、申请退税 5、在海外工作拿工资报税 后续还是写个文章专门介绍下吧~~我去申卡了 — https://nitter.net/AI_Jasonyu/status/2031945348894376232#m",
+    "full_text": "Post title: IRS漂洋过海过来的ITIN信封收到了，好吧，以后在美国赚钱要缴税了😂 不过也确实会有一些便利，可以看我之前的这个帖子～\n\nPost summary: IRS漂洋过海过来的ITIN信封收到了，好吧，以后在美国赚钱要缴税了😂 不过也确实会有一些便利，可以看我之前的这个帖子～ 鱼总聊AI (@AI_Jasonyu) 卧槽，没想到我的ITIN（美国个人税号）这么快就能下来。 等X Money出来，我应该可以第一时间申请了😄😄。 我是1.30号下单的，2.4号邮寄材料到美国，今天3.12就收到了，总共40天时间。 关于ITIN能干啥，我就简单点说： 1、申请部分信用卡：Amex、BoA、汇丰、华美银行等信用卡 2、海外平台开店：TK、eBay、Amazon... 3、美股账户投资，可以降低股息税收，30%~10% 4、申请退税 5、在海外工作拿工资报税 后续还是写个文章专门介绍下吧~~我去申卡了 — https://nitter.net/AI_Jasonyu/status/2031945348894376232#m\n\nCanonical URL: https://x.com/AI_Jasonyu/status/2036460164434301198",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "30%",
+      "10%"
+    ],
+    "named_entities": [
+      "Amex",
+      "BoA",
+      "TK",
+      "Amazon",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "IRS漂洋过海过来的ITIN信封收到了，好吧，以后在美国赚钱要缴税了😂 不过也确实会有一些便利，可以看我之前的这个帖子～",
+      "IRS漂洋过海过来的ITIN信封收到了，好吧，以后在美国赚钱要缴税了😂 不过也确实会有一些便利，可以看我之前的这个帖子～ 鱼总聊AI (@AI_Jasonyu) 卧槽，没想到我的ITIN（美国个人税号）这么快就能下来。 等X Money出来，我应该可以第一时间申请了😄😄。 我是1.30号下单的，2.4号邮寄材料到美国，今天3.12就收到了，总共40天时间。 关于ITIN能干啥，我就简单点说： 1、申请部分信用卡：Amex、BoA、汇丰、华美银行等信用卡 2、海外平台开店：TK、eBay、Amazon... 3、美股账户投资，可以降低股息税收，30%~10% 4、申请退税 5、在海外工作拿工资报税 后续还是写个文章专门介绍下吧~~我去申卡了 — https://nitter.net/AI_Jasonyu/status/2031945348894376232#m",
+      "30%",
+      "10%",
+      "Amex",
+      "BoA",
+      "TK",
+      "Amazon",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

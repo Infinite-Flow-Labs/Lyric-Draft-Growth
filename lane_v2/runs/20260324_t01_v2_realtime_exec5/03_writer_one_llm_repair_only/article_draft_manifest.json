@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-24T09:29:12Z",
+  "backend": "codex_cli",
+  "writer_packet_root": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/02_t01_topic_engine/06_writer_packets/writer_packet_manifest.json",
+  "out_root": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec5/03_writer_one_llm_repair_only",
+  "output_language": "zh-CN",
+  "count": 1,
+  "ok_count": 0,
+  "schema_error_count": 0,
+  "blocked_humanizer_gate_count": 1,
+  "skipped_human_review_count": 0,
+  "skipped_not_ready_count": 0,
+  "results": [
+    {
+      "topic_id": "topic-x-openaidevs-e8a59b948d3c",
+      "status": "blocked_humanizer_gate",
+      "framework_id": "02_launch_application",
+      "submode_id": "release_showcase",
+      "framework_spec_ref": "/home/lyric/growth-engine-pipeline/framework/02_launch_application/FRAMEWORK_SPEC.json",
+      "output_json": "",
+      "output_md": "",
+      "validation_error": "contains_pattern_not_but",
+      "source_load_errors": [],
+      "humanizer_smell_report": {
+        "not_but": 1,
+        "not_only_but_also": 0,
+        "formula_sequence": 0,
+        "connector_density": 1,
+        "promo_lexicon": 0,
+        "vague_attribution": 0,
+        "emoji_count": 0,
+        "em_dash_count": 0,
+        "bold_span_count": 0
+      }
+    }
+  ]
+}

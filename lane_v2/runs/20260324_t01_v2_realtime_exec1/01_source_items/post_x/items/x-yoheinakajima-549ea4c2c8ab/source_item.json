@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-yoheinakajima-549ea4c2c8ab",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/yoheinakajima/status/2035058492881740249",
+  "author": {
+    "handle": "@yoheinakajima",
+    "display_name": "yoheinakajima",
+    "account_url": "https://x.com/yoheinakajima"
+  },
+  "title": "while I agree with his general thinking about how we’ll rethink home design, seems optimistic to think that a meaningful percentage of homes would be redesigned in a 5-10 yr period",
+  "language": "unknown",
+  "published_at": "2026-03-20T18:18:48Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/yoheinakajima/status/2035058492881740249",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/yoheinakajima/status/2035058492881740249#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "while I agree with his general thinking about how we’ll rethink home design, seems optimistic to think that a meaningful percentage of homes would be redesigned in a 5-10 yr period TBPN (@tbpn) . @mcuban says humanoid robots won't last more than 5-10 years. Instead, we'll \"design the house to fit the robot, and design the robot to fit the house.\" \"You could create a house where the pantry, the refrigerator, and the washing machines were hidden behind the garage, if you even have a garage. That way you could redesign the house so that all the living space was for people.\" Video — https://nitter.net/tbpn/status/2034741081108258895#m",
+    "full_text": "Post title: while I agree with his general thinking about how we’ll rethink home design, seems optimistic to think that a meaningful percentage of homes would be redesigned in a 5-10 yr period\n\nPost summary: while I agree with his general thinking about how we’ll rethink home design, seems optimistic to think that a meaningful percentage of homes would be redesigned in a 5-10 yr period TBPN (@tbpn) . @mcuban says humanoid robots won't last more than 5-10 years. Instead, we'll \"design the house to fit the robot, and design the robot to fit the house.\" \"You could create a house where the pantry, the refrigerator, and the washing machines were hidden behind the garage, if you even have a garage. That way you could redesign the house so that all the living space was for people.\" Video — https://nitter.net/tbpn/status/2034741081108258895#m\n\nCanonical URL: https://x.com/yoheinakajima/status/2035058492881740249",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "TBPN",
+      "Instead",
+      "You",
+      "That",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "while I agree with his general thinking about how we’ll rethink home design, seems optimistic to think that a meaningful percentage of homes would be redesigned in a 5-10 yr period",
+      "while I agree with his general thinking about how we’ll rethink home design, seems optimistic to think that a meaningful percentage of homes would be redesigned in a 5-10 yr period TBPN (@tbpn) . @mcuban says humanoid robots won't last more than 5-10 years. Instead, we'll \"design the house to fit the robot, and design the robot to fit the house.\" \"You could create a house where the pantry, the refrigerator, and the washing machines were hidden behind the garage, if you even have a garage. That way you could redesign the house so that all the living space was for people.\" Video — https://nitter.net/tbpn/status/2034741081108258895#m",
+      "TBPN",
+      "Instead",
+      "You",
+      "That",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

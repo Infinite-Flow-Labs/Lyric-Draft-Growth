@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alphasignalai-0447d2ade666",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlphaSignalAI/status/2034751488308723866",
+  "author": {
+    "handle": "@AlphaSignalAI",
+    "display_name": "AlphaSignalAI",
+    "account_url": "https://x.com/AlphaSignalAI"
+  },
+  "title": "Math just got a compiler. Math, Inc. open-sourced OpenGauss, an AI agent that translates human math into machine-verifiable Lean proofs. → Beats rival agents with no time limit, using only 4 hours → Formalized the Strong Prime Number Theorem in 3 weeks vs. 18+ months for human experts → Runs many subagents in parallel Think of it like a compiler for mathematical truth: you write the idea, it generates code a machine can verify is correct. Math proofs that took top experts years can now be verified automatically, making formally verified AI training data finally scalable. https://github.com/math-inc/OpenGauss",
+  "language": "unknown",
+  "published_at": "2026-03-19T21:58:53Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlphaSignalAI/status/2034751488308723866",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlphaSignalAI/status/2034751488308723866#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Math just got a compiler. Math, Inc. open-sourced OpenGauss, an AI agent that translates human math into machine-verifiable Lean proofs. → Beats rival agents with no time limit, using only 4 hours → Formalized the Strong Prime Number Theorem in 3 weeks vs. 18+ months for human experts → Runs many subagents in parallel Think of it like a compiler for mathematical truth: you write the idea, it generates code a machine can verify is correct. Math proofs that took top experts years can now be verified automatically, making formally verified AI training data finally scalable. github.com/math-inc/OpenGaus…",
+    "full_text": "Post title: Math just got a compiler. Math, Inc. open-sourced OpenGauss, an AI agent that translates human math into machine-verifiable Lean proofs. → Beats rival agents with no time limit, using only 4 hours → Formalized the Strong Prime Number Theorem in 3 weeks vs. 18+ months for human experts → Runs many subagents in parallel Think of it like a compiler for mathematical truth: you write the idea, it generates code a machine can verify is correct. Math proofs that took top experts years can now be verified automatically, making formally verified AI training data finally scalable. https://github.com/math-inc/OpenGauss\n\nPost summary: Math just got a compiler. Math, Inc. open-sourced OpenGauss, an AI agent that translates human math into machine-verifiable Lean proofs. → Beats rival agents with no time limit, using only 4 hours → Formalized the Strong Prime Number Theorem in 3 weeks vs. 18+ months for human experts → Runs many subagents in parallel Think of it like a compiler for mathematical truth: you write the idea, it generates code a machine can verify is correct. Math proofs that took top experts years can now be verified automatically, making formally verified AI training data finally scalable. github.com/math-inc/OpenGaus…\n\nCanonical URL: https://x.com/AlphaSignalAI/status/2034751488308723866",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Math",
+      "Inc",
+      "OpenGauss",
+      "AI",
+      "Lean",
+      "Beats",
+      "Formalized",
+      "Strong Prime Number Theorem",
+      "Runs",
+      "Think",
+      "OpenGauss Math",
+      "OpenGaus",
+      "Post",
+      "OpenGauss Post",
+      "Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "task_hints": [
+      "comparison"
+    ],
+    "fact_anchors": [
+      "Math just got a compiler. Math, Inc. open-sourced OpenGauss, an AI agent that translates human math into machine-verifiable Lean proofs. → Beats rival agents with no time limit, using only 4 hours → Formalized the Strong Prime Number Theorem in 3 weeks vs. 18+ months for human experts → Runs many subagents in parallel Think of it like a compiler for mathematical truth: you write the idea, it generates code a machine can verify is correct. Math proofs that took top experts years can now be verified automatically, making formally verified AI training data finally scalable. https://github.com/math-inc/OpenGauss",
+      "Math just got a compiler. Math, Inc. open-sourced OpenGauss, an AI agent that translates human math into machine-verifiable Lean proofs. → Beats rival agents with no time limit, using only 4 hours → Formalized the Strong Prime Number Theorem in 3 weeks vs. 18+ months for human experts → Runs many subagents in parallel Think of it like a compiler for mathematical truth: you write the idea, it generates code a machine can verify is correct. Math proofs that took top experts years can now be verified automatically, making formally verified AI training data finally scalable. github.com/math-inc/OpenGaus…",
+      "Math",
+      "Inc",
+      "OpenGauss",
+      "AI",
+      "Lean",
+      "Beats",
+      "Formalized",
+      "Strong Prime Number Theorem",
+      "Runs",
+      "Think",
+      "OpenGauss Math",
+      "OpenGaus",
+      "Post",
+      "OpenGauss Post",
+      "Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

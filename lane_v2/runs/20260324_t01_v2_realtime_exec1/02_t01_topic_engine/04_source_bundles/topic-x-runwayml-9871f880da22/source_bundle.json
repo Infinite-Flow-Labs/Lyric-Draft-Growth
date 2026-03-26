@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-runwayml-9871f880da22",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-runwayml-9871f880da22",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2034631899910418466",
+      "title": "Join us in New York on April 2 for a Runway Characters Hackathon. In this workshop you'll learn how to create your own custom real-time video agents and bring them directly into your apps, websites, products and experiences. Register now at the link below.",
+      "published_at": "2026-03-19T14:03:41Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-runwayml-9871f880da22/source_item.json"
+    },
+    {
+      "signal_id": "x-openaidevs-8726a9caa918",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2034600898912272501",
+      "title": "Codex is coming to India 🇮🇳 Join events led by Codex ambassadors to: Get hands-on with Codex Meet developers building with Codex Ship projects at hackathons",
+      "published_at": "2026-03-19T12:00:30Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openaidevs-8726a9caa918/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-icreatelife-f9e4ef06b26a",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/icreatelife/status/2035041867415392402",
+      "title": "Happy Friday from New York! I hope you are creating some great stuff and remember: you are excellent!",
+      "published_at": "2026-03-20T17:12:45Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-icreatelife-f9e4ef06b26a/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Join us in New York on April 2 for a Runway Characters Hackathon. In this workshop you'll learn how to create your own custom real-time video agents and bring them directly into your apps, websites, products and experiences. Register now at the link below.",
+      "source_url": "https://x.com/runwayml/status/2034631899910418466",
+      "signal_id": "x-runwayml-9871f880da22"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "ready_for_writer": false
+}

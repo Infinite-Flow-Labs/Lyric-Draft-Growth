@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-astronaut_1216-b11af13aac46",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Astronaut_1216/status/2035892655809335804",
+  "author": {
+    "handle": "@Astronaut_1216",
+    "display_name": "Astronaut_1216",
+    "account_url": "https://x.com/Astronaut_1216"
+  },
+  "title": "粉丝数不等于变现强度 这个事儿是真实的 所以重点还是评估爆款的能力 还有赛道，商业模式的选择",
+  "language": "unknown",
+  "published_at": "2026-03-23T01:33:28Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Astronaut_1216/status/2035892655809335804",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Astronaut_1216/status/2035892655809335804#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "粉丝数不等于变现强度 这个事儿是真实的 所以重点还是评估爆款的能力 还有赛道，商业模式的选择 不想上班的橙子 (@sichen250639) 赚钱这件事真的不要嫌LOW 就这么2万多的粉丝 俩账号半年给我变现差不多43万左右 而且我是三天打鱼两天晒网 但是抓着一条爆款死薅，流量榨干为止！ 外行看上去这是啥玩意！ 点进主页一看没有一点逼格！ 那我们的目的不就是为了赚钱吗？ — https://nitter.net/sichen250639/status/2035786434213474647#m",
+    "full_text": "Post title: 粉丝数不等于变现强度 这个事儿是真实的 所以重点还是评估爆款的能力 还有赛道，商业模式的选择\n\nPost summary: 粉丝数不等于变现强度 这个事儿是真实的 所以重点还是评估爆款的能力 还有赛道，商业模式的选择 不想上班的橙子 (@sichen250639) 赚钱这件事真的不要嫌LOW 就这么2万多的粉丝 俩账号半年给我变现差不多43万左右 而且我是三天打鱼两天晒网 但是抓着一条爆款死薅，流量榨干为止！ 外行看上去这是啥玩意！ 点进主页一看没有一点逼格！ 那我们的目的不就是为了赚钱吗？ — https://nitter.net/sichen250639/status/2035786434213474647#m\n\nCanonical URL: https://x.com/Astronaut_1216/status/2035892655809335804",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "粉丝数不等于变现强度 这个事儿是真实的 所以重点还是评估爆款的能力 还有赛道，商业模式的选择",
+      "粉丝数不等于变现强度 这个事儿是真实的 所以重点还是评估爆款的能力 还有赛道，商业模式的选择 不想上班的橙子 (@sichen250639) 赚钱这件事真的不要嫌LOW 就这么2万多的粉丝 俩账号半年给我变现差不多43万左右 而且我是三天打鱼两天晒网 但是抓着一条爆款死薅，流量榨干为止！ 外行看上去这是啥玩意！ 点进主页一看没有一点逼格！ 那我们的目的不就是为了赚钱吗？ — https://nitter.net/sichen250639/status/2035786434213474647#m",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

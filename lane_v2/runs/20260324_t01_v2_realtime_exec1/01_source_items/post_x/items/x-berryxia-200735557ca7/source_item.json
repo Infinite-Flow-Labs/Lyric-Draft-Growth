@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-berryxia-200735557ca7",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/berryxia/status/2036219252118790604",
+  "author": {
+    "handle": "@berryxia",
+    "display_name": "berryxia",
+    "account_url": "https://x.com/berryxia"
+  },
+  "title": "Google 家的NotebookLM 迎来重大更新，新增电影级视频概览！ 可自定义的信息图表样式以及修改 AI 生成的幻灯片的功能。",
+  "language": "unknown",
+  "published_at": "2026-03-23T23:11:15Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/berryxia/status/2036219252118790604",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/berryxia/status/2036219252118790604#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Google 家的NotebookLM 迎来重大更新，新增电影级视频概览！ 可自定义的信息图表样式以及修改 AI 生成的幻灯片的功能。 Chrome Unboxed (@chromeunboxed) NotebookLM gets a massive update with Cinematic Video Overviews, customizable infographic styles, and the ability to revise AI-generated slide decks. chromeunboxed.com/notebooklm… — https://nitter.net/chromeunboxed/status/2036207247202619398#m",
+    "full_text": "Post title: Google 家的NotebookLM 迎来重大更新，新增电影级视频概览！ 可自定义的信息图表样式以及修改 AI 生成的幻灯片的功能。\n\nPost summary: Google 家的NotebookLM 迎来重大更新，新增电影级视频概览！ 可自定义的信息图表样式以及修改 AI 生成的幻灯片的功能。 Chrome Unboxed (@chromeunboxed) NotebookLM gets a massive update with Cinematic Video Overviews, customizable infographic styles, and the ability to revise AI-generated slide decks. chromeunboxed.com/notebooklm… — https://nitter.net/chromeunboxed/status/2036207247202619398#m\n\nCanonical URL: https://x.com/berryxia/status/2036219252118790604",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Google",
+      "AI",
+      "Chrome Unboxed",
+      "NotebookLM",
+      "Cinematic Video Overviews",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Google 家的NotebookLM 迎来重大更新，新增电影级视频概览！ 可自定义的信息图表样式以及修改 AI 生成的幻灯片的功能。",
+      "Google 家的NotebookLM 迎来重大更新，新增电影级视频概览！ 可自定义的信息图表样式以及修改 AI 生成的幻灯片的功能。 Chrome Unboxed (@chromeunboxed) NotebookLM gets a massive update with Cinematic Video Overviews, customizable infographic styles, and the ability to revise AI-generated slide decks. chromeunboxed.com/notebooklm… — https://nitter.net/chromeunboxed/status/2036207247202619398#m",
+      "Google",
+      "AI",
+      "Chrome Unboxed",
+      "NotebookLM",
+      "Cinematic Video Overviews",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

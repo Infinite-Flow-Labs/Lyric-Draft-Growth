@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-icreatelife-9793339bb6c7",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/icreatelife/status/2036221057498050656",
+  "author": {
+    "handle": "@icreatelife",
+    "display_name": "icreatelife",
+    "account_url": "https://x.com/icreatelife"
+  },
+  "title": "Let’s help Jerrod get 5 million views 🎉✨ it’s his dream!",
+  "language": "unknown",
+  "published_at": "2026-03-23T23:18:25Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/icreatelife/status/2036221057498050656",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/icreatelife/status/2036221057498050656#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Let’s help Jerrod get 5 million views 🎉✨ it’s his dream! Jerrod Lew (@jerrod_lew) Try the Grok Imagine chibi template! Create your chibi character, then animate with Grok Imagine! This was quite fun to do. Video — https://nitter.net/jerrod_lew/status/2035306574055612792#m",
+    "full_text": "Post title: Let’s help Jerrod get 5 million views 🎉✨ it’s his dream!\n\nPost summary: Let’s help Jerrod get 5 million views 🎉✨ it’s his dream! Jerrod Lew (@jerrod_lew) Try the Grok Imagine chibi template! Create your chibi character, then animate with Grok Imagine! This was quite fun to do. Video — https://nitter.net/jerrod_lew/status/2035306574055612792#m\n\nCanonical URL: https://x.com/icreatelife/status/2036221057498050656",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "5 million"
+    ],
+    "named_entities": [
+      "Let",
+      "Jerrod",
+      "Jerrod Lew",
+      "Try",
+      "Grok Imagine",
+      "Create",
+      "This",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Let’s help Jerrod get 5 million views 🎉✨ it’s his dream!",
+      "Let’s help Jerrod get 5 million views 🎉✨ it’s his dream! Jerrod Lew (@jerrod_lew) Try the Grok Imagine chibi template! Create your chibi character, then animate with Grok Imagine! This was quite fun to do. Video — https://nitter.net/jerrod_lew/status/2035306574055612792#m",
+      "5 million",
+      "Let",
+      "Jerrod",
+      "Jerrod Lew",
+      "Try",
+      "Grok Imagine",
+      "Create",
+      "This",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

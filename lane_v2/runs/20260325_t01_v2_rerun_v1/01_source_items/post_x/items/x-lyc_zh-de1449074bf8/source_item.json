@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lyc_zh-de1449074bf8",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lyc_zh/status/2036398637451034985",
+  "author": {
+    "handle": "@lyc_zh",
+    "display_name": "lyc_zh",
+    "account_url": "https://x.com/lyc_zh"
+  },
+  "title": "书读完就忘。 把它编译成 skill，每次需要的时候直接调用。 知识的形态变了。",
+  "language": "unknown",
+  "published_at": "2026-03-24T11:04:04Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lyc_zh/status/2036398637451034985",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lyc_zh/status/2036398637451034985#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "书读完就忘。 把它编译成 skill，每次需要的时候直接调用。 知识的形态变了。 Sahil Lavingia (@shl) I turned The Minimalist Entrepreneur into 9 Claude Code skills. /find-community — find your people /validate-idea — test before you build /mvp — ship in a weekend /first-customers — sell to 100 people /pricing — charge something /marketing-plan — make fans, not headlines /grow-sustainably — spend less than you make /company-values — define your culture /minimalist-review — gut-check any decision github.com/slavingia/skills — https://nitter.net/shl/status/2036162956761715096#m",
+    "full_text": "Post title: 书读完就忘。 把它编译成 skill，每次需要的时候直接调用。 知识的形态变了。\n\nPost summary: 书读完就忘。 把它编译成 skill，每次需要的时候直接调用。 知识的形态变了。 Sahil Lavingia (@shl) I turned The Minimalist Entrepreneur into 9 Claude Code skills. /find-community — find your people /validate-idea — test before you build /mvp — ship in a weekend /first-customers — sell to 100 people /pricing — charge something /marketing-plan — make fans, not headlines /grow-sustainably — spend less than you make /company-values — define your culture /minimalist-review — gut-check any decision github.com/slavingia/skills — https://nitter.net/shl/status/2036162956761715096#m\n\nCanonical URL: https://x.com/lyc_zh/status/2036398637451034985",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Sahil Lavingia",
+      "The Minimalist Entrepreneur",
+      "Claude Code",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "书读完就忘。 把它编译成 skill，每次需要的时候直接调用。 知识的形态变了。",
+      "书读完就忘。 把它编译成 skill，每次需要的时候直接调用。 知识的形态变了。 Sahil Lavingia (@shl) I turned The Minimalist Entrepreneur into 9 Claude Code skills. /find-community — find your people /validate-idea — test before you build /mvp — ship in a weekend /first-customers — sell to 100 people /pricing — charge something /marketing-plan — make fans, not headlines /grow-sustainably — spend less than you make /company-values — define your culture /minimalist-review — gut-check any decision github.com/slavingia/skills — https://nitter.net/shl/status/2036162956761715096#m",
+      "Sahil Lavingia",
+      "The Minimalist Entrepreneur",
+      "Claude Code",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

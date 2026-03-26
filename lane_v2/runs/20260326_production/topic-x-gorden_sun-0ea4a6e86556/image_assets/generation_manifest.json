@@ -1,0 +1,39 @@
+{
+  "brief_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260326_production/topic-x-gorden_sun-0ea4a6e86556/article_image_brief.json",
+  "engine": "baoyu",
+  "model": "nano-banana-2",
+  "jobs": [
+    {
+      "image_id": "cover_01",
+      "role": "cover",
+      "state": "success",
+      "result_urls": [
+        "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260326_production/topic-x-gorden_sun-0ea4a6e86556/image_assets/cover_01/result_1.png"
+      ]
+    },
+    {
+      "image_id": "inline_01",
+      "role": "inline",
+      "state": "success",
+      "result_urls": [
+        "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260326_production/topic-x-gorden_sun-0ea4a6e86556/image_assets/inline_01/result_1.png"
+      ]
+    },
+    {
+      "image_id": "inline_02",
+      "role": "inline",
+      "state": "success",
+      "result_urls": [
+        "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260326_production/topic-x-gorden_sun-0ea4a6e86556/image_assets/inline_02/result_1.png"
+      ]
+    },
+    {
+      "image_id": "inline_03",
+      "role": "inline",
+      "state": "success",
+      "result_urls": [
+        "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260326_production/topic-x-gorden_sun-0ea4a6e86556/image_assets/inline_03/result_1.png"
+      ]
+    }
+  ]
+}

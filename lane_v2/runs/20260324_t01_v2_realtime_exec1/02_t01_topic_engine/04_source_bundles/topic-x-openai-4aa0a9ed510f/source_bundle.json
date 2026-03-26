@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-openai-4aa0a9ed510f",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-openai-4aa0a9ed510f",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "title": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.",
+      "published_at": "2026-03-23T20:47:55Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openai-4aa0a9ed510f/source_item.json"
+    },
+    {
+      "signal_id": "x-alchainhust-e94aa3fbf89b",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AlchainHust/status/2035223609497853985",
+      "title": "理了下Cursor盗用Kimi K2.5模型这事。 @cursor_ai 发布Composer 2，号称自研编程模型，benchmark图画得漂漂亮亮。 2.5小时后，@fynnso 在API里发现模型ID：kimi-k2p5-rl-0317-s515-fast。 连名字都没改。 老马 @elonmusk 直接回了三个词：Yeah, it's Kimi 2.5。 @Kimi_Moonshot 的人先出来手撕，质问为什么不遵守许可证、为什么没付费，然后帖子删了，最后体面和解。Cursor承认Kimi K2.5是基座，说没标注是\"a miss\"。 这不是第一次了。去年Composer 1就被发现代码里频繁出现中文推理痕迹，Windsurf承认用的智谱GLM，Cognition的SWE-1.5也是GLM-4.6。模式一模一样：拿中国开源模型做基座，微调一层，包装成自研。 但许可证不是重点。重点是：一家正在谈500亿美元估值的公司，没有自己的模型。提供基座的月之暗面估值43亿。12倍。 我是Cursor的早期用户，也确实吃到了红利，承认它让AI编程真正变成普通人可上手的工具。但现在聊AI编程，国内几乎没人聊Cursor了。开发者调查：46%最爱Claude Code，Cursor只有19%。Claude Code 8个月就超越了Cursor两年建立的地位。Codex也已经达到Cursor 60%的使用量。 道理很简单：赛道小的时候，产品公司有先发优势。但当模型公司亲自下场，产品公司就只能让路。@AnthropicAI 有自己的模型，@OpenAI 有自己的模型，Cursor有什么？一个很棒的IDE体验，和一个借来的模型。 不要在模型公司的必经之路上建城堡。",
+      "published_at": "2026-03-21T05:14:55Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items/x-alchainhust-e94aa3fbf89b/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-runwayml-713251b5836e",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2036081560873570742",
+      "title": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+      "published_at": "2026-03-23T14:04:07Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-runwayml-713251b5836e/source_item.json"
+    },
+    {
+      "signal_id": "x-ai_for_success-1e3878c71703",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ai_for_success/status/2036101320042848549",
+      "title": "OpenAI is heavily investing in AGI: Ad Generated Revenue. Wishing them lots of success for the benefit of humanity.",
+      "published_at": "2026-03-23T15:22:38Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-ai_for_success-1e3878c71703/source_item.json"
+    },
+    {
+      "signal_id": "x-chuhaiqu-9a7cd32e83c0",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2035865615563628771",
+      "title": "2026 年设计师独立上线产品的工具链，三个工具够了： ChatGPT -> Figma -> Claude Code 跟 ChatGPT 聊清楚要做什么。分析市场、拆解竞品、梳理用户路径、筛掉不必要的功能，最后把产品描述用大白话写出来，顺带生成一份给 Lovable 用的详细 prompt。 用 Figma 定视觉规则。主要用来定调性，配色、组件样式（按钮、输入框、卡片）、间距、字体、层级关系。同时当作 moodboard 收集参考图，后面直接截图喂给 Lovable。 最后用 Claude Code 把产品开发出来。 把产品描述、上下文文档、Figma 截图一起给它，通过 MCP 直接连数据库、调 API、管状态逻辑。最后推到 Vercel 上去，域名绑好，完事。",
+      "published_at": "2026-03-22T23:46:01Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-chuhaiqu-9a7cd32e83c0/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "It’s now easier to find, reuse, and build on the files you upload and create in ChatGPT. You can quickly reference files in a chat using recent files in the toolbar, ask ChatGPT about something you’ve uploaded, or browse your files in the new Library tab in the web sidebar. Rolling out globally for Plus, Pro, and Business users, and coming soon to users in the EEA, Switzerland, and the UK.",
+      "source_url": "https://x.com/OpenAI/status/2036183180219392103",
+      "signal_id": "x-openai-4aa0a9ed510f"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": true,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "ready_for_writer": false
+}

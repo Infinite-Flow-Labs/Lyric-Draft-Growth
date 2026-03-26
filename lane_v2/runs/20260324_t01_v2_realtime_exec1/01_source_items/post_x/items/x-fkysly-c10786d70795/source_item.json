@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-fkysly-c10786d70795",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/fkysly/status/2035549742554321018",
+  "author": {
+    "handle": "@fkysly",
+    "display_name": "fkysly",
+    "account_url": "https://x.com/fkysly"
+  },
+  "title": "帅的，国内最佳的 OpenClaw 体验还是得在微信",
+  "language": "unknown",
+  "published_at": "2026-03-22T02:50:51Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/fkysly/status/2035549742554321018",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/fkysly/status/2035549742554321018#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "帅的，国内最佳的 OpenClaw 体验还是得在微信",
+    "full_text": "Post title: 帅的，国内最佳的 OpenClaw 体验还是得在微信\n\nPost summary: 帅的，国内最佳的 OpenClaw 体验还是得在微信\n\nCanonical URL: https://x.com/fkysly/status/2035549742554321018",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "OpenClaw",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "帅的，国内最佳的 OpenClaw 体验还是得在微信",
+      "OpenClaw",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-dotey-3615548610ac",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/dotey/status/2036115161937825897",
+  "author": {
+    "handle": "@dotey",
+    "display_name": "dotey",
+    "account_url": "https://x.com/dotey"
+  },
+  "title": "有稀缺性的 SaaS 就是没法用 Vibe Coding 做出来的、又能解决实际问题的",
+  "language": "unknown",
+  "published_at": "2026-03-23T16:17:38Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/dotey/status/2036115161937825897",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/dotey/status/2036115161937825897#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "有稀缺性的 SaaS 就是没法用 Vibe Coding 做出来的、又能解决实际问题的 Frank Wang 玉伯 (@lifesinger) 大量 SaaS 确实已死。但有稀缺性的 SaaS 会摇身一变，活出新风貌。 稀缺性是什么。 只剩下这一个问题。 比如你会发现：Figma 并没有稀缺性。Notion 的稀缺性也很假。连我最喜欢的 Linear，细想也没有稀缺性。 再想想近年的当红明星们，也会惊出一身热汗：Cursor 的稀缺性正在丧失。Perplexity 则貌似已经淡出视野，新出的 Computer 试用后也没啥稀缺性。Lovable 的稀缺性是增长团队。Manus 的稀缺性貌似在从执行力转向用钱采买的数据。 究竟什么才是真正的稀缺性。 茫然。又有点兴奋。 — https://nitter.net/lifesinger/status/2036112031405789214#m",
+    "full_text": "Post title: 有稀缺性的 SaaS 就是没法用 Vibe Coding 做出来的、又能解决实际问题的\n\nPost summary: 有稀缺性的 SaaS 就是没法用 Vibe Coding 做出来的、又能解决实际问题的 Frank Wang 玉伯 (@lifesinger) 大量 SaaS 确实已死。但有稀缺性的 SaaS 会摇身一变，活出新风貌。 稀缺性是什么。 只剩下这一个问题。 比如你会发现：Figma 并没有稀缺性。Notion 的稀缺性也很假。连我最喜欢的 Linear，细想也没有稀缺性。 再想想近年的当红明星们，也会惊出一身热汗：Cursor 的稀缺性正在丧失。Perplexity 则貌似已经淡出视野，新出的 Computer 试用后也没啥稀缺性。Lovable 的稀缺性是增长团队。Manus 的稀缺性貌似在从执行力转向用钱采买的数据。 究竟什么才是真正的稀缺性。 茫然。又有点兴奋。 — https://nitter.net/lifesinger/status/2036112031405789214#m\n\nCanonical URL: https://x.com/dotey/status/2036115161937825897",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "SaaS",
+      "Vibe Coding",
+      "Frank Wang",
+      "Figma",
+      "Notion",
+      "Linear",
+      "Cursor",
+      "Perplexity",
+      "Computer",
+      "Lovable",
+      "Manus",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "有稀缺性的 SaaS 就是没法用 Vibe Coding 做出来的、又能解决实际问题的",
+      "有稀缺性的 SaaS 就是没法用 Vibe Coding 做出来的、又能解决实际问题的 Frank Wang 玉伯 (@lifesinger) 大量 SaaS 确实已死。但有稀缺性的 SaaS 会摇身一变，活出新风貌。 稀缺性是什么。 只剩下这一个问题。 比如你会发现：Figma 并没有稀缺性。Notion 的稀缺性也很假。连我最喜欢的 Linear，细想也没有稀缺性。 再想想近年的当红明星们，也会惊出一身热汗：Cursor 的稀缺性正在丧失。Perplexity 则貌似已经淡出视野，新出的 Computer 试用后也没啥稀缺性。Lovable 的稀缺性是增长团队。Manus 的稀缺性貌似在从执行力转向用钱采买的数据。 究竟什么才是真正的稀缺性。 茫然。又有点兴奋。 — https://nitter.net/lifesinger/status/2036112031405789214#m",
+      "SaaS",
+      "Vibe Coding",
+      "Frank Wang",
+      "Figma",
+      "Notion",
+      "Linear",
+      "Cursor",
+      "Perplexity",
+      "Computer",
+      "Lovable",
+      "Manus",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

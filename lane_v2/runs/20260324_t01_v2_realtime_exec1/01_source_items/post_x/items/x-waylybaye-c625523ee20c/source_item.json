@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-waylybaye-c625523ee20c",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/waylybaye/status/2034530242321404076",
+  "author": {
+    "handle": "@waylybaye",
+    "display_name": "waylybaye",
+    "account_url": "https://x.com/waylybaye"
+  },
+  "title": "啊，原来我是励志博主啊 🤣",
+  "language": "unknown",
+  "published_at": "2026-03-19T07:19:44Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/waylybaye/status/2034530242321404076",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/waylybaye/status/2034530242321404076#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "啊，原来我是励志博主啊 🤣 Luke Softpaw (@lukeli) Baye 你好，刚刚Gork告诉我，你是最值得关注的中文博主第4名，前来关注。 — https://nitter.net/lukeli/status/2034222943631548871#m",
+    "full_text": "Post title: 啊，原来我是励志博主啊 🤣\n\nPost summary: 啊，原来我是励志博主啊 🤣 Luke Softpaw (@lukeli) Baye 你好，刚刚Gork告诉我，你是最值得关注的中文博主第4名，前来关注。 — https://nitter.net/lukeli/status/2034222943631548871#m\n\nCanonical URL: https://x.com/waylybaye/status/2034530242321404076",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Luke Softpaw",
+      "Baye",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "啊，原来我是励志博主啊 🤣",
+      "啊，原来我是励志博主啊 🤣 Luke Softpaw (@lukeli) Baye 你好，刚刚Gork告诉我，你是最值得关注的中文博主第4名，前来关注。 — https://nitter.net/lukeli/status/2034222943631548871#m",
+      "Luke Softpaw",
+      "Baye",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

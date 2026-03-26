@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-iscienceluvr-bb4e8d694347",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/iScienceLuvr/status/2034681825264799810",
+  "author": {
+    "handle": "@iScienceLuvr",
+    "display_name": "iScienceLuvr",
+    "account_url": "https://x.com/iScienceLuvr"
+  },
+  "title": "It was great meeting lots of folks at yesterday's OSS AI party!",
+  "language": "unknown",
+  "published_at": "2026-03-19T17:22:04Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/iScienceLuvr/status/2034681825264799810",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/iScienceLuvr/status/2034681825264799810#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "It was great meeting lots of folks at yesterday's OSS AI party! Abhijith Neil Abraham (@abhijithneil) Met @iScienceLuvr at Oss @ GTC! — https://nitter.net/abhijithneil/status/2034666658858705056#m",
+    "full_text": "Post title: It was great meeting lots of folks at yesterday's OSS AI party!\n\nPost summary: It was great meeting lots of folks at yesterday's OSS AI party! Abhijith Neil Abraham (@abhijithneil) Met @iScienceLuvr at Oss @ GTC! — https://nitter.net/abhijithneil/status/2034666658858705056#m\n\nCanonical URL: https://x.com/iScienceLuvr/status/2034681825264799810",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "It",
+      "OSS AI",
+      "Abhijith Neil Abraham",
+      "Met",
+      "Oss",
+      "GTC",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "It was great meeting lots of folks at yesterday's OSS AI party!",
+      "It was great meeting lots of folks at yesterday's OSS AI party! Abhijith Neil Abraham (@abhijithneil) Met @iScienceLuvr at Oss @ GTC! — https://nitter.net/abhijithneil/status/2034666658858705056#m",
+      "It",
+      "OSS AI",
+      "Abhijith Neil Abraham",
+      "Met",
+      "Oss",
+      "GTC",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

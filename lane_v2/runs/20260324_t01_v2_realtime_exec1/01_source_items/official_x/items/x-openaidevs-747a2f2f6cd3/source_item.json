@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-openaidevs-747a2f2f6cd3",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/OpenAIDevs/status/2035437297005727963",
+  "author": {
+    "handle": "@OpenAIDevs",
+    "display_name": "OpenAI Developers",
+    "account_url": "https://x.com/OpenAIDevs"
+  },
+  "title": "Pinned: Agent workflows got even faster. You can spin up containers for skills, shell and code interpreter about 10x faster. We added a container pool to the Responses API, so requests can reuse warm infrastructure instead of creating a full container creation each session. https://developers.openai.com/api/docs/guides/tools-shell#hosted-shell-quickstart",
+  "language": "unknown",
+  "published_at": "2026-03-21T19:24:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/OpenAIDevs/status/2035437297005727963",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/OpenAIDevs/status/2035437297005727963#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Agent workflows got even faster. You can spin up containers for skills, shell and code interpreter about 10x faster. We added a container pool to the Responses API, so requests can reuse warm infrastructure instead of creating a full container creation each session. developers.openai.com/api/do…",
+    "full_text": "Post title: Pinned: Agent workflows got even faster. You can spin up containers for skills, shell and code interpreter about 10x faster. We added a container pool to the Responses API, so requests can reuse warm infrastructure instead of creating a full container creation each session. https://developers.openai.com/api/docs/guides/tools-shell#hosted-shell-quickstart\n\nPost summary: Agent workflows got even faster. You can spin up containers for skills, shell and code interpreter about 10x faster. We added a container pool to the Responses API, so requests can reuse warm infrastructure instead of creating a full container creation each session. developers.openai.com/api/do…\n\nCanonical URL: https://x.com/OpenAIDevs/status/2035437297005727963",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": "linked_context_failed:https://developers.openai.com/api/docs/guides/tools-shell#hosted-shell-quickstart (URLError)"
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Agent",
+      "You",
+      "We",
+      "Responses API",
+      "Post",
+      "Canonical URL",
+      "OpenAIDevs"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Pinned: Agent workflows got even faster. You can spin up containers for skills, shell and code interpreter about 10x faster. We added a container pool to the Responses API, so requests can reuse warm infrastructure instead of creating a full container creation each session. https://developers.openai.com/api/docs/guides/tools-shell#hosted-shell-quickstart",
+      "Agent workflows got even faster. You can spin up containers for skills, shell and code interpreter about 10x faster. We added a container pool to the Responses API, so requests can reuse warm infrastructure instead of creating a full container creation each session. developers.openai.com/api/do…",
+      "Agent",
+      "You",
+      "We",
+      "Responses API",
+      "Post",
+      "Canonical URL",
+      "OpenAIDevs"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

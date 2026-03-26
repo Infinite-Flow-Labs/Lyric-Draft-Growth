@@ -1,0 +1,18 @@
+# Source Item x-indie_maker_fox-73021ba37e83
+
+- Platform: x
+- Source Kind: x_thread
+- Canonical URL: https://x.com/indie_maker_fox/status/2035193612087202250
+- Author: indie_maker_fox
+- Published At: 2026-03-21T03:15:43Z
+
+## Signals
+- Release Signals: 
+- Task Hints: 
+- Fact Anchors: 18
+
+## Content Preview
+
+Post title: cursor危矣，下个月年会员就到期了，我不会续费了，用不下去了。 kimi加油，坐等上市！
+
+Post summary: cursor危矣，下个月年会员就到期了，我不会续费了，用不下去了。 kimi加油，坐等上市！ 宝玉 (@dotey) Cursor 上线 Composer 2 不到 24 小时，就被开发者扒出了底裤。 （以下内容 Claude 辅助生成） 一个叫 Fynn 的开发者在调试 Cursor 的 API 时，发现返回的模型 ID 赫然写着：kimi-k2p5-rl-0317-s515-fast。翻译成人话：这就是月之暗面（Moonshot AI）的 Kimi K2.5，加了一层强化学习（RL）微调。 Moonshot AI 预训练负责人 Yulun Du 随即在 X 上发帖确认，经测试 Composer 2 的 tokenizer 和 Kimi 的完全一致，并直接 @ 了 Cursor 联合创始人 Michael Truell，质问为什么不遵守许可证、也没有支付任何费用。另外两名 Moonshot 员工也发帖证实，不过三条帖子后来都被删除了。 而 Cursor 在 3 月 19 日发布 Composer 2 时，只提到性能提升来自"对基座模型的持续预训练加强化学习"，全程没有提到 Kimi K2.5。这两件事并不矛盾，持续预训练和 RL 本来就是在某个基座模型上做的，Cursor 只是没说基座是谁的。 这不是第一次了 去年 10 月 Cursor 发布 Composer 1 时，多国开发者发现生成的代码中频繁出现中文。Alley Corp 合伙人 Kenneth Auchenberg 当时贴出截图，直言这是"铁证"，认为 Composer 1 就是基于中国开源模型微调的。KR-Asia 和 36Kr 后来证实，Cursor 和 Windsurf 都在使用中国开源模型，其中 Windsurf 承认用的是智谱的 GLM。Cursor 从来没有公开披露 Composer 1 的底层模型，后来悄悄发了 Composer 1.5 就翻篇了。 许可证才是核心问题 Kimi K2.5 使用的是修改版 MIT 许可证，里面有一条专门为这种场景设计的条款：如果使用该模型（包括衍生作品）的商业产品月活超过 1 亿或月收入超过 2000 万美元，必须在产品界面上醒目展示"Kimi K2.5"字样。 Cursor 今年 2 月的年化收入已经突破 20 亿美元，换算成月收入大约 1.67 亿美元，是许可证门槛的 8 倍多。但 Cursor 的界面上只写着"Composer 2"，没有任何 Kimi 的标识。 与此同时，Cursor 正在跟投资人谈一轮新融资，估值目标约 500 亿美元，相比去年 11 月的 293 亿美元估值几乎翻倍。而 Moonshot AI 上一轮估值据报道约 43 亿美元。一个估值是对方 12 倍的公司，拿了对方的模型包装成自研技术，用来支撑"前沿实验室"的叙事去融资。 截至目前，Cursor 没有做出任何公开回应。 这件事的后续走向，对整个开源 AI 生态有标杆意义。如果 Moonshot 不对一家年收入 20 亿美元的公司执行许可证，那以后所有开源模型的署名条款就成了摆设。每家 AI 实验室都会算同一笔账：为什么要开源自己的模型，让分发能力更强的公司去掉署名、包装成自研、然后以 12 倍于你的估值去融资？ — https://nitter.net/dotey/status/20350178458016894

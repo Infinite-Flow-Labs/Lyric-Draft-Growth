@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-yoheinakajima-edf4c6f632ca",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/yoheinakajima/status/2036136524358754658",
+  "author": {
+    "handle": "@yoheinakajima",
+    "display_name": "yoheinakajima",
+    "account_url": "https://x.com/yoheinakajima"
+  },
+  "title": "three layers of security for agents: machine isolation, capabilities limitation, and runtime validation",
+  "language": "unknown",
+  "published_at": "2026-03-23T17:42:31Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/yoheinakajima/status/2036136524358754658",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/yoheinakajima/status/2036136524358754658#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "three layers of security for agents: machine isolation, capabilities limitation, and runtime validation Pietro Valfrè (@p_valfre) x.com/i/article/203581272974… — https://nitter.net/p_valfre/status/2036129180471943679#m",
+    "full_text": "Post title: three layers of security for agents: machine isolation, capabilities limitation, and runtime validation\n\nPost summary: three layers of security for agents: machine isolation, capabilities limitation, and runtime validation Pietro Valfrè (@p_valfre) x.com/i/article/203581272974… — https://nitter.net/p_valfre/status/2036129180471943679#m\n\nCanonical URL: https://x.com/yoheinakajima/status/2036136524358754658",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Pietro",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "three layers of security for agents: machine isolation, capabilities limitation, and runtime validation",
+      "three layers of security for agents: machine isolation, capabilities limitation, and runtime validation Pietro Valfrè (@p_valfre) x.com/i/article/203581272974… — https://nitter.net/p_valfre/status/2036129180471943679#m",
+      "Pietro",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

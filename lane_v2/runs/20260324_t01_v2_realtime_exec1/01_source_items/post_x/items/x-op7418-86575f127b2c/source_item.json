@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-op7418-86575f127b2c",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/op7418/status/2035165486628184468",
+  "author": {
+    "handle": "@op7418",
+    "display_name": "op7418",
+    "account_url": "https://x.com/op7418"
+  },
+  "title": "真离谱啊，Cursor 昨天发布的 Composer-2 居然是基于 K2.5 训练的 他们的博客写得感觉像是他们训练从零的一样 而且到底基于 K2.5 做了多少程度的训练，其实也没有说清楚。 不过 Kimi 也解释说，他们给了技术授权。",
+  "language": "unknown",
+  "published_at": "2026-03-21T01:23:58Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/op7418/status/2035165486628184468",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/op7418/status/2035165486628184468#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "真离谱啊，Cursor 昨天发布的 Composer-2 居然是基于 K2.5 训练的 他们的博客写得感觉像是他们训练从零的一样 而且到底基于 K2.5 做了多少程度的训练，其实也没有说清楚。 不过 Kimi 也解释说，他们给了技术授权。 Kimi.ai (@Kimi_Moonshot) Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining & high-compute RL training is the open model ecosystem we love to support. Note: Cursor accesses Kimi-k2.5 via @FireworksAI_HQ ' hosted RL and inference platform as part of an authorized commercial partnership. — https://nitter.net/Kimi_Moonshot/status/2035074972943831491#m",
+    "full_text": "Post title: 真离谱啊，Cursor 昨天发布的 Composer-2 居然是基于 K2.5 训练的 他们的博客写得感觉像是他们训练从零的一样 而且到底基于 K2.5 做了多少程度的训练，其实也没有说清楚。 不过 Kimi 也解释说，他们给了技术授权。\n\nPost summary: 真离谱啊，Cursor 昨天发布的 Composer-2 居然是基于 K2.5 训练的 他们的博客写得感觉像是他们训练从零的一样 而且到底基于 K2.5 做了多少程度的训练，其实也没有说清楚。 不过 Kimi 也解释说，他们给了技术授权。 Kimi.ai (@Kimi_Moonshot) Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining & high-compute RL training is the open model ecosystem we love to support. Note: Cursor accesses Kimi-k2.5 via @FireworksAI_HQ ' hosted RL and inference platform as part of an authorized commercial partnership. — https://nitter.net/Kimi_Moonshot/status/2035074972943831491#m\n\nCanonical URL: https://x.com/op7418/status/2035165486628184468",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "launch",
+      "partnership"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Cursor",
+      "Composer",
+      "K2",
+      "Kimi",
+      "Congrats",
+      "We",
+      "Seeing",
+      "RL",
+      "Note",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "真离谱啊，Cursor 昨天发布的 Composer-2 居然是基于 K2.5 训练的 他们的博客写得感觉像是他们训练从零的一样 而且到底基于 K2.5 做了多少程度的训练，其实也没有说清楚。 不过 Kimi 也解释说，他们给了技术授权。",
+      "真离谱啊，Cursor 昨天发布的 Composer-2 居然是基于 K2.5 训练的 他们的博客写得感觉像是他们训练从零的一样 而且到底基于 K2.5 做了多少程度的训练，其实也没有说清楚。 不过 Kimi 也解释说，他们给了技术授权。 Kimi.ai (@Kimi_Moonshot) Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining & high-compute RL training is the open model ecosystem we love to support. Note: Cursor accesses Kimi-k2.5 via @FireworksAI_HQ ' hosted RL and inference platform as part of an authorized commercial partnership. — https://nitter.net/Kimi_Moonshot/status/2035074972943831491#m",
+      "launch",
+      "partnership",
+      "Cursor",
+      "Composer",
+      "K2",
+      "Kimi",
+      "Congrats",
+      "We",
+      "Seeing",
+      "RL",
+      "Note",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

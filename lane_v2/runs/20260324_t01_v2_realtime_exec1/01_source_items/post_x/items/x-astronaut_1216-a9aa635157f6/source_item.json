@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-astronaut_1216-a9aa635157f6",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Astronaut_1216/status/2035269015338209689",
+  "author": {
+    "handle": "@Astronaut_1216",
+    "display_name": "Astronaut_1216",
+    "account_url": "https://x.com/Astronaut_1216"
+  },
+  "title": "一个很神奇的情况 就是你发现如果一个人在某一个领域特别牛逼，那无庸置疑他在其他领域多半也会是中上等的层次 因为他的牛逼是在于他的思维方式牛逼 所以说一个做电商牛的人 他做自媒体也牛...",
+  "language": "unknown",
+  "published_at": "2026-03-21T08:15:21Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Astronaut_1216/status/2035269015338209689",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Astronaut_1216/status/2035269015338209689#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "一个很神奇的情况 就是你发现如果一个人在某一个领域特别牛逼，那无庸置疑他在其他领域多半也会是中上等的层次 因为他的牛逼是在于他的思维方式牛逼 所以说一个做电商牛的人 他做自媒体也牛...",
+    "full_text": "Post title: 一个很神奇的情况 就是你发现如果一个人在某一个领域特别牛逼，那无庸置疑他在其他领域多半也会是中上等的层次 因为他的牛逼是在于他的思维方式牛逼 所以说一个做电商牛的人 他做自媒体也牛...\n\nPost summary: 一个很神奇的情况 就是你发现如果一个人在某一个领域特别牛逼，那无庸置疑他在其他领域多半也会是中上等的层次 因为他的牛逼是在于他的思维方式牛逼 所以说一个做电商牛的人 他做自媒体也牛...\n\nCanonical URL: https://x.com/Astronaut_1216/status/2035269015338209689",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "一个很神奇的情况 就是你发现如果一个人在某一个领域特别牛逼，那无庸置疑他在其他领域多半也会是中上等的层次 因为他的牛逼是在于他的思维方式牛逼 所以说一个做电商牛的人 他做自媒体也牛...",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

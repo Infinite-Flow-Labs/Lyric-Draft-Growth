@@ -1,0 +1,325 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-24T07:40:33Z",
+  "count": 53,
+  "topics": [
+    {
+      "topic_id": "topic-x-alchainhust-e94aa3fbf89b",
+      "topic_priority": 89.3,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-alchainhust-e94aa3fbf89b/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-hitw93-073a7edd337d",
+      "topic_priority": 89.28,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-hitw93-073a7edd337d/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-runwayml-713251b5836e",
+      "topic_priority": 88.43,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-runwayml-713251b5836e/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-op7418-b9e09e039182",
+      "topic_priority": 88.19,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-op7418-b9e09e039182/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-openai-4aa0a9ed510f",
+      "topic_priority": 83.57,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-openai-4aa0a9ed510f/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-1049589fe779",
+      "topic_priority": 76.46,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-chuhaiqu-1049589fe779/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-xai-396f2e6ec2e8",
+      "topic_priority": 76.09,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-xai-396f2e6ec2e8/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-060e600af536",
+      "topic_priority": 73.16,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-chuhaiqu-060e600af536/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-berryxia-c07411c79b38",
+      "topic_priority": 72.73,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-berryxia-c07411c79b38/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-perplexity_ai-fae567cc03de",
+      "topic_priority": 71.31,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-perplexity_ai-fae567cc03de/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-openaidevs-747a2f2f6cd3",
+      "topic_priority": 70.1,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-openaidevs-747a2f2f6cd3/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-hitw93-e96823e59e8f",
+      "topic_priority": 67.05,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-hitw93-e96823e59e8f/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-openaidevs-8726a9caa918",
+      "topic_priority": 67.05,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-openaidevs-8726a9caa918/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-openaidevs-e8a59b948d3c",
+      "topic_priority": 67.05,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-openaidevs-e8a59b948d3c/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-openaidevs-b34f34f931e7",
+      "topic_priority": 66.42,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-openaidevs-b34f34f931e7/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-gorden_sun-0ea4a6e86556",
+      "topic_priority": 62.03,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-gorden_sun-0ea4a6e86556/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-googledeepmind-2ac914f175fb",
+      "topic_priority": 59.07,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-googledeepmind-2ac914f175fb/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-perplexity_ai-e2809892562a",
+      "topic_priority": 55.15,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-perplexity_ai-e2809892562a/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-ai_jasonyu-236df61fae62",
+      "topic_priority": 54.87,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-ai_jasonyu-236df61fae62/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-anthropicai-ae4cd058b090",
+      "topic_priority": 54.28,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-anthropicai-ae4cd058b090/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-cohere-7f4e2431ab75",
+      "topic_priority": 54.06,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-cohere-7f4e2431ab75/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-chuhaiqu-8af70a470ec5",
+      "topic_priority": 53.82,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-chuhaiqu-8af70a470ec5/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-danshipper-f44fc13fe3f3",
+      "topic_priority": 51.19,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-danshipper-f44fc13fe3f3/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-runwayml-9871f880da22",
+      "topic_priority": 49.14,
+      "eligible_for_write": true,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-runwayml-9871f880da22/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-yoheinakajima-edf4c6f632ca",
+      "topic_priority": 46.72,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-yoheinakajima-edf4c6f632ca/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-vista8-da523696e157",
+      "topic_priority": 45.91,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-vista8-da523696e157/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-lxfater-fcdbe01cbc1b",
+      "topic_priority": 45.44,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-lxfater-fcdbe01cbc1b/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-ai_jasonyu-aa3c0e3370d8",
+      "topic_priority": 40.37,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-ai_jasonyu-aa3c0e3370d8/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-anthropicai-7216d6565697",
+      "topic_priority": 39.87,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-anthropicai-7216d6565697/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-mistralai-7e47f9cf94f3",
+      "topic_priority": 39.87,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-mistralai-7e47f9cf94f3/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-runwayml-c735f8b3479d",
+      "topic_priority": 39.03,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-runwayml-c735f8b3479d/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-runwayml-0a7031607ba1",
+      "topic_priority": 38.47,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-runwayml-0a7031607ba1/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-openai-8f6ed0f162e6",
+      "topic_priority": 37.91,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-openai-8f6ed0f162e6/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-elevenlabs-60024ac9dceb",
+      "topic_priority": 37.63,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-elevenlabs-60024ac9dceb/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-dotey-89046084a6fa",
+      "topic_priority": 37.15,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-dotey-89046084a6fa/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-perplexity_ai-f89a10327e81",
+      "topic_priority": 37.07,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-perplexity_ai-f89a10327e81/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-cohere-b6b7af400c7f",
+      "topic_priority": 35.26,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-cohere-b6b7af400c7f/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-runwayml-9264ac30ebd9",
+      "topic_priority": 34.98,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-runwayml-9264ac30ebd9/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-runwayml-b1d0ffbc8ad0",
+      "topic_priority": 34.14,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-runwayml-b1d0ffbc8ad0/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-anthropicai-b79579a40386",
+      "topic_priority": 33.58,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-anthropicai-b79579a40386/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-iscienceluvr-a7a6fda0ba46",
+      "topic_priority": 33.3,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-iscienceluvr-a7a6fda0ba46/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-lyc_zh-2ffb7cd354b3",
+      "topic_priority": 33.3,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-lyc_zh-2ffb7cd354b3/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-hitw93-e9d0c7cfc248",
+      "topic_priority": 33.3,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-hitw93-e9d0c7cfc248/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-hitw93-7f81d45022ab",
+      "topic_priority": 33.3,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-hitw93-7f81d45022ab/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-openaidevs-1921ec9814d2",
+      "topic_priority": 32.74,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-openaidevs-1921ec9814d2/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-cydiar404-05407e0f48e8",
+      "topic_priority": 32.74,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-cydiar404-05407e0f48e8/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-openai-af7edec328da",
+      "topic_priority": 32.46,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-openai-af7edec328da/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-steventey-a073c14aed9a",
+      "topic_priority": 32.46,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-steventey-a073c14aed9a/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-gefei55-2f75eb47a3b9",
+      "topic_priority": 32.46,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-gefei55-2f75eb47a3b9/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-lxfater-f4506a45e139",
+      "topic_priority": 32.03,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-lxfater-f4506a45e139/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-xai-1ef5cb4889bf",
+      "topic_priority": 31.9,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-xai-1ef5cb4889bf/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-guishou_56-03dd499bca85",
+      "topic_priority": 31.9,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-guishou_56-03dd499bca85/topic_card.json"
+    },
+    {
+      "topic_id": "topic-x-astronaut_1216-ccae1ebf6d84",
+      "topic_priority": 31.62,
+      "eligible_for_write": false,
+      "topic_card_json": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/02_t01_topic_engine/02_topic_cards/topic-x-astronaut_1216-ccae1ebf6d84/topic_card.json"
+    }
+  ]
+}

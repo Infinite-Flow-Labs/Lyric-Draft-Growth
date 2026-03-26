@@ -1,0 +1,105 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-xai-396f2e6ec2e8",
+  "lane_id": "T07_contrarian_take",
+  "framework_id": "07_contrarian_take",
+  "submode_id": "category_reframe",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-xai-396f2e6ec2e8",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/xai/status/2035562571932024842",
+      "title": "Pinned: In order to understand the universe, you must explore the universe → http://x.ai/careers",
+      "published_at": "2026-03-22T03:41:50Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-xai-396f2e6ec2e8/source_item.json"
+    },
+    {
+      "signal_id": "x-openaidevs-e8a59b948d3c",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2035033703274201109",
+      "title": "Meet Codex for Students. We're offering college students in the U.S. and Canada $100 in Codex credits. Our goal is to support students to learn by building, breaking, and fixing things. http://chatgpt.com/codex/students",
+      "published_at": "2026-03-20T16:40:18Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-openaidevs-e8a59b948d3c/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-runwayml-713251b5836e",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/runwayml/status/2036081560873570742",
+      "title": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+      "published_at": "2026-03-23T14:04:07Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-runwayml-713251b5836e/source_item.json"
+    },
+    {
+      "signal_id": "x-ai_for_success-47d9cbe3c519",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ai_for_success/status/2035978009031954503",
+      "title": "Salesforce didn’t hire any engineers or service agents in FY2026, but it increased its number of sales hires by 20%. Disruption is real, and more is on the way.",
+      "published_at": "2026-03-23T07:12:38Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-ai_for_success-47d9cbe3c519/source_item.json"
+    },
+    {
+      "signal_id": "x-ai_for_success-78c7d6a0d667",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ai_for_success/status/2035946056681476360",
+      "title": "Speechless that some people are doing this. You can’t stop or pause AI. It’s not possible.",
+      "published_at": "2026-03-23T05:05:40Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-ai_for_success-78c7d6a0d667/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Pinned: In order to understand the universe, you must explore the universe → http://x.ai/careers",
+      "source_url": "https://x.com/xai/status/2035562571932024842",
+      "signal_id": "x-xai-396f2e6ec2e8"
+    },
+    {
+      "claim": "In order to understand the universe, you must explore the universe → x.ai/careers Video",
+      "source_url": "https://x.com/xai/status/2035562571932024842",
+      "signal_id": "x-xai-396f2e6ec2e8"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 2,
+    "fact_anchors_min": 8,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

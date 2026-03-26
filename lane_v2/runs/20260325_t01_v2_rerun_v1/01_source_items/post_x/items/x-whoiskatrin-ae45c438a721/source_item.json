@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-whoiskatrin-ae45c438a721",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/whoiskatrin/status/2036094100244476101",
+  "author": {
+    "handle": "@whoiskatrin",
+    "display_name": "whoiskatrin",
+    "account_url": "https://x.com/whoiskatrin"
+  },
+  "title": "Agents SDK v0.8.0 🎈 𝚗𝚙𝚖 𝚒 𝚊𝚐𝚎𝚗𝚝𝚜 a bunch of quality-of-life upgrades • no more state plumbing, just read agent.state • schedule() won’t double-run jobs anymore • typed AgentClient + stub calls are actually nice to use • zod v4 across the stack • keepAlive() is stable + lightweight happy building folks!",
+  "language": "unknown",
+  "published_at": "2026-03-23T14:53:56Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/whoiskatrin/status/2036094100244476101",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/whoiskatrin/status/2036094100244476101#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Agents SDK v0.8.0 🎈 𝚗𝚙𝚖 𝚒 𝚊𝚐𝚎𝚗𝚝𝚜 a bunch of quality-of-life upgrades • no more state plumbing, just read agent.state • schedule() won’t double-run jobs anymore • typed AgentClient + stub calls are actually nice to use • zod v4 across the stack • keepAlive() is stable + lightweight happy building folks!",
+    "full_text": "Post title: Agents SDK v0.8.0 🎈 𝚗𝚙𝚖 𝚒 𝚊𝚐𝚎𝚗𝚝𝚜 a bunch of quality-of-life upgrades • no more state plumbing, just read agent.state • schedule() won’t double-run jobs anymore • typed AgentClient + stub calls are actually nice to use • zod v4 across the stack • keepAlive() is stable + lightweight happy building folks!\n\nPost summary: Agents SDK v0.8.0 🎈 𝚗𝚙𝚖 𝚒 𝚊𝚐𝚎𝚗𝚝𝚜 a bunch of quality-of-life upgrades • no more state plumbing, just read agent.state • schedule() won’t double-run jobs anymore • typed AgentClient + stub calls are actually nice to use • zod v4 across the stack • keepAlive() is stable + lightweight happy building folks!\n\nCanonical URL: https://x.com/whoiskatrin/status/2036094100244476101",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Agents SDK",
+      "AgentClient",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Agents SDK v0.8.0 🎈 𝚗𝚙𝚖 𝚒 𝚊𝚐𝚎𝚗𝚝𝚜 a bunch of quality-of-life upgrades • no more state plumbing, just read agent.state • schedule() won’t double-run jobs anymore • typed AgentClient + stub calls are actually nice to use • zod v4 across the stack • keepAlive() is stable + lightweight happy building folks!",
+      "Agents SDK",
+      "AgentClient",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

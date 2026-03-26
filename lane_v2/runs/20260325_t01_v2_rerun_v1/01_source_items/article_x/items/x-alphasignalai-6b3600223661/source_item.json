@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alphasignalai-6b3600223661",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlphaSignalAI/status/2036090084634886569",
+  "author": {
+    "handle": "@AlphaSignalAI",
+    "display_name": "AlphaSignalAI",
+    "account_url": "https://x.com/AlphaSignalAI"
+  },
+  "title": "x.com/i/article/203587889694…",
+  "language": "unknown",
+  "published_at": "2026-03-23T14:37:59Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlphaSignalAI/status/2036090084634886569",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlphaSignalAI/status/2036090084634886569#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "x.com/i/article/203587889694…",
+    "full_text": "Post title: x.com/i/article/203587889694…\n\nPost summary: x.com/i/article/203587889694…\n\nCanonical URL: https://x.com/AlphaSignalAI/status/2036090084634886569",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "x.com/i/article/203587889694…",
+      "Post",
+      "Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

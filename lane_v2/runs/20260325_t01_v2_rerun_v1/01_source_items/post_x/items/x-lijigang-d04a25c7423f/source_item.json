@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lijigang-d04a25c7423f",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lijigang/status/2035630193357025668",
+  "author": {
+    "handle": "@lijigang",
+    "display_name": "lijigang",
+    "account_url": "https://x.com/lijigang"
+  },
+  "title": "大家都在说这个时代，「问题比答案更重要」，那如何内化呢？ 我觉得可以从「显化性」问题开始： 在笔记系统中，新建文件 Problems，记录自己遇到的卡点问题、困惑不解问题、重复执行陷顿其中的问题。 逐一认真对待，与AI 讨论碰撞，有些寻得一个新角度，有些固化形成一个skill. 先看见它，再认真对待它，慢慢来。",
+  "language": "unknown",
+  "published_at": "2026-03-22T08:10:32Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lijigang/status/2035630193357025668",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lijigang/status/2035630193357025668#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "大家都在说这个时代，「问题比答案更重要」，那如何内化呢？ 我觉得可以从「显化性」问题开始： 在笔记系统中，新建文件 Problems，记录自己遇到的卡点问题、困惑不解问题、重复执行陷顿其中的问题。 逐一认真对待，与AI 讨论碰撞，有些寻得一个新角度，有些固化形成一个skill. 先看见它，再认真对待它，慢慢来。",
+    "full_text": "Post title: 大家都在说这个时代，「问题比答案更重要」，那如何内化呢？ 我觉得可以从「显化性」问题开始： 在笔记系统中，新建文件 Problems，记录自己遇到的卡点问题、困惑不解问题、重复执行陷顿其中的问题。 逐一认真对待，与AI 讨论碰撞，有些寻得一个新角度，有些固化形成一个skill. 先看见它，再认真对待它，慢慢来。\n\nPost summary: 大家都在说这个时代，「问题比答案更重要」，那如何内化呢？ 我觉得可以从「显化性」问题开始： 在笔记系统中，新建文件 Problems，记录自己遇到的卡点问题、困惑不解问题、重复执行陷顿其中的问题。 逐一认真对待，与AI 讨论碰撞，有些寻得一个新角度，有些固化形成一个skill. 先看见它，再认真对待它，慢慢来。\n\nCanonical URL: https://x.com/lijigang/status/2035630193357025668",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Problems",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "大家都在说这个时代，「问题比答案更重要」，那如何内化呢？ 我觉得可以从「显化性」问题开始： 在笔记系统中，新建文件 Problems，记录自己遇到的卡点问题、困惑不解问题、重复执行陷顿其中的问题。 逐一认真对待，与AI 讨论碰撞，有些寻得一个新角度，有些固化形成一个skill. 先看见它，再认真对待它，慢慢来。",
+      "Problems",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

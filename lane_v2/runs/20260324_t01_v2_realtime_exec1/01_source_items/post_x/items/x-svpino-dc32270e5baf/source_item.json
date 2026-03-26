@@ -1,0 +1,120 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-svpino-dc32270e5baf",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/svpino/status/2036116905975545906",
+  "author": {
+    "handle": "@svpino",
+    "display_name": "svpino",
+    "account_url": "https://x.com/svpino"
+  },
+  "title": "We've 10x'd the speed of writing code, but we are still in the Stone Age with everything that happens after the code is written. This is a great idea: Agents that simulate how your code will run in production and learn from every incident so it doesn’t happen again.",
+  "language": "unknown",
+  "published_at": "2026-03-23T16:24:34Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/svpino/status/2036116905975545906",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/svpino/status/2036116905975545906#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "We've 10x'd the speed of writing code, but we are still in the Stone Age with everything that happens after the code is written. This is a great idea: Agents that simulate how your code will run in production and learn from every incident so it doesn’t happen again. Animesh Koratana (@akoratana) Introducing: PlayerZero The world's first Engineering World Model that puts debugging, fixing, and testing your code on autopilot. We've raised $20M from Foundation Capital, @matei_zaharia (Databricks), @pbailis (Workday), @rauchg (Vercel), @zoink (Figma), @drewhouston (Dropbox), and more PlayerZero frees up 30% of your engineering bandwidth by: 1.⁠ ⁠Finding the root cause for bugs & incidents in minutes that engineering teams take days to identify. 2.⁠ ⁠Predicting in minutes, edge case issues that a 300-person QA team would take weeks to find. ------ Here's why this matters: No one in your org has a complete picture of how your production software actually behaves. Support sees tickets. SRE sees infra. Dev sees code. Each team builds their own fragmented view - and none of these systems talk to each other. When something breaks, everyone scrambles to stitch the picture together by hand. PlayerZero connects all of it into a single context graph - → The Slack thread where your lead said \"we went with X because Y fell apart in prod last time\" → The PR review where an engineer explained the tradeoff → The lifetime history of your CI/CD pipeline, observability stack, incidents, and support tickets So you can trace any problem to its root cause across every silo. And it compounds. Every incident diagnosed teaches the model something new. The longer it runs, the deeper it understands - which code paths are high-risk, which configurations are fragile, which changes tend to break which customer flows. So when you sit down to debug a live issue, you have your entire org's collective reasoning and production memory behind you - instantly. ------ Zuora, Georgia-Pacific, and Nylas have reduced resolution time by 90% and caught 95% of breaking changes and freeing an average of $30M in engineering bandwidth. ------ Our guarantee: If we can't increase your engineering bandwidth by at least 20% within one week, we'll donate $10,000 to an open-source project of your choice. Book a demo - bit.ly/3NlLMeN Video — https://nitter.net/akoratana/status/2036111467016319074#m",
+    "full_text": "Post title: We've 10x'd the speed of writing code, but we are still in the Stone Age with everything that happens after the code is written. This is a great idea: Agents that simulate how your code will run in production and learn from every incident so it doesn’t happen again.\n\nPost summary: We've 10x'd the speed of writing code, but we are still in the Stone Age with everything that happens after the code is written. This is a great idea: Agents that simulate how your code will run in production and learn from every incident so it doesn’t happen again. Animesh Koratana (@akoratana) Introducing: PlayerZero The world's first Engineering World Model that puts debugging, fixing, and testing your code on autopilot. We've raised $20M from Foundation Capital, @matei_zaharia (Databricks), @pbailis (Workday), @rauchg (Vercel), @zoink (Figma), @drewhouston (Dropbox), and more PlayerZero frees up 30% of your engineering bandwidth by: 1.⁠ ⁠Finding the root cause for bugs & incidents in minutes that engineering teams take days to identify. 2.⁠ ⁠Predicting in minutes, edge case issues that a 300-person QA team would take weeks to find. ------ Here's why this matters: No one in your org has a complete picture of how your production software actually behaves. Support sees tickets. SRE sees infra. Dev sees code. Each team builds their own fragmented view - and none of these systems talk to each other. When something breaks, everyone scrambles to stitch the picture together by hand. PlayerZero connects all of it into a single context graph - → The Slack thread where your lead said \"we went with X because Y fell apart in prod last time\" → The PR review where an engineer explained the tradeoff → The lifetime history of your CI/CD pipeline, observability stack, incidents, and support tickets So you can trace any problem to its root cause across every silo. And it compounds. Every incident diagnosed teaches the model something new. The longer it runs, the deeper it understands - which code paths are high-risk, which configurations are fragile, which changes tend to break which customer flows. So when you sit down to debug a live issue, you have your entire org's collective reasoning and production memory behind you - instantly. ------ Zuora, Georgia-Pacific, and Nylas have reduced resolution time by 90% and caught 95% of breaking changes and freeing an average of $30M in engineering bandwidth. ------ Our guarantee: If we can't increase your engineering bandwidth by at least 20% within one week, we'll donate $10,000 to an open-source project of your choice. Book a demo - bit.ly/3NlLMeN Video — https://nitter.net/akoratana/status/2036111467016319074#m\n\nCanonical URL: https://x.com/svpino/status/2036116905975545906",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "introducing"
+    ],
+    "metric_signals": [
+      "$20",
+      "30%",
+      "90%",
+      "95%",
+      "$30",
+      "20%",
+      "$10,000"
+    ],
+    "named_entities": [
+      "We",
+      "Stone Age",
+      "This",
+      "Agents",
+      "Animesh Koratana",
+      "Introducing",
+      "PlayerZero The",
+      "Engineering World Model",
+      "Foundation Capital",
+      "Databricks",
+      "Workday",
+      "Vercel",
+      "Figma",
+      "Dropbox",
+      "PlayerZero",
+      "Finding",
+      "Predicting",
+      "QA",
+      "Here",
+      "No",
+      "Support",
+      "SRE",
+      "Dev",
+      "Each",
+      "When",
+      "The Slack",
+      "The PR",
+      "CI"
+    ],
+    "task_hints": [
+      "release",
+      "workflow",
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "We've 10x'd the speed of writing code, but we are still in the Stone Age with everything that happens after the code is written. This is a great idea: Agents that simulate how your code will run in production and learn from every incident so it doesn’t happen again.",
+      "We've 10x'd the speed of writing code, but we are still in the Stone Age with everything that happens after the code is written. This is a great idea: Agents that simulate how your code will run in production and learn from every incident so it doesn’t happen again. Animesh Koratana (@akoratana) Introducing: PlayerZero The world's first Engineering World Model that puts debugging, fixing, and testing your code on autopilot. We've raised $20M from Foundation Capital, @matei_zaharia (Databricks), @pbailis (Workday), @rauchg (Vercel), @zoink (Figma), @drewhouston (Dropbox), and more PlayerZero frees up 30% of your engineering bandwidth by: 1.⁠ ⁠Finding the root cause for bugs & incidents in minutes that engineering teams take days to identify. 2.⁠ ⁠Predicting in minutes, edge case issues that a 300-person QA team would take weeks to find. ------ Here's why this matters: No one in your org has a complete picture of how your production software actually behaves. Support sees tickets. SRE sees infra. Dev sees code. Each team builds their own fragmented view - and none of these systems talk to each other. When something breaks, everyone scrambles to stitch the picture together by hand. PlayerZero connects all of it into a single context graph - → The Slack thread where your lead said \"we went with X because Y fell apart in prod last time\" → The PR review where an engineer explained the tradeoff → The lifetime history of your CI/CD pipeline, observability stack, incidents, and support tickets So you can trace any problem to its root cause across every silo. And it compounds. Every incident diagnosed teaches the model something new. The longer it runs, the deeper it understands - which code paths are high-risk, which configurations are fragile, which changes tend to break which customer flows. So when you sit down to debug a live issue, you have your entire org's collective reasoning and production memory behind you - instantly. ------ Zuora, Georgia-Pacific, and Nylas have reduced resolution time by 90% and caught 95% of breaking changes and freeing an average of $30M in engineering bandwidth. ------ Our guarantee: If we can't increase your engineering bandwidth by at least 20% within one week, we'll donate $10,000 to an open-source project of your choice. Book a demo - bit.ly/3NlLMeN Video — https://nitter.net/akoratana/status/2036111467016319074#m",
+      "introducing",
+      "$20",
+      "30%",
+      "90%",
+      "95%",
+      "$30",
+      "20%",
+      "$10,000",
+      "We",
+      "Stone Age",
+      "This",
+      "Agents",
+      "Animesh Koratana",
+      "Introducing",
+      "PlayerZero The",
+      "Engineering World Model",
+      "Foundation Capital",
+      "Databricks",
+      "Workday",
+      "Vercel",
+      "Figma",
+      "Dropbox",
+      "PlayerZero",
+      "Finding"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

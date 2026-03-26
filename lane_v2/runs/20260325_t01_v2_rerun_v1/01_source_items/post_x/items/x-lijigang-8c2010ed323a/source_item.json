@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lijigang-8c2010ed323a",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lijigang/status/2035919323739590996",
+  "author": {
+    "handle": "@lijigang",
+    "display_name": "lijigang",
+    "account_url": "https://x.com/lijigang"
+  },
+  "title": "https://github.com/lijigang/ljg-skills/tree/master/skills/ljg-travel 写了个旅游攻略的skill，要出去玩的话，可以用这个试试。",
+  "language": "unknown",
+  "published_at": "2026-03-23T03:19:26Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lijigang/status/2035919323739590996",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lijigang/status/2035919323739590996#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "github.com/lijigang/ljg-skil… 写了个旅游攻略的skill，要出去玩的话，可以用这个试试。",
+    "full_text": "Post title: https://github.com/lijigang/ljg-skills/tree/master/skills/ljg-travel 写了个旅游攻略的skill，要出去玩的话，可以用这个试试。\n\nPost summary: github.com/lijigang/ljg-skil… 写了个旅游攻略的skill，要出去玩的话，可以用这个试试。\n\nCanonical URL: https://x.com/lijigang/status/2035919323739590996",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "https://github.com/lijigang/ljg-skills/tree/master/skills/ljg-travel 写了个旅游攻略的skill，要出去玩的话，可以用这个试试。",
+      "github.com/lijigang/ljg-skil… 写了个旅游攻略的skill，要出去玩的话，可以用这个试试。",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

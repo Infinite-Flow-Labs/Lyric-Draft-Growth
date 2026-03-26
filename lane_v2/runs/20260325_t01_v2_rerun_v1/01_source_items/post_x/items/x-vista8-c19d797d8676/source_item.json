@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-vista8-c19d797d8676",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/vista8/status/2036443147136581909",
+  "author": {
+    "handle": "@vista8",
+    "display_name": "vista8",
+    "account_url": "https://x.com/vista8"
+  },
+  "title": "LiteLLM 1.82.7 和 1.82.8 已被Hack入侵，不要更新！",
+  "language": "unknown",
+  "published_at": "2026-03-24T14:00:56Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/vista8/status/2036443147136581909",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/vista8/status/2036443147136581909#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "LiteLLM 1.82.7 和 1.82.8 已被Hack入侵，不要更新！",
+    "full_text": "Post title: LiteLLM 1.82.7 和 1.82.8 已被Hack入侵，不要更新！\n\nPost summary: LiteLLM 1.82.7 和 1.82.8 已被Hack入侵，不要更新！\n\nCanonical URL: https://x.com/vista8/status/2036443147136581909",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "LiteLLM",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "LiteLLM 1.82.7 和 1.82.8 已被Hack入侵，不要更新！",
+      "LiteLLM",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

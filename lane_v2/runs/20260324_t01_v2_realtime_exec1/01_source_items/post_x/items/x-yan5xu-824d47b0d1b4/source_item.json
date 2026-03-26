@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-yan5xu-824d47b0d1b4",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/yan5xu/status/2034121016700715276",
+  "author": {
+    "handle": "@yan5xu",
+    "display_name": "yan5xu",
+    "account_url": "https://x.com/yan5xu"
+  },
+  "title": "在酒店，有个显示器，开发体验立马提升了。。不过，有没有大神知道，怎么把显示器放行李箱，可以保护下面板。如果这可以实现。一个行李箱+随身包，我就可以实现任意地点办公了！",
+  "language": "unknown",
+  "published_at": "2026-03-18T04:13:37Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/yan5xu/status/2034121016700715276",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/yan5xu/status/2034121016700715276#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "在酒店，有个显示器，开发体验立马提升了。。不过，有没有大神知道，怎么把显示器放行李箱，可以保护下面板。如果这可以实现。一个行李箱+随身包，我就可以实现任意地点办公了！",
+    "full_text": "Post title: 在酒店，有个显示器，开发体验立马提升了。。不过，有没有大神知道，怎么把显示器放行李箱，可以保护下面板。如果这可以实现。一个行李箱+随身包，我就可以实现任意地点办公了！\n\nPost summary: 在酒店，有个显示器，开发体验立马提升了。。不过，有没有大神知道，怎么把显示器放行李箱，可以保护下面板。如果这可以实现。一个行李箱+随身包，我就可以实现任意地点办公了！\n\nCanonical URL: https://x.com/yan5xu/status/2034121016700715276",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "在酒店，有个显示器，开发体验立马提升了。。不过，有没有大神知道，怎么把显示器放行李箱，可以保护下面板。如果这可以实现。一个行李箱+随身包，我就可以实现任意地点办公了！",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

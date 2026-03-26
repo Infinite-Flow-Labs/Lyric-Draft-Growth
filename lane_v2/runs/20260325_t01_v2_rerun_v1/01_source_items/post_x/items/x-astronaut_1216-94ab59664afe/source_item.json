@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-astronaut_1216-94ab59664afe",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Astronaut_1216/status/2036643051154850022",
+  "author": {
+    "handle": "@Astronaut_1216",
+    "display_name": "Astronaut_1216",
+    "account_url": "https://x.com/Astronaut_1216"
+  },
+  "title": "如何判断要不要搭建知识库、知识要不要入库 我只问自己四个问题 它能不能支持我未来写作？ 它能不能支持我未来选题？ 它能不能支持我未来表达或教学？ 它能不能沉淀成案例、观点、模板或方法？ 只有未来会被再次调用的内容，才值得进入知识库",
+  "language": "unknown",
+  "published_at": "2026-03-25T03:15:17Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Astronaut_1216/status/2036643051154850022",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Astronaut_1216/status/2036643051154850022#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "如何判断要不要搭建知识库、知识要不要入库 我只问自己四个问题 它能不能支持我未来写作？ 它能不能支持我未来选题？ 它能不能支持我未来表达或教学？ 它能不能沉淀成案例、观点、模板或方法？ 只有未来会被再次调用的内容，才值得进入知识库",
+    "full_text": "Post title: 如何判断要不要搭建知识库、知识要不要入库 我只问自己四个问题 它能不能支持我未来写作？ 它能不能支持我未来选题？ 它能不能支持我未来表达或教学？ 它能不能沉淀成案例、观点、模板或方法？ 只有未来会被再次调用的内容，才值得进入知识库\n\nPost summary: 如何判断要不要搭建知识库、知识要不要入库 我只问自己四个问题 它能不能支持我未来写作？ 它能不能支持我未来选题？ 它能不能支持我未来表达或教学？ 它能不能沉淀成案例、观点、模板或方法？ 只有未来会被再次调用的内容，才值得进入知识库\n\nCanonical URL: https://x.com/Astronaut_1216/status/2036643051154850022",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "如何判断要不要搭建知识库、知识要不要入库 我只问自己四个问题 它能不能支持我未来写作？ 它能不能支持我未来选题？ 它能不能支持我未来表达或教学？ 它能不能沉淀成案例、观点、模板或方法？ 只有未来会被再次调用的内容，才值得进入知识库",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-danshipper-f44fc13fe3f3",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/danshipper/status/2036251531570278825",
+  "author": {
+    "handle": "@danshipper",
+    "display_name": "danshipper",
+    "account_url": "https://x.com/danshipper"
+  },
+  "title": "this is so good obviously the future",
+  "language": "unknown",
+  "published_at": "2026-03-24T01:19:31Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/danshipper/status/2036251531570278825",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/danshipper/status/2036251531570278825#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "this is so good obviously the future Ramp Labs (@RampLabs) x.com/i/article/203614405114… — https://nitter.net/RampLabs/status/2036165188899012655#m",
+    "full_text": "Post title: this is so good obviously the future\n\nPost summary: this is so good obviously the future Ramp Labs (@RampLabs) x.com/i/article/203614405114… — https://nitter.net/RampLabs/status/2036165188899012655#m\n\nCanonical URL: https://x.com/danshipper/status/2036251531570278825",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Ramp Labs",
+      "RampLabs",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "opinion_decode"
+    ],
+    "fact_anchors": [
+      "this is so good obviously the future",
+      "this is so good obviously the future Ramp Labs (@RampLabs) x.com/i/article/203614405114… — https://nitter.net/RampLabs/status/2036165188899012655#m",
+      "Ramp Labs",
+      "RampLabs",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

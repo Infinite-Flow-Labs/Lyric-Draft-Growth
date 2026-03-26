@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-icreatelife-0d6e484ab319",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/icreatelife/status/2036169562563965042",
+  "author": {
+    "handle": "@icreatelife",
+    "display_name": "icreatelife",
+    "account_url": "https://x.com/icreatelife"
+  },
+  "title": "10 million views 🤯 🙏",
+  "language": "unknown",
+  "published_at": "2026-03-23T19:53:48Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/icreatelife/status/2036169562563965042",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/icreatelife/status/2036169562563965042#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "10 million views 🤯 🙏 Kris Kashtanova (@icreatelife) QT a chibi version of you 🥹🫶✨ Video — https://nitter.net/icreatelife/status/2035370305523167675#m",
+    "full_text": "Post title: 10 million views 🤯 🙏\n\nPost summary: 10 million views 🤯 🙏 Kris Kashtanova (@icreatelife) QT a chibi version of you 🥹🫶✨ Video — https://nitter.net/icreatelife/status/2035370305523167675#m\n\nCanonical URL: https://x.com/icreatelife/status/2036169562563965042",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "10 million"
+    ],
+    "named_entities": [
+      "Kris Kashtanova",
+      "QT",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "10 million views 🤯 🙏",
+      "10 million views 🤯 🙏 Kris Kashtanova (@icreatelife) QT a chibi version of you 🥹🫶✨ Video — https://nitter.net/icreatelife/status/2035370305523167675#m",
+      "10 million",
+      "Kris Kashtanova",
+      "QT",
+      "Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

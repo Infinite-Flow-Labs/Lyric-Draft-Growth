@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gregkamradt-e1c739fd03e9",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/GregKamradt/status/2035408539473310113",
+  "author": {
+    "handle": "@GregKamradt",
+    "display_name": "GregKamradt",
+    "account_url": "https://x.com/GregKamradt"
+  },
+  "title": "Getting a lot of Hermes Agent mentions in this thread 👀",
+  "language": "unknown",
+  "published_at": "2026-03-21T17:29:46Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/GregKamradt/status/2035408539473310113",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/GregKamradt/status/2035408539473310113#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Getting a lot of Hermes Agent mentions in this thread 👀 1LittleCoder💻 (@1littlecoder) I'd parallely give Hermes Agent a try as well. OpenClaw is definitely the ecosystem leader but a bit bloated — https://nitter.net/1littlecoder/status/2035404701513257098#m",
+    "full_text": "Post title: Getting a lot of Hermes Agent mentions in this thread 👀\n\nPost summary: Getting a lot of Hermes Agent mentions in this thread 👀 1LittleCoder💻 (@1littlecoder) I'd parallely give Hermes Agent a try as well. OpenClaw is definitely the ecosystem leader but a bit bloated — https://nitter.net/1littlecoder/status/2035404701513257098#m\n\nCanonical URL: https://x.com/GregKamradt/status/2035408539473310113",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Getting",
+      "Hermes Agent",
+      "OpenClaw",
+      "Post",
+      "Canonical URL",
+      "GregKamradt"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Getting a lot of Hermes Agent mentions in this thread 👀",
+      "Getting a lot of Hermes Agent mentions in this thread 👀 1LittleCoder💻 (@1littlecoder) I'd parallely give Hermes Agent a try as well. OpenClaw is definitely the ecosystem leader but a bit bloated — https://nitter.net/1littlecoder/status/2035404701513257098#m",
+      "Getting",
+      "Hermes Agent",
+      "OpenClaw",
+      "Post",
+      "Canonical URL",
+      "GregKamradt"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

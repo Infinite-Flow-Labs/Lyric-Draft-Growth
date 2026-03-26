@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-op7418-ed47bdcf645b",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/op7418/status/2036609782891868298",
+  "author": {
+    "handle": "@op7418",
+    "display_name": "op7418",
+    "account_url": "https://x.com/op7418"
+  },
+  "title": "Claude Code 新增了一个自动模式 终于不需要你对每个文件处理和命令执行进行审批了！ 安全防护会在每个操作运行前进行检查，比以前的全部跳过权限审批更加安全 使用 claude --enable-auto-mode 启用，然后按 Shift+Tab 切换到这个模式",
+  "language": "unknown",
+  "published_at": "2026-03-25T01:03:05Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/op7418/status/2036609782891868298",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/op7418/status/2036609782891868298#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Claude Code 新增了一个自动模式 终于不需要你对每个文件处理和命令执行进行审批了！ 安全防护会在每个操作运行前进行检查，比以前的全部跳过权限审批更加安全 使用 claude --enable-auto-mode 启用，然后按 Shift+Tab 切换到这个模式 Video",
+    "full_text": "Post title: Claude Code 新增了一个自动模式 终于不需要你对每个文件处理和命令执行进行审批了！ 安全防护会在每个操作运行前进行检查，比以前的全部跳过权限审批更加安全 使用 claude --enable-auto-mode 启用，然后按 Shift+Tab 切换到这个模式\n\nPost summary: Claude Code 新增了一个自动模式 终于不需要你对每个文件处理和命令执行进行审批了！ 安全防护会在每个操作运行前进行检查，比以前的全部跳过权限审批更加安全 使用 claude --enable-auto-mode 启用，然后按 Shift+Tab 切换到这个模式 Video\n\nCanonical URL: https://x.com/op7418/status/2036609782891868298",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Claude Code",
+      "Shift",
+      "Tab",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Claude Code 新增了一个自动模式 终于不需要你对每个文件处理和命令执行进行审批了！ 安全防护会在每个操作运行前进行检查，比以前的全部跳过权限审批更加安全 使用 claude --enable-auto-mode 启用，然后按 Shift+Tab 切换到这个模式",
+      "Claude Code 新增了一个自动模式 终于不需要你对每个文件处理和命令执行进行审批了！ 安全防护会在每个操作运行前进行检查，比以前的全部跳过权限审批更加安全 使用 claude --enable-auto-mode 启用，然后按 Shift+Tab 切换到这个模式 Video",
+      "Claude Code",
+      "Shift",
+      "Tab",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

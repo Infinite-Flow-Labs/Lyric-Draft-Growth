@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-174c6c5d8271",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2036427738186489989",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "PrismAudio：视频生成音效 阿里开源的模型，输入视频，自动生成跟画面匹配的音效。效果还不错。 项目地址：https://prismaudio-project.github.io/ 模型：https://huggingface.co/FunAudioLLM/PrismAudio",
+  "language": "unknown",
+  "published_at": "2026-03-24T12:59:42Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2036427738186489989",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2036427738186489989#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "PrismAudio：视频生成音效 阿里开源的模型，输入视频，自动生成跟画面匹配的音效。效果还不错。 项目地址： prismaudio-project.github.io… 模型： huggingface.co/FunAudioLLM/P… Video",
+    "full_text": "Post title: PrismAudio：视频生成音效 阿里开源的模型，输入视频，自动生成跟画面匹配的音效。效果还不错。 项目地址：https://prismaudio-project.github.io/ 模型：https://huggingface.co/FunAudioLLM/PrismAudio\n\nPost summary: PrismAudio：视频生成音效 阿里开源的模型，输入视频，自动生成跟画面匹配的音效。效果还不错。 项目地址： prismaudio-project.github.io… 模型： huggingface.co/FunAudioLLM/P… Video\n\nCanonical URL: https://x.com/Gorden_Sun/status/2036427738186489989",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "PrismAudio",
+      "FunAudioLLM",
+      "PrismAudio PrismAudio",
+      "Video Post",
+      "PrismAudio Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "PrismAudio：视频生成音效 阿里开源的模型，输入视频，自动生成跟画面匹配的音效。效果还不错。 项目地址：https://prismaudio-project.github.io/ 模型：https://huggingface.co/FunAudioLLM/PrismAudio",
+      "PrismAudio：视频生成音效 阿里开源的模型，输入视频，自动生成跟画面匹配的音效。效果还不错。 项目地址： prismaudio-project.github.io… 模型： huggingface.co/FunAudioLLM/P… Video",
+      "PrismAudio",
+      "FunAudioLLM",
+      "PrismAudio PrismAudio",
+      "Video Post",
+      "PrismAudio Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-runwayml-713251b5836e",
+  "event_seed_signal_id": "x-runwayml-713251b5836e",
+  "event_seed_source_family": "official_x",
+  "topic_statement": "Nobody buys a garden hose for fun. You buy one because one day you wake up and suddenly you care about lawn care. The Pippin Garden Hose brief. Enter your #RunwayBigAdContest spot today. Up to $100K in cash prizes. Learn more at the link below.",
+  "why_now": "Clustered 12 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 79.63,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 60.33,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "video post::开源",
+  "cluster_signal_ids": [
+    "x-berryxia-b55a672c873c",
+    "x-berryxia-5da5cf408b5e",
+    "x-astronaut_1216-878fe1d08987",
+    "x-gorden_sun-174c6c5d8271",
+    "x-gorden_sun-2d1a7170b7f5",
+    "x-tualatrix-42c662f1fe5e",
+    "x-icreatelife-a0a73ce63831",
+    "x-steventey-18ca2d17c49d",
+    "x-aibreakfast-fb8f0b4d7803",
+    "x-runwayml-713251b5836e",
+    "x-skirano-283e7d02de49",
+    "x-icreatelife-78ee70706be3"
+  ],
+  "source_families": [
+    "official_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/runwayml/status/2036081560873570742",
+    "published_at": "2026-03-23T14:04:07Z",
+    "release_signals_count": 2,
+    "fact_candidates_count": 90
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-lxfater-072185f27042",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/lxfater/status/2036059559962562886",
+  "author": {
+    "handle": "@lxfater",
+    "display_name": "lxfater",
+    "account_url": "https://x.com/lxfater"
+  },
+  "title": "你还在一句一句教小龙虾干活吗？ 现在都是让小龙虾自己读文章，自己学习了。我很久之前就想做个龙虾导航了，这样一站式学习各种内容。 突然发现有人做了个导航站，内容涵盖了 1. 部署 2. 切换常用模型 3. Skill集合 4. 常见龙虾文档库 5. 支付，社交 这下全都齐活啦，一个网址让它自己去学习。 地址在评论区第一条👇",
+  "language": "unknown",
+  "published_at": "2026-03-23T12:36:41Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/lxfater/status/2036059559962562886",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/lxfater/status/2036059559962562886#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "你还在一句一句教小龙虾干活吗？ 现在都是让小龙虾自己读文章，自己学习了。我很久之前就想做个龙虾导航了，这样一站式学习各种内容。 突然发现有人做了个导航站，内容涵盖了 1. 部署 2. 切换常用模型 3. Skill集合 4. 常见龙虾文档库 5. 支付，社交 这下全都齐活啦，一个网址让它自己去学习。 地址在评论区第一条👇",
+    "full_text": "Post title: 你还在一句一句教小龙虾干活吗？ 现在都是让小龙虾自己读文章，自己学习了。我很久之前就想做个龙虾导航了，这样一站式学习各种内容。 突然发现有人做了个导航站，内容涵盖了 1. 部署 2. 切换常用模型 3. Skill集合 4. 常见龙虾文档库 5. 支付，社交 这下全都齐活啦，一个网址让它自己去学习。 地址在评论区第一条👇\n\nPost summary: 你还在一句一句教小龙虾干活吗？ 现在都是让小龙虾自己读文章，自己学习了。我很久之前就想做个龙虾导航了，这样一站式学习各种内容。 突然发现有人做了个导航站，内容涵盖了 1. 部署 2. 切换常用模型 3. Skill集合 4. 常见龙虾文档库 5. 支付，社交 这下全都齐活啦，一个网址让它自己去学习。 地址在评论区第一条👇\n\nCanonical URL: https://x.com/lxfater/status/2036059559962562886",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "你还在一句一句教小龙虾干活吗？ 现在都是让小龙虾自己读文章，自己学习了。我很久之前就想做个龙虾导航了，这样一站式学习各种内容。 突然发现有人做了个导航站，内容涵盖了 1. 部署 2. 切换常用模型 3. Skill集合 4. 常见龙虾文档库 5. 支付，社交 这下全都齐活啦，一个网址让它自己去学习。 地址在评论区第一条👇",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

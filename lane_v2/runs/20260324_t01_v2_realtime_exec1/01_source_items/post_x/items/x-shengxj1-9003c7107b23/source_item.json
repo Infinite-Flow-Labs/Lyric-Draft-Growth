@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-shengxj1-9003c7107b23",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/shengxj1/status/2036254149202026840",
+  "author": {
+    "handle": "@shengxj1",
+    "display_name": "shengxj1",
+    "account_url": "https://x.com/shengxj1"
+  },
+  "title": "快说 你直播漏出了什么工具！",
+  "language": "unknown",
+  "published_at": "2026-03-24T01:29:55Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/shengxj1/status/2036254149202026840",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/shengxj1/status/2036254149202026840#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "快说 你直播漏出了什么工具！ luolei (@luoleiorg) 今晚第一次抖音，小红书，哔哩哔哩，YouTube 四平台同时直播，中途就抖音因为“违规漏出某些工具”被封禁10分钟，其他都挺顺利的。解决掉了内网 NDI 走网关，OBS 多虚拟摄像头复用两个画面的问题。剩下没有解决的问题:目前使用各平台自己直播软件推流，吃饱了我 5070 显卡的编码。还得优化下推流策略。🤣 — https://nitter.net/luoleiorg/status/2036174582391119958#m",
+    "full_text": "Post title: 快说 你直播漏出了什么工具！\n\nPost summary: 快说 你直播漏出了什么工具！ luolei (@luoleiorg) 今晚第一次抖音，小红书，哔哩哔哩，YouTube 四平台同时直播，中途就抖音因为“违规漏出某些工具”被封禁10分钟，其他都挺顺利的。解决掉了内网 NDI 走网关，OBS 多虚拟摄像头复用两个画面的问题。剩下没有解决的问题:目前使用各平台自己直播软件推流，吃饱了我 5070 显卡的编码。还得优化下推流策略。🤣 — https://nitter.net/luoleiorg/status/2036174582391119958#m\n\nCanonical URL: https://x.com/shengxj1/status/2036254149202026840",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "YouTube",
+      "NDI",
+      "OBS",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "快说 你直播漏出了什么工具！",
+      "快说 你直播漏出了什么工具！ luolei (@luoleiorg) 今晚第一次抖音，小红书，哔哩哔哩，YouTube 四平台同时直播，中途就抖音因为“违规漏出某些工具”被封禁10分钟，其他都挺顺利的。解决掉了内网 NDI 走网关，OBS 多虚拟摄像头复用两个画面的问题。剩下没有解决的问题:目前使用各平台自己直播软件推流，吃饱了我 5070 显卡的编码。还得优化下推流策略。🤣 — https://nitter.net/luoleiorg/status/2036174582391119958#m",
+      "YouTube",
+      "NDI",
+      "OBS",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

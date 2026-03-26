@@ -1,0 +1,126 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-chuhaiqu-060e600af536",
+  "lane_id": "T03_money_proof",
+  "framework_id": "01_money_proof",
+  "submode_id": "metric_postmortem",
+  "composition_mode": "rewrite_heavy",
+  "primary_sources": [
+    {
+      "signal_id": "x-chuhaiqu-060e600af536",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "title": "很多人做 TikTok 等短视频可能只会盯着爆款，但其实想要做大规模还是需要一套严密的系统的。 Roman 最近复盘了他砸千万预算，投出 1 亿播放量的 UGC 增长，总共获得了 1.5 亿用户。 做这类获客最大的坑是瞎找个模版把产品硬塞进去。如果视频爆了没下载，说明产品全浮在表面。如果转化高但没播放，那是广告味太大把人劝退了。 最舒服的状态是让应用自然变成视频结尾的那个包袱。 单个爆款模式跑通后，如果纯靠人工挨个私信博主，维系超过 30 个人就会被催稿和算账彻底拖垮。 这个时候可以参考一下 Roman 的做法 1. 把跑通的模版定好标准，直接发悬赏任务让人批量接单 2. 因为是不出镜的内容，彻底放弃死磕大 V 直接让路人兼职提供无限产能 3. 建一个拦截刷量数据的机制，只看真实转化率来决定加预算还是砍掉 4. 数据验收达标后 才走系统批量打款 归根到底拼的还是批量造爆款的系统杠杆。",
+      "published_at": "2026-03-23T10:22:02Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items/x-chuhaiqu-060e600af536/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-ai_jasonyu-d029da36849d",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2036342908576571872",
+      "title": "分享一个社媒视频下载的神器：SnapVee 不需要注册，有免费使用，也不要安装插件，只需要粘贴视频链接即可，快收藏起来。 地址：https://snapvee.com?aff=7RVWT9U3 几乎支持所有主流社媒： - YouTube（4K + 多音轨） - TikTok - B站（大会员 + 4K） - 抖音（视频 + 图文） - 小红书（视频 + LivePhoto） - X / Twitter - Instagram 这个网站下载的是4K高清版，支持音视频分离~ 更实用的是还有几个小功能（大家自行探索）： - 一次丢多个链接一次性提取 - 抖音图文一键保存 - 小红书LivePhoto动图提取 - B站大会员视频直接下 做自媒体内容和做剪辑的都懂，推荐大家码起来~",
+      "published_at": "2026-03-24T07:22:37Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-ai_jasonyu-d029da36849d/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "很多人做 TikTok 等短视频可能只会盯着爆款，但其实想要做大规模还是需要一套严密的系统的。 Roman 最近复盘了他砸千万预算，投出 1 亿播放量的 UGC 增长，总共获得了 1.5 亿用户。 做这类获客最大的坑是瞎找个模版把产品硬塞进去。如果视频爆了没下载，说明产品全浮在表面。如果转化高但没播放，那是广告味太大把人劝退了。 最舒服的状态是让应用自然变成视频结尾的那个包袱。 单个爆款模式跑通后，如果纯靠人工挨个私信博主，维系超过 30 个人就会被催稿和算账彻底拖垮。 这个时候可以参考一下 Roman 的做法 1. 把跑通的模版定好标准，直接发悬赏任务让人批量接单 2. 因为是不出镜的内容，彻底放弃死磕大 V 直接让路人兼职提供无限产能 3. 建一个拦截刷量数据的机制，只看真实转化率来决定加预算还是砍掉 4. 数据验收达标后 才走系统批量打款 归根到底拼的还是批量造爆款的系统杠杆。",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "很多人做 TikTok 等短视频可能只会盯着爆款，但其实想要做大规模还是需要一套严密的系统的。 Roman 最近复盘了他砸千万预算，投出 1 亿播放量的 UGC 增长，总共获得了 1.5 亿用户。 做这类获客最大的坑是瞎找个模版把产品硬塞进去。如果视频爆了没下载，说明产品全浮在表面。如果转化高但没播放，那是广告味太大把人劝退了。 最舒服的状态是让应用自然变成视频结尾的那个包袱。 单个爆款模式跑通后，如果纯靠人工挨个私信博主，维系超过 30 个人就会被催稿和算账彻底拖垮。 这个时候可以参考一下 Roman 的做法 1. 把跑通的模版定好标准，直接发悬赏任务让人批量接单 2. 因为是不出镜的内容，彻底放弃死磕大 V 直接让路人兼职提供无限产能 3. 建一个拦截刷量数据的机制，只看真实转化率来决定加预算还是砍掉 4. 数据验收达标后 才走系统批量打款 归根到底拼的还是批量造爆款的系统杠杆。 Roman Khaves (@roman_khaves) x.com/i/article/203426661068… — https://nitter.net/roman_khaves/status/2034999438779814202#m",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "很多人做 TikTok 等短视频可能只会盯着爆款，但其实想要做大规模还是需要一套严密的系统的",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "Roman 最近复盘了他砸千万预算，投出 1 亿播放量的 UGC 增长，总共获得了 1.5 亿用户",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "做这类获客最大的坑是瞎找个模版把产品硬塞进去",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "如果转化高但没播放，那是广告味太大把人劝退了",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "最舒服的状态是让应用自然变成视频结尾的那个包袱",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "单个爆款模式跑通后，如果纯靠人工挨个私信博主，维系超过 30 个人就会被催稿和算账彻底拖垮",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "这个时候可以参考一下 Roman 的做法 1. 把跑通的模版定好标准，直接发悬赏任务让人批量接单 2. 因为是不出镜的内容，彻底放弃死磕大 V 直接让路人兼职提供无限产能 3. 建一个拦截刷量数据的机制，只看真实转化率来决定加预算还是砍掉 4. 数据验收达标后 才走系统批量打款 归根到底拼的还是批量造爆款的系统杠杆",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "Roman Khaves (@roman_khaves) x.com/i/article/203426661068… — https://nitter.net/roman_khaves/status/2034999438779814202#m Post title: 很多人做 TikTok 等短视频可能只会盯着爆款，但其实想要做大规模还是需要一套严密的系统的",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    },
+    {
+      "claim": "Roman Khaves (@roman_khaves) x.com/i/article/203426661068… — https://nitter.net/roman_khaves/status/2034999438779814202#m Canonical URL: https://x.com/chuhaiqu/status/2036025672251171324",
+      "source_url": "https://x.com/chuhaiqu/status/2036025672251171324",
+      "signal_id": "x-chuhaiqu-060e600af536"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 8,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": true,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": true,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": false,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

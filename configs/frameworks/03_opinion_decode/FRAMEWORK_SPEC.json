@@ -1,0 +1,610 @@
+{
+  "schema_version": "2026-03-18.v1",
+  "full_fidelity": true,
+  "metadata": {
+    "framework_id": "03_opinion_decode",
+    "framework_label": "外部信号解码型",
+    "legacy_label": "大V观点拆解型（X said -> What it means）",
+    "status": "active",
+    "confidence": "high",
+    "last_reviewed": "2026-03-18",
+    "source_of_truth_refs": {
+      "framework_md": "framework/03_opinion_decode/FRAMEWORK.md",
+      "style_profiles_md": "framework/03_opinion_decode/STYLE_PROFILES.md",
+      "sample_decompositions_md": "framework/03_opinion_decode/SAMPLE_DECOMPOSITIONS.md"
+    },
+    "notes": "Stable framework with 6 reclassified samples and 2 mature submodes. The spec preserves decode logic, source-weight handling, and anti-summary controls so writing does not collapse into flat AI summarization."
+  },
+  "intent": {
+    "definition": "先抓住一个外部信号，例如论文、访谈、播客、热项目、行业事件或知名人物发言，再把其中真正重要的东西提炼并翻译成读者能理解、能判断、能复述的观点。",
+    "core_value": "把外部噪音压缩成清晰判断，让读者不是只知道内容，而是知道真正重要的是什么、该怎么理解。",
+    "core_tasks": [
+      "说清楚信号源是什么，为什么值得看",
+      "从原始材料里提炼真正核心观点或矛盾",
+      "用更好理解的语言重建出来",
+      "给读者一个判断框架和重要性排序"
+    ]
+  },
+  "routing": {
+    "should_route_when": [
+      "source 有明确外部来源，例如论文、播客、访谈、事件、项目热潮、名人发言或行业信号",
+      "作者不只在转述，而是在解码、降噪、排序和重建",
+      "正文保留来源张力，例如冲突、惊讶、关键转折、稀缺信息或人物重量",
+      "读者收益是更快看懂、更快判断、更会解释给别人听"
+    ],
+    "should_not_route_when": [
+      "source 主要是在介绍自己的产品、系统、教程或指南",
+      "source 主要是在做反主流框架替换，而不是解读外部材料",
+      "source 主要是在晒结果、赚钱、流量或融资复盘",
+      "文章没有明确外部来源，只有作者自己的经验判断"
+    ],
+    "source_fit": [
+      "论文、框架文章、现象级项目、行业事件、人物公开动作的解码文",
+      "播客、访谈、深度采访的人物与行业蒸馏文"
+    ],
+    "source_unfit": [
+      "纯新闻转载",
+      "纯教程",
+      "只有观点没有来源的评论",
+      "只有金句摘录的访谈纪要"
+    ],
+    "strong_signals": [
+      "正文先交代信号源，再明显介入解释真正重点",
+      "文章会主动降噪、做对比、做类比、排重要性或给大问题",
+      "结尾通常落在为什么重要、有什么风险、应该怎么看",
+      "作者经常以我替你看过、我带着困惑去拆、真正该注意的是 这类姿态出现"
+    ],
+    "weak_signals": [
+      "标题常出现为什么这么火、揭秘、始末、真正代价、意味着什么",
+      "文章会穿插引语、时间线、类比、白话解释",
+      "作者会保留人物或事件张力，而不是单纯摘要"
+    ],
+    "disqualifiers": [
+      "只有信息搬运，没有解码动作",
+      "只有摘要，没有作者自己的重组和排序",
+      "把复杂来源磨成平滑中学读书笔记",
+      "只有态度，没有证据链和来源重量"
+    ],
+    "routing_questions": [
+      "这篇内容依赖的外部来源是什么？",
+      "作者到底在解什么，而不是在重复什么？",
+      "张力来自来源本身，还是来自作者的重建动作？",
+      "读者读完后，是更懂了，还是只是被喂了一份摘要？"
+    ]
+  },
+  "structure": {
+    "hidden_skeleton": [
+      "Signal source / why this is worth decoding",
+      "What was said or what happened",
+      "What the real point is",
+      "Reasoning, comparison, or narrative evidence",
+      "Why it matters / risk / implication",
+      "Reader repositioning"
+    ],
+    "visible_template_bans": [
+      "不得写成某某说了什么，我总结三点，最后说这意味着什么",
+      "不得把复杂材料平铺成摘要模板",
+      "不得只有引语和信息，没有作者重组动作",
+      "不得把人物或事件重量磨成流水账",
+      "不得只做资料搬运，不做重要性排序"
+    ],
+    "allowed_surface_moves": [
+      "先从震撼数字、反常识结论或场景开局",
+      "先给读者一个大问题，再倒回去拆源头材料",
+      "用人物故事、论文结构、行业比较、风险清单承载解码",
+      "先抛作者结论，再逐步证明为什么这样判断",
+      "允许 source_type 与 decode_target 决定表面形态"
+    ],
+    "forbidden_surface_moves": [
+      "每篇都写成摘要排版模板",
+      "每篇都把外部材料切成平行三点总结",
+      "对话蒸馏写成逐段采访纪要",
+      "论文解读写成无门槛但也无判断的百科摘要",
+      "只堆金句，不建脉络"
+    ],
+    "parameter_axes": [
+      {
+        "axis": "source_type",
+        "values": [
+          "paper_or_framework",
+          "interview_or_podcast",
+          "hot_project_or_event"
+        ]
+      },
+      {
+        "axis": "decode_target",
+        "values": [
+          "core_thesis",
+          "mental_model",
+          "why_now",
+          "industry_implication"
+        ]
+      },
+      {
+        "axis": "proof_mode",
+        "values": [
+          "mechanism_explanation",
+          "comparison",
+          "narrative_scenes",
+          "quotes_and_timeline"
+        ]
+      },
+      {
+        "axis": "reader_payoff",
+        "values": [
+          "understand_faster",
+          "know_what_matters",
+          "know_how_to_explain_it_to_others"
+        ]
+      }
+    ],
+    "submodes": [
+      {
+        "submode_id": "signal_decode",
+        "label": "外部信号解码",
+        "summary": "从论文、框架文章、现象级项目、行业事件或人物动作中提炼出更清晰的到底发生了什么、为什么重要。",
+        "use_when": [
+          "source 是论文、框架文章、热项目、行业事件或人物动作",
+          "作者主要在解释热度、创新点、差异点、风险和影响",
+          "正文依赖白话机制解释、对比、类比、时间线或风险说明"
+        ],
+        "avoid_when": [
+          "文章主要在重建一场对话的人物弧线和行业重量",
+          "文章没有明确外部信号，只是作者自己的观点文",
+          "正文没有真正降噪和重组"
+        ],
+        "source_fit": [
+          "paper_or_framework",
+          "hot_project_or_event",
+          "名人点赞 / 公开动作带来的二次解码"
+        ],
+        "source_unfit": [
+          "逐字播客纪要",
+          "没有机制解释的热度搬运",
+          "只有情绪没有原材料的评论"
+        ],
+        "hidden_flow": [
+          "Signal hook or big question",
+          "Plain-language framing",
+          "Core mechanism or cause chain",
+          "Comparison or contrast",
+          "Implication / risk / what to watch"
+        ],
+        "hook_patterns": [
+          "为什么会这么火？",
+          "马斯克点赞到底说明了什么",
+          "我带着困惑把论文读了一遍",
+          "捅破了...潜规则"
+        ],
+        "evidence_mix": [
+          "时间线或热度信号",
+          "白话机制解释",
+          "对比组",
+          "类比",
+          "数据或引用",
+          "风险和边界"
+        ],
+        "reasoning_moves": [
+          "先把复杂材料降噪",
+          "主动提问再回答",
+          "用类比把技术或抽象观点讲人话",
+          "既做信息翻译，也做重要性排序"
+        ],
+        "rewrite_formula": "外部信号 -> 白话重述 -> 真正核心 -> 对比或推理 -> 影响与边界",
+        "surface_forms": [
+          "大问题标题",
+          "白话解释",
+          "old vs new 对照",
+          "时间线",
+          "类比",
+          "意义段 / 风险段"
+        ],
+        "anti_patterns": [
+          "只有翻译，没有判断",
+          "只有态度，没有机制",
+          "只会说这很重要，说不出为什么",
+          "整篇像论文摘要或新闻转载"
+        ],
+        "style_profile_id": "03_signal_decode_style",
+        "sample_ids": [
+          "2033441957985280451",
+          "2033806716492538155",
+          "2033749685106839903",
+          "2033573236240466178"
+        ]
+      },
+      {
+        "submode_id": "conversation_distillation",
+        "label": "对话蒸馏",
+        "summary": "从播客、访谈、深度采访里抽出人物、世界观、代价、方法论和行业判断，而不是做逐字转写。",
+        "use_when": [
+          "source 是播客、访谈、人物对谈或深度采访",
+          "作者重点在重建人物和行业意义，而不是列采访重点",
+          "正文依赖场景、关键引语、时间线、转折事件和作者提炼"
+        ],
+        "avoid_when": [
+          "来源更像论文、项目、事件而不是对话",
+          "正文只有金句摘录，没有结构化蒸馏",
+          "人物故事和行业意义彼此脱节"
+        ],
+        "source_fit": [
+          "interview_or_podcast",
+          "深度人物对谈",
+          "重大行业对话"
+        ],
+        "source_unfit": [
+          "逐字采访纪要",
+          "只有人物小传没有行业判断",
+          "没有引语和场景的抽象总结"
+        ],
+        "hidden_flow": [
+          "Why this conversation matters",
+          "Scene, guest, or turning point",
+          "Extracted worldview or thesis",
+          "Quotes, beats, or timeline evidence",
+          "What this says about the person or industry",
+          "Resonant close"
+        ],
+        "hook_patterns": [
+          "罕见地坐在被采访席上",
+          "真实代价",
+          "最黑暗的十年正在到来",
+          "一笔改写历史的收购"
+        ],
+        "evidence_mix": [
+          "人物背景",
+          "对话场景",
+          "关键引语",
+          "转折事件",
+          "年份、金额、估值、时间线",
+          "作者提炼后的行业判断"
+        ],
+        "reasoning_moves": [
+          "先搭人物或事件舞台",
+          "不是流水账，而是抽人物与行业的底层逻辑",
+          "引语服务于脉络，而不是素材拼贴",
+          "结尾留下一句带余味的判断"
+        ],
+        "rewrite_formula": "对话价值 -> 人物或事件场景 -> 核心信念 -> 关键引语与转折 -> 行业或方法论意义 -> 余味收束",
+        "surface_forms": [
+          "人物小传",
+          "关键场景",
+          "转折事件",
+          "章节式蒸馏",
+          "引语穿插"
+        ],
+        "anti_patterns": [
+          "写成逐段采访纪要",
+          "只摘金句，不搭结构",
+          "只讲故事，不抽观点",
+          "人物故事和行业意义彼此脱节"
+        ],
+        "style_profile_id": "03_conversation_distillation_style",
+        "sample_ids": [
+          "2033365853140595122",
+          "2033560336859799814"
+        ]
+      }
+    ]
+  },
+  "style": {
+    "global_style_principles": [
+      "共同目标不是抄笔记，而是替读者重建理解路径",
+      "开头往往先抓张力，而不是先交代来源",
+      "中段必须靠解释、比较、引语或叙事撑住",
+      "作者必须明显介入，告诉读者真正该注意的点",
+      "必须走 隐式解码逻辑 + 来源重量 / 子模式语感，而不是摘要模板"
+    ],
+    "global_anti_ai_rules": [
+      "避免把正文写成平滑摘要器口吻",
+      "避免平铺三点总结",
+      "避免把复杂来源磨成没有张力的读书笔记",
+      "避免引语像素材拼贴，没有叙事牵引",
+      "避免类比太工整，看起来像自动生成",
+      "允许作者介入、排序、对比和重命名，但必须忠于来源重量"
+    ],
+    "submode_profiles": [
+      {
+        "style_profile_id": "03_signal_decode_style",
+        "submode_id": "signal_decode",
+        "tone_core": "像一个已经替你把原材料看过一遍的人，在告诉你真正值得理解的部分，有解释欲，也有明显判断。",
+        "opening_moves": [
+          "先抛一个大问题",
+          "先抓外部热度或名人动作，再倒回内容本身",
+          "先承认自己也有困惑，再带着读者一起拆",
+          "先立一个大框架，再往里填具体层级"
+        ],
+        "sentence_rhythm": [
+          "问句很多",
+          "冒号、破折号、括号、编号常见",
+          "解释段和判断段交替出现",
+          "越技术的样本越依赖类比把节奏压顺"
+        ],
+        "surface_forms": [
+          "大问题标题",
+          "先简单解释一下",
+          "old vs new 对照",
+          "时间线",
+          "白话类比",
+          "风险段 / 意义段"
+        ],
+        "language_moves": [
+          "先快速回顾一下",
+          "简单说",
+          "注意到了吧？",
+          "为什么这很重要",
+          "想想看",
+          "结论是"
+        ],
+        "keep": [
+          "解码姿态",
+          "关键对比",
+          "复杂材料的人话翻译",
+          "最后的重要性排序"
+        ],
+        "avoid": [
+          "过长背景铺垫",
+          "滥用抽象术语制造专业感",
+          "明明有冲突，最后却写得平平无奇",
+          "把结构写成摘要模板"
+        ],
+        "ai_smells": [
+          "教科书摘要",
+          "只有概念，没有张力",
+          "类比太工整像自动生成",
+          "下面是总结这种元话语"
+        ],
+        "one_sentence_portrait": "像一个看过原材料、消化过里面弯弯绕的人，替你把真正该带走的理解路径重新铺出来。"
+      },
+      {
+        "style_profile_id": "03_conversation_distillation_style",
+        "submode_id": "conversation_distillation",
+        "tone_core": "像一篇带判断的人物或行业特稿，不满足于摘采访重点，而是要把人物与行业放进完整叙事里。",
+        "opening_moves": [
+          "先给一个结果或巨型事件",
+          "先搭一个访谈场景或人物反差",
+          "先用一句话概括这场对话真正刺中的命题"
+        ],
+        "sentence_rhythm": [
+          "场景段和总结段切换明显",
+          "问句和引语都多",
+          "标题小节推进感强",
+          "通常有节奏性的转场"
+        ],
+        "surface_forms": [
+          "人物小传",
+          "关键场景",
+          "转折事件",
+          "章节式蒸馏",
+          "引语穿插",
+          "余味收束"
+        ],
+        "language_moves": [
+          "这次，他罕见地...",
+          "真正让他失眠的，是...",
+          "话题回到...",
+          "他总结说...",
+          "最后被问到..."
+        ],
+        "keep": [
+          "人物或事件张力",
+          "关键引语",
+          "结构化蒸馏",
+          "结尾的判断余味"
+        ],
+        "avoid": [
+          "逐条采访纪要",
+          "大段背景介绍",
+          "只堆金句，不建脉络",
+          "把人物稿写成方法论手册"
+        ],
+        "ai_smells": [
+          "引语像素材拼贴",
+          "人物故事和行业判断断开",
+          "结尾只会喊价值观口号",
+          "结构像采访提纲复写"
+        ],
+        "one_sentence_portrait": "像一个既听懂了整场对话、又知道哪几句最重的人，把人物、事件和行业意义重新剪成一篇有弧线的稿子。"
+      }
+    ]
+  },
+  "samples": {
+    "sample_count": 6,
+    "sample_refs": [
+      {
+        "sample_id": "2033441957985280451",
+        "title": "智能体工程的 8 个等级【译】",
+        "url": "https://x.com/dotey/status/2033441957985280451",
+        "author": "@dotey",
+        "submode_id": "signal_decode",
+        "why_it_matters": "典型 paper/framework 解码样本，不是硬翻译，而是把等级框架压成一条可理解的升级路径。",
+        "hook_move": "先立能力和实践之间有一道差距，再告诉读者这个差距是分 8 级逐步缩小的。",
+        "proof_mode": [
+          "框架翻译",
+          "分级解释",
+          "实践举例",
+          "来源引用"
+        ],
+        "reusable_parts": [
+          "不仅翻 level 名称，还讲清楚为什么重要",
+          "用你应该在意的原因建立阅读动机",
+          "在大框架里穿插具体工具和系统例子"
+        ],
+        "non_reusable_parts": [
+          "原作者等级定义",
+          "团队和工具案例"
+        ],
+        "style_cue": "翻译现成框架，但读起来不像生硬翻译，依赖解释性过渡和分级命名。"
+      },
+      {
+        "sample_id": "2033365853140595122",
+        "title": "从产品经理到120万订阅者，Lenny揭秘内容创业的真实代价",
+        "url": "https://x.com/PMbackttfuture/status/2033365853140595122",
+        "author": "@PMbackttfuture",
+        "submode_id": "conversation_distillation",
+        "why_it_matters": "人物特稿 + 播客蒸馏的标准样本，结果导入后很快切进真实代价和职业代价。",
+        "hook_move": "先用 120 万订阅的结果吸引注意，再立刻切进真实代价。",
+        "proof_mode": [
+          "场景化讲述",
+          "关键引语",
+          "人生转折点",
+          "作者总结"
+        ],
+        "reusable_parts": [
+          "先搭人物戏剧张力，再抽方法论",
+          "引语和叙述交替，避免变成流水账",
+          "结尾把人物困境升成普遍性命题"
+        ],
+        "non_reusable_parts": [
+          "Lenny / Michelle 私人经历",
+          "具体地点和事件"
+        ],
+        "style_cue": "像杂志人物稿和播客摘要的结合体，既有故事感，也有抽出来的创作洞察。"
+      },
+      {
+        "sample_id": "2033806716492538155",
+        "title": "OpenClaw 这只龙虾为什么会这么火？",
+        "url": "https://x.com/dotey/status/2033806716492538155",
+        "author": "@dotey",
+        "submode_id": "signal_decode",
+        "why_it_matters": "现象级项目解码样本，信息量很大，但核心是把热度背后的结构因果串起来。",
+        "hook_move": "用院士原话和一连串热度数据起手，先让读者接受这不是小圈子热度。",
+        "proof_mode": [
+          "热度和政策信号",
+          "产品类比",
+          "原因链拆解",
+          "生态说明",
+          "风险案例"
+        ],
+        "reusable_parts": [
+          "先解释它到底是什么",
+          "用类比拉开不同产品的位置",
+          "不只讲爆火原因，也讲风险"
+        ],
+        "non_reusable_parts": [
+          "OpenClaw 生态与补贴",
+          "具体安全案例",
+          "龙虾隐喻"
+        ],
+        "style_cue": "典型现象解码文，价值在于热度背后的结构因果，而不是堆信息。"
+      },
+      {
+        "sample_id": "2033749685106839903",
+        "title": "马斯克一波点赞给Kimi论文冲到了2百万阅读!",
+        "url": "https://x.com/karminski3/status/2033749685106839903",
+        "author": "@karminski3",
+        "submode_id": "signal_decode",
+        "why_it_matters": "典型论文解读样本，靠类比和背景补课拆低门槛，而不是展示自己很懂。",
+        "hook_move": "先用马斯克点赞制造热度入口，再承诺尽量不需要专业知识也能看懂。",
+        "proof_mode": [
+          "白话类比",
+          "基础知识补课",
+          "旧方案 vs 新方案",
+          "最终性能结果"
+        ],
+        "reusable_parts": [
+          "先补背景，再解释创新点",
+          "用具象类比替代术语堆砌",
+          "让读者知道为什么这是革命性的"
+        ],
+        "non_reusable_parts": [
+          "Attention Residuals 具体技术路线",
+          "Kimi / 马斯克 热度背景"
+        ],
+        "style_cue": "论文解读文靠的是把门槛拆低，所以口语和类比是关键资产。"
+      },
+      {
+        "sample_id": "2033560336859799814",
+        "title": "Wiz 320 亿收购始末 | 网络安全最黑暗的十年正在到来",
+        "url": "https://x.com/blackanger/status/2033560336859799814",
+        "author": "@blackanger",
+        "submode_id": "conversation_distillation",
+        "why_it_matters": "大事件 + 深度访谈的蒸馏样本，先用收购事件吸引注意，再回头解释人物和行业大判断。",
+        "hook_move": "先给出 Google 320 亿美元收购 Wiz 这个巨型事件，再回头解释关键人物和判断。",
+        "proof_mode": [
+          "时间线",
+          "人物背景",
+          "关键原则",
+          "行业判断",
+          "直接引语"
+        ],
+        "reusable_parts": [
+          "用大事件吸引读者，再引入访谈嘉宾",
+          "章节式蒸馏人物和行业观点",
+          "从人物哲学一路推到行业结构判断"
+        ],
+        "non_reusable_parts": [
+          "Wiz / CyberStarts 具体背景",
+          "收购细节"
+        ],
+        "style_cue": "像深度播客精华版，既要有人物戏，也要有行业结构感。"
+      },
+      {
+        "sample_id": "2033573236240466178",
+        "title": "马斯克惊叹！DeepSeek和Kimi先后出手，捅破了Transformer的「潜规则」！",
+        "url": "https://x.com/AlchainHust/status/2033573236240466178",
+        "author": "@AlchainHust",
+        "submode_id": "signal_decode",
+        "why_it_matters": "对比式论文解码样本，不是解释一篇论文，而是解释两套看似相近方案真正差在哪。",
+        "hook_move": "从马斯克发推和作者个人困惑开始，建立我也看不懂，所以我替你看的代入感。",
+        "proof_mode": [
+          "论文对比",
+          "白话类比",
+          "结构拆分",
+          "实验结果",
+          "行业意义"
+        ],
+        "reusable_parts": [
+          "解释两篇论文的差别，而不是各讲一遍",
+          "一层层把问题定义拉开",
+          "结尾从细节回到架构趋势"
+        ],
+        "non_reusable_parts": [
+          "AttnRes / mHC / 残差连接等技术细节",
+          "Kimi / DeepSeek 项目背景"
+        ],
+        "style_cue": "像对比式解码，关键在于把相似名词拆开，告诉读者差别到底在哪里。"
+      }
+    ],
+    "coverage_notes": "Current sample pool covers 6 reclassified examples and supports two stable submodes. Coverage is strongest for signal_decode and thinner but high-quality for conversation_distillation."
+  },
+  "execution_controls": {
+    "must_keep": [
+      "明确外部来源",
+      "真正的解码动作，而不是转述",
+      "来源张力或人物重量",
+      "作者自己的判断重建",
+      "重要性排序或读者重新定位"
+    ],
+    "must_avoid": [
+      "平滑摘要器口吻",
+      "三点总结模板",
+      "只有引语没有脉络",
+      "只有信息没有作者重组",
+      "把复杂来源磨成平庸读书笔记"
+    ],
+    "rewrite_failure_modes": [
+      "signal_decode 退化成新闻稿或论文摘要",
+      "conversation_distillation 退化成采访纪要",
+      "只摘金句，不搭脉络",
+      "有来源但没有真正的作者判断",
+      "有解释但没有保住来源的冲突和重量",
+      "结构清楚但像 AI 总结器"
+    ],
+    "quality_checks": [
+      "是否明确说明了外部信号源和它为什么值得看",
+      "是否完成了降噪、排序、解释或重组，而不是复述",
+      "是否保留了来源里的冲突、惊讶、稀缺信息或人物重量",
+      "是否通过类比、对比、引语、时间线或叙事把判断撑住",
+      "是否让读者知道真正重要的是什么、该怎么看",
+      "是否保留了对应子模式的表层语感，而不是统一摘要腔"
+    ],
+    "human_review_triggers": [
+      "source 同时像 03_opinion_decode 与 07_contrarian_take，难区分是在解码还是在替换框架",
+      "writer 输出后像摘要器，没有作者判断",
+      "conversation_distillation 没有场景、引语或人物重量",
+      "signal_decode 只有解释没有重要性排序",
+      "来源本身过长或多源混合，可能需要人工确认重心"
+    ]
+  }
+}

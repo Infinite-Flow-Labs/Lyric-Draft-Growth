@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-8cdcbd60247b",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2034941781453021666",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "微软发布AI绘画模型：MAI-Image-2 效果还不错，有推理能力，有美学，能写文字但是写汉字有时会出错。 在线使用：https://playground.microsoft.ai/chat",
+  "language": "unknown",
+  "published_at": "2026-03-20T10:35:02Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2034941781453021666",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2034941781453021666#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "微软发布AI绘画模型：MAI-Image-2 效果还不错，有推理能力，有美学，能写文字但是写汉字有时会出错。 在线使用： playground.microsoft.ai/chat",
+    "full_text": "Post title: 微软发布AI绘画模型：MAI-Image-2 效果还不错，有推理能力，有美学，能写文字但是写汉字有时会出错。 在线使用：https://playground.microsoft.ai/chat\n\nPost summary: 微软发布AI绘画模型：MAI-Image-2 效果还不错，有推理能力，有美学，能写文字但是写汉字有时会出错。 在线使用： playground.microsoft.ai/chat\n\nCanonical URL: https://x.com/Gorden_Sun/status/2034941781453021666",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "MAI",
+      "Image",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "微软发布AI绘画模型：MAI-Image-2 效果还不错，有推理能力，有美学，能写文字但是写汉字有时会出错。 在线使用：https://playground.microsoft.ai/chat",
+      "微软发布AI绘画模型：MAI-Image-2 效果还不错，有推理能力，有美学，能写文字但是写汉字有时会出错。 在线使用： playground.microsoft.ai/chat",
+      "MAI",
+      "Image",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

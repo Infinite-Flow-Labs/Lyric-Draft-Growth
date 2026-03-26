@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-f54b2207189c",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2036690130384408588",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "这才对，有趣和有用一样重要。不懂AI的用户多少对AI有些敬畏，但你跟用户说这是个能帮着做事的电脑宠物，就容易接受的多，而且也会更宽容。",
+  "language": "unknown",
+  "published_at": "2026-03-25T06:22:21Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2036690130384408588",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2036690130384408588#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "这才对，有趣和有用一样重要。不懂AI的用户多少对AI有些敬畏，但你跟用户说这是个能帮着做事的电脑宠物，就容易接受的多，而且也会更宽容。 Petclaw (@PetClaw_ai) What if your desktop pet actually worked for you? Not just a virtual pet. Not just a chatbot Secretary Designer Researcher Operator Whatever you need it becomes. Meet PetClaw 🐾 🎁Giveaway Follow + Comment \"petclaw\" below 500 people get early access. #PetclawBeta #PetClaw #AIagent #DesktopAI #FutureOfAI Video — https://nitter.net/PetClaw_ai/status/2036474920218316936#m",
+    "full_text": "Post title: 这才对，有趣和有用一样重要。不懂AI的用户多少对AI有些敬畏，但你跟用户说这是个能帮着做事的电脑宠物，就容易接受的多，而且也会更宽容。\n\nPost summary: 这才对，有趣和有用一样重要。不懂AI的用户多少对AI有些敬畏，但你跟用户说这是个能帮着做事的电脑宠物，就容易接受的多，而且也会更宽容。 Petclaw (@PetClaw_ai) What if your desktop pet actually worked for you? Not just a virtual pet. Not just a chatbot Secretary Designer Researcher Operator Whatever you need it becomes. Meet PetClaw 🐾 🎁Giveaway Follow + Comment \"petclaw\" below 500 people get early access. #PetclawBeta #PetClaw #AIagent #DesktopAI #FutureOfAI Video — https://nitter.net/PetClaw_ai/status/2036474920218316936#m\n\nCanonical URL: https://x.com/Gorden_Sun/status/2036690130384408588",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Petclaw",
+      "What",
+      "Not",
+      "Secretary Designer Researcher Operator",
+      "Whatever",
+      "Meet PetClaw",
+      "Giveaway Follow",
+      "Comment",
+      "PetclawBeta",
+      "PetClaw",
+      "AIagent",
+      "DesktopAI",
+      "FutureOfAI Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "这才对，有趣和有用一样重要。不懂AI的用户多少对AI有些敬畏，但你跟用户说这是个能帮着做事的电脑宠物，就容易接受的多，而且也会更宽容。",
+      "这才对，有趣和有用一样重要。不懂AI的用户多少对AI有些敬畏，但你跟用户说这是个能帮着做事的电脑宠物，就容易接受的多，而且也会更宽容。 Petclaw (@PetClaw_ai) What if your desktop pet actually worked for you? Not just a virtual pet. Not just a chatbot Secretary Designer Researcher Operator Whatever you need it becomes. Meet PetClaw 🐾 🎁Giveaway Follow + Comment \"petclaw\" below 500 people get early access. #PetclawBeta #PetClaw #AIagent #DesktopAI #FutureOfAI Video — https://nitter.net/PetClaw_ai/status/2036474920218316936#m",
+      "Petclaw",
+      "What",
+      "Not",
+      "Secretary Designer Researcher Operator",
+      "Whatever",
+      "Meet PetClaw",
+      "Giveaway Follow",
+      "Comment",
+      "PetclawBeta",
+      "PetClaw",
+      "AIagent",
+      "DesktopAI",
+      "FutureOfAI Video",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

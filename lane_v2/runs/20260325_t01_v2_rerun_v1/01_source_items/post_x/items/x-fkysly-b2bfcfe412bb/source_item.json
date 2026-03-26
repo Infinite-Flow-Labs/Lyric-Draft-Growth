@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-fkysly-b2bfcfe412bb",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/fkysly/status/2036124056790225209",
+  "author": {
+    "handle": "@fkysly",
+    "display_name": "fkysly",
+    "account_url": "https://x.com/fkysly"
+  },
+  "title": "一夜之间，因为 OpenClaw 龙虾的火热，或者也可以说 AI Agent 的席卷之势，国内各大厂商纷纷下场主动开放 API 开放 CLI。 在以前，可能想象不到，你能如此简单的，左手调 A 家 CLI，接着右手传递给 B 家 CLI。 而且这一切，不只是像以前所谓的“开放平台”，糊弄糊弄得了，是逼着抢着要争夺最牛逼 CLI 之位。 在海外互联网来说，这很自然。对于国内互联网来说，可能是终于迈向“现代化”的道路。 也不知道会因为 CLI 的爆发，对国内互联网产生什么样的巨大影响，走着看了",
+  "language": "unknown",
+  "published_at": "2026-03-23T16:52:59Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/fkysly/status/2036124056790225209",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/fkysly/status/2036124056790225209#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "一夜之间，因为 OpenClaw 龙虾的火热，或者也可以说 AI Agent 的席卷之势，国内各大厂商纷纷下场主动开放 API 开放 CLI。 在以前，可能想象不到，你能如此简单的，左手调 A 家 CLI，接着右手传递给 B 家 CLI。 而且这一切，不只是像以前所谓的“开放平台”，糊弄糊弄得了，是逼着抢着要争夺最牛逼 CLI 之位。 在海外互联网来说，这很自然。对于国内互联网来说，可能是终于迈向“现代化”的道路。 也不知道会因为 CLI 的爆发，对国内互联网产生什么样的巨大影响，走着看了",
+    "full_text": "Post title: 一夜之间，因为 OpenClaw 龙虾的火热，或者也可以说 AI Agent 的席卷之势，国内各大厂商纷纷下场主动开放 API 开放 CLI。 在以前，可能想象不到，你能如此简单的，左手调 A 家 CLI，接着右手传递给 B 家 CLI。 而且这一切，不只是像以前所谓的“开放平台”，糊弄糊弄得了，是逼着抢着要争夺最牛逼 CLI 之位。 在海外互联网来说，这很自然。对于国内互联网来说，可能是终于迈向“现代化”的道路。 也不知道会因为 CLI 的爆发，对国内互联网产生什么样的巨大影响，走着看了\n\nPost summary: 一夜之间，因为 OpenClaw 龙虾的火热，或者也可以说 AI Agent 的席卷之势，国内各大厂商纷纷下场主动开放 API 开放 CLI。 在以前，可能想象不到，你能如此简单的，左手调 A 家 CLI，接着右手传递给 B 家 CLI。 而且这一切，不只是像以前所谓的“开放平台”，糊弄糊弄得了，是逼着抢着要争夺最牛逼 CLI 之位。 在海外互联网来说，这很自然。对于国内互联网来说，可能是终于迈向“现代化”的道路。 也不知道会因为 CLI 的爆发，对国内互联网产生什么样的巨大影响，走着看了\n\nCanonical URL: https://x.com/fkysly/status/2036124056790225209",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "OpenClaw",
+      "AI Agent",
+      "API",
+      "CLI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "一夜之间，因为 OpenClaw 龙虾的火热，或者也可以说 AI Agent 的席卷之势，国内各大厂商纷纷下场主动开放 API 开放 CLI。 在以前，可能想象不到，你能如此简单的，左手调 A 家 CLI，接着右手传递给 B 家 CLI。 而且这一切，不只是像以前所谓的“开放平台”，糊弄糊弄得了，是逼着抢着要争夺最牛逼 CLI 之位。 在海外互联网来说，这很自然。对于国内互联网来说，可能是终于迈向“现代化”的道路。 也不知道会因为 CLI 的爆发，对国内互联网产生什么样的巨大影响，走着看了",
+      "OpenClaw",
+      "AI Agent",
+      "API",
+      "CLI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

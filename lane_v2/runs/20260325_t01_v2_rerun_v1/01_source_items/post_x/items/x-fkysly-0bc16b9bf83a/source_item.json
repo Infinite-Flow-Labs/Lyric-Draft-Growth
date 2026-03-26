@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-fkysly-0bc16b9bf83a",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/fkysly/status/2036437304965992594",
+  "author": {
+    "handle": "@fkysly",
+    "display_name": "fkysly",
+    "account_url": "https://x.com/fkysly"
+  },
+  "title": "多少？100倍？",
+  "language": "unknown",
+  "published_at": "2026-03-24T13:37:43Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/fkysly/status/2036437304965992594",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/fkysly/status/2036437304965992594#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "多少？100倍？ Cloudflare (@Cloudflare) We’re introducing Dynamic Workers, which allow you to execute AI-generated code in secure, lightweight isolates. This approach is 100 times faster than traditional containers. cfl.re/4c2NvPl — https://nitter.net/Cloudflare/status/2036429081214886183#m",
+    "full_text": "Post title: 多少？100倍？\n\nPost summary: 多少？100倍？ Cloudflare (@Cloudflare) We’re introducing Dynamic Workers, which allow you to execute AI-generated code in secure, lightweight isolates. This approach is 100 times faster than traditional containers. cfl.re/4c2NvPl — https://nitter.net/Cloudflare/status/2036429081214886183#m\n\nCanonical URL: https://x.com/fkysly/status/2036437304965992594",
+    "sections": [
+      "x_post",
+      "announcement"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [
+      "introducing"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "Cloudflare",
+      "We",
+      "Dynamic Workers",
+      "AI",
+      "This",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "release"
+    ],
+    "fact_anchors": [
+      "多少？100倍？",
+      "多少？100倍？ Cloudflare (@Cloudflare) We’re introducing Dynamic Workers, which allow you to execute AI-generated code in secure, lightweight isolates. This approach is 100 times faster than traditional containers. cfl.re/4c2NvPl — https://nitter.net/Cloudflare/status/2036429081214886183#m",
+      "introducing",
+      "Cloudflare",
+      "We",
+      "Dynamic Workers",
+      "AI",
+      "This",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

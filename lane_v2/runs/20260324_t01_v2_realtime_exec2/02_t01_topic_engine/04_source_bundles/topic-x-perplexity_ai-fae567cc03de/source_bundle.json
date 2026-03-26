@@ -1,0 +1,105 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-perplexity_ai-fae567cc03de",
+  "lane_id": "T06_capability_delivery",
+  "framework_id": "06_checklist_template",
+  "submode_id": "workflow_architecture",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-perplexity_ai-fae567cc03de",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+      "title": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser.",
+      "published_at": "2026-03-17T16:43:03Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-perplexity_ai-fae567cc03de/source_item.json"
+    },
+    {
+      "signal_id": "x-googledeepmind-2ac914f175fb",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/GoogleDeepMind/status/2034014385941975298",
+      "title": "Pinned: How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. 🛠️ We’re launching a global hackathon with @Kaggle to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test. Join the challenge → https://goo.gle/4uqOVKK",
+      "published_at": "2026-03-17T21:09:54Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-googledeepmind-2ac914f175fb/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-ai_jasonyu-236df61fae62",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/AI_Jasonyu/status/2035687356104102330",
+      "title": "Claude最近又在大封杀，朋友的中转站一批能给封几百个。 大家一直也都在找封号原因，网上总结的原因很多。 我之前也给大家分享过这篇防封号的文章，目前我的新账号过了半个月，依然是稳定使用的。方法如下👇👇👇 我认为除了上次我讲的住宅IP+指纹浏览器+U卡，老的账号天然自带权重，我23年的时候开通的这个，直到现在都是稳定的。 然后上次注册的新号就是使用的住宅IP+指纹浏览器的组合，也很稳定，不过这个新账号使用的邮箱是老邮箱，我建议后续大家开通新账号的时候，最好去买一个老的Gmail邮箱，配合我分享的方法，能很大概率防止封号，起码网页端使用是几乎不会的。 如果使用Claude Code，一定要把“虚拟网卡”模式打开，或者配置好本地的规则。 住宅IP推荐大家使用这个（国内直连）：https://www.equaldcdn.com/?ref=8b0ecd560d 指纹浏览器推荐AdsPower：https://www.adspower.net/share/launch 付款卡，推荐大家使用：Bitget Wallet",
+      "published_at": "2026-03-22T11:57:41Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items/x-ai_jasonyu-236df61fae62/source_item.json"
+    },
+    {
+      "signal_id": "x-mistralai-7e47f9cf94f3",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/MistralAI/status/2034012031599427825",
+      "title": "Today, we’re introducing Forge, a system for enterprises to build frontier-grade AI models grounded in their proprietary knowledge. 🌎 Forge bridges the gap between generic AI and enterprise-specific needs. Instead of relying on broad, public data, organizations can train models that understand their internal context embedded within systems, workflows, and policies, aligning AI with their unique operations. We have already partnered with world-leading organizations, like ASML, DSO National Laboratories Singapore, Ericsson, European Space Agency, Home Team Science and Technology Agency (HTX) Singapore and Reply to train models on the proprietary data that powers their most complex systems and future-defining technologies.",
+      "published_at": "2026-03-17T21:00:33Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/official_x/items/x-mistralai-7e47f9cf94f3/source_item.json"
+    },
+    {
+      "signal_id": "x-ai_for_success-e543442cad68",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ai_for_success/status/2036150255650218333",
+      "title": "Luma just launched its new image model, Uni-1. I had early access and have been using it for the last few days. It’s extremely powerful. It works really well with text and reference images. But what impressed me most is its text-to-image quality. I ran some of my best prompts, and it nailed almost every single one. Here are a few examples 1/2 Reference image outputs",
+      "published_at": "2026-03-23T18:37:05Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/post_x/items/x-ai_for_success-e543442cad68/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser.",
+      "source_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+      "signal_id": "x-perplexity_ai-fae567cc03de"
+    },
+    {
+      "claim": "Today we're launching Comet Enterprise. Now, the most powerful AI browser is available to enterprise teams. Research, automate tasks, and get work done without leaving the browser. Video",
+      "source_url": "https://x.com/perplexity_ai/status/2033947232467357874",
+      "signal_id": "x-perplexity_ai-fae567cc03de"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 2,
+    "fact_anchors_min": 8,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": true
+  },
+  "coverage_checks": {
+    "has_release_action": true,
+    "has_delta_detail": false,
+    "has_user_impact": true,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": true,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": false
+  },
+  "ready_for_writer": false
+}

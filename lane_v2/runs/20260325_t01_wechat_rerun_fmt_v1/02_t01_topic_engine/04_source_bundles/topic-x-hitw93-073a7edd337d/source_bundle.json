@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-hitw93-073a7edd337d",
+  "lane_id": "T08_signal_to_action",
+  "framework_id": "08_signal_to_action",
+  "submode_id": "market_window_playbook",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-hitw93-073a7edd337d",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "title": "4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents.",
+      "published_at": "2026-03-23T23:47:01Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-hitw93-073a7edd337d/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-evilcos-f6fa86459441",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/evilcos/status/2036636272777920646",
+      "title": "SlowMist Agent Security Skill v0.1.2发布，优化模版报告输出样式，更简约清晰： https://clawhub.ai/slowmist/slowmist-agent-security https://github.com/slowmist/slowmist-agent-security 顺便解释下，月初我们发布的“OpenClaw极简安全实践指南.md”是给 OpenClaw 做的安全思想钢印，覆盖安全的事前、事中、事后部分： https://github.com/slowmist/openclaw-security-practice-guide 而，“SlowMist Agent Security Skill”是针对性增强了安全的事前能力，也就是安全检测能力增强了。 两者不冲突，是互补关系，一个是思想钢印（大脑），一个是 Skill（手脚）。",
+      "published_at": "2026-03-25T02:48:20Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-evilcos-f6fa86459441/source_item.json"
+    },
+    {
+      "signal_id": "x-ai_for_success-e0f28991fb77",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ai_for_success/status/2036480035612418157",
+      "title": "Local data storage and open-source foundation in a desktop AI agent that also connects to WhatsApp and Telegram is a combination you don't see very often. PetClaw is built on OpenClaw but removes the part that most people give up on, which is the complex setup. One click and you have a working AI agent on your desktop, no configuration required. Interesting direction for anyone who wants a persistent AI assistant without touching a cloud service. Sponsored",
+      "published_at": "2026-03-24T16:27:31Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-ai_for_success-e0f28991fb77/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents.",
+      "source_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "signal_id": "x-hitw93-073a7edd337d"
+    },
+    {
+      "claim": "4k likes in Chinese, here is the English version. Agents get reliable from engineering, not new loops. Covers harness, context, tools, memory, evaluation, and OpenClaw. Worth a read if you are building Agents. Tw93 (@HiTw93) x.com/i/article/203524389747… — https://nitter.net/HiTw93/status/2035527178419683540#m",
+      "source_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "signal_id": "x-hitw93-073a7edd337d"
+    },
+    {
+      "claim": "4k likes in Chinese, here is the English version",
+      "source_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "signal_id": "x-hitw93-073a7edd337d"
+    },
+    {
+      "claim": "Agents get reliable from engineering, not new loops",
+      "source_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "signal_id": "x-hitw93-073a7edd337d"
+    },
+    {
+      "claim": "Covers harness, context, tools, memory, evaluation, and OpenClaw",
+      "source_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "signal_id": "x-hitw93-073a7edd337d"
+    },
+    {
+      "claim": "Worth a read if you are building Agents",
+      "source_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "signal_id": "x-hitw93-073a7edd337d"
+    },
+    {
+      "claim": "Tw93 (@HiTw93) x.com/i/article/203524389747… — https://nitter.net/HiTw93/status/2035527178419683540#m Post title: 4k likes in Chinese, here is the English version",
+      "source_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "signal_id": "x-hitw93-073a7edd337d"
+    },
+    {
+      "claim": "Tw93 (@HiTw93) x.com/i/article/203524389747… — https://nitter.net/HiTw93/status/2035527178419683540#m Canonical URL: https://x.com/HiTw93/status/2036228251459395814",
+      "source_url": "https://x.com/HiTw93/status/2036228251459395814",
+      "signal_id": "x-hitw93-073a7edd337d"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 2,
+    "fact_anchors_min": 7,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": true,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": false,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

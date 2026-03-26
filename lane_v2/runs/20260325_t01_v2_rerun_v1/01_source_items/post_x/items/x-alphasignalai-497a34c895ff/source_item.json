@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-alphasignalai-497a34c895ff",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/AlphaSignalAI/status/2036413064426242093",
+  "author": {
+    "handle": "@AlphaSignalAI",
+    "display_name": "AlphaSignalAI",
+    "account_url": "https://x.com/AlphaSignalAI"
+  },
+  "title": "A repo just turned AI coding agents into real engineers. Most people fire up Claude Code or Codex and let it go. The agent guesses what you want. It skips tests and produces spaghetti code. A GitHub repo called Superpowers fixes that. It forces a strict workflow on your agent: > Brainstorm with you first > Builds a detailed implementation plan > Fresh subagents handle each task > Two-stage review after every task > Test-driven development is mandatory Before any code exists, a failing test must. Code written before tests gets deleted. The agent works autonomously for hours. No prompting tricks are needed. Install it and the skills activate automatically. Works with Claude Code, Codex, and OpenCode. This is not a prompt template. It's an operating system for AI-assisted development. 40.9K GitHub stars. Fully open-source.",
+  "language": "unknown",
+  "published_at": "2026-03-24T12:01:23Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/AlphaSignalAI/status/2036413064426242093",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/AlphaSignalAI/status/2036413064426242093#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "A repo just turned AI coding agents into real engineers. Most people fire up Claude Code or Codex and let it go. The agent guesses what you want. It skips tests and produces spaghetti code. A GitHub repo called Superpowers fixes that. It forces a strict workflow on your agent: &gt; Brainstorm with you first &gt; Builds a detailed implementation plan &gt; Fresh subagents handle each task &gt; Two-stage review after every task &gt; Test-driven development is mandatory Before any code exists, a failing test must. Code written before tests gets deleted. The agent works autonomously for hours. No prompting tricks are needed. Install it and the skills activate automatically. Works with Claude Code, Codex, and OpenCode. This is not a prompt template. It's an operating system for AI-assisted development. 40.9K GitHub stars. Fully open-source.",
+    "full_text": "Post title: A repo just turned AI coding agents into real engineers. Most people fire up Claude Code or Codex and let it go. The agent guesses what you want. It skips tests and produces spaghetti code. A GitHub repo called Superpowers fixes that. It forces a strict workflow on your agent: > Brainstorm with you first > Builds a detailed implementation plan > Fresh subagents handle each task > Two-stage review after every task > Test-driven development is mandatory Before any code exists, a failing test must. Code written before tests gets deleted. The agent works autonomously for hours. No prompting tricks are needed. Install it and the skills activate automatically. Works with Claude Code, Codex, and OpenCode. This is not a prompt template. It's an operating system for AI-assisted development. 40.9K GitHub stars. Fully open-source.\n\nPost summary: A repo just turned AI coding agents into real engineers. Most people fire up Claude Code or Codex and let it go. The agent guesses what you want. It skips tests and produces spaghetti code. A GitHub repo called Superpowers fixes that. It forces a strict workflow on your agent: &gt; Brainstorm with you first &gt; Builds a detailed implementation plan &gt; Fresh subagents handle each task &gt; Two-stage review after every task &gt; Test-driven development is mandatory Before any code exists, a failing test must. Code written before tests gets deleted. The agent works autonomously for hours. No prompting tricks are needed. Install it and the skills activate automatically. Works with Claude Code, Codex, and OpenCode. This is not a prompt template. It's an operating system for AI-assisted development. 40.9K GitHub stars. Fully open-source.\n\nCanonical URL: https://x.com/AlphaSignalAI/status/2036413064426242093",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "40.9K"
+    ],
+    "named_entities": [
+      "AI",
+      "Most",
+      "Claude Code",
+      "Codex",
+      "It",
+      "GitHub",
+      "Superpowers",
+      "Brainstorm",
+      "Builds",
+      "Fresh",
+      "Two",
+      "Test",
+      "Before",
+      "Code",
+      "No",
+      "Install",
+      "Works",
+      "OpenCode",
+      "This",
+      "Fully",
+      "Post",
+      "Canonical URL",
+      "AlphaSignalAI"
+    ],
+    "task_hints": [
+      "workflow"
+    ],
+    "fact_anchors": [
+      "A repo just turned AI coding agents into real engineers. Most people fire up Claude Code or Codex and let it go. The agent guesses what you want. It skips tests and produces spaghetti code. A GitHub repo called Superpowers fixes that. It forces a strict workflow on your agent: > Brainstorm with you first > Builds a detailed implementation plan > Fresh subagents handle each task > Two-stage review after every task > Test-driven development is mandatory Before any code exists, a failing test must. Code written before tests gets deleted. The agent works autonomously for hours. No prompting tricks are needed. Install it and the skills activate automatically. Works with Claude Code, Codex, and OpenCode. This is not a prompt template. It's an operating system for AI-assisted development. 40.9K GitHub stars. Fully open-source.",
+      "A repo just turned AI coding agents into real engineers. Most people fire up Claude Code or Codex and let it go. The agent guesses what you want. It skips tests and produces spaghetti code. A GitHub repo called Superpowers fixes that. It forces a strict workflow on your agent: &gt; Brainstorm with you first &gt; Builds a detailed implementation plan &gt; Fresh subagents handle each task &gt; Two-stage review after every task &gt; Test-driven development is mandatory Before any code exists, a failing test must. Code written before tests gets deleted. The agent works autonomously for hours. No prompting tricks are needed. Install it and the skills activate automatically. Works with Claude Code, Codex, and OpenCode. This is not a prompt template. It's an operating system for AI-assisted development. 40.9K GitHub stars. Fully open-source.",
+      "40.9K",
+      "AI",
+      "Most",
+      "Claude Code",
+      "Codex",
+      "It",
+      "GitHub",
+      "Superpowers",
+      "Brainstorm",
+      "Builds",
+      "Fresh",
+      "Two",
+      "Test",
+      "Before",
+      "Code",
+      "No",
+      "Install"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

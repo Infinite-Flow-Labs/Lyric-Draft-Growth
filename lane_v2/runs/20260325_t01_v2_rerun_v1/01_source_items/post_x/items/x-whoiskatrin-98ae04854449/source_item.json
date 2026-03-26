@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-whoiskatrin-98ae04854449",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/whoiskatrin/status/2036383795893461444",
+  "author": {
+    "handle": "@whoiskatrin",
+    "display_name": "whoiskatrin",
+    "account_url": "https://x.com/whoiskatrin"
+  },
+  "title": "a wild milestone to wake up to! Agents SDK just smashed past 500k downloads ❤️ there’s really no better feeling than watching something the team has poured so much into take off like this huge thanks to everyone building with it, stress-testing it, and pushing it in directions we didn’t expect let's build more agents!",
+  "language": "unknown",
+  "published_at": "2026-03-24T10:05:05Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/whoiskatrin/status/2036383795893461444",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/whoiskatrin/status/2036383795893461444#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "a wild milestone to wake up to! Agents SDK just smashed past 500k downloads ❤️ there’s really no better feeling than watching something the team has poured so much into take off like this huge thanks to everyone building with it, stress-testing it, and pushing it in directions we didn’t expect let's build more agents!",
+    "full_text": "Post title: a wild milestone to wake up to! Agents SDK just smashed past 500k downloads ❤️ there’s really no better feeling than watching something the team has poured so much into take off like this huge thanks to everyone building with it, stress-testing it, and pushing it in directions we didn’t expect let's build more agents!\n\nPost summary: a wild milestone to wake up to! Agents SDK just smashed past 500k downloads ❤️ there’s really no better feeling than watching something the team has poured so much into take off like this huge thanks to everyone building with it, stress-testing it, and pushing it in directions we didn’t expect let's build more agents!\n\nCanonical URL: https://x.com/whoiskatrin/status/2036383795893461444",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "500k"
+    ],
+    "named_entities": [
+      "Agents SDK",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "a wild milestone to wake up to! Agents SDK just smashed past 500k downloads ❤️ there’s really no better feeling than watching something the team has poured so much into take off like this huge thanks to everyone building with it, stress-testing it, and pushing it in directions we didn’t expect let's build more agents!",
+      "500k",
+      "Agents SDK",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

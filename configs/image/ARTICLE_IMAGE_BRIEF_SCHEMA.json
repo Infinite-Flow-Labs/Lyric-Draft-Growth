@@ -1,0 +1,285 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://growth-engine.local/article-image-brief.schema.json",
+  "title": "ArticleImageBrief",
+  "description": "Unified image brief contract for one X Article cover image plus inline images.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "article_ref",
+    "style_profile_id",
+    "output_language",
+    "global_visual_rules",
+    "cover_image",
+    "inline_images"
+  ],
+  "$defs": {
+    "non_empty_string": {
+      "type": "string",
+      "minLength": 1
+    },
+    "string_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/non_empty_string"
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "background",
+        "primary_accents",
+        "linework"
+      ],
+      "properties": {
+        "background": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "primary_accents": {
+          "$ref": "#/$defs/string_list"
+        },
+        "linework": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "secondary_neutrals": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "aspect_ratio",
+        "layout_pattern"
+      ],
+      "properties": {
+        "aspect_ratio": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "layout_pattern": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "text_position": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "diagram_focus": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    },
+    "text_overlay": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "headline"
+      ],
+      "properties": {
+        "headline": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "subheadline": {
+          "type": "string"
+        },
+        "short_labels": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    },
+    "image_brief": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "image_id",
+        "role",
+        "purpose",
+        "diagram_type",
+        "concept_summary",
+        "scene_elements",
+        "on_canvas_text",
+        "composition",
+        "visual_constraints",
+        "negative_constraints"
+      ],
+      "properties": {
+        "image_id": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "cover",
+            "inline"
+          ]
+        },
+        "purpose": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "image_grammar": {
+          "type": "string",
+          "enum": [
+            "hook_cover",
+            "framework_map",
+            "concept_cluster",
+            "example_comparison",
+            "skip_board",
+            "decision_board",
+            "workflow_map",
+            "evolution_map",
+            "section_reset"
+          ]
+        },
+        "diagram_type": {
+          "type": "string",
+          "enum": [
+            "quadrant_map",
+            "stage_evolution",
+            "workflow_map",
+            "comparison_board",
+            "system_stack",
+            "timeline",
+            "file_artifact_map",
+            "example_breakdown",
+            "section_reset_diagram",
+            "other"
+          ]
+        },
+        "concept_summary": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "section_ref": {
+          "type": "string"
+        },
+        "placement_rule": {
+          "type": "string"
+        },
+        "reference_image_urls": {
+          "$ref": "#/$defs/string_list"
+        },
+        "scene_elements": {
+          "$ref": "#/$defs/string_list"
+        },
+        "key_relationships": {
+          "$ref": "#/$defs/string_list"
+        },
+        "on_canvas_text": {
+          "$ref": "#/$defs/text_overlay"
+        },
+        "composition": {
+          "$ref": "#/$defs/composition"
+        },
+        "visual_constraints": {
+          "$ref": "#/$defs/string_list"
+        },
+        "negative_constraints": {
+          "$ref": "#/$defs/string_list"
+        },
+        "generation_prefs": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "aspect_ratio": {
+              "type": "string"
+            },
+            "resolution": {
+              "type": "string",
+              "enum": [
+                "1K",
+                "2K",
+                "4K"
+              ]
+            },
+            "output_format": {
+              "type": "string",
+              "enum": [
+                "png",
+                "jpg"
+              ]
+            }
+          }
+        },
+        "text_budget": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "max_text_blocks": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "headline_max_chars": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "subheadline_max_chars": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "label_max_chars": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "max_labels": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "prompt_seed": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "article_ref": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "source_ref": {
+      "type": "string"
+    },
+    "style_profile_id": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "output_language": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "global_visual_rules": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "style_direction",
+        "palette",
+        "must_have",
+        "must_avoid"
+      ],
+      "properties": {
+        "style_direction": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "palette": {
+          "$ref": "#/$defs/palette"
+        },
+        "must_have": {
+          "$ref": "#/$defs/string_list"
+        },
+        "must_avoid": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    },
+    "cover_image": {
+      "$ref": "#/$defs/image_brief"
+    },
+    "inline_images": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/image_brief"
+      }
+    }
+  }
+}

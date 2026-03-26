@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-svpino-9ae8cf20e599",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/svpino/status/2035705567998841280",
+  "author": {
+    "handle": "@svpino",
+    "display_name": "svpino",
+    "account_url": "https://x.com/svpino"
+  },
+  "title": "Agentic coding without a plan is just vibe-coding with extra steps.",
+  "language": "unknown",
+  "published_at": "2026-03-22T13:10:03Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/svpino/status/2035705567998841280",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/svpino/status/2035705567998841280#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Agentic coding without a plan is just vibe-coding with extra steps.",
+    "full_text": "Post title: Agentic coding without a plan is just vibe-coding with extra steps.\n\nPost summary: Agentic coding without a plan is just vibe-coding with extra steps.\n\nCanonical URL: https://x.com/svpino/status/2035705567998841280",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Agentic",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [
+      "workflow"
+    ],
+    "fact_anchors": [
+      "Agentic coding without a plan is just vibe-coding with extra steps.",
+      "Agentic",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

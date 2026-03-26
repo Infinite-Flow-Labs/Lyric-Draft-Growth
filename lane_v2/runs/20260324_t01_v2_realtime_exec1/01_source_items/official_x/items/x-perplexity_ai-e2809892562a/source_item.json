@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-perplexity_ai-e2809892562a",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/perplexity_ai/status/2034668608375382346",
+  "author": {
+    "handle": "@perplexity_ai",
+    "display_name": "Perplexity",
+    "account_url": "https://x.com/perplexity_ai"
+  },
+  "title": "Perplexity Computer now connects to your health apps, wearable devices, lab results, and medical records. Build personalized tools and applications with your health data, or track everything in your health dashboard.",
+  "language": "unknown",
+  "published_at": "2026-03-19T16:29:33Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/perplexity_ai/status/2034668608375382346",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/perplexity_ai/status/2034668608375382346#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Perplexity Computer now connects to your health apps, wearable devices, lab results, and medical records. Build personalized tools and applications with your health data, or track everything in your health dashboard. Video",
+    "full_text": "Post title: Perplexity Computer now connects to your health apps, wearable devices, lab results, and medical records. Build personalized tools and applications with your health data, or track everything in your health dashboard.\n\nPost summary: Perplexity Computer now connects to your health apps, wearable devices, lab results, and medical records. Build personalized tools and applications with your health data, or track everything in your health dashboard. Video\n\nCanonical URL: https://x.com/perplexity_ai/status/2034668608375382346",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Perplexity Computer",
+      "Build",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Perplexity Computer now connects to your health apps, wearable devices, lab results, and medical records. Build personalized tools and applications with your health data, or track everything in your health dashboard.",
+      "Perplexity Computer now connects to your health apps, wearable devices, lab results, and medical records. Build personalized tools and applications with your health data, or track everything in your health dashboard. Video",
+      "Perplexity Computer",
+      "Build",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

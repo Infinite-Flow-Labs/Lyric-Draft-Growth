@@ -1,0 +1,61 @@
+{
+  "account_id": "official-ai-companies",
+  "display_name": "Official AI Company X Accounts",
+  "language": "en",
+  "benchmark_accounts": [
+    {
+      "handle": "OpenAI",
+      "display_name": "OpenAI"
+    },
+    {
+      "handle": "OpenAIDevs",
+      "display_name": "OpenAI Developers"
+    },
+    {
+      "handle": "AnthropicAI",
+      "display_name": "Anthropic"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "display_name": "Google DeepMind"
+    },
+    {
+      "handle": "AIatMeta",
+      "display_name": "AI at Meta"
+    },
+    {
+      "handle": "MistralAI",
+      "display_name": "Mistral AI"
+    },
+    {
+      "handle": "cohere",
+      "display_name": "Cohere"
+    },
+    {
+      "handle": "huggingface",
+      "display_name": "Hugging Face"
+    },
+    {
+      "handle": "perplexity_ai",
+      "display_name": "Perplexity"
+    },
+    {
+      "handle": "xai",
+      "display_name": "xAI"
+    },
+    {
+      "handle": "elevenlabs",
+      "display_name": "ElevenLabs"
+    },
+    {
+      "handle": "StabilityAI",
+      "display_name": "Stability AI"
+    },
+    {
+      "handle": "runwayml",
+      "display_name": "Runway"
+    }
+  ],
+  "manual_benchmark_accounts": [],
+  "manual_post_mentions": []
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-iscienceluvr-e749aeef3b6d",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/iScienceLuvr/status/2034542334562750787",
+  "author": {
+    "handle": "@iScienceLuvr",
+    "display_name": "iScienceLuvr",
+    "account_url": "https://x.com/iScienceLuvr"
+  },
+  "title": "I was wearing a Nous T-shirt at the @NousResearch GTC party and people (understandably) thought I work at Nous so at some point I started claiming I was @Teknium",
+  "language": "unknown",
+  "published_at": "2026-03-19T08:07:47Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/iScienceLuvr/status/2034542334562750787",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/iScienceLuvr/status/2034542334562750787#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "I was wearing a Nous T-shirt at the @NousResearch GTC party and people (understandably) thought I work at Nous so at some point I started claiming I was @Teknium",
+    "full_text": "Post title: I was wearing a Nous T-shirt at the @NousResearch GTC party and people (understandably) thought I work at Nous so at some point I started claiming I was @Teknium\n\nPost summary: I was wearing a Nous T-shirt at the @NousResearch GTC party and people (understandably) thought I work at Nous so at some point I started claiming I was @Teknium\n\nCanonical URL: https://x.com/iScienceLuvr/status/2034542334562750787",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Nous T-shirt",
+      "NousResearch GTC",
+      "Nous",
+      "Teknium",
+      "Teknium Post",
+      "Teknium Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "I was wearing a Nous T-shirt at the @NousResearch GTC party and people (understandably) thought I work at Nous so at some point I started claiming I was @Teknium",
+      "Nous T-shirt",
+      "NousResearch GTC",
+      "Nous",
+      "Teknium",
+      "Teknium Post",
+      "Teknium Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

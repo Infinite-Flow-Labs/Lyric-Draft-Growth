@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-oran_ge-552be72e59f5",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/oran_ge/status/2036400058506391578",
+  "author": {
+    "handle": "@oran_ge",
+    "display_name": "oran_ge",
+    "account_url": "https://x.com/oran_ge"
+  },
+  "title": "大多数语音输入法都在变得越来越臃肿： 要登录、要订阅、要联网、要加一堆新功能，要学习一堆新交互。 世界，不应该这样。 输入，就应该专注。 于是我们做了 TypeNo。 TypeNo 是一款面向 macOS 的极简语音输入法： - 永远免费，永远开源 - 本地模型，保护隐私 - 轻量模型，节省内存 按下 Control，开始说话； 再按一次，自动转录，自动粘贴到当前应用。 一切极简，再无其他功能。 没有账号。 没有订阅。 没有多余 UI。 没有“为了 AI 而 AI”的复杂感。 Typeless 每月 30 美金。 TypeNo 免费。 如果你愿意，欢迎试用，也欢迎给个 star： 项目地址：https://github.com/marswaveai/TypeNo",
+  "language": "unknown",
+  "published_at": "2026-03-24T11:09:43Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/oran_ge/status/2036400058506391578",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/oran_ge/status/2036400058506391578#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "大多数语音输入法都在变得越来越臃肿： 要登录、要订阅、要联网、要加一堆新功能，要学习一堆新交互。 世界，不应该这样。 输入，就应该专注。 于是我们做了 TypeNo。 TypeNo 是一款面向 macOS 的极简语音输入法： - 永远免费，永远开源 - 本地模型，保护隐私 - 轻量模型，节省内存 按下 Control，开始说话； 再按一次，自动转录，自动粘贴到当前应用。 一切极简，再无其他功能。 没有账号。 没有订阅。 没有多余 UI。 没有“为了 AI 而 AI”的复杂感。 Typeless 每月 30 美金。 TypeNo 免费。 如果你愿意，欢迎试用，也欢迎给个 star： 项目地址： github.com/marswaveai/TypeNo",
+    "full_text": "Post title: 大多数语音输入法都在变得越来越臃肿： 要登录、要订阅、要联网、要加一堆新功能，要学习一堆新交互。 世界，不应该这样。 输入，就应该专注。 于是我们做了 TypeNo。 TypeNo 是一款面向 macOS 的极简语音输入法： - 永远免费，永远开源 - 本地模型，保护隐私 - 轻量模型，节省内存 按下 Control，开始说话； 再按一次，自动转录，自动粘贴到当前应用。 一切极简，再无其他功能。 没有账号。 没有订阅。 没有多余 UI。 没有“为了 AI 而 AI”的复杂感。 Typeless 每月 30 美金。 TypeNo 免费。 如果你愿意，欢迎试用，也欢迎给个 star： 项目地址：https://github.com/marswaveai/TypeNo\n\nPost summary: 大多数语音输入法都在变得越来越臃肿： 要登录、要订阅、要联网、要加一堆新功能，要学习一堆新交互。 世界，不应该这样。 输入，就应该专注。 于是我们做了 TypeNo。 TypeNo 是一款面向 macOS 的极简语音输入法： - 永远免费，永远开源 - 本地模型，保护隐私 - 轻量模型，节省内存 按下 Control，开始说话； 再按一次，自动转录，自动粘贴到当前应用。 一切极简，再无其他功能。 没有账号。 没有订阅。 没有多余 UI。 没有“为了 AI 而 AI”的复杂感。 Typeless 每月 30 美金。 TypeNo 免费。 如果你愿意，欢迎试用，也欢迎给个 star： 项目地址： github.com/marswaveai/TypeNo\n\nCanonical URL: https://x.com/oran_ge/status/2036400058506391578",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "TypeNo",
+      "Control",
+      "UI",
+      "AI",
+      "Typeless",
+      "TypeNo Post",
+      "TypeNo Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "大多数语音输入法都在变得越来越臃肿： 要登录、要订阅、要联网、要加一堆新功能，要学习一堆新交互。 世界，不应该这样。 输入，就应该专注。 于是我们做了 TypeNo。 TypeNo 是一款面向 macOS 的极简语音输入法： - 永远免费，永远开源 - 本地模型，保护隐私 - 轻量模型，节省内存 按下 Control，开始说话； 再按一次，自动转录，自动粘贴到当前应用。 一切极简，再无其他功能。 没有账号。 没有订阅。 没有多余 UI。 没有“为了 AI 而 AI”的复杂感。 Typeless 每月 30 美金。 TypeNo 免费。 如果你愿意，欢迎试用，也欢迎给个 star： 项目地址：https://github.com/marswaveai/TypeNo",
+      "大多数语音输入法都在变得越来越臃肿： 要登录、要订阅、要联网、要加一堆新功能，要学习一堆新交互。 世界，不应该这样。 输入，就应该专注。 于是我们做了 TypeNo。 TypeNo 是一款面向 macOS 的极简语音输入法： - 永远免费，永远开源 - 本地模型，保护隐私 - 轻量模型，节省内存 按下 Control，开始说话； 再按一次，自动转录，自动粘贴到当前应用。 一切极简，再无其他功能。 没有账号。 没有订阅。 没有多余 UI。 没有“为了 AI 而 AI”的复杂感。 Typeless 每月 30 美金。 TypeNo 免费。 如果你愿意，欢迎试用，也欢迎给个 star： 项目地址： github.com/marswaveai/TypeNo",
+      "TypeNo",
+      "Control",
+      "UI",
+      "AI",
+      "Typeless",
+      "TypeNo Post",
+      "TypeNo Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

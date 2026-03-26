@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-berryxia-dedb00dd83d7",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/berryxia/status/2036218912497631657",
+  "author": {
+    "handle": "@berryxia",
+    "display_name": "berryxia",
+    "account_url": "https://x.com/berryxia"
+  },
+  "title": "Claude直接上手你电脑了…… 打开App、刷浏览器、填表格全自动 macOS Pro/Max用户狂喜",
+  "language": "unknown",
+  "published_at": "2026-03-23T23:09:54Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/berryxia/status/2036218912497631657",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/berryxia/status/2036218912497631657#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "Claude直接上手你电脑了…… 打开App、刷浏览器、填表格全自动 macOS Pro/Max用户狂喜 Video",
+    "full_text": "Post title: Claude直接上手你电脑了…… 打开App、刷浏览器、填表格全自动 macOS Pro/Max用户狂喜\n\nPost summary: Claude直接上手你电脑了…… 打开App、刷浏览器、填表格全自动 macOS Pro/Max用户狂喜 Video\n\nCanonical URL: https://x.com/berryxia/status/2036218912497631657",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Pro",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "Claude直接上手你电脑了…… 打开App、刷浏览器、填表格全自动 macOS Pro/Max用户狂喜",
+      "Claude直接上手你电脑了…… 打开App、刷浏览器、填表格全自动 macOS Pro/Max用户狂喜 Video",
+      "Pro",
+      "Video Post",
+      "Post",
+      "Video Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

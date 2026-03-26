@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-guishou_56-013a7a90191d",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/guishou_56/status/2034913983535423695",
+  "author": {
+    "handle": "@guishou_56",
+    "display_name": "guishou_56",
+    "account_url": "https://x.com/guishou_56"
+  },
+  "title": "岗位可以被AI代替，但是锅不行！哈哈哈哈哈",
+  "language": "unknown",
+  "published_at": "2026-03-20T08:44:35Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/guishou_56/status/2034913983535423695",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/guishou_56/status/2034913983535423695#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "岗位可以被AI代替，但是锅不行！哈哈哈哈哈",
+    "full_text": "Post title: 岗位可以被AI代替，但是锅不行！哈哈哈哈哈\n\nPost summary: 岗位可以被AI代替，但是锅不行！哈哈哈哈哈\n\nCanonical URL: https://x.com/guishou_56/status/2034913983535423695",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "岗位可以被AI代替，但是锅不行！哈哈哈哈哈",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

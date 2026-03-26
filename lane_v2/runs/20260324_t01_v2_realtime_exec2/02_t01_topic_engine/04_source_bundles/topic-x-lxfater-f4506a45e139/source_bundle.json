@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-lxfater-f4506a45e139",
+  "lane_id": "T02_signal_decode",
+  "framework_id": "03_opinion_decode",
+  "submode_id": "signal_decode",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-lxfater-f4506a45e139",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/lxfater/status/2035741034261647609",
+      "title": "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需",
+      "published_at": "2026-03-22T15:30:59Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items/x-lxfater-f4506a45e139/source_item.json"
+    }
+  ],
+  "supporting_sources": [],
+  "fact_anchors": [
+    {
+      "claim": "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需",
+      "source_url": "https://x.com/lxfater/status/2035741034261647609",
+      "signal_id": "x-lxfater-f4506a45e139"
+    },
+    {
+      "claim": "Agent其实是个工业品，聊天下来的记忆才是独一无二的 未来记忆的备份，迁移都是刚需 铁锤人 (@lxfater) x.com/i/article/202703675950… — https://nitter.net/lxfater/status/2035674347470537012#m",
+      "source_url": "https://x.com/lxfater/status/2035741034261647609",
+      "signal_id": "x-lxfater-f4506a45e139"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 1,
+    "supporting_sources_min": 2,
+    "fact_anchors_min": 8,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": true,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": false,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

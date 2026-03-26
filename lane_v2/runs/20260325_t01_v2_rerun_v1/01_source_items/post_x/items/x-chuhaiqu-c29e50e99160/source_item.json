@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-chuhaiqu-c29e50e99160",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/chuhaiqu/status/2036634450076078513",
+  "author": {
+    "handle": "@chuhaiqu",
+    "display_name": "chuhaiqu",
+    "account_url": "https://x.com/chuhaiqu"
+  },
+  "title": "大琪老师说的这些很有共鸣。 App Onboarding 务必在短时间内提供核心价值，而且如果可以的话要持续提供价值留住用增加沉默成本，而后直接引导付费！",
+  "language": "unknown",
+  "published_at": "2026-03-25T02:41:06Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/chuhaiqu/status/2036634450076078513",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/chuhaiqu/status/2036634450076078513#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "大琪老师说的这些很有共鸣。 App Onboarding 务必在短时间内提供核心价值，而且如果可以的话要持续提供价值留住用增加沉默成本，而后直接引导付费！ Mengqi Pei (@daqi029) 不要把Onboarding当成“产品tour”。 用户一注册进来，就弹出一个15步的产品导览：“欢迎使用XX！让我带你了解一下功能……” 然后箭头指向这里、那里，介绍每个按钮是干什么的。 用户看到第3步就烦了，直接跳过，然后面对一个空白的Dashboard，完全不知道该干什么。 这就是典型的“教功能”，而不是“给价值”。 Facebook的增长团队发现：用户如果在前10天内添加了7个好友，长期留存率会显著提高。 所以Facebook的onboarding不是教你怎么发帖子，而是疯狂引导你：导入通讯录、推荐你可能认识的人、提醒你XX刚加入了Facebook。 目标只有一个：让你尽快加到7个好友。 因为他们知道，只要你加到7个好友，你就会持续使用。 用户要的不是学会怎么用，而是快速看到价值。 — https://nitter.net/daqi029/status/2036255094459810145#m",
+    "full_text": "Post title: 大琪老师说的这些很有共鸣。 App Onboarding 务必在短时间内提供核心价值，而且如果可以的话要持续提供价值留住用增加沉默成本，而后直接引导付费！\n\nPost summary: 大琪老师说的这些很有共鸣。 App Onboarding 务必在短时间内提供核心价值，而且如果可以的话要持续提供价值留住用增加沉默成本，而后直接引导付费！ Mengqi Pei (@daqi029) 不要把Onboarding当成“产品tour”。 用户一注册进来，就弹出一个15步的产品导览：“欢迎使用XX！让我带你了解一下功能……” 然后箭头指向这里、那里，介绍每个按钮是干什么的。 用户看到第3步就烦了，直接跳过，然后面对一个空白的Dashboard，完全不知道该干什么。 这就是典型的“教功能”，而不是“给价值”。 Facebook的增长团队发现：用户如果在前10天内添加了7个好友，长期留存率会显著提高。 所以Facebook的onboarding不是教你怎么发帖子，而是疯狂引导你：导入通讯录、推荐你可能认识的人、提醒你XX刚加入了Facebook。 目标只有一个：让你尽快加到7个好友。 因为他们知道，只要你加到7个好友，你就会持续使用。 用户要的不是学会怎么用，而是快速看到价值。 — https://nitter.net/daqi029/status/2036255094459810145#m\n\nCanonical URL: https://x.com/chuhaiqu/status/2036634450076078513",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "App Onboarding",
+      "Mengqi Pei",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "大琪老师说的这些很有共鸣。 App Onboarding 务必在短时间内提供核心价值，而且如果可以的话要持续提供价值留住用增加沉默成本，而后直接引导付费！",
+      "大琪老师说的这些很有共鸣。 App Onboarding 务必在短时间内提供核心价值，而且如果可以的话要持续提供价值留住用增加沉默成本，而后直接引导付费！ Mengqi Pei (@daqi029) 不要把Onboarding当成“产品tour”。 用户一注册进来，就弹出一个15步的产品导览：“欢迎使用XX！让我带你了解一下功能……” 然后箭头指向这里、那里，介绍每个按钮是干什么的。 用户看到第3步就烦了，直接跳过，然后面对一个空白的Dashboard，完全不知道该干什么。 这就是典型的“教功能”，而不是“给价值”。 Facebook的增长团队发现：用户如果在前10天内添加了7个好友，长期留存率会显著提高。 所以Facebook的onboarding不是教你怎么发帖子，而是疯狂引导你：导入通讯录、推荐你可能认识的人、提醒你XX刚加入了Facebook。 目标只有一个：让你尽快加到7个好友。 因为他们知道，只要你加到7个好友，你就会持续使用。 用户要的不是学会怎么用，而是快速看到价值。 — https://nitter.net/daqi029/status/2036255094459810145#m",
+      "App Onboarding",
+      "Mengqi Pei",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

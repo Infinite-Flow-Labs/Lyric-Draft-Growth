@@ -1,0 +1,17 @@
+{
+  "date": "2026-03-25",
+  "generated_at": "2026-03-25T09:36:03Z",
+  "phases": {
+    "prepare_images": false,
+    "assemble": false,
+    "publish": true
+  },
+  "publish_execution_manifest": "/home/lyric/growth-engine-pipeline/distribution_runtime/manifests/2026-03-25/publish_execution_manifest.json",
+  "publish_execution": {
+    "job_count": 1,
+    "published_count": 0,
+    "dry_run_ok_count": 0,
+    "failed_count": 1
+  },
+  "status": "error_publish"
+}

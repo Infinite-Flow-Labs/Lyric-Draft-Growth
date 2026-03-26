@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-gorden_sun-3f8f6a248e3c",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Gorden_Sun/status/2034937498020061486",
+  "author": {
+    "handle": "@Gorden_Sun",
+    "display_name": "Gorden_Sun",
+    "account_url": "https://x.com/Gorden_Sun"
+  },
+  "title": "gstack：YC CEO开源的工具集 可以把Claude Code变成有角色分工、有流程管控的开发团队，本质是15个“/命令”，把开发流程拆成了7个阶段： Think → Plan → Build → Review → Test → Ship → Reflect，可以从产品需求、UI设计、测试等多个方面提升软件开发的质量。 Github：https://github.com/garrytan/gstack",
+  "language": "unknown",
+  "published_at": "2026-03-20T10:18:01Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Gorden_Sun/status/2034937498020061486",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Gorden_Sun/status/2034937498020061486#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "gstack：YC CEO开源的工具集 可以把Claude Code变成有角色分工、有流程管控的开发团队，本质是15个“/命令”，把开发流程拆成了7个阶段： Think → Plan → Build → Review → Test → Ship → Reflect，可以从产品需求、UI设计、测试等多个方面提升软件开发的质量。 Github： github.com/garrytan/gstack",
+    "full_text": "Post title: gstack：YC CEO开源的工具集 可以把Claude Code变成有角色分工、有流程管控的开发团队，本质是15个“/命令”，把开发流程拆成了7个阶段： Think → Plan → Build → Review → Test → Ship → Reflect，可以从产品需求、UI设计、测试等多个方面提升软件开发的质量。 Github：https://github.com/garrytan/gstack\n\nPost summary: gstack：YC CEO开源的工具集 可以把Claude Code变成有角色分工、有流程管控的开发团队，本质是15个“/命令”，把开发流程拆成了7个阶段： Think → Plan → Build → Review → Test → Ship → Reflect，可以从产品需求、UI设计、测试等多个方面提升软件开发的质量。 Github： github.com/garrytan/gstack\n\nCanonical URL: https://x.com/Gorden_Sun/status/2034937498020061486",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "YC",
+      "Think",
+      "Plan",
+      "Build",
+      "Review",
+      "Test",
+      "Ship",
+      "Reflect",
+      "Github",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "gstack：YC CEO开源的工具集 可以把Claude Code变成有角色分工、有流程管控的开发团队，本质是15个“/命令”，把开发流程拆成了7个阶段： Think → Plan → Build → Review → Test → Ship → Reflect，可以从产品需求、UI设计、测试等多个方面提升软件开发的质量。 Github：https://github.com/garrytan/gstack",
+      "gstack：YC CEO开源的工具集 可以把Claude Code变成有角色分工、有流程管控的开发团队，本质是15个“/命令”，把开发流程拆成了7个阶段： Think → Plan → Build → Review → Test → Ship → Reflect，可以从产品需求、UI设计、测试等多个方面提升软件开发的质量。 Github： github.com/garrytan/gstack",
+      "YC",
+      "Think",
+      "Plan",
+      "Build",
+      "Review",
+      "Test",
+      "Ship",
+      "Reflect",
+      "Github",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

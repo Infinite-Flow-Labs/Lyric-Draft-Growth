@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-davidsholz-b39efc84e6aa",
+  "fetched_at": "2026-03-25T07:23:48Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/DavidSHolz/status/2036567705638281328",
+  "author": {
+    "handle": "@DavidSHolz",
+    "display_name": "DavidSHolz",
+    "account_url": "https://x.com/DavidSHolz"
+  },
+  "title": "the % of Midjourney prompts over 1300 characters long - this is a really interesting proxy for how much people are using LLMs to prompt image models!",
+  "language": "unknown",
+  "published_at": "2026-03-24T22:15:53Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/DavidSHolz/status/2036567705638281328",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/DavidSHolz/status/2036567705638281328#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "the % of Midjourney prompts over 1300 characters long - this is a really interesting proxy for how much people are using LLMs to prompt image models!",
+    "full_text": "Post title: the % of Midjourney prompts over 1300 characters long - this is a really interesting proxy for how much people are using LLMs to prompt image models!\n\nPost summary: the % of Midjourney prompts over 1300 characters long - this is a really interesting proxy for how much people are using LLMs to prompt image models!\n\nCanonical URL: https://x.com/DavidSHolz/status/2036567705638281328",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Midjourney",
+      "LLMs",
+      "Post",
+      "Canonical URL",
+      "DavidSHolz"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "the % of Midjourney prompts over 1300 characters long - this is a really interesting proxy for how much people are using LLMs to prompt image models!",
+      "Midjourney",
+      "LLMs",
+      "Post",
+      "Canonical URL",
+      "DavidSHolz"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

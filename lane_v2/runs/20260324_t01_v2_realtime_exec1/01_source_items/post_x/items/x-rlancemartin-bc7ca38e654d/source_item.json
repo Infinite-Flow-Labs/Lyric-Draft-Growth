@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-rlancemartin-bc7ca38e654d",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/RLanceMartin/status/2034346993490030896",
+  "author": {
+    "handle": "@RLanceMartin",
+    "display_name": "RLanceMartin",
+    "account_url": "https://x.com/RLanceMartin"
+  },
+  "title": "a useful trick: Claude API now programmatically lists capabilities for every model (context window, thinking mode, context management support, etc). just ask Claude Code or use the API directly. https://platform.claude.com/docs/en/api/python/models/list",
+  "language": "unknown",
+  "published_at": "2026-03-18T19:11:34Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/RLanceMartin/status/2034346993490030896",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/RLanceMartin/status/2034346993490030896#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "a useful trick: Claude API now programmatically lists capabilities for every model (context window, thinking mode, context management support, etc). just ask Claude Code or use the API directly. platform.claude.com/docs/en/… Video",
+    "full_text": "Post title: a useful trick: Claude API now programmatically lists capabilities for every model (context window, thinking mode, context management support, etc). just ask Claude Code or use the API directly. https://platform.claude.com/docs/en/api/python/models/list\n\nPost summary: a useful trick: Claude API now programmatically lists capabilities for every model (context window, thinking mode, context management support, etc). just ask Claude Code or use the API directly. platform.claude.com/docs/en/… Video\n\nCanonical URL: https://x.com/RLanceMartin/status/2034346993490030896",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Claude API",
+      "Claude Code",
+      "API",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "RLanceMartin"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "a useful trick: Claude API now programmatically lists capabilities for every model (context window, thinking mode, context management support, etc). just ask Claude Code or use the API directly. https://platform.claude.com/docs/en/api/python/models/list",
+      "a useful trick: Claude API now programmatically lists capabilities for every model (context window, thinking mode, context management support, etc). just ask Claude Code or use the API directly. platform.claude.com/docs/en/… Video",
+      "Claude API",
+      "Claude Code",
+      "API",
+      "Video Post",
+      "Post",
+      "Video Canonical URL",
+      "RLanceMartin"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

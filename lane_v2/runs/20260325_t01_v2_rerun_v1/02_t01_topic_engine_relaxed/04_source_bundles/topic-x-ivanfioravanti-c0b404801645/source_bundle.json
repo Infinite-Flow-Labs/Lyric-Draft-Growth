@@ -1,0 +1,106 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-ivanfioravanti-c0b404801645",
+  "lane_id": "T05_benchmark",
+  "framework_id": "05_ab_benchmark",
+  "submode_id": "alternative_benchmark",
+  "composition_mode": "rewrite_heavy",
+  "primary_sources": [
+    {
+      "signal_id": "x-ivanfioravanti-c0b404801645",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "title": "Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless.",
+      "published_at": "2026-03-24T15:05:05Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/article_x/items/x-ivanfioravanti-c0b404801645/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-ivanfioravanti-a6c2d7d142e2",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/ivanfioravanti/status/2036365348505571745",
+      "title": "Be ready for some great test results. M5 Max is nearly as fast as M3 Ultra in 8bit quantization using MoE! 👀",
+      "published_at": "2026-03-24T08:51:47Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260325_t01_v2_rerun_v1/01_source_items/post_x/items/x-ivanfioravanti-a6c2d7d142e2/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless.",
+      "source_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "signal_id": "x-ivanfioravanti-c0b404801645"
+    },
+    {
+      "claim": "Article updated with bf16 (M5 Max rocks! 🔥) and updated benchmarks headless. Ivan Fioravanti ᯅ (@ivanfioravanti) x.com/i/article/203636697214… — https://nitter.net/ivanfioravanti/status/2036383167729287335#m",
+      "source_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "signal_id": "x-ivanfioravanti-c0b404801645"
+    },
+    {
+      "claim": "Article updated with bf16 (M5 Max rocks",
+      "source_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "signal_id": "x-ivanfioravanti-c0b404801645"
+    },
+    {
+      "claim": "🔥) and updated benchmarks headless. Article updated with bf16 (M5 Max rocks",
+      "source_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "signal_id": "x-ivanfioravanti-c0b404801645"
+    },
+    {
+      "claim": "🔥) and updated benchmarks headless. Ivan Fioravanti ᯅ (@ivanfioravanti) x.com/i/article/203636697214… — https://nitter.net/ivanfioravanti/status/2036383167729287335#m Post title: Article updated with bf16 (M5 Max rocks",
+      "source_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "signal_id": "x-ivanfioravanti-c0b404801645"
+    },
+    {
+      "claim": "🔥) and updated benchmarks headless. Post summary: Article updated with bf16 (M5 Max rocks",
+      "source_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "signal_id": "x-ivanfioravanti-c0b404801645"
+    },
+    {
+      "claim": "🔥) and updated benchmarks headless. Ivan Fioravanti ᯅ (@ivanfioravanti) x.com/i/article/203636697214… — https://nitter.net/ivanfioravanti/status/2036383167729287335#m Canonical URL: https://x.com/ivanfioravanti/status/2036459292639785090",
+      "source_url": "https://x.com/ivanfioravanti/status/2036459292639785090",
+      "signal_id": "x-ivanfioravanti-c0b404801645"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 2,
+    "supporting_sources_min": 1,
+    "fact_anchors_min": 7,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": false,
+    "require_hard_numbers": true,
+    "require_compare_signal": true,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": true,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": false,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": true,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

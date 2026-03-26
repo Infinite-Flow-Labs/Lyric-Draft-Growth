@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-astronaut_1216-ccae1ebf6d84",
+  "lane_id": "T02_signal_decode",
+  "framework_id": "03_opinion_decode",
+  "submode_id": "signal_decode",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-astronaut_1216-ccae1ebf6d84",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/Astronaut_1216/status/2035554128651317400",
+      "title": "复利是结果加结果 不是做事儿加做事儿 更不是嘴炮加嘴炮",
+      "published_at": "2026-03-22T03:08:17Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/lane_v2/runs/20260324_t01_v2_realtime_exec1/01_source_items/article_x/items/x-astronaut_1216-ccae1ebf6d84/source_item.json"
+    }
+  ],
+  "supporting_sources": [],
+  "fact_anchors": [
+    {
+      "claim": "复利是结果加结果 不是做事儿加做事儿 更不是嘴炮加嘴炮 Koda一人公司 (@bigu62) x.com/i/article/203493108966… — https://nitter.net/bigu62/status/2034935195024208105#m",
+      "source_url": "https://x.com/Astronaut_1216/status/2035554128651317400",
+      "signal_id": "x-astronaut_1216-ccae1ebf6d84"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "lane_requirement_profile": {
+    "primary_sources_min": 1,
+    "supporting_sources_min": 2,
+    "fact_anchors_min": 8,
+    "require_official_primary": false,
+    "require_release_signal": false,
+    "require_external_source": true,
+    "require_hard_numbers": false,
+    "require_compare_signal": false,
+    "require_failure_signal": false,
+    "require_actionability_signal": false
+  },
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": false,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": false,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "signal_requirement_checks": {
+    "release_signal_required_ok": true,
+    "external_source_required_ok": true,
+    "hard_numbers_required_ok": true,
+    "compare_signal_required_ok": true,
+    "failure_signal_required_ok": true,
+    "actionability_signal_required_ok": true
+  },
+  "ready_for_writer": false
+}

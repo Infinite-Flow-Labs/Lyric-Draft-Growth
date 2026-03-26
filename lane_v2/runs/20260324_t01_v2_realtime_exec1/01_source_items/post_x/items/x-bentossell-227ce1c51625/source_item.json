@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-bentossell-227ce1c51625",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/bentossell/status/2034659760771908083",
+  "author": {
+    "handle": "@bentossell",
+    "display_name": "bentossell",
+    "account_url": "https://x.com/bentossell"
+  },
+  "title": "spoke at my old school today nearly 100% of kids only use chatgpt and only for school work baffled me",
+  "language": "unknown",
+  "published_at": "2026-03-19T15:54:23Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/bentossell/status/2034659760771908083",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/bentossell/status/2034659760771908083#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "spoke at my old school today nearly 100% of kids only use chatgpt and only for school work baffled me",
+    "full_text": "Post title: spoke at my old school today nearly 100% of kids only use chatgpt and only for school work baffled me\n\nPost summary: spoke at my old school today nearly 100% of kids only use chatgpt and only for school work baffled me\n\nCanonical URL: https://x.com/bentossell/status/2034659760771908083",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [
+      "100%"
+    ],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "spoke at my old school today nearly 100% of kids only use chatgpt and only for school work baffled me",
+      "100%",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

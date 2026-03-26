@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-astronaut_1216-171061c1cfa8",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/Astronaut_1216/status/2035662291870392633",
+  "author": {
+    "handle": "@Astronaut_1216",
+    "display_name": "Astronaut_1216",
+    "account_url": "https://x.com/Astronaut_1216"
+  },
+  "title": "不会做XX，就是不想做XX 我不会赚钱，就是不想赚钱，因为这样我赚不到钱就可以赖我不会赚钱，穷是命的安排，这跟我没关系 举个简单的例子，用我来说 我不会做选题，其实就是我不想做选题，因为我怕我做了也没有正反馈，于是「我不会」就能很好的帮我逃避责任 所以你敢不敢承担XXX的责任/后果就决定了你会不会XXX 至于怎么破局 你要不回头看看初中课文——闻一多先生的说和做",
+  "language": "unknown",
+  "published_at": "2026-03-22T10:18:05Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/Astronaut_1216/status/2035662291870392633",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/Astronaut_1216/status/2035662291870392633#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "不会做XX，就是不想做XX 我不会赚钱，就是不想赚钱，因为这样我赚不到钱就可以赖我不会赚钱，穷是命的安排，这跟我没关系 举个简单的例子，用我来说 我不会做选题，其实就是我不想做选题，因为我怕我做了也没有正反馈，于是「我不会」就能很好的帮我逃避责任 所以你敢不敢承担XXX的责任/后果就决定了你会不会XXX 至于怎么破局 你要不回头看看初中课文——闻一多先生的说和做",
+    "full_text": "Post title: 不会做XX，就是不想做XX 我不会赚钱，就是不想赚钱，因为这样我赚不到钱就可以赖我不会赚钱，穷是命的安排，这跟我没关系 举个简单的例子，用我来说 我不会做选题，其实就是我不想做选题，因为我怕我做了也没有正反馈，于是「我不会」就能很好的帮我逃避责任 所以你敢不敢承担XXX的责任/后果就决定了你会不会XXX 至于怎么破局 你要不回头看看初中课文——闻一多先生的说和做\n\nPost summary: 不会做XX，就是不想做XX 我不会赚钱，就是不想赚钱，因为这样我赚不到钱就可以赖我不会赚钱，穷是命的安排，这跟我没关系 举个简单的例子，用我来说 我不会做选题，其实就是我不想做选题，因为我怕我做了也没有正反馈，于是「我不会」就能很好的帮我逃避责任 所以你敢不敢承担XXX的责任/后果就决定了你会不会XXX 至于怎么破局 你要不回头看看初中课文——闻一多先生的说和做\n\nCanonical URL: https://x.com/Astronaut_1216/status/2035662291870392633",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "不会做XX，就是不想做XX 我不会赚钱，就是不想赚钱，因为这样我赚不到钱就可以赖我不会赚钱，穷是命的安排，这跟我没关系 举个简单的例子，用我来说 我不会做选题，其实就是我不想做选题，因为我怕我做了也没有正反馈，于是「我不会」就能很好的帮我逃避责任 所以你敢不敢承担XXX的责任/后果就决定了你会不会XXX 至于怎么破局 你要不回头看看初中课文——闻一多先生的说和做",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

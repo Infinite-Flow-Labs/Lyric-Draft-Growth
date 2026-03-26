@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1.0",
+  "source_id": "x-svpino-88e1246f9a57",
+  "fetched_at": "2026-03-24T07:40:13Z",
+  "platform": "x",
+  "source_kind": "x_thread",
+  "canonical_url": "https://x.com/svpino/status/2034707589821292789",
+  "author": {
+    "handle": "@svpino",
+    "display_name": "svpino",
+    "account_url": "https://x.com/svpino"
+  },
+  "title": "No, I don't think AI should be thanked, credited for its work, celebrated, chastised, or treated as anything other than a tool. Should we start crediting Visual Studio Code on every commit? Should we also credit Python? How about crediting Apple for their computers, which made that particular commit possible?",
+  "language": "unknown",
+  "published_at": "2026-03-19T19:04:27Z",
+  "participants": [],
+  "source_assets": [
+    {
+      "asset_kind": "x_status",
+      "url": "https://x.com/svpino/status/2034707589821292789",
+      "selected_for_text": true,
+      "notes": "primary social source"
+    },
+    {
+      "asset_kind": "nitter_rss_item",
+      "url": "https://nitter.net/svpino/status/2034707589821292789#m",
+      "selected_for_text": false,
+      "notes": "guest-mode rss origin"
+    }
+  ],
+  "content": {
+    "primary_text_source": "x_post",
+    "summary": "No, I don't think AI should be thanked, credited for its work, celebrated, chastised, or treated as anything other than a tool. Should we start crediting Visual Studio Code on every commit? Should we also credit Python? How about crediting Apple for their computers, which made that particular commit possible? Josh Ellithorpe (@zquestz) So you don't believe an AI should be credited for their work? What about in an age when AGI exists? — https://nitter.net/zquestz/status/2034705417956466744#m",
+    "full_text": "Post title: No, I don't think AI should be thanked, credited for its work, celebrated, chastised, or treated as anything other than a tool. Should we start crediting Visual Studio Code on every commit? Should we also credit Python? How about crediting Apple for their computers, which made that particular commit possible?\n\nPost summary: No, I don't think AI should be thanked, credited for its work, celebrated, chastised, or treated as anything other than a tool. Should we start crediting Visual Studio Code on every commit? Should we also credit Python? How about crediting Apple for their computers, which made that particular commit possible? Josh Ellithorpe (@zquestz) So you don't believe an AI should be credited for their work? What about in an age when AGI exists? — https://nitter.net/zquestz/status/2034705417956466744#m\n\nCanonical URL: https://x.com/svpino/status/2034707589821292789",
+    "sections": [
+      "x_post"
+    ],
+    "raw_quotes": [],
+    "assembly_notes": null
+  },
+  "extracted_signals": {
+    "release_signals": [],
+    "metric_signals": [],
+    "named_entities": [
+      "No",
+      "AI",
+      "Should",
+      "Visual Studio Code",
+      "Python",
+      "How",
+      "Apple",
+      "Josh Ellithorpe",
+      "So",
+      "What",
+      "AGI",
+      "Post",
+      "Canonical URL"
+    ],
+    "task_hints": [],
+    "fact_anchors": [
+      "No, I don't think AI should be thanked, credited for its work, celebrated, chastised, or treated as anything other than a tool. Should we start crediting Visual Studio Code on every commit? Should we also credit Python? How about crediting Apple for their computers, which made that particular commit possible?",
+      "No, I don't think AI should be thanked, credited for its work, celebrated, chastised, or treated as anything other than a tool. Should we start crediting Visual Studio Code on every commit? Should we also credit Python? How about crediting Apple for their computers, which made that particular commit possible? Josh Ellithorpe (@zquestz) So you don't believe an AI should be credited for their work? What about in an age when AGI exists? — https://nitter.net/zquestz/status/2034705417956466744#m",
+      "No",
+      "AI",
+      "Should",
+      "Visual Studio Code",
+      "Python",
+      "How",
+      "Apple",
+      "Josh Ellithorpe",
+      "So",
+      "What",
+      "AGI",
+      "Post",
+      "Canonical URL"
+    ],
+    "normalization_notes": "linked_context_count=0"
+  }
+}

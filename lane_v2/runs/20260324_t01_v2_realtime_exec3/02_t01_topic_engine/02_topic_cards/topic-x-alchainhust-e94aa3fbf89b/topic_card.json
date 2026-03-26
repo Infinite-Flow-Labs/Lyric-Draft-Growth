@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-alchainhust-e94aa3fbf89b",
+  "event_seed_signal_id": "x-alchainhust-e94aa3fbf89b",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "理了下Cursor盗用Kimi K2.5模型这事。 @cursor_ai 发布Composer 2，号称自研编程模型，benchmark图画得漂漂亮亮。 2.5小时后，@fynnso 在API里发现模型ID：kimi-k2p5-rl-0317-s515-fast。 连名字都没改。 老马 @elonmusk 直接回了三个词：Yeah, it's Kimi 2.5。 @Kimi_Moonshot 的人先出来手撕，质问为什么不遵守许可证、为什么没付费，然后帖子删了，最后体面和解。Cursor承认Kimi K2.5是基座，说没标注是\"a miss\"。 这不是第一次了。去年Composer 1就被发现代码里频繁出现中文推理痕迹，Windsurf承认用的智谱GLM，Cognition的SWE-1.5也是GLM-4.6。模式一模一样：拿中国开源模型做基座，微调一层，包装成自研。 但许可证不是重点。重点是：一家正在谈500亿美元估值的公司，没有自己的模型。提供基座的月之暗面估值43亿。12倍。 我是Cursor的早期用户，也确实吃到了红利，承认它让AI编程真正变成普通人可上手的工具。但现在聊AI编程，国内几乎没人聊Cursor了。开发者调查：46%最爱Claude Code，Cursor只有19%。Claude Code 8个月就超越了Cursor两年建立的地位。Codex也已经达到Cursor 60%的使用量。 道理很简单：赛道小的时候，产品公司有先发优势。但当模型公司亲自下场，产品公司就只能让路。@AnthropicAI 有自己的模型，@OpenAI 有自己的模型，Cursor有什么？一个很棒的IDE体验，和一个借来的模型。 不要在模型公司的必经之路上建城堡。",
+  "why_now": "Clustered 12 recent signals across 2 source families with verifiable anchors.",
+  "topic_priority": 88.9,
+  "heat_breakdown": {
+    "volume_score": 100.0,
+    "velocity_score": 97.41,
+    "cross_source_resonance_score": 75.0,
+    "novelty_score": 72.0
+  },
+  "cluster_signature": "anthropic::开源",
+  "cluster_signal_ids": [
+    "x-chuhaiqu-f8b196e4d27e",
+    "x-idoubicc-146009f399a7",
+    "x-lxfater-f1a322b5e34c",
+    "x-idoubicc-d8632a464fdb",
+    "x-idoubicc-90f35cba33a5",
+    "x-berryxia-30e285f91a2c",
+    "x-alchainhust-ffe1c470204c",
+    "x-alphasignalai-46f2aba18ced",
+    "x-alchainhust-e94aa3fbf89b",
+    "x-indie_maker_fox-73021ba37e83",
+    "x-op7418-88c36c58f48d",
+    "x-op7418-86575f127b2c"
+  ],
+  "source_families": [
+    "article_x",
+    "post_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": true,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/AlchainHust/status/2035223609497853985",
+    "published_at": "2026-03-21T05:14:55Z",
+    "release_signals_count": 23,
+    "fact_candidates_count": 185
+  }
+}

@@ -1,0 +1,1029 @@
+{
+  "task": "Write one publishable lane-controlled article draft.",
+  "instructions": [
+    "Raw source facts outrank rhetorical cleverness.",
+    "Do not produce a summary digest; produce a judged, usable article.",
+    "Composition: mixed (generation=60%, rewrite=40%).",
+    "Rewrite portion preserves critical release facts; generated portion adds judgment + action paths.",
+    "At least 5 preserved_fact_anchors from provided sources.",
+    "Honor forbidden_claims strictly.",
+    "Output language: zh-CN.",
+    "body_markdown must use markdown structure. First chunk must be a quote block: > ...",
+    "At least 2 subheadings (## ...), 1 bullet list (>=3 items), 3-10 bold spans.",
+    "Title: 12-32 chars, must carry conflict/reversal/stake.",
+    "Dek: a plain sentence that sharpens the angle. Do NOT prefix with labels like 'Dek:' or '**Dek**:'. Do NOT repeat the title. The dek field in JSON must contain only the sentence itself.",
+    "Do not output framework IDs, submode IDs, model names, or metadata in article text.",
+    "Banned: 不是...而是..., 不仅...而且..., 首先/其次/最后 template, emoji, em-dash overuse, bold overuse.",
+    "Banned: promotional hype (颠覆性/炸裂/封神/王炸/天花板), vague attribution (专家认为/据悉).",
+    "Banned: stale bridges (这个判断太轻了/官方说得很直接/最值得看/更容易看清/说透/很清楚).",
+    "Sound like an informed human writer making judgments, not a neutral recap engine.",
+    "Delete filler phrases. Vary rhythm. Trust the reader.",
+    "标题必须包含变化判断，不能是公告标题改写。",
+    "Dek 必须回答真正值得看的变化是什么。",
+    "开篇前两段必须出现发布动作 + 高价值判断。",
+    "中段必须写清变化前后对比 + 人群影响 + 不该用边界。",
+    "结尾必须给出可执行动作（立刻试用 / 观察 / 暂缓）。",
+    "The article must open by placing the reader inside a concrete personal frustration or blocked workflow, not by stating what product/feature launched.",
+    "First two paragraphs must complete: what is it → what changed → why it matters to YOU specifically.",
+    "Related/tangential signals must not exceed 20% of the article. If removing a related signal paragraph doesn't weaken the main argument, remove it.",
+    "Every external example cited must have a direct causal link to the main topic. 'Same general direction' is not enough.",
+    "When mentioning a source author for the first time, use their known public name or Chinese name (e.g. '归藏' not '@op7418'). @handle can follow in parentheses.",
+    "Do not make quantitative promises (time, effort, cost) not supported by source data.",
+    "Audience segments must be by concrete use-case scenario, not vague identity labels like '独立开发者'.",
+    "The article must end with a concrete actionable next step, NOT a rhetorical question or philosophical open-ended prompt.",
+    "Do not use defensive negation — do not deny accusations nobody made (e.g. '不是噱头', '不是小事')."
+  ],
+  "topic_card": {
+    "topic_id": "topic-x-berryxia-fc4d55fcde88",
+    "topic_statement": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新...",
+    "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+    "cluster_signature": "siri::发布"
+  },
+  "lane_assignment": {
+    "selected_lane_id": "T06_capability_delivery",
+    "framework_id": "06_checklist_template",
+    "submode_id": "workflow_architecture",
+    "composition_mode": "mixed",
+    "rationale": "release_signal_present | external_source_present | strong_fact_density | user_impact_present | preferred_has_stepwise_signal | stepwise_signal_hit"
+  },
+  "primary_source_item": {
+    "source_id": "x-berryxia-fc4d55fcde88",
+    "platform": "x",
+    "source_kind": "x_thread",
+    "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+    "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔",
+    "author": {
+      "handle": "@berryxia",
+      "display_name": "berryxia",
+      "account_url": "https://x.com/berryxia"
+    },
+    "published_at": "2026-03-24T23:22:12Z",
+    "participants": [],
+    "primary_text_source": "x_post",
+    "summary": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Si...",
+    "full_text": "Post title: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Post summary: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Mark Gurman (@markgurman) BREAKING: Apple’s AI reboot...",
+    "raw_quotes": [],
+    "fact_anchors": [
+      "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+      "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+      "AI",
+      "Siri",
+      "App",
+      "Ask Siri",
+      "Apple Intelligence",
+      "WWDC"
+    ],
+    "metric_signals": [],
+    "named_entities": [
+      "AI",
+      "Siri",
+      "App",
+      "Ask Siri",
+      "Apple Intelligence",
+      "WWDC",
+      "Siri App",
+      "Mac",
+      "Dynamic Island",
+      "Search"
+    ]
+  },
+  "source_bundle": {
+    "lane_id": "T06_capability_delivery",
+    "framework_id": "06_checklist_template",
+    "submode_id": "workflow_architecture",
+    "composition_mode": "mixed",
+    "primary_sources": [
+      {
+        "signal_id": "x-berryxia-fc4d55fcde88",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+        "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 W...",
+        "published_at": "2026-03-24T23:22:12Z"
+      },
+      {
+        "signal_id": "x-chuhaiqu-0e03768e6ed4",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/chuhaiqu/status/2036704393475837965",
+        "title": "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。",
+        "published_at": "2026-03-25T07:19:02Z"
+      }
+    ],
+    "supporting_sources": [
+      {
+        "signal_id": "x-op7418-b9e09e039182",
+        "source_family": "article_x",
+        "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+        "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+        "published_at": "2026-03-24T01:54:42Z"
+      }
+    ],
+    "fact_anchors": [
+      {
+        "claim": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "苹果计划在 iOS 27 中重启 AI",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "- 根据使用习惯提供建议提示，支持浅色/深色模式",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "- 全新视觉界面： - 取代 iOS 18 的发光边缘设计",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "- Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "- “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      },
+      {
+        "claim": "- “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题",
+        "source_url": "https://x.com/berryxia/status/2036584395352711255",
+        "signal_id": "x-berryxia-fc4d55fcde88"
+      }
+    ],
+    "forbidden_claims": [
+      "No unsupported percentage claims about performance or cost change.",
+      "No unsupported claim that this release fully replaces existing workflows.",
+      "No unsupported claim that all teams should adopt immediately."
+    ],
+    "coverage_checks": {
+      "has_release_action": true,
+      "has_delta_detail": true,
+      "has_user_impact": true,
+      "has_limit_or_risk": false
+    },
+    "requirement_checks": {
+      "primary_sources_min_ok": true,
+      "supporting_sources_min_ok": true,
+      "fact_anchors_min_ok": true,
+      "official_primary_required_ok": true
+    }
+  },
+  "source_materials": [
+    {
+      "source_id": "x-berryxia-fc4d55fcde88",
+      "source_role": "primary",
+      "canonical_url": "https://x.com/berryxia/status/2036584395352711255",
+      "title": "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 W...",
+      "fact_anchors": [
+        "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+        "兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligen...",
+        "AI",
+        "Siri",
+        "App",
+        "Ask Siri",
+        "Apple Intelligence",
+        "WWDC",
+        "Siri App",
+        "Mac"
+      ],
+      "full_text_excerpt": "Post title: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：支持文字 + 语音的来回聊天（内部代号 Campo 或 Campos）。 - 深度个人上下文：可访问您的消息、邮件、笔记、照片等数据，完成跨 App 的真实任务（此前多次延迟的功能）。 - 网页智能：搜索开放互联网，提供带要点、图片和详细信息的总结，旨在与 Perplexity、Google Gemini 竞争。 - Apple News 集成：生成更丰富的每日新闻摘要。 - 取代 Spotlight：统一的 Siri 搜索，包含建议和个人上下文功能。 - App 控制增强：通过扩展的 App Intents 框架，可在 Apple 和第三方 App 内执行更精确的操作（如滚动菜单、完成具体任务）。 新 Siri 将基于更新的 Apple Foundation Models，并结合 Google Gemini 技术（双方已确认约 10 亿美元的合作）。 为什么苹果要这么做？ 苹果之前的 Apple Intelligence 功能推出后，用户反响平平，许多承诺的深度个人数据访问和屏幕感知功能一再延迟。 面对 ChatGPT、Claude、Gemini 等聊天机器人的流行，苹果决定彻底转向更灵活的聊天机器人模式，但仍保持与自家生态系统的深度整合（不像直接把用户“扔进某个聊天体验”——Craig Federighi 之前曾如此表述）。 时间表 - 2026 年 6 月 8 日（WWDC）：正式预览和公布。 - 2026 年秋季：随 iOS 27 正式发布，大部分功能上线。 - 部分功能（如独立 App 体验）已在苹果内部员工测试中。 总体来说，这将是苹果迄今为止在 AI 领域最雄心勃勃的一次行动，把 Siri 打造成设备上持久的 AI 中心枢纽。 你认为苹果这一次稳了么？🤔 Post summary: 兄弟们！苹果计划在 iOS 27 中重启 AI！ 要彻底告别人工智障的Siri了？ 全新 Siri 独立 App、新界面与“Ask Siri”按钮！ 核心内容 苹果正在对 Siri 进行重大 overhaul，将其从传统的语音助手转变为更强大的聊天机器人式 AI 代理。 这是苹果在生成式 AI 领域的一次重大反击，此前 Apple Intelligence 的许多功能多次延迟。 这次更新预计将在 2026 年 6 月 8 日的 WWDC 上正式公布，大部分新功能将在秋季随新 iPhone 一起发布，并同步适用于 iOS 27、iPadOS 27 和 macOS 27。 Siri 的主要新变化 - 独立 Siri App（iPhone、iPad、Mac 均有）： - 以聊天列表或网格形式显示历史对话（带文字预览）。 - 支持置顶聊天、搜索历史记录、保存旧对话、新建聊天。 - 界面类似「信息」App：对话气泡、文字输入框、语音切换按钮、可上传照片/文档进行分析。 - 根据使用习惯提供建议提示，支持浅色/深色模式。 - 全新视觉界面： - 取代 iOS 18 的发光边缘设计。 - Siri 出现在 Dynamic Island 中，显示“Search or Ask”提示。 - 处理时出现药丸形“Searching”指示器，带有发光的 Siri 图标。 - 展开后为半透明面板，采用苹果新的 Liquid Glass（液态玻璃） 设计。 - 可向下拉动查看完整对话记录。 - “Ask Siri”按钮/开关： - 在系统菜单中新增，可选中文字或内容后直接发送给 Siri 进行分析或操作。 - 类似 ChatGPT App 的集成方式。 - “Write with Siri”： - 出现在键盘顶部，快速调用 Writing Tools（文字生成/编辑功能），解决之前难以找到的问题。 新增能力 - 对话式 AI：..."
+    },
+    {
+      "source_id": "x-chuhaiqu-0e03768e6ed4",
+      "source_role": "primary",
+      "canonical_url": "https://x.com/chuhaiqu/status/2036704393475837965",
+      "title": "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。",
+      "fact_anchors": [
+        "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，...",
+        "Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，...",
+        "Natia",
+        "App",
+        "Astro",
+        "Sensor Tower",
+        "RevenueCat",
+        "Natia Kurdadze"
+      ],
+      "full_text_excerpt": "Post title: Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Post summary: Natia 从找细分市场 iOS App 需求到构建出来的流程 简单来说就这样： Astro 扫市场趋势，钻子品类，扒竞品关键词，找竞争低的缝隙。Sensor Tower 验证能不能赚钱，看下载量、收入预估、用户抱怨。 验证完后就用 superappp .com 无代码构建产品（随便选你熟悉的 ai coding 工具），RevenueCat 接订阅，几天时间从想法到上线。 Natia Kurdadze (@natiakourdadze) x.com/i/article/203506810626… — https://nitter.net/natiakourdadze/status/2035070021932658721#m Canonical URL: https://x.com/chuhaiqu/status/2036704393475837965"
+    },
+    {
+      "source_id": "x-op7418-b9e09e039182",
+      "source_role": "supporting",
+      "canonical_url": "https://x.com/op7418/status/2036260385490346133",
+      "title": "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+      "fact_anchors": [
+        "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。",
+        "Claude Code 和 CodeX 远程连接到飞书 IM 的插件 Claude-to-IM-Skills 更新了！ 将你的 Claude Code 和 CodeX 远程连接到微信！ 而且配置方式极其简单：它会自动打开一个网页，你扫码就行。 歸藏(guizang.ai) (@op7418) x.com/i/article/202956285551…...",
+        "Claude Code",
+        "CodeX",
+        "IM",
+        "Claude"
+      ]
+    }
+  ],
+  "framework_context": {
+    "selected_framework": {
+      "framework_id": "06_checklist_template",
+      "framework_label": "能力交付型技术分享",
+      "submode_id": "workflow_architecture"
+    },
+    "framework_spec_slim": {
+      "intent": {
+        "definition": "把一个复杂能力、工具、Skill、系统、流程或方法，压缩成读者能够理解、能够照做、能够迁移的执行路径。",
+        "core_value": "让读者知道为什么值得用、怎么开始或怎么增强、以及真正落地时要注意什么，从而显著降低试错成本。",
+        "core_tasks": [
+          "把复杂能力翻译成具体收益",
+          "把抽象方法压缩成可执行步骤或结构",
+          "替读者降低试错成本"
+        ]
+      },
+      "structure": {
+        "hidden_skeleton": [
+          "Hook",
+          "Why it matters",
+          "How to get/use/build it",
+          "Proof / Validation",
+          "Boundary / Close"
+        ],
+        "visible_template_bans": [
+          "不得把稳定段落流直接输出成固定小标题目录",
+          "不得每篇都使用首先/其次/最后的机械展开",
+          "不得把 Why、How、Proof 写成教科书式平铺段落",
+          "不得只满足结构，不保留样本里的语感和节奏",
+          "不得让每篇看起来像同一个模板换词"
+        ],
+        "allowed_surface_moves": [
+          "合并相邻功能段",
+          "调整局部顺序",
+          "省略弱功能段",
+          "用场景、对话、案例、反问、清单、FAQ 承载功能段",
+          "把一个功能段拆散到不同自然段中",
+          "先讲结果再补原理，或先讲场景再补步骤"
+        ],
+        "forbidden_surface_moves": [
+          "把隐式骨架翻成外显模板",
+          "所有文章都变成标准说明书",
+          "所有文章都变成固定编号教程",
+          "只保留结构，不保留样本语感",
+          "用过度均匀的段落长度制造假整齐感"
+        ],
+        "parameter_axes": [
+          {
+            "axis": "reader_state",
+            "values": [
+              "cold_start",
+              "using_but_blocked",
+              "system_builder",
+              "option_overload"
+            ]
+          },
+          {
+            "axis": "promise_type",
+            "values": [
+              "onboard",
+              "extend",
+              "architect",
+              "curate"
+            ]
+          },
+          {
+            "axis": "proof_mode",
+            "values": [
+              "step_by_step",
+              "before_after",
+              "components_and_roles",
+              "itemized_demo"
+            ]
+          },
+          {
+            "axis": "action_depth",
+            "values": [
+              "single_action",
+              "guided_path",
+              "multi_component_system"
+            ]
+          },
+          {
+            "axis": "close_mode",
+            "values": [
+              "validation",
+              "pitfalls",
+              "boundary_judgment",
+              "selection_advice"
+            ]
+          }
+        ],
+        "submodes": [
+          {
+            "submode_id": "guided_onboarding",
+            "label": "保姆级接入/安装教程",
+            "summary": "把安装、接入、配置、完整攻略类内容压成低门槛、可跟做、能避坑的上手路径。",
+            "use_when": [
+              "目标是把不会变成能开始做",
+              "读者最关心门槛、步骤和是否会踩坑",
+              "source 的主要承诺是跟着做完"
+            ],
+            "avoid_when": [
+              "正文真正重点在系统架构而不是上手路径",
+              "正文重点在给现有系统补能力而不是从零开始",
+              "正文主要价值来自清单筛选而不是步骤指导"
+            ],
+            "source_fit": [
+              "安装、接入、配置、开通、完整攻略、入门路径",
+              "需要准备清单、权限项、材料项、FAQ、风险提醒的内容"
+            ],
+            "source_unfit": [
+              "复杂系统设计拆解",
+              "能力补丁型短文",
+              "listicle 清单文"
+            ],
+            "hidden_flow": [
+              "Hook",
+              "Why this matters now",
+              "Prep / prerequisites",
+              "Step-by-step path",
+              "Validation / tips / FAQ",
+              "Boundary / close"
+            ],
+            "hook_patterns": [
+              "保姆级",
+              "一文讲全",
+              "几分钟搞定",
+              "0基础也能做",
+              "只看这篇就够了"
+            ],
+            "evidence_mix": [
+              "准备清单",
+              "操作步骤",
+              "命令 / 配置项",
+              "权限项 / 材料项",
+              "小技巧 / FAQ / 风险提醒"
+            ],
+            "reasoning_moves": [
+              "先降低门槛，再给步骤",
+              "先给大纲，再展开细节",
+              "多用动作导向句，而不是概念解释句",
+              "结尾补适不适合你或有什么坑"
+            ],
+            "rewrite_formula": "结果承诺 -> 进入门槛很低 -> 准备项 -> 步骤 -> 验证 -> 坑点/边界",
+            "surface_forms": [
+              "大纲",
+              "目录",
+              "步骤",
+              "FAQ",
+              "小技巧",
+              "注意事项"
+            ],
+            "anti_patterns": [
+              "只有步骤，没有告诉读者为什么值得做",
+              "只讲功能，不讲准备项",
+              "步骤太散，没有总览",
+              "全文没有验证/风险/边界提醒"
+            ],
+            "style_profile_id": "06_guided_onboarding_style",
+            "sample_ids": [
+              "2029894874888278198",
+              "2031396119104856437",
+              "2032432901812588603",
+              "2030878769955901844",
+              "2029203445589414147",
+              "2031555224968785990"
+            ]
+          },
+          {
+            "submode_id": "workflow_architecture",
+            "label": "系统设计/工作流架构拆解",
+            "summary": "把多 Agent 协作、系统设计和长期运行机制写成可想象、可模仿、可复用的系统模式。",
+            "use_when": [
+              "source 的主要承诺是理解并搭出一套系统",
+              "正文要解释为什么旧方法不行，以及新架构如何解决",
+              "证据主要是组件、角色、流程和真实运行结果"
+            ],
+            "avoid_when": [
+              "读者主要想跟着做完单个上手路径",
+              "正文重点在装上新能力后的场景收益",
+              "正文只是多个条目的精选清单"
+            ],
+            "source_fit": [
+              "多 Agent 协作",
+              "系统设计",
+              "长时间运行机制",
+              "技术工作流或自治开发系统"
+            ],
+            "source_unfit": [
+              "单点安装教程",
+              "单一 skill 升级说明",
+              "轻量清单分享"
+            ],
+            "hidden_flow": [
+              "Hook / end state",
+              "Current pain or blind spot",
+              "Core principle",
+              "Components / roles / files",
+              "Orchestration flow",
+              "Proof / result",
+              "Pitfalls / safeguards",
+              "Close"
+            ],
+            "hook_patterns": [
+              "我跑通了一套...",
+              "最后一公里 / 最后一环 / 盲点",
+              "5个AI员工",
+              "连续运行 X 小时"
+            ],
+            "evidence_mix": [
+              "角色分工",
+              "文件 / 组件结构",
+              "数据结构 / 命令 / 参数",
+              "工作流示例",
+              "真实项目结果",
+              "失败点或 safeguard"
+            ],
+            "reasoning_moves": [
+              "用系统比喻替代抽象概念",
+              "先讲为什么原来不行，再讲新架构",
+              "组件和流程分开写",
+              "最后用结果或边界回收，不让文章停在抽象层"
+            ],
+            "rewrite_formula": "结果/盲点 -> 为什么旧方法失效 -> 新原则 -> 组件 -> 编排 -> 结果 -> 风险边界",
+            "surface_forms": [
+              "问题定义",
+              "核心原则",
+              "组件说明",
+              "流程演示",
+              "safeguards"
+            ],
+            "anti_patterns": [
+              "只有架构图，没有真实运行结果",
+              "只有组件列表，没有串联流程",
+              "只有结果，没有解释为什么原方案不行",
+              "完全不提风险或 guardrails"
+            ],
+            "style_profile_id": "06_workflow_architecture_style",
+            "sample_ids": [
+              "2030113154739621909",
+              "2030123309594259506",
+              "2033261636195373123",
+              "2031412763902534069"
+            ]
+          },
+          {
+            "submode_id": "capability_extension",
+            "label": "能力扩展/补器官说明",
+            "summary": "给现有系统补一个新能力，不从零教学，而是强调装上之后立刻变强。",
+            "use_when": [
+              "source 的重点是给现有系统补一个新 skill / 模块 / 接口后显著增强现有工具",
+              "读者已经在用基础系统，但遇到了能力瓶颈",
+              "正文强调装前/装后差异而不是从零开始"
+            ],
+            "avoid_when": [
+              "正文更像完整入门教程",
+              "正文更像系统设计复盘",
+              "正文更像清单型筛选"
+            ],
+            "source_fit": [
+              "给现有系统补一个新能力",
+              "装一个新 skill / 模块 / 接口后显著增强现有工具"
+            ],
+            "source_unfit": [
+              "完整攻略",
+              "多角色架构文",
+              "多项精选列表"
+            ],
+            "hidden_flow": [
+              "Current limitation",
+              "Why default state is not enough",
+              "What the extension changes",
+              "Install / integrate",
+              "Before / after payoff",
+              "Close"
+            ],
+            "hook_patterns": [
+              "给 X 装上 Y",
+              "让 X 变成...",
+              "5分钟让你的 X 会做...",
+              "装了之后到底能干什么"
+            ],
+            "evidence_mix": [
+              "场景对话",
+              "装前/装后差异",
+              "新能力列表",
+              "安装指令",
+              "prompt 示例",
+              "自动结果描述"
+            ],
+            "reasoning_moves": [
+              "不先列功能，先写不够用的场景",
+              "用前后差异代替抽象性能描述",
+              "尽量把 skill 的价值翻译成业务动作",
+              "结尾把能力升维成新器官/新大脑/新员工"
+            ],
+            "rewrite_formula": "现有不足 -> 新能力补洞 -> 怎么装 -> 装完能做什么 -> 为什么值",
+            "surface_forms": [
+              "场景痛点",
+              "装前/装后对比",
+              "功能包总结",
+              "能力升级说明"
+            ],
+            "anti_patterns": [
+              "只介绍 skill 名称，不告诉读者它补了什么洞",
+              "只有安装链接，没有装后场景",
+              "能力描述过散，没有前后差异主线"
+            ],
+            "style_profile_id": "06_capability_extension_style",
+            "sample_ids": [
+              "2031965027314647316",
+              "2031552504593526946"
+            ]
+          },
+          {
+            "submode_id": "curated_list",
+            "label": "精选清单/替你筛好",
+            "summary": "多个 skill/tool/repo/prompt 的精选清单，文章价值来自筛选，而不是深入拆一个单点。",
+            "use_when": [
+              "source 的主要承诺是我替你筛好了一组可以直接试的东西",
+              "正文重心在降低决策成本而不是深讲单项",
+              "每个条目都应该附带 demo、安装入口或 repo"
+            ],
+            "avoid_when": [
+              "条目其实很少且单项需要完整教程",
+              "正文重点在单个能力增强",
+              "正文重点在系统架构而不是筛选"
+            ],
+            "source_fit": [
+              "多个 skill / tool / repo / prompt 的精选清单",
+              "读者目标是先拿一组可以试的东西"
+            ],
+            "source_unfit": [
+              "完整入门攻略",
+              "架构拆解",
+              "装前/装后增强说明"
+            ],
+            "hidden_flow": [
+              "Why this list matters",
+              "Item 1..N",
+              "Each item = what it solves + quick demo + action link",
+              "Selection advice / close"
+            ],
+            "hook_patterns": [
+              "N 个",
+              "最后一个最强",
+              "我替你筛好了",
+              "直接拿去用"
+            ],
+            "evidence_mix": [
+              "每项的 demo",
+              "安装指令",
+              "仓库链接",
+              "适用场景"
+            ],
+            "reasoning_moves": [
+              "高密度列举",
+              "每项都能立刻行动",
+              "用悬念词提高看完率",
+              "用你不需要全懂，先试降低心理成本"
+            ],
+            "rewrite_formula": "为什么值得看 -> 按项快速展示 -> 每项都能立刻试 -> 收尾给选择建议",
+            "surface_forms": [
+              "条目化快扫",
+              "每项 demo + 安装入口 + repo",
+              "精选清单"
+            ],
+            "anti_patterns": [
+              "清单里每项都没有行动入口",
+              "清单太长但没有筛选逻辑",
+              "所有条目都只写功能，没有场景"
+            ],
+            "style_profile_id": "06_curated_list_style",
+            "sample_ids": [
+              "2033803842668949834"
+            ]
+          }
+        ]
+      },
+      "style": {
+        "global_style_principles": [
+          "都在替读者压缩决策成本",
+          "都很少从抽象定义开始",
+          "都倾向于先给结果感、场景感或问题感",
+          "都把复杂能力翻成可执行动作",
+          "都保留较强的人说话感，而不是说明书口吻",
+          "必须走 隐式结构层 + 样本语感层，而不是稳定段落流 = 最终文章结构"
+        ],
+        "global_anti_ai_rules": [
+          "避免过于完整均匀的段落长度",
+          "避免每段都像说明书",
+          "避免机械性的总分总",
+          "避免反复出现标准转折词",
+          "避免清单、目录、小标题过度使用",
+          "避免每篇都长得像同一个模板换词",
+          "允许某些功能段合并或由一个案例带过去",
+          "允许先讲结果再补原理，或者先讲场景再补步骤",
+          "必须局部保留样本里的口语感、判断感、提醒感"
+        ],
+        "submode_profiles": [
+          {
+            "style_profile_id": "06_guided_onboarding_style",
+            "submode_id": "guided_onboarding",
+            "tone_core": "像一个熟门熟路的人在带新人上手，不是冷静中立，而是带一点热情、提醒和替读者省事的姿态。",
+            "opening_moves": [
+              "先承诺：保姆级 / 一文讲全 / 几分钟搞定",
+              "先交代背景热度或现实问题",
+              "先说你不用担心门槛",
+              "先给目录、大纲或步骤总览，降低焦虑",
+              "少数样本会用小故事或角色对话把新概念拉近"
+            ],
+            "sentence_rhythm": [
+              "整体偏快",
+              "短句密度高",
+              "感叹和反问明显比其他子模式多",
+              "经常是短句推进 + 小列表插入",
+              "读起来像人边讲边提醒，不像论文"
+            ],
+            "surface_forms": [
+              "大纲",
+              "目录",
+              "步骤",
+              "FAQ",
+              "小技巧",
+              "注意事项",
+              "如果你只想解决问题，直接看这段"
+            ],
+            "language_moves": [
+              "先把门槛压低：完全不会也行、无脑跟着做就行",
+              "主动替读者预判顾虑：贵不贵、麻不麻烦、会不会失败",
+              "喜欢把复杂词翻成生活化说法",
+              "收尾经常补一句边界判断"
+            ],
+            "keep": [
+              "朋友式教学感",
+              "降门槛动作",
+              "步骤前的总览感",
+              "中途提醒和小技巧",
+              "最后的边界判断"
+            ],
+            "avoid": [
+              "所有文章都变成准备 -> 步骤1/2/3 -> 总结",
+              "每篇都用同一套编号标题",
+              "把样本里的口语感洗没"
+            ],
+            "ai_smells": [
+              "把所有步骤平均铺开，变成说明书",
+              "每段都很工整，没有人味提醒",
+              "只写步骤，不写为什么值得做",
+              "结尾没有边界提醒，只剩总结一下"
+            ],
+            "one_sentence_portrait": "像一个已经踩过坑的人，在帮你把第一次上手的心理负担和试错成本一起拿掉。"
+          },
+          {
+            "style_profile_id": "06_workflow_architecture_style",
+            "submode_id": "workflow_architecture",
+            "tone_core": "像工程师在做系统复盘或架构拆解，情绪浓度低于 onboarding，但判断性更强。",
+            "opening_moves": [
+              "先说结论 / 我跑通了一套",
+              "最后一环 / 最后一公里 / 盲点",
+              "先亮结果，再回头讲系统"
+            ],
+            "sentence_rhythm": [
+              "平均句长明显更长",
+              "解释句占比高",
+              "常见短句打痛点 + 长句解释架构",
+              "会出现结构锚点：文件名、角色名、step 名、系统名"
+            ],
+            "surface_forms": [
+              "组件说明",
+              "角色拆分",
+              "工作流 step",
+              "系统原则",
+              "配置片段 / 数据结构示例",
+              "真实运行结果",
+              "safeguard / pitfalls"
+            ],
+            "language_moves": [
+              "先定义问题，不直接堆方案",
+              "把架构讲成人能理解的模型：轮班工人、团队协作、两阶段流程",
+              "组件和流程分开写",
+              "结果段很重要，用来证明不是纸上谈兵"
+            ],
+            "keep": [
+              "明确的问题定义",
+              "核心设计原则",
+              "架构锚点",
+              "运行中的动态感",
+              "最后的 guardrails 或边界判断"
+            ],
+            "avoid": [
+              "用空泛的系统语言替代具体例子",
+              "每篇都写成背景-方案-优势-结论的标准 PPT 腔",
+              "强行把所有组件都列成小标题"
+            ],
+            "ai_smells": [
+              "把架构写成百科条目",
+              "只有组件列表，没有运行中的动态感",
+              "只有这个系统包含 A/B/C，没有为什么这样设计",
+              "没有结果验证，只剩空洞原则"
+            ],
+            "one_sentence_portrait": "像一个真的把系统跑起来的人，在向同类解释它为什么能跑、怎么跑，以及哪里最容易翻车。"
+          },
+          {
+            "style_profile_id": "06_capability_extension_style",
+            "submode_id": "capability_extension",
+            "tone_core": "不是从零教学，而是现有状态不够用，我给你补一块。",
+            "opening_moves": [
+              "你的 X 是否也有这样的困境",
+              "装了之后到底能干什么",
+              "先给读者一组失败场景",
+              "先把旧状态写得不够爽，再提出扩展能力"
+            ],
+            "sentence_rhythm": [
+              "句子最短",
+              "场景切换很频繁",
+              "经常用对话、提问、前后对比推进",
+              "不是长解释，而是痛点一刀刀打进去"
+            ],
+            "surface_forms": [
+              "场景一 / 场景二 / 场景三",
+              "装前 / 装后",
+              "能力列表",
+              "prompt 示例",
+              "安装入口",
+              "收益归纳"
+            ],
+            "language_moves": [
+              "不先讲功能定义，先讲不装时有多难受",
+              "用新大脑 / 新超能力 / 新员工这类能力隐喻升维",
+              "安装动作通常很短，主体重点放在值不值得装",
+              "经常把技术能力翻译成业务动作或日常结果"
+            ],
+            "keep": [
+              "明确的旧状态不足",
+              "装前/装后差异",
+              "技术能力翻译成使用场景",
+              "最后的能力升维句"
+            ],
+            "avoid": [
+              "把全文写成 README 摘要",
+              "一股脑罗列功能点",
+              "场景和安装顺序颠倒，让读者还没觉得值就先去装"
+            ],
+            "ai_smells": [
+              "只剩这个 skill 支持什么功能",
+              "痛点写得像功能缺陷列表，没有真实使用感",
+              "安装动作过长，冲淡了能力增强主线",
+              "结尾只是欢迎使用"
+            ],
+            "one_sentence_portrait": "像在告诉一个已经上手工具的人：你卡住的不是不会用，而是还没给它装上这块关键器官。"
+          },
+          {
+            "style_profile_id": "06_curated_list_style",
+            "submode_id": "curated_list",
+            "tone_core": "作者位置更像 curator，不像老师；重点是我替你筛好了。",
+            "opening_moves": [
+              "先讲为什么现在值得看这个清单",
+              "先给一点个人判断或圈内判断",
+              "很快进入列表，不长篇铺垫"
+            ],
+            "sentence_rhythm": [
+              "最碎、最快",
+              "条目切换快",
+              "段落很短",
+              "高频使用演示一句话 + 安装入口 + 链接组合"
+            ],
+            "surface_forms": [
+              "列表",
+              "demo 句",
+              "repo 链接",
+              "安装指令",
+              "最后一个更强/更有记忆点"
+            ],
+            "language_moves": [
+              "不解释太多原理",
+              "更强调你可以直接试",
+              "一项一项给行动入口",
+              "轻微保留悬念和推荐感"
+            ],
+            "keep": [
+              "低决策成本",
+              "高行动密度",
+              "每项都有入口",
+              "curator 的筛选姿态"
+            ],
+            "avoid": [
+              "把清单写成综述长文",
+              "每项都解释过深",
+              "过度整齐，像数据表格转 prose"
+            ],
+            "ai_smells": [
+              "清单里每一项长度完全一样",
+              "每项都按同样句式机械展开",
+              "只有功能介绍，没有我为什么选它",
+              "悬念写得太假"
+            ],
+            "one_sentence_portrait": "像一个已经试过一圈的人，把真正值得先上手的几样东西捞出来递给你。"
+          }
+        ]
+      },
+      "execution_controls": {
+        "must_keep": [
+          "明确读者收益",
+          "可执行动作",
+          "具体证据支撑",
+          "降低试错成本",
+          "边界提醒或适用范围",
+          "保留目标样本的语气和节奏，而不是只保留结构"
+        ],
+        "must_avoid": [
+          "只剩功能介绍",
+          "只剩抽象评价",
+          "把隐式骨架直接翻译成外显模板",
+          "只满足结构，不保留样本人味",
+          "把技术分享写成说明书"
+        ],
+        "rewrite_failure_modes": [
+          "结构上完整但表面像模板拼装",
+          "语气正确但信息组织散掉",
+          "把 capability_extension 写成纯安装文",
+          "把 workflow_architecture 写成组件列表 without dynamics",
+          "把 guided_onboarding 写成无边界的操作手册",
+          "把 curated_list 写成没有行动入口的榜单"
+        ],
+        "quality_checks": [
+          "是否先交代了读者收益，而不是一上来堆功能点",
+          "是否给出了执行路径，而不是只停留在概念层",
+          "是否使用了具体证据，例如步骤、命令、场景、对比、角色分工、项目结果、仓库链接",
+          "是否降低了读者的不确定性，例如准备清单、步骤总览、FAQ、坑点、边界提醒",
+          "是否保留了相应子模式的语感而不是只保留结构",
+          "是否避免了机械性的总分总和过度整齐的小标题"
+        ],
+        "human_review_triggers": [
+          "source 同时看起来像 06 与 02 或 03，存在跨框架歧义",
+          "router 无法确定该走哪个子模式",
+          "writer 输出后表面模板感强，疑似只学结构没学语感",
+          "curated_list 只有 1-2 个条目，可能不应走清单模式",
+          "sample coverage 与 source 场景距离过大，需要人工确认是否真的属于能力交付型技术分享"
+        ]
+      }
+    },
+    "style_profiles_packet": {
+      "style_profiles_ref": "/home/lyric/growth-engine-pipeline/framework/06_checklist_template/STYLE_PROFILES.md",
+      "overview_section_excerpt": "`06_checklist_template` 的共同风格，不是“像教程文”这么简单，而是： - **都在替读者压缩决策成本** - **都很少从抽象定义开始** - **都倾向于先给结果感、场景感或问题感** - **都把复杂能力翻成可执行动作** - **都保留较强的人说话感，而不是说明书口吻** 从样本上看，真正可迁移的风格不是某一句话，而是这些动作： - 先打读者当下痛点 - 先交作业，再讲原理 - 先让读者觉得“我也能做” - 先替读者完成筛选，再让他行动 - 先把系统讲成人能理解的角色、流程或场景",
+      "submode_section_excerpt": "### 样本依据 - `2030113154739621909` Agent Team - `2030123309594259506` 多 Agent 跨境电商团队 - `2033261636195373123` Self-Improving Skills - `2031412763902534069` Cloudflare PR agents ### 语气核心 - 更像工程师在做系统复盘或架构拆解 - 情绪浓度低于 onboarding，但判断性更强 - 会先讲“原来为什么不行”，再讲“我现在怎么做” - 整体更像在交一份系统设计作业 ### 开头动作 常见是三类： - `先说结论 / 我跑通了一套` - `最后一环 / 最后一公里 / 盲点` - `一个团队一周的活，现在一杯咖啡时间就跑完` 也就是说，开头通常不是“今天分享一个工作流”，而是先亮出结果或盲点。 ### 句子节奏 - 平均句长明显更长 - 解释句占比高 - 常见“短句打痛点 + 长句解释架构” - 会出现结构锚点：文件名、角色名、step 名、系统名 - 整体节奏是“先压问题，再展开系统” ### 常见表层承载形式 - 组件说明 - 角色拆分 - 工作流 step - 系统原则 - 配置片段 / 数据结构示例 - 真实运行结果 - safeguard / pitfalls ### 语言动作 - 先定义问题，不直接堆方案 - 把架构讲成人能理解的模型：轮班工人、团队协作、两阶段流程 - 组件和流程会分开写 - 结果段往往很重要，用来证明不是纸上谈兵 ### 最容易出 AI 味的地方 - 把架构写成百科条目 - 只有组件列表，没有运行中的动态感 - 只有“这个系统包含 A/B/C”，没有“为什么这样设计” - 没有结果验证，只剩空洞原则 ### 改写时应保留 - 明确的问题定义 - 核心设计原则 - 架构锚点 - 运行中的动态感 - 最后的 guardrails 或边界判断 ### 改写时应避免 - 用空泛的系统语言替代具体例子 - 每篇都写成“背景-方案-优势-结论”的标准 PPT 腔 - 强行把所有组件都列成小标题 ### 一句话画像 像一个真的把系统跑起来的人，在向同类解释它为什么能跑、怎么跑，以及哪里最容易翻车。 ---"
+    },
+    "sample_moves_layer_packet": {
+      "sample_moves_layer_ref": "/home/lyric/growth-engine-pipeline/framework/06_checklist_template/SAMPLE_MOVES_LAYER.json",
+      "opening_hook_moves": [
+        "开头直接给出“连续运行 10 小时以上、全自动处理复杂全栈开发”的结果。",
+        "标题和目录先共同制造“这篇讲全了”的心理预期。",
+        "用“是否也有这样的困境”直接把读者带进使用失败场景。",
+        "“5个AI员工，跑通全平台矩阵”把抽象架构翻译成业务组织。",
+        "用“保姆级”“免费用 Claude”同时抓住难度和成本两个敏感点。",
+        "“安装 + 接入 QQ + 保姆级”把最终可见结果和低门槛一起打出来。",
+        "指出“永续系统”真正还没被解决的一环是 Skills 本身。",
+        "“几分钟搞定手机养龙虾”把时间成本和结果体验绑在一起。",
+        "标题直接把价格和替代方案对冲。",
+        "用“SQL 搜索上线后被投诉”让技术概念立刻变具体。"
+      ],
+      "mid_transition_moves": [
+        "Hook：先给结果，直接抬高读者预期。",
+        "Pain：指出 AI 编程“太粘人”“会失忆”的具体痛点。",
+        "Architecture：提出“不要让 AI 记在脑子里，要让它记在文件里”。",
+        "Components：逐个解释工单、交接日志、系统入口、启动脚本和自动循环脚本。",
+        "Team：从单 Agent 升级为多角色协作。",
+        "Proof：用 TKCreator 的开发/测试/部署结果收尾。",
+        "结论先行 -> 旧方案为什么失效 -> 2.0 架构约束 -> 关键文件和循环脚本 -> 3.0 Agent Team 分工 -> 真实部署与验收结果。",
+        "给 AI 加上“外骨骼”和团队协作机制，让本地模型也能长时间连续开发、测试和修 Bug。",
+        "Hook：用“2026 + 一文讲全”建立完整性承诺。",
+        "Context：解释为什么香港账户有价值。",
+        "Policy：先交代政策变化，避免后文建议脱离现实。",
+        "Checklist：材料准备拆成线上/线下和必备/补充。"
+      ],
+      "closing_carry_moves": [
+        "先打“AI 编程最后一公里”痛点，再给架构原则；用“文件即记忆”的核心规则统一后续组件；用真实项目验收证明方法有效。",
+        "用真实工程痛点开局，把抽象工作流拆成可照抄的文件、脚本和角色协作，再用实战结果收口。",
+        "目录先行；先讲“为什么值得做”，再讲“怎么做”；对比和流程并行；最后补风险提示。",
+        "Risk：最后提醒政策变化与风控边界。",
+        "目录预告 -> 为什么值得做 -> 最新政策 -> 材料清单 -> 银行对比 -> 开户流程 -> 转账与汇率 -> 应用场景 -> FAQ -> 风险提醒。",
+        "先以失败场景代替功能清单；强调装前/装后差异；安装部分尽量压缩到一步；结尾用“能力包”归纳。",
+        "Close：把能力总结为“超能力”，强化记忆点。",
+        "用“AI 员工”代替抽象 agent；用单一任务贯通全链路；配置教程后置；最后单列坑点。"
+      ],
+      "evidence_combo_units": [
+        "亲身实战、关键文件结构、命令参数、角色分工、测试结果。",
+        "实际开户经历、政策信息、材料清单、银行对比、场景映射。",
+        "场景对话、前后对比、安装指令、功能结果。",
+        "角色分工、案例链路、飞书配置细节、常见坑。",
+        "个人体验、快捷键、功能列表、试用信息、资源入口。",
+        "安装步骤、命令、接入场景、卸载命令、使用判断。",
+        "自身长期使用场景、版本号、失败教训、伪数据结构、优化例子。",
+        "步骤清单、权限说明、命令示例、使用 tips。",
+        "内部 use case、具体 stack、执行流程、安全设计、UX 模式。",
+        "业务故事、概念解释、阶段学习法、基础操作。"
+      ],
+      "language_action_moves": [
+        "结论先行、工程比喻、组件清单、强行动词、阶段升级叙事。",
+        "目录化、保姆级、替读者做决策、场景分层、提醒式收尾。",
+        "场景提问、能力命名、夸张但具体的效率承诺、结尾升维。",
+        "拟人化、业务场景化、问题驱动 FAQ、强演示感。",
+        "朋友式教学、门槛感知强、分步清晰、带一点夸张语气。",
+        "门槛极低的承诺、连续否定句降压、朋友式提醒、最后反 hype。",
+        "框架命名、步骤化、每步都有“目标/实现/错误”、最后升维总结。",
+        "无脑跟做、短步骤、实用型 tips、教程结束后再强化收益。",
+        "强对比开头、命名清楚、两阶段结构、英文工程写作里的 takeaway bullet。",
+        "角色扮演、对话式教学、把概念翻成人话、鼓励实践。"
+      ],
+      "forbidden_rewrite_parts": [
+        "TKCreator 项目背景、具体模型选择、截图、个人部署环境。",
+        "香港银行政策细节、具体费用、个人开户数量和经历。",
+        "OpenClaw、具体仓库链接、具体引擎组合。",
+        "跨境电商业务场景、具体 role 命名、飞书权限细节。",
+        "Copilot 试用政策、学生免费、特定快捷键和项目推荐。",
+        "QQ 渠道、OpenClaw 安装细节、作者个人判断。",
+        "作者使用的具体 skill 数量、个人写作风格 skill 版本、相关链接。",
+        "飞书权限项、具体 slash 命令、OpenClaw 中文网导流。",
+        "Cloudflare 生态、Amplitude 场景、Bugbot Autofix 对照、具体工具名。",
+        "鱼皮和角色故事、ES 本身的底层特性。"
+      ],
+      "sample_cards_for_submode": [
+        {
+          "sample_id": "2030113154739621909",
+          "title": "7*24小时全栈开发的性价比黑奴：Agent Team",
+          "hook_move": "",
+          "proof_mode": [],
+          "reusable_parts": [
+            "先",
+            "打",
+            "“",
+            "A",
+            "I"
+          ],
+          "style_cue": ""
+        },
+        {
+          "sample_id": "2030878769955901844",
+          "title": "一文讲全：2026香港银行卡开户、转账、投资完整攻略",
+          "hook_move": "",
+          "proof_mode": [],
+          "reusable_parts": [
+            "目",
+            "录",
+            "先",
+            "行",
+            "；"
+          ],
+          "style_cue": ""
+        },
+        {
+          "sample_id": "2031965027314647316",
+          "title": "给你的 OpenClaw 装上\"搜索大脑\"！四引擎并行让信息检索超人一等",
+          "hook_move": "",
+          "proof_mode": [],
+          "reusable_parts": [
+            "先",
+            "以",
+            "失",
+            "败",
+            "场"
+          ],
+          "style_cue": ""
+        },
+        {
+          "sample_id": "2030123309594259506",
+          "title": "用OpenClaw搭跨境电商团队：5个AI员工，跑通全平台矩阵！",
+          "hook_move": "",
+          "proof_mode": [],
+          "reusable_parts": [
+            "用",
+            "“",
+            "A",
+            "I",
+            "员"
+          ],
+          "style_cue": ""
+        }
+      ]
+    }
+  }
+}

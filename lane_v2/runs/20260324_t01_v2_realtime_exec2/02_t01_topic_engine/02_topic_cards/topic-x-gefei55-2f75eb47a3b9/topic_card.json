@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-gefei55-2f75eb47a3b9",
+  "event_seed_signal_id": "x-gefei55-2f75eb47a3b9",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "所有这些，都是哥飞学员作品。 虽然说做套壳站有一些道德风险，但是你不做我不做，老外也会做，还不如我们去做，多赚点美元回来改善生活。 他们的 SEO 技巧都来自于哥飞教授，但并不意味着哥飞的 SEO 技巧只能做套壳站，其实很多 AI 相关的需求词，都被我们占领了，而且我们还在占领更多的词。",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 32.46,
+  "heat_breakdown": {
+    "volume_score": 30.6,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "seo",
+  "cluster_signal_ids": [
+    "x-gefei55-2f75eb47a3b9"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/gefei55/status/2034451658894360898",
+    "published_at": "2026-03-19T02:07:28Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 7
+  }
+}

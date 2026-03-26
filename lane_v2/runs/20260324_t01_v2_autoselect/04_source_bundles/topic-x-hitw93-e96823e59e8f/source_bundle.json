@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-hitw93-e96823e59e8f",
+  "lane_id": "T01_release_decode",
+  "framework_id": "02_launch_application",
+  "submode_id": "release_showcase",
+  "composition_mode": "mixed",
+  "primary_sources": [
+    {
+      "signal_id": "x-hitw93-e96823e59e8f",
+      "source_family": "article_x",
+      "canonical_url": "https://x.com/HiTw93/status/2035114867611578797",
+      "title": "第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。",
+      "published_at": "2026-03-20T22:02:49Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/article_x_ingest/03_source_items/article_x/items/x-hitw93-e96823e59e8f/source_item.json"
+    },
+    {
+      "signal_id": "x-openaidevs-747a2f2f6cd3",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAIDevs/status/2035437297005727963",
+      "title": "Pinned: Agent workflows got even faster. You can spin up containers for skills, shell and code interpreter about 10x faster. We added a container pool to the Responses API, so requests can reuse warm infrastructure instead of creating a full container creation each session. https://developers.openai.com/api/docs/guides/tools-shell#hosted-shell-quickstart",
+      "published_at": "2026-03-21T19:24:02Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-openaidevs-747a2f2f6cd3/source_item.json"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "signal_id": "x-openai-8f6ed0f162e6",
+      "source_family": "official_x",
+      "canonical_url": "https://x.com/OpenAI/status/2033953592424731072",
+      "title": "GPT-5.4 mini is available today in ChatGPT, Codex, and the API. Optimized for coding, computer use, multimodal understanding, and subagents. And it’s 2x faster than GPT-5 mini. https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+      "published_at": "2026-03-17T17:08:20Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/official_x_ingest/03_source_items/official_x/items/x-openai-8f6ed0f162e6/source_item.json"
+    },
+    {
+      "signal_id": "x-idoubicc-4d7afa04343a",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/idoubicc/status/2035640070854566281",
+      "title": "WorkAny Bot 已支持微信接入👇 1. 电脑浏览器访问 http://workany.bot ，按步骤点两次 Next，选择一个 Deploy 方案 2. 付费后开始部署你的 OpenClaw，等几分钟部署成功 3. 在 Bot 管理页面添加 WeChat 接入渠道 4. 微信扫码登录 5. 在微信 ClawBot 与云端的 OpenClaw 对话 ------ 无需技术知识，无需配置模型，开箱即用，体验非常丝滑。👇 https://workany.bot?utm_source=x",
+      "published_at": "2026-03-22T08:49:47Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-idoubicc-4d7afa04343a/source_item.json"
+    },
+    {
+      "signal_id": "x-alphasignalai-b650ec960edf",
+      "source_family": "post_x",
+      "canonical_url": "https://x.com/AlphaSignalAI/status/2034963567590474185",
+      "title": "ByteDance just gave each agent its own computer. DeerFlow is a new open-source agent framework. It orchestrates multiple AI agents with memory, sandboxes, and modular skills. > Researches, codes, and builds websites > Runs bash commands inside Docker > Spawns parallel sub-agents per task > Remembers you across sessions One prompt triggers a chain. A lead agent breaks the task. Sub-agents run in parallel. Results merge. You get a complete deliverable. Skills load only when needed, keeping context windows lean. Until now, multi-agent systems either shared one messy context or required brittle orchestration code. DeerFlow treats agents like workers: isolated, specialized, and reporting back structured results to a lead agent that synthesizes everything. It works with GPT-4, Claude, Gemini, DeepSeek, or any OpenAI-compatible API. MIT license. 100% open-source.",
+      "published_at": "2026-03-20T12:01:36Z",
+      "source_item_path": "/home/lyric/growth-engine-pipeline/content/runs/20260324_topiclane_fullflow_v1/post_x_ingest/03_source_items/post_x/items/x-alphasignalai-b650ec960edf/source_item.json"
+    }
+  ],
+  "fact_anchors": [
+    {
+      "claim": "第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。",
+      "source_url": "https://x.com/HiTw93/status/2035114867611578797",
+      "signal_id": "x-hitw93-e96823e59e8f"
+    },
+    {
+      "claim": "第二篇你不知道的 Ai 系列，文章太长不读总结，来不及看长文小伙伴看这个就好，但还是建议收藏后有空读全文。 1. Agent 核心是感知-决策-行动-反馈的稳定循环，控制流基本不变，新能力主要通过工具扩展、提示结构调整和状态外化实现 。 2. Harness（验收基线、执行边界、反馈信号、回退手段）比模型本身更决定系统能否收敛，高质量自动化验证和清晰目标缺一不可 。 3. 上下文工程重点防 Context Rot，通过分层（常驻/按需/运行时/记忆）、压缩（滑动窗口/LLM摘要/工具结果替换）和 Skills 延迟加载保持信号质量。 4. 工具设计应遵循 ACI 原则：面向 Agent 目标而非 API、明确使用边界、参数防错、支持示例，调试时优先检查工具描述而非模型能力 。 5. 记忆分层为工作记忆、程序性记忆、情景记忆、语义记忆，MEMORY + 按需检索 + 可回退整合是跨会话一致性的关键。 Tw93 (@HiTw93) x.com/i/article/203425351169… — https://nitter.net/HiTw93/status/2034627967926825175#m",
+      "source_url": "https://x.com/HiTw93/status/2035114867611578797",
+      "signal_id": "x-hitw93-e96823e59e8f"
+    }
+  ],
+  "forbidden_claims": [
+    "No unsupported percentage claims about performance or cost change.",
+    "No unsupported claim that this release fully replaces existing workflows.",
+    "No unsupported claim that all teams should adopt immediately."
+  ],
+  "coverage_checks": {
+    "has_release_action": false,
+    "has_delta_detail": true,
+    "has_user_impact": false,
+    "has_limit_or_risk": false
+  },
+  "coverage_core_ok": false,
+  "validity_gate": false,
+  "quality_tier": "REJECT",
+  "requirement_checks": {
+    "primary_sources_min_ok": true,
+    "supporting_sources_min_ok": true,
+    "fact_anchors_min_ok": false,
+    "official_primary_required_ok": true
+  },
+  "ready_for_writer": false
+}

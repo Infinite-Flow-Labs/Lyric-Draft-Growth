@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "topic_id": "topic-x-guishou_56-03dd499bca85",
+  "event_seed_signal_id": "x-guishou_56-03dd499bca85",
+  "event_seed_source_family": "article_x",
+  "topic_statement": "一个模型词就是一波财务自由的机会，所有能预判到的模型，都被至少提前半年埋伏了，今年的套壳大军太疯狂了",
+  "why_now": "Clustered 1 recent signals across 1 source families with verifiable anchors.",
+  "topic_priority": 31.9,
+  "heat_breakdown": {
+    "volume_score": 29.0,
+    "velocity_score": 10.0,
+    "cross_source_resonance_score": 50.0,
+    "novelty_score": 45.0
+  },
+  "cluster_signature": "will",
+  "cluster_signal_ids": [
+    "x-guishou_56-03dd499bca85"
+  ],
+  "source_families": [
+    "article_x"
+  ],
+  "candidate_lanes": [
+    "T01_release_decode",
+    "T02_signal_decode",
+    "T03_money_proof",
+    "T04_failure_reversal",
+    "T05_benchmark",
+    "T06_capability_delivery",
+    "T07_contrarian_take",
+    "T08_signal_to_action"
+  ],
+  "eligible_for_write": false,
+  "signal_snapshot": {
+    "canonical_url": "https://x.com/guishou_56/status/2034564251353055314",
+    "published_at": "2026-03-19T09:34:52Z",
+    "release_signals_count": 0,
+    "fact_candidates_count": 5
+  }
+}
