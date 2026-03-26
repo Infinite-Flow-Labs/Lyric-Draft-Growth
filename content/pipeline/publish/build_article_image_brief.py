@@ -678,6 +678,110 @@ def apply_style_bridge(payload: dict[str, Any], style_bridge: dict[str, Any]) ->
     return payload
 
 
+DEFAULT_STYLE_PROFILES_PATH = ROOT / "content/pipeline/configs/IMAGE_STYLE_PROFILES.json"
+
+
+def choose_style_profile(
+    article_payload: dict[str, Any],
+    profiles_path: Path | None = None,
+) -> dict[str, Any]:
+    """Auto-select image style profile based on lane_id and content signals."""
+    profiles_data = load_optional_json(profiles_path or DEFAULT_STYLE_PROFILES_PATH)
+    if not profiles_data or not profiles_data.get("profiles"):
+        return {}
+
+    profiles = profiles_data["profiles"]
+    fallback_id = profiles_data.get("fallback_profile", "editorial_warm")
+
+    # Extract lane_id from article
+    lane_id = clean_text(article_payload.get("lane_id", ""))
+    if not lane_id:
+        # Try framework_id → lane mapping
+        framework_id = clean_text(article_payload.get("framework_id", ""))
+        lane_map = {
+            "01_money_proof": "T03_money_proof",
+            "02_launch_application": "T01_release_decode",
+            "03_opinion_decode": "T02_signal_decode",
+            "04_failure_reversal": "T04_failure_reversal",
+            "05_ab_benchmark": "T05_benchmark",
+            "06_checklist_template": "T06_capability_delivery",
+            "07_contrarian_take": "T07_contrarian_take",
+            "08_signal_to_action": "T08_signal_to_action",
+        }
+        lane_id = lane_map.get(framework_id, "")
+
+    # Collect article text for signal matching
+    title = clean_text(article_payload.get("title", ""))
+    dek = clean_text(article_payload.get("dek", ""))
+    body = clean_text(article_payload.get("body_markdown", ""))
+    haystack = f"{title} {dek} {body[:500]}".lower()
+
+    # Score each profile
+    best_id = fallback_id
+    best_score = 0
+    for profile_id, profile in profiles.items():
+        score = 0
+        # Lane match (strong signal)
+        for preferred_lane in profile.get("best_for_lanes", []):
+            if lane_id == preferred_lane:
+                score += 10
+        # Content keyword match (weaker signal)
+        for keyword in profile.get("best_for_signals", []):
+            if keyword.lower() in haystack:
+                score += 2
+        if score > best_score:
+            best_score = score
+            best_id = profile_id
+
+    selected = profiles.get(best_id, profiles.get(fallback_id, {}))
+    selected["_profile_id"] = best_id
+    selected["_match_score"] = best_score
+    return selected
+
+
+def apply_style_profile_to_bridge(
+    style_bridge: dict[str, Any],
+    profile: dict[str, Any],
+) -> dict[str, Any]:
+    """Inject selected style profile's palette and prompt_seed into the style bridge."""
+    if not profile:
+        return style_bridge
+    bridge = copy.deepcopy(style_bridge)
+
+    # Override global style direction
+    global_section = bridge.get("global", {})
+    profile_style = clean_text(profile.get("global_style", ""))
+    if profile_style:
+        global_section["style_direction_add"] = profile_style
+    bridge["global"] = global_section
+
+    # Override palette in cover default
+    palette = profile.get("palette", {})
+    if palette:
+        cover_default = bridge.get("cover", {}).get("default", {})
+        palette_lines = []
+        if palette.get("background"):
+            palette_lines.append(f"Background: {palette['background']}.")
+        if palette.get("primary_accent"):
+            palette_lines.append(f"Primary accent: {palette['primary_accent']}.")
+        if palette.get("secondary_accent"):
+            palette_lines.append(f"Secondary accent: {palette['secondary_accent']}.")
+        if palette.get("linework"):
+            palette_lines.append(f"Linework: {palette['linework']}.")
+        cover_default["visual_constraints_add"] = palette_lines + list(cover_default.get("visual_constraints_add") or [])
+        bridge.setdefault("cover", {})["default"] = cover_default
+
+    # Override prompt seed
+    prompt_seed = clean_text(profile.get("prompt_seed", ""))
+    if prompt_seed:
+        cover_default = bridge.get("cover", {}).get("default", {})
+        cover_default["prompt_seed_lines"] = [prompt_seed] + list(cover_default.get("prompt_seed_lines") or [])[:2]
+        bridge.setdefault("cover", {})["default"] = cover_default
+
+    bridge["_selected_style_profile"] = profile.get("_profile_id", "unknown")
+    return bridge
+
+
 def build_payload(
     article_path: Path,
     template_path: Path,
@@ -705,7 +809,13 @@ def build_payload(
         for index, section in enumerate(inline_sections)
     ]
 
+    # Auto-select style profile based on content, then apply to bridge
     bridge = load_optional_json(style_bridge_path or DEFAULT_STYLE_BRIDGE_PATH)
+    style_profile = choose_style_profile(article_payload)
+    if style_profile:
+        bridge = apply_style_profile_to_bridge(bridge, style_profile)
+        payload["_style_profile"] = style_profile.get("_profile_id", "unknown")
+
     return apply_style_bridge(payload, bridge)
 
 

@@ -1,0 +1,76 @@
+{
+  "version": "2.0",
+  "profiles": {
+    "editorial_warm": {
+      "label": "暖色手绘信息图",
+      "description": "Hand-drawn editorial infographic with warm palette. Best for: product launches, how-to guides, adoption paths.",
+      "best_for_lanes": ["T01_release_decode", "T06_capability_delivery"],
+      "best_for_signals": ["发布", "上线", "推出", "工作流", "步骤", "教程", "使用"],
+      "global_style": "Use baoyu-cover-image + baoyu-article-illustrator editorial-infographic style. Hand-drawn organic line quality with controlled imperfection.",
+      "palette": {
+        "background": "warm off-white (#faf8f5)",
+        "primary_accent": "warm coral (#e8734a)",
+        "secondary_accent": "teal (#4a9e8e)",
+        "linework": "charcoal (#3a3a3a)"
+      },
+      "prompt_seed": "Apply editorial-infographic with conceptual composition. Warm palette: cream base, coral accent, teal structure."
+    },
+    "tech_blueprint": {
+      "label": "科技蓝图",
+      "description": "Clean tech blueprint with cool palette and precise lines. Best for: architecture, system design, technical deep-dives.",
+      "best_for_lanes": ["T06_capability_delivery", "T08_signal_to_action"],
+      "best_for_signals": ["架构", "系统", "API", "模型", "agent", "部署", "基础设施", "技术"],
+      "global_style": "Technical blueprint style with precise geometry, grid alignment, and engineering clarity. No hand-drawn wobble.",
+      "palette": {
+        "background": "dark slate (#1a1f2e)",
+        "primary_accent": "electric blue (#4a90d9)",
+        "secondary_accent": "cyan (#5ecece)",
+        "linework": "light gray (#c0c8d4)"
+      },
+      "prompt_seed": "Apply tech-blueprint preset: dark background, precise lines, neon-accent nodes, engineering diagram clarity."
+    },
+    "data_dashboard": {
+      "label": "数据仪表盘",
+      "description": "Clean data visualization with charts and metrics. Best for: benchmarks, comparisons, ROI proof.",
+      "best_for_lanes": ["T05_benchmark", "T03_money_proof"],
+      "best_for_signals": ["对比", "数据", "排名", "性能", "跑分", "benchmark", "价格", "成本", "ROI"],
+      "global_style": "Data-driven dashboard style with clean charts, metric cards, and comparison grids. Prioritize readability of numbers.",
+      "palette": {
+        "background": "clean white (#ffffff)",
+        "primary_accent": "deep blue (#2d5bba)",
+        "secondary_accent": "success green (#34a853)",
+        "linework": "medium gray (#5f6368)"
+      },
+      "prompt_seed": "Apply data-dashboard preset: white background, clean chart lines, metric cards with large numbers, comparison grids."
+    },
+    "bold_editorial": {
+      "label": "锐评海报",
+      "description": "Typography-driven bold editorial poster. Best for: opinion pieces, contrarian takes, signal decode.",
+      "best_for_lanes": ["T07_contrarian_take", "T02_signal_decode"],
+      "best_for_signals": ["观点", "判断", "误解", "真相", "逆向", "被忽略", "问题", "陷阱", "风险"],
+      "global_style": "Bold editorial poster style with strong typography, high contrast, and minimal illustration. The text IS the visual.",
+      "palette": {
+        "background": "off-black (#1c1c1c)",
+        "primary_accent": "warning amber (#f5a623)",
+        "secondary_accent": "pure white (#ffffff)",
+        "linework": "sharp white (#ffffff)"
+      },
+      "prompt_seed": "Apply bold-editorial preset: dark background, oversized Chinese typography as hero element, minimal icons, high contrast amber accent."
+    },
+    "case_study": {
+      "label": "案例拆解",
+      "description": "Structured case study layout with before/after and evidence cards. Best for: failure analysis, success stories, pivots.",
+      "best_for_lanes": ["T04_failure_reversal", "T03_money_proof"],
+      "best_for_signals": ["案例", "复盘", "失败", "逆转", "教训", "从", "到", "之前", "之后"],
+      "global_style": "Case study card layout with clear before/after structure, evidence markers, and narrative progression. Documentary feel.",
+      "palette": {
+        "background": "warm gray (#f0ece6)",
+        "primary_accent": "deep red (#c0392b)",
+        "secondary_accent": "forest green (#27ae60)",
+        "linework": "dark brown (#4a3728)"
+      },
+      "prompt_seed": "Apply case-study preset: warm gray background, before/after split, evidence cards with red/green markers, documentary tone."
+    }
+  },
+  "fallback_profile": "editorial_warm"
+}
