@@ -252,33 +252,77 @@ if [ "$SKIP_PUBLISH" = false ]; then
         SLOT_DIR="runtime/accounts/${ACCOUNT}/publish_queue/${DATE}/$(printf '%02d' $SLOT_NUM)"
         mkdir -p "$SLOT_DIR"
 
-        # Copy article + images to slot
+        # Build publish slot: article + images + publish_spec with section-aware image placement
         python3 -c "
-import json, shutil
+import json, shutil, sys
 from pathlib import Path
+sys.path.insert(0, '.')
+from pipeline.writer.formatter import build_article_blocks, build_publishing_hints, sanitize_article_blocks
 
 article = json.load(open('$article_json'))
 slot = Path('$SLOT_DIR')
 topic_dir = Path('$topic_dir')
 
-# Title
+# Title + article md
 (slot / 'title.txt').write_text(article['title'])
-
-# Article md
 body = article.get('body_markdown', '')
 md = f\"# {article['title']}\n\n> {article.get('dek','')}\n\n{body}\"
 (slot / 'article.md').write_text(md)
 
-# Copy images if they exist
+# Copy images
 assets = topic_dir / 'image_assets'
+inline_paths = []
 if assets.exists():
     cover = assets / 'cover_01/result_1.png'
     if cover.exists():
         shutil.copy2(cover, slot / 'cover.png')
-    for i, inline in enumerate(sorted(assets.glob('inline_*/result_1.png')), 1):
-        shutil.copy2(inline, slot / f'inline_{i:02d}.png')
+    for i, img in enumerate(sorted(assets.glob('inline_*/result_1.png')), 1):
+        dest = slot / f'inline_{i:02d}.png'
+        shutil.copy2(img, dest)
+        inline_paths.append(str(dest.resolve()))
 
-print(f'  Slot {$SLOT_NUM}: {topic_id} → {slot}')
+# Build article_blocks
+source_item = {'canonical_url': '', 'author': {}, 'source_assets': [], 'platform': 'x', 'source_kind': 'article'}
+hints = build_publishing_hints(source_item, article.get('publishing_hints'))
+blocks = build_article_blocks(title=article['title'], dek=article['dek'], body_markdown=body, publishing_hints=hints)
+sanitized = sanitize_article_blocks(blocks, keep_hero_first=False)
+
+# Find section end positions: insert image after each section's last content block
+section_ends = []
+current_end = 0
+for i, b in enumerate(sanitized, 1):
+    if b.get('type') == 'section_heading' and current_end > 0:
+        section_ends.append(current_end)
+    if b.get('type') in ('paragraph', 'bullet_list', 'quote'):
+        current_end = i
+# Last section ends at the last content block (but skip the very last block to not put image at article end)
+if current_end > 0 and len(section_ends) < len(inline_paths):
+    section_ends.append(current_end)
+
+# Build inline_image_insertions: one image per section end
+insertions = []
+for idx, img_path in enumerate(inline_paths):
+    if idx < len(section_ends):
+        after = section_ends[idx]
+    else:
+        break  # more images than sections — skip extras
+    insertions.append({
+        'image_id': f'inline_{idx+1:02d}',
+        'image_path': img_path,
+        'after_block_ordinal': after,
+    })
+
+# Build publish spec
+spec = {
+    'publish_contract_version': 'article_publish_contract_v2',
+    'title': article['title'],
+    'dek': article['dek'],
+    'article_blocks': sanitized,
+    'inline_image_insertions': insertions,
+}
+(slot / 'article_publish_spec.json').write_text(json.dumps(spec, ensure_ascii=False, indent=2))
+
+print(f'  Slot {$SLOT_NUM}: {len(sanitized)} blocks, {len(insertions)} images at section ends')
 "
         SLOT_NUM=$((SLOT_NUM + 1))
     done
